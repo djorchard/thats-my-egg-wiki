@@ -2,7 +2,7 @@
   "creatures": [
     {
       "status": "Least Concern",
-      "height": 7.0,
+      "height": 21.0,
       "weight": 24.0,
       "eggHeight": 3.0,
       "eggWeight": 4.0,
@@ -17,12 +17,12 @@
       "egg": "labraduck.png",
       "review": {
         "revision": 2,
-        "danielApproved": false,
+        "danielApproved": true,
         "codexApproved": false,
-        "note": "Previously approved by Daniel on 25 October 2026. Stronger stride-linked wing motion was then requested; the updated walking animation awaits Daniel review."
+        "note": "Daniel confirmed Labraduck and its updated walking animation as reviewed on 25 October 2026."
       },
       "earnings": {
-        "amount": 100,
+        "amount": 10,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -30,7 +30,7 @@
     },
     {
       "status": "Least Concern",
-      "height": 3.6,
+      "height": 10.8,
       "weight": 2.0,
       "eggHeight": 1.7544106429277198,
       "eggWeight": 0.8,
@@ -45,12 +45,12 @@
       "egg": "bumblebun.png",
       "review": {
         "revision": 1,
-        "danielApproved": false,
+        "danielApproved": true,
         "codexApproved": false,
-        "note": "Model appearance and gameplay review pending."
+        "note": "Daniel confirmed Bumblebun as reviewed on 25 October 2026."
       },
       "earnings": {
-        "amount": 110,
+        "amount": 11,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -58,7 +58,7 @@
     },
     {
       "status": "Near Threatened",
-      "height": 2.6,
+      "height": 7.8,
       "weight": 0.8,
       "eggHeight": 1.5,
       "eggWeight": 0.5,
@@ -72,13 +72,13 @@
       "reference": "squeakaboo.png",
       "egg": "squeakaboo.png",
       "review": {
-        "revision": 1,
+        "revision": 2,
         "danielApproved": false,
         "codexApproved": false,
-        "note": "Model appearance and gameplay review pending."
+        "note": "Stronger stride-linked wing-arm motion requested by Daniel on 25 October 2026. Updated in-game animation awaits Daniel review."
       },
       "earnings": {
-        "amount": 130,
+        "amount": 13,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -86,7 +86,7 @@
     },
     {
       "status": "Near Threatened",
-      "height": 2.4,
+      "height": 7.2,
       "weight": 3.0,
       "eggHeight": 2.1633743554611122,
       "eggWeight": 1.5,
@@ -97,24 +97,38 @@
       "region": "backyard",
       "stage": "catalogue",
       "concept": "hamsturtle.png",
-      "reference": "hamsturtle.png",
+      "reference": "hamsturtle-reconstruction-front-v2.png",
       "egg": "hamsturtle.png",
       "review": {
-        "revision": 1,
+        "revision": 2,
         "danielApproved": false,
         "codexApproved": false,
-        "note": "Model appearance and gameplay review pending."
+        "note": "Supplied native API rig installed with reused idle and walk clips, head looks, ear motion and fitted blinking on 25 October 2026. In-game appearance and animation await Daniel review."
       },
       "earnings": {
-        "amount": 140,
+        "amount": 14,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
+      "referenceViews": [
+        {
+          "label": "Front",
+          "file": "hamsturtle-reconstruction-front-v2.png"
+        },
+        {
+          "label": "Left side",
+          "file": "hamsturtle-reconstruction-left-v2.png"
+        },
+        {
+          "label": "Rear",
+          "file": "hamsturtle-reconstruction-rear-v2.png"
+        }
+      ],
       "id": "hamsturtle"
     },
     {
       "status": "Vulnerable",
-      "height": 2.8,
+      "height": 8.4,
       "weight": 3.5,
       "eggHeight": 2.2989282971806593,
       "eggWeight": 1.8,
@@ -129,12 +143,12 @@
       "egg": "snailhog.png",
       "review": {
         "revision": 1,
-        "danielApproved": false,
+        "danielApproved": true,
         "codexApproved": false,
-        "note": "Model appearance and gameplay review pending."
+        "note": "Daniel confirmed Snailhog as reviewed on 25 October 2026."
       },
       "earnings": {
-        "amount": 150,
+        "amount": 15,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -142,7 +156,7 @@
     },
     {
       "status": "Vulnerable",
-      "height": 1.8,
+      "height": 5.4,
       "weight": 1.0,
       "eggHeight": 1.5939878537739167,
       "eggWeight": 0.6,
@@ -162,41 +176,58 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": 160,
+        "amount": 16,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
       "id": "wrigglotl"
     },
     {
-      "status": null,
-      "height": null,
-      "weight": null,
-      "eggHeight": null,
-      "eggWeight": null,
+      "status": "Least Concern",
+      "height": 13.2,
+      "weight": 6.0,
+      "eggHeight": 2.0082988502465087,
+      "eggWeight": 1.2,
+      "parents": "Cockatoo + Poodle",
+      "spawnWeight": 20.0,
+      "description": "A lively curly-coated companion with floppy poodle ears, a sunny yellow cockatoo crest, a curved beak and feathered wings. Its puppy-like body stands on four soft paws, with a fan of feathers for a tail.",
       "name": "Cockapoodle",
       "region": "backyard",
-      "stage": "concept",
-      "parents": "Cockatoo + Poodle",
+      "stage": "catalogue",
       "concept": "cockapoodle.png",
-      "description": "A lively curly-coated companion with floppy poodle ears, a sunny yellow cockatoo crest, a curved beak and feathered wings. Its puppy-like body stands on four soft paws, with a fan of feathers for a tail.",
-      "notes": "Selected for the first area. Its egg, endangered status and measurements have not been designed yet.",
+      "notes": "Rig, egg and gameplay setup added on 25 October 2026. Cockapoodle takes the Backyard slot after Chickitten moved to the Farmland design lineup.",
       "review": {
-        "revision": 1,
+        "revision": 2,
         "danielApproved": false,
         "codexApproved": false,
-        "note": "Model appearance and gameplay review pending."
+        "note": "Textured native rig with idle, walking, wing motion, blinking and head looks added on 25 October 2026. Daniel review and live gameplay acceptance pending."
       },
       "earnings": {
-        "amount": 120,
+        "amount": 12,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
+      "egg": "cockapoodle.png",
+      "reference": "cockapoodle-reconstruction-front-v2.png",
+      "referenceViews": [
+        {
+          "label": "Front",
+          "file": "cockapoodle-reconstruction-front-v2.png"
+        },
+        {
+          "label": "Left side",
+          "file": "cockapoodle-reconstruction-left-v2.png"
+        },
+        {
+          "label": "Rear",
+          "file": "cockapoodle-reconstruction-rear-v2.png"
+        }
+      ],
       "id": "cockapoodle"
     },
     {
       "status": "Least Concern",
-      "height": 4.4,
+      "height": 13.2,
       "weight": 4.0,
       "eggHeight": 2.0082988502465087,
       "eggWeight": 1.2,
@@ -217,7 +248,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": 100,
+        "amount": 10,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -242,7 +273,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": 125,
+        "amount": 12.5,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -267,7 +298,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": 145,
+        "amount": 14.5,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -292,7 +323,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": 165,
+        "amount": 16.5,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -317,7 +348,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": 175,
+        "amount": 17.5,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -343,7 +374,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": 200,
+        "amount": 20,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -494,6 +525,16 @@
       ]
     },
     {
+      "id": "sky_foothills",
+      "name": "Sky Foothills",
+      "route": "sky",
+      "color": [
+        129,
+        148,
+        153
+      ]
+    },
+    {
       "id": "sky_mountains",
       "name": "Cloudtop Cliffs",
       "route": "sky",
@@ -587,7 +628,7 @@
         "chance": 20.0
       },
       {
-        "species": "Chickitten",
+        "species": "Cockapoodle",
         "chance": 20.0
       },
       {
@@ -652,6 +693,12 @@
       }
     ],
     "inferno": [
+      {
+        "species": "Placeholder",
+        "chance": 100
+      }
+    ],
+    "sky_foothills": [
       {
         "species": "Placeholder",
         "chance": 100

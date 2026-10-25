@@ -2,9 +2,9 @@
   "creatures": [
     {
       "status": "Least Concern",
-      "height": 21.0,
-      "weight": 24.0,
-      "eggHeight": 3.0,
+      "height": 5.0,
+      "weight": 15.849742,
+      "eggHeight": 3.6,
       "eggWeight": 4.0,
       "parents": "Labrador + Duck",
       "spawnWeight": 20.0,
@@ -26,13 +26,27 @@
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "labraduck"
+      "id": "labraduck",
+      "parentStats": [
+        {
+          "name": "Labrador",
+          "weightKg": 30.617484975,
+          "basis": "midpoint of 55 to 80 lb adult breed range",
+          "url": "https://www.akc.org/expert-advice/dog-breeds/labrador-retriever-right-for-you/"
+        },
+        {
+          "name": "Duck",
+          "weightKg": 1.082,
+          "basis": "reported adult mallard mean",
+          "url": "https://animaldiversity.org/accounts/Anas_platyrhynchos/"
+        }
+      ]
     },
     {
       "status": "Least Concern",
-      "height": 10.8,
-      "weight": 2.0,
-      "eggHeight": 1.7544106429277198,
+      "height": 4.5,
+      "weight": 1.000125,
+      "eggHeight": 2.105292771513264,
       "eggWeight": 0.8,
       "parents": "Bumblebee + Rabbit",
       "spawnWeight": 20.0,
@@ -54,13 +68,27 @@
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "bumblebun"
+      "id": "bumblebun",
+      "parentStats": [
+        {
+          "name": "Bumblebee",
+          "weightKg": 0.00025,
+          "basis": "midpoint of 200 to 300 mg live worker study range",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3095635/"
+        },
+        {
+          "name": "Rabbit",
+          "weightKg": 2,
+          "basis": "midpoint of 1.5 to 2.5 kg European rabbit range",
+          "url": "https://animaldiversity.org/accounts/Oryctolagus_cuniculus/"
+        }
+      ]
     },
     {
       "status": "Near Threatened",
-      "height": 7.8,
-      "weight": 0.8,
-      "eggHeight": 1.5,
+      "height": 4.5,
+      "weight": 0.17915,
+      "eggHeight": 1.8,
       "eggWeight": 0.5,
       "parents": "Mouse + Owl",
       "spawnWeight": 12.5,
@@ -82,13 +110,27 @@
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "squeakaboo"
+      "id": "squeakaboo",
+      "parentStats": [
+        {
+          "name": "Mouse",
+          "weightKg": 0.021,
+          "basis": "midpoint of 12 to 30 g house mouse range",
+          "url": "https://animaldiversity.org/accounts/Mus_musculus/"
+        },
+        {
+          "name": "Owl",
+          "weightKg": 0.3373,
+          "basis": "reported mean for 522 adult barn owls",
+          "url": "https://www.bto.org/learn/about-birds/birdfacts/barn-owl"
+        }
+      ]
     },
     {
       "status": "Near Threatened",
-      "height": 7.2,
-      "weight": 3.0,
-      "eggHeight": 2.1633743554611122,
+      "height": 4.2,
+      "weight": 0.26475,
+      "eggHeight": 2.596049226553335,
       "eggWeight": 1.5,
       "parents": "Hamster + Turtle",
       "spawnWeight": 12.5,
@@ -124,13 +166,27 @@
           "file": "hamsturtle-reconstruction-rear-v2.png"
         }
       ],
-      "id": "hamsturtle"
+      "id": "hamsturtle",
+      "parentStats": [
+        {
+          "name": "Hamster",
+          "weightKg": 0.1125,
+          "basis": "midpoint of 100 to 125 g golden hamster range",
+          "url": "https://animaldiversity.org/accounts/Mesocricetus_auratus/"
+        },
+        {
+          "name": "Turtle",
+          "weightKg": 0.417,
+          "basis": "midpoint of published 311 to 523 g eastern box turtle gram range; conflicting pound conversion ignored",
+          "url": "https://www.marylandzoo.org/animal/eastern-box-turtle/"
+        }
+      ]
     },
     {
       "status": "Vulnerable",
-      "height": 8.4,
-      "weight": 3.5,
-      "eggHeight": 2.2989282971806593,
+      "height": 4.0,
+      "weight": 0.53,
+      "eggHeight": 2.7587139566167913,
       "eggWeight": 1.8,
       "parents": "Snail + Hedgehog",
       "spawnWeight": 7.5,
@@ -152,13 +208,27 @@
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "snailhog"
+      "id": "snailhog",
+      "parentStats": [
+        {
+          "name": "Snail",
+          "weightKg": 0.01,
+          "basis": "midpoint of 8 to 12 g common garden snail adult range",
+          "url": "https://www.dcceew.gov.au/sites/default/files/env/pages/d8bf16ca-362b-4e6d-9144-4b71770bd6b6/files/garden-snails-department-risk-analysis.pdf"
+        },
+        {
+          "name": "Hedgehog",
+          "weightKg": 1.05,
+          "basis": "midpoint of 600 to 1500 g European hedgehog range",
+          "url": "https://animaldiversity.org/accounts/Erinaceus/"
+        }
+      ]
     },
     {
       "status": "Vulnerable",
-      "height": 5.4,
-      "weight": 1.0,
-      "eggHeight": 1.5939878537739167,
+      "height": 4.0,
+      "weight": 0.045,
+      "eggHeight": 1.9127854245287002,
       "eggWeight": 0.6,
       "parents": "Worm + Axolotl",
       "spawnWeight": 7.5,
@@ -167,7 +237,7 @@
       "region": "backyard",
       "stage": "catalogue",
       "concept": "wrigglotl.png",
-      "reference": "wrigglotl.png",
+      "reference": "wrigglotl-reconstruction-front-v2.png",
       "egg": "wrigglotl.png",
       "review": {
         "revision": 1,
@@ -180,13 +250,41 @@
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "wrigglotl"
+      "referenceViews": [
+        {
+          "label": "Front",
+          "file": "wrigglotl-reconstruction-front-v2.png"
+        },
+        {
+          "label": "Left side",
+          "file": "wrigglotl-reconstruction-left-v2.png"
+        },
+        {
+          "label": "Rear",
+          "file": "wrigglotl-reconstruction-rear-v2.png"
+        }
+      ],
+      "id": "wrigglotl",
+      "parentStats": [
+        {
+          "name": "Worm",
+          "weightKg": 0.005,
+          "basis": "midpoint of 3.5 to 6.5 g live adult earthworm study range",
+          "url": "https://doi.org/10.1017/wsc.2025.10060"
+        },
+        {
+          "name": "Axolotl",
+          "weightKg": 0.085,
+          "basis": "midpoint of 60 to 110 g axolotl range",
+          "url": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/"
+        }
+      ]
     },
     {
       "status": "Least Concern",
-      "height": 13.2,
-      "weight": 6.0,
-      "eggHeight": 2.0082988502465087,
+      "height": 4.8,
+      "weight": 12.87379,
+      "eggHeight": 2.4099586202958103,
       "eggWeight": 1.2,
       "parents": "Cockatoo + Poodle",
       "spawnWeight": 20.0,
@@ -223,13 +321,27 @@
           "file": "cockapoodle-reconstruction-rear-v2.png"
         }
       ],
-      "id": "cockapoodle"
+      "id": "cockapoodle",
+      "parentStats": [
+        {
+          "name": "Cockatoo",
+          "weightKg": 0.8,
+          "basis": "reported sulphur-crested cockatoo mean",
+          "url": "https://animaldiversity.org/accounts/Cacatua_galerita/"
+        },
+        {
+          "name": "Poodle",
+          "weightKg": 24.947580350000003,
+          "basis": "midpoint of 40 to 70 lb standard poodle range; standard rather than toy or miniature",
+          "url": "https://www.akc.org/expert-advice/nutrition/breed-weight-chart/"
+        }
+      ]
     },
     {
       "status": "Least Concern",
-      "height": 13.2,
-      "weight": 4.0,
-      "eggHeight": 2.0082988502465087,
+      "height": 4.5,
+      "weight": 4.075971,
+      "eggHeight": 2.4099586202958103,
       "eggWeight": 1.2,
       "parents": "Chicken + Kitten",
       "spawnWeight": 20.0,
@@ -252,20 +364,35 @@
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "chickitten"
+      "id": "chickitten",
+      "parentStats": [
+        {
+          "name": "Chicken",
+          "weightKg": 3.401942775,
+          "basis": "mean of 8.5 lb male and 6.5 lb female Rhode Island Red adult breed standards",
+          "url": "https://livestockconservancy.org/wp-content/uploads/2025/04/PickaBreedChickens2025-WATERMARKED.pdf"
+        },
+        {
+          "name": "Kitten",
+          "weightKg": 4.75,
+          "basis": "adult domestic cat baseline, midpoint of 4.1 to 5.4 kg; kitten wording describes the hybrid design, not an undefined infant age",
+          "url": "https://animaldiversity.org/accounts/Felis_catus/"
+        }
+      ]
     },
     {
       "status": null,
-      "height": null,
-      "weight": null,
+      "height": 5.0,
+      "weight": 168.055973,
       "eggHeight": null,
       "eggWeight": null,
+      "parents": "Pig + Pug",
+      "spawnWeight": null,
+      "description": "A plump little pig with a pug's expressive brown eyes, floppy ears and dark muzzle. Its pink pig snout, tiny hooves and curled pig tail keep its farm identity clear.",
       "name": "Puglet",
       "region": "farmland",
       "stage": "concept",
-      "parents": "Pig + Pug",
       "concept": "puglet.png",
-      "description": "A plump little pig with a pug's expressive brown eyes, floppy ears and dark muzzle. Its pink pig snout, tiny hooves and curled pig tail keep its farm identity clear.",
       "review": {
         "revision": 1,
         "danielApproved": false,
@@ -277,20 +404,35 @@
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "puglet"
+      "id": "puglet",
+      "parentStats": [
+        {
+          "name": "Pig",
+          "weightKg": 328.85446825,
+          "basis": "midpoint of 450 to 1000 lb adult domestic pig range",
+          "url": "https://mnzoo.org/blog/animals/pig/"
+        },
+        {
+          "name": "Pug",
+          "weightKg": 7.25747792,
+          "basis": "midpoint of 14 to 18 lb adult breed range",
+          "url": "https://www.akc.org/dog-breeds/pug/"
+        }
+      ]
     },
     {
       "status": null,
-      "height": null,
-      "weight": null,
+      "height": 5.5,
+      "weight": 353.235058,
       "eggHeight": null,
       "eggWeight": null,
+      "parents": "Cow + Dalmatian",
+      "spawnWeight": null,
+      "description": "A fluffy little calf with soft black-and-white Dalmatian markings and long floppy ears. Small cow horns, a broad pink muzzle, cloven hooves and a tufted tail complete its friendly silhouette.",
       "name": "Dalmootian",
       "region": "farmland",
       "stage": "concept",
-      "parents": "Cow + Dalmatian",
       "concept": "dalmootian.png",
-      "description": "A fluffy little calf with soft black-and-white Dalmatian markings and long floppy ears. Small cow horns, a broad pink muzzle, cloven hooves and a tufted tail complete its friendly silhouette.",
       "review": {
         "revision": 1,
         "danielApproved": false,
@@ -302,20 +444,35 @@
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "dalmootian"
+      "id": "dalmootian",
+      "parentStats": [
+        {
+          "name": "Cow",
+          "weightKg": 680.388555,
+          "basis": "reported typical mature Holstein cow weight of 1500 lb, matching the black-and-white cow design",
+          "url": "https://www.holsteinusa.com/holstein_breed/holstein101.html?tab=7"
+        },
+        {
+          "name": "Dalmatian",
+          "weightKg": 26.081561275000002,
+          "basis": "midpoint of 45 to 70 lb adult breed range",
+          "url": "https://www.akc.org/expert-advice/nutrition/breed-weight-chart/"
+        }
+      ]
     },
     {
       "status": null,
-      "height": null,
-      "weight": null,
+      "height": 5.5,
+      "weight": 253.921185,
       "eggHeight": null,
       "eggWeight": null,
+      "parents": "Horse + Kangaroo",
+      "spawnWeight": null,
+      "description": "A chestnut pony with a tousled dark mane, upright kangaroo ears and powerful hind legs. Small hoofed forelimbs rest beside its cream chest, while a thick kangaroo tail balances its rounded body.",
       "name": "Horsaroo",
       "region": "farmland",
       "stage": "concept",
-      "parents": "Horse + Kangaroo",
       "concept": "horsaroo.png",
-      "description": "A chestnut pony with a tousled dark mane, upright kangaroo ears and powerful hind legs. Small hoofed forelimbs rest beside its cream chest, while a thick kangaroo tail balances its rounded body.",
       "review": {
         "revision": 1,
         "danielApproved": false,
@@ -327,20 +484,35 @@
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "horsaroo"
+      "id": "horsaroo",
+      "parentStats": [
+        {
+          "name": "Horse",
+          "weightKg": 453.59237,
+          "basis": "midpoint of the 900 to 1100 lb average adult horse range",
+          "url": "https://ucanr.edu/site/small-acreage-landowners/horses"
+        },
+        {
+          "name": "Kangaroo",
+          "weightKg": 54.25,
+          "basis": "equal-sex mean of midpoints: males 65 to 92 kg, females 25 to 35 kg, red kangaroo",
+          "url": "https://www.taronga.org.au/wildlife-and-conservation/animals/detail/red-kangaroo"
+        }
+      ]
     },
     {
       "status": null,
-      "height": null,
-      "weight": null,
+      "height": 5.5,
+      "weight": 81.25,
       "eggHeight": null,
       "eggWeight": null,
+      "parents": "Alpaca + Panda",
+      "spawnWeight": null,
+      "description": "A cloud-soft alpaca with a long neck, rounded black panda ears and gentle panda eye patches. Cream fleece, a dark shoulder band, black lower legs and a little fluffy tail make its two animal parents easy to recognise.",
       "name": "Alpanda",
       "region": "farmland",
       "stage": "concept",
-      "parents": "Alpaca + Panda",
       "concept": "alpanda.png",
-      "description": "A cloud-soft alpaca with a long neck, rounded black panda ears and gentle panda eye patches. Cream fleece, a dark shoulder band, black lower legs and a little fluffy tail make its two animal parents easy to recognise.",
       "review": {
         "revision": 1,
         "danielApproved": false,
@@ -352,20 +524,35 @@
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "alpanda"
+      "id": "alpanda",
+      "parentStats": [
+        {
+          "name": "Alpaca",
+          "weightKg": 67.5,
+          "basis": "midpoint of 45 to 90 kg adult range",
+          "url": "https://nationalzoo.si.edu/animals/alpaca"
+        },
+        {
+          "name": "Panda",
+          "weightKg": 95,
+          "basis": "equal-sex mean of female 70 to 100 kg and male 85 to 125 kg midpoints",
+          "url": "https://ielc.libguides.com/sdzg/factsheets/giantpanda/characteristics"
+        }
+      ]
     },
     {
       "status": null,
-      "height": null,
-      "weight": null,
+      "height": 5.5,
+      "weight": 574.0,
       "eggHeight": null,
       "eggWeight": null,
+      "parents": "Sheep + Walrus",
+      "spawnWeight": null,
+      "description": "A round sheep wrapped in thick cream curls, with a broad walrus muzzle, soft whiskers and two small ivory tusks. Four short legs end in cloven sheep hooves, and a tiny woolly tail peeks out at the back.",
       "name": "Woolrus",
       "region": "farmland",
       "stage": "concept",
-      "parents": "Sheep + Walrus",
       "concept": "woolrus.png",
-      "description": "A round sheep wrapped in thick cream curls, with a broad walrus muzzle, soft whiskers and two small ivory tusks. Four short legs end in cloven sheep hooves, and a tiny woolly tail peeks out at the back.",
       "notes": "Selected as the farm's sheep hybrid. New measurements, endangered status and egg artwork are still to be decided.",
       "review": {
         "revision": 1,
@@ -378,7 +565,21 @@
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "woolrus"
+      "id": "woolrus",
+      "parentStats": [
+        {
+          "name": "Sheep",
+          "weightKg": 110.5,
+          "basis": "equal-sex mean of female 79 to 102 kg and male 125 to 136 kg Cotswold sheep midpoints",
+          "url": "https://www.marylandzoo.org/animal/cotswold-sheep/"
+        },
+        {
+          "name": "Walrus",
+          "weightKg": 1037.5,
+          "basis": "equal-sex mean of male 800 to 1700 kg and female 400 to 1250 kg midpoints",
+          "url": "https://seaworld.org/animals/facts/mammals/walrus/"
+        }
+      ]
     },
     {
       "status": null,

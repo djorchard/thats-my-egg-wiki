@@ -445,7 +445,7 @@
   "qualities": [
     {
       "name": "Standard",
-      "chance": 65.0,
+      "chance": 88.89,
       "color": "None",
       "rgb": null,
       "hex": null,
@@ -453,7 +453,7 @@
     },
     {
       "name": "Fine",
-      "chance": 25.0,
+      "chance": 10.0,
       "color": "Green",
       "rgb": [
         91,
@@ -465,7 +465,7 @@
     },
     {
       "name": "Superior",
-      "chance": 8.0,
+      "chance": 1.0,
       "color": "Blue",
       "rgb": [
         75,
@@ -477,7 +477,7 @@
     },
     {
       "name": "Epic",
-      "chance": 1.8,
+      "chance": 0.1,
       "color": "Purple",
       "rgb": [
         181,
@@ -489,7 +489,7 @@
     },
     {
       "name": "Legendary",
-      "chance": 0.2,
+      "chance": 0.01,
       "color": "Gold",
       "rgb": [
         255,

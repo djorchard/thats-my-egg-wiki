@@ -136,7 +136,7 @@
       "spawnWeight": 12.5,
       "description": "A little gardener with stuffed cheeks and a sturdy shell. Its favourite hiding place travels everywhere with it.",
       "name": "Hamsturtle",
-      "region": "backyard",
+      "region": "lake",
       "stage": "catalogue",
       "concept": "hamsturtle.png",
       "reference": "hamsturtle-reconstruction-front-v2.png",
@@ -818,31 +818,27 @@
     "backyard": [
       {
         "species": "Squeakaboo",
-        "chance": 12.5
+        "chance": 14.285714285714285
       },
       {
         "species": "Labraduck",
-        "chance": 20.0
+        "chance": 22.857142857142858
       },
       {
         "species": "Bumblebun",
-        "chance": 20.0
+        "chance": 22.857142857142858
       },
       {
         "species": "Cockapoodle",
-        "chance": 20.0
-      },
-      {
-        "species": "Hamsturtle",
-        "chance": 12.5
+        "chance": 22.857142857142858
       },
       {
         "species": "Wrigglotl",
-        "chance": 7.5
+        "chance": 8.571428571428571
       },
       {
         "species": "Snailhog",
-        "chance": 7.5
+        "chance": 8.571428571428571
       }
     ],
     "farmland": [
@@ -853,8 +849,8 @@
     ],
     "lake": [
       {
-        "species": "Placeholder",
-        "chance": 100
+        "species": "Hamsturtle",
+        "chance": 100.0
       }
     ],
     "forest": [

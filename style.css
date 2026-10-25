@@ -10,3 +10,5 @@
 .region-card .region-number,.region-card small{color:var(--region-ink)}
 
 .quality-table{width:100%;min-width:650px;border-collapse:collapse}.quality-table th,.quality-table td{padding:12px 16px;text-align:left;border:1px solid var(--line)}.quality-table thead{background:var(--panel)}.quality-swatch{display:inline-block;width:14px;height:14px;margin-right:8px;vertical-align:middle;border:1px solid #ffffff66;border-radius:50%}
+
+.aura-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px;margin-top:20px}.aura-card{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}.aura-card a{display:block}.aura-card a:hover{background:var(--row)}.aura-card img{display:block;width:100%;height:auto;aspect-ratio:1557/1080;object-fit:contain}.aura-card figcaption{padding:16px}.aura-card strong,.aura-card span{display:block}.aura-card span{font-size:13px;color:var(--muted);margin-top:4px}

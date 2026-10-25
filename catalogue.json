@@ -383,7 +383,7 @@
         255
       ],
       "hex": "#4BA4FF",
-      "effects": "Wider soft glow and larger sparkles, pulsing light"
+      "effects": "Wider soft glow and larger sparkles, pulsing light, 2 orbit ribbons"
     },
     {
       "name": "Epic",
@@ -395,7 +395,7 @@
         255
       ],
       "hex": "#B56BFF",
-      "effects": "Wider soft glow and larger sparkles, pulsing light, orbiting motes"
+      "effects": "Wider soft glow and larger sparkles, pulsing light, 3 orbit ribbons"
     },
     {
       "name": "Legendary",
@@ -407,7 +407,7 @@
         77
       ],
       "hex": "#FFCD4D",
-      "effects": "Wider soft glow and larger sparkles, pulsing light, orbiting motes, star glints"
+      "effects": "Wider soft glow and larger sparkles, pulsing light, 5 orbit ribbons, star glints"
     }
   ]
 }

@@ -7,6 +7,7 @@
       "eggHeight": 3.0,
       "eggWeight": 4.0,
       "parents": "Labrador + Duck",
+      "spawnWeight": 20.0,
       "description": "A loyal pond guardian with a Labrador's heart. It counts every egg before its afternoon swim.",
       "name": "Labraduck",
       "region": "backyard",
@@ -15,13 +16,13 @@
       "reference": "labraduck-front-v2.png",
       "egg": "labraduck.png",
       "review": {
-        "revision": 1,
+        "revision": 2,
         "danielApproved": false,
         "codexApproved": false,
-        "note": "Model appearance and gameplay review pending."
+        "note": "Previously approved by Daniel on 25 October 2026. Stronger stride-linked wing motion was then requested; the updated walking animation awaits Daniel review."
       },
       "earnings": {
-        "amount": null,
+        "amount": 100,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -34,6 +35,7 @@
       "eggHeight": 1.7544106429277198,
       "eggWeight": 0.8,
       "parents": "Bumblebee + Rabbit",
+      "spawnWeight": 20.0,
       "description": "A springy garden pollinator. Its buzzing wings lift it just high enough to reach the sweetest flowers.",
       "name": "Bumblebun",
       "region": "backyard",
@@ -48,7 +50,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": null,
+        "amount": 110,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -61,6 +63,7 @@
       "eggHeight": 1.5,
       "eggWeight": 0.5,
       "parents": "Mouse + Owl",
+      "spawnWeight": 12.5,
       "description": "A tiny dusk explorer with enormous listening ears. It hides its eggs beneath soft fallen feathers.",
       "name": "Squeakaboo",
       "region": "backyard",
@@ -75,7 +78,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": null,
+        "amount": 130,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -88,6 +91,7 @@
       "eggHeight": 2.1633743554611122,
       "eggWeight": 1.5,
       "parents": "Hamster + Turtle",
+      "spawnWeight": 12.5,
       "description": "A little gardener with stuffed cheeks and a sturdy shell. Its favourite hiding place travels everywhere with it.",
       "name": "Hamsturtle",
       "region": "backyard",
@@ -102,7 +106,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": null,
+        "amount": 140,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -115,6 +119,7 @@
       "eggHeight": 2.2989282971806593,
       "eggWeight": 1.8,
       "parents": "Snail + Hedgehog",
+      "spawnWeight": 7.5,
       "description": "A shy rain-lover carrying a spiral home. Its snail antennae peek out first to check that the garden is quiet.",
       "name": "Snailhog",
       "region": "backyard",
@@ -129,7 +134,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": null,
+        "amount": 150,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -142,6 +147,7 @@
       "eggHeight": 1.5939878537739167,
       "eggWeight": 0.6,
       "parents": "Worm + Axolotl",
+      "spawnWeight": 7.5,
       "description": "A cheerful wriggler that keeps damp soil soft. Its frilly gills flutter when it finds a puddle.",
       "name": "Wrigglotl",
       "region": "backyard",
@@ -156,7 +162,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": null,
+        "amount": 160,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -168,11 +174,11 @@
       "weight": null,
       "eggHeight": null,
       "eggWeight": null,
-      "name": "Cockadoodle",
+      "name": "Cockapoodle",
       "region": "backyard",
       "stage": "concept",
       "parents": "Cockatoo + Poodle",
-      "concept": "cockadoodle.png",
+      "concept": "cockapoodle.png",
       "description": "A lively curly-coated companion with floppy poodle ears, a sunny yellow cockatoo crest, a curved beak and feathered wings. Its puppy-like body stands on four soft paws, with a fan of feathers for a tail.",
       "notes": "Selected for the first area. Its egg, endangered status and measurements have not been designed yet.",
       "review": {
@@ -182,11 +188,11 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": null,
+        "amount": 120,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "cockadoodle"
+      "id": "cockapoodle"
     },
     {
       "status": "Least Concern",
@@ -195,6 +201,7 @@
       "eggHeight": 2.0082988502465087,
       "eggWeight": 1.2,
       "parents": "Chicken + Kitten",
+      "spawnWeight": 20.0,
       "description": "A plump featherball that purrs in warm nesting boxes and pounces on windblown leaves.",
       "name": "Chickitten",
       "region": "farmland",
@@ -210,7 +217,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": null,
+        "amount": 100,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -235,7 +242,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": null,
+        "amount": 125,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -260,7 +267,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": null,
+        "amount": 145,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -285,7 +292,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": null,
+        "amount": 165,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -310,7 +317,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": null,
+        "amount": 175,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -336,7 +343,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": null,
+        "amount": 200,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -538,7 +545,7 @@
         255
       ],
       "hex": "#4BA4FF",
-      "effects": "Wider soft glow and larger sparkles, pulsing light, 2 orbit ribbons"
+      "effects": "Wider soft glow and larger sparkles, 1 orbit ribbons"
     },
     {
       "name": "Epic",
@@ -564,5 +571,103 @@
       "hex": "#FFCD4D",
       "effects": "Wider soft glow and larger sparkles, pulsing light, 5 orbit ribbons, star glints"
     }
-  ]
+  ],
+  "spawns": {
+    "backyard": [
+      {
+        "species": "Squeakaboo",
+        "chance": 12.5
+      },
+      {
+        "species": "Labraduck",
+        "chance": 20.0
+      },
+      {
+        "species": "Bumblebun",
+        "chance": 20.0
+      },
+      {
+        "species": "Chickitten",
+        "chance": 20.0
+      },
+      {
+        "species": "Hamsturtle",
+        "chance": 12.5
+      },
+      {
+        "species": "Wrigglotl",
+        "chance": 7.5
+      },
+      {
+        "species": "Snailhog",
+        "chance": 7.5
+      }
+    ],
+    "farmland": [
+      {
+        "species": "Placeholder",
+        "chance": 100
+      }
+    ],
+    "lake": [
+      {
+        "species": "Placeholder",
+        "chance": 100
+      }
+    ],
+    "forest": [
+      {
+        "species": "Placeholder",
+        "chance": 100
+      }
+    ],
+    "jungle": [
+      {
+        "species": "Placeholder",
+        "chance": 100
+      }
+    ],
+    "coral_reef": [
+      {
+        "species": "Placeholder",
+        "chance": 100
+      }
+    ],
+    "deep_ocean": [
+      {
+        "species": "Placeholder",
+        "chance": 100
+      }
+    ],
+    "desert": [
+      {
+        "species": "Placeholder",
+        "chance": 100
+      }
+    ],
+    "volcano": [
+      {
+        "species": "Placeholder",
+        "chance": 100
+      }
+    ],
+    "inferno": [
+      {
+        "species": "Placeholder",
+        "chance": 100
+      }
+    ],
+    "sky_mountains": [
+      {
+        "species": "Placeholder",
+        "chance": 100
+      }
+    ],
+    "outer_space": [
+      {
+        "species": "Placeholder",
+        "chance": 100
+      }
+    ]
+  }
 }

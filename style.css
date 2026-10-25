@@ -15,3 +15,10 @@
 
 .review-item{display:grid;gap:10px;align-content:start}.review-status{display:block;min-height:26px;font-weight:700;color:#f0b58b}.review-status[data-approved="true"]{color:#a7dfb6}.review-person{margin:0;font-size:13px;color:var(--muted)}
 
+
+/* Keep the guide table inside its scroll area and navigation readable on phones. */
+.table-scroll{max-width:100%;overflow-x:auto}
+.notice a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:680px){header{height:auto;min-height:96px;position:static;flex-wrap:wrap;gap:12px;padding:14px 18px}.header-links{width:100%;flex-wrap:wrap;gap:10px 18px}.header-links a{white-space:nowrap}}
+
+.spawn-table{width:100%;border-collapse:collapse}.spawn-table th,.spawn-table td{padding:12px 16px;text-align:left;border:1px solid var(--line)}.spawn-table thead{background:var(--panel)}.spawn-table a{text-decoration:underline;text-underline-offset:3px}

@@ -14,6 +14,12 @@
       "concept": "labraduck.png",
       "reference": "labraduck-front-v2.png",
       "egg": "labraduck.png",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Model appearance and gameplay review pending."
+      },
       "id": "labraduck"
     },
     {
@@ -30,6 +36,12 @@
       "concept": "bumblebun.png",
       "reference": "bumblebun.png",
       "egg": "bumblebun.png",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Model appearance and gameplay review pending."
+      },
       "id": "bumblebun"
     },
     {
@@ -46,6 +58,12 @@
       "concept": "squeakaboo.png",
       "reference": "squeakaboo.png",
       "egg": "squeakaboo.png",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Model appearance and gameplay review pending."
+      },
       "id": "squeakaboo"
     },
     {
@@ -62,6 +80,12 @@
       "concept": "hamsturtle.png",
       "reference": "hamsturtle.png",
       "egg": "hamsturtle.png",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Model appearance and gameplay review pending."
+      },
       "id": "hamsturtle"
     },
     {
@@ -78,6 +102,12 @@
       "concept": "snailhog.png",
       "reference": "snailhog.png",
       "egg": "snailhog.png",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Model appearance and gameplay review pending."
+      },
       "id": "snailhog"
     },
     {
@@ -94,6 +124,12 @@
       "concept": "wrigglotl.png",
       "reference": "wrigglotl.png",
       "egg": "wrigglotl.png",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Model appearance and gameplay review pending."
+      },
       "id": "wrigglotl"
     },
     {
@@ -109,6 +145,12 @@
       "concept": "cockadoodle.png",
       "description": "A lively curly-coated companion with floppy poodle ears, a sunny yellow cockatoo crest, a curved beak and feathered wings. Its puppy-like body stands on four soft paws, with a fan of feathers for a tail.",
       "notes": "Selected for the first area. Its egg, endangered status and measurements have not been designed yet.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Model appearance and gameplay review pending."
+      },
       "id": "cockadoodle"
     },
     {
@@ -126,6 +168,12 @@
       "egg": "chickitten.png",
       "notes": "Moving to Farmland in the design lineup. The current gameplay catalogue still includes it among the original starter species.",
       "concept": "chickitten.png",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Model appearance and gameplay review pending."
+      },
       "id": "chickitten"
     },
     {
@@ -140,6 +188,12 @@
       "parents": "Pig + Pug",
       "concept": "puglet.png",
       "description": "A plump little pig with a pug's expressive brown eyes, floppy ears and dark muzzle. Its pink pig snout, tiny hooves and curled pig tail keep its farm identity clear.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Model appearance and gameplay review pending."
+      },
       "id": "puglet"
     },
     {
@@ -154,6 +208,12 @@
       "parents": "Cow + Dalmatian",
       "concept": "dalmootian.png",
       "description": "A fluffy little calf with soft black-and-white Dalmatian markings and long floppy ears. Small cow horns, a broad pink muzzle, cloven hooves and a tufted tail complete its friendly silhouette.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Model appearance and gameplay review pending."
+      },
       "id": "dalmootian"
     },
     {
@@ -168,6 +228,12 @@
       "parents": "Horse + Kangaroo",
       "concept": "horsaroo.png",
       "description": "A chestnut pony with a tousled dark mane, upright kangaroo ears and powerful hind legs. Small hoofed forelimbs rest beside its cream chest, while a thick kangaroo tail balances its rounded body.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Model appearance and gameplay review pending."
+      },
       "id": "horsaroo"
     },
     {
@@ -182,6 +248,12 @@
       "parents": "Alpaca + Panda",
       "concept": "alpanda.png",
       "description": "A cloud-soft alpaca with a long neck, rounded black panda ears and gentle panda eye patches. Cream fleece, a dark shoulder band, black lower legs and a little fluffy tail make its two animal parents easy to recognise.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Model appearance and gameplay review pending."
+      },
       "id": "alpanda"
     },
     {
@@ -197,6 +269,12 @@
       "concept": "woolrus.png",
       "description": "A round sheep wrapped in thick cream curls, with a broad walrus muzzle, soft whiskers and two small ivory tusks. Four short legs end in cloven sheep hooves, and a tiny woolly tail peeks out at the back.",
       "notes": "Selected as the farm's sheep hybrid. New measurements, endangered status and egg artwork are still to be decided.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Model appearance and gameplay review pending."
+      },
       "id": "woolrus"
     },
     {
@@ -212,6 +290,12 @@
       "concept": "baaboon.png",
       "description": "An upright sheep-baboon hybrid with warm brown curly wool, lighter tan cheeks and chest, a friendly baboon muzzle and a curved monkey tail. It walks on two cloven sheep-hoofed feet and has two arms ending in monkey hands.",
       "notes": "Scrapped sheep concept. Woolrus is the selected Farmland creature. This latest Baaboon design includes brown wool and upright walking.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Model appearance and gameplay review pending."
+      },
       "id": "baaboon"
     },
     {
@@ -227,6 +311,12 @@
       "concept": "pisangitang.png",
       "description": "A curved banana-shaped creature with banana-yellow skin beneath shaggy orange orangutan fur. Thick fur covers its body and back, leaving its friendly face, broad hands and feet exposed, with small glimpses of yellow skin between the fur. Long arms and short legs complete its playful silhouette.",
       "notes": "Retained in the concept and rejected creature collection at Daniel's request on 25 October 2026. The latest concept has a whole unpeeled banana body, dense fur especially across the back, and no separate banana on its head. No region, measurements or conservation status have been assigned. The egg study is included in the concept sheet.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Model appearance and gameplay review pending."
+      },
       "id": "pisangitang"
     }
   ],

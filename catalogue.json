@@ -388,7 +388,7 @@
   "regions": [
     {
       "id": "backyard",
-      "name": "Backyard",
+      "name": "Sunnyside Backyard",
       "route": "main",
       "color": [
         126,
@@ -398,7 +398,7 @@
     },
     {
       "id": "farmland",
-      "name": "Farmland",
+      "name": "Clover Farm",
       "route": "main",
       "color": [
         83,
@@ -408,7 +408,7 @@
     },
     {
       "id": "lake",
-      "name": "Lake",
+      "name": "Ripplewater Lake",
       "route": "main",
       "color": [
         93,
@@ -418,7 +418,7 @@
     },
     {
       "id": "forest",
-      "name": "Forest",
+      "name": "Acorn Woods",
       "route": "main",
       "color": [
         62,
@@ -428,7 +428,7 @@
     },
     {
       "id": "jungle",
-      "name": "Jungle",
+      "name": "Emerald Jungle",
       "route": "main",
       "color": [
         40,
@@ -438,7 +438,7 @@
     },
     {
       "id": "coral_reef",
-      "name": "Coral Reef",
+      "name": "Rainbow Coral Reef",
       "route": "water",
       "color": [
         51,
@@ -448,7 +448,7 @@
     },
     {
       "id": "deep_ocean",
-      "name": "Deep Ocean",
+      "name": "Deepwater Abyss",
       "route": "water",
       "color": [
         35,
@@ -458,7 +458,7 @@
     },
     {
       "id": "desert",
-      "name": "Desert",
+      "name": "Golden Dunes",
       "route": "fire",
       "color": [
         224,
@@ -468,7 +468,7 @@
     },
     {
       "id": "volcano",
-      "name": "Volcano",
+      "name": "Ember Mountain",
       "route": "fire",
       "color": [
         129,
@@ -478,7 +478,7 @@
     },
     {
       "id": "inferno",
-      "name": "Inferno",
+      "name": "The Burning Depths",
       "route": "fire",
       "color": [
         172,
@@ -488,7 +488,7 @@
     },
     {
       "id": "sky_mountains",
-      "name": "Sky Mountains",
+      "name": "Cloudtop Cliffs",
       "route": "sky",
       "color": [
         170,
@@ -498,7 +498,7 @@
     },
     {
       "id": "outer_space",
-      "name": "Outer Space",
+      "name": "Moonbeam Expanse",
       "route": "sky",
       "color": [
         91,

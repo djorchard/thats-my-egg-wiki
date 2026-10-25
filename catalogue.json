@@ -22,7 +22,8 @@
       },
       "earnings": {
         "amount": null,
-        "intervalSeconds": null
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
       },
       "id": "labraduck"
     },
@@ -48,7 +49,8 @@
       },
       "earnings": {
         "amount": null,
-        "intervalSeconds": null
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
       },
       "id": "bumblebun"
     },
@@ -74,7 +76,8 @@
       },
       "earnings": {
         "amount": null,
-        "intervalSeconds": null
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
       },
       "id": "squeakaboo"
     },
@@ -100,7 +103,8 @@
       },
       "earnings": {
         "amount": null,
-        "intervalSeconds": null
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
       },
       "id": "hamsturtle"
     },
@@ -126,7 +130,8 @@
       },
       "earnings": {
         "amount": null,
-        "intervalSeconds": null
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
       },
       "id": "snailhog"
     },
@@ -152,7 +157,8 @@
       },
       "earnings": {
         "amount": null,
-        "intervalSeconds": null
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
       },
       "id": "wrigglotl"
     },
@@ -177,7 +183,8 @@
       },
       "earnings": {
         "amount": null,
-        "intervalSeconds": null
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
       },
       "id": "cockadoodle"
     },
@@ -204,7 +211,8 @@
       },
       "earnings": {
         "amount": null,
-        "intervalSeconds": null
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
       },
       "id": "chickitten"
     },
@@ -228,7 +236,8 @@
       },
       "earnings": {
         "amount": null,
-        "intervalSeconds": null
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
       },
       "id": "puglet"
     },
@@ -252,7 +261,8 @@
       },
       "earnings": {
         "amount": null,
-        "intervalSeconds": null
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
       },
       "id": "dalmootian"
     },
@@ -276,7 +286,8 @@
       },
       "earnings": {
         "amount": null,
-        "intervalSeconds": null
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
       },
       "id": "horsaroo"
     },
@@ -300,7 +311,8 @@
       },
       "earnings": {
         "amount": null,
-        "intervalSeconds": null
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
       },
       "id": "alpanda"
     },
@@ -325,7 +337,8 @@
       },
       "earnings": {
         "amount": null,
-        "intervalSeconds": null
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
       },
       "id": "woolrus"
     },

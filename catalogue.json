@@ -616,6 +616,7 @@
       "reference": "mooroo-reconstruction-front-v1.png",
       "egg": "mooroo-egg-v1.png",
       "icon": "mooroo-face-v1.png",
+      "conceptNumber": 8,
       "id": "mooroo"
     },
     {
@@ -646,7 +647,680 @@
       "reference": "hedgehopper-model-reference-front-v7.png",
       "egg": "hedgehopper-egg-v2.png",
       "icon": "hedgehopper-face-v1.png",
+      "conceptNumber": 17,
       "id": "hedgehopper"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Hootopotamus",
+      "parents": "Owl + Hippopotamus",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 9,
+      "concept": "hootopotamus-draft-concept-v1.png",
+      "description": "A round, downy hippo with an owl's bright amber eyes and soft feather wings. It spends the day dozing beside cool water and wakes at dusk to listen for its friends.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "hootopotamus"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Froggle",
+      "parents": "Frog + Eagle",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 10,
+      "concept": "froggle-draft-concept-v1.png",
+      "description": "An emerald frog with feathered wings, a little hooked beak and a wonderfully springy leap. It watches the pond from high branches before gliding down to the lily pads.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "froggle"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Puffalo",
+      "parents": "Pufferfish + Buffalo",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 11,
+      "concept": "puffalo-draft-concept-v1.png",
+      "description": "A round buffalo with tiny fins and soft pufferfish spines. When startled, its belly puffs up until it looks like a very surprised furry balloon.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "puffalo"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Koalameleon",
+      "parents": "Koala + Chameleon",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 12,
+      "concept": "koalameleon-draft-concept-v1.png",
+      "description": "A soft-eared koala with a curled chameleon tail and a coat that changes colour with its mood. It hugs branches patiently while deciding which shade of green to wear.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "koalameleon"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Botterfly",
+      "parents": "Butterfly + Otter",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 13,
+      "concept": "botterfly-draft-concept-v2.png",
+      "description": "A whiskery otter with orange and turquoise butterfly patterns flowing across its soft fur, wings and long tail. Its broad wing forelimbs grow from strong shoulders, with flexible joints that sweep them wide over the river.",
+      "notes": "Revised on 26 October 2026: the orange and turquoise butterfly patterns continue through the fur and tail. Two wing forelimbs attach through articulated shoulder roots and continuous membranes, with two rear otter paws. Region, stats, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "botterfly"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Crocodoodle Doo",
+      "parents": "Crocodile + Rooster",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 14,
+      "concept": "crocodoodle-doo-draft-concept-v1.png",
+      "description": "A green crocodile with a bright rooster comb and a proud fan of tail feathers. Its morning call starts as a crow and finishes with a bubbly little snap.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "crocodoodle-doo"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Slothtopus",
+      "parents": "Sloth + Octopus",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 15,
+      "concept": "slothtopus-draft-concept-v1.png",
+      "description": "A sleepy sloth with eight soft curling arms and a patient smile. It takes its time choosing a branch, then holds on with more hugs than anyone expects.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "slothtopus"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Flamingoat",
+      "parents": "Flamingo + Goat",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 16,
+      "concept": "flamingoat-draft-concept-v1.png",
+      "description": "A pink feathered goat with a curved neck, tiny horns and dainty dark hooves. It tiptoes through shallow water and treats every stepping stone like a mountain.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "flamingoat"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Giraffish",
+      "parents": "Giraffe + Fish",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 18,
+      "concept": "giraffish-draft-concept-v2.png",
+      "description": "A golden fish with a giraffe's long spotted neck, shimmering scales and flowing amber fins. It swims through the reeds with a gentle sweep of its forked tail.",
+      "notes": "Revised on 26 October 2026: Giraffish is a fully aquatic fish with fins and a fish tail, with no legs, feet or hooves. Region, stats, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "giraffish"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Purranha",
+      "parents": "Cat + Piranha",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 19,
+      "concept": "purranha-draft-concept-v2.png",
+      "description": "A silvery striped fish with a curious cat face, whiskers and bright green eyes. Its little fins and broad tail carry it through the pond while it purrs in tiny bubbles.",
+      "notes": "Revised on 26 October 2026: Purranha is a fully aquatic fish with fins and a broad fish tail, with no legs, feet or paws. Its cat face, ears, whiskers, green eyes and tabby markings are retained. Region, stats, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "purranha"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Squirreel",
+      "parents": "Squirrel + Eel",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 20,
+      "concept": "squirreel-draft-concept-v1.png",
+      "description": "A bright-eyed squirrel with a sleek winding body and a flowing, fluffy-edged tail. It slips between roots as easily as an eel slips between river stones.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "squirreel"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Dandylion",
+      "parents": "Lion + Dandelion",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 21,
+      "concept": "dandylion-draft-concept-v2.png",
+      "description": "A sunny golden lion cub with a mane of yellow flower petals and one fluffy white dandelion puff at the tip of its tail. Its warm golden fur runs smoothly from its shoulders to its soft padded paws.",
+      "notes": "Revised on 26 October 2026: retain the yellow flower mane and the single white dandelion puff at the tail tip. Body and tail fur have no green leaves or bracts, and no white seeds grow around the mane. Region, stats, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "dandylion"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Pelicanary",
+      "parents": "Pelican + Canary",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 22,
+      "concept": "pelicanary-draft-concept-v1.png",
+      "description": "A bright yellow songbird with a roomy pelican pouch and tiny webbed feet. It carries smooth pebbles for its nest and sings proudly between every trip.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "pelicanary"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Tarantulama",
+      "parents": "Tarantula + Llama",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 23,
+      "concept": "tarantulama-draft-concept-v1.png",
+      "description": "A fluffy llama with eight soft, careful feet. It trots over uneven ground with surprising grace and never seems to trip over its own wool.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "tarantulama"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Scorpicorn",
+      "parents": "Scorpion + Unicorn",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 24,
+      "concept": "scorpicorn-draft-concept-v2.png",
+      "description": "A pearly scorpion with a gentle unicorn face, a flowing lavender mane and a golden spiral horn. Eight little legs carry its armoured body, while rounded front pincers and a curling golden-tipped tail complete its magical silhouette.",
+      "notes": "Revised on 26 October 2026: a segmented scorpion lower body with jointed walking legs, two front pincers and a curling tail, topped by the unicorn head and short neck. Pearl-white, iridescent lavender and gold colours are retained. No horse torso or hooves. Region, stats, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "scorpicorn"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Batacuda",
+      "parents": "Bat + Barracuda",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 25,
+      "concept": "batacuda-draft-concept-v1.png",
+      "description": "A sleek blue swimmer with soft bat ears and broad velvety wings. It follows ripples at dusk, swooping low enough to brush the water with its tail.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "batacuda"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Dragorilla",
+      "parents": "Dragon + Gorilla",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 26,
+      "concept": "dragorilla-draft-concept-v1.png",
+      "description": "A broad-shouldered gorilla with emerald scales and neatly folded dragon wings. It looks imposing until it carefully cups a tiny flower in its enormous hands.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "dragorilla"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Jellyphant",
+      "parents": "Jellyfish + Elephant",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 27,
+      "concept": "jellyphant-draft-concept-v1.png",
+      "description": "A translucent lavender elephant with a glowing jellyfish dome and soft trailing frills. It drifts through its day with a gentle sway and a curious curl of its trunk.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "jellyphant"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Armadillope",
+      "parents": "Armadillo + Antelope",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 28,
+      "concept": "armadillope-draft-concept-v1.png",
+      "description": "A nimble antelope with a rounded coat of armadillo armour. It bounds across dry grass, then curls up beneath a shady rock for a well-earned nap.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "armadillope"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Porcupython",
+      "parents": "Porcupine + Python",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 29,
+      "concept": "porcupython-draft-concept-v1.png",
+      "description": "A softly quilled python with a round porcupine nose and a patient gaze. It coils into a cosy nest, leaving its smooth belly safely tucked beneath its prickly back.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "porcupython"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Meerkabou",
+      "parents": "Meerkat + Caribou",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 30,
+      "concept": "meerkabou-draft-concept-v1.png",
+      "description": "A watchful meerkat with velvety antlers and a fluffy caribou collar. It stands on its sturdy back feet to announce every visitor, including falling leaves.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "meerkabou"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Banaconda",
+      "parents": "Banana + Anaconda",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 31,
+      "concept": "banaconda-draft-concept-v1.png",
+      "description": "A golden banana-shaped snake with tiny brown freckles and a smooth cream belly. It curls into warm sunny loops and is very particular about finding the ripest patch of shade.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "banaconda"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Peacobara",
+      "parents": "Peacock + Capybara",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 32,
+      "concept": "peacobara-draft-concept-v2.png",
+      "description": "A calm capybara-shaped creature covered entirely in shimmering peacock feathers. Teal, emerald and blue plumage covers its body and gentle capybara face, while a golden-eyed tail fan opens proudly behind it.",
+      "notes": "Revised on 26 October 2026: the entire coat is peacock feathers, with no fur. The face retains capybara anatomy in the same teal, blue, emerald and gold palette as the plumage. Keep the crest, four capybara feet and large peacock tail fan. Region, stats, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "peacobara"
+    },
+    {
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
+      "name": "Crabuki",
+      "parents": "Crab + Tanuki",
+      "region": null,
+      "stage": "concept",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Draft concept artwork. Creature model and animation review have not started."
+      },
+      "earnings": {
+        "amount": null,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "conceptNumber": 33,
+      "concept": "crabuki-draft-concept-v1.png",
+      "description": "A round tanuki with a sturdy crab shell, six quick little legs and two oversized pincers. It shuffles sideways when excited and leaves cheerful dotted tracks in wet sand.",
+      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "spawnWeight": null,
+      "id": "crabuki"
     }
   ],
   "regions": [

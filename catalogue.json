@@ -2,17 +2,17 @@
   "creatures": [
     {
       "status": "Least Concern",
-      "height": 5.0,
+      "height": 3.5,
       "weight": 15.849742,
       "eggHeight": 3.6,
       "eggWeight": 4.0,
       "parents": "Labrador + Duck",
-      "spawnWeight": 20.0,
+      "spawnWeight": 8388608,
       "description": "A loyal pond guardian with a Labrador's heart. It counts every egg before its afternoon swim.",
       "name": "Labraduck",
       "region": "backyard",
       "stage": "catalogue",
-      "concept": "labraduck.png",
+      "concept": "labraduck-concept-textless-v1.png",
       "reference": "labraduck-front-v2.png",
       "egg": "labraduck.png",
       "review": {
@@ -26,6 +26,7 @@
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
+      "icon": "labraduck-face-v1.png",
       "id": "labraduck",
       "parentStats": [
         {
@@ -44,31 +45,32 @@
     },
     {
       "status": "Least Concern",
-      "height": 4.5,
+      "height": 3.15,
       "weight": 1.000125,
       "eggHeight": 2.105292771513264,
       "eggWeight": 0.8,
       "parents": "Bumblebee + Rabbit",
-      "spawnWeight": 20.0,
+      "spawnWeight": 8388608,
       "description": "A springy garden pollinator. Its buzzing wings lift it just high enough to reach the sweetest flowers.",
-      "name": "Bumblebun",
+      "name": "Bunblebee",
       "region": "backyard",
       "stage": "catalogue",
-      "concept": "bumblebun.png",
+      "concept": "bunblebee-concept-textless-v1.png",
       "reference": "bumblebun.png",
       "egg": "bumblebun.png",
       "review": {
         "revision": 1,
         "danielApproved": true,
         "codexApproved": false,
-        "note": "Daniel confirmed Bumblebun as reviewed on 25 October 2026."
+        "note": "Daniel confirmed Bunblebee as reviewed on 25 October 2026."
       },
       "earnings": {
         "amount": 11,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "bumblebun",
+      "icon": "bunblebee-face-v1.png",
+      "id": "bunblebee",
       "parentStats": [
         {
           "name": "Bumblebee",
@@ -85,18 +87,18 @@
       ]
     },
     {
-      "status": "Near Threatened",
-      "height": 4.5,
-      "weight": 0.17915,
-      "eggHeight": 1.8,
-      "eggWeight": 0.5,
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
       "parents": "Mouse + Owl",
-      "spawnWeight": 12.5,
+      "spawnWeight": null,
       "description": "A tiny dusk explorer with enormous listening ears. It hides its eggs beneath soft fallen feathers.",
       "name": "Squeakaboo",
-      "region": "backyard",
-      "stage": "catalogue",
-      "concept": "squeakaboo.png",
+      "region": null,
+      "stage": "scrapped",
+      "concept": "squeakaboo-concept-textless-v1.png",
       "reference": "squeakaboo.png",
       "egg": "squeakaboo.png",
       "review": {
@@ -105,40 +107,28 @@
         "codexApproved": false,
         "note": "Stronger stride-linked wing-arm motion requested by Daniel on 25 October 2026. Updated in-game animation awaits Daniel review."
       },
+      "notes": "Moved to Scrapped ideas at Daniel's request on 26 October 2026. Existing artwork and historical review records are retained. This wiki design decision does not change installed gameplay.",
       "earnings": {
-        "amount": 13,
+        "amount": 21,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "squeakaboo",
-      "parentStats": [
-        {
-          "name": "Mouse",
-          "weightKg": 0.021,
-          "basis": "midpoint of 12 to 30 g house mouse range",
-          "url": "https://animaldiversity.org/accounts/Mus_musculus/"
-        },
-        {
-          "name": "Owl",
-          "weightKg": 0.3373,
-          "basis": "reported mean for 522 adult barn owls",
-          "url": "https://www.bto.org/learn/about-birds/birdfacts/barn-owl"
-        }
-      ]
+      "icon": "squeakaboo-face-v1.png",
+      "id": "squeakaboo"
     },
     {
       "status": "Near Threatened",
-      "height": 4.2,
+      "height": 2.94,
       "weight": 0.26475,
       "eggHeight": 2.596049226553335,
       "eggWeight": 1.5,
       "parents": "Hamster + Turtle",
-      "spawnWeight": 12.5,
+      "spawnWeight": 4194304,
       "description": "A little gardener with stuffed cheeks and a sturdy shell. Its favourite hiding place travels everywhere with it.",
       "name": "Hamsturtle",
       "region": "lake",
       "stage": "catalogue",
-      "concept": "hamsturtle.png",
+      "concept": "hamsturtle-concept-textless-v1.png",
       "reference": "hamsturtle-reconstruction-front-v2.png",
       "egg": "hamsturtle.png",
       "review": {
@@ -166,6 +156,7 @@
           "file": "hamsturtle-reconstruction-rear-v2.png"
         }
       ],
+      "icon": "hamsturtle-face-v1.png",
       "id": "hamsturtle",
       "parentStats": [
         {
@@ -183,18 +174,18 @@
       ]
     },
     {
-      "status": "Vulnerable",
-      "height": 4.0,
-      "weight": 0.53,
-      "eggHeight": 2.7587139566167913,
-      "eggWeight": 1.8,
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
       "parents": "Snail + Hedgehog",
-      "spawnWeight": 7.5,
+      "spawnWeight": null,
       "description": "A shy rain-lover carrying a spiral home. Its snail antennae peek out first to check that the garden is quiet.",
       "name": "Snailhog",
-      "region": "backyard",
-      "stage": "catalogue",
-      "concept": "snailhog.png",
+      "region": null,
+      "stage": "scrapped",
+      "concept": "snailhog-concept-textless-v1.png",
       "reference": "snailhog.png",
       "egg": "snailhog.png",
       "review": {
@@ -203,40 +194,28 @@
         "codexApproved": false,
         "note": "Daniel confirmed Snailhog as reviewed on 25 October 2026."
       },
+      "notes": "Moved to Scrapped ideas at Daniel's request on 26 October 2026. Existing artwork and historical review records are retained. This wiki design decision does not change installed gameplay.",
       "earnings": {
-        "amount": 15,
+        "amount": 24,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "snailhog",
-      "parentStats": [
-        {
-          "name": "Snail",
-          "weightKg": 0.01,
-          "basis": "midpoint of 8 to 12 g common garden snail adult range",
-          "url": "https://www.dcceew.gov.au/sites/default/files/env/pages/d8bf16ca-362b-4e6d-9144-4b71770bd6b6/files/garden-snails-department-risk-analysis.pdf"
-        },
-        {
-          "name": "Hedgehog",
-          "weightKg": 1.05,
-          "basis": "midpoint of 600 to 1500 g European hedgehog range",
-          "url": "https://animaldiversity.org/accounts/Erinaceus/"
-        }
-      ]
+      "icon": "snailhog-face-v1.png",
+      "id": "snailhog"
     },
     {
       "status": "Vulnerable",
-      "height": 4.0,
+      "height": 2.8,
       "weight": 0.045,
       "eggHeight": 1.9127854245287002,
       "eggWeight": 0.6,
       "parents": "Worm + Axolotl",
-      "spawnWeight": 7.5,
+      "spawnWeight": 2097152,
       "description": "A cheerful wriggler that keeps damp soil soft. Its frilly gills flutter when it finds a puddle.",
       "name": "Wrigglotl",
       "region": "backyard",
       "stage": "catalogue",
-      "concept": "wrigglotl.png",
+      "concept": "wrigglotl-concept-textless-v1.png",
       "reference": "wrigglotl-reconstruction-front-v2.png",
       "egg": "wrigglotl.png",
       "review": {
@@ -246,7 +225,7 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": 16,
+        "amount": 40,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -264,6 +243,7 @@
           "file": "wrigglotl-reconstruction-rear-v2.png"
         }
       ],
+      "icon": "wrigglotl-face-v1.png",
       "id": "wrigglotl",
       "parentStats": [
         {
@@ -282,18 +262,18 @@
     },
     {
       "status": "Least Concern",
-      "height": 4.8,
+      "height": 3.36,
       "weight": 12.87379,
       "eggHeight": 2.4099586202958103,
       "eggWeight": 1.2,
       "parents": "Cockatoo + Poodle",
-      "spawnWeight": 20.0,
+      "spawnWeight": 8388608,
       "description": "A lively curly-coated companion with floppy poodle ears, a sunny yellow cockatoo crest, a curved beak and feathered wings. Its puppy-like body stands on four soft paws, with a fan of feathers for a tail.",
       "name": "Cockapoodle",
       "region": "backyard",
       "stage": "catalogue",
-      "concept": "cockapoodle.png",
-      "notes": "Rig, egg and gameplay setup added on 25 October 2026. Cockapoodle takes the Backyard slot after Chickitten moved to the Farmland design lineup.",
+      "concept": "cockapoodle-concept-textless-v1.png",
+      "notes": "Rig, egg and gameplay setup added on 25 October 2026. Cockapoodle takes the Backyard slot after Cluckitty moved to the Farmland design lineup.",
       "review": {
         "revision": 2,
         "danielApproved": false,
@@ -301,7 +281,7 @@
         "note": "Textured native rig with idle, walking, wing motion, blinking and head looks added on 25 October 2026. Daniel review and live gameplay acceptance pending."
       },
       "earnings": {
-        "amount": 12,
+        "amount": 20,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -321,6 +301,7 @@
           "file": "cockapoodle-reconstruction-rear-v2.png"
         }
       ],
+      "icon": "cockapoodle-face-v1.png",
       "id": "cockapoodle",
       "parentStats": [
         {
@@ -339,20 +320,20 @@
     },
     {
       "status": "Least Concern",
-      "height": 4.5,
+      "height": 3.15,
       "weight": 4.075971,
       "eggHeight": 2.4099586202958103,
       "eggWeight": 1.2,
       "parents": "Chicken + Kitten",
-      "spawnWeight": 20.0,
+      "spawnWeight": 8388608,
       "description": "A plump featherball that purrs in warm nesting boxes and pounces on windblown leaves.",
-      "name": "Chickitten",
+      "name": "Cluckitty",
       "region": "farmland",
       "stage": "catalogue",
-      "reference": "chickitten.png",
-      "egg": "chickitten.png",
+      "reference": "chickitten-reconstruction-front-farm-v2.png",
+      "egg": "chickitten-egg-farm-v1.png",
       "notes": "Moving to Farmland in the design lineup. The current gameplay catalogue still includes it among the original starter species.",
-      "concept": "chickitten.png",
+      "concept": "cluckitty-concept-textless-v1.png",
       "review": {
         "revision": 1,
         "danielApproved": false,
@@ -364,7 +345,8 @@
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "id": "chickitten",
+      "icon": "cluckitty-face-v1.png",
+      "id": "cluckitty",
       "parentStats": [
         {
           "name": "Chicken",
@@ -381,18 +363,18 @@
       ]
     },
     {
-      "status": null,
-      "height": 5.0,
+      "status": "Least Concern",
+      "height": 3.5,
       "weight": 168.055973,
-      "eggHeight": null,
-      "eggWeight": null,
+      "eggHeight": 2.857321893542759,
+      "eggWeight": 2.0,
       "parents": "Pig + Pug",
-      "spawnWeight": null,
+      "spawnWeight": 8388608,
       "description": "A plump little pig with a pug's expressive brown eyes, floppy ears and dark muzzle. Its pink pig snout, tiny hooves and curled pig tail keep its farm identity clear.",
       "name": "Puglet",
       "region": "farmland",
-      "stage": "concept",
-      "concept": "puglet.png",
+      "stage": "catalogue",
+      "concept": "puglet-concept-textless-v1.png",
       "review": {
         "revision": 1,
         "danielApproved": false,
@@ -400,10 +382,14 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": 12.5,
+        "amount": 13,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
+      "reference": "puglet-reconstruction-front-farm-v2.png",
+      "egg": "puglet-egg-farm-v1.png",
+      "notes": "Farm eggs are implemented using the shared spawn and custody systems. The hatchling creature intentionally uses the pink model not found marker until its real 3D model is supplied.",
+      "icon": "puglet-face-v1.png",
       "id": "puglet",
       "parentStats": [
         {
@@ -422,97 +408,67 @@
     },
     {
       "status": null,
-      "height": 5.5,
-      "weight": 353.235058,
+      "height": null,
+      "weight": null,
       "eggHeight": null,
       "eggWeight": null,
       "parents": "Cow + Dalmatian",
       "spawnWeight": null,
       "description": "A fluffy little calf with soft black-and-white Dalmatian markings and long floppy ears. Small cow horns, a broad pink muzzle, cloven hooves and a tufted tail complete its friendly silhouette.",
       "name": "Dalmootian",
-      "region": "farmland",
-      "stage": "concept",
-      "concept": "dalmootian.png",
+      "region": null,
+      "stage": "scrapped",
+      "concept": "dalmootian-concept-textless-v1.png",
       "review": {
         "revision": 1,
         "danielApproved": false,
         "codexApproved": false,
         "note": "Model appearance and gameplay review pending."
       },
-      "earnings": {
-        "amount": 14.5,
-        "intervalSeconds": 1,
-        "condition": "placedAtHome"
-      },
-      "id": "dalmootian",
-      "parentStats": [
-        {
-          "name": "Cow",
-          "weightKg": 680.388555,
-          "basis": "reported typical mature Holstein cow weight of 1500 lb, matching the black-and-white cow design",
-          "url": "https://www.holsteinusa.com/holstein_breed/holstein101.html?tab=7"
-        },
-        {
-          "name": "Dalmatian",
-          "weightKg": 26.081561275000002,
-          "basis": "midpoint of 45 to 70 lb adult breed range",
-          "url": "https://www.akc.org/expert-advice/nutrition/breed-weight-chart/"
-        }
-      ]
+      "reference": "dalmootian-reconstruction-front-farm-v2.png",
+      "egg": "dalmootian-egg-farm-v1.png",
+      "notes": "Moved from Clover Farm to Scrapped ideas at Daniel's request on 26 October 2026. Artwork is retained as a rejected design.",
+      "icon": "dalmootian-face-v1.png",
+      "id": "dalmootian"
     },
     {
       "status": null,
-      "height": 5.5,
-      "weight": 253.921185,
+      "height": null,
+      "weight": null,
       "eggHeight": null,
       "eggWeight": null,
       "parents": "Horse + Kangaroo",
       "spawnWeight": null,
       "description": "A chestnut pony with a tousled dark mane, upright kangaroo ears and powerful hind legs. Small hoofed forelimbs rest beside its cream chest, while a thick kangaroo tail balances its rounded body.",
       "name": "Horsaroo",
-      "region": "farmland",
-      "stage": "concept",
-      "concept": "horsaroo.png",
+      "region": null,
+      "stage": "scrapped",
+      "concept": "horsaroo-concept-textless-v1.png",
       "review": {
         "revision": 1,
         "danielApproved": false,
         "codexApproved": false,
         "note": "Model appearance and gameplay review pending."
       },
-      "earnings": {
-        "amount": 16.5,
-        "intervalSeconds": 1,
-        "condition": "placedAtHome"
-      },
-      "id": "horsaroo",
-      "parentStats": [
-        {
-          "name": "Horse",
-          "weightKg": 453.59237,
-          "basis": "midpoint of the 900 to 1100 lb average adult horse range",
-          "url": "https://ucanr.edu/site/small-acreage-landowners/horses"
-        },
-        {
-          "name": "Kangaroo",
-          "weightKg": 54.25,
-          "basis": "equal-sex mean of midpoints: males 65 to 92 kg, females 25 to 35 kg, red kangaroo",
-          "url": "https://www.taronga.org.au/wildlife-and-conservation/animals/detail/red-kangaroo"
-        }
-      ]
+      "reference": "horsaroo-reconstruction-front-farm-v1.png",
+      "egg": "horsaroo-egg-farm-v1.png",
+      "notes": "Moved from Clover Farm to Scrapped ideas at Daniel's request on 26 October 2026. Artwork is retained as a rejected design.",
+      "icon": "horsaroo-face-v1.png",
+      "id": "horsaroo"
     },
     {
-      "status": null,
-      "height": 5.5,
+      "status": "Near Threatened",
+      "height": 3.85,
       "weight": 81.25,
-      "eggHeight": null,
-      "eggWeight": null,
+      "eggHeight": 2.857321893542759,
+      "eggWeight": 2.0,
       "parents": "Alpaca + Panda",
-      "spawnWeight": null,
+      "spawnWeight": 4194304,
       "description": "A cloud-soft alpaca with a long neck, rounded black panda ears and gentle panda eye patches. Cream fleece, a dark shoulder band, black lower legs and a little fluffy tail make its two animal parents easy to recognise.",
       "name": "Alpanda",
       "region": "farmland",
-      "stage": "concept",
-      "concept": "alpanda.png",
+      "stage": "catalogue",
+      "concept": "alpanda-concept-textless-v1.png",
       "review": {
         "revision": 1,
         "danielApproved": false,
@@ -520,10 +476,14 @@
         "note": "Model appearance and gameplay review pending."
       },
       "earnings": {
-        "amount": 17.5,
+        "amount": 18,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
+      "reference": "alpanda-reconstruction-front-farm-v2.png",
+      "egg": "alpanda-egg-farm-v1.png",
+      "notes": "Farm eggs are implemented using the shared spawn and custody systems. The hatchling creature intentionally uses the pink model not found marker until its real 3D model is supplied.",
+      "icon": "alpanda-face-v1.png",
       "id": "alpanda",
       "parentStats": [
         {
@@ -541,19 +501,19 @@
       ]
     },
     {
-      "status": null,
-      "height": 5.5,
+      "status": "Vulnerable",
+      "height": 3.85,
       "weight": 574.0,
-      "eggHeight": null,
-      "eggWeight": null,
+      "eggHeight": 3.077956704018055,
+      "eggWeight": 2.5,
       "parents": "Sheep + Walrus",
-      "spawnWeight": null,
+      "spawnWeight": 2097152,
       "description": "A round sheep wrapped in thick cream curls, with a broad walrus muzzle, soft whiskers and two small ivory tusks. Four short legs end in cloven sheep hooves, and a tiny woolly tail peeks out at the back.",
       "name": "Woolrus",
       "region": "farmland",
-      "stage": "concept",
-      "concept": "woolrus.png",
-      "notes": "Selected as the farm's sheep hybrid. New measurements, endangered status and egg artwork are still to be decided.",
+      "stage": "catalogue",
+      "concept": "woolrus-concept-textless-v1.png",
+      "notes": "Farm eggs are implemented using the shared spawn and custody systems. The hatchling creature intentionally uses the pink model not found marker until its real 3D model is supplied.",
       "review": {
         "revision": 1,
         "danielApproved": false,
@@ -565,6 +525,9 @@
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
+      "reference": "woolrus-reconstruction-front-farm-v2.png",
+      "egg": "woolrus-egg-farm-v1.png",
+      "icon": "woolrus-face-v1.png",
       "id": "woolrus",
       "parentStats": [
         {
@@ -591,7 +554,7 @@
       "region": null,
       "stage": "scrapped",
       "parents": "Sheep + Baboon",
-      "concept": "baaboon.png",
+      "concept": "baaboon-concept-textless-v1.png",
       "description": "An upright sheep-baboon hybrid with warm brown curly wool, lighter tan cheeks and chest, a friendly baboon muzzle and a curved monkey tail. It walks on two cloven sheep-hoofed feet and has two arms ending in monkey hands.",
       "notes": "Scrapped sheep concept. Woolrus is the selected Farmland creature. This latest Baaboon design includes brown wool and upright walking.",
       "review": {
@@ -600,6 +563,7 @@
         "codexApproved": false,
         "note": "Model appearance and gameplay review pending."
       },
+      "spawnWeight": null,
       "id": "baaboon"
     },
     {
@@ -612,7 +576,7 @@
       "region": null,
       "stage": "scrapped",
       "parents": "Banana + Orangutan",
-      "concept": "pisangitang.png",
+      "concept": "pisangitang-concept-textless-v1.png",
       "description": "A curved banana-shaped creature with banana-yellow skin beneath shaggy orange orangutan fur. Thick fur covers its body and back, leaving its friendly face, broad hands and feet exposed, with small glimpses of yellow skin between the fur. Long arms and short legs complete its playful silhouette.",
       "notes": "Retained in the concept and rejected creature collection at Daniel's request on 25 October 2026. The latest concept has a whole unpeeled banana body, dense fur especially across the back, and no separate banana on its head. No region, measurements or conservation status have been assigned. The egg study is included in the concept sheet.",
       "review": {
@@ -621,7 +585,68 @@
         "codexApproved": false,
         "note": "Model appearance and gameplay review pending."
       },
+      "spawnWeight": null,
       "id": "pisangitang"
+    },
+    {
+      "status": "Least Concern",
+      "height": 3.85,
+      "weight": 367.3192775,
+      "eggHeight": 3.2708170670978514,
+      "eggWeight": 3.0,
+      "parents": "Cow + Kangaroo",
+      "spawnWeight": 8388608,
+      "description": "A spotted little cow with tall kangaroo ears, small ivory horns and a broad pink muzzle. Short hoofed forearms rest above its pouch, while strong hopping legs and a thick tufted tail support its rounded body.",
+      "name": "Mooroo",
+      "region": "farmland",
+      "stage": "catalogue",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Concept artwork only. In-game model and animation review pending."
+      },
+      "earnings": {
+        "amount": 17,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "notes": "Farm eggs are implemented using the shared spawn and custody systems. The hatchling creature intentionally uses the pink model not found marker until its real 3D model is supplied.",
+      "concept": "mooroo-concept-textless-v1.png",
+      "reference": "mooroo-reconstruction-front-v1.png",
+      "egg": "mooroo-egg-v1.png",
+      "icon": "mooroo-face-v1.png",
+      "id": "mooroo"
+    },
+    {
+      "status": "Least Concern",
+      "height": 3.15,
+      "weight": 0.53,
+      "eggHeight": 2.105292771513264,
+      "eggWeight": 0.8,
+      "parents": "Hedgehog + Grasshopper",
+      "spawnWeight": 8388608,
+      "description": "A friendly green garden hopper with a large head, glossy black eyes and a gently tapered hedgehog muzzle. Fine dark-green spines with pale-green tips flow from its crown across the entire back and down both sides, above a smooth segmented olive-green underside. Two small front legs and two large folded jumping legs support its wingless body, while slender pointed antennae rise above its rounded green ears.",
+      "name": "Hedgehopper",
+      "region": "backyard",
+      "stage": "catalogue",
+      "review": {
+        "revision": 4,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Concept artwork only. In-game model and animation review pending."
+      },
+      "earnings": {
+        "amount": 13,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "notes": "Hedgehopper eggs now use the shared Backyard spawn, carry and hatch systems. Least Concern gives score 8,388,608 and a 4/17 share of the current Backyard pool. Base earnings are $13 per second at Home. The creature rig remains a pink model not found marker. Initial game tuning: adult height 3.15 studs, adult weight 0.53 kg and egg weight 0.8 kg at standard size. Creature model and animation review are pending.",
+      "concept": "hedgehopper-single-concept-v7.png",
+      "reference": "hedgehopper-model-reference-front-v7.png",
+      "egg": "hedgehopper-egg-v2.png",
+      "icon": "hedgehopper-face-v1.png",
+      "id": "hedgehopper"
     }
   ],
   "regions": [
@@ -667,7 +692,7 @@
     },
     {
       "id": "jungle",
-      "name": "Emerald Jungle",
+      "name": "Jungle Wilds",
       "route": "main",
       "color": [
         40,
@@ -817,34 +842,46 @@
   "spawns": {
     "backyard": [
       {
-        "species": "Squeakaboo",
-        "chance": 14.285714285714285
-      },
-      {
         "species": "Labraduck",
-        "chance": 22.857142857142858
+        "chance": 23.52941176470588
       },
       {
-        "species": "Bumblebun",
-        "chance": 22.857142857142858
+        "species": "Bunblebee",
+        "chance": 23.52941176470588
       },
       {
         "species": "Cockapoodle",
-        "chance": 22.857142857142858
+        "chance": 23.52941176470588
+      },
+      {
+        "species": "Hedgehopper",
+        "chance": 23.52941176470588
       },
       {
         "species": "Wrigglotl",
-        "chance": 8.571428571428571
-      },
-      {
-        "species": "Snailhog",
-        "chance": 8.571428571428571
+        "chance": 5.88235294117647
       }
     ],
     "farmland": [
       {
-        "species": "Placeholder",
-        "chance": 100
+        "species": "Cluckitty",
+        "chance": 26.666666666666668
+      },
+      {
+        "species": "Puglet",
+        "chance": 26.666666666666668
+      },
+      {
+        "species": "Mooroo",
+        "chance": 26.666666666666668
+      },
+      {
+        "species": "Alpanda",
+        "chance": 13.333333333333334
+      },
+      {
+        "species": "Woolrus",
+        "chance": 6.666666666666667
       }
     ],
     "lake": [
@@ -913,5 +950,21 @@
         "chance": 100
       }
     ]
+  },
+  "spawnScores": {
+    "Least Concern": 8388608,
+    "Near Threatened": 4194304,
+    "Vulnerable": 2097152,
+    "Endangered": 1048576,
+    "Critically Endangered": 524288,
+    "Extinct in the Wild": 262144,
+    "Extinct": 131072,
+    "Alien Least Concern": 65536,
+    "Alien Near Threatened": 32768,
+    "Alien Vulnerable": 16384,
+    "Alien Endangered": 8192,
+    "Alien Critically Endangered": 4096,
+    "Alien Extinct in the Wild": 2048,
+    "Alien Extinct": 1024
   }
 }

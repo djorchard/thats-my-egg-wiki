@@ -1892,14 +1892,14 @@
     "rows": [
       {
         "added": 0,
-        "capacity": 5,
+        "capacity": 3,
         "cost": 0,
         "depth": 60,
         "frontage": 45,
         "level": 0
       },
       {
-        "added": 3,
+        "added": 5,
         "capacity": 8,
         "cost": 50000,
         "depth": 70.8,

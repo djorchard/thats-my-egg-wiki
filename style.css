@@ -75,3 +75,11 @@
 @media(max-width:680px){.guide-contents ul{columns:1}}
 .garden-upgrades{min-width:680px}
 .garden-upgrade-scroll{max-width:100%;overflow-x:auto}
+
+.guardian-profile{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(220px,1fr);gap:24px;align-items:center;margin-bottom:24px}
+.guardian-portrait{margin:0;min-width:0}
+.guardian-portrait img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:12px}
+.guardian-details h3{margin-top:0;font-size:26px}
+.guardian-details .notice{margin-bottom:0}
+@media(max-width:1000px){.guardian-profile{grid-template-columns:1fr}.guardian-details h3{font-size:24px}}
+

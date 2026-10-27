@@ -1777,9 +1777,12 @@
     {
       "biome": "backyard",
       "name": "Labraduck",
-      "chase": 17.5,
+      "chase": 17.0,
       "patrol": 7.0,
       "eggReturn": 17.5,
+      "image": "assets/guardian/labraduck.png",
+      "imageRegion": "backyard",
+      "prototype": false,
       "tuning": "Progressive main route"
     },
     {
@@ -1788,6 +1791,9 @@
       "chase": 22.0,
       "patrol": 7.0,
       "eggReturn": 17.5,
+      "image": "assets/guardian/grim-peeper.png",
+      "imageRegion": "farmland",
+      "prototype": true,
       "tuning": "Progressive main route"
     },
     {
@@ -1796,6 +1802,9 @@
       "chase": 26.0,
       "patrol": 7.0,
       "eggReturn": 17.5,
+      "image": "assets/guardian/hamsturtle.png",
+      "imageRegion": "lake",
+      "prototype": false,
       "tuning": "Progressive main route"
     },
     {
@@ -1804,6 +1813,9 @@
       "chase": 30.0,
       "patrol": 7.0,
       "eggReturn": 17.5,
+      "image": "assets/guardian/grim-peeper.png",
+      "imageRegion": "farmland",
+      "prototype": true,
       "tuning": "Progressive main route"
     },
     {
@@ -1812,6 +1824,9 @@
       "chase": 34.0,
       "patrol": 7.0,
       "eggReturn": 17.5,
+      "image": "assets/guardian/grim-peeper.png",
+      "imageRegion": "farmland",
+      "prototype": true,
       "tuning": "Progressive main route"
     },
     {
@@ -1820,6 +1835,9 @@
       "chase": 17.5,
       "patrol": 7.0,
       "eggReturn": 17.5,
+      "image": "assets/guardian/grim-peeper.png",
+      "imageRegion": "farmland",
+      "prototype": true,
       "tuning": "Default, awaiting tuning"
     },
     {
@@ -1828,6 +1846,9 @@
       "chase": 17.5,
       "patrol": 7.0,
       "eggReturn": 17.5,
+      "image": "assets/guardian/grim-peeper.png",
+      "imageRegion": "farmland",
+      "prototype": true,
       "tuning": "Default, awaiting tuning"
     },
     {
@@ -1836,6 +1857,9 @@
       "chase": 17.5,
       "patrol": 7.0,
       "eggReturn": 17.5,
+      "image": "assets/guardian/grim-peeper.png",
+      "imageRegion": "farmland",
+      "prototype": true,
       "tuning": "Default, awaiting tuning"
     },
     {
@@ -1844,6 +1868,9 @@
       "chase": 17.5,
       "patrol": 7.0,
       "eggReturn": 17.5,
+      "image": "assets/guardian/grim-peeper.png",
+      "imageRegion": "farmland",
+      "prototype": true,
       "tuning": "Default, awaiting tuning"
     },
     {
@@ -1852,6 +1879,9 @@
       "chase": 17.5,
       "patrol": 7.0,
       "eggReturn": 17.5,
+      "image": "assets/guardian/grim-peeper.png",
+      "imageRegion": "farmland",
+      "prototype": true,
       "tuning": "Default, awaiting tuning"
     },
     {
@@ -1860,6 +1890,9 @@
       "chase": 17.5,
       "patrol": 7.0,
       "eggReturn": 17.5,
+      "image": "assets/guardian/grim-peeper.png",
+      "imageRegion": "farmland",
+      "prototype": true,
       "tuning": "Default, awaiting tuning"
     },
     {
@@ -1868,6 +1901,9 @@
       "chase": 17.5,
       "patrol": 7.0,
       "eggReturn": 17.5,
+      "image": "assets/guardian/grim-peeper.png",
+      "imageRegion": "farmland",
+      "prototype": true,
       "tuning": "Default, awaiting tuning"
     },
     {
@@ -1876,6 +1912,9 @@
       "chase": 17.5,
       "patrol": 7.0,
       "eggReturn": 17.5,
+      "image": "assets/guardian/grim-peeper.png",
+      "imageRegion": "farmland",
+      "prototype": true,
       "tuning": "Default, awaiting tuning"
     },
     {
@@ -1884,6 +1923,9 @@
       "chase": 17.5,
       "patrol": 7.0,
       "eggReturn": 17.5,
+      "image": "assets/guardian/grim-peeper.png",
+      "imageRegion": "farmland",
+      "prototype": true,
       "tuning": "Default, awaiting tuning"
     }
   ],

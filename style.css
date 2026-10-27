@@ -55,3 +55,12 @@
 
 /* Keep the expanded navigation readable at tablet widths. */
 @media(min-width:681px) and (max-width:1100px){header{height:112px;flex-wrap:wrap;align-content:center;gap:12px;padding:12px 24px}.brand{white-space:nowrap}.header-links{width:100%;font-size:13px;gap:10px 18px}.header-links a{white-space:nowrap}.sidebar{top:112px;height:calc(100vh - 112px)}}
+
+/* Garden upgrade table, including sideways scrolling on smaller screens. */
+.garden-upgrades{width:100%;min-width:680px;border-collapse:collapse;font-size:14px;text-align:left}
+.garden-upgrades caption{color:var(--muted);text-align:left;padding:0 0 12px}
+.garden-upgrades th,.garden-upgrades td{padding:12px 14px;border:1px solid var(--line);vertical-align:top}
+.garden-upgrades thead{background:var(--row)}
+.garden-upgrades tbody th{font-weight:600}
+.garden-upgrades td{font-variant-numeric:tabular-nums}
+.garden-upgrade-scroll{max-width:100%;overflow-x:auto}

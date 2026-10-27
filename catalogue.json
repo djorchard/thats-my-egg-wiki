@@ -1656,5 +1656,146 @@
     "Alien Critically Endangered": 4096,
     "Alien Extinct in the Wild": 2048,
     "Alien Extinct": 1024
+  },
+  "gardens": {
+    "levels": 16,
+    "rows": [
+      {
+        "added": 0,
+        "capacity": 5,
+        "cost": 0,
+        "depth": 60,
+        "frontage": 45,
+        "level": 0
+      },
+      {
+        "added": 3,
+        "capacity": 8,
+        "cost": 50000,
+        "depth": 70.8,
+        "frontage": 50.4,
+        "level": 1
+      },
+      {
+        "added": 2,
+        "capacity": 10,
+        "cost": 80000,
+        "depth": 78,
+        "frontage": 54,
+        "level": 2
+      },
+      {
+        "added": 2,
+        "capacity": 12,
+        "cost": 128000,
+        "depth": 85.2,
+        "frontage": 57.6,
+        "level": 3
+      },
+      {
+        "added": 2,
+        "capacity": 14,
+        "cost": 204800,
+        "depth": 92.4,
+        "frontage": 61.2,
+        "level": 4
+      },
+      {
+        "added": 2,
+        "capacity": 16,
+        "cost": 327680,
+        "depth": 99.6,
+        "frontage": 64.8,
+        "level": 5
+      },
+      {
+        "added": 2,
+        "capacity": 18,
+        "cost": 524290,
+        "depth": 106.80000000000001,
+        "frontage": 68.4,
+        "level": 6
+      },
+      {
+        "added": 2,
+        "capacity": 20,
+        "cost": 838860,
+        "depth": 114,
+        "frontage": 72,
+        "level": 7
+      },
+      {
+        "added": 2,
+        "capacity": 22,
+        "cost": 1342180,
+        "depth": 121.2,
+        "frontage": 75.6,
+        "level": 8
+      },
+      {
+        "added": 1,
+        "capacity": 23,
+        "cost": 2147480,
+        "depth": 124.8,
+        "frontage": 77.4,
+        "level": 9
+      },
+      {
+        "added": 1,
+        "capacity": 24,
+        "cost": 3435970,
+        "depth": 128.4,
+        "frontage": 79.2,
+        "level": 10
+      },
+      {
+        "added": 1,
+        "capacity": 25,
+        "cost": 5497560,
+        "depth": 132,
+        "frontage": 81,
+        "level": 11
+      },
+      {
+        "added": 1,
+        "capacity": 26,
+        "cost": 8796090,
+        "depth": 135.60000000000002,
+        "frontage": 82.80000000000001,
+        "level": 12
+      },
+      {
+        "added": 1,
+        "capacity": 27,
+        "cost": 14073750,
+        "depth": 139.2,
+        "frontage": 84.6,
+        "level": 13
+      },
+      {
+        "added": 1,
+        "capacity": 28,
+        "cost": 22518000,
+        "depth": 142.8,
+        "frontage": 86.4,
+        "level": 14
+      },
+      {
+        "added": 1,
+        "capacity": 29,
+        "cost": 36028800,
+        "depth": 146.4,
+        "frontage": 88.2,
+        "level": 15
+      },
+      {
+        "added": 1,
+        "capacity": 30,
+        "cost": 57646080,
+        "depth": 150,
+        "frontage": 90,
+        "level": 16
+      }
+    ]
   }
 }

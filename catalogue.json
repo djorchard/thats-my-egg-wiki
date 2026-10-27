@@ -1395,6 +1395,16 @@
       ]
     },
     {
+      "id": "lost_world",
+      "name": "Lost World",
+      "route": "water",
+      "color": [
+        100,
+        155,
+        69
+      ]
+    },
+    {
       "id": "desert",
       "name": "Golden Dunes",
       "route": "fire",
@@ -1619,6 +1629,12 @@
       }
     ],
     "outer_space": [
+      {
+        "species": "Placeholder",
+        "chance": 100
+      }
+    ],
+    "lost_world": [
       {
         "species": "Placeholder",
         "chance": 100

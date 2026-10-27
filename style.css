@@ -55,12 +55,23 @@
 
 /* Keep the expanded navigation readable at tablet widths. */
 @media(min-width:681px) and (max-width:1100px){header{height:112px;flex-wrap:wrap;align-content:center;gap:12px;padding:12px 24px}.brand{white-space:nowrap}.header-links{width:100%;font-size:13px;gap:10px 18px}.header-links a{white-space:nowrap}.sidebar{top:112px;height:calc(100vh - 112px)}}
+.guardian-table{width:100%;border-collapse:collapse;font-size:14px;text-align:left}
+.guardian-table caption{color:var(--muted);text-align:left;padding:0 0 12px}
+.guardian-table th,.guardian-table td{padding:12px 14px;border:1px solid var(--line);vertical-align:top}
+.guardian-table thead{background:var(--row)}
+.guardian-table tbody th{font-weight:600}
+.guardian-table td{font-variant-numeric:tabular-nums}
 
-/* Garden upgrade table, including sideways scrolling on smaller screens. */
-.garden-upgrades{width:100%;min-width:680px;border-collapse:collapse;font-size:14px;text-align:left}
-.garden-upgrades caption{color:var(--muted);text-align:left;padding:0 0 12px}
-.garden-upgrades th,.garden-upgrades td{padding:12px 14px;border:1px solid var(--line);vertical-align:top}
-.garden-upgrades thead{background:var(--row)}
-.garden-upgrades tbody th{font-weight:600}
-.garden-upgrades td{font-variant-numeric:tabular-nums}
+/* Long game guides reuse the wiki surfaces and keep navigation inside the viewport. */
+.guide-contents{padding:20px 24px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius)}
+.guide-contents ul{columns:2;column-gap:32px;margin-bottom:0;padding-left:20px}
+.guide-contents li{break-inside:avoid;margin:0 0 8px}
+.guide-contents a,.guide-related a{text-decoration:underline;text-underline-offset:3px}
+.guide-section{max-width:1000px}
+.guide-section h2{margin-top:12px}
+.guide-section .source-note{overflow-wrap:anywhere}
+.header-links{flex-wrap:wrap;gap:10px 18px}
+@media(min-width:681px){header{height:auto;min-height:112px;flex-wrap:wrap;align-content:center;gap:12px;padding-top:12px;padding-bottom:12px}.brand{white-space:nowrap}.header-links{width:100%}.sidebar{top:112px;height:calc(100vh - 112px)}}
+@media(max-width:680px){.guide-contents ul{columns:1}}
+.garden-upgrades{min-width:680px}
 .garden-upgrade-scroll{max-width:100%;overflow-x:auto}

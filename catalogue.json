@@ -3,7 +3,7 @@
     {
       "status": "Least Concern",
       "height": 3.5,
-      "weight": 15.849742,
+      "weight": 45.312456643533,
       "eggHeight": 3.6,
       "eggWeight": 4.0,
       "parents": "Labrador + Duck",
@@ -33,20 +33,30 @@
           "name": "Labrador",
           "weightKg": 30.617484975,
           "basis": "midpoint of 55 to 80 lb adult breed range",
-          "url": "https://www.akc.org/expert-advice/dog-breeds/labrador-retriever-right-for-you/"
+          "url": "https://www.akc.org/expert-advice/dog-breeds/labrador-retriever-right-for-you/",
+          "sizeMetres": 0.5842,
+          "sizeDimension": "shoulder height",
+          "sizeBasis": "equal-sex midpoint of male 22.5 to 24.5 and female 21.5 to 23.5 inches",
+          "sizeUrl": "https://www.akc.org/dog-breeds/Labrador-retriever/"
         },
         {
           "name": "Duck",
           "weightKg": 1.082,
           "basis": "reported adult mallard mean",
-          "url": "https://animaldiversity.org/accounts/Anas_platyrhynchos/"
+          "url": "https://animaldiversity.org/accounts/Anas_platyrhynchos/",
+          "sizeMetres": 0.575,
+          "sizeDimension": "body length",
+          "sizeBasis": "midpoint of 50 to 65 cm mallard length; bird body-size proxy",
+          "sizeUrl": "https://www.acopiancenter.am/boa.asp?id=82"
         }
-      ]
+      ],
+      "parentMeanSizeMetres": 0.5796,
+      "parentMeanWeightKg": 15.8497424875
     },
     {
       "status": "Least Concern",
       "height": 3.15,
-      "weight": 1.000125,
+      "weight": 15.032411360947,
       "eggHeight": 2.105292771513264,
       "eggWeight": 0.8,
       "parents": "Bumblebee + Rabbit",
@@ -76,15 +86,25 @@
           "name": "Bumblebee",
           "weightKg": 0.00025,
           "basis": "midpoint of 200 to 300 mg live worker study range",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3095635/"
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3095635/",
+          "sizeMetres": 0.015,
+          "sizeDimension": "body length",
+          "sizeBasis": "midpoint of 8 to 22 mm Bombus terrestris worker length",
+          "sizeUrl": "https://agriculture.vic.gov.au/biosecurity/pest-insects-and-mites/priority-pest-insects-and-mites/bumblebee"
         },
         {
           "name": "Rabbit",
           "weightKg": 2,
           "basis": "midpoint of 1.5 to 2.5 kg European rabbit range",
-          "url": "https://animaldiversity.org/accounts/Oryctolagus_cuniculus/"
+          "url": "https://animaldiversity.org/accounts/Oryctolagus_cuniculus/",
+          "sizeMetres": 0.44,
+          "sizeDimension": "body length",
+          "sizeBasis": "midpoint of 38 to 50 cm European rabbit length",
+          "sizeUrl": "https://animaldiversity.org/accounts/Oryctolagus_cuniculus/"
         }
-      ]
+      ],
+      "parentMeanSizeMetres": 0.2275,
+      "parentMeanWeightKg": 1.000125
     },
     {
       "status": null,
@@ -119,7 +139,7 @@
     {
       "status": "Near Threatened",
       "height": 2.94,
-      "weight": 0.26475,
+      "weight": 8.387932806312,
       "eggHeight": 2.596049226553335,
       "eggWeight": 1.5,
       "parents": "Hamster + Turtle",
@@ -163,15 +183,25 @@
           "name": "Hamster",
           "weightKg": 0.1125,
           "basis": "midpoint of 100 to 125 g golden hamster range",
-          "url": "https://animaldiversity.org/accounts/Mesocricetus_auratus/"
+          "url": "https://animaldiversity.org/accounts/Mesocricetus_auratus/",
+          "sizeMetres": 0.1325,
+          "sizeDimension": "body length",
+          "sizeBasis": "midpoint of 13 to 13.5 cm golden hamster length",
+          "sizeUrl": "https://animaldiversity.org/accounts/Mesocricetus_auratus/"
         },
         {
           "name": "Turtle",
           "weightKg": 0.417,
           "basis": "midpoint of published 311 to 523 g eastern box turtle gram range; conflicting pound conversion ignored",
-          "url": "https://www.marylandzoo.org/animal/eastern-box-turtle/"
+          "url": "https://www.marylandzoo.org/animal/eastern-box-turtle/",
+          "sizeMetres": 0.16,
+          "sizeDimension": "body length",
+          "sizeBasis": "midpoint of 10 to 22 cm eastern box turtle size range",
+          "sizeUrl": "https://www.marylandzoo.org/animal/eastern-box-turtle/"
         }
-      ]
+      ],
+      "parentMeanSizeMetres": 0.14625,
+      "parentMeanWeightKg": 0.26475
     },
     {
       "status": null,
@@ -206,13 +236,13 @@
     {
       "status": "Vulnerable",
       "height": 2.8,
-      "weight": 0.045,
+      "weight": 0.61252916263,
       "eggHeight": 1.9127854245287002,
       "eggWeight": 0.6,
       "parents": "Worm + Axolotl",
       "spawnWeight": 2097152,
       "description": "A cheerful wriggler that keeps damp soil soft. Its frilly gills flutter when it finds a puddle.",
-      "name": "Wrigglotl",
+      "name": "Wriggsalotl",
       "region": "backyard",
       "stage": "catalogue",
       "concept": "wrigglotl-concept-textless-v1.png",
@@ -220,9 +250,9 @@
       "egg": "wrigglotl.png",
       "review": {
         "revision": 1,
-        "danielApproved": false,
+        "danielApproved": true,
         "codexApproved": false,
-        "note": "Model appearance and gameplay review pending."
+        "note": "Daniel explicitly approved Wriggsalotl on 26 October 2026. Previously named Wrigglotl. Live gameplay validation remains separate."
       },
       "earnings": {
         "amount": 40,
@@ -244,26 +274,36 @@
         }
       ],
       "icon": "wrigglotl-face-v1.png",
-      "id": "wrigglotl",
+      "id": "wriggsalotl",
       "parentStats": [
         {
           "name": "Worm",
           "weightKg": 0.005,
           "basis": "midpoint of 3.5 to 6.5 g live adult earthworm study range",
-          "url": "https://doi.org/10.1017/wsc.2025.10060"
+          "url": "https://doi.org/10.1017/wsc.2025.10060",
+          "sizeMetres": 0.195,
+          "sizeDimension": "body length",
+          "sizeBasis": "midpoint of 90 to 300 mm adult Lumbricus terrestris range",
+          "sizeUrl": "https://publications.gc.ca/collections/collection_2023/acia-cfia/A104-252-2022-eng.pdf"
         },
         {
           "name": "Axolotl",
           "weightKg": 0.085,
           "basis": "midpoint of 60 to 110 g axolotl range",
-          "url": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/"
+          "url": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/",
+          "sizeMetres": 0.23,
+          "sizeDimension": "body length",
+          "sizeBasis": "reported 23 cm average length, rather than the conflicting rounded prose conversion",
+          "sizeUrl": "https://animaldiversity.org/accounts/Ambystoma_mexicanum/"
         }
-      ]
+      ],
+      "parentMeanSizeMetres": 0.21250000000000002,
+      "parentMeanWeightKg": 0.045000000000000005
     },
     {
       "status": "Least Concern",
       "height": 3.36,
-      "weight": 12.87379,
+      "weight": 36.992618840285,
       "eggHeight": 2.4099586202958103,
       "eggWeight": 1.2,
       "parents": "Cockatoo + Poodle",
@@ -308,20 +348,30 @@
           "name": "Cockatoo",
           "weightKg": 0.8,
           "basis": "reported sulphur-crested cockatoo mean",
-          "url": "https://animaldiversity.org/accounts/Cacatua_galerita/"
+          "url": "https://animaldiversity.org/accounts/Cacatua_galerita/",
+          "sizeMetres": 0.5,
+          "sizeDimension": "body length",
+          "sizeBasis": "reported 50 cm average sulphur-crested cockatoo length; bird body-size proxy",
+          "sizeUrl": "https://animaldiversity.org/accounts/Cacatua_galerita/"
         },
         {
           "name": "Poodle",
           "weightKg": 24.947580350000003,
           "basis": "midpoint of 40 to 70 lb standard poodle range; standard rather than toy or miniature",
-          "url": "https://www.akc.org/expert-advice/nutrition/breed-weight-chart/"
+          "url": "https://www.akc.org/expert-advice/nutrition/breed-weight-chart/",
+          "sizeMetres": 0.61,
+          "sizeDimension": "shoulder height",
+          "sizeBasis": "midpoint of the Canadian Kennel Club typical 56 to 66 cm standard poodle height",
+          "sizeUrl": "https://www.ckc.ca/en/Choosing-a-Dog/Choosing-a-Breed/Non-Sporting-Dogs/Poodle-Standard"
         }
-      ]
+      ],
+      "parentMeanSizeMetres": 0.5549999999999999,
+      "parentMeanWeightKg": 12.873790175000002
     },
     {
       "status": "Least Concern",
       "height": 3.15,
-      "weight": 4.075971,
+      "weight": 14.823297428895,
       "eggHeight": 2.4099586202958103,
       "eggWeight": 1.2,
       "parents": "Chicken + Kitten",
@@ -352,20 +402,30 @@
           "name": "Chicken",
           "weightKg": 3.401942775,
           "basis": "mean of 8.5 lb male and 6.5 lb female Rhode Island Red adult breed standards",
-          "url": "https://livestockconservancy.org/wp-content/uploads/2025/04/PickaBreedChickens2025-WATERMARKED.pdf"
+          "url": "https://livestockconservancy.org/wp-content/uploads/2025/04/PickaBreedChickens2025-WATERMARKED.pdf",
+          "sizeMetres": 0.7,
+          "sizeDimension": "standing height",
+          "sizeBasis": "representative large-fowl 70 cm reference; generic large-fowl proxy, not a measured Rhode Island Red mean",
+          "sizeUrl": "https://education.nsw.gov.au/teaching-and-learning/animals-in-schools/animals-in-schools-species/poultry-fowls/fowls-introduction"
         },
         {
           "name": "Kitten",
           "weightKg": 4.75,
           "basis": "adult domestic cat baseline, midpoint of 4.1 to 5.4 kg; kitten wording describes the hybrid design, not an undefined infant age",
-          "url": "https://animaldiversity.org/accounts/Felis_catus/"
+          "url": "https://animaldiversity.org/accounts/Felis_catus/",
+          "sizeMetres": 0.225,
+          "sizeDimension": "shoulder height",
+          "sizeBasis": "midpoint of 20 to 25 cm adult domestic cat shoulder height; adult baseline matches the existing parent mass",
+          "sizeUrl": "https://felidaefund.org/learn/cats/domestic-cat"
         }
-      ]
+      ],
+      "parentMeanSizeMetres": 0.46249999999999997,
+      "parentMeanWeightKg": 4.0759713875
     },
     {
       "status": "Least Concern",
       "height": 3.5,
-      "weight": 168.055973,
+      "weight": 594.493764536188,
       "eggHeight": 2.857321893542759,
       "eggWeight": 2.0,
       "parents": "Pig + Pug",
@@ -396,15 +456,25 @@
           "name": "Pig",
           "weightKg": 328.85446825,
           "basis": "midpoint of 450 to 1000 lb adult domestic pig range",
-          "url": "https://mnzoo.org/blog/animals/pig/"
+          "url": "https://mnzoo.org/blog/animals/pig/",
+          "sizeMetres": 0.75,
+          "sizeDimension": "standing height",
+          "sizeBasis": "midpoint of 60 to 90 cm Berkshire domestic pig height; breed proxy for the existing generic domestic-pig mass",
+          "sizeUrl": "https://tilgatezoo.co.uk/animals/pigs/"
         },
         {
           "name": "Pug",
           "weightKg": 7.25747792,
           "basis": "midpoint of 14 to 18 lb adult breed range",
-          "url": "https://www.akc.org/dog-breeds/pug/"
+          "url": "https://www.akc.org/dog-breeds/pug/",
+          "sizeMetres": 0.2921,
+          "sizeDimension": "shoulder height",
+          "sizeBasis": "midpoint of 10 to 13 inches adult height",
+          "sizeUrl": "https://www.akc.org/dog-breeds/pug/"
         }
-      ]
+      ],
+      "parentMeanSizeMetres": 0.52105,
+      "parentMeanWeightKg": 168.055973085
     },
     {
       "status": null,
@@ -459,7 +529,7 @@
     {
       "status": "Near Threatened",
       "height": 3.85,
-      "weight": 81.25,
+      "weight": 110.351292914536,
       "eggHeight": 2.857321893542759,
       "eggWeight": 2.0,
       "parents": "Alpaca + Panda",
@@ -490,20 +560,30 @@
           "name": "Alpaca",
           "weightKg": 67.5,
           "basis": "midpoint of 45 to 90 kg adult range",
-          "url": "https://nationalzoo.si.edu/animals/alpaca"
+          "url": "https://nationalzoo.si.edu/animals/alpaca",
+          "sizeMetres": 0.95,
+          "sizeDimension": "shoulder height",
+          "sizeBasis": "midpoint of the published 0.8 to 1.1 m shoulder range",
+          "sizeUrl": "https://www.nationalzoo.si.edu/animals/alpaca"
         },
         {
           "name": "Panda",
           "weightKg": 95,
           "basis": "equal-sex mean of female 70 to 100 kg and male 85 to 125 kg midpoints",
-          "url": "https://ielc.libguides.com/sdzg/factsheets/giantpanda/characteristics"
+          "url": "https://ielc.libguides.com/sdzg/factsheets/giantpanda/characteristics",
+          "sizeMetres": 0.9,
+          "sizeDimension": "shoulder height",
+          "sizeBasis": "approximately 90 cm giant panda shoulder height",
+          "sizeUrl": "https://www.tokyo-zoo.net/en/ueno/panda/history/know/index.html"
         }
-      ]
+      ],
+      "parentMeanSizeMetres": 0.925,
+      "parentMeanWeightKg": 81.25
     },
     {
       "status": "Vulnerable",
       "height": 3.85,
-      "weight": 574.0,
+      "weight": 183.324420503325,
       "eggHeight": 3.077956704018055,
       "eggWeight": 2.5,
       "parents": "Sheep + Walrus",
@@ -534,15 +614,25 @@
           "name": "Sheep",
           "weightKg": 110.5,
           "basis": "equal-sex mean of female 79 to 102 kg and male 125 to 136 kg Cotswold sheep midpoints",
-          "url": "https://www.marylandzoo.org/animal/cotswold-sheep/"
+          "url": "https://www.marylandzoo.org/animal/cotswold-sheep/",
+          "sizeMetres": 0.89,
+          "sizeDimension": "standing height",
+          "sizeBasis": "approximately 89 cm Cotswold sheep size reference",
+          "sizeUrl": "https://www.marylandzoo.org/animal/cotswold-sheep/"
         },
         {
           "name": "Walrus",
           "weightKg": 1037.5,
           "basis": "equal-sex mean of male 800 to 1700 kg and female 400 to 1250 kg midpoints",
-          "url": "https://seaworld.org/animals/facts/mammals/walrus/"
+          "url": "https://seaworld.org/animals/facts/mammals/walrus/",
+          "sizeMetres": 2.925,
+          "sizeDimension": "body length",
+          "sizeBasis": "equal-sex mean of male 2.7 to 3.6 m and female 2.3 to 3.1 m midpoints",
+          "sizeUrl": "https://seaworld.com/san-diego/-/media/migrated-media/seaworld-san-diego/files/teachers-resources/teachers-guide/tgsplashofmath48.pdf?version=1_201705114523"
         }
-      ]
+      ],
+      "parentMeanSizeMetres": 1.9075,
+      "parentMeanWeightKg": 574.0
     },
     {
       "status": null,
@@ -591,7 +681,7 @@
     {
       "status": "Least Concern",
       "height": 3.85,
-      "weight": 367.3192775,
+      "weight": 230.240732153818,
       "eggHeight": 3.2708170670978514,
       "eggWeight": 3.0,
       "parents": "Cow + Kangaroo",
@@ -617,32 +707,56 @@
       "egg": "mooroo-egg-v1.png",
       "icon": "mooroo-face-v1.png",
       "conceptNumber": 8,
-      "id": "mooroo"
+      "id": "mooroo",
+      "parentStats": [
+        {
+          "name": "Cow",
+          "weightKg": 680.388555,
+          "basis": "reported typical mature Holstein cow weight of 1500 lb, matching the black-and-white cow design",
+          "url": "https://www.holsteinusa.com/holstein_breed/holstein101.html?tab=7",
+          "sizeMetres": 1.4732,
+          "sizeDimension": "shoulder height",
+          "sizeBasis": "58 inches representative mature Holstein shoulder height",
+          "sizeUrl": "https://www2.holsteinusa.com/pdf/fact_sheet_cattle.pdf"
+        },
+        {
+          "name": "Kangaroo",
+          "weightKg": 54.25,
+          "basis": "equal-sex mean of midpoints: males 65 to 92 kg, females 25 to 35 kg, red kangaroo",
+          "url": "https://www.taronga.org.au/wildlife-and-conservation/animals/detail/red-kangaroo",
+          "sizeMetres": 1.25,
+          "sizeDimension": "standing height",
+          "sizeBasis": "representative equal-sex proxy from male 1.5 m and female 1 m figures; limits are not population means",
+          "sizeUrl": "https://www.amnh.org/explore/ology/ology-cards/310-red-kangaroo"
+        }
+      ],
+      "parentMeanSizeMetres": 1.3616000000000001,
+      "parentMeanWeightKg": 367.3192775
     },
     {
-      "status": "Least Concern",
-      "height": 3.15,
-      "weight": 0.53,
-      "eggHeight": 2.105292771513264,
-      "eggWeight": 0.8,
+      "status": null,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
       "parents": "Hedgehog + Grasshopper",
-      "spawnWeight": 8388608,
+      "spawnWeight": null,
       "description": "A friendly green garden hopper with a large head, glossy black eyes and a gently tapered hedgehog muzzle. Fine dark-green spines with pale-green tips flow from its crown across the entire back and down both sides, above a smooth segmented olive-green underside. Two small front legs and two large folded jumping legs support its wingless body, while slender pointed antennae rise above its rounded green ears.",
       "name": "Hedgehopper",
-      "region": "backyard",
-      "stage": "catalogue",
+      "region": null,
+      "stage": "scrapped",
       "review": {
-        "revision": 4,
+        "revision": 5,
         "danielApproved": false,
         "codexApproved": false,
-        "note": "Concept artwork only. In-game model and animation review pending."
+        "note": "Daniel rejected Hedgehopper's appearance and scrapped the creature on 26 October 2026."
       },
       "earnings": {
         "amount": 13,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
-      "notes": "Hedgehopper eggs now use the shared Backyard spawn, carry and hatch systems. Least Concern gives score 8,388,608 and a 4/17 share of the current Backyard pool. Base earnings are $13 per second at Home. The creature rig remains a pink model not found marker. Initial game tuning: adult height 3.15 studs, adult weight 0.53 kg and egg weight 0.8 kg at standard size. Creature model and animation review are pending.",
+      "notes": "Scrapped at Daniel's request on 26 October 2026 after he rejected its appearance. Removed from new wild rolls, developer grants and the Home preview. Existing owned records retain their measurements, assets and $13 per-second Home income. Artwork is archived for reference.",
       "concept": "hedgehopper-single-concept-v7.png",
       "reference": "hedgehopper-model-reference-front-v7.png",
       "egg": "hedgehopper-egg-v2.png",
@@ -941,7 +1055,7 @@
       "region": null,
       "stage": "concept",
       "review": {
-        "revision": 1,
+        "revision": 2,
         "danielApproved": false,
         "codexApproved": false,
         "note": "Draft concept artwork. Creature model and animation review have not started."
@@ -952,9 +1066,15 @@
         "condition": "placedAtHome"
       },
       "conceptNumber": 20,
-      "concept": "squirreel-draft-concept-v1.png",
-      "description": "A bright-eyed squirrel with a sleek winding body and a flowing, fluffy-edged tail. It slips between roots as easily as an eel slips between river stones.",
-      "notes": "Draft concept requested on 26 October 2026. Region, conservation status, measurements, earnings, egg artwork and 3D model remain to be decided.",
+      "concept": "squirreel-draft-concept-v4.png",
+      "description": "A bright-eyed, chipmunk-like face with round ears, full cheeks and tiny incisors flows into one long eel body and a single tapered tail. Copper and cream scales cover its head and body, with no fur, arms, legs or paws. It slithers in smooth side-to-side waves like a snake or eel.",
+      "notes": "Concept artwork approved by Daniel on 26 October 2026. One continuous eel lower body and tail, scales across the head and body, chipmunk-like facial features, no fur or limbs, and snake-like or eel-like slithering. Region, conservation status, measurements, earnings, egg artwork, 3D model and animation remain to be decided.",
+      "conceptReview": {
+        "revision": 4,
+        "danielApproved": true,
+        "date": "2026-10-26",
+        "note": "Approved concept artwork only. In-game model and animation review remains pending."
+      },
       "spawnWeight": null,
       "id": "squirreel"
     },
@@ -1527,23 +1647,19 @@
     "backyard": [
       {
         "species": "Labraduck",
-        "chance": 23.52941176470588
+        "chance": 30.76923076923077
       },
       {
         "species": "Bunblebee",
-        "chance": 23.52941176470588
+        "chance": 30.76923076923077
       },
       {
         "species": "Cockapoodle",
-        "chance": 23.52941176470588
+        "chance": 30.76923076923077
       },
       {
-        "species": "Hedgehopper",
-        "chance": 23.52941176470588
-      },
-      {
-        "species": "Wrigglotl",
-        "chance": 5.88235294117647
+        "species": "Wriggsalotl",
+        "chance": 7.6923076923076925
       }
     ],
     "farmland": [
@@ -1598,6 +1714,12 @@
         "chance": 100
       }
     ],
+    "lost_world": [
+      {
+        "species": "Placeholder",
+        "chance": 100
+      }
+    ],
     "desert": [
       {
         "species": "Placeholder",
@@ -1633,12 +1755,6 @@
         "species": "Placeholder",
         "chance": 100
       }
-    ],
-    "lost_world": [
-      {
-        "species": "Placeholder",
-        "chance": 100
-      }
     ]
   },
   "spawnScores": {
@@ -1657,6 +1773,120 @@
     "Alien Extinct in the Wild": 2048,
     "Alien Extinct": 1024
   },
+  "guardians": [
+    {
+      "biome": "backyard",
+      "name": "Labraduck",
+      "chase": 17.5,
+      "patrol": 7.0,
+      "eggReturn": 17.5,
+      "tuning": "Progressive main route"
+    },
+    {
+      "biome": "farmland",
+      "name": "Grim Peeper",
+      "chase": 22.0,
+      "patrol": 7.0,
+      "eggReturn": 17.5,
+      "tuning": "Progressive main route"
+    },
+    {
+      "biome": "lake",
+      "name": "Hamsturtle",
+      "chase": 26.0,
+      "patrol": 7.0,
+      "eggReturn": 17.5,
+      "tuning": "Progressive main route"
+    },
+    {
+      "biome": "forest",
+      "name": "Grim Peeper",
+      "chase": 30.0,
+      "patrol": 7.0,
+      "eggReturn": 17.5,
+      "tuning": "Progressive main route"
+    },
+    {
+      "biome": "jungle",
+      "name": "Grim Peeper",
+      "chase": 34.0,
+      "patrol": 7.0,
+      "eggReturn": 17.5,
+      "tuning": "Progressive main route"
+    },
+    {
+      "biome": "coral_reef",
+      "name": "Grim Peeper",
+      "chase": 17.5,
+      "patrol": 7.0,
+      "eggReturn": 17.5,
+      "tuning": "Default, awaiting tuning"
+    },
+    {
+      "biome": "deep_ocean",
+      "name": "Grim Peeper",
+      "chase": 17.5,
+      "patrol": 7.0,
+      "eggReturn": 17.5,
+      "tuning": "Default, awaiting tuning"
+    },
+    {
+      "biome": "lost_world",
+      "name": "Grim Peeper",
+      "chase": 17.5,
+      "patrol": 7.0,
+      "eggReturn": 17.5,
+      "tuning": "Default, awaiting tuning"
+    },
+    {
+      "biome": "desert",
+      "name": "Grim Peeper",
+      "chase": 17.5,
+      "patrol": 7.0,
+      "eggReturn": 17.5,
+      "tuning": "Default, awaiting tuning"
+    },
+    {
+      "biome": "volcano",
+      "name": "Grim Peeper",
+      "chase": 17.5,
+      "patrol": 7.0,
+      "eggReturn": 17.5,
+      "tuning": "Default, awaiting tuning"
+    },
+    {
+      "biome": "inferno",
+      "name": "Grim Peeper",
+      "chase": 17.5,
+      "patrol": 7.0,
+      "eggReturn": 17.5,
+      "tuning": "Default, awaiting tuning"
+    },
+    {
+      "biome": "sky_foothills",
+      "name": "Grim Peeper",
+      "chase": 17.5,
+      "patrol": 7.0,
+      "eggReturn": 17.5,
+      "tuning": "Default, awaiting tuning"
+    },
+    {
+      "biome": "sky_mountains",
+      "name": "Grim Peeper",
+      "chase": 17.5,
+      "patrol": 7.0,
+      "eggReturn": 17.5,
+      "tuning": "Default, awaiting tuning"
+    },
+    {
+      "biome": "outer_space",
+      "name": "Grim Peeper",
+      "chase": 17.5,
+      "patrol": 7.0,
+      "eggReturn": 17.5,
+      "tuning": "Default, awaiting tuning"
+    }
+  ],
   "gardens": {
     "levels": 16,
     "rows": [

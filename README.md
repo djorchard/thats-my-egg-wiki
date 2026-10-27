@@ -1,6 +1,6 @@
 # That's my Egg! creature wiki
 
-Creature designs, region guides, egg qualities and approved artwork.
+Game mechanics, future plans, creature designs, region guides, egg qualities and approved artwork.
 
 Visit https://djorchard.github.io/thats-my-egg-wiki/
 

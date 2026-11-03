@@ -1,0 +1,63 @@
+{
+  "cockapoodleBodyBones": 21,
+  "gameplayTested": false,
+  "pugletHeightStuds": 3.5,
+  "lidBones": 6,
+  "pugletBodyMesh": "rbxassetid://105201262564184",
+  "cockapoodleBodyMesh": "rbxassetid://134101755067188",
+  "pugletBodyBones": 20,
+  "ok": true,
+  "revision": "puglet-full-v1-fur-lids-v5",
+  "published": false,
+  "eyeRootUnweighted": true,
+  "bodyCandidatesInstalled": false,
+  "temporaryFixturesRemoved": true,
+  "maximumLidPositiveInfluences": 2,
+  "retainedPrototypes": 1,
+  "normalMap": "rbxassetid://71913043552503",
+  "colorMap": "rbxassetid://138246660791660",
+  "nativeUploadedLidVertices": 1584,
+  "saved": false,
+  "maximumNativeLidSlots": 4,
+  "lidFaces": 528,
+  "preparedLidVertices": 290,
+  "lidMesh": "rbxassetid://78974628477880",
+  "savedVotes": {
+    "studio": {
+      "Puglet": {
+        "unchanged": true,
+        "modelRating": "unreviewed",
+        "animationRating": "unreviewed",
+        "revision": 0
+      },
+      "Cockapoodle": {
+        "unchanged": true,
+        "modelRating": "unreviewed",
+        "animationRating": "unreviewed",
+        "revision": 0
+      }
+    },
+    "published": {
+      "Puglet": {
+        "unchanged": true,
+        "modelRating": "good",
+        "animationRating": "good",
+        "revision": 2
+      },
+      "Cockapoodle": {
+        "unchanged": true,
+        "modelRating": "good",
+        "animationRating": "bad",
+        "revision": 5
+      }
+    }
+  },
+  "reviewStoresWritten": false,
+  "sourceFiles": {
+    "src/creature_animation.luau": "877e99113d5773c5b563f2836cbcb52e78083ed088a1f2aa0348d52f68d820fe",
+    "src/creature_animation.client.luau": "01b9e1742315926e8f8d18f04593ad8d05b37bad576e2bf8bd077b9c75b9b603",
+    "src/creature_config.luau": "b812e0dfcb3537388aba958f1f9a5eb45534f525488265cc80c0620d5e721700",
+    "src/creature_clips_puglet.luau": "c6c3ef0723c309d73177e872376988dcef088bf3f3453ab953afb521f1ba1263",
+    "src/creature_clips_cockapoodle.luau": "7f7c7530b227a9eb86e111d4907891343cc164a5635a7f99af6c8b96ecb039f6"
+  }
+}

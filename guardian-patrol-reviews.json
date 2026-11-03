@@ -1,0 +1,365 @@
+{
+  "date": "2026-11-02",
+  "reviews": [
+    {
+      "species": "Armadillope",
+      "heightStuds": 13.5,
+      "heightMetres": 3.7800000000000002,
+      "patrolStudsPerSecond": 5,
+      "metresPerSecond": 1.4000000000000001,
+      "kilometresPerHour": 5.040000000000001,
+      "cycleSeconds": 0.8640000000000001,
+      "cyclesPerSecond": 1.1574074074074072,
+      "reusedMode": "Walk",
+      "sourceFingerprint": "31fbdb03d2776764df48662d38498dce3510f8ef87995961f9cc914db79e5cca",
+      "gif": "assets/animations/armadillope/patrol-20261102.gif",
+      "video": "assets/animations/armadillope/patrol-20261102.mp4",
+      "poster": "assets/animations/armadillope/patrol-20261102.png",
+      "date": "2026-11-02",
+      "comment": "A measured four-leg walk avoids hurried short steps while keeping the tall head and horns steady.",
+      "sourceFiles": {
+        "src/backyard_config.luau": "89134c863cc7f3facd673e5db2b7c92258c8e1a9ca8019d23fa4b54484238777",
+        "src/backyard_runtime.server.luau": "b7335ef6c79c5d855f00d5593c9c4f14afb41aa4c478e69daa70a48d65f23272",
+        "src/future_biomes.server.luau": "b3cd17e3d43388665ba535163666741957b2d2bb09b2707b64ec73a651c5d60c",
+        "src/creature_roaming.luau": "69212f78bd0697a98c3e194ad042c349e2ebeddb28b783bbecd6c552d887bdae",
+        "src/creature_animation.luau": "a3f2e14b3f8f01b77678d6d10d42dd9a55fc012ec4616fbf1a42a54a6fb57a77",
+        "src/creature_config.luau": "9ae30f2b945d37de8181e6fa59ab8ea2185374acd4035a8852e94b3a0d493d98"
+      },
+      "mediaHashes": {
+        "gif": "4100122fcdbf51d53fe91e876992abae71e0da7f0bd68a17761d39517963179c",
+        "video": "2efa4f68b6e195f2bed4fba5a7b97b264811145cbbe9d1346d1b74b68371a26a",
+        "poster": "74a40b79434e2136cf0609ba795bd557b452af81af7df5cf68f805ad15ea174a"
+      },
+      "frames": 78,
+      "durationSeconds": 2.6,
+      "assessmentScope": "Patrol speed and cadence at installed guardian scale; other action reviews are retained.",
+      "ratingOutOf10": null,
+      "ratingScope": "Existing body-animation rating remains separate",
+      "limitations": [
+        "Offline straight-line skin preview, not live gameplay.",
+        "Live corners, obstacles, water transitions and multiplayer remain untested.",
+        "The speed choice is informed artistic tuning for this fictional anatomy, not a measured biological constant."
+      ]
+    },
+    {
+      "species": "Batacuda",
+      "heightStuds": 8.96,
+      "heightMetres": 2.5088000000000004,
+      "patrolStudsPerSecond": 12,
+      "metresPerSecond": 3.3600000000000003,
+      "kilometresPerHour": 12.096000000000002,
+      "cycleSeconds": 0.4853333333333334,
+      "cyclesPerSecond": 2.0604395604395602,
+      "reusedMode": "Walk",
+      "sourceFingerprint": "849f6a7a1209bb6418a688d38253b4c5baf3a690c741f9ec3799f347340cffb6",
+      "gif": "assets/animations/batacuda/patrol-20261102.gif",
+      "video": "assets/animations/batacuda/patrol-20261102.mp4",
+      "poster": "assets/animations/batacuda/patrol-20261102.png",
+      "date": "2026-11-02",
+      "comment": "A faster aquatic cruise uses the retained wing and tail-wave cycle at about two cycles per second. Foot contact is inapplicable.",
+      "sourceFiles": {
+        "src/backyard_config.luau": "89134c863cc7f3facd673e5db2b7c92258c8e1a9ca8019d23fa4b54484238777",
+        "src/backyard_runtime.server.luau": "b7335ef6c79c5d855f00d5593c9c4f14afb41aa4c478e69daa70a48d65f23272",
+        "src/future_biomes.server.luau": "b3cd17e3d43388665ba535163666741957b2d2bb09b2707b64ec73a651c5d60c",
+        "src/creature_roaming.luau": "69212f78bd0697a98c3e194ad042c349e2ebeddb28b783bbecd6c552d887bdae",
+        "src/creature_animation.luau": "a3f2e14b3f8f01b77678d6d10d42dd9a55fc012ec4616fbf1a42a54a6fb57a77",
+        "src/creature_config.luau": "9ae30f2b945d37de8181e6fa59ab8ea2185374acd4035a8852e94b3a0d493d98"
+      },
+      "mediaHashes": {
+        "gif": "c2959a6351eeef64d4510159e96db5721b11d43bce99300cb1ca0ac5056c8ecd",
+        "video": "e09d3051107c196b480ac45a258e982e80e09997a89fd208b3e2db59a5a0f29e",
+        "poster": "261a620f0819b2cbfdcd3fa6c6682b795ff84287c5a51b2db5f9babbf032420a"
+      },
+      "frames": 73,
+      "durationSeconds": 2.433333333333333,
+      "assessmentScope": "Patrol speed and cadence at installed guardian scale; other action reviews are retained.",
+      "ratingOutOf10": null,
+      "ratingScope": "Existing body-animation rating remains separate",
+      "limitations": [
+        "Offline straight-line skin preview, not live gameplay.",
+        "Live corners, obstacles, water transitions and multiplayer remain untested.",
+        "The speed choice is informed artistic tuning for this fictional anatomy, not a measured biological constant."
+      ]
+    },
+    {
+      "species": "Crabuki",
+      "heightStuds": 9.45,
+      "heightMetres": 2.646,
+      "patrolStudsPerSecond": 4,
+      "metresPerSecond": 1.12,
+      "kilometresPerHour": 4.032000000000001,
+      "cycleSeconds": 1.535625,
+      "cyclesPerSecond": 0.6512006512006512,
+      "reusedMode": "Walk",
+      "sourceFingerprint": "90c91a64af5fe1ece999e19ae40a368f351dfda01d33f477af00ddd268473fb8",
+      "gif": "assets/animations/crabuki/patrol-20261102.gif",
+      "video": "assets/animations/crabuki/patrol-20261102.mp4",
+      "poster": "assets/animations/crabuki/patrol-20261102.png",
+      "date": "2026-11-02",
+      "comment": "A deliberate scuttle suits the broad body and overlapping leg supports. The existing small leg strokes are retained.",
+      "sourceFiles": {
+        "src/backyard_config.luau": "89134c863cc7f3facd673e5db2b7c92258c8e1a9ca8019d23fa4b54484238777",
+        "src/backyard_runtime.server.luau": "b7335ef6c79c5d855f00d5593c9c4f14afb41aa4c478e69daa70a48d65f23272",
+        "src/future_biomes.server.luau": "b3cd17e3d43388665ba535163666741957b2d2bb09b2707b64ec73a651c5d60c",
+        "src/creature_roaming.luau": "69212f78bd0697a98c3e194ad042c349e2ebeddb28b783bbecd6c552d887bdae",
+        "src/creature_animation.luau": "a3f2e14b3f8f01b77678d6d10d42dd9a55fc012ec4616fbf1a42a54a6fb57a77",
+        "src/creature_config.luau": "9ae30f2b945d37de8181e6fa59ab8ea2185374acd4035a8852e94b3a0d493d98"
+      },
+      "mediaHashes": {
+        "gif": "321efddc10512078d2c495d6d3ab4594e85a5bfdc97984ad14d40d164b244247",
+        "video": "53bff04c5a440da7d70ad8b4940bc58f6578ce1e2745a0f1faf859ab0168025a",
+        "poster": "c5836a7bd7f02d4394d61c72b51248c85ec95221b83730f15b33dc7891cf0b78"
+      },
+      "frames": 92,
+      "durationSeconds": 3.066666666666667,
+      "assessmentScope": "Patrol speed and cadence at installed guardian scale; other action reviews are retained.",
+      "ratingOutOf10": null,
+      "ratingScope": "Existing body-animation rating remains separate",
+      "limitations": [
+        "Offline straight-line skin preview, not live gameplay.",
+        "Live corners, obstacles, water transitions and multiplayer remain untested.",
+        "The speed choice is informed artistic tuning for this fictional anatomy, not a measured biological constant."
+      ]
+    },
+    {
+      "species": "Dandylion",
+      "heightStuds": 10.78,
+      "heightMetres": 3.0184,
+      "patrolStudsPerSecond": 4.5,
+      "metresPerSecond": 1.2600000000000002,
+      "kilometresPerHour": 4.536000000000001,
+      "cycleSeconds": 0.9582222222222223,
+      "cyclesPerSecond": 1.043599257884972,
+      "reusedMode": "Walk",
+      "sourceFingerprint": "7835f65414044deb5198df339a5bb1490c3ea2bdb6621e9e8a3f27dc695d5081",
+      "gif": "assets/animations/dandylion/patrol-20261102.gif",
+      "video": "assets/animations/dandylion/patrol-20261102.mp4",
+      "poster": "assets/animations/dandylion/patrol-20261102.png",
+      "date": "2026-11-02",
+      "comment": "A calm four-beat walk keeps the mane and upper body steady without turning an ordinary patrol into a run.",
+      "sourceFiles": {
+        "src/backyard_config.luau": "89134c863cc7f3facd673e5db2b7c92258c8e1a9ca8019d23fa4b54484238777",
+        "src/backyard_runtime.server.luau": "b7335ef6c79c5d855f00d5593c9c4f14afb41aa4c478e69daa70a48d65f23272",
+        "src/future_biomes.server.luau": "b3cd17e3d43388665ba535163666741957b2d2bb09b2707b64ec73a651c5d60c",
+        "src/creature_roaming.luau": "69212f78bd0697a98c3e194ad042c349e2ebeddb28b783bbecd6c552d887bdae",
+        "src/creature_animation.luau": "a3f2e14b3f8f01b77678d6d10d42dd9a55fc012ec4616fbf1a42a54a6fb57a77",
+        "src/creature_config.luau": "9ae30f2b945d37de8181e6fa59ab8ea2185374acd4035a8852e94b3a0d493d98"
+      },
+      "mediaHashes": {
+        "gif": "ab20c414bb8c093d303a97ae39c9f4728e4a9b22e2d39750b9198d1b3abfaf50",
+        "video": "a238274203a66b3d4e84ab6e139dc54b38da16f7b8b8193cac3f33643ae4e897",
+        "poster": "ec7ba52ef99ef6d2816421c933e5125eb4ed3ef2998766c73e51348e8b508e97"
+      },
+      "frames": 86,
+      "durationSeconds": 2.8666666666666667,
+      "assessmentScope": "Patrol speed and cadence at installed guardian scale; other action reviews are retained.",
+      "ratingOutOf10": null,
+      "ratingScope": "Existing body-animation rating remains separate",
+      "limitations": [
+        "Offline straight-line skin preview, not live gameplay.",
+        "Live corners, obstacles, water transitions and multiplayer remain untested.",
+        "The speed choice is informed artistic tuning for this fictional anatomy, not a measured biological constant."
+      ]
+    },
+    {
+      "species": "Dragorilla",
+      "heightStuds": 31.36,
+      "heightMetres": 8.780800000000001,
+      "patrolStudsPerSecond": 3,
+      "metresPerSecond": 0.8400000000000001,
+      "kilometresPerHour": 3.0240000000000005,
+      "cycleSeconds": 1.2544,
+      "cyclesPerSecond": 0.7971938775510204,
+      "reusedMode": "Walk",
+      "sourceFingerprint": "9dbf37dc7a4e21ba4be44b33c16c35c3803720cedeec6712f2f8709871430a6b",
+      "gif": "assets/animations/dragorilla/patrol-20261102.gif",
+      "video": "assets/animations/dragorilla/patrol-20261102.mp4",
+      "poster": "assets/animations/dragorilla/patrol-20261102.png",
+      "date": "2026-11-02",
+      "comment": "A slow, deliberate supported gait gives the large body more weight and avoids rapid arm cycling.",
+      "sourceFiles": {
+        "src/backyard_config.luau": "89134c863cc7f3facd673e5db2b7c92258c8e1a9ca8019d23fa4b54484238777",
+        "src/backyard_runtime.server.luau": "b7335ef6c79c5d855f00d5593c9c4f14afb41aa4c478e69daa70a48d65f23272",
+        "src/future_biomes.server.luau": "b3cd17e3d43388665ba535163666741957b2d2bb09b2707b64ec73a651c5d60c",
+        "src/creature_roaming.luau": "69212f78bd0697a98c3e194ad042c349e2ebeddb28b783bbecd6c552d887bdae",
+        "src/creature_animation.luau": "a3f2e14b3f8f01b77678d6d10d42dd9a55fc012ec4616fbf1a42a54a6fb57a77",
+        "src/creature_config.luau": "9ae30f2b945d37de8181e6fa59ab8ea2185374acd4035a8852e94b3a0d493d98"
+      },
+      "mediaHashes": {
+        "gif": "23fb5cc0164a9ea90ebf9bae82cd0cbed145dbcad6984c7329e5276dfafba048",
+        "video": "737c6dd39b25f4401c7589035a86aa533985dcee40ff23cbf1464272d75568e9",
+        "poster": "333cc27f54751adb66890db71e2e3eed340aa7aa964d2c34e28e8fb0fc3ae568"
+      },
+      "frames": 75,
+      "durationSeconds": 2.5,
+      "assessmentScope": "Patrol speed and cadence at installed guardian scale; other action reviews are retained.",
+      "ratingOutOf10": null,
+      "ratingScope": "Existing body-animation rating remains separate",
+      "limitations": [
+        "Offline straight-line skin preview, not live gameplay.",
+        "Live corners, obstacles, water transitions and multiplayer remain untested.",
+        "The speed choice is informed artistic tuning for this fictional anatomy, not a measured biological constant."
+      ]
+    },
+    {
+      "species": "Froggle",
+      "heightStuds": 9.45,
+      "heightMetres": 2.646,
+      "patrolStudsPerSecond": 3,
+      "metresPerSecond": 0.8400000000000001,
+      "kilometresPerHour": 3.0240000000000005,
+      "cycleSeconds": 2.0475,
+      "cyclesPerSecond": 0.48840048840048844,
+      "reusedMode": "Walk",
+      "sourceFingerprint": "f2b4381c05f00cededb0c528fbe947ba936b600faa17498a32ccd77e0429979e",
+      "gif": "assets/animations/froggle/patrol-20261102.gif",
+      "video": "assets/animations/froggle/patrol-20261102.mp4",
+      "poster": "assets/animations/froggle/patrol-20261102.png",
+      "date": "2026-11-02",
+      "comment": "A slow low walk between checkpoints retains the stronger hopping actions for faster movement.",
+      "sourceFiles": {
+        "src/backyard_config.luau": "89134c863cc7f3facd673e5db2b7c92258c8e1a9ca8019d23fa4b54484238777",
+        "src/backyard_runtime.server.luau": "b7335ef6c79c5d855f00d5593c9c4f14afb41aa4c478e69daa70a48d65f23272",
+        "src/future_biomes.server.luau": "b3cd17e3d43388665ba535163666741957b2d2bb09b2707b64ec73a651c5d60c",
+        "src/creature_roaming.luau": "69212f78bd0697a98c3e194ad042c349e2ebeddb28b783bbecd6c552d887bdae",
+        "src/creature_animation.luau": "a3f2e14b3f8f01b77678d6d10d42dd9a55fc012ec4616fbf1a42a54a6fb57a77",
+        "src/creature_config.luau": "9ae30f2b945d37de8181e6fa59ab8ea2185374acd4035a8852e94b3a0d493d98"
+      },
+      "mediaHashes": {
+        "gif": "a10ff9186f75370f889f378c6aa26b7b9d986fff0ef3c122a573a513145f9fe5",
+        "video": "57d928cae7afdbfe911e4e1b15c973652467513013b64e61d8bc8d053ba89c6b",
+        "poster": "e60412bf261d6a7e408dc2b0d1480bd786ea99a44d3d83bcbe2ab5a0d52f96f6"
+      },
+      "frames": 123,
+      "durationSeconds": 4.1,
+      "assessmentScope": "Patrol speed and cadence at installed guardian scale; other action reviews are retained.",
+      "ratingOutOf10": null,
+      "ratingScope": "Existing body-animation rating remains separate",
+      "limitations": [
+        "Offline straight-line skin preview, not live gameplay.",
+        "Live corners, obstacles, water transitions and multiplayer remain untested.",
+        "The speed choice is informed artistic tuning for this fictional anatomy, not a measured biological constant."
+      ]
+    },
+    {
+      "species": "Hamsturtle",
+      "heightStuds": 7.056,
+      "heightMetres": 1.97568,
+      "patrolStudsPerSecond": 1.5,
+      "metresPerSecond": 0.42000000000000004,
+      "kilometresPerHour": 1.5120000000000002,
+      "cycleSeconds": 1.4112,
+      "cyclesPerSecond": 0.7086167800453514,
+      "reusedMode": "Walk",
+      "sourceFingerprint": "03ef98f7c9d5f0c5274823ede86c2669467ff542a9c330e923226f57b864ace2",
+      "gif": "assets/animations/hamsturtle/patrol-20261102.gif",
+      "video": "assets/animations/hamsturtle/patrol-20261102.mp4",
+      "poster": "assets/animations/hamsturtle/patrol-20261102.png",
+      "date": "2026-11-02",
+      "comment": "A gentle supported walk suits the broad shell and short legs. The patrol remains below the faster gait transition.",
+      "sourceFiles": {
+        "src/backyard_config.luau": "89134c863cc7f3facd673e5db2b7c92258c8e1a9ca8019d23fa4b54484238777",
+        "src/backyard_runtime.server.luau": "b7335ef6c79c5d855f00d5593c9c4f14afb41aa4c478e69daa70a48d65f23272",
+        "src/future_biomes.server.luau": "b3cd17e3d43388665ba535163666741957b2d2bb09b2707b64ec73a651c5d60c",
+        "src/creature_roaming.luau": "69212f78bd0697a98c3e194ad042c349e2ebeddb28b783bbecd6c552d887bdae",
+        "src/creature_animation.luau": "a3f2e14b3f8f01b77678d6d10d42dd9a55fc012ec4616fbf1a42a54a6fb57a77",
+        "src/creature_config.luau": "9ae30f2b945d37de8181e6fa59ab8ea2185374acd4035a8852e94b3a0d493d98"
+      },
+      "mediaHashes": {
+        "gif": "2c6a981cb8e6d5433b613e80195779a5f45ce1d9d0fed42028b582a5fd31d1b6",
+        "video": "b5006a42120d72645fbb87d0845827fd63f5065e0664c6777283b124a31834e4",
+        "poster": "50cdf7a1f739dbc09862830ecd1ab59344e1f3bbbe88410bfa95e9c8b209ecc8"
+      },
+      "frames": 85,
+      "durationSeconds": 2.8333333333333335,
+      "assessmentScope": "Patrol speed and cadence at installed guardian scale; other action reviews are retained.",
+      "ratingOutOf10": null,
+      "ratingScope": "Existing body-animation rating remains separate",
+      "limitations": [
+        "Offline straight-line skin preview, not live gameplay.",
+        "Live corners, obstacles, water transitions and multiplayer remain untested.",
+        "The speed choice is informed artistic tuning for this fictional anatomy, not a measured biological constant."
+      ]
+    },
+    {
+      "species": "Labraduck",
+      "heightStuds": 7,
+      "heightMetres": 1.9600000000000002,
+      "patrolStudsPerSecond": 6,
+      "metresPerSecond": 1.6800000000000002,
+      "kilometresPerHour": 6.048000000000001,
+      "cycleSeconds": 0.5366666666666667,
+      "cyclesPerSecond": 1.8633540372670805,
+      "reusedMode": "PatrolWalk",
+      "sourceFingerprint": "79160ba342195d1bcf6243774dce99cb0b3b12541dd20339961ab9c16e1de04a",
+      "gif": "assets/animations/labraduck/patrol-20261102.gif",
+      "video": "assets/animations/labraduck/patrol-20261102.mp4",
+      "poster": "assets/animations/labraduck/patrol-20261102.png",
+      "date": "2026-11-02",
+      "comment": "A steady waddle with alternating foot support. The existing patrol stride now takes about 1.86 cycles per second.",
+      "sourceFiles": {
+        "src/backyard_config.luau": "89134c863cc7f3facd673e5db2b7c92258c8e1a9ca8019d23fa4b54484238777",
+        "src/backyard_runtime.server.luau": "b7335ef6c79c5d855f00d5593c9c4f14afb41aa4c478e69daa70a48d65f23272",
+        "src/future_biomes.server.luau": "b3cd17e3d43388665ba535163666741957b2d2bb09b2707b64ec73a651c5d60c",
+        "src/creature_roaming.luau": "69212f78bd0697a98c3e194ad042c349e2ebeddb28b783bbecd6c552d887bdae",
+        "src/creature_animation.luau": "a3f2e14b3f8f01b77678d6d10d42dd9a55fc012ec4616fbf1a42a54a6fb57a77",
+        "src/creature_config.luau": "9ae30f2b945d37de8181e6fa59ab8ea2185374acd4035a8852e94b3a0d493d98"
+      },
+      "mediaHashes": {
+        "gif": "85e6c9a075e22fb00fa4f8ce65cf146dd8e83d20a936c7c9bc1be5b82464075a",
+        "video": "ef80ef9e6e4e7d8eca9d3fffddbe6985a83ea09f908f763776a13f38bcb277f7",
+        "poster": "9c1b510c906053b63eaa72f4e95c56ce158be03ba834d3e4da69e78433cf4259"
+      },
+      "frames": 64,
+      "durationSeconds": 2.1333333333333333,
+      "assessmentScope": "Patrol speed and cadence at installed guardian scale; other action reviews are retained.",
+      "ratingOutOf10": null,
+      "ratingScope": "Existing body-animation rating remains separate",
+      "limitations": [
+        "Offline straight-line skin preview, not live gameplay.",
+        "Live corners, obstacles, water transitions and multiplayer remain untested.",
+        "The speed choice is informed artistic tuning for this fictional anatomy, not a measured biological constant."
+      ]
+    },
+    {
+      "species": "Mooroo",
+      "heightStuds": 8.47,
+      "heightMetres": 2.3716000000000004,
+      "patrolStudsPerSecond": 20,
+      "metresPerSecond": 5.6000000000000005,
+      "kilometresPerHour": 20.160000000000004,
+      "cycleSeconds": 0.402325,
+      "cyclesPerSecond": 2.4855527247871745,
+      "reusedMode": "Chase",
+      "sourceFingerprint": "adc41cc8306fc05031a150dde17e983ddefebce1a092d58f27b2be7093c2c391",
+      "gif": "assets/animations/mooroo/patrol-20261102.gif",
+      "video": "assets/animations/mooroo/patrol-20261102.mp4",
+      "poster": "assets/animations/mooroo/patrol-20261102.png",
+      "date": "2026-11-02",
+      "comment": "Longer paired-leg bounds, clear airborne recovery and a stable upper body replace rapid short hops. At this scale the retained long-bound curve produces 2.49 hops per second.",
+      "sourceFiles": {
+        "src/backyard_config.luau": "89134c863cc7f3facd673e5db2b7c92258c8e1a9ca8019d23fa4b54484238777",
+        "src/backyard_runtime.server.luau": "b7335ef6c79c5d855f00d5593c9c4f14afb41aa4c478e69daa70a48d65f23272",
+        "src/future_biomes.server.luau": "b3cd17e3d43388665ba535163666741957b2d2bb09b2707b64ec73a651c5d60c",
+        "src/creature_roaming.luau": "69212f78bd0697a98c3e194ad042c349e2ebeddb28b783bbecd6c552d887bdae",
+        "src/creature_animation.luau": "a3f2e14b3f8f01b77678d6d10d42dd9a55fc012ec4616fbf1a42a54a6fb57a77",
+        "src/creature_config.luau": "9ae30f2b945d37de8181e6fa59ab8ea2185374acd4035a8852e94b3a0d493d98"
+      },
+      "mediaHashes": {
+        "gif": "21175d43583341e0e48067ed2fd1a2a44bcc6a248d4eed936c7e12203d38f3eb",
+        "video": "b7ac2355931950826aa89fe38957f2d30dff48c80ea99eec0af58478750830bb",
+        "poster": "015479851c07920a0e61d83443230d853cff4817a2e5957f405f5550dbd47ede"
+      },
+      "frames": 60,
+      "durationSeconds": 2.0,
+      "assessmentScope": "Patrol speed and cadence at installed guardian scale; other action reviews are retained.",
+      "ratingOutOf10": 8.5,
+      "ratingScope": "Runtime patrol fit",
+      "limitations": [
+        "Offline straight-line skin preview, not live gameplay.",
+        "Live corners, obstacles, water transitions and multiplayer remain untested.",
+        "The speed choice is informed artistic tuning for this fictional anatomy, not a measured biological constant."
+      ]
+    }
+  ]
+}

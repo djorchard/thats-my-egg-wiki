@@ -1,0 +1,673 @@
+{
+  "schemaVersion": 1,
+  "creature": "Puglet",
+  "clip": "Blink curved v5",
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-30T16:01:10.423875+00:00",
+  "reviewScope": "installed-source native Edit expression on unchanged Puglet v1 body",
+  "candidateOnly": false,
+  "installedSourceVerified": true,
+  "ratingOutOf10": 9.0,
+  "verdict": "good",
+  "confidence": "medium",
+  "reviewedSpeedStudsPerSecond": 0,
+  "reviewedHeightStuds": 3.5,
+  "comment": "The installed 0.2-second blink retains the accepted thin curved cover, full iris concealment from front, quarter and both side views, warm original fur colour, and clean reopening. All 19 PNG eye and upper-head regions exactly match the accepted candidate. Full files differ slightly in the lower scene, so this is pixel-region and visual revalidation, not a byte-identical full-file claim. The half-closure edge is still fairly straight and fine grain remains subtle in the shown lighting; the base expression score stays 9.0/10.",
+  "priorReview": {
+    "file": "output/puglet-polish/export-eye-curved-v5-review.json",
+    "sha256BeforeEvidenceAppend": "17e69b8fb73da7e1e805242bffe2cdd95633420ad6ee227b572d7a50c7173998",
+    "originalRatingOutOf10": 9.0
+  },
+  "sourceBinding": {
+    "verification": "output/puglet-polish/eyes-installed-native/verification.json",
+    "verificationSha256": "cbff6a1a3c77c35c4eebc2c30074b3c58b665357dab293456d778f3edeb3225e",
+    "controllerSourceSha256": "877e99113d5773c5b563f2836cbcb52e78083ed088a1f2aa0348d52f68d820fe",
+    "configurationSourceSha256": "9d25b535ff15688871f1d14d0907008647a266211f68deb00e4647d5148cb7fa",
+    "configurationRawFileSha256": "b812e0dfcb3537388aba958f1f9a5eb45534f525488265cc80c0620d5e721700",
+    "configurationHashConvention": "Receipt hashes UTF-8 source text after Python universal-newline normalization. Raw file has two CRLF line endings; normalized source matches the installed readback assertion.",
+    "clientSourceSha256": "01b9e1742315926e8f8d18f04593ad8d05b37bad576e2bf8bd077b9c75b9b603",
+    "payload": "assets/pets/puglet-eye-polish/unit-lid-curved-v5.json",
+    "payloadSha256": "b7cc0b9dcebd7c92bd4a42aadb98fb889d6117a15401e5d36191f4fd43eddb9b",
+    "guardedPlanId": "640e3c270cbf426fbc9d31d063aa5b8a",
+    "installationPreparation": {
+      "file": "output/puglet-polish/fur-lid-install/preparation.json",
+      "sha256": "cb1ce74fcfa44f631f8542a7f1297becd94960bf9ba6b45f93cf456bfb1004c2"
+    },
+    "lids": [
+      {
+        "colorMap": "rbxassetid://138246660791660",
+        "normalMap": "rbxassetid://71913043552503",
+        "mesh": "rbxassetid://78974628477880"
+      },
+      {
+        "colorMap": "rbxassetid://138246660791660",
+        "normalMap": "rbxassetid://71913043552503",
+        "mesh": "rbxassetid://78974628477880"
+      }
+    ]
+  },
+  "verification": {
+    "installedSourceVerified": true,
+    "candidateOnly": false,
+    "captureCount": 19,
+    "allActualCaptureHashesMatchReceipt": true,
+    "cameraRestored": true,
+    "cleaned": true,
+    "rawCleanedReceiptValue": "true",
+    "actualTemplateChanged": false,
+    "bodyMeshAndClipsUnchanged": true,
+    "bodyCandidateAdopted": false,
+    "bodyBones": 20
+  },
+  "media": {
+    "gif": {
+      "file": "output/puglet-polish/eyes-installed-native/blink-normal-speed.gif",
+      "sha256": "6da9b305ab33a819f068c3b30f1438347ac07870209c78481c06f15e52a35338",
+      "frameCount": 11,
+      "decodedFrameDurationsMs": [
+        800,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        800
+      ]
+    },
+    "candidateGif": {
+      "file": "output/puglet-polish/eyes-curved-native/blink-normal-speed.gif",
+      "sha256": "132f73b84381f6dff105140f0be9c718bf1763ef69dbb246ca6b282df4eb622a",
+      "frameCount": 11,
+      "decodedFrameDurationsMs": [
+        800,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        800
+      ]
+    },
+    "all19FullFilesByteIdentical": false,
+    "all19UpperHeadAndEyePixelsExact": true,
+    "pngComparison": [
+      {
+        "file": "output/puglet-polish/eyes-installed-native/open-front.png",
+        "installedSha256": "3111ff6c9ec78bf166a63f1892ac650098804975ae46a8ab6975e28e0ff2fc2a",
+        "candidateSha256": "407f41d8f8e41e83e3f8428e40d2506cf0ede8c87a40a9e5f50fab50b5fa5a76",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 65306,
+        "maximumChannelDelta": 5,
+        "meanAbsoluteChannelDelta": 0.031228764376912525,
+        "changedBounds": [
+          0,
+          671,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/closed-front.png",
+        "installedSha256": "aec2b6750f5f4a8eb2cd335137766fa747a07aa118ad400b8e21dff1be504ab5",
+        "candidateSha256": "b2ecf992998f700006615e1e7591c56030c6cb249d3f208e5bdb4bc75b624a43",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 65306,
+        "maximumChannelDelta": 5,
+        "meanAbsoluteChannelDelta": 0.031228764376912525,
+        "changedBounds": [
+          0,
+          671,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/half-front.png",
+        "installedSha256": "ddedec39011c2144730b3c6515f7c10efcd954321bfe976fafbe9a2ec2985a6d",
+        "candidateSha256": "0f9a248161c7037e2be387b67345d5adf314f9da4dcdec53b44db93dbaad4bec",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 65306,
+        "maximumChannelDelta": 5,
+        "meanAbsoluteChannelDelta": 0.031228764376912525,
+        "changedBounds": [
+          0,
+          671,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/closed-quarter.png",
+        "installedSha256": "381cab205d4aa864e633a11c8a2089e90fec9407680ac6f19aa35ec28af3c1b4",
+        "candidateSha256": "0aaf32e56ad3e3cc8ac9260f7f803f06b636cdc10bb3c28fd6268ccf349a14b3",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 110723,
+        "maximumChannelDelta": 7,
+        "meanAbsoluteChannelDelta": 0.054398192114241496,
+        "changedBounds": [
+          0,
+          575,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/half-quarter.png",
+        "installedSha256": "5e9329a4a45ec332c09941abf88c6f13d1b690bf6a0f4c8afbec9822b7841f80",
+        "candidateSha256": "6c0e43d2f05b1debc4f56b968698c7c28c77ad5637f83dedcab903a43f2718c3",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 110723,
+        "maximumChannelDelta": 7,
+        "meanAbsoluteChannelDelta": 0.054398192114241496,
+        "changedBounds": [
+          0,
+          575,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/closed-left.png",
+        "installedSha256": "d055d785e2b8aeb14b04cc0c9644ce4ff9e7abc0335f10f5320cdf7fb5d7de22",
+        "candidateSha256": "2f888c5866de7589a0e64a8f6e7f7ed059bd0cfec83961f1e474d4075a8dbd64",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 69809,
+        "maximumChannelDelta": 7,
+        "meanAbsoluteChannelDelta": 0.03312968238894165,
+        "changedBounds": [
+          0,
+          607,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/closed-right.png",
+        "installedSha256": "e553cef5283fd7806536cc88e641e40bcad9fbaaf5acf78c5f73e2041c93e8c2",
+        "candidateSha256": "5252bcb8169003dc18636e5907a9b077837bf220fd05c98b613edec8f51909cb",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 101296,
+        "maximumChannelDelta": 5,
+        "meanAbsoluteChannelDelta": 0.0503876050789631,
+        "changedBounds": [
+          0,
+          607,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/reopened-quarter.png",
+        "installedSha256": "806359e8f7205b7331dbd756cfa51a865b3484aa21081205edf223486d00f978",
+        "candidateSha256": "fea06b3764f8cdf56cca57bb58c437479a77ca29bee6d1f1665b78cb07e68cac",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 110723,
+        "maximumChannelDelta": 7,
+        "meanAbsoluteChannelDelta": 0.054398192114241496,
+        "changedBounds": [
+          0,
+          575,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/blink-0.png",
+        "installedSha256": "806359e8f7205b7331dbd756cfa51a865b3484aa21081205edf223486d00f978",
+        "candidateSha256": "fea06b3764f8cdf56cca57bb58c437479a77ca29bee6d1f1665b78cb07e68cac",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 110723,
+        "maximumChannelDelta": 7,
+        "meanAbsoluteChannelDelta": 0.054398192114241496,
+        "changedBounds": [
+          0,
+          575,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/blink-1.png",
+        "installedSha256": "d5b4d166b47e0987b50e21015817c5aa8687550db5b2e0e7bcc7ee6fefddb1fa",
+        "candidateSha256": "fbc3b94702411a3cf0164473417e68e4e8f81a43c1088bead6ad564b2d7de32a",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 110184,
+        "maximumChannelDelta": 7,
+        "meanAbsoluteChannelDelta": 0.05410414688192466,
+        "changedBounds": [
+          0,
+          575,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/blink-2.png",
+        "installedSha256": "b0230f6fd12e46fdd84d6585facca2ccee64100f2887426fd89f0d8aa10cd17a",
+        "candidateSha256": "d6f46f1ef3dc003b741afcd05543c0686a8b1d93ea38548c94a59070ee969ec8",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 110486,
+        "maximumChannelDelta": 7,
+        "meanAbsoluteChannelDelta": 0.05421916218212514,
+        "changedBounds": [
+          0,
+          575,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/blink-3.png",
+        "installedSha256": "fe46fac905864effa04854c5b022f2fb6ef602245a01f08217e39cf8a655b8a1",
+        "candidateSha256": "d5e3b38f39a7908fc639d0a807fb20d123ef1e5986051e86c897d678ea71ee22",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 111090,
+        "maximumChannelDelta": 7,
+        "meanAbsoluteChannelDelta": 0.05440505082480391,
+        "changedBounds": [
+          0,
+          575,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/blink-4.png",
+        "installedSha256": "bcce30da333a81f041048fd5db7c2fa766dd6dc330877d9d0d6e4424dc513803",
+        "candidateSha256": "e849c7ef2862d974a2309a503796eafca49bbc9370204c8655e0804a7dd24593",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 110944,
+        "maximumChannelDelta": 7,
+        "meanAbsoluteChannelDelta": 0.05430428053884844,
+        "changedBounds": [
+          0,
+          576,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/blink-5.png",
+        "installedSha256": "a2e9cade010a4dcf65e2b974da6c97507532e8458291c96373a1517a49ad557e",
+        "candidateSha256": "5ef3686b9969bccd50c6b0ff8e02fa9c2259fff23e88c3892d9fe0d75ce45dbe",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 110740,
+        "maximumChannelDelta": 7,
+        "meanAbsoluteChannelDelta": 0.05429021138897682,
+        "changedBounds": [
+          0,
+          575,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/blink-6.png",
+        "installedSha256": "0bc3a2a6ca5fd51e93de6311da2b1c915a796868d531a55b39232c965c9f5a4c",
+        "candidateSha256": "1eec113a7079fa8604b668e7dff909b6fb9153782cf65d1eed48be3bb0748694",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 110207,
+        "maximumChannelDelta": 7,
+        "meanAbsoluteChannelDelta": 0.05400970771341142,
+        "changedBounds": [
+          0,
+          576,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/blink-7.png",
+        "installedSha256": "1f4ac70e65c0a4c649e8700337854be7db30788ca07b101b6a49f0d8dfd338b8",
+        "candidateSha256": "62be3f24445590dd559be0e62ed8c99cd9ad823dbee27d42f22831aab612c8ee",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 110529,
+        "maximumChannelDelta": 7,
+        "meanAbsoluteChannelDelta": 0.054141957722204634,
+        "changedBounds": [
+          0,
+          575,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/blink-8.png",
+        "installedSha256": "b56ea98d7ba2062c75dec9b7a6796b2c970a1ce0a14866fd64d7c294291e2873",
+        "candidateSha256": "b6aefe3978388f4b6acd14c5321708a3e8a5c9584547b7f141b6ff7a7ccb88e7",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 110414,
+        "maximumChannelDelta": 7,
+        "meanAbsoluteChannelDelta": 0.05407337061658049,
+        "changedBounds": [
+          0,
+          576,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/blink-9.png",
+        "installedSha256": "234a0ef847403e7e69959ee593ea18f82ed60cd6423ed63dbc8605274541691b",
+        "candidateSha256": "a3e7023af3485890c13249692a0e1601e2615e1ffca32ce1566c97c577e32fd5",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 110748,
+        "maximumChannelDelta": 7,
+        "meanAbsoluteChannelDelta": 0.0543167669093595,
+        "changedBounds": [
+          0,
+          576,
+          1755,
+          1080
+        ]
+      },
+      {
+        "file": "output/puglet-polish/eyes-installed-native/blink-10.png",
+        "installedSha256": "1196b194f138a01cb50c2110b6bf4056080e2d567023e90e7831e5ef7b95c427",
+        "candidateSha256": "6998c60563296e15650089f01f880571bbe0451dc923b5d9e91016536d64e578",
+        "byteIdentical": false,
+        "upperHeadAndEyePixelsExact": true,
+        "comparedRegion": [
+          0,
+          0,
+          1755,
+          550
+        ],
+        "changedPixels": 110672,
+        "maximumChannelDelta": 7,
+        "meanAbsoluteChannelDelta": 0.05430727023319616,
+        "changedBounds": [
+          0,
+          576,
+          1755,
+          1080
+        ]
+      }
+    ],
+    "gifFrameComparison": [
+      {
+        "frame": 0,
+        "upperHeadMaximumChannelDelta": 51,
+        "upperHeadMeanAbsoluteChannelDelta": 0.03242820512820513
+      },
+      {
+        "frame": 1,
+        "upperHeadMaximumChannelDelta": 50,
+        "upperHeadMeanAbsoluteChannelDelta": 0.04358717948717949
+      },
+      {
+        "frame": 2,
+        "upperHeadMaximumChannelDelta": 47,
+        "upperHeadMeanAbsoluteChannelDelta": 0.007202564102564103
+      },
+      {
+        "frame": 3,
+        "upperHeadMaximumChannelDelta": 36,
+        "upperHeadMeanAbsoluteChannelDelta": 0.006930769230769231
+      },
+      {
+        "frame": 4,
+        "upperHeadMaximumChannelDelta": 53,
+        "upperHeadMeanAbsoluteChannelDelta": 0.04768717948717949
+      },
+      {
+        "frame": 5,
+        "upperHeadMaximumChannelDelta": 36,
+        "upperHeadMeanAbsoluteChannelDelta": 0.025328205128205127
+      },
+      {
+        "frame": 6,
+        "upperHeadMaximumChannelDelta": 36,
+        "upperHeadMeanAbsoluteChannelDelta": 0.017902564102564102
+      },
+      {
+        "frame": 7,
+        "upperHeadMaximumChannelDelta": 53,
+        "upperHeadMeanAbsoluteChannelDelta": 0.05607692307692308
+      },
+      {
+        "frame": 8,
+        "upperHeadMaximumChannelDelta": 36,
+        "upperHeadMeanAbsoluteChannelDelta": 0.007048717948717948
+      },
+      {
+        "frame": 9,
+        "upperHeadMaximumChannelDelta": 31,
+        "upperHeadMeanAbsoluteChannelDelta": 0.01817948717948718
+      },
+      {
+        "frame": 10,
+        "upperHeadMaximumChannelDelta": 44,
+        "upperHeadMeanAbsoluteChannelDelta": 0.326174358974359
+      }
+    ],
+    "gifDifferenceAssessment": "Decoded GIF palettes differ slightly with the changed lower scene. All 11 decoded installed frames were viewed. They retain the same motion and closure; full-resolution PNG eye pixels are exact. GIF posterization is preview encoding, not new native lid texture.",
+    "contactSheet": {
+      "file": "output/puglet-polish/export-eye-installed-v5-contact-sheet.png",
+      "sha256": "46b6aa2dd31cc40137e4284f55cdaa05fe80403ed2ff54a8b1ba1f6ce3e718d4"
+    },
+    "decodedGifSheet": {
+      "file": "output/puglet-polish/export-eye-installed-v5-gif-sheet.png",
+      "sha256": "5b1a226c0f4d9c2466ff94e1a39fc931b0d770ae770edb82b44ee6384ceb7e62"
+    }
+  },
+  "timing": {
+    "sourceDurationMs": 200,
+    "sourceStepMs": 20,
+    "sourceSamples": 11,
+    "decodedGifFrameDurationsMs": [
+      800,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      800
+    ],
+    "decodedGifDurationMs": 1780,
+    "endpointHoldsMs": [
+      800,
+      800
+    ],
+    "interiorFrameDurationsMs": [
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20
+    ]
+  },
+  "textureAssessment": {
+    "originalColourAndNormalAssetIdsReused": true,
+    "colour": "Warm fur colour matches the nearby face and avoids the old pale white appearance.",
+    "grain": "Fine source-fur grain is subtle in the game lighting; no coarse stretched folds or tiled atlas seams are visible in the assessed V5 frames.",
+    "uvRegionUnchangedFromFineFurV3": true
+  },
+  "additionalTechnicalEvidence": {
+    "file": "output/puglet-polish/lid-runtime/verification.json",
+    "sha256": "6e04800c51de8aafe4f07d246830e2d4f9fc5becafd2260932ba4cd8ae3fe600",
+    "controllerSha256": "877e99113d5773c5b563f2836cbcb52e78083ed088a1f2aa0348d52f68d820fe",
+    "clientSha256": "01b9e1742315926e8f8d18f04593ad8d05b37bad576e2bf8bd077b9c75b9b603",
+    "eventFiltering": {
+      "cosmeticRemovalIgnored": true,
+      "bodyInsertionDetected": true,
+      "cosmeticInsertionIgnored": true,
+      "bodyRemovalDetected": true
+    },
+    "scaleMultipliers": [
+      0.75,
+      1,
+      3
+    ],
+    "sleep": true,
+    "knockout": true,
+    "reset": true,
+    "rebind": true,
+    "cleanup": true,
+    "navigationUnchanged": true,
+    "remainingOriginalBodyBones": 20,
+    "FaceCpu": {
+      "samples": 7,
+      "callsPerSample": 1000,
+      "legacyMedianMicroseconds": 30.108399980235845,
+      "curvedV5MedianMicroseconds": 6.710499990731478,
+      "relativeMedian": 0.22287800066215652,
+      "scope": "Native Edit API CPU fixture only. Not live frame time, renderer/GPU, mobile or multiplayer performance."
+    },
+    "visualRatingScopeUnchanged": true
+  },
+  "limits": [
+    "Visual 9.0/10 applies only to the shown 3.5-stud base scale, stationary expression and lighting.",
+    "Scale multipliers 0.75, 1 and 3 passed native lifecycle checks, not independent visual scoring at those scales.",
+    "CPU evidence is an Edit native API fixture only; live frame cost, renderer/GPU, mobile and multiplayer remain unmeasured.",
+    "Source Step snapshots cover the actual 0.2-second blink. The GIF adds 800 ms endpoint holds; it is not a continuous live gameplay recording.",
+    "This expression review does not rate Idle, Walk or Run or approve a full-body candidate."
+  ],
+  "developerReviewsChanged": false,
+  "gameplayTested": false,
+  "saved": false,
+  "published": false,
+  "studioWritesByThisReview": false
+}

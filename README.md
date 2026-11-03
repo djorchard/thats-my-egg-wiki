@@ -1,7 +1,5 @@
-# That's my Egg! creature wiki
-
-Game mechanics, future plans, creature designs, region guides, egg qualities and approved artwork.
+# That's my Egg! wiki
 
 Visit https://djorchard.github.io/thats-my-egg-wiki/
 
-This repository contains the published static website. Game scripts and local artwork provenance records are maintained separately.
+Animation previews, videos and model downloads are retained locally and are not hosted on this website. Text, assessments and still images remain available.

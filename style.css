@@ -205,3 +205,5 @@ body:has(#show-scrapped):not(:has(#show-scrapped:checked)):not(:has(#show-implem
 /* Keep historical UI context visible below thumbnails and enlarged images. */
 .ui-reference-historical{display:block;color:#f2d491;margin-bottom:4px}
 .image-preview-caption{position:absolute;bottom:0;left:0;right:0;margin:0;padding:10px 16px;background:var(--panel);color:#f2d491;text-align:center;font-size:14px;line-height:1.5;overflow-wrap:anywhere}
+
+#component-reference{scroll-margin-top:160px}

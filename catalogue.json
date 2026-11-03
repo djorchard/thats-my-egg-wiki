@@ -4847,7 +4847,7 @@
       "mountable": false,
       "followingBuff": {
         "id": "Mighty",
-        "Description": "20% more effective Strength levels, up to level 100, for carrying, jumping and stick stamina cost. Does not grant levels.",
+        "Description": "20% more effective Strength levels, up to level 100, for carrying, jumping and club stamina cost. Does not grant levels.",
         "Effect": "Strength",
         "Icon": "\ud83d\udcaa",
         "Multiplier": 1.2,
@@ -8343,7 +8343,7 @@
       "mountable": false,
       "followingBuff": {
         "id": "Mighty",
-        "Description": "20% more effective Strength levels, up to level 100, for carrying, jumping and stick stamina cost. Does not grant levels.",
+        "Description": "20% more effective Strength levels, up to level 100, for carrying, jumping and club stamina cost. Does not grant levels.",
         "Effect": "Strength",
         "Icon": "\ud83d\udcaa",
         "Multiplier": 1.2,
@@ -9187,7 +9187,7 @@
       "mountable": false,
       "followingBuff": {
         "id": "Mighty",
-        "Description": "20% more effective Strength levels, up to level 100, for carrying, jumping and stick stamina cost. Does not grant levels.",
+        "Description": "20% more effective Strength levels, up to level 100, for carrying, jumping and club stamina cost. Does not grant levels.",
         "Effect": "Strength",
         "Icon": "\ud83d\udcaa",
         "Multiplier": 1.2,
@@ -9699,7 +9699,7 @@
       "mountable": false,
       "followingBuff": {
         "id": "Mighty",
-        "Description": "20% more effective Strength levels, up to level 100, for carrying, jumping and stick stamina cost. Does not grant levels.",
+        "Description": "20% more effective Strength levels, up to level 100, for carrying, jumping and club stamina cost. Does not grant levels.",
         "Effect": "Strength",
         "Icon": "\ud83d\udcaa",
         "Multiplier": 1.2,
@@ -11525,7 +11525,7 @@
       "mountable": false,
       "followingBuff": {
         "id": "HeavyHitter",
-        "Description": "20% more stick and direct water-bomb damage. Trap damage and guardian knockouts are unchanged.",
+        "Description": "20% more club and direct water-bomb damage. Trap damage and guardian knockouts are unchanged.",
         "Effect": "AttackDamage",
         "Icon": "\ud83e\udd4a",
         "Multiplier": 1.2,
@@ -11974,7 +11974,7 @@
       "concept": null,
       "reference": "platypuffin-perspective.png",
       "egg": "platypuffin-egg.png",
-      "icon": "platypuffin-icon.png",
+      "icon": "platypuffin-pets-v2-icon.png",
       "review": {
         "revision": 1,
         "danielApproved": false,
@@ -12155,7 +12155,7 @@
         "condition": "placedAtHome"
       },
       "runtimeEnabled": true,
-      "notes": "Approved Rainbow Coral Reef creature with verified local skeleton, Idle, Swim, Blink, species egg and all five qualities installed in Studio Edit. Separate Daniel review and live gameplay remain pending.",
+      "notes": "3 November 2026: the regenerated Clownurchin with one fin per side is installed and verified in Studio Edit. Current Idle, Swim and Blink previews, scores and downloads are below. The full replacement import is complete; Daniel review and live gameplay acceptance remain separate. No place was saved or published.",
       "balanceAssignment": {
         "assigned": true,
         "note": "Daniel's explicit statistics approval is retained; mass, length and egg dimensions follow the current shared rules.",
@@ -12169,82 +12169,196 @@
         "fullImportComplete": true,
         "placeholderHatchling": false,
         "currentModel": {
-          "file": "concepts/clownurchin/clownurchin-3-animations.glb",
-          "sha256": "d3a28bd78c1c5f1d7d4b17513b909c8d2c4ead7ee76cd4ebe2df4231390ad79d"
+          "file": "concepts/clownurchin/clownurchin-9-animations3.glb",
+          "sha256": "5baf986b0e6d296411e3a531503a8c649dfdf3bb7f3fa90b347ab2651e8b7495"
         },
         "nativeMesh": {
-          "file": "assets/pets/clownurchin/native-mesh.json",
-          "sha256": "345935d40c9feae145860f4535c0cd823f70bdda44bd639b3a91dc8e0152a19f"
+          "file": "assets/pets/clownurchin-replacement3-20261103/native-mesh.json",
+          "sha256": "0512096cc22935aead924446fd98c02ff1d86d9a4f7e51e68b3b477cb5517902"
         },
         "installation": {
-          "file": "output/clownurchin-import-20261103/installed.json",
-          "sha256": "34b4f38f35aba0438776fb44140c50c54951fd7403e868780fd8e03a144c70c3"
+          "file": "output/clownurchin-replacement3-20261103/installed.json",
+          "sha256": "0aeecde9344d320340270f8ca9acacfae28233fd15fc52fd8b78da356cc52a85"
         },
-        "qualityNotice": "3 November 2026: Clownurchin is imported with its aquatic rig, Idle, Swim, Blink, reef egg, all five egg qualities, artwork, dreams and approved statistics. Current native images and all animation downloads are below. Body previews score 8.5/10; Blink scores 7.5/10. Separate Daniel review and live gameplay acceptance remain pending. No place was saved or published.",
+        "qualityNotice": "3 November 2026: the regenerated Clownurchin with one fin per side is installed and verified in Studio Edit. Current Idle, Swim and Blink previews, scores and downloads are below. The full replacement import is complete; Daniel review and live gameplay acceptance remain separate. No place was saved or published.",
         "replacementImport": {
-          "status": "installed-verified-edit",
+          "status": "complete-verified-edit-awaiting-Daniel-review",
           "installed": true,
-          "qualityNotice": "3 November 2026: Clownurchin is imported with its aquatic rig, Idle, Swim, Blink, reef egg, all five egg qualities, artwork, dreams and approved statistics. Current native images and all animation downloads are below. Body previews score 8.5/10; Blink scores 7.5/10. Separate Daniel review and live gameplay acceptance remain pending. No place was saved or published.",
+          "importNumber": 3,
+          "suppliedAnatomy": {
+            "legs": 0,
+            "sideFins": 2,
+            "fanTail": 1,
+            "eyes": 2,
+            "matchesSupplied": true
+          },
+          "anatomyEvidence": {
+            "file": "output/clownurchin-replacement3-20261103/supplied-anatomy-acceptance.json",
+            "sha256": "311f74ab9c2e80d63ea4613b6a7d6420f445a87cc2f41f2dfe19fba30cd0799f"
+          },
+          "qualityNotice": "3 November 2026: the regenerated Clownurchin with one fin per side is installed and verified in Studio Edit. Current Idle, Swim and Blink previews, scores and downloads are below. The full replacement import is complete; Daniel review and live gameplay acceptance remain separate. No place was saved or published.",
+          "originalSource": {
+            "file": "concepts/clownurchin/clownurchin-initial3.fbx",
+            "sha256": "52ba95535fe25fd59018044041e001828eff3aea24ea094cf97dfb799067ac3a"
+          },
+          "savedDeveloperVotesChanged": false,
           "robloxImage": {
             "environment": "Studio Edit",
             "pose": "Idle",
-            "wikiImage": "assets/animations/clownurchin/clownurchin-studio-front-reopened.png",
-            "sha256": "af7fa02f834576b5005405198229a600988bd249d00181bab6b148e403fe3014",
             "currentVersion": true,
+            "wikiImage": "assets/animations/clownurchin/replacement3-20261103-supplied-5baf986b0e6d/studio-front-reopened.jpg",
+            "sha256": "bce8c4600249d1a309908937514be4e2f5153607b27b1205402cb9a8fa372933",
             "detailImages": [
               {
-                "label": "Hero Before",
-                "wikiImage": "assets/animations/clownurchin/clownurchin-studio-hero-before.png",
-                "sha256": "474a16678ad691dc1b8b55982bb5acf3a3ff1e731e1afe61db8769048f5d950c"
-              },
-              {
                 "label": "Front Open",
-                "wikiImage": "assets/animations/clownurchin/clownurchin-studio-front-open.png",
-                "sha256": "af7fa02f834576b5005405198229a600988bd249d00181bab6b148e403fe3014"
+                "wikiImage": "assets/animations/clownurchin/replacement3-20261103-supplied-5baf986b0e6d/studio-front-open.jpg",
+                "sha256": "bce8c4600249d1a309908937514be4e2f5153607b27b1205402cb9a8fa372933",
+                "source": {
+                  "file": "output/clownurchin-replacement3-20261103/native-installed/front-open.png",
+                  "sha256": "bce8c4600249d1a309908937514be4e2f5153607b27b1205402cb9a8fa372933"
+                },
+                "format": "JPEG"
               },
               {
                 "label": "Front Half",
-                "wikiImage": "assets/animations/clownurchin/clownurchin-studio-front-half.png",
-                "sha256": "f907ac48213d8e411a6d8312014cefe4923857b49308518c86584ccdcddb4382"
+                "wikiImage": "assets/animations/clownurchin/replacement3-20261103-supplied-5baf986b0e6d/studio-front-half.jpg",
+                "sha256": "636caef83e135ed18f78ece0f65fb142890b611795d895aab794b5eaf0b884d6",
+                "source": {
+                  "file": "output/clownurchin-replacement3-20261103/native-installed/front-half.png",
+                  "sha256": "636caef83e135ed18f78ece0f65fb142890b611795d895aab794b5eaf0b884d6"
+                },
+                "format": "JPEG"
               },
               {
                 "label": "Front Held Closed",
-                "wikiImage": "assets/animations/clownurchin/clownurchin-studio-front-held-closed.png",
-                "sha256": "2296e7127100455f9f5e84fad92b9ab3dc50c4e625057e1ef694eb21ec09e3ec"
+                "wikiImage": "assets/animations/clownurchin/replacement3-20261103-supplied-5baf986b0e6d/studio-front-held-closed.jpg",
+                "sha256": "82fc4f4316574764b33c06ac64cc321a5a08e456ecabc214b949622bab1cf577",
+                "source": {
+                  "file": "output/clownurchin-replacement3-20261103/native-installed/front-held-closed.png",
+                  "sha256": "82fc4f4316574764b33c06ac64cc321a5a08e456ecabc214b949622bab1cf577"
+                },
+                "format": "JPEG"
               },
               {
                 "label": "Left Held Closed",
-                "wikiImage": "assets/animations/clownurchin/clownurchin-studio-left-held-closed.png",
-                "sha256": "15546e925d7b36fb90a4041813bbcff4968a6ba4f95dd32b0526d8bcd1a06894"
+                "wikiImage": "assets/animations/clownurchin/replacement3-20261103-supplied-5baf986b0e6d/studio-left-held-closed.jpg",
+                "sha256": "2d4dd5e3f3fcb9c71290f735c0d31a9efd7f19ebe43ae3d58f14a0767e88df53",
+                "source": {
+                  "file": "output/clownurchin-replacement3-20261103/native-installed/left-held-closed.png",
+                  "sha256": "2d4dd5e3f3fcb9c71290f735c0d31a9efd7f19ebe43ae3d58f14a0767e88df53"
+                },
+                "format": "JPEG"
               },
               {
                 "label": "Right Held Closed",
-                "wikiImage": "assets/animations/clownurchin/clownurchin-studio-right-held-closed.png",
-                "sha256": "e3a51abf9ab2b1e468f143c6b15e666260271641ef837f381ca5a0b397652ade"
+                "wikiImage": "assets/animations/clownurchin/replacement3-20261103-supplied-5baf986b0e6d/studio-right-held-closed.jpg",
+                "sha256": "174d7745701d9706fb6ae5d64cdfa2c622e9e646f10df7522b4fcb58e2eedba1",
+                "source": {
+                  "file": "output/clownurchin-replacement3-20261103/native-installed/right-held-closed.png",
+                  "sha256": "174d7745701d9706fb6ae5d64cdfa2c622e9e646f10df7522b4fcb58e2eedba1"
+                },
+                "format": "JPEG"
               },
               {
                 "label": "Hero After",
-                "wikiImage": "assets/animations/clownurchin/clownurchin-studio-hero-after.png",
-                "sha256": "474a16678ad691dc1b8b55982bb5acf3a3ff1e731e1afe61db8769048f5d950c"
+                "wikiImage": "assets/animations/clownurchin/replacement3-20261103-supplied-5baf986b0e6d/studio-hero-after.jpg",
+                "sha256": "87e1b48622df8bc50a86438dcb4d2c7ad126aeb13b7cef6a7906a03ae33d1ea8",
+                "source": {
+                  "file": "output/clownurchin-replacement3-20261103/native-installed/hero-after.png",
+                  "sha256": "87e1b48622df8bc50a86438dcb4d2c7ad126aeb13b7cef6a7906a03ae33d1ea8"
+                },
+                "format": "JPEG"
+              },
+              {
+                "label": "Half Front Held Closed",
+                "wikiImage": "assets/animations/clownurchin/replacement3-20261103-supplied-5baf986b0e6d/studio-half-front-held-closed.jpg",
+                "sha256": "d1a7783fe3c746cd2dbc3963ed7cd4c2945ee2f685d770b597818d7cf72acb98",
+                "source": {
+                  "file": "output/clownurchin-replacement3-20261103/native-installed/half-front-held-closed.png",
+                  "sha256": "d1a7783fe3c746cd2dbc3963ed7cd4c2945ee2f685d770b597818d7cf72acb98"
+                },
+                "format": "JPEG"
+              },
+              {
+                "label": "Half Left Held Closed",
+                "wikiImage": "assets/animations/clownurchin/replacement3-20261103-supplied-5baf986b0e6d/studio-half-left-held-closed.jpg",
+                "sha256": "f446734b340749cddd08fb8b0a06e1b22ca2a3e598ea44404aadc3ff2c300119",
+                "source": {
+                  "file": "output/clownurchin-replacement3-20261103/native-installed/half-left-held-closed.png",
+                  "sha256": "f446734b340749cddd08fb8b0a06e1b22ca2a3e598ea44404aadc3ff2c300119"
+                },
+                "format": "JPEG"
+              },
+              {
+                "label": "Half Right Held Closed",
+                "wikiImage": "assets/animations/clownurchin/replacement3-20261103-supplied-5baf986b0e6d/studio-half-right-held-closed.jpg",
+                "sha256": "e81bc8f96942cc908a2852f63ae7882f1fea61217cd4575acac23e6b7872237e",
+                "source": {
+                  "file": "output/clownurchin-replacement3-20261103/native-installed/half-right-held-closed.png",
+                  "sha256": "e81bc8f96942cc908a2852f63ae7882f1fea61217cd4575acac23e6b7872237e"
+                },
+                "format": "JPEG"
+              },
+              {
+                "label": "Triple Front Held Closed",
+                "wikiImage": "assets/animations/clownurchin/replacement3-20261103-supplied-5baf986b0e6d/studio-triple-front-held-closed.jpg",
+                "sha256": "b6aa1cfc6e957d6053b752db65a4bebc60b7c1e91e07722654fb1f337c51ebac",
+                "source": {
+                  "file": "output/clownurchin-replacement3-20261103/native-installed/triple-front-held-closed.png",
+                  "sha256": "b6aa1cfc6e957d6053b752db65a4bebc60b7c1e91e07722654fb1f337c51ebac"
+                },
+                "format": "JPEG"
+              },
+              {
+                "label": "Triple Left Held Closed",
+                "wikiImage": "assets/animations/clownurchin/replacement3-20261103-supplied-5baf986b0e6d/studio-triple-left-held-closed.jpg",
+                "sha256": "5585b7717d62626c295b4e986ef52ddbf39756d6dc3d9a12a372b328999f85a3",
+                "source": {
+                  "file": "output/clownurchin-replacement3-20261103/native-installed/triple-left-held-closed.png",
+                  "sha256": "5585b7717d62626c295b4e986ef52ddbf39756d6dc3d9a12a372b328999f85a3"
+                },
+                "format": "JPEG"
+              },
+              {
+                "label": "Triple Right Held Closed",
+                "wikiImage": "assets/animations/clownurchin/replacement3-20261103-supplied-5baf986b0e6d/studio-triple-right-held-closed.jpg",
+                "sha256": "8fbe1c88c3369edd6b0d3a4686cb8a6623362b6c3dfadf96203f989a7927db4e",
+                "source": {
+                  "file": "output/clownurchin-replacement3-20261103/native-installed/triple-right-held-closed.png",
+                  "sha256": "8fbe1c88c3369edd6b0d3a4686cb8a6623362b6c3dfadf96203f989a7927db4e"
+                },
+                "format": "JPEG"
               }
-            ]
+            ],
+            "captureFormat": "JPEG"
           },
           "currentExpressionMediaStatus": {
             "currentMediaAvailable": true,
-            "comment": "Current Blink GIF/MP4 and actual native held-eye images are available. Rounded single-colour covers remain simple in close-up."
+            "comment": "Current Blink GIF/MP4 and accepted native eye views are available. Read the actual score and limitations beside each preview."
           },
           "animationBundle": {
-            "wikiFile": "assets/animations/clownurchin/clownurchin-animations-and-model.zip",
+            "wikiFile": "assets/animations/clownurchin/replacement3-20261103-supplied-5baf986b0e6d/clownurchin-animations-and-model.zip",
             "complete": true,
-            "sha256": "1e9b853af1cd639cf938a207e89cd4118dfb549db962782d557a241bd3eade4f"
+            "sha256": "263f45c39bf9fa7bd4271145e1db34916cf04583c13c14b496936b7358c07d35"
           },
           "captureStatus": {
-            "file": "output/clownurchin-import-20261103/native-installed/verification.json",
-            "sha256": "2a22434be685dd657031d164b759df85cdccacd8fe2de5a934a0a1919a86f8b0"
-          },
-          "retainedPendingPreview": "wiki/pending-imports/clownurchin.json"
+            "file": "output/clownurchin-replacement3-20261103/native-installed/verification.json",
+            "sha256": "701a1ebf2c0ba353381bf94772bdfadc6ed876f770af07a46eb52028805a274c",
+            "visualReview": {
+              "file": "output/clownurchin-replacement3-20261103/native-installed/root-visual-review.json",
+              "sha256": "2d546b5c3e5577c0ea67157125620aca8643c54516cb02c505f12267654ef6c0"
+            },
+            "acceptedCaptureCount": 13,
+            "rejectedCaptures": [
+              {
+                "file": "output/clownurchin-replacement3-20261103/native-installed/hero-before.png",
+                "sha256": "54e879a2568428c5c398c41bc8a7bec8e822c0467b444e6267e0d6d1c0dd0d8b",
+                "reason": "Initial untextured capture; excluded from current media"
+              }
+            ]
+          }
         },
-        "completionLedger": "output/clownurchin-import-20261103/completion.json"
+        "completionLedger": "output/clownurchin-replacement3-20261103/completion.json"
       },
       "artworkLayout": "flat-perspective-v1",
       "artworkTransparency": {

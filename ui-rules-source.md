@@ -1,3 +1,584 @@
+## Trail navigation and active colour, 4 November 2026
+
+Place the Trail tray tile on the left rail directly below Emote. Its click opens
+the Trails shop, while its blue background indicates a valid equipped trail
+with TrailEnabled on. Use the normal dark tile background otherwise, including
+when nothing is equipped. Keep it visible for shopping with no equipped trail.
+Opening Shop must not change the tile's enabled-state colour. Reuse TrailShopArt,
+ActionDock colours and the existing L hotkey to toggle the saved setting.
+
+## Current compact garden callout, 4 November 2026
+
+Use the existing Callout Card Gen renderer and approved v17 Theme.Callout art,
+including its quality texture, bevel and shadow; no illustrated biome background
+or creature portrait. Native foregrounds reuse the canonical Cash/DNA/keycap
+icons, shared raised action buttons and current title/caption fit rules.
+Desktop 420 by 194 retains the image proportions and reduces the former 260-pixel
+height by 25.4%. Phone 316 by 286 preserves 56-pixel action targets. The
+whole DNA underlay is its clipped meter. Native Stay displays Following without
+changing its actual prompt action. Earlier biome-image, 70/35% tint and
+14 to 44 name examples below are historical implementations, superseded by the
+approved current renderer and its existing font caps. Retain the latest shared
+Primary button styles and Standard quality treatment.
+
+The runtime adapter is src/garden_creature_tile.luau. Renderer provenance,
+exact hashes, inspected native desktop/phone/short views and pending live checks
+are retained in output/garden-creature-hover/verification.json. This change
+reuses existing art and does not introduce a competing renderer or icon set.
+
+## Retired biome symbols, 4 November 2026
+
+Use only the 14 ImageGen biome symbols in assets/ui/collection-header-icons-v2.
+The earlier procedural Reef, Deep Ocean and other biome symbols, their atlas,
+comparison sheet and icon-gallery thumbnail/download copies were removed at
+Daniel's request. The old generator is removed and the upload helper now only
+accepts v2. The current packer reads its own manifest instead of the deleted
+v1 manifest. Keep the new originals and runtime PNGs unchanged.
+
+The Collection already used the new atlas. Two retained world encyclopedia
+images still used the old one; these now use the new atlas with their existing
+128-pixel crops. The icon gallery now contains only the 14 current biome symbols,
+without a previous-biome category. Retired upload identity and file hashes remain
+in assets/ui/retired-biome-icons.json as small provenance records, not artwork.
+See output/retire-biome-icons-20261104 for removal and verification evidence.
+No place save or publication was performed.
+
+## Praise keyboard shortcut, 4 November 2026
+
+Praise uses R on keyboard, with the existing native prompt and dynamic keycap
+hint reading KeyboardKeyCode. Follow remains F, and controller Praise remains
+ButtonX. Mobile tapping and the Praise interaction itself are unchanged.
+HomeGarden creates new PetGardenCreature prompts with R. Plan
+0bfd96eef64b47c3bdcd9e4060ca4f88 installed the source with exact readback and
+zero diagnostics. Prompt-stack tests passed 53 checks including the R hint.
+The scoped Edit installer found no existing runtime Praise prompts to update.
+No gameplay, place save or publication was performed.
+
+## Illustrated creature face icons, 4 November 2026
+
+Use [CREATURE_ICON_RULES.md](CREATURE_ICON_RULES.md) for new or replacement
+creature face icons. Match the original Alpanda, Bunblebee and Cockapoodle
+illustrations: floating front-facing head only, rounded forms, clean shading,
+soft dark outlines, glossy expressive eyes and genuine transparent alpha.
+Preserve species identity and use the shared PetIcons owner. Model crops,
+shoulders and full-body artwork do not belong in this icon role.
+
+## Relaxed Garden egg callout range, 4 November 2026
+
+Garden egg callouts and their native hatch/hurry focus now use a four-stud
+horizontal gap from the actual shell footprint, increased from 1.5 studs.
+GardenPromptStack uses one shared constant for card visibility and focus.
+The size-aware elliptical footprint and vertical guard remain. This applies
+to incubating and ready Garden eggs; wild eggs retain native pickup range.
+The single nearest callout rule and egg priority are unchanged. No extra
+updates, effects, remote calls or change to server validation are introduced.
+
+Plan 0c308d7bd9344d829a338da9fade3dd5 installed the shared module with exact
+source readback and zero diagnostics. Prompt-stack checks passed 53 assertions,
+including the exact four-stud boundary; interaction focus passed 31 checks.
+No gameplay, place save or publication was performed.
+
+## Top-income house overlay, 4 November 2026
+
+The crown, stars and illumination belong to a separate passive TopEarnerOverlay.
+Only the highest live pet-income earner in the current server displays it.
+Compare unrounded CurrencyIncomePerSecond from ready player profiles. Positive
+income is required. Ties choose the lowest user ID, consistently across clients regardless of
+profile loading order or each viewer's earlier winner. Ranking refreshes with the existing
+one-second house-label update and responds to income changes and joins/leaves.
+Nonleaders retain their normal name, unique-discovered-species and hourly-income callout. Hidden
+overlays do not advance their sprite animation. This grants no saved reward,
+Cash or gameplay benefit. The approved round 96-frame crown is installed at 25 fps. The entire callout, crown and stars scale together by 1.25.
+
+## Front-facing crown preview revision, 4 November 2026
+
+The current installed design uses the same approved fixed crown model with
+a more frontal camera at (0, -6, 2), looking at (0, 0, 0.55). It has 96 actual
+rendered angles in 3.75-degree steps. At 25 fps, each rotation takes 3.84 seconds,
+half the earlier angular speed. The crown composites after the window and its
+base overlaps the upper rim by three preview pixels. Stars retain their earlier
+twinkle speed. Review GIF: output/round-crown-preview-v3-front-96. Source frames
+and editable scene: assets/ui/house-crown-model-v3-front-96. Installed with the proportional house callout update.
+
+## Reduced button and egg/pet callout typography, 4 November 2026
+
+Daniel reduced the recently enlarged text by approximately 25 percent, rounded
+to whole pixels. Shared word-button captions now prefer 20 pixels instead of
+27. ButtonStates applies Theme.ButtonCaption.sourceScale of 0.75 to larger
+consumer caption preferences and fitting caps too. Keep native fitting and
+existing minimum sizes. Icon/tray/hotbar controls remain outside word-button
+styling. Hit rectangles, artwork, icons, padding and keycap sizes are unchanged.
+
+Pet callouts use quality 20, creature name 23, income 16 and DNA 16 pixels.
+Egg callouts use quality 20, name 17, weight 18 and remaining/ready 18 pixels.
+Matching native text constraints use those same caps. Shared callout layouts
+and desktop/compact geometry remain unchanged. This supersedes the larger
+callout text sizes recorded below.
+
+Plan e6b87107d89f4c04887dcab2a58a50c0 installed the five scoped sources with exact
+readback and zero diagnostics. Native shared-button verification passed 155
+checks, and desktop/narrow egg and pet fixtures passed 15 text-fit checks.
+Actual captures were inspected; cameras and temporary fixtures were restored.
+Evidence: output/callout-buttons-reduced-20261104 and
+output/callout-fonts-reduced-20261104. No gameplay, save or publication.
+
+## Round crown animation preview, 4 November 2026
+
+Daniel approved an offline fixed-model render exception for this crown after
+ImageGen turntable sheets changed gem sides between frames. The new candidate
+uses one hollow annular six-point crown and a parented front ruby, rendered at
+48 yaw angles in 7.5-degree steps. Its GIF preview includes separately twinkling
+ImageGen stars and the existing glow. It is a preview candidate, not installed.
+Model and exact frames: assets/ui/house-crown-model-v1. Review GIF and gem-position
+checks: output/round-crown-preview-v1. The general ImageGen icon and renderer-reuse
+rules remain unchanged outside this explicitly approved crown source.
+
+## 2D house crown turn, 4 November 2026
+
+The crown uses an ImageGen eight-frame turning atlas, four columns by two rows
+with 256 by 160 cells. Native ImageRectOffset advances at eight frames per second
+through HomeGarden's existing 10 Hz sweep, only within 180 studs of the camera
+and while the label is enabled. No new frame connection or 3D geometry is added.
+The glow remains a separate static layer. Source artwork, frame preparation,
+alpha verification and upload receipts live under assets/ui/house-crown-spin-v1
+and assets/ui/house-crown-glow-v1. The current placement retains the 10-pixel down
+and 2-pixel right adjustment.
+
+## Crown illumination and placement, 4 November 2026
+
+The house crown keeps its separate canonical icon. A separate ImageGen alpha
+layer provides a soft gold halo and translucent fan of shine rays behind it,
+rendered at 55 percent opacity. The crown and illumination move together:
+10 actual UI pixels down and 2 pixels right from the previous position.
+The layer stays passive, preserves aspect ratio and adds no frame worker.
+
+## House ownership callout, 4 November 2026
+
+Use the approved callout-card renderer through tools/generate_house_callout_skill.py,
+retaining its brushed texture, embossed border, underlay skins and soft shadow.
+The owner frame is light blue, other owners use grey. The pet-count component is
+centred; player-name and income underlays have equal widths. Reuse canonical Pets
+and Cash icons as separate layers. Show total owned hatched pets, including
+storage, and compact live hourly income labelled / hour. The ImageGen crown
+with exactly two flanking stars is a separate canonical overlay above the frame.
+Keep image proportions with Fit.
+Artwork and provenance: assets/ui/house-callout-v5-hourly. The source renderer
+path and SHA-256 are retained in its provenance manifest.
+
+## All new icon artwork uses ImageGen, 4 November 2026
+
+Daniel requires ImageGen for every new or replacement icon, including simple
+white symbols, action icons and navigation artwork. Do not hand-draw icons in
+Python, SVG, canvas or procedural geometry as a substitute. Reuse suitable
+existing canonical icons first. When creating replacement artwork, use the
+built-in ImageGen tool and inspect matching existing game icons as references.
+Keep full-resolution originals and separately sized runtime PNGs. Resizing,
+lossless PNG preparation and atlas assembly may use deterministic tools, but
+those steps must not invent or redraw the icon artwork. Register the result
+in the shared owning catalogue and reuse it across consumers.
+
+## Drop Egg and Shift Boost replacement status, 4 November 2026
+
+Daniel rejected the hand-drawn action-icons-v1 artwork after installation.
+Its successful loading and technical checks do not establish visual acceptance.
+Replacement ImageGen artwork is pending. Boost should be a white running
+figure with fire streaming behind it. Preserve the canonical drop_egg and
+sprint_boost keys, tray geometry, captions, hotkeys and input behaviour when
+replacing the assets. The Turbo Boost backpack remains a separate item icon.
+Retain v1 files and output/action-icons-20261104 as historical evidence only.
+
+## Birth certificate window shadows, 4 November 2026
+
+The birth certificate uses two passive nine-slice layers of the shared blurred
+alpha shadow artwork behind its biome backdrop: a soft surrounding shadow and
+a lighter drop shadow six pixels below it. Both resize with the certificate.
+Text, creature preview, quality aura and the biome background remain crisp.
+
+## Creature detail artwork, 4 November 2026
+
+Collection creature details and both encyclopedia board faces show the main
+habitat illustration without the five bottom image-preview controls. The shared
+PetCollectionDetail renderer no longer creates the habitat/front/side/back/egg
+thumbnail strip. Retain source artwork assets for their other existing uses.
+
+## Single nearest callout and close egg focus, 4 November 2026
+
+Only one creature/egg callout may be visible. GardenPromptStack arbitrates
+native action cards and pointer-only previews together, including wild eggs,
+incubating/ready Garden eggs and creature cards. Choose the nearest eligible
+egg first, otherwise the nearest eligible creature. Equal distances retain
+the current owner. A creature moving under the pointer cannot replace an
+eligible egg callout. Walking away, removal, death and HUD hiding release it.
+
+Egg visibility requires the avatar root to be within 1.5 studs horizontally
+of the shell footprint, using the actual PrimaryPart width/depth and rotation.
+The footprint is elliptical, so a large bounding-box corner cannot grant extra
+reach. A vertical guard excludes other floors. Large eggs therefore use the
+same edge gap as small eggs rather than a fixed centre distance. Garden egg
+native actions use this close focus too; wild prompts retain their existing
+server-authoritative validation and native eligibility, while their card uses
+the close display threshold. Other native world interactions are unchanged.
+
+Reuse the existing 20 Hz focus update and registered cards; do not add another
+RenderStepped worker, new artwork or a second prompt stack. The owning module
+updates visibility directly when hover/native events change and retains its
+existing positioning, skins, input and cleanup.
+
+Installed plan 94566093cf3e45439996905d81852c93 has exact source readback and zero
+diagnostics. Existing suites passed 31 focus, 47 prompt-stack and 513 hover
+checks. An isolated native Edit fixture checked eight pet/small-egg/giant-egg,
+hover, movement, removal and death cases, with exactly zero or one card visible
+as expected. The selected card's native appearance was inspected; fixture and
+camera cleanup passed. Evidence: output/single-callout-20261104. No gameplay,
+place save, publication or saved-data changes occurred.
+
+## Embedded nearest-creature review controls, 4 November 2026
+
+The Developer tools Creature issues section uses its existing 44-pixel
+accordion header, extreme-right chevron and shared command-search behavior.
+Its command starts at 124 pixels high: 12-pixel side padding, a wrapped
+48-pixel target/helper row, an 8-pixel gap and a 44-pixel selection action.
+After selection it expands to 588 pixels. The reviewer starts at Y124 with
+12-pixel bottom clearance and its own native vertical scroll surface.
+Use shared Theme fonts, row/card surfaces, primary selected rating states,
+ButtonStates and InputFields. The canonical reviewer supplies rating rows and
+optional comments. Keep the target fixed during editing and hide the roster
+picker here. The tools window's existing resize, drag and outer scrolling
+remain the owners of responsive placement. Native Edit views at 460 and
+300 pixels wide were inspected with isolated sample reviews.
+
+## Mobile callout text fitting, 4 November 2026
+
+Callout labels and shared word-button captions own their native text fitting.
+Translation must preserve UIOwnsTextFit components and their size constraints.
+Related action captions use the same preferred font size and shrink only to fit.
+Income uses compact currency on one line, including translated hourly units.
+Keep text bounds close to the intended single-line height so native fitting
+does not wrap short labels into oversized multiline boxes.
+
+## Wild egg callout and held pickup, 4 November 2026
+
+Wild TakeEgg prompts reuse the compact egg callout: quality, discovered species
+name or Unknown egg, weight in the selected units and a Secondary Pick up action
+with its live E keycap. There is no incubation bar or separate ready status.
+The custom pickup fill uses the native ProximityPrompt.HoldDuration directly.
+The server sets and replicates that duration from the egg's quality:
+
+| Quality | Native hold and visible fill | Server minimum |
+| --- | --- | --- |
+| Standard | 1.5 seconds | 1.4 seconds |
+| Fine | 1.7 seconds | 1.6 seconds |
+| Superior | 1.9 seconds | 1.8 seconds |
+| Epic | 2.1 seconds | 2.0 seconds |
+| Legendary | 2.3 seconds | 2.2 seconds |
+
+This supersedes the earlier separate visual timer and early-submit design on
+4 November 2026. The 100 ms is now a server timing allowance. Only the native
+Triggered handler can claim the egg. The prediction request queues its receipt
+token until that handler completes; either message order acknowledges the same
+claim. If native completion reaches the server before its minimum has elapsed,
+it waits the remaining time, then revalidates the current hold and existing
+custody/range/profile rules. It does not reject that legitimate timing difference.
+Longer active holds remain valid. Release cleanup, death, unavailable prompts,
+replaced characters and model destruction cancel stale work. A bounded underwater
+lock release does not expire a continuing native hold. Quality changes update
+the native duration on the server without streaming progress messages.
+
+The installed revision passed 88 pickup/reconciliation checks, the shared hold
+fill and underwater lifecycle suites, and 47 prompt-stack assertions. Native
+Edit prompts match all five durations and react to a server quality change.
+Guarded plan 6eab6bdd9a514b59b71ee660de5f04bf installed the service and shared fill
+with exact source readback and zero diagnostics. Evidence:
+output/native-pickup-timing-20261104. Physical input, gameplay, saving and
+publication were not performed.
+
+Underwater wild eggs use this held pickup, superseding their earlier instant
+pickup. On 4 November Daniel selected approach first, then hold still. The root
+locks locally and on the server after arrival. Release, completion, death, model
+removal, unavailable prompts and a bounded timeout restore movement. Dry-land
+holds use native approach without anchoring. See HATCHING.md for reused clips,
+native movement and verification. Breath and normal swimming outside this action
+retain their existing behavior. Wild cards respect native activation range;
+only garden egg cards use the close 1.5-stud (0.42-metre) shell gap.
+
+The server requires a matching timed hold before claiming an egg and retains
+its existing profile, inventory, range and custody validation and idempotent
+acknowledgement. Releasing early cannot redeem an old hold later. Existing
+inventory-dropped transfers and special treasure interactions are unchanged.
+
+Plans f38d165897494840860d96d2fb3d0a99 and
+2dbb869f2d2c43ca80ef108fb5b3e84a installed the scoped sources with exact readback.
+Source diagnostics, 62 pickup/reconciliation checks, 45 prompt-stack checks,
+shared hold-fill checks and the local underwater lifecycle fixture passed.
+Native Edit examples cover desktop, narrow layout and pounds. See
+output/wild-egg-callout. No gameplay, manual save or publication was performed.
+
+## Component names, tray tiles and current egg cards, 4 November 2026
+
+Use tray tile for a square illustrated shortcut in the side or bottom tray.
+Use hotbar slot for the numbered inventory version. They retain small plain-text
+shortcut hints, their square icon artwork and the existing hover/selected states.
+Do not apply action-button keycaps, raised word-button skins or action-caption
+rules to tray tiles. Regular action buttons retain the shared keycap styling.
+This explicit distinction supersedes earlier broad hotkey-label styling.
+
+An incubating egg card has quality, name, weight, hatch progress and Hurry.
+A ready egg card has only quality, name, weight and Hatch. Remove the redundant
+ready-status row entirely and reduce the card from 340 by 386 to 340 by 326.
+Preserve equal side and bottom clearance. Weight and hourglass artwork have
+slight alpha-shaped shadows and additional left clearance inside the underlay.
+Reuse the existing Collection weight icon. Kilograms and pounds use two decimals
+and the saved Weight units setting. Canonical game data remains kilograms.
+
+Callout texture sampling must use only the source image's interior texture.
+Never sample an old border or pointer into the new window. Extend the texture
+through the whole silhouette, including the pointer, before applying its mask.
+Use the maintained renderer and preserve earlier generated revisions.
+
+The shared stock glyphs have been replaced by original project geometry in all
+77 existing atlas slots, in three styles, with matching 64-pixel cells. Own
+hourglass, touch and aiming artwork replace the remaining authored UI stock
+images. Existing illustrated icons remain canonical. Native Roblox menus,
+operating-system controls and world particle textures are separate from game UI.
+
+The component reference on this page gives each reusable component a screenshot,
+name and description. Its native Edit examples use sample data and do not prove
+live gameplay or mobile performance acceptance. Current source hashes and image
+provenance are retained in wiki/ui-components.json.
+
+## Roomier garden egg callout, 4 November 2026
+
+The egg callout is now 340 by 326 pixels, with a 36-pixel content inset,
+268 by 44 cells and 16-pixel row gaps. The quality, name, timer and action rows
+start at Y 36, 96, 156 and 216. Clearance from the action to the straight rim
+is approximately 27 pixels on the left, right and bottom, excluding the pointer.
+This supersedes the earlier 300 by 300 egg geometry below.
+
+All five quality backgrounds were regenerated at the matching aspect ratio,
+with 30-pixel shadow padding. Narrow layouts scale the geometry proportionally,
+round to whole pixels and keep equal left/right action insets. Preserve the
+shared native button and its caption fitting. No hatch or purchase behavior changed.
+
+Plans f10495b008b440ada72676bd63ff0cc0 and e2228ef5e11e4f6d810ba5c0b88e8b78
+installed Theme and GardenHatchTimer with exact source readback and zero
+diagnostics. Native Edit checks verified unknown/hour, known/minute and ready
+states plus a 316-pixel narrow card, including text fit, progress clipping,
+background proportions, balanced margins and cleanup. See
+output/garden-egg-callout-roomy-final and assets/ui/egg-callout-v2-roomy.
+No Play, place save or publication.
+
+## Larger callout text and automatic button fitting, 3 November 2026
+
+Creature and egg quality labels use 27-pixel text. Creature income and DNA use
+21 pixels; egg remaining/ready text uses 24 pixels. These are 50% larger than
+the preceding sizes. The compact creature layout is 316 by 286 pixels with
+56-pixel cells and matching regenerated backgrounds, preserving equal cell
+geometry and natural image proportions. Desktop geometry remains unchanged.
+
+Creature income uses CurrencyFormat.CompactHourlyRate, with two decimal places
+and K, M, B, T and later suffixes, for example 1.01K / hour. The canonical cash
+icon supplies the currency symbol. Existing full currency formatting elsewhere
+is unchanged. Rounding across a suffix boundary carries into the next suffix.
+
+Guarded plans eb94551553694dc6a8bece04ee421d46 and
+f6d5bdcd826644d1bc8dd21c4d2c7cc3 installed the typography, compact currency and
+shared native button fitting. Native Edit verification passed eight creature
+layouts, three egg states and 155 shared button checks, including a long label
+inside a 120 by 40 hotkey button. Currency checks passed 35 cases. Camera
+restoration and temporary fixture removal passed. Evidence is in
+output/garden-callout-large-text, output/garden-egg-callout-large-text and
+output/callout-shared-buttons-auto-fit. No Play, save or publication.
+
+## Canonical Pets paw icon, 3 November 2026
+
+Pets now uses the requested standalone white paw print with a dark navy outline
+and subtle cool shading. It has four toe pads and one central pad, with genuine
+transparent alpha and no baked button background. Shared MaterialCatalog
+standalone keys nav_pets and pets both point to asset 138694023697499, so existing
+Pets navigation and other Pets controls reuse one canonical image. Collection
+retains its separate current icon and all action/hotkey bindings are unchanged.
+The user explicitly requested this replacement; earlier creature navigation art
+remains preserved. Full-resolution pets-original.png, 128-pixel pets-icon.png,
+preparation and upload receipts are in assets/ui/pets-paw-v1.
+
+Plan c170a5e591e9416885c4f4eb4b8d03ec installed only MaterialCatalog with exact
+readback and zero diagnostics. Native Edit previews verified all twelve image
+instances loaded at 32, 40 and 56 pixels on dark, light, blue and purple surfaces.
+Camera restoration and fixture removal passed. See output/pets-paw-20261103.
+No gameplay, manual place save or publication was performed.
+
+## Two visible pet rows, 3 November 2026
+
+4 November update: Garden, Stored and Collection share the same responsive
+window, including creature information. It occupies 92% of available width and
+78% of available height, capped at 1350 by 900 pixels, with its center at 50%
+across and 45% down. Tab changes and opening or closing creature information
+must not resize or move the window. Device-safe ScreenGui insets remain active.
+
+The shared bounds are installed by plan 07be81d662d445d9ab0568ff946a0764 with
+exact source readback and zero diagnostics. Sixteen native Edit states cover
+Garden, Stored, Collection and open creature information at four viewport sizes.
+Garden and Stored desktop/portrait views and short landscape Garden were
+visually inspected. The Collection capture was blank and is not visual evidence;
+its native bounds passed. Existing tab-memory checks passed. Evidence:
+output/pet-window-size-20261104/completion.json. Live gameplay and publication
+remain separate.
+
+Garden and Stored InventoryGrid opts into FitRows=2. Tiles retain their column
+widths and aspect-fit artwork, while height is capped to fit two rows including
+grid padding and gaps. A 90-pixel readable minimum preserves the existing text
+footer and selection outline. Three or more rows use the normal virtualized
+scroll path. Other shared grid consumers retain their existing geometry.
+
+Narrow layouts use a compact tab/search header, 80-pixel summary and three
+columns of footer actions over two rows. Metrics retain their existing fonts
+and fit above the actions. Narrow summary/action spacing is eight pixels;
+desktop retains twelve. Exceptionally short windows keep scrolling rather than
+compressing cards below their readable minimum. The two-row guarantee was
+verified for desktop 860 by 660, smaller desktop 700 by 564 and portrait-phone
+340 by 534 panel sizes. Very short landscape windows remain a separate limit.
+
+Guarded plan 532616c6de53494f8b451f65a907a9d7 installed GardenManager and
+InventoryGrid with exact readback and zero diagnostics. Existing grid checks
+passed, plus nine two-row/third-row/minimum-height threshold checks. Native Edit
+previews use the actual production layout, footer and grid. Each verified no
+scroll for two full rows, scrolling after one item begins row three, and footer
+bounds and label fit. Camera restoration and fixture removal passed. Evidence:
+output/pet-two-rows-20261103/native.json. These are static layout checks, not live
+input or mobile device performance tests. No Play, save or publication.
+
+## Garden egg callout, 3 November 2026
+
+Garden eggs use a 300-pixel-wide callout matching the creature card's quality
+art, texture, bevel, shadows and keycap buttons. Show quality, then the species
+display name followed by Egg, or Unknown egg until the local player's confirmed
+HatchedEggSpecies history contains that species. Visitor hover remains cosmetic.
+
+Use the whole hatch underlay as progress, with identical empty/full images and
+left-to-right clipping. Remaining time and fill derive from EggHatchClock's
+boost-aware remaining value and the saved incubation duration. Show an hourglass
+and Xh Xm or Xm Xs. At zero, replace them with a green circle, white check and
+Ready to Hatch! The owner sees the existing E Hurry purchase prompt before ready
+and native E Hatch action afterward. Preserve close Hurry range, hatch range,
+hold duration, purchase/developer checkout and server validation. Neither action
+is granted to visitors. The former separate world countdown is hidden rather
+than duplicating the new callout. Reuse the existing update loop and clean up
+streamed/replaced prompt identities and hover state.
+
+Installed plans 29a18279b63b4e8e8dcee138981f74cd and
+60332a2085124cc988361b83df570195. Native Edit evidence is in
+output/garden-egg-callout-installed. No gameplay, purchase, save or publication
+was performed during verification.
+
+## Approved callout installed, 3 November 2026
+
+Daniel explicitly requested installation after approving the v17 design.
+GardenCreatureTile now uses its five desktop and compact textured backgrounds,
+the approved passive underlays, larger canonical icons and soft shadows. The
+whole DNA underlay is clipped from left to right with its centred X / Y rating.
+Both native prompt actions use shared Primary buttons, outlined white captions,
+keycaps and the shared button shadow. A single Praise action stays on the left.
+The new shared ButtonStates caption/shadow style is installed; the earlier
+preview-only descriptions below are historical for this installed revision.
+
+Creature mouse hover shows its callout without a golden Highlight. Only garden
+eggs retain the local golden hover Highlight, per Daniel's latest correction.
+Guarded plan ad5461cdcc514bb2828bab2a5f17850b installed and read back all five
+sources. Native Edit verification covers five qualities, two compact examples
+and the single-action case; shared button verification passes 152 checks.
+No gameplay, place saving or publication was performed.
+
+## Callout card generator, 3 November 2026
+
+The textured window with a downward V-shaped pointer is a callout card. The
+projection is its pointer or tail. The approved v17 design and complete Python
+generator are packaged in D:/CodexProfile/skills/callout-card-gen/SKILL.md with
+the required raster assets, underlay generator, transparent layer exports and
+layout manifest. Use that skill for matching windows. Installation remains
+separate from approval of the visual design.
+
+## Hotkey buttons and garden DNA underlay, 3 November 2026
+
+Buttons with keyboard shortcuts retain the established Theme.Buttons role,
+Theme.buttonGradient, shared fonts, radius, feedback and disabled states. Show
+the shared Theme.Images.Hotkey keycap with the live key centred inside it,
+beside the action label. Reserve space for the keycap without shrinking or
+overlapping the label. Keep controller/touch input glyphs and focus guards.
+The keycap does not introduce a separate button skin, colour role or hit target.
+Garden Praise and Follow use these established buttons, not the decorative
+quality/money/DNA underlay artwork.
+
+Latest button-caption direction: shared raised word buttons use bold white
+captions with a black text outline, through Theme.ButtonCaption. Their preferred
+size is 27 pixels, 50% above the earlier 18-pixel setting. Use native TextScaled
+with a UITextSizeConstraint capped at the preferred size, allowing smaller text
+when the actual available width or height requires it. Keep a two-pixel text
+inset and reserve the keycap area before fitting hotkey captions. Respect caller
+padding and recalculate naturally as the control or caption changes. Preserve
+existing Primary, Secondary and Warning fills, bevel gradients and disabled-state
+contrast. This supersedes older Medium 14 button-caption guidance only, not body
+text or icon-only controls. Both garden actions use Primary. Vertically centre
+the creature name on the DNA underlay. These shared refinements are installed.
+
+Shared word-button shadow direction: add a soft passive shadow resembling the
+underlays' shadow, with a slight downward offset. Keep its image/configuration
+in the shared Theme/ButtonStates owner, never reimplement it per screen. It
+must not change hit bounds, capture input or move the control during feedback.
+Keep existing semantic fills, bevels and disabled/hover/pressed states. This
+shadow was subsequently installed through the shared component with the approved callout.
+Standard word actions use the shared ButtonStates renderer and Theme; tabs,
+icon controls, HUD trays and inventory artwork remain explicit exceptions.
+
+For the garden DNA rating, the full underlay is the progress bar. Render an
+empty underlay and an identically positioned full underlay at identical size.
+Reveal the full image from left to right through a clipping container sized
+to score / maximum. Keep the full image at its original full size inside the
+clip, never squash it to the percentage width. Centre the numeric X / Y rating
+above both layers, with spaces around the slash. No separate inset rail or
+"DNA Score" words. Cash and DNA icons remain separate, proportionally enlarged
+layers. Daniel approved this design and explicitly requested its installation
+after the preview iterations on 3 November.
+
+## Duplicate-pet primary E shortcut, 3 November 2026
+
+Both SpeciesLimit and GardenFull hatch-choice dialogs bind E to their primary
+Select action, choosing the existing income-based recommendation. The shortcut
+was previously bound only for GardenFull. Both show Select [E] on the primary
+button. Existing high-priority input ownership, chat focus protection, immediate
+local close, queued server validation and unbinding on every close route remain.
+Guarded plan d6df7161d8e34f4faee61d0e3e3d4db8 installed HatchReplacementUI with
+exact readback and zero diagnostics. Offline choice, input ownership and pending
+lifecycle checks pass, including both recommendation directions in SpeciesLimit.
+Live keyboard acceptance remains untested. No place save or publication.
+
+## Shared icon reuse and layered garden hover cards, 3 November 2026
+
+Inspect the existing icon library before generating an icon. Repeated meanings
+reuse their canonical shared image, including Theme.Images.Cash everywhere Cash
+is represented. Do not bake reusable icons into backgrounds or create local
+duplicates. DNA and hotkeys use Theme.Images.DNA and Theme.Images.Hotkey.
+
+Daniel approved a layered replacement for the earlier garden hover treatment:
+one neutral speech-bubble panel tinted by quality, with identical geometry for
+all five qualities. Native quality badges, stat boxes, text, DNA progress and
+action buttons overlay it. Cash and DNA icons are separate passive ImageLabels;
+hotkey letters overlay the shared blank keycap. Quality is a separate badge,
+not a duplicate prefix on the creature name. The biome image and quality texture
+instructions below are historical for this hover card only, superseded here.
+Preserve hover visibility, visitor cards, native prompt range, ownership checks,
+Feed fish and mount substitutions, and server validation. DNA fill is the actual
+score divided by its species maximum, never a fixed ten-point assumption.
+
+Later refinements: the quality, money, DNA and action boxes have identical
+dimensions in a two-column grid. Keep a single Praise button on the left at
+its normal width. Use even margins and row gaps, with generous clearance below
+the buttons. DNA displays its icon, numeric rating and progress bar, without
+the words "DNA Score". Generate the textured window after laying out its
+contents. Desktop and compact background images preserve their aspect ratios
+through ScaleType.Fit, never Stretch. The diagonal imprinted texture remains
+visible. Garden creature and garden egg pointer hover reuse one local native
+golden Highlight, occluded by the world and cleared on suppression or teardown.
+
 ## Item icon flight and garden status, 3 November 2026
 
 Confirmed shop purchases copy the clicked tile's actual image center and size.
@@ -50,7 +631,7 @@ biome landscape visible behind the brighter surface. Garden and Stored inventory
 footer rules below retain their separate existing opacity.
 
 The same card remains visible when native pet actions are available nearby.
-Integrate the existing E Praise and F Follow buttons in its footer, keeping
+Integrate the existing R Praise and F Follow buttons in its footer, keeping
 native range/eligibility, mouse/touch/controller presentation and server
 validation. Visitors retain eligible Praise; Follow remains owner-only.
 Existing Feed fish and mount substitutions keep their dynamic action text.
@@ -177,6 +758,9 @@ Daniel's supplied red/white artwork is a specific celebration treatment, not a
 new general control palette. Keep its transparent original and 768 by 256
 runtime PNG separate from the actual egg ViewportFrame and localized New Egg!
 text. Use Theme.Fonts.bold, a red text outline and restrained text depth.
+4 November title placement: move both the heading and its matching depth layer
+up by 2% of the banner width (about 11 pixels at the maximum width), retaining
+their existing relative offset and the egg/artwork positions.
 3 November placement: centre the visible new-egg artwork horizontally at one
 third of the device-safe screen height, maximum 560 pixels wide. This replaces
 the former 68-pixel top inset. Reserve bounds for the 120% entrance overshoot on narrow/short screens.
@@ -441,8 +1025,9 @@ align right and labels wrap independently. Discovery and biome badges share a
 36-pixel row. The biome icon has its own 24-pixel sibling slot; its label starts
 40 pixels from the badge's left edge. Conservation icons are 28 pixels, with a
 second slot for Alien where applicable and actual base state text beside them.
-All wording remains native/localized; artwork contains no text. Only desktop
-detail may use the 1350 by 900 limit. Other pet views retain their geometry.
+All wording remains native/localized; artwork contains no text. The 4 November
+shared Pets window rule above applies the same 1350 by 900 maximum to Garden,
+Stored, Collection and its creature detail view.
 
 ## Cash tray feedback, 31 October 2026
 
@@ -2052,3 +2637,99 @@ PlayerSkillXPFeedback uses DisplayOrder 98 so both small and accumulated XP gain
 3 November 2026: the server-wide hatch-speed boost card no longer displays its decorative egg artwork. Its multiplier, attribution, countdown and upgrade control remain. The income/XP boost stat symbols retain their existing treatment.
 
 3 November 2026: numbered egg slot 1 reuses its existing Quantity label to show xN from EggInventoryCount, across every carried egg species and trait. Show x1 for one egg and hide the count at zero; garden eggs are excluded by the authoritative InventoryEggs projection. Refresh on EggInventoryCount changes without a new request or polling loop. Other item and trap quantity behavior is preserved. Guarded plan 2a30ad698a0f4865bc7688c96844bf3b installed with exact source readback; 30 offline hotbar assertions and source diagnostics passed. Gameplay was not started, saved or published.
+## X closes the frontmost window, 3 November 2026
+
+X dismisses the frontmost open game window. It remains ordinary text while a
+TextBox has focus and yields to the native Roblox menu. With no window open,
+existing gameplay X actions remain available. Existing Escape, controller,
+button and menu shortcuts stay intact.
+
+WindowControls.exclusive automatically registers windows with the shared
+closeOnX input owner. Supply the existing close callback as its third argument
+when closing needs cleanup or state reconciliation. Independent modal windows
+register with WindowControls.closeOnX(panel, screenGui, closeCallback) without
+joining main-window exclusivity. Highest ScreenGui DisplayOrder wins, followed
+by nested modal ancestry, ZIndex and most recent opening. Hidden ancestors and
+disabled or destroyed screens are excluded. One press closes one window only.
+Busy confirmations retain their existing guards. Never fire or simulate a
+button event to dismiss a window. Reuse the real close action.
+
+The creature viewer stays dismissed until the player leaves its stand, so X
+does not immediately reopen it. Shop search cleanup, wardrobe preview teardown,
+away-reward dismissal and hatch-choice cancellation reuse their owning actions.
+Eleven shared close checks, ten exclusivity checks and the existing certificate,
+away-income and hatch-choice suites passed offline. Source diagnostics passed.
+Live keyboard/gameplay acceptance remains untested. No save or publication.
+
+
+## Hyper-speed edge overlay, 4 November 2026
+
+Approved speed streaks are passive decoration, not controls. Use eight cached
+thin white gradient Frames at the outer left/right edges, native looping tweens,
+and DisplayOrder zero so ordinary HUD/windows remain above them. Keep the centre
+clear. They must not become Modal, Active or Selectable and must never capture
+input. Enable only during the actual local moving boost; cancel and hide on
+release, blocked gameplay and teardown. Low graphics disables the overlay.
+Do not create a per-frame image/Frame stream or extend it over the centre.
+See RunningBoostStreaks, RUNNING_SPEED_BALANCE.md and its native preview evidence.
+## Shared hotkey keycaps, 4 November 2026
+
+All authored buttons that expose keyboard shortcuts use ProjectUI.Hotkeys and
+Theme.Images.Hotkey (80443119022364), with live text layered on the blank cap.
+Do not generate or upload another keycap. This decoration preserves each
+button's existing skin, action, binding, focus and hit target. Native Roblox
+ProximityPrompts retain their built-in input UI.
+
+Raised word buttons accept a Hotkey string attribute or an existing final
+shortcut suffix such as Select [E] or Cancel (X). ButtonStates extracts the
+caption for presentation, reserves the cap width plus spacing before text fit,
+and leaves the original Text available for translation and accessibility.
+Keys are hidden for touch input. Existing garden action keycaps remain intact.
+Birth-certificate OK explicitly declares E. Toolbar, hotbar number and emote
+hints use Hotkeys.bindLabel; multiple hints such as ! / P draw separate caps.
+Shift and Space use a wider cap. Icons, creature tiles, tabs and stat trays
+retain their existing visual roles and do not become raised word buttons.
+
+Native Edit previews checked ordinary shortcuts, explicit-key OK, Shift, Space,
+number keys, paired keys, dynamic removal/restoration and a 120 by 40 compact
+button. The existing 155 shared button-state checks passed. Camera restoration
+and fixture removal passed. See output/shared-hotkeys-20261104. Guarded plan
+d0da8dfa086d4aa891d398cca996a661 installed the eight combined keycap and guardian
+presentation sources with exact readback and zero diagnostics. No gameplay,
+place save or publication was performed.
+## Doubled New Egg preview, 4 November 2026
+
+The New Egg delivery popup's ViewportFrame is now 48% of banner width on each
+axis, doubled from 24%. Its fitted camera and model remain unchanged, doubling
+the egg's displayed width and height. The layout raises the egg while retaining
+its former lower edge beside the caption, and offsets the artwork/text within
+the existing canvas to prevent clipping. A top inset protects short screens;
+normal artwork remains near one third down the safe screen. Confetti originates
+behind the new egg centre. Rotation, drag/inertia, entrance and fading are kept.
+Guarded plan 23fc42de05b448a1b124ad63eeaea396 installed NewEggBanner with exact
+readback and zero diagnostics. Existing banner checks passed 134 assertions.
+Evidence is retained in output/new-egg-banner-double-20261104. No gameplay,
+place save or publication was performed.
+Native Edit previews for desktop, portrait phone and short landscape also passed
+layout, text fit, actual egg rotation, drag/inertia and source-template checks.
+The retained images use an inert Frame snapshot because SurfaceGui does not
+composite CanvasGroup in Edit. The initial blank captures were rejected and
+replaced with inspected previews. Camera restoration and fixture removal passed.
+## Egg mouseover highlight removed, 4 November 2026
+
+Garden egg mouseover keeps its interaction card and normal prompt selection,
+without creating a Highlight, tint or outline. GardenRoamingClient no longer
+allocates LocalGardenHover. Quality effects and creature hover information keep
+their existing behavior. Guarded plan 243198dc74ab4de589653fb3efc2b65b installed
+the single source with exact readback and zero diagnostics. Existing hover
+runtime checks passed 513 assertions. No gameplay, save or publication.
+## Developer Panel summary text, 4 November 2026
+
+The testing Developer Panel's selected-entry description is now 20 pixels,
+increased from 15. Existing automatic vertical sizing, word wrapping and the
+details scrollbar keep long summaries readable. Titles, steps and metadata
+retain their current sizes. Guarded plan a7c8645b733e4f80934cdee0b5f9ae03
+installed the single source with exact readback and zero diagnostics. A native
+Edit preview verified the actual 20-pixel summary with longer wrapped text;
+camera restoration and fixture removal passed. Evidence is under
+output/developer-summary-text-20261104. No gameplay, save or publication.

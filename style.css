@@ -207,3 +207,14 @@ body:has(#show-scrapped):not(:has(#show-scrapped:checked)):not(:has(#show-implem
 .image-preview-caption{position:absolute;bottom:0;left:0;right:0;margin:0;padding:10px 16px;background:var(--panel);color:#f2d491;text-align:center;font-size:14px;line-height:1.5;overflow-wrap:anywhere}
 
 #component-reference{scroll-margin-top:160px}
+
+/* Source-derived ambient music catalogue. */
+.ambient-music-table{width:100%;min-width:540px;border-collapse:collapse;font-size:14px;text-align:left}
+.ambient-music-table th,.ambient-music-table td{padding:12px 14px;border:1px solid var(--line);vertical-align:top}
+.ambient-music-table thead{background:var(--row)}
+.ambient-music-table tbody th{font-weight:600}
+.ambient-music-table td{font-variant-numeric:tabular-nums}
+.music-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:16px;margin:20px 0 32px}
+.music-preview{min-width:0;padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--row)}
+.music-preview h3{font-size:17px;min-height:2.8em;margin:0 0 12px}
+.music-preview audio{display:block;width:100%;max-width:100%}

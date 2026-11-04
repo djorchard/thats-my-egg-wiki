@@ -1,11 +1,312 @@
-## Trail navigation and active colour, 4 November 2026
+## Certificate input owns covered game editors, 5 November 2026
 
-Place the Trail tray tile on the left rail directly below Emote. Its click opens
-the Trails shop, while its blue background indicates a valid equipped trail
-with TrailEnabled on. Use the normal dark tile background otherwise, including
-when nothing is equipped. Keep it visible for shopping with no equipped trail.
-Opening Shop must not change the tile's enabled-state colour. Reuse TrailShopArt,
-ActionDock colours and the existing L hotkey to toggle the saved setting.
+The birth certificate's E acknowledgement must not become text in a covered
+game search field. Release a focused field belonging to PlayerGui when the
+certificate opens, and prevent background fields taking focus while it remains
+visible. Preserve Roblox menu and core/external text input ownership. Reuse the
+same acknowledgement function as clicking, and disconnect modal focus listeners
+on every close path. Do not autofocus a replacement field.
+
+## Pet management action order and input, 4 November 2026
+
+Inside the merge picker, E activates the enabled final Merge action through
+the same guarded submit function as clicking. An incomplete selection or
+pending submission still consumes E and cannot trigger a background action.
+
+Garden places its primary assignment action first on the left. Stored places
+its primary Merge action second, immediately after Send to garden. Both use
+the shared E keycap. Give long primary labels additional space on phones.
+The foremost window owns its primary key through ContextActionService and
+consumes inactive E presses so they cannot trigger background world actions.
+Respect typing and higher modal input owners. Arrow selection must update the
+same tile outline/state as clicking and scroll the selected tile into view.
+
+## Reuse item flight for pet transfers, 4 November 2026
+
+Individual Store pet and Send to garden actions reuse ItemPurchaseFeedback,
+targeting the corresponding counted header tab. Use the existing pet tile
+artwork and capture its centre and size before the projected move rerenders
+the grid. Configure Speed = 2 for every tween phase and Notice = false for
+silent cleanup after absorption. Keep default shop/pickup timing unchanged.
+Do not introduce another flight renderer, frame loop or purchase notice.
+
+## Stackable Shop actions and pending quantities, 4 November 2026
+
+Use the existing blue primary buttons for the single-item action on the left
+and Buy 10 for on the right. Both use ButtonCashPrefix / ButtonCashAmount with
+the canonical coin and full grouped total. A one-owned item has no bulk action.
+Retain the existing three quantity buttons for traps. Reuse InventoryGrid's
+passive Cash row for grocery tile prices, including cards without a stat row.
+The separate counted overlay shows xN owned stock, or xN pending immediately
+after input. Pending stock is presentation only and does not enable a grant.
+Native acceptance must check the visible caption, not only its prefix attribute.
+
+## Full Cash prices and merge explanation, 4 November 2026
+
+Cash purchase buttons display the complete grouped price beside Theme.Images.Cash,
+without a dollar character or K/M/B/T suffix. Use CurrencyFormat.FullAmount and
+the shared ButtonCashAmount / ButtonCashPrefix renderer, including bulk-buy totals.
+Keep native Robux checkout labels and unrelated compact HUD values.
+Merge mode has a Back action on the left and a wrapped explanation beside it,
+above the pets. Explain matching creature/quality, higher income and replacement
+of the inputs. Size that row from its measured text so it cannot overlap pets.
+Back shares Cancel logic and cannot cancel an already submitted merge.
+
+## Inventory equipment primary, 4 November 2026
+
+When an equippable inventory item is selected, the footer's primary blue action
+is Equip or Unequip according to its current projected equipment state. Keep
+Discard secondary and preserve its confirmation. Native Tool ownership remains
+server-authoritative; unequipping returns the selected tool to Backpack and
+does not disturb a different held item. Turbo Boost keeps its existing wearable
+service. Eggs and instant hatch credits retain their own actions. Equipment
+intent feedback uses the existing ordered queue and rollback path.
+
+## Discover labels and Inventory header, 4 November 2026
+
+The player-facing Collection navigation label is Discover. Its counted tab
+uses X / Y discovered. Internal keys and discovery history remain unchanged.
+Inventory puts its capacity title, existing tabs and Close on one row. Keep
+all five tabs visible on desktop. On narrow screens use native horizontal
+scrolling inside the same row, retaining readable captions and touch targets.
+Search and content begin below that row. Capacity warnings keep a separate
+short notice only when required.
+
+## Trail badge alignment, benefit fills and dual checkout, 4 November 2026
+
+Trail tile backgrounds and item names keep their trail colours. Rainbow uses
+repeating red, orange, yellow, green, blue and purple letters, including after
+Indonesian translation. Only the two information badges use neutral grey:
+confirmed Owned is green and Equipped is blue. Icons align left, captions right,
+with 12 pixels of horizontal inset and the existing vertical inset.
+
+The run-bonus badge has a passive native fill behind its content. Divide the
+bonus by the strongest configured trail's bonus, currently 160 percent. Thus
+10 percent fills 6.25 percent, 20 percent fills 12.5 percent and 160 percent fills
+100 percent. Match the fill to that trail's colours and brushed texture,
+including Rainbow's multicolour gradient. Use the badge's full-size nine-sliced
+outline inside a horizontal native clip, below its readable icon and caption.
+The asset alpha matches the neutral badge, without an inset or stretched corner.
+Captions read "10% run speed" with the actual tier and no plus sign. No frame
+worker or recurring animation is needed. The shared fill asset and approved
+renderer provenance are in assets/ui/trail-benefit-fill-v1/manifest.json.
+
+The Trails footer is 60 pixels high with no detail text above its buttons. Reuse
+the selected tile's texture and colours. Cash checkout is on the left with the
+canonical Cash image; native Robux checkout is on the right with Roblox's text
+currency symbol. Owned trails retain a full-width Equip or Unequip action.
+The shared ButtonCashAmount caption uses the existing raised renderer, font,
+outline and native centred list layout, scaling the whole inline group to fit.
+Its icon must be marked ButtonDecoration so it does not disable word-button
+styling. Preserve the normal footer for other shop categories.
+
+Evidence: output/trail-shop-refinement-20261104. Desktop, portrait and landscape
+native geometry passed, and actual tile/footer images were inspected. Real
+input, payment and rejoin acceptance remain separate; no Play, save or publication.
+
+## Hatch decision storage feedback, 4 November 2026
+
+Keeping the existing garden creature in either hatch decision window sends the
+incoming left portrait to the Pets tray icon. Reuse ItemPurchaseFeedback with
+its silent pickup option: no Bought text or purchase sound. Capture the portrait
+centre before closing, release the chooser, then start the cosmetic native
+flight immediately. Retain the existing background server request and error
+handling. Selection does not create a usable pet or confirm a grant. Other
+choices do not run this storage feedback. See HATCHING.md for verification.
+
+## Emote keeps menu navigation available, 4 November 2026
+
+The Emote action does not hide the entire ActionDock while its panel is open.
+Keep the desktop side shortcuts reachable so Shop or Trails can replace Emote
+through WindowControls.setOpen. Preserve the shared mobile covering-window
+rule, HUD hiding, Emote selection and C shortcut. A covering mobile window
+still restores its shortcuts when closed.
+
+Installed by guarded plan c28fe85dd7664bf6933bc15c276a4602, with exact source
+readback. The shared route and actual Emote registration passed controlled
+Emote-to-Shop and Emote-to-Trails checks. Published input remains untested.
+
+## Selected tile outlines and tab icons, 4 November 2026
+
+Every selected tile uses a solid 3-pixel blue border outline in
+Theme.Colors.accent (#335FFF). Apply this consistently to Inventory, Garden,
+Stored, Shop and Trails offers, Wardrobe and custom selectable creature,
+emote, flower, tray and hotbar tiles. InventoryGrid provides the default
+outline; custom tiles reuse Grid.SetTileSelected(tile, Theme, selected).
+Persistent developer Camera/Spectate choice cards use the same outline.
+Use the owning component's actual selected ID, multi-select set, active emote
+or toggled/equipped predicate. Do not invent selection on momentary buttons
+or passive reward artwork.
+
+The outline is a passive transparent layer above artwork and hover feedback.
+Set UIStroke.BorderStrokePosition to Enum.BorderStrokePosition.Inner and
+StrokeSizingMode to FixedSize so the full 3-pixel outline remains inside
+clipped scrolling and tile boundaries.
+Preserve each tile's corner shape, dimensions, hit area, spacing, counts,
+footers and input ownership. Never scale, move or tint the artwork to indicate
+selection. Hover and controller focus remain separate from selection. Keep
+functional equipped/enabled colours, availability and transaction feedback.
+Drag destination highlights remain separate from selected hotbar slots.
+This rule supersedes older selection-fill-only examples. Regular action
+buttons remain borderless, and tabs retain their selected blue underline.
+
+Pets Garden, Stored and Collection use one text-only counted tab row, without
+a separate window title. Left to right: X / Y in garden, X / Y stored,
+X / Y discovered, optional coin income and Close. Reuse Tabs.select for the
+surfaces and selected underline. Fit the three captions inside
+their controls with eight-pixel horizontal insets. The optional Garden income
+uses the canonical coin icon and a compact two-decimal amount such as 4.44M/h.
+Hide that entire income group before reducing space needed by the tabs.
+The tools and content move up into the reclaimed space. Merge mode keeps its
+instruction heading while its tabs are hidden.
+This supersedes the earlier tab-icon direction for these three tabs only.
+
+See UI_TILES.md for the native tile example, state table, shared API and
+interaction rules. The wiki component reference includes the selected tile.
+
+## One large main window at a time, 4 November 2026
+
+Shop, Trails and other shop categories, Inventory, Pets, Wardrobe and similar
+large registered main windows share one visible slot. Use the existing
+WindowControls registry and its synchronous setOpen route. Close the previous
+window through its owning cleanup before showing the next one. Preserve the
+last selected tab, existing search/focus cleanup and transaction reconciliation.
+Late replies must not reopen a closed window. Closing the new window never
+automatically restores the previous one.
+
+Child confirmations remain owned by their main window. HUD, tooltips,
+callouts and the documented stand-owned creature inspector keep their
+existing separate behaviour. Do not create a second exclusivity registry.
+The documented paired Developer Panel and Tools workspace remains separate
+from the player-facing shop, inventory and pet window family.
+
+## Shared dropdowns and trail shop information, 4 November 2026
+
+Use ProjectUI.Dropdown and [DROPDOWNS.md](DROPDOWNS.md) for all select fields and
+their options. Dropdown entries are flat listbox rows, not raised action-button
+artwork. The closed field shows its current value and chevron. The selected
+option has both a checkmark and blue surface. Focus is independent of selection.
+Keep native scrolling, Escape/controller Back and outside dismissal, focus
+return, owner-close cleanup and the shared keyboard/controller navigation.
+Select fields may have their normal one-pixel field border; ordinary action
+buttons remain borderless. Reuse canonical check and chevron glyphs.
+
+Trail shop tiles retain their current shared InventoryGrid appearance and
+selection outline. Add only passive information inside the existing footer:
+a native cost/ownership surface with the canonical Cash icon, or a checkmark
+and Owned after confirmation, followed by the canonical directions_run glyph
+and the actual bonus, such as 10% run speed. Pending ownership says Confirming
+and never receives an Owned tick. Preserve the existing card dimensions,
+artwork, click behavior and purchase button. The top hint explains the visual
+trail and run-speed effect rather than listing names or counting trails.
+
+Shop tiles and confirmed inventory flights share shopArtwork in PetShop.
+Snapshot the selected item's actual image/decorator in each queued intent.
+All sixteen trails use TrailShopArt.Image(id); the item/category audit also
+covers purchasable inventory definitions, hats, flowers, training equipment and
+traps. Keep confirmation timing, pending feedback, target, path and native
+tweens unchanged. Artwork changes never authorize a usable predicted grant.
+
+Evidence: output/shared-dropdown-20261104, output/trail-tiles-20261104 and
+output/lake-drop-icons-20261104. Shared dropdown checks pass 22 assertions;
+Shop client 122 plus 20 artwork cases; inventory grid 99 including six trail
+information cases. Settings and Developer consumer flows retain their tests.
+Native Edit screenshots were inspected; gameplay, saving and publication were
+not performed.
+
+## Distinct lake and Water icons, 4 November 2026
+
+Ripplewater Lake uses the ImageGen pond with reeds and a lily pad. Water
+movement retains the existing three-wave icon. The replacement atlas retains
+512 by 512 dimensions, 128-pixel cells and all 13 other cells byte-for-byte at
+the pixel level. All source consumers and two authored encyclopedia images use
+the new atlas. Earlier atlas and icon originals remain retained.
+
+Drop Egg uses the new illustrated ImageGen egg and downward arrow, registered
+under the existing MaterialCatalog standalone drop_egg name. Keep the original
+and 128-pixel runtime PNG in assets/ui/action-icons-v2. Prompts, hashes, upload
+receipts and light/dark/HUD review are in output/lake-drop-icons-20261104.
+
+## Button and egg callout font limits, 4 November 2026
+
+Theme.ButtonCaption.maxSize is the hard 20-pixel maximum for shared game action
+button captions. A larger source TextSize, existing text constraint, custom
+caption size or resized button must not raise that maximum. Retain native
+fitting below the cap when space is limited, and preserve the shared button
+renderer, keycap treatment and actual actions.
+
+Egg callouts use separately fitted foreground roles: Quality has a 14 to
+22-pixel range, EggName has a 14 to 36-pixel range, and EggWeight has a 12 to
+18-pixel range. Each label uses TextScaled, one UITextSizeConstraint and
+UIOwnsTextFit. The name is the focal label, above Quality at 22, weight at 18
+and action captions at 20 when space permits. Native fitting still shrinks long
+names inside the existing 268 by 44 row. Keep the approved art and row geometry.
+This keeps kg and lb values compact. These current limits supersede older large-text examples
+below. Reuse the approved Callout Card Gen artwork, layout and native actions.
+
+The later published-game screenshot exposed a reproduced BillboardGui engine
+behavior in this callout path: TextScaled ignored UITextSizeConstraint maxima.
+Native text bounds were 41.58 pixels for weight and quality despite their 18
+and 22 caps, and 39.6 for Hurry despite its 20 cap. Earlier SurfaceGui previews
+used a different native container and missed this behavior. Publication mismatch
+is not the established cause; Daniel confirmed he had published.
+
+Plan 036fc3d1bab84693ac7b6a952ab00544 installs the correction in GardenHatchTimer,
+GardenCreatureTile and ButtonStates, with exact Edit source readback. Each
+foreground text frame now has a finite height centered inside its existing row,
+retaining the same width, hit rectangle and approved art. Keep native TextScaled,
+constraints and shrink-to-fit behavior. No worker, listener or RichText fitter
+was added. The timer factory/state checks pass 160 and 24 assertions; the
+creature tile passes 143, with zero source diagnostics.
+
+Six installed real-Billboard cases pass native TextBounds, TextFits and cap
+checks, including unknown, incubating, ready, pounds, narrow and long-name
+states. Camera/selection restoration and fixture cleanup pass. The Billboard
+screenshots were blank, so these are property checks, not visual acceptance.
+Earlier SurfaceGui visual evidence remains useful only for that container;
+live Billboard acceptance is pending. Current evidence:
+output/egg-callout-runtime-mismatch-20261104/installed-native/verification.json.
+See the [historical Roblox acknowledgement](https://devforum.roblox.com/t/uitextsizeconstraint-doesnt-work-in-billboardguis-with-textscaled/1195511)
+and [current size-constraint documentation](https://create.roblox.com/docs/ui/size-modifiers).
+The local reproduction, rather than the old thread alone, establishes this
+project's failure. No gameplay, save or publication was performed by Codex.
+
+The preceding revision, with a 24-pixel name cap, was installed in Edit with
+exact source readback. The 120 actual
+callout factory assertions and 24 existing state checks pass. Five native
+SurfaceGui Edit states/layouts cover unknown/hour, known/minute, ready, pounds
+and a narrow ready card; text fitting and role caps pass there, with camera/selection restoration
+and fixture removal verified. Evidence:
+output/callout-font-margin-20261104/garden-eggs/verification.json.
+Live gameplay remains pending. No gameplay, place saving or publication was
+performed, and no review catalogue was changed.
+
+Daniel's later 36-pixel focal-name refinement is installed with exact source
+readback under plan fbf392ad7d894a0e9bfc286a3e9d69f4. The 120 factory and 24 state
+checks pass again. A prepared native preview was inspected before installation;
+six installed garden SurfaceGui views and one wild SurfaceGui view pass fitting
+and cleanup. Labraduck Egg renders at 36 pixels in that preview; Crocodoodle
+Doo Egg fits at 30 pixels on the narrow SurfaceGui card. Evidence: output/egg-name-focus-20261104/verification.json.
+The earlier receipt remains historical evidence for the 24-pixel revision.
+
+## Search clear and screen lifecycle, 4 November 2026
+
+Every search field shows the canonical close X while its text is nonempty, including whitespace. Placeholder text uses Theme.Colors.placeholder (#9298A3), a darker grey than entered text; entered text retains Theme.Colors.text. Use InputFields.search(field, owningWindow, existingClearButton) to reuse the clear control or create a borderless trailing control, reserve 44 pixels for it, and reset text/focus on screen close. Tab changes alone retain the query. Do not capture focus automatically. Subscribe to native property signals, without polling or global descendant scans.
+
+## Trail navigation and shop panels, 4 November 2026
+
+The Trail tray tile sits below Emote and always uses the normal dark tray
+colour. Click or L opens Trails; repeating it closes the open Trails window.
+Do not offer a trail on/off control or blue
+enabled fill. Keep the equipped canonical artwork and White fallback.
+Trail cards keep the shared tile outline and dimensions, with smaller artwork,
+matching textured backgrounds and larger theme-coloured names outlined black.
+Use approved ui-underlay-gen skins for passive price/Owned and bonus panels.
+Align icons left and captions right with 12-pixel horizontal padding. Show
+"10% run speed" with the tier's
+actual percentage and the canonical running icon. Owned uses a confirmed tick;
+pending purchases never imply a usable grant. See TRAILS.md and the underlay
+manifest for renderer provenance and assets.
 
 ## Current compact garden callout, 4 November 2026
 
@@ -262,7 +563,17 @@ Wild TakeEgg prompts reuse the compact egg callout: quality, discovered species
 name or Unknown egg, weight in the selected units and a Secondary Pick up action
 with its live E keycap. There is no incubation bar or separate ready status.
 The custom pickup fill uses the native ProximityPrompt.HoldDuration directly.
-The server sets and replicates that duration from the egg's quality:
+
+5 November 2026: the held pickup fill starts dark blue, passes smoothly through
+lighter blue at halfway and reaches light green at 100 percent. Reuse
+Theme.PromptHold and the shared ButtonStates.bindPromptHold component, including
+its existing raised-button gradient recipe with neutral shading. Native tweens
+own both colour halves and fill width. A native TakeEgg completion displays full
+green until custody hides the card. Cancellation, restart, unavailable prompts
+and teardown cancel both channels and restore the dark-blue starting colour.
+This cosmetic progress never grants an egg or sends progress messages.
+
+The server sets and replicates the native hold duration from the egg's quality:
 
 | Quality | Native hold and visible fill | Server minimum |
 | --- | --- | --- |
@@ -461,8 +772,10 @@ and Xh Xm or Xm Xs. At zero, replace them with a green circle, white check and
 Ready to Hatch! The owner sees the existing E Hurry purchase prompt before ready
 and native E Hatch action afterward. Preserve close Hurry range, hatch range,
 hold duration, purchase/developer checkout and server validation. Neither action
-is granted to visitors. The former separate world countdown is hidden rather
-than duplicating the new callout. Reuse the existing update loop and clean up
+is granted to visitors. The separate text-only world countdown remains above each incubating shell,
+using the same boosted remaining time. Keep the new callout too, reserving
+40 screen pixels below it while incubating. Hide the separate countdown at
+readiness and when HUD/camera UI is hidden. Reuse the existing update loop and clean up
 streamed/replaced prompt identities and hover state.
 
 Installed plans 29a18279b63b4e8e8dcee138981f74cd and
@@ -510,10 +823,12 @@ quality/money/DNA underlay artwork.
 
 Latest button-caption direction: shared raised word buttons use bold white
 captions with a black text outline, through Theme.ButtonCaption. Their preferred
-size is 27 pixels, 50% above the earlier 18-pixel setting. Use native TextScaled
+size is 20 pixels after Daniel's later reduction from 27. Use native TextScaled
 with a UITextSizeConstraint capped at the preferred size, allowing smaller text
-when the actual available width or height requires it. Keep a two-pixel text
-inset and reserve the keycap area before fitting hotkey captions. Respect caller
+when the actual available width or height requires it. Keep at least twelve
+pixels between each word caption and the left/right control edges, and a
+two-pixel vertical inset. Respect larger caller padding without doubling it.
+Reserve the keycap area before fitting hotkey captions. Respect caller
 padding and recalculate naturally as the control or caption changes. Preserve
 existing Primary, Secondary and Warning fills, bevel gradients and disabled-state
 contrast. This supersedes older Medium 14 button-caption guidance only, not body
@@ -779,17 +1094,19 @@ acceptance; static or Edit checks do not establish them.
 ## Compact creature information, 2 November 2026
 
 Collection creature information places Discovered at the right edge of the
-name header. The next row contains biome first, conservation status second,
+name header. The two-row trait grid contains biome first, conservation status second,
 then diet and each supported travel mode. Use the existing biome atlas and
 distinct conservation artwork, retaining the Alien marker where applicable.
 Every symbol has a visible, centred caption underneath. Allocate equal-width
-slots so symbol centres are evenly spaced across the row. Labels wrap within
-their column; symbols remain together on one row. Reuse BuilderSans caption
+slots so symbol centres are evenly spaced within each row. Labels wrap within
+their column. The 4 November two-row decision supersedes the original single-row arrangement. Reuse BuilderSans caption
 12, 32-pixel symbols, theme colours and opaque article/card surfaces. This
 supersedes the separate discovery/biome badge row and conservation section.
 
-Keep the description, named buff card, three baseline stat rows and baseline
-caption. The buff card measures its actual wrapped text instead of reserving
+Collection keeps its description, named buff card and three species stat rows.
+Individual Garden, Stored and Merge details omit the description and add DNA
+as a fourth stat. The baseline caption is removed from both variants by the
+4 November decision. The buff card measures its actual wrapped text instead of reserving
 164 pixels. Remove redundant Diet and travel, Following buff, Stats and
 Conservation headings and the generic conservation explanation. Article flow
 uses the existing eight-pixel theme gap. Keep the original habitat gallery,
@@ -835,6 +1152,21 @@ uses the existing cast aim. Keep the native reel meter and catch reveal input.
 Do not turn ordinary camera touches into additional tool activation. Reuse the
 current render pass, cached touch control and one rod lookup, without a new loop.
 
+## Creature viewer search layout, 4 November 2026
+
+Reuse InputFields.decorate, theme control radius, BuilderSans medium at 14,
+and canonical MaterialIcons search/close artwork. Viewer Search is at (12,72),
+width minus 24 and height 44. Text reserves 38 pixels on the left and 44 on the
+right; the clear action is 40 by 44 at the right edge. Center both glyphs
+vertically. Placeholder is only Search. Keep native deliberate text focus.
+
+The viewer's existing controls move down by 52 pixels: Previous/Next starts
+at Y126, animation actions at Y164, speed track at Y198 and speed caption/value
+at Y202. Reviews begin at Y244. Standard viewer height is 248; reviewer height
+is 534, clamped to viewport height minus 24 with the existing review scrolling.
+Preserve 12 pixels below the panel. Search must not overlap existing controls
+or rebuild a matching preview on each keystroke. See CREATURE_VIEWER.md.
+
 ## Manual text-field focus, 2 November 2026
 
 Daniel removed automatic text-box focus because opening a window consumed other
@@ -843,7 +1175,7 @@ proximity-opened aisle screens, use native click/tap or deliberate controller
 editing to start text entry. Opening a window must not call CaptureFocus or
 automatically open the touch keyboard. Once the player deliberately edits a
 field, native typing and editing shortcuts retain priority over gameplay keys.
-Keep search query retention and filtering in the owning component.
+Keep filtering in the owning component. Search queries clear when their owning screen closes or its ScreenGui is disabled. Preserve selected tabs across reopen.
 
 The shared automatic SearchFocus controller is retired. Its client installs no
 controller; the old Bind/Destroy interface is inert for compatibility. There is
@@ -1016,15 +1348,16 @@ artwork styling with selected blue fill, not raised word-button surfaces.
 Back uses the shared Secondary word action.
 
 BuilderSans name text is bold at 38 pixels, or 30 in a narrow column. Description
-text is 16, section headings 20, labels 14, bold stat values 16 and baseline
-caption 12. Measure wrapping title/description heights through native
+text is 16, section headings 20, labels 14 and bold stat values 16. The baseline
+caption is removed by the later 4 November rule. Measure wrapping title/description heights through native
 TextService on text/width changes, cache results and allow four extra vertical
 pixels. Native list flow sizes the article, and scrolling retains short-screen
 access. Stat rows are 48 pixels with 32-pixel icons inset 12 pixels. Values
-align right and labels wrap independently. Discovery and biome badges share a
-36-pixel row. The biome icon has its own 24-pixel sibling slot; its label starts
-40 pixels from the badge's left edge. Conservation icons are 28 pixels, with a
-second slot for Alien where applicable and actual base state text beside them.
+align right and labels wrap independently. Collection details omit the redundant
+Discovered label and give the name the full header width. Individual Garden and
+Stored details retain their quality badge at the right of that header. Biome and conservation
+lead the two-row trait grid with 32-pixel symbols and centred captions. Retain
+the Alien accessory and the actual conservation state text where applicable.
 All wording remains native/localized; artwork contains no text. The 4 November
 shared Pets window rule above applies the same 1350 by 900 maximum to Garden,
 Stored, Collection and its creature detail view.
@@ -1813,7 +2146,8 @@ start at the top independently of its list.
 
 On phones use at least two collection columns when the usable width permits,
 with full-width biome headings. Desktop can add columns while retaining
-readable card sizes. Do not add the mockup's right-hand creature detail panel.
+readable card sizes. The 4 November shared Collection detail-panel decision
+below supersedes the earlier restriction on a right-hand creature detail panel.
 Short landscape windows must keep a usable content viewport and reachable
 actions; collapse supporting information before hiding required controls.
 
@@ -2733,3 +3067,41 @@ installed the single source with exact readback and zero diagnostics. A native
 Edit preview verified the actual 20-pixel summary with longer wrapped text;
 camera restoration and fixture removal passed. Evidence is under
 output/developer-summary-text-20261104. No gameplay, save or publication.
+## Pet summary DNA and merge visibility, 4 November 2026
+
+Garden, Stored and Merge now reuse PetCollectionDetail itself for the selected
+individual. Use the Collection header, illustrated trait icons,
+following-buff card and statistic rows. Replace Discovered with the individual's
+quality and add DNA as the fourth stat row with Theme.Images.DNA. Use the pet's
+own confirmed height, weight, conservation, income and CreatureScale. Missing
+DNA inputs display Unavailable. Following income retains Following you.
+
+The details occupy a narrower right-hand panel when window width permits.
+Search and Sort stay together above the left-hand grid, allowing the details
+to start at the same tools-row height below the tabs. Descriptions are hidden
+for Garden, Stored and Merge individuals, while Collection retains its
+description. This later refinement supersedes the initial shared-description
+version below. Current native views are under output/pet-full-height-detail-20261104.
+Phone layouts stack the same scrollable component above actions. Short windows
+retain native scrolling. Repeated refreshes preserve detail scroll position;
+selecting another individual returns to its header. All stat icons reuse the
+shared owning catalogues. No icon artwork was created or uploaded.
+
+Collection and individual details share a two-row trait grid, including the
+biome, conservation status, diet and travel types. Remove Standard baseline
+from both. Collection retains its Discovered badge and species values. Its
+right article uses 36 percent of the content width instead of 42 percent.
+
+Merge mode retains the details for the last clicked pet. Selection count appears on the Merge action.
+Merge and Cancel remain the only visible actions. Cancelling retains the inspected
+pet. Mutation rules and server confirmation remain unchanged.
+
+Plan bc808286eedf4e85835574bcb946714c installed four sources with exact readback
+and zero diagnostics. Collection information passed 157 checks; Merge menu 40,
+Collection projection 243 and preload handling 5. Nine isolated native Edit
+states checked desktop, phone, short, large, Collection and DNA scrolling.
+Evidence: output/pet-shared-detail-20261104/native.json and native-extras.json.
+Camera state was restored and fixtures removed. Live gameplay, saving and
+publication were not run. The previous bottom summary and its historical
+evidence under output/pet-summary-dna-20261104 are superseded.
+

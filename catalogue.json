@@ -96,7 +96,13 @@
         "maximumStanceDriftStuds": 0.00677,
         "gameplayTested": false
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Water",
+        "Air"
+      ],
       "followingBuff": {
         "id": "Endurance",
         "Description": "20% less stamina used by running and gym training. Action costs are unchanged.",
@@ -105,12 +111,6 @@
         "Multiplier": 0.8,
         "Name": "Endurance"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground",
-        "Water",
-        "Air"
-      ],
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 1000,
@@ -223,7 +223,11 @@
         "silhouetteSha256": "3a5d70c0d4957d8b964dd3f8c8abbdd6e923b5311ac3f31e484748b501a82a97",
         "silhouetteAsset": "rbxassetid://109707886702581"
       },
+      "diet": "Herbivore",
       "mountable": false,
+      "travel": [
+        "Air"
+      ],
       "followingBuff": {
         "id": "HoneyProof",
         "Description": "Immune to sticky honey traps while this pet follows you.",
@@ -232,10 +236,6 @@
         "Multiplier": 1,
         "Name": "Honey proof"
       },
-      "diet": "Herbivore",
-      "travel": [
-        "Air"
-      ],
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 1000,
@@ -304,7 +304,12 @@
       "icon": "squeakaboo-icon.png",
       "artworkLayout": "flat-perspective-v1",
       "previewArtwork": [],
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Air"
+      ],
       "followingBuff": {
         "id": "FleetFoot",
         "Description": "10% faster running, within area speed limits.",
@@ -313,11 +318,6 @@
         "Multiplier": 1.1,
         "Name": "Fleet foot"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground",
-        "Air"
-      ],
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 2000,
@@ -365,7 +365,7 @@
           "sha256": "c2dcba2de484335ad8a51c0fa34d3b01b465cd2af508e1e626355450eb6b0a7f"
         }
       ],
-      "notes": "Animation repair, 31 October 2026: The revised model and clips are installed and source-verified in Edit. Chase 8.5, Idle 8.5, Run 8.5, Walk 8.5 (shown previews). Steady planted Run contact is clean at 16 studs/s. Starts, stops and 45-degree turns still slide; smaller and faster cases retain cadence limits. The thin cream foot join remains visible in close views. A current Roblox Studio Edit image is recorded on this page. Current GIF/MP4 copies and the repair report are on this creature page. Saved developer votes are unchanged; saving, publication and live acceptance remain separate. Chase animation update, 28 October 2026: a separate fitted Chase clip and narrowed blinking eyes respond to guardian chasing and the local creature-viewer Chase control. Native Edit triggers, motion, Idle transition and Stop reset pass; live gameplay acceptance remains pending. Evidence: output/guardian-chase. Release update, 28 October 2026: the real creature model, animations, intact species egg, Standard artwork, Fine/Superior/Epic/Legendary finishes, transparent actual-shell egg icon and existing transparent creature portrait are registered. Wild eggs are enabled in the assigned biome at ordinary initialization and dawn. Current sizes, mass, rarity, income, nest homes, five-minute player-count allocation and guardian models are retained. Source checks, installed readback and detached Edit egg rolls passed; gameplay, multiplayer, mobile and real storage/rejoin remain pending. Saving and publication remain Daniel-owned. Earlier stage notes: Following animation update, 28 October 2026: idle movement and fitted blinking are installed and verified on the native model under plan 04b25d3ca0534bf09f8f3776dcdddc60. Evidence: output/follower-idle-all. Live following and animation acceptance remain pending.",
+      "notes": "The existing Swim now supplies the authored Hamsturtle water pose. The guardian uses an 8 studs/s patrol pace and sits half above the water surface. The shown 7.056-stud guardian-scale straight Swim reference scores 8.5/10; its water plane is illustrative. Earlier pure Idle, Walk, Run and Chase previews keep their original dates and scores after exact sample equivalence. Shore transitions, tight turning, native water physics, network behavior, multiplayer and mobile performance are not accepted by these offline clips. Saved developer decisions are unchanged.",
       "runtimeEnabled": true,
       "balanceAssignment": {
         "runtimeEnabled": true,
@@ -384,30 +384,64 @@
           "noWhiskers": true,
           "rigBones": 20,
           "robloxImage": {
-            "environment": "Studio Edit",
-            "pose": "Idle",
-            "wikiImage": "assets/animations/hamsturtle/roblox-idle-v2.png",
-            "sha256": "9ad2c65e47672675dea7c6bc5bd72410385a3816bec2c8db893350f0f7922a62",
-            "currentVersion": true,
+            "pose": "Swim",
+            "heightStuds": 7.056,
             "sourceCapture": {
-              "file": "output/hamsturtle-import-20261101/native-portrait/body-quarter.png",
-              "sha256": "9ad2c65e47672675dea7c6bc5bd72410385a3816bec2c8db893350f0f7922a62"
+              "file": "output/hamsturtle-water-movement-20261105/native-installed/surface-quarter.jpg",
+              "sha256": "31282756c25e1c1adb5372d4356afd24410198359be6563389238f91003218de"
             },
             "captureReceipt": {
-              "file": "output/hamsturtle-import-20261101/native-portrait/verification.json",
-              "sha256": "9b1be5e9d8cd50bf9d5a06d1663cd6554a4d73cb21e2cae074110cac77b265a2"
+              "file": "output/hamsturtle-water-movement-20261105/native-installed/verification.json",
+              "sha256": "22a3ea43f06e8ee862a2bd0f974b6c2c747138b32072a50735854b4547340af4"
             },
-            "mesh": "rbxassetid://114772876241477",
-            "modelSource": {
-              "file": "concepts/hamsturtle/hamsturtle-modified.glb",
-              "sha256": "cbbd079f7952d2310f1675d39e5b8e65c0f2d907d8633ace774cf711cc3bcfab"
-            },
+            "captureOrigin": "Studio Edit current native rig in removable fixture with illustrative water plane",
+            "currentScope": "Existing Swim at guardian scale with the body halfway above the illustrative surface. Live native-water gameplay remains separate.",
             "detailImages": [
               {
-                "label": "Rear anatomy",
-                "wikiImage": "assets/animations/hamsturtle/roblox-rear-v2.png"
+                "label": "Surface Swim, first side pose",
+                "sourceCapture": {
+                  "file": "output/hamsturtle-water-movement-20261105/native-installed/surface-side-015.jpg",
+                  "sha256": "920e2e3b0a1e871f11f86e3e7a9f2b48cf4871f546403684710f9d3a653e735a"
+                },
+                "wikiImage": "assets/animations/hamsturtle/movement-20261105-cbbd079f7952-6c14f485867e/studio-current-surface-side-015.jpg",
+                "sha256": "920e2e3b0a1e871f11f86e3e7a9f2b48cf4871f546403684710f9d3a653e735a"
+              },
+              {
+                "label": "Surface Swim, later side pose",
+                "sourceCapture": {
+                  "file": "output/hamsturtle-water-movement-20261105/native-installed/surface-side-065.jpg",
+                  "sha256": "fd964d841e26c6d29964e55a1e5f582a279a6e6efeb2edc9cc79f0b68acd0ec3"
+                },
+                "wikiImage": "assets/animations/hamsturtle/movement-20261105-cbbd079f7952-6c14f485867e/studio-current-surface-side-065.jpg",
+                "sha256": "fd964d841e26c6d29964e55a1e5f582a279a6e6efeb2edc9cc79f0b68acd0ec3"
+              },
+              {
+                "label": "Deeper Swim pose",
+                "sourceCapture": {
+                  "file": "output/hamsturtle-water-movement-20261105/native-installed/underwater-quarter.jpg",
+                  "sha256": "6245e6b7f5ed04632f809bc8d7fe3bb6e8f9d31054173f98d5f5039ce021b4a8"
+                },
+                "wikiImage": "assets/animations/hamsturtle/movement-20261105-cbbd079f7952-6c14f485867e/studio-current-underwater-quarter.jpg",
+                "sha256": "6245e6b7f5ed04632f809bc8d7fe3bb6e8f9d31054173f98d5f5039ce021b4a8"
+              },
+              {
+                "label": "Dry-land Walk retained",
+                "sourceCapture": {
+                  "file": "output/hamsturtle-water-movement-20261105/native-installed/dry-walk.jpg",
+                  "sha256": "ebf6cbdfa2070ba36dab6d2201f161fae4fc2eed21e5025118fda41d989878bd"
+                },
+                "wikiImage": "assets/animations/hamsturtle/movement-20261105-cbbd079f7952-6c14f485867e/studio-current-dry-walk.jpg",
+                "sha256": "ebf6cbdfa2070ba36dab6d2201f161fae4fc2eed21e5025118fda41d989878bd"
               }
-            ]
+            ],
+            "wikiImage": "assets/animations/hamsturtle/movement-20261105-cbbd079f7952-6c14f485867e/studio-current-surface-quarter.jpg",
+            "sha256": "31282756c25e1c1adb5372d4356afd24410198359be6563389238f91003218de",
+            "currentVersion": true,
+            "environment": "Studio Edit",
+            "nativeAcceptance": {
+              "file": "output/creature-movement-ui-20261105/wiki-handoff/hamsturtle/native-acceptance-bound.json",
+              "sha256": "eacf862194274f8feb44270da87e75de6e4190b60d056292e0cdfb329c5ddbd2"
+            }
           },
           "expressionReview": {
             "ratingOutOf10": 7.5,
@@ -450,9 +484,9 @@
             "currentInstalledSourcesMatch": true
           },
           "animationBundle": {
-            "wikiFile": "assets/animations/hamsturtle/hamsturtle-import-animations-20261101.zip",
+            "wikiFile": "assets/animations/hamsturtle/movement-20261105-cbbd079f7952-6c14f485867e/hamsturtle-current-animations-and-model.zip",
+            "sha256": "95254775ced0092cb0daa2fe533239e3b305169f4a09126c875244c94da96843",
             "complete": true,
-            "sha256": "c612fe1a9608225f24d1c439153b6b6846d36de492996fb60a2f6e5d7387a165",
             "animations": [
               "Idle",
               "Walk",
@@ -460,7 +494,8 @@
               "Chase",
               "Swim",
               "Blink"
-            ]
+            ],
+            "retainedNativeBlinkIncluded": true
           },
           "shownAssessments": [
             {
@@ -514,7 +549,19 @@
           },
           "codexBlinkPassThreshold": 7.5,
           "allBodyModeReviewsPass": true,
-          "qualityNotice": "Replacement model, rig, clips, original PBR maps and matching game registrations are installed. All shown body previews score 8.5 and Blink scores 7.5 in their recorded scopes. Overall quality pass remains incomplete because tight turns slide and full movement is not accepted. Daniel model and animation decisions are preserved."
+          "qualityNotice": "The existing Swim now supplies the authored Hamsturtle water pose. The guardian uses an 8 studs/s patrol pace and sits half above the water surface. The shown 7.056-stud guardian-scale straight Swim reference scores 8.5/10; its water plane is illustrative. Earlier pure Idle, Walk, Run and Chase previews keep their original dates and scores after exact sample equivalence. Shore transitions, tight turning, native water physics, network behavior, multiplayer and mobile performance are not accepted by these offline clips. Saved developer decisions are unchanged.",
+          "history": [
+            {
+              "file": "output/creature-movement-ui-20261105/wiki-handoff/hamsturtle/history/2b1fc7bf3dab9531-previous-records.json",
+              "sha256": "2b1fc7bf3dab95311e50164ff12d95a7487c6e7a22129bd0e0484fa34239dc06",
+              "reason": "Previous records retained before this scoped movement handoff"
+            },
+            {
+              "file": "output/creature-movement-ui-20261105/wiki-handoff/hamsturtle/history/f10451daf03754a0-previous-records.json",
+              "sha256": "f10451daf03754a0faaac297563b700a63911ad3978ef73a8115019a168578bb",
+              "reason": "Previous records retained before this scoped movement handoff"
+            }
+          ]
         },
         "nativeFootPlantTrial": {
           "status": "rejected-not-installed",
@@ -533,7 +580,51 @@
           "gif": "assets/animations/hamsturtle/foot-plant-trial-20261102/hamsturtle-native-ik-trial.gif",
           "video": "assets/animations/hamsturtle/foot-plant-trial-20261102/hamsturtle-native-ik-trial.mp4",
           "poster": "assets/animations/hamsturtle/foot-plant-trial-20261102/comparison.png"
-        }
+        },
+        "movementRepair20261105": {
+          "date": "2026-11-05",
+          "installed": true,
+          "sourceIdentity": {
+            "nativeSha256": "16789e5d25d37b134bb0972e12da2061c82e3f81a7b3001ac7bef4a44f034738",
+            "modelSha256": "cbbd079f7952d2310f1675d39e5b8e65c0f2d907d8633ace774cf711cc3bcfab",
+            "configurationSha256": "5d82d39697d883f40e7397d182340045bcb6671d7df027380c289d91852b6afb",
+            "clipsSha256": "9b03a598b3b52c8399a91723b5800341e2542fc688169a8356d391573eee5ed0",
+            "curveRevision": "hamsturtle-supplied-replacement-v2"
+          },
+          "nativeVerification": {
+            "file": "output/hamsturtle-water-movement-20261105/native-installed/verification.json",
+            "sha256": "22a3ea43f06e8ee862a2bd0f974b6c2c747138b32072a50735854b4547340af4"
+          },
+          "nativeAcceptance": {
+            "file": "output/creature-movement-ui-20261105/wiki-handoff/hamsturtle/native-acceptance-bound.json",
+            "sha256": "eacf862194274f8feb44270da87e75de6e4190b60d056292e0cdfb329c5ddbd2"
+          },
+          "visualReview": {
+            "file": "output/creature-movement-ui-20261105/wiki-handoff/hamsturtle/native-acceptance-bound.json",
+            "sha256": "eacf862194274f8feb44270da87e75de6e4190b60d056292e0cdfb329c5ddbd2"
+          },
+          "changedActions": [
+            "Swim"
+          ],
+          "unchangedActions": [
+            "Idle",
+            "Walk",
+            "Run",
+            "Chase"
+          ],
+          "fullMovementAccepted": false,
+          "comment": "The existing Swim now supplies the authored Hamsturtle water pose. The guardian uses an 8 studs/s patrol pace and sits half above the water surface. The shown 7.056-stud guardian-scale straight Swim reference scores 8.5/10; its water plane is illustrative. Earlier pure Idle, Walk, Run and Chase previews keep their original dates and scores after exact sample equivalence. Shore transitions, tight turning, native water physics, network behavior, multiplayer and mobile performance are not accepted by these offline clips. Saved developer decisions are unchanged.",
+          "savedDeveloperVotesChanged": false
+        },
+        "currentModel": {
+          "file": "concepts/hamsturtle/hamsturtle-modified.glb",
+          "sha256": "cbbd079f7952d2310f1675d39e5b8e65c0f2d907d8633ace774cf711cc3bcfab"
+        },
+        "nativeMesh": {
+          "file": "assets/pets/hamsturtle-replacement-20261101/candidate04/native-mesh.json",
+          "sha256": "16789e5d25d37b134bb0972e12da2061c82e3f81a7b3001ac7bef4a44f034738"
+        },
+        "qualityNotice": "The existing Swim now supplies the authored Hamsturtle water pose. The guardian uses an 8 studs/s patrol pace and sits half above the water surface. The shown 7.056-stud guardian-scale straight Swim reference scores 8.5/10; its water plane is illustrative. Earlier pure Idle, Walk, Run and Chase previews keep their original dates and scores after exact sample equivalence. Shore transitions, tight turning, native water physics, network behavior, multiplayer and mobile performance are not accepted by these offline clips. Saved developer decisions are unchanged."
       },
       "eggRelease": {
         "date": "2026-10-28",
@@ -629,7 +720,12 @@
         "silhouetteSha256": "7c89509cec7801897ca6fabcd9b3f93aa54ef712adbc41d20317094dcd578f1c",
         "silhouetteAsset": "rbxassetid://105431382576926"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Water"
+      ],
       "followingBuff": {
         "id": "DeepLungs",
         "Description": "50% more underwater breath. Changing pets preserves the remaining percentage.",
@@ -638,11 +734,6 @@
         "Multiplier": 1.5,
         "Name": "Deep lungs"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground",
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 2000,
@@ -711,7 +802,11 @@
       "icon": "snailhog-icon.png",
       "artworkLayout": "flat-perspective-v1",
       "previewArtwork": [],
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "Vitality",
         "Description": "Double maximum health. Changing pets preserves your health percentage.",
@@ -720,10 +815,6 @@
         "Multiplier": 2,
         "Name": "Vitality"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 3000,
@@ -800,7 +891,12 @@
         "silhouetteSha256": "02c8081f3b8f3484f74922f73055a1b45b4ac38fdeda70d62746722b943baa32",
         "silhouetteAsset": "rbxassetid://124603012947070"
       },
+      "diet": "Carnivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Water"
+      ],
       "followingBuff": {
         "id": "Regenerator",
         "Description": "Natural health regeneration is 50% faster, after the usual damage delay.",
@@ -809,11 +905,6 @@
         "Multiplier": 1.5,
         "Name": "Regenerator"
       },
-      "diet": "Carnivore",
-      "travel": [
-        "Ground",
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 3000,
@@ -851,11 +942,11 @@
     {
       "status": "Least Concern",
       "height": 3.55,
-      "weight": 39.8197896775937,
-      "eggHeight": 2.4871187086947746,
-      "eggWeight": 39.8197896775937,
+      "weight": 40.17313184123097,
+      "eggHeight": 2.4907834367793726,
+      "eggWeight": 40.17313184123097,
       "parents": "Cockatoo + Poodle",
-      "length": 3.42321428571429,
+      "length": 3.4535902859920435,
       "heightWeight": 41.2945967026902,
       "spawnWeight": 8388608,
       "description": "A lively curly-coated companion with soft hanging ears, a sunny crest and feathered wings. Cockapoodle bounds along on four gentle paws, lifting its feathered tail whenever something catches its attention.",
@@ -865,7 +956,7 @@
       "region": "backyard",
       "stage": "catalogue",
       "concept": null,
-      "notes": "Release update, 28 October 2026: the real creature model, animations, intact species egg, Standard artwork, Fine/Superior/Epic/Legendary finishes, transparent actual-shell egg icon and existing transparent creature portrait are registered. Wild eggs are enabled in the assigned biome at ordinary initialization and dawn. Current sizes, mass, rarity, income, nest homes, five-minute player-count allocation and guardian models are retained. Source checks, installed readback and detached Edit egg rolls passed; gameplay, multiplayer, mobile and real storage/rejoin remain pending. Saving and publication remain Daniel-owned. Earlier stage notes: Rig, egg and gameplay setup added on 25 October 2026. Cockapoodle takes the Backyard slot after Cluckitty moved to the Farmland design lineup. Following animation update, 28 October 2026: idle movement and fitted blinking are installed and verified on the native model under plan 04b25d3ca0534bf09f8f3776dcdddc60. Evidence: output/follower-idle-all. Live following and animation acceptance remain pending.",
+      "notes": "The hind paws now stay closer beneath the hips in Walk, Run and Chase, with shorter trailing reach and speed-matched cadence. The corrected wing and abdomen skin is unchanged. These three isolated actions score 8.5/10. The shown onset, stop and Walk/Run handoff demonstrations remain 8/10, Needs work; abrupt speed changes can still cause brisk recovery and short lift. The earlier 90-degree turn remains a historical 7/10 assessment. Full movement acceptance remains false. Idle and Blink media and their original review dates are retained after a scoped equivalence check. Saved developer decisions are unchanged. Live gameplay, multiplayer, network behavior and mobile performance remain untested.",
       "review": {
         "revision": 2,
         "danielApproved": false,
@@ -889,7 +980,333 @@
         "note": "Current assigned statistics retained. Model-backed creature and egg registration is complete; wild eggs roll in the assigned biome at normal world initialization and dawn."
       },
       "implementation": {
-        "gameplayEnabled": true
+        "gameplayEnabled": true,
+        "replacementImport": {
+          "history": [
+            {
+              "file": "output/cockapoodle-replacement-20261104/wiki-handoff/history/86c77ddcfdb263b6-previous-records.json",
+              "sha256": "86c77ddcfdb263b65ac3b7e8ad2d806cfd829cb2657dc09d79a8cc3045976960",
+              "reason": "Superseded animation, image and transition-demo records"
+            },
+            {
+              "file": "output/cockapoodle-wing-fix-20261104/wiki-handoff/history/1152e508debb2569-previous-records.json",
+              "sha256": "1152e508debb256981044098f5c2ecd4d7b6a18f29f236f51a0d7c0f98c2055e",
+              "reason": "Superseded animation, image and transition-demo records"
+            },
+            {
+              "file": "output/creature-deformation-review-20261104/cockapoodle/wiki-handoff/history/17618a8555946239-previous-records.json",
+              "sha256": "17618a85559462394811bdbece2792539a8b2928a30466098f2f31ae3b08b45f",
+              "reason": "Previous curve/media records retained before scoped hind-reach repair"
+            }
+          ],
+          "historicalRecords": "output/creature-deformation-review-20261104/cockapoodle/wiki-handoff/history/17618a8555946239-previous-records.json",
+          "status": "installed-edit-quality-needs-work",
+          "installed": true,
+          "qualityNotice": "The hind paws now stay closer beneath the hips in Walk, Run and Chase, with shorter trailing reach and speed-matched cadence. The corrected wing and abdomen skin is unchanged. These three isolated actions score 8.5/10. The shown onset, stop and Walk/Run handoff demonstrations remain 8/10, Needs work; abrupt speed changes can still cause brisk recovery and short lift. The earlier 90-degree turn remains a historical 7/10 assessment. Full movement acceptance remains false. Idle and Blink media and their original review dates are retained after a scoped equivalence check. Saved developer decisions are unchanged. Live gameplay, multiplayer, network behavior and mobile performance remain untested.",
+          "qualityAccepted": true,
+          "fullMovementAccepted": false,
+          "robloxImage": {
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "wikiImage": "assets/animations/cockapoodle/animation-20261104-a279238b0462-faba19a98ab0-3b819764-707109e5/studio-hero.jpg",
+            "sha256": "33201b5346bff3b9ca8bd0762b64ccc308c899209345680cac930d0c58cde5f7",
+            "currentVersion": true,
+            "captureOrigin": "Studio MCP screen_capture",
+            "sourceCapture": {
+              "file": "output/cockapoodle-wing-fix-20261104/native-verification/hero.jpg",
+              "sha256": "33201b5346bff3b9ca8bd0762b64ccc308c899209345680cac930d0c58cde5f7"
+            },
+            "captureReceipt": {
+              "file": "output/cockapoodle-wing-fix-20261104/native-verification/verification.json",
+              "sha256": "cdf21bfb3ebb2472fd204f2cad04fcd6c289ab9c35a214081967681e8c8c0e33"
+            },
+            "visualReview": {
+              "file": "output/cockapoodle-wing-fix-20261104/wiki-handoff/visual-review-input.json",
+              "sha256": "b611a18d7b9adcee1a7c154e57698f5b2ed81ec1e5e59e6edcf1f1feb6c2fd85"
+            },
+            "modelSource": {
+              "file": "concepts/cockapoodle/cockapoodle-10-animations3.glb",
+              "sha256": "1f6784f8b28385076b33f5ff44baad9e48386daa818306abe6b616b9ed5300d1"
+            },
+            "nativeSource": {
+              "file": "assets/pets/cockapoodle-wing-fix-20261104/native-mesh.json",
+              "sha256": "a279238b046200ef8b571648931ec30dc413e07ffd6880dfe74a6e477d3a3dd8"
+            },
+            "animationRevision": "cockapoodle-supplied-replacement3-wing-abdomen-20261104-v2",
+            "mesh": "rbxassetid://101084905067971",
+            "detailImages": [
+              {
+                "label": "closed",
+                "wikiImage": "assets/animations/cockapoodle/animation-20261104-a279238b0462-faba19a98ab0-3b819764-707109e5/studio-detail-5.jpg",
+                "sha256": "149a755b46dcd1f39f1db0182da74714002e9bf8a0cbf6ca05deab1b2ddbe9d9",
+                "sourceCapture": {
+                  "file": "output/cockapoodle-wing-fix-20261104/native-verification/closed.jpg",
+                  "sha256": "149a755b46dcd1f39f1db0182da74714002e9bf8a0cbf6ca05deab1b2ddbe9d9"
+                },
+                "captureOrigin": "Studio MCP screen_capture"
+              },
+              {
+                "label": "small-closed",
+                "wikiImage": "assets/animations/cockapoodle/animation-20261104-a279238b0462-faba19a98ab0-3b819764-707109e5/studio-detail-6.jpg",
+                "sha256": "937d9436763ee63a947d196b8149a0b6c3914027b144634dfcf6da190b7dbad3",
+                "sourceCapture": {
+                  "file": "output/cockapoodle-wing-fix-20261104/native-verification/small-closed.jpg",
+                  "sha256": "937d9436763ee63a947d196b8149a0b6c3914027b144634dfcf6da190b7dbad3"
+                },
+                "captureOrigin": "Studio MCP screen_capture"
+              },
+              {
+                "label": "large-closed",
+                "wikiImage": "assets/animations/cockapoodle/animation-20261104-a279238b0462-faba19a98ab0-3b819764-707109e5/studio-detail-7.jpg",
+                "sha256": "9ceb290b2e70d662563d4710496636586b941efa6b16c10b333dd914de245a95",
+                "sourceCapture": {
+                  "file": "output/cockapoodle-wing-fix-20261104/native-verification/large-closed.jpg",
+                  "sha256": "9ceb290b2e70d662563d4710496636586b941efa6b16c10b333dd914de245a95"
+                },
+                "captureOrigin": "Studio MCP screen_capture"
+              },
+              {
+                "label": "walk-side-0.25",
+                "wikiImage": "assets/animations/cockapoodle/hind-reach-20261104-20d775070354/studio-current-walk-side-0.25.jpg",
+                "sha256": "444f8565cc2a29e9142ef24af89292a018ea616b6cff65e82a28cbf6d4d455e2",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/native-verification-final/walk-side-0.25.jpg",
+                  "sha256": "444f8565cc2a29e9142ef24af89292a018ea616b6cff65e82a28cbf6d4d455e2"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/wiki-handoff/native-acceptance.json",
+                  "sha256": "a4329ac64595fe2a7ec62b556880353f633356018300baf724bec9e935801ab8"
+                }
+              },
+              {
+                "label": "walk-side-0.75",
+                "wikiImage": "assets/animations/cockapoodle/hind-reach-20261104-20d775070354/studio-current-walk-side-0.75.jpg",
+                "sha256": "f509f50035d17207237c003804f44ea2d6b47b6f37d50a197efaf97765de23d8",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/native-verification-final/walk-side-0.75.jpg",
+                  "sha256": "f509f50035d17207237c003804f44ea2d6b47b6f37d50a197efaf97765de23d8"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/wiki-handoff/native-acceptance.json",
+                  "sha256": "a4329ac64595fe2a7ec62b556880353f633356018300baf724bec9e935801ab8"
+                }
+              },
+              {
+                "label": "walk-rear-quarter",
+                "wikiImage": "assets/animations/cockapoodle/hind-reach-20261104-20d775070354/studio-current-walk-rear-quarter.jpg",
+                "sha256": "a9f1c9c22ca7cb04c1d9f117eee08f655c751ac674c06bf01248c735c8d8f653",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/native-verification-final/walk-rear-quarter.jpg",
+                  "sha256": "a9f1c9c22ca7cb04c1d9f117eee08f655c751ac674c06bf01248c735c8d8f653"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/wiki-handoff/native-acceptance.json",
+                  "sha256": "a4329ac64595fe2a7ec62b556880353f633356018300baf724bec9e935801ab8"
+                }
+              },
+              {
+                "label": "run-side-0.25",
+                "wikiImage": "assets/animations/cockapoodle/hind-reach-20261104-20d775070354/studio-current-run-side-0.25.jpg",
+                "sha256": "2f08a1e81d8ab684142651cee1d2cc85960f6740e58572cbcccea02ab0cc0a5e",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/native-verification-final/run-side-0.25.jpg",
+                  "sha256": "2f08a1e81d8ab684142651cee1d2cc85960f6740e58572cbcccea02ab0cc0a5e"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/wiki-handoff/native-acceptance.json",
+                  "sha256": "a4329ac64595fe2a7ec62b556880353f633356018300baf724bec9e935801ab8"
+                }
+              },
+              {
+                "label": "run-side-0.75",
+                "wikiImage": "assets/animations/cockapoodle/hind-reach-20261104-20d775070354/studio-current-run-side-0.75.jpg",
+                "sha256": "894f6864d265a3ebff0bcdbdc39f58d65e0e6d70ac6ba779e137297e61ab4524",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/native-verification-final/run-side-0.75.jpg",
+                  "sha256": "894f6864d265a3ebff0bcdbdc39f58d65e0e6d70ac6ba779e137297e61ab4524"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/wiki-handoff/native-acceptance.json",
+                  "sha256": "a4329ac64595fe2a7ec62b556880353f633356018300baf724bec9e935801ab8"
+                }
+              },
+              {
+                "label": "run-rear-quarter",
+                "wikiImage": "assets/animations/cockapoodle/hind-reach-20261104-20d775070354/studio-current-run-rear-quarter.jpg",
+                "sha256": "9f290bab1350cd0cb7119a781af7cc51bb53b8caf632e3870f2f7341ecb5aa3c",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/native-verification-final/run-rear-quarter.jpg",
+                  "sha256": "9f290bab1350cd0cb7119a781af7cc51bb53b8caf632e3870f2f7341ecb5aa3c"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/wiki-handoff/native-acceptance.json",
+                  "sha256": "a4329ac64595fe2a7ec62b556880353f633356018300baf724bec9e935801ab8"
+                }
+              },
+              {
+                "label": "chase-side-0.25",
+                "wikiImage": "assets/animations/cockapoodle/hind-reach-20261104-20d775070354/studio-current-chase-side-0.25.jpg",
+                "sha256": "c42d26263cb4ec4446758d595523de2ee5c7afc59097e594e2d1fab2024eb781",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/native-verification-final/chase-side-0.25.jpg",
+                  "sha256": "c42d26263cb4ec4446758d595523de2ee5c7afc59097e594e2d1fab2024eb781"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/wiki-handoff/native-acceptance.json",
+                  "sha256": "a4329ac64595fe2a7ec62b556880353f633356018300baf724bec9e935801ab8"
+                }
+              },
+              {
+                "label": "chase-side-0.75",
+                "wikiImage": "assets/animations/cockapoodle/hind-reach-20261104-20d775070354/studio-current-chase-side-0.75.jpg",
+                "sha256": "cd1853fc4e3916ede590a856beef551208b0e4bfcc51538e9fb9438d29813d2e",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/native-verification-final/chase-side-0.75.jpg",
+                  "sha256": "cd1853fc4e3916ede590a856beef551208b0e4bfcc51538e9fb9438d29813d2e"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/wiki-handoff/native-acceptance.json",
+                  "sha256": "a4329ac64595fe2a7ec62b556880353f633356018300baf724bec9e935801ab8"
+                }
+              },
+              {
+                "label": "chase-rear-quarter",
+                "wikiImage": "assets/animations/cockapoodle/hind-reach-20261104-20d775070354/studio-current-chase-rear-quarter.jpg",
+                "sha256": "dc7ec2930bfdd868b8aacd87238af7c0713fafbd53b33ddcce9cada75e2c6ca9",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/native-verification-final/chase-rear-quarter.jpg",
+                  "sha256": "dc7ec2930bfdd868b8aacd87238af7c0713fafbd53b33ddcce9cada75e2c6ca9"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/cockapoodle/wiki-handoff/native-acceptance.json",
+                  "sha256": "a4329ac64595fe2a7ec62b556880353f633356018300baf724bec9e935801ab8"
+                }
+              }
+            ],
+            "currentScope": "Unchanged visible skin and neutral/Idle pose. Retained actual Studio image; changed moving-pose detail images are historical.",
+            "curveRevalidation": {
+              "file": "output/creature-deformation-review-20261104/cockapoodle/unchanged-action-equivalence.json",
+              "sha256": "0412f37bf3325a6a789866ab420da29d1614ff874a6cd5b01844c282715b6aa7"
+            }
+          },
+          "captureStatus": {
+            "file": "output/cockapoodle-wing-fix-20261104/native-verification/verification.json",
+            "sha256": "cdf21bfb3ebb2472fd204f2cad04fcd6c289ab9c35a214081967681e8c8c0e33",
+            "currentImagePending": false,
+            "visualAcceptanceEstablished": true,
+            "visualReview": {
+              "file": "output/cockapoodle-wing-fix-20261104/wiki-handoff/visual-review-input.json",
+              "sha256": "b611a18d7b9adcee1a7c154e57698f5b2ed81ec1e5e59e6edcf1f1feb6c2fd85"
+            },
+            "captureOrigin": "Studio MCP screen_capture"
+          },
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true,
+            "mediaEnvironment": "local-native-skin-render",
+            "nativeHeldViewsAvailable": true,
+            "comment": "Current Blink media and separately reviewed native Edit detail views are available."
+          },
+          "integrationReadback": {
+            "file": "output/creature-deformation-review-20261104/cockapoodle/native-verification-final/verification.json",
+            "sha256": "72df7dff73b3288120004386e585cd79ca62a8c0f75881e142de09235b5e4396"
+          },
+          "currentSourceIdentity": {
+            "nativeSha256": "a279238b046200ef8b571648931ec30dc413e07ffd6880dfe74a6e477d3a3dd8",
+            "clipsSha256": "20d77507035463cf4e373d2a464736d6f000743c0daf6f1df595762084c4afab",
+            "configurationSha256": "746cb74aba662ff153ca336e058931e70821e2c2d144f6e6f332898b6953b50f",
+            "modelSha256": "d0dea49520ad162bf1734342bb7b54fe4487ecb7779a47fde711957a88570af4",
+            "visibleModelExportSha256": "1f6784f8b28385076b33f5ff44baad9e48386daa818306abe6b616b9ed5300d1",
+            "curveRevision": "cockapoodle-hind-reach-20261104-v1"
+          },
+          "gaitMetadataInstallation": {
+            "file": "output/creature-deformation-review-20261104/cockapoodle/native-verification-final/verification.json",
+            "sha256": "72df7dff73b3288120004386e585cd79ca62a8c0f75881e142de09235b5e4396"
+          },
+          "animationReviewEvidence": {
+            "file": "output/creature-deformation-review-20261104/cockapoodle/selected-visual-review.json",
+            "sha256": "862e72d856a4e2bdad40d3b726287a971ae810f0b3141a607b8c8354947eb833"
+          },
+          "historicalUnsupportedDemos": [
+            "Turn90"
+          ],
+          "animationBundle": {
+            "wikiFile": "assets/animations/cockapoodle/hind-reach-20261104-20d775070354/cockapoodle-current-animations-and-model.zip",
+            "sha256": "f832d109512a4bf27643d0ca77da8913f4937bcdf9d6cf18a78c4de2ae91e845",
+            "complete": true,
+            "animations": [
+              "Idle",
+              "Walk",
+              "Run",
+              "Chase",
+              "Blink",
+              "WalkStartStop",
+              "RunStartStop",
+              "WalkRunWalk"
+            ]
+          },
+          "hindReachRepair": {
+            "sourceIdentity": {
+              "nativeSha256": "a279238b046200ef8b571648931ec30dc413e07ffd6880dfe74a6e477d3a3dd8",
+              "clipsSha256": "20d77507035463cf4e373d2a464736d6f000743c0daf6f1df595762084c4afab",
+              "configurationSha256": "746cb74aba662ff153ca336e058931e70821e2c2d144f6e6f332898b6953b50f",
+              "modelSha256": "d0dea49520ad162bf1734342bb7b54fe4487ecb7779a47fde711957a88570af4",
+              "visibleModelExportSha256": "1f6784f8b28385076b33f5ff44baad9e48386daa818306abe6b616b9ed5300d1",
+              "curveRevision": "cockapoodle-hind-reach-20261104-v1"
+            },
+            "bodyActions": [
+              "Walk",
+              "Run",
+              "Chase"
+            ],
+            "isolatedScore": 8.5,
+            "controllerScore": 8,
+            "unchangedActions": [
+              "Idle",
+              "Blink"
+            ],
+            "unchangedActionProof": {
+              "file": "output/creature-deformation-review-20261104/cockapoodle/unchanged-action-equivalence.json",
+              "sha256": "0412f37bf3325a6a789866ab420da29d1614ff874a6cd5b01844c282715b6aa7"
+            },
+            "nativeVerification": {
+              "file": "output/creature-deformation-review-20261104/cockapoodle/native-verification-final/verification.json",
+              "sha256": "72df7dff73b3288120004386e585cd79ca62a8c0f75881e142de09235b5e4396"
+            },
+            "nativeAcceptance": {
+              "file": "output/creature-deformation-review-20261104/cockapoodle/wiki-handoff/native-acceptance.json",
+              "sha256": "a4329ac64595fe2a7ec62b556880353f633356018300baf724bec9e935801ab8"
+            },
+            "nativeAcceptancePending": false,
+            "footprintEvidence": {
+              "file": "output/creature-deformation-review-20261104/cockapoodle/selected-full-skin-footprint.json",
+              "sha256": "e906288e6ece7148ebd5fdd403d4c21906fde37a1fe08ad2933f0876a6ddbef6"
+            },
+            "primaryLocomotion": "Dog",
+            "comment": "The hind paws now stay closer beneath the hips in Walk, Run and Chase, with shorter trailing reach and speed-matched cadence. The corrected wing and abdomen skin is unchanged. These three isolated actions score 8.5/10. The shown onset, stop and Walk/Run handoff demonstrations remain 8/10, Needs work; abrupt speed changes can still cause brisk recovery and short lift. The earlier 90-degree turn remains a historical 7/10 assessment. Full movement acceptance remains false. Idle and Blink media and their original review dates are retained after a scoped equivalence check. Saved developer decisions are unchanged. Live gameplay, multiplayer, network behavior and mobile performance remain untested."
+          }
+        },
+        "currentModel": {
+          "file": "concepts/cockapoodle/cockapoodle-11-animations3.glb",
+          "sha256": "d0dea49520ad162bf1734342bb7b54fe4487ecb7779a47fde711957a88570af4"
+        },
+        "nativeMesh": {
+          "file": "assets/pets/cockapoodle-hind-reach-20261104/native-mesh.json",
+          "sha256": "a279238b046200ef8b571648931ec30dc413e07ffd6880dfe74a6e477d3a3dd8"
+        },
+        "installation": {
+          "file": "output/cockapoodle-wing-fix-20261104/installed.json",
+          "sha256": "520a211a146dcf3b8c8b811fc5ce91ecf7b265cd3c254787edd76778ed837269"
+        },
+        "qualityNotice": "The hind paws now stay closer beneath the hips in Walk, Run and Chase, with shorter trailing reach and speed-matched cadence. The corrected wing and abdomen skin is unchanged. These three isolated actions score 8.5/10. The shown onset, stop and Walk/Run handoff demonstrations remain 8/10, Needs work; abrupt speed changes can still cause brisk recovery and short lift. The earlier 90-degree turn remains a historical 7/10 assessment. Full movement acceptance remains false. Idle and Blink media and their original review dates are retained after a scoped equivalence check. Saved developer decisions are unchanged. Live gameplay, multiplayer, network behavior and mobile performance remain untested."
       },
       "eggRelease": {
         "date": "2026-10-28",
@@ -993,7 +1410,11 @@
         "silhouetteSha256": "6be213d4675745c214b74d5079a95b067442e899281527e3b54a8950a1229d72",
         "silhouetteAsset": "rbxassetid://133382923624335"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "Scholar",
         "Description": "10% more movement, action and equipment training XP. Fixed hatch rewards are unchanged.",
@@ -1002,10 +1423,6 @@
         "Multiplier": 1.1,
         "Name": "Quick learner"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 1000,
@@ -1236,7 +1653,11 @@
         "silhouetteSha256": "5f20aa18571c647e756e9cc199a42b6a5a4639e99cad163ff21cfc446b2827e7",
         "silhouetteAsset": "rbxassetid://103119962066601"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "Regenerator",
         "Description": "Natural health regeneration is 50% faster, after the usual damage delay.",
@@ -1245,10 +1666,6 @@
         "Multiplier": 1.5,
         "Name": "Regenerator"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 1000,
@@ -1339,7 +1756,11 @@
         "silhouetteSha256": "712da0ccbdb493da9201ec1f6063ce841521e5679257c2944999f4a708d89bfb",
         "silhouetteAsset": "rbxassetid://89605832950601"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "Vitality",
         "Description": "Double maximum health. Changing pets preserves your health percentage.",
@@ -1348,10 +1769,6 @@
         "Multiplier": 2,
         "Name": "Vitality"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 2000,
@@ -1415,7 +1832,11 @@
       "icon": "dalmootian-icon.png",
       "artworkLayout": "flat-perspective-v1",
       "previewArtwork": [],
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "SecondWind",
         "Description": "Stamina recovers 20% faster.",
@@ -1424,10 +1845,6 @@
         "Multiplier": 1.2,
         "Name": "Second wind"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 1000,
@@ -1465,7 +1882,11 @@
       "icon": "horsaroo-icon.png",
       "artworkLayout": "flat-perspective-v1",
       "previewArtwork": [],
+      "diet": "Herbivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "FleetFoot",
         "Description": "10% faster running, within area speed limits.",
@@ -1474,10 +1895,6 @@
         "Multiplier": 1.1,
         "Name": "Fleet foot"
       },
-      "diet": "Herbivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 1000,
@@ -1872,12 +2289,12 @@
         "silhouetteSha256": "7b33e88cc9eb41dbe7a430ec4290585d11fcbdeb0e638c815e86b9e006218976",
         "silhouetteAsset": "rbxassetid://77549317413042"
       },
-      "mountable": true,
-      "followingBuff": null,
       "diet": "Herbivore",
+      "mountable": true,
       "travel": [
         "Ground"
       ],
+      "followingBuff": null,
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 3000,
@@ -2074,7 +2491,12 @@
           "runtimeContactAccepted": false
         }
       },
+      "diet": "Herbivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Water"
+      ],
       "followingBuff": {
         "id": "DeepLungs",
         "Description": "50% more underwater breath. Changing pets preserves the remaining percentage.",
@@ -2083,11 +2505,6 @@
         "Multiplier": 1.5,
         "Name": "Deep lungs"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground",
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 5000,
@@ -2450,7 +2867,11 @@
         "silhouetteAsset": "rbxassetid://124750643411547"
       },
       "displayName": "Kangamoo",
+      "diet": "Herbivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "SpringStep",
         "Description": "20% higher jumps. Jumping uses no stamina.",
@@ -2460,10 +2881,6 @@
         "Multiplier": 1.2,
         "Name": "Spring step"
       },
-      "diet": "Herbivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 2000,
@@ -2533,7 +2950,11 @@
       "conceptNumber": 17,
       "artworkLayout": "flat-perspective-v1",
       "previewArtwork": [],
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "SpringStep",
         "Description": "20% higher jumps. Jumping uses no stamina.",
@@ -2543,10 +2964,6 @@
         "Multiplier": 1.2,
         "Name": "Spring step"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 1000,
@@ -2899,7 +3316,12 @@
         "silhouetteSha256": "f49f44e9530fde316b7ca4a892574ddd9351e19cb38a184cf09fdac2d1dc2fcf",
         "silhouetteAsset": "rbxassetid://72237230347867"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Water"
+      ],
       "followingBuff": {
         "id": "Vitality",
         "Description": "Double maximum health. Changing pets preserves your health percentage.",
@@ -2908,11 +3330,6 @@
         "Multiplier": 2,
         "Name": "Vitality"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground",
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 7500,
@@ -3107,7 +3524,12 @@
         "silhouetteSha256": "3530b9d893fcf7509df163d7a802c16ebd321f43b8934b98ca1707f1c6b2c256",
         "silhouetteAsset": "rbxassetid://94473725936439"
       },
+      "diet": "Carnivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Air"
+      ],
       "followingBuff": {
         "id": "Gills",
         "Description": "Breathe underwater without using breath or taking drowning damage while this pet follows you or is mounted.",
@@ -3116,11 +3538,6 @@
         "Multiplier": 1,
         "Name": "Gills"
       },
-      "diet": "Carnivore",
-      "travel": [
-        "Ground",
-        "Air"
-      ],
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 5000,
@@ -3355,7 +3772,11 @@
         "silhouetteSha256": "9794d80d29252d87387b4dbe15cf5d3c6c2f2b7cbfec079e860cc245fc0f5f08",
         "silhouetteAsset": "rbxassetid://123242601817921"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Water"
+      ],
       "followingBuff": {
         "id": "DeepLungs",
         "Description": "50% more underwater breath. Changing pets preserves the remaining percentage.",
@@ -3364,10 +3785,6 @@
         "Multiplier": 1.5,
         "Name": "Deep lungs"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 10000,
@@ -3797,7 +4214,11 @@
         "silhouetteSha256": "30396f61d404b31b4f0a6c5f4d64a202109bc32fa832f5e4c03e4e9e1eddb2ef",
         "silhouetteAsset": "rbxassetid://80114297043238"
       },
+      "diet": "Herbivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "Regenerator",
         "Description": "Natural health regeneration is 50% faster, after the usual damage delay.",
@@ -3806,10 +4227,6 @@
         "Multiplier": 1.5,
         "Name": "Regenerator"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 3000,
@@ -4348,7 +4765,13 @@
           "gameplayTested": false
         }
       ],
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Water",
+        "Air"
+      ],
       "followingBuff": {
         "id": "Scholar",
         "Description": "10% more movement, action and equipment training XP. Fixed hatch rewards are unchanged.",
@@ -4357,12 +4780,6 @@
         "Multiplier": 1.1,
         "Name": "Quick learner"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground",
-        "Water",
-        "Air"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 2000,
@@ -4430,7 +4847,7 @@
       },
       "conceptNumber": 14,
       "concept": null,
-      "notes": "3 November 2026: the supplied replacement model is installed with a fitted rig of 22 controls, Idle, Walk, Run, Swim and Blink. Current local previews are available. The fresh Studio image and native visual acceptance are pending; the earlier Studio image is historical. Full import is incomplete. Body previews and the bounded start/stop correction score 8.5/10; Blink scores 7.5/10 in the shown local scope. Contact passes the measured actual-controller checks. Small airborne clearance and a brief lift step remain visible limitations. Saved developer decisions are preserved. Live gameplay, final Daniel review, saving and publication remain separate.",
+      "notes": "The cream waist now stays torso-owned instead of pulsing with the hind legs. The bounded correction changes 181 weight rows while preserving neutral geometry, UVs, all maps, binds, fitted eyes, every current action curve, 893 physical-foot vertices and 277 sole vertices. Idle, Walk, Run and Swim score 8.5/10 in current local previews, and Blink scores 7.5/10. Native Edit review accepted 20 usable images, including both waist sides and the true underside. Existing inner hip/knee folds remain. Current offline Luau measurement records up to 0.001755H floor intrusion, 0.04H transition lift and 0.017018H brief stopped clearance. Earlier transition demonstrations remain historical; full movement acceptance remains false. Saved developer decisions are preserved. Live gameplay, turning, multiplayer, mobile performance, place saving and publication are separate.",
       "biomeAssignment": {
         "approvedBy": "Daniel",
         "date": "2026-10-27"
@@ -4643,70 +5060,349 @@
         "placeholderHatchling": false,
         "fullImportComplete": false,
         "currentModel": {
-          "file": "concepts/crocodoodle-doo/crocodoodle-doo-9-blink-expression.glb",
-          "sha256": "5b30ed8e1a480b7a493e7ad73ea1866058409a43490c67c271ae4196293ac1e4"
+          "file": "concepts/crocodoodle-doo/crocodoodle-doo-13-skin2.glb",
+          "sha256": "b28753f29ef156ce3acac0ec133a2ae9fb5a0ed8b5e4ec96973a61b6b5cf1035"
         },
         "nativeMesh": {
-          "file": "assets/pets/crocodoodle-replacement-20261103/native-mesh.json",
-          "sha256": "4f9437fe80417547e73170cd03caf8c49e348277af8132b46dc31bd92b6d7d00"
+          "file": "assets/pets/crocodoodle-abdomen-fix-20261104/native-mesh.json",
+          "sha256": "0b4bcfd275a7eb4f34f1235af7ba707affd829bbeaa94e43ba8be0ebc4e7b7c3"
         },
         "installation": {
-          "file": "output/crocodoodle-replacement-20261103/installed.json",
-          "sha256": "d19ad2872ba05e32a575b0e785eb49b63284cc85fc7b6ad210387b2e017c03e6"
+          "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/verification.json",
+          "sha256": "1edcca36b53d61ff5f71d922dc28551cc9ece8278e9179c15ab91641a33e6470"
         },
-        "qualityNotice": "3 November 2026: the supplied replacement model is installed with a fitted rig of 22 controls, Idle, Walk, Run, Swim and Blink. Current local previews are available. The fresh Studio image and native visual acceptance are pending; the earlier Studio image is historical. Full import is incomplete. Body previews and the bounded start/stop correction score 8.5/10; Blink scores 7.5/10 in the shown local scope. Contact passes the measured actual-controller checks. Small airborne clearance and a brief lift step remain visible limitations. Saved developer decisions are preserved. Live gameplay, final Daniel review, saving and publication remain separate.",
+        "qualityNotice": "The cream waist now stays torso-owned instead of pulsing with the hind legs. The bounded correction changes 181 weight rows while preserving neutral geometry, UVs, all maps, binds, fitted eyes, every current action curve, 893 physical-foot vertices and 277 sole vertices. Idle, Walk, Run and Swim score 8.5/10 in current local previews, and Blink scores 7.5/10. Native Edit review accepted 20 usable images, including both waist sides and the true underside. Existing inner hip/knee folds remain. Current offline Luau measurement records up to 0.001755H floor intrusion, 0.04H transition lift and 0.017018H brief stopped clearance. Earlier transition demonstrations remain historical; full movement acceptance remains false. Saved developer decisions are preserved. Live gameplay, turning, multiplayer, mobile performance, place saving and publication are separate.",
         "replacementImport": {
-          "status": "installed-technical-verified-image-pending",
+          "status": "installed-verified-edit",
           "installed": true,
-          "qualityNotice": "3 November 2026: the supplied replacement model is installed with a fitted rig of 22 controls, Idle, Walk, Run, Swim and Blink. Current local previews are available. The fresh Studio image and native visual acceptance are pending; the earlier Studio image is historical. Full import is incomplete. Body previews and the bounded start/stop correction score 8.5/10; Blink scores 7.5/10 in the shown local scope. Contact passes the measured actual-controller checks. Small airborne clearance and a brief lift step remain visible limitations. Saved developer decisions are preserved. Live gameplay, final Daniel review, saving and publication remain separate.",
+          "qualityNotice": "The cream waist now stays torso-owned instead of pulsing with the hind legs. The bounded correction changes 181 weight rows while preserving neutral geometry, UVs, all maps, binds, fitted eyes, every current action curve, 893 physical-foot vertices and 277 sole vertices. Idle, Walk, Run and Swim score 8.5/10 in current local previews, and Blink scores 7.5/10. Native Edit review accepted 20 usable images, including both waist sides and the true underside. Existing inner hip/knee folds remain. Current offline Luau measurement records up to 0.001755H floor intrusion, 0.04H transition lift and 0.017018H brief stopped clearance. Earlier transition demonstrations remain historical; full movement acceptance remains false. Saved developer decisions are preserved. Live gameplay, turning, multiplayer, mobile performance, place saving and publication are separate.",
           "robloxImage": {
             "environment": "Studio Edit",
             "pose": "Idle",
-            "wikiImage": "assets/animations/crocodoodle-doo/roblox-idle.png",
-            "sha256": "b4996d46d5bf037cde396c0e0854036f89c0ecc7bfe69d916ec8fcb6d0f574cf",
+            "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-hero.jpg",
+            "sha256": "daf99499ad26f3a6c55ad68e9060f7bd50243b3808298aff42da0d67652e7ec8",
+            "currentVersion": true,
+            "captureOrigin": "Studio MCP screen_capture",
             "sourceCapture": {
-              "file": "output/crocodoodle-cartoon-eyes-20261031/native-installed/quarter.png",
-              "sha256": "b4996d46d5bf037cde396c0e0854036f89c0ecc7bfe69d916ec8fcb6d0f574cf"
+              "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/4_5-hero-before.jpg",
+              "sha256": "daf99499ad26f3a6c55ad68e9060f7bd50243b3808298aff42da0d67652e7ec8"
             },
             "captureReceipt": {
-              "file": "output/crocodoodle-cartoon-eyes-20261031/native-installed/capture-result.json",
-              "sha256": "4ea331f42e39b664397d515babdb56fbd22f3f550c2457b82ef76a07be7151b7"
+              "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/verification.json",
+              "sha256": "1edcca36b53d61ff5f71d922dc28551cc9ece8278e9179c15ab91641a33e6470"
+            },
+            "visualReview": {
+              "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+              "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
             },
             "modelSource": {
-              "file": "concepts/crocodoodle-doo/crocodoodle-doo-5-cartoon-eye-material.glb",
-              "sha256": "8d4e26d865d1c66bb6f02d9fe8e1eca8bd4f88d7a685048f3f12bf903aadbeb2"
+              "file": "concepts/crocodoodle-doo/crocodoodle-doo-13-skin2.glb",
+              "sha256": "b28753f29ef156ce3acac0ec133a2ae9fb5a0ed8b5e4ec96973a61b6b5cf1035"
             },
             "nativeSource": {
-              "file": "assets/pets/crocodoodle-doo/native-mesh.json",
-              "sha256": "38969a8fc18f788df63f19c0831a4e28792b808ff97aba3162a708da5f732bb4"
+              "file": "assets/pets/crocodoodle-abdomen-fix-20261104/native-mesh.json",
+              "sha256": "0b4bcfd275a7eb4f34f1235af7ba707affd829bbeaa94e43ba8be0ebc4e7b7c3"
             },
-            "animationRevision": "crocodoodle-doo-fitted-walk-run-v2-cartoon-eyes-v1",
-            "materialRevision": "crocodoodle-cartoon-eyes-v1",
-            "mesh": "rbxassetid://119264256236565",
-            "currentVersion": false,
-            "historicalContext": "Historical Studio Edit image of the previous Crocodoodle Doo model and its earlier eye material. It does not show the supplied replacement. A fresh replacement image remains pending because the capture returned stale Backyard pixels.",
-            "bodyLabel": "Previous model only, retained as historical evidence.",
-            "detailImages": []
+            "animationRevision": "crocodoodle-abdomen-fix-20261104-v1",
+            "mesh": "rbxassetid://111356561023671",
+            "detailImages": [
+              {
+                "label": "4_5-walk-left-waist-0_35",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-1.jpg",
+                "sha256": "fd42cfe1b08108187d024f8aa7975092bb14000d5bfcf6d0d1963d8376d92ec8",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/4_5-walk-left-waist-0_35.jpg",
+                  "sha256": "fd42cfe1b08108187d024f8aa7975092bb14000d5bfcf6d0d1963d8376d92ec8"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-walk-left-waist-0_75",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-2.jpg",
+                "sha256": "b04f17a6e20949423a8076a840977252832fc229d88c7aa83bbd81bd93ce61e3",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/4_5-walk-left-waist-0_75.jpg",
+                  "sha256": "b04f17a6e20949423a8076a840977252832fc229d88c7aa83bbd81bd93ce61e3"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-walk-right-waist-0_35",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-3.jpg",
+                "sha256": "efbc38a0d6754aa9116f44e19172b97581cb5ac2576a1ffea386eab053a2dfc1",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/4_5-walk-right-waist-0_35.jpg",
+                  "sha256": "efbc38a0d6754aa9116f44e19172b97581cb5ac2576a1ffea386eab053a2dfc1"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-walk-right-waist-0_75",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-4.jpg",
+                "sha256": "65aa76223d29c50cc79d6a0c73dc8cbf4fe6b97cfd1a9bb3b5530e170008cd19",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/4_5-walk-right-waist-0_75.jpg",
+                  "sha256": "65aa76223d29c50cc79d6a0c73dc8cbf4fe6b97cfd1a9bb3b5530e170008cd19"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-run-left-waist-0_35",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-5.jpg",
+                "sha256": "53101fecaf93df36951519ffe15ee300bd1320bf5f11ee85a524c158f066c4be",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/4_5-run-left-waist-0_35.jpg",
+                  "sha256": "53101fecaf93df36951519ffe15ee300bd1320bf5f11ee85a524c158f066c4be"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-run-left-waist-0_75",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-6.jpg",
+                "sha256": "f9cf7c881c930b8cca68901de3d2c2056e9ba49354593756fd5400eb52e7829f",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/4_5-run-left-waist-0_75.jpg",
+                  "sha256": "f9cf7c881c930b8cca68901de3d2c2056e9ba49354593756fd5400eb52e7829f"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-run-right-waist-0_35",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-7.jpg",
+                "sha256": "1855617c3f27026381299c8074695a09ae520063c55c1965ff319c2986148cc0",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/4_5-run-right-waist-0_35.jpg",
+                  "sha256": "1855617c3f27026381299c8074695a09ae520063c55c1965ff319c2986148cc0"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-run-right-waist-0_75",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-8.jpg",
+                "sha256": "b6ca0e05a318eb08371d999d91aae8610e58436ec260e13dcef8e4079cc1200d",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/4_5-run-right-waist-0_75.jpg",
+                  "sha256": "b6ca0e05a318eb08371d999d91aae8610e58436ec260e13dcef8e4079cc1200d"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-swim-side",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-9.jpg",
+                "sha256": "c7c8c64bb3f52c3acecc08cba83248067b91458e10b2ad0d5563208e08d73fd5",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/4_5-swim-side.jpg",
+                  "sha256": "c7c8c64bb3f52c3acecc08cba83248067b91458e10b2ad0d5563208e08d73fd5"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-front-open",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-10.jpg",
+                "sha256": "fbcf02ca9ea66c3de0ab22e77a5656f234f636852688723ea54f9be8fbe11e3f",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/4_5-front-open.jpg",
+                  "sha256": "fbcf02ca9ea66c3de0ab22e77a5656f234f636852688723ea54f9be8fbe11e3f"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-front-held-closed",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-11.jpg",
+                "sha256": "4b9388f8b5aa56114d92a893e164fffb520a0aa71c0ef1d5a74a6b513fbe8c24",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/4_5-front-held-closed.jpg",
+                  "sha256": "4b9388f8b5aa56114d92a893e164fffb520a0aa71c0ef1d5a74a6b513fbe8c24"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-front-reopened",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-12.jpg",
+                "sha256": "e850b6db9221f1416ea6408c9bdcf72fc165417ae1b3b57232d6b99abab66f3f",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/4_5-front-reopened.jpg",
+                  "sha256": "e850b6db9221f1416ea6408c9bdcf72fc165417ae1b3b57232d6b99abab66f3f"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "2_25-small-hero",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-13.jpg",
+                "sha256": "6f4b10aa5e7a28f677e479f8043daf2d8b1d59914e78fae8600addabed5f8243",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/2_25-small-hero.jpg",
+                  "sha256": "6f4b10aa5e7a28f677e479f8043daf2d8b1d59914e78fae8600addabed5f8243"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "13_5-large-hero",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-14.jpg",
+                "sha256": "b340a0e0a49d84538db079ce284ad36ae769b814c2a9f4e5573b5e5ecf3932de",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/13_5-large-hero.jpg",
+                  "sha256": "b340a0e0a49d84538db079ce284ad36ae769b814c2a9f4e5573b5e5ecf3932de"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-walk-below-clear-0_35",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-15.jpg",
+                "sha256": "a8d7f19070309c9e71779d3835692b4fed336db33868500843338b157f0196e0",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-underside-followup/native-installed/4_5-walk-below-clear-0_35.jpg",
+                  "sha256": "a8d7f19070309c9e71779d3835692b4fed336db33868500843338b157f0196e0"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-walk-below-clear-0_75",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-16.jpg",
+                "sha256": "47f2a7312dd46d53ae593586856fd43b4ce52e8a70dd84ad3f1f5a0d886dd075",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-underside-followup/native-installed/4_5-walk-below-clear-0_75.jpg",
+                  "sha256": "47f2a7312dd46d53ae593586856fd43b4ce52e8a70dd84ad3f1f5a0d886dd075"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-run-below-clear-0_35",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-17.jpg",
+                "sha256": "52aa4991cff1652832ee272c4c08cad36af1ff409190424b931848a95da1399c",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-underside-followup/native-installed/4_5-run-below-clear-0_35.jpg",
+                  "sha256": "52aa4991cff1652832ee272c4c08cad36af1ff409190424b931848a95da1399c"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-run-below-clear-0_75",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-18.jpg",
+                "sha256": "653012eb96fcf7b621c9dac52941008e1d70696a48a65a1efbbb85ecd0640ef1",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-underside-followup/native-installed/4_5-run-below-clear-0_75.jpg",
+                  "sha256": "653012eb96fcf7b621c9dac52941008e1d70696a48a65a1efbbb85ecd0640ef1"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              },
+              {
+                "label": "4_5-walk-waist-close",
+                "wikiImage": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/studio-detail-19.jpg",
+                "sha256": "dc36c75004bec9af76756710a8ca05f16ca32ab0952b7bb71cac5835d373c3d1",
+                "sourceCapture": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-underside-followup/native-installed/4_5-walk-waist-close.jpg",
+                  "sha256": "dc36c75004bec9af76756710a8ca05f16ca32ab0952b7bb71cac5835d373c3d1"
+                },
+                "captureOrigin": "Studio MCP screen_capture",
+                "visualReview": {
+                  "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+                  "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+                }
+              }
+            ]
           },
           "currentExpressionMediaStatus": {
             "currentMediaAvailable": true,
             "mediaEnvironment": "local-native-skin-render",
-            "nativeHeldViewsAvailable": false,
-            "comment": "Current local Blink GIF and MP4 are available. Fresh native held-eye views remain pending."
+            "nativeHeldViewsAvailable": true,
+            "comment": "Current Blink GIF/MP4 plus native open, held-closed and reopened views."
           },
           "animationBundle": {
-            "wikiFile": "assets/animations/crocodoodle-doo/replacement-20261103/crocodoodle-doo-contact-available-animations-and-model.zip",
-            "complete": false,
-            "sha256": "a42a34aa4ef6d979a1f7f1e46ec2c0b75d5c98f7e6cada728f821ea07e9839f5"
+            "wikiFile": "assets/animations/crocodoodle-doo/abdomen-20261104-0b4bcfd275a7/crocodoodle-doo-current-animations-and-model.zip",
+            "sha256": "6e0704c47308855eacdd123128658db23bea73a61183d552cf6e3349a2f13d47",
+            "complete": true,
+            "animations": [
+              "Idle",
+              "Walk",
+              "Run",
+              "Swim",
+              "Blink"
+            ]
           },
           "captureStatus": {
-            "file": "output/crocodoodle-replacement-20261103/native-installed/verification.json",
-            "sha256": "95d2746a3cd7cbedb933a9e01f3e8c81c8d272406447d87eb4a026ba7c807370",
-            "currentImagePending": true,
-            "visualAcceptanceEstablished": false,
-            "captureOrigin": "No accepted current capture"
+            "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/verification.json",
+            "sha256": "1edcca36b53d61ff5f71d922dc28551cc9ece8278e9179c15ab91641a33e6470",
+            "currentImagePending": false,
+            "visualAcceptanceEstablished": true,
+            "visualReview": {
+              "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+              "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+            }
           },
-          "historicalRecords": "output/crocodoodle-replacement-20261103/wiki-handoff/previous-records.json",
+          "historicalRecords": "output/creature-deformation-review-20261104/crocodoodle/wiki-handoff/history/703df31c96896b7d-previous-records.json",
           "balanceSource": "output/crocodoodle-replacement-20261103/integration-before.json",
           "statusBoards": {
             "category": "wip",
@@ -4715,30 +5411,70 @@
             "evidence": "output/crocodoodle-replacement-20261103/status-boards/crocodoodle-result.json"
           },
           "integrationReadback": {
-            "file": "output/crocodoodle-replacement-20261103/integration-after.json",
-            "sha256": "f150c1d32af8b75cce9d56f949bdd6f21ae2aa5dd039c199713eb09b92e5f718"
+            "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/verification.json",
+            "sha256": "1edcca36b53d61ff5f71d922dc28551cc9ece8278e9179c15ab91641a33e6470"
           },
-          "gaitFootprint": {
-            "file": "output/crocodoodle-replacement-20261103/footprint-metadata-installed.json",
-            "sha256": "be6d68d0363b8c64b45748e68df77a63e4cdfceddc779b724fc948b0346607f9",
-            "rawCoordinateScalingVerified": true
-          },
-          "qualityAccepted": false,
+          "qualityAccepted": true,
           "fullMovementAccepted": false,
-          "startStopContact": {
-            "status": "passed-bounded-actual-controller-scope",
-            "maximumSampledIntrusionPerHeight": 4.269414426927298e-05,
-            "maximumStationaryClearanceH": 0.014743280779096313,
-            "stationaryFramesAbovePoint01HAt60FPS": 17,
-            "maximumFirstLiftStepH": 0.021113,
-            "maximumTotalLiftH": 0.04,
-            "score": 8.5,
-            "repairApplied": true,
-            "actualControllerEvidence": "output/crocodoodle-replacement-20261103/startstop-candidate/single-application/actual-luau-skin-verification.json",
-            "nativeTechnicalEvidence": "output/crocodoodle-replacement-20261103/native-contact-technical/verification.json",
-            "sourceInstallation": "output/crocodoodle-replacement-20261103/startstop-candidate/single-application/installed-contact.json",
-            "historicalBaselineEvidence": "output/crocodoodle-replacement-20261103/actual-uploaded-skin/actual-mixed-sweptfootprint.json",
-            "historicalRejectedEvidence": "output/crocodoodle-replacement-20261103/startstop-candidate/rejected-aliasing-defect.json"
+          "history": [
+            {
+              "file": "output/crocodoodle-animation-20261104/wiki-handoff/history/6dc66c69014f38ee-previous-records.json",
+              "sha256": "6dc66c69014f38ee17423299f659bc175863cbd9db2b1c10a388670126d710fe",
+              "reason": "Superseded animation, image and transition-demo records"
+            },
+            {
+              "file": "output/creature-deformation-review-20261104/crocodoodle/wiki-handoff/history/703df31c96896b7d-previous-records.json",
+              "sha256": "703df31c96896b7d0e6f667f71e5c08834214504ac78918c3a3588d5507bb445",
+              "reason": "Earlier skin, animation scores and native/media records retained before bounded abdomen repair"
+            }
+          ],
+          "currentSourceIdentity": {
+            "nativeSha256": "0b4bcfd275a7eb4f34f1235af7ba707affd829bbeaa94e43ba8be0ebc4e7b7c3",
+            "clipsSha256": "877a9886912d35fe95ed180424e2d482f167917fd10001b7e69f4a8b9b67d347",
+            "configurationSha256": "2f06fcb7ea03a3b75018f9d05e392a25f618e34db2bb16f8bd21afa1828ccb4a",
+            "modelSha256": "b28753f29ef156ce3acac0ec133a2ae9fb5a0ed8b5e4ec96973a61b6b5cf1035",
+            "animationRevision": "crocodoodle-abdomen-fix-20261104-v1"
+          },
+          "gaitMetadataInstallation": {
+            "file": "output/creature-deformation-review-20261104/crocodoodle/native-final-compact/native-installed/verification.json",
+            "sha256": "1edcca36b53d61ff5f71d922dc28551cc9ece8278e9179c15ab91641a33e6470"
+          },
+          "animationReviewEvidence": {
+            "file": "output/creature-deformation-review-20261104/crocodoodle/final-compact-animation-ratings.json",
+            "sha256": "6d718ed38d1e7ff4cbb2104e2f586a400114c66201f62b45f13ef28f6aa15dd6"
+          },
+          "historicalUnsupportedDemos": [
+            "WalkToRun",
+            "RunToWalk",
+            "WalkStartStop",
+            "RunStartStop",
+            "RepeatedSpeedChanges"
+          ],
+          "abdomenSkinRepair": {
+            "changedWeightRows": 181,
+            "physicalFootVerticesPreserved": 893,
+            "soleVerticesPreserved": 277,
+            "anatomyProof": {
+              "file": "output/creature-deformation-review-20261104/crocodoodle/candidate3-anatomy-proof.json",
+              "sha256": "f7b7f4f2be75ffc070720afcdd61a8ab44dbe460b9bfe5080946b5b10bb0df13"
+            },
+            "actualFootProof": {
+              "file": "output/creature-deformation-review-20261104/crocodoodle/actual-uploaded-skin-shared/physical-foot-preservation.json",
+              "sha256": "d8f87d0ab1d370e61c4353513e32915e8d88d73994cfdc40a19cc5ba2549b178"
+            },
+            "compactEncoding": {
+              "file": "output/creature-deformation-review-20261104/crocodoodle/actual-uploaded-skin-shared/compact-encoding-equivalence.json",
+              "sha256": "74c7695ce7ab21e8db6f3a1a63b12f771b40cd3fadd421d89fcb220b4b7476e4"
+            },
+            "currentController": {
+              "file": "output/creature-deformation-review-20261104/crocodoodle/current-controller-actual-upload-shared/controller-skin-verification.json",
+              "sha256": "d8902f5a2ca5d128489cc774462b6a68c2bccda14915df5002b694a88a813893"
+            },
+            "nativeAcceptance": {
+              "file": "output/creature-deformation-review-20261104/crocodoodle/native-acceptance.json",
+              "sha256": "9e205dc28218650f3b3a6e8fb892ad939d35e70096794f150f8ddddc048fb4d7"
+            },
+            "comment": "The cream waist now stays torso-owned instead of pulsing with the hind legs. The bounded correction changes 181 weight rows while preserving neutral geometry, UVs, all maps, binds, fitted eyes, every current action curve, 893 physical-foot vertices and 277 sole vertices. Idle, Walk, Run and Swim score 8.5/10 in current local previews, and Blink scores 7.5/10. Native Edit review accepted 20 usable images, including both waist sides and the true underside. Existing inner hip/knee folds remain. Current offline Luau measurement records up to 0.001755H floor intrusion, 0.04H transition lift and 0.017018H brief stopped clearance. Earlier transition demonstrations remain historical; full movement acceptance remains false. Saved developer decisions are preserved. Live gameplay, turning, multiplayer, mobile performance, place saving and publication are separate."
           }
         }
       },
@@ -4844,7 +5580,12 @@
         "silhouetteSha256": "c3a1b10c5ae573867f0cb2920f673144d17cbdb89c0f9de324a88c31da4d87b1",
         "silhouetteAsset": "rbxassetid://75450654018074"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Water"
+      ],
       "followingBuff": {
         "id": "Mighty",
         "Description": "20% more effective Strength levels, up to level 100, for carrying, jumping and club stamina cost. Does not grant levels.",
@@ -4853,11 +5594,6 @@
         "Multiplier": 1.2,
         "Name": "Mighty companion"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground",
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 5000,
@@ -5090,7 +5826,11 @@
         "silhouetteSha256": "c2c25ec8101b7b962f3ace051d92fc445a137d477c9e62e37a12ed083661bd1a",
         "silhouetteAsset": "rbxassetid://94435474409632"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Water"
+      ],
       "followingBuff": {
         "id": "SecondWind",
         "Description": "Stamina recovers 20% faster.",
@@ -5099,10 +5839,6 @@
         "Multiplier": 1.2,
         "Name": "Second wind"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 10000,
@@ -5368,7 +6104,11 @@
         "silhouetteSha256": "bc4946baa21e7e49082aa867c800d7a382d74f0233d721b85f68f54a9ed9105d",
         "silhouetteAsset": "rbxassetid://129432542880901"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "FleetFoot",
         "Description": "10% faster running, within area speed limits.",
@@ -5377,10 +6117,6 @@
         "Multiplier": 1.1,
         "Name": "Fleet foot"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 5000,
@@ -5638,7 +6374,11 @@
         "silhouetteSha256": "7ad7243ec523d9bf82626820bb621dd50fea3a6f41028c805ba4a028ef51743e",
         "silhouetteAsset": "rbxassetid://102563263393947"
       },
+      "diet": "Herbivore",
       "mountable": false,
+      "travel": [
+        "Water"
+      ],
       "followingBuff": {
         "id": "TideRider",
         "Description": "15% faster swimming.",
@@ -5647,10 +6387,6 @@
         "Multiplier": 1.15,
         "Name": "Tide rider"
       },
-      "diet": "Herbivore",
-      "travel": [
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 15000,
@@ -6467,7 +7203,11 @@
         "imageAsset": "rbxassetid://139977051737662",
         "silhouetteAsset": "rbxassetid://99860507903635"
       },
+      "diet": "Carnivore",
       "mountable": false,
+      "travel": [
+        "Water"
+      ],
       "followingBuff": {
         "id": "Gills",
         "Description": "Breathe underwater without using breath or taking drowning damage while this pet follows you or is mounted.",
@@ -6476,10 +7216,6 @@
         "Multiplier": 1,
         "Name": "Gills"
       },
-      "diet": "Carnivore",
-      "travel": [
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 3000,
@@ -6722,7 +7458,12 @@
         "silhouetteSha256": "87ed82ef539ecd6cbac9b05d687d1eb48b9bdc04469184fd15b64a1fd14b0dda",
         "silhouetteAsset": "rbxassetid://84789531413849"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Water"
+      ],
       "followingBuff": {
         "id": "Gills",
         "Description": "Breathe underwater without using breath or taking drowning damage while this pet follows you or is mounted.",
@@ -6731,11 +7472,6 @@
         "Multiplier": 1,
         "Name": "Gills"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground",
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 3000,
@@ -6803,7 +7539,7 @@
       },
       "conceptNumber": 21,
       "concept": null,
-      "notes": "Seed-head spacing refinement, 2 November 2026: reduced the previous forty broad canopies to twenty-four smaller seed fans, opening gaps so the individual tufts, cream stems and centre remain visible. Overall head size is retained. The hatch template and Jungle guardian are installed and photographed in Studio Edit. Body and curved tail shaft geometry, original 21 bones, four existing clips, current texture maps, eye fit, placement, collider, statistics and eggs are preserved. Skin triangle count is 19,888. Earlier animation media and scores and saved reviews are unchanged. Gameplay was not started, and the place was not saved or published.",
+      "notes": "Tail seed-head size update, 5 November 2026: enlarged the existing seed head by 50 percent about its attachment centre. The twenty-four separated feathered fans retain their gaps, texture cutouts and materials. Body and curved tail shaft geometry, 21 bones, four existing clips, eye fit, placement, colliders, statistics and eggs are preserved. All three current native copies are updated. Skin triangle count remains 19,888. Earlier animation media, scores and dates and saved developer decisions remain unchanged. Actual Studio Edit photographs are available; live gameplay and mobile GPU performance are untested.",
       "biomeAssignment": {
         "approvedBy": "Daniel",
         "date": "2026-10-27"
@@ -6846,11 +7582,11 @@
       "implementation": {
         "gameplayEnabled": true,
         "replacementImport": {
-          "mesh": "rbxassetid://94269682803614",
-          "model": "concepts/dandylion/dandylion-18-open-seed-clusters-v12.glb",
-          "modelSha256": "86b33d904f6789ed09dbad5c3f6da55fc4e8f2e475d2455ad2a87aa8a6a157a7",
-          "nativePayload": "assets/pets/dandylion-tail-v12/native-mesh.json",
-          "nativePayloadSha256": "452166e6e442e78c77c96565b65e1b64ed486d4bb7c8c81835895b7d3e3dd0d5",
+          "mesh": "rbxassetid://97825884632630",
+          "model": "concepts/dandylion/dandylion-19-seed-head-150-percent-v13.glb",
+          "modelSha256": "5341fcd6facef697fc8e527ec713ba2c11af55e27bacbcbcd7d9018f4cbeeabb",
+          "nativePayload": "assets/pets/dandylion-tail-v13/native-mesh.json",
+          "nativePayloadSha256": "84d0eac93a25fb7178e14db3d89e297dee886daee73d66b84da94197ad960c06",
           "animationRevision": "dandylion-replacement-v3-recovery-cleanbind-v1:texture2k1",
           "rigVersion": "dandylion-native-v3",
           "modes": [
@@ -6860,8 +7596,8 @@
             "Chase"
           ],
           "activeMaterialReceipt": {
-            "file": "assets/pets/dandylion-tail-v12/active-asset.json",
-            "sha256": "1ca68fd83c1e90f13195029fa4fcb014d8544a48e1801ae8d8dc4d7292683bb3"
+            "file": "assets/pets/dandylion-tail-v13/active-asset.json",
+            "sha256": "66d452147daa23c56a33cf2d7ca7c75032fd15fb3a8d758ddd6c538faf67f89e"
           },
           "runtimeTextureCap": 2048,
           "currentCodexRatings": {
@@ -7011,38 +7747,43 @@
             "clip": "Blink"
           },
           "robloxImage": {
-            "wikiImage": "assets/animations/dandylion/roblox-tail-v12-quarter-20261102.png",
-            "sha256": "9970668d0c01e127b49a64ae56fb5e305dfd9e6a623442d599b60b6a2cab15aa",
-            "sourceImage": "output/dandylion-tail-open-20261102/final/after-quarter.png",
-            "sourceImageSha256": "48291dc32b1f613e817031f6b841b0fc84156682387cc91ad224dc90f28bc42b",
+            "wikiImage": "assets/animations/dandylion/roblox-tail-v13-quarter-20261105.jpg",
+            "sha256": "b55412ace20d9e7151f699b16825675d4f10950af4fc6179c28fb8cb0bcb95b0",
+            "sourceImage": "output/dandylion-tail-size-20261105/final/after-quarter.jpg",
+            "sourceImageSha256": "b55412ace20d9e7151f699b16825675d4f10950af4fc6179c28fb8cb0bcb95b0",
             "ok": true,
             "environment": "Studio Edit",
             "pose": "Neutral",
             "heightStuds": 10.779998779296875,
-            "bodyMesh": "rbxassetid://94269682803614",
-            "nativePayloadSha256": "452166e6e442e78c77c96565b65e1b64ed486d4bb7c8c81835895b7d3e3dd0d5",
-            "modelSha256": "86b33d904f6789ed09dbad5c3f6da55fc4e8f2e475d2455ad2a87aa8a6a157a7",
+            "bodyMesh": "rbxassetid://97825884632630",
+            "nativePayloadSha256": "84d0eac93a25fb7178e14db3d89e297dee886daee73d66b84da94197ad960c06",
+            "modelSha256": "5341fcd6facef697fc8e527ec713ba2c11af55e27bacbcbcd7d9018f4cbeeabb",
             "currentVersion": true,
             "gameplayStarted": false,
             "saved": false,
             "published": false,
             "captureReceipt": {
-              "file": "output/dandylion-tail-open-20261102/final/after-installed.json",
-              "sha256": "ca89903a757b0e1f2533929aa487b37b760b6b8f4cdd970986dd5e5e91ed36b2"
+              "file": "output/dandylion-tail-size-20261105/final/after-installed.json",
+              "sha256": "308d6241642899eadcac0007aaaad7b074501314ce925cf0a78faccf3f8a3ad4"
             },
+            "nativeAcceptance": {
+              "file": "output/dandylion-tail-size-20261105/final/native-acceptance.json",
+              "sha256": "ba4b3bcd65b319a9800e25424e410c2060942255326e554075f51b6fb99e052b"
+            },
+            "currentScope": "The tail seed head is 50 percent larger. Existing body, tail shaft, rig and animation curves are retained.",
             "detailImages": [
               {
-                "wikiImage": "assets/animations/dandylion/roblox-tail-v12-tail-20261102.png",
-                "sha256": "f8df972a946cac8be51f3468646e6d3353e1a7b8a30cc73b2187066f91439b9d",
-                "sourceImage": "output/dandylion-tail-open-20261102/final/after-tail.png",
-                "sourceImageSha256": "bbd91057850db9f7fc6682b88bff2be56911e5489ee3a17d5fe023bac837ef8a",
-                "label": "Separated seed fans and visible stems"
+                "wikiImage": "assets/animations/dandylion/roblox-tail-v13-tail-20261105.jpg",
+                "sha256": "05ce49248289300f3fe00b0c261bc213aa12bc17e404db015e3db9b315cb56bd",
+                "sourceImage": "output/dandylion-tail-size-20261105/final/after-tail.jpg",
+                "sourceImageSha256": "05ce49248289300f3fe00b0c261bc213aa12bc17e404db015e3db9b315cb56bd",
+                "label": "Seed head enlarged by 50 percent"
               },
               {
-                "wikiImage": "assets/animations/dandylion/roblox-tail-v12-rear-20261102.png",
-                "sha256": "c9372b05fee7554631d6dd844154444cddb1d0058bb3dd4b8290118ae6749ad3",
-                "sourceImage": "output/dandylion-tail-open-20261102/final/after-rear.png",
-                "sourceImageSha256": "7474565b1a5a4cc919a28f19e68a148a5869753b46c58369953ba5b29ad16a01",
+                "wikiImage": "assets/animations/dandylion/roblox-tail-v13-rear-20261105.jpg",
+                "sha256": "4bda17ee9300f601f6041b2d65c7400fe1bbf01a02cf46ec665d069df2fe1a82",
+                "sourceImage": "output/dandylion-tail-size-20261105/final/after-rear.jpg",
+                "sourceImageSha256": "4bda17ee9300f601f6041b2d65c7400fe1bbf01a02cf46ec665d069df2fe1a82",
                 "label": "Rear view"
               }
             ]
@@ -7052,7 +7793,7 @@
             "comment": "The retained Blink and body previews show the earlier v3 tail. Their recorded scores, speeds and comments are retained as earlier-version evidence. This tail repair did not author or reassess animations."
           },
           "currentStudioImageAvailable": true,
-          "currentStudioImageStatus": "Current installed open seed-cluster refinement photographed in neutral bind pose in the Jungle.",
+          "currentStudioImageStatus": "Current installed 50-percent seed-head enlargement photographed in neutral bind pose in the Jungle.",
           "currentCaptureHold": {
             "file": "output/playwright/dandylion-v3-final/current-capture-hold.json",
             "sha256": "d8740f9e67ffacf718ff2ffc83933151798c448b698dcfba556b739b73b30598"
@@ -7068,10 +7809,10 @@
           "fullMovementAccepted": false,
           "fullImportComplete": false,
           "limitations": [
-            "Twenty-four smaller feathered seed fans leave gaps around the centre, with visible cream stems. This remains stylized texture-cutout geometry, not simulated hair.",
-            "The body, curved tail shaft, eyes, whiskers, bones, clips and all current texture maps are preserved.",
-            "Earlier animation media and scores remain labelled as earlier-model evidence; saved developer decisions are unchanged.",
-            "Gameplay and GPU cost remain unmeasured. No place saving or publication."
+            "The white seed head is uniformly 50 percent larger than the previous installed model, with the same twenty-four open feathered seed fans.",
+            "Body, curved tail shaft, eye fit, rig, weights, texture maps, existing animation curves, placement, colliders and statistics are preserved.",
+            "Existing body and Blink previews, scores and dates remain earlier-model evidence. This size-only edit did not author or reassess animations.",
+            "Studio Edit verification and photographs do not establish live gameplay or mobile GPU performance. No place saving or publication."
           ],
           "animationBundle": {
             "wikiFile": "assets/animations/dandylion/dandylion-animations-v3-20261101.zip",
@@ -7088,18 +7829,34 @@
             "historicalContext": "Earlier v3 source rig and media, before the tail repair. Current tail model is retained as numbered stage12."
           },
           "tailRepair": {
-            "date": "2026-11-02",
-            "revision": "dandylion-open-seed-clusters-v12",
-            "stage": "concepts/dandylion/dandylion-18-open-seed-clusters-v12.glb",
+            "date": "2026-11-05",
+            "revision": "dandylion-seed-head-150-percent-v13",
+            "stage": "concepts/dandylion/dandylion-19-seed-head-150-percent-v13.glb",
+            "previousStage": "concepts/dandylion/dandylion-18-open-seed-clusters-v12.glb",
             "triangles": 19888,
             "parachutes": 24,
             "filaments": 0,
             "textureCanopy": true,
-            "seedHeadDiameterScale": 0.5,
+            "headSizeMultiplierFromPrevious": 1.5,
             "geometryPreservedOutsideSeedHead": true,
             "bonesPreserved": 21,
             "clipsAuthored": false,
-            "verification": "output/dandylion-tail-open-20261102/completion.json"
+            "construction": {
+              "file": "output/dandylion-tail-size-20261105/candidate-proof.json",
+              "sha256": "e5a7486f7382a03f3c009edce7635ef920231ea29f9f8a6314093f2549ea9dcd"
+            },
+            "deformation": {
+              "file": "assets/pets/dandylion-tail-v13/swept-tail-proof.json",
+              "sha256": "464583997afa0d0a89084012e3da8535d77c0e5d6e83ab0d3b7110300344270b"
+            },
+            "roundtrip": {
+              "file": "output/dandylion-tail-size-20261105/roundtrip.json",
+              "sha256": "08c120ae4795ef13af3b6d286d98fc52d175780867985d79e53b4f856171d859"
+            },
+            "installedReadback": {
+              "file": "output/dandylion-tail-size-20261105/final/installed-readback.json",
+              "sha256": "6a538f3eb304a3f592b6f26bdb295e76240b3b1f1a518993f9b9e99bf98c5c6f"
+            }
           },
           "currentCodexRatingsContext": "Earlier v3 model, before the tail repair. Existing curves are unchanged; these numbers are not a new assessment of the current model."
         },
@@ -8179,6 +8936,264 @@
               "verification": "output/dandylion-tail-dense-20261102/completion.json"
             },
             "currentCodexRatingsContext": "Earlier v3 model, before the tail repair. Existing curves are unchanged; these numbers are not a new assessment of the current model."
+          },
+          {
+            "mesh": "rbxassetid://94269682803614",
+            "model": "concepts/dandylion/dandylion-18-open-seed-clusters-v12.glb",
+            "modelSha256": "86b33d904f6789ed09dbad5c3f6da55fc4e8f2e475d2455ad2a87aa8a6a157a7",
+            "nativePayload": "assets/pets/dandylion-tail-v12/native-mesh.json",
+            "nativePayloadSha256": "452166e6e442e78c77c96565b65e1b64ed486d4bb7c8c81835895b7d3e3dd0d5",
+            "animationRevision": "dandylion-replacement-v3-recovery-cleanbind-v1:texture2k1",
+            "rigVersion": "dandylion-native-v3",
+            "modes": [
+              "Idle",
+              "Walk",
+              "Run",
+              "Chase"
+            ],
+            "activeMaterialReceipt": {
+              "file": "assets/pets/dandylion-tail-v12/active-asset.json",
+              "sha256": "1ca68fd83c1e90f13195029fa4fcb014d8544a48e1801ae8d8dc4d7292683bb3"
+            },
+            "runtimeTextureCap": 2048,
+            "currentCodexRatings": {
+              "Idle": 8.5,
+              "Walk": 8.5,
+              "Run": 8.5,
+              "Chase": 8.5
+            },
+            "codexPassThreshold": 8.5,
+            "codexBlinkPassThreshold": 7.5,
+            "allBodyModeReviewsPass": false,
+            "expressionReview": {
+              "ratingOutOf10": 7.5,
+              "passThresholdOutOf10": 7.5,
+              "passesRequiredQuality": true,
+              "candidateOnly": false,
+              "renderEnvironment": "offline-native-transform-render",
+              "reviewedAt": "2026-11-01",
+              "reviewedSpeedStudsPerSecond": 0,
+              "reviewScope": "shown-preview",
+              "confidence": "medium",
+              "comment": "At 0 studs/s, this offline render of the installed native 0.2-second Blink covers both irises and reopens clearly while Idle continues. The rounded covers form raised shelves during partial closure, and the closed crease sits low. These visible limits keep the shown expression at 7.5/10.",
+              "timingLabel": "Recorded 1 November 2026 at 0 studs/s. Actual native Step/Face transforms, rendered offline with current 2k maps. Retained 0.2-second Blink at 20 ms phases; open endpoints held 800 ms for inspection. Earlier v3 model, before the tail repair. Facial controls and their media are unchanged.",
+              "wikiGif": "assets/animations/dandylion/blink-offline-native-v3-2k-20261101.gif",
+              "wikiVideo": "assets/animations/dandylion/blink-offline-native-v3-2k-20261101.mp4",
+              "wikiPoster": "assets/animations/dandylion/blink-offline-native-v3-2k-20261101.png",
+              "wikiSourceFrames": "assets/animations/dandylion/blink-offline-native-v3-2k-20261101-source-frames.zip",
+              "gifSha256": "72e57b89917f71d13b05e9343a104436e640f6200414267717fcb5720e5cf035",
+              "videoSha256": "cff1f98591b45e394cbc08455421514f74218ed7f4b629f97eac6d094bd5eb75",
+              "posterSha256": "c866a277d9bce3bed0d81193738b7c29ca2bdfd899ff444c828d7179cf5458d3",
+              "sourceFramesSha256": "efc909ca219c16d95edb7def2aba1539d38c77c9c06ed40d2bc22005191d2d36",
+              "sourceFingerprint": "607e36b0cd08d16545b33285c489cc102c2a8a0a2439d145047e121335e31014",
+              "sourceFingerprintDerivation": "SHA256 of sorted compact sourceBinding JSON recorded in provenance.",
+              "installedSourceSampled": true,
+              "nativeScreenRecording": false,
+              "currentStudioImageAvailable": false,
+              "bodyMovementAssessed": false,
+              "limitations": [
+                "Offline source reconstruction from actual native Step/Face transforms, not Roblox screen recording.",
+                "Analytic native Sphere shape is tessellated at64segments/32rings for Blender; native GPU primitive tessellation is not claimed identical.",
+                "Actual primitive SmoothPlastic tint is retained, but Blender Principled roughness0.75 and studio lights approximate native shading. No Roblox pixel equivalence is claimed.",
+                "Source float weights are rendered; uploaded Roblox weights use their separately observed quantized representation. The eye surfaces are Head1.",
+                "Current v3 hosted, parent-local and accumulated mesh-local bind checks pass at the unchanged limits. The separate guardian WorldCFrame position diagnostic remains failed and retained. This expression preview does not establish body-motion or live-gameplay acceptance.",
+                "All 89 MP4 frames and 11 GIF frames were decoded and hashed. The ordered decoded phase sheet, front closure and quarter open/partial/closed states were inspected. Continuous video playback was not watched.",
+                "No current v3 Studio image or native screen recording was obtained because screenshot transport timed out. Earlier v2 images remain separate historical evidence.",
+                "The original guardian world-position diagnostic remains false at one float32 ULP. Correct parent-local, mesh-local and hosted native-bind checks pass at unchanged thresholds; the failed world diagnostic is retained."
+              ],
+              "provenance": {
+                "sourceBinding": {
+                  "species": "Dandylion",
+                  "modelIdentity": {
+                    "clipsSha256": "a04da146164d73386bc3fca9d44d17bdda7ac73039125b2f2300f16e3531fe0c",
+                    "animationRevision": "dandylion-replacement-v3-recovery-cleanbind-v1:texture2k1",
+                    "modelSha256": "21d8999f6c07c61f5ad4ea0b5541ba7ded53bd402df07de1f50dbd92e8423840",
+                    "rigVersion": "dandylion-native-v3",
+                    "originalSourceSha256": "9b177793f17ecdbb7b20ecdde1730bfe73743b8a94506006fc37629d99130f45",
+                    "sourceFile": "concepts/dandylion/dandylion-initial-v2.fbx",
+                    "preparationSourceSha256": "6a25838c6061e7ce19ac5ac079842c7747cab4ec981379c8462d6d1c4933dd04"
+                  },
+                  "mesh": "rbxassetid://123740791536256",
+                  "nativeSha256": "a8ef62ee044289b0769cb33e38e1a35fb6a538fab37ad9ade1f1240e46d3e0bd",
+                  "configurationRowSha256": "227d999db97955c22847373cfa528a7edd0b8311577f439032ca665f7e1ff370",
+                  "controller": {
+                    "file": "src/creature_animation.luau",
+                    "sha256": "3a50ce82958aada905720645f60e4ab3653b93a45f6e410b264fa13bbc9e77d7",
+                    "normalizedChecksum": "27041:b6c1e105"
+                  },
+                  "runtimeTextures": {
+                    "color": {
+                      "file": "assets/model-textures/2k-v1/121255414578351-color.png",
+                      "sha256": "da390ca2a916e31937f98fcf2e859cb45eaf9044660cbf7a47e49b764e16d339",
+                      "asset": "rbxassetid://117045721742149"
+                    },
+                    "roughness": {
+                      "file": "assets/model-textures/2k-v1/128085005116002-data.png",
+                      "sha256": "389690baa4c575ea085bbc5ee4be3dd55c3fc8995b44fd1e1dcc6d6c1d5f7646",
+                      "asset": "rbxassetid://92037739246820"
+                    },
+                    "metallic": {
+                      "file": "assets/model-textures/2k-v1/127582284703164-data.png",
+                      "sha256": "6e84541fac14f31507b9d68f110245775261bfd6f75fb997b4b053e25a0614b0",
+                      "asset": "rbxassetid://80908425160355"
+                    }
+                  },
+                  "activeMaterialReceipt": {
+                    "file": "assets/pets/dandylion-v3/active-asset-2k.json",
+                    "sha256": "f213bc68a082d00e4904f116d8be9fdde948bf18dd9bfffb37fb1c4724291b02"
+                  },
+                  "renderer": {
+                    "file": "output/dandylion-review-20261031/independent-native/offline-installed-v3-blink/renderer-executed-before-limitation-correction.py",
+                    "sha256": "364dc55e10278bfa2da800fb5aec3920f4328d088728934dc792999997190111"
+                  },
+                  "renderEnvironment": "offline-native-transform-render"
+                },
+                "nativeSamples": {
+                  "file": "output/dandylion-review-20261031/independent-native/offline-installed-v3-blink/native-samples.json",
+                  "sha256": "e1c30cf95aeceef3bb57d83985cd2e44c9b003378c04ece7c80127c47cb70d7b"
+                },
+                "wireSamples": {
+                  "file": "output/dandylion-review-20261031/independent-native/offline-installed-v3-blink/native-samples-wire.json",
+                  "sha256": "7073f954c7aa01264d27b10bbae1c133e3c77a1ea512243cdcf7d35e5a81689b"
+                },
+                "transport": {
+                  "file": "output/dandylion-review-20261031/independent-native/offline-installed-v3-blink/transport-receipt.json",
+                  "sha256": "54654c920edd41966249c3378cd83b409e3f6e6afd67fd180603c0f70a6cc082"
+                },
+                "correctNativeFrameGate": {
+                  "file": "output/dandylion-review-20261031/independent-native/offline-installed-v3-blink/native-frame-gate.json",
+                  "sha256": "d6f3f69f0b62f442b4dddcd390d4527adc680d886e23aea8c78eda7ab3efaf8f"
+                },
+                "textureProof": {
+                  "file": "output/dandylion-review-20261031/independent-native/offline-installed-v3-blink/runtime-texture-proof.json",
+                  "sha256": "81bbbbc69e43e136c1067760e371f41d323dc513d0362eb2b123b934ed3a9d7d"
+                },
+                "render": {
+                  "file": "output/dandylion-review-20261031/independent-native/offline-installed-v3-blink/render-receipt.json",
+                  "sha256": "f0d3701f988e1073c664046ef50e9e4d778c1a3574a744da888bf20b84d96637"
+                },
+                "encoding": {
+                  "file": "output/dandylion-review-20261031/independent-native/offline-installed-v3-blink/encoding-verification.json",
+                  "sha256": "34abb5873bf7a5452ef55a49b4bbe014e73bfa89726322464196f97a29b1c3fd"
+                },
+                "decodedSheet": {
+                  "file": "output/dandylion-review-20261031/independent-native/offline-installed-v3-blink/ordered-decoded-offline-blink.jpg",
+                  "sha256": "2286e78e93de388156644ec93a86f4b2a6a6e401beb69fe1ee38b93971e9801c"
+                },
+                "sourceFrames": {
+                  "file": "output/dandylion-review-20261031/independent-native/offline-installed-v3-blink/source-frames-and-native-transforms.zip",
+                  "sha256": "efc909ca219c16d95edb7def2aba1539d38c77c9c06ed40d2bc22005191d2d36"
+                }
+              },
+              "runtimeControls": {
+                "gifLoadOnRequest": true,
+                "videoControls": true,
+                "videoPreload": "none",
+                "autoplay": false,
+                "muted": true,
+                "loop": true,
+                "playsInline": true
+              },
+              "officialReviewsWritten": false,
+              "savedDeveloperVotesWritten": false,
+              "gameplayStarted": false,
+              "saved": false,
+              "published": false,
+              "creature": "Dandylion",
+              "clip": "Blink"
+            },
+            "robloxImage": {
+              "wikiImage": "assets/animations/dandylion/roblox-tail-v12-quarter-20261102.png",
+              "sha256": "9970668d0c01e127b49a64ae56fb5e305dfd9e6a623442d599b60b6a2cab15aa",
+              "sourceImage": "output/dandylion-tail-open-20261102/final/after-quarter.png",
+              "sourceImageSha256": "48291dc32b1f613e817031f6b841b0fc84156682387cc91ad224dc90f28bc42b",
+              "ok": true,
+              "environment": "Studio Edit",
+              "pose": "Neutral",
+              "heightStuds": 10.779998779296875,
+              "bodyMesh": "rbxassetid://94269682803614",
+              "nativePayloadSha256": "452166e6e442e78c77c96565b65e1b64ed486d4bb7c8c81835895b7d3e3dd0d5",
+              "modelSha256": "86b33d904f6789ed09dbad5c3f6da55fc4e8f2e475d2455ad2a87aa8a6a157a7",
+              "currentVersion": true,
+              "gameplayStarted": false,
+              "saved": false,
+              "published": false,
+              "captureReceipt": {
+                "file": "output/dandylion-tail-open-20261102/final/after-installed.json",
+                "sha256": "ca89903a757b0e1f2533929aa487b37b760b6b8f4cdd970986dd5e5e91ed36b2"
+              },
+              "detailImages": [
+                {
+                  "wikiImage": "assets/animations/dandylion/roblox-tail-v12-tail-20261102.png",
+                  "sha256": "f8df972a946cac8be51f3468646e6d3353e1a7b8a30cc73b2187066f91439b9d",
+                  "sourceImage": "output/dandylion-tail-open-20261102/final/after-tail.png",
+                  "sourceImageSha256": "bbd91057850db9f7fc6682b88bff2be56911e5489ee3a17d5fe023bac837ef8a",
+                  "label": "Separated seed fans and visible stems"
+                },
+                {
+                  "wikiImage": "assets/animations/dandylion/roblox-tail-v12-rear-20261102.png",
+                  "sha256": "c9372b05fee7554631d6dd844154444cddb1d0058bb3dd4b8290118ae6749ad3",
+                  "sourceImage": "output/dandylion-tail-open-20261102/final/after-rear.png",
+                  "sourceImageSha256": "7474565b1a5a4cc919a28f19e68a148a5869753b46c58369953ba5b29ad16a01",
+                  "label": "Rear view"
+                }
+              ]
+            },
+            "currentExpressionMediaStatus": {
+              "currentMediaAvailable": false,
+              "comment": "The retained Blink and body previews show the earlier v3 tail. Their recorded scores, speeds and comments are retained as earlier-version evidence. This tail repair did not author or reassess animations."
+            },
+            "currentStudioImageAvailable": true,
+            "currentStudioImageStatus": "Current installed open seed-cluster refinement photographed in neutral bind pose in the Jungle.",
+            "currentCaptureHold": {
+              "file": "output/playwright/dandylion-v3-final/current-capture-hold.json",
+              "sha256": "d8740f9e67ffacf718ff2ffc83933151798c448b698dcfba556b739b73b30598"
+            },
+            "strictNativeReadback": {
+              "file": "output/dandylion-review-20261031/install-v3/strict-native-readback.json",
+              "sha256": "611f841698da6958a80926f1e4e774d82cf46a4a0cdf485d882872f5205b7bba"
+            },
+            "nativeFrameGate": {
+              "file": "output/dandylion-review-20261031/independent-native/offline-installed-v3-blink/native-frame-gate.json",
+              "sha256": "d6f3f69f0b62f442b4dddcd390d4527adc680d886e23aea8c78eda7ab3efaf8f"
+            },
+            "fullMovementAccepted": false,
+            "fullImportComplete": false,
+            "limitations": [
+              "Twenty-four smaller feathered seed fans leave gaps around the centre, with visible cream stems. This remains stylized texture-cutout geometry, not simulated hair.",
+              "The body, curved tail shaft, eyes, whiskers, bones, clips and all current texture maps are preserved.",
+              "Earlier animation media and scores remain labelled as earlier-model evidence; saved developer decisions are unchanged.",
+              "Gameplay and GPU cost remain unmeasured. No place saving or publication."
+            ],
+            "animationBundle": {
+              "wikiFile": "assets/animations/dandylion/dandylion-animations-v3-20261101.zip",
+              "sha256": "eca9675f0dd931061ffefe16b6d124b534712fa2cd455fe16798a0605fc648a3",
+              "complete": true,
+              "previewActions": [
+                "Idle",
+                "Walk",
+                "Run",
+                "Chase",
+                "Blink"
+              ],
+              "currentStudioImageIncluded": false,
+              "historicalContext": "Earlier v3 source rig and media, before the tail repair. Current tail model is retained as numbered stage12."
+            },
+            "tailRepair": {
+              "date": "2026-11-02",
+              "revision": "dandylion-open-seed-clusters-v12",
+              "stage": "concepts/dandylion/dandylion-18-open-seed-clusters-v12.glb",
+              "triangles": 19888,
+              "parachutes": 24,
+              "filaments": 0,
+              "textureCanopy": true,
+              "seedHeadDiameterScale": 0.5,
+              "geometryPreservedOutsideSeedHead": true,
+              "bonesPreserved": 21,
+              "clipsAuthored": false,
+              "verification": "output/dandylion-tail-open-20261102/completion.json"
+            },
+            "currentCodexRatingsContext": "Earlier v3 model, before the tail repair. Existing curves are unchanged; these numbers are not a new assessment of the current model."
           }
         ],
         "historicalIntroductionNotes": [
@@ -8288,15 +9303,15 @@
         "silhouetteAsset": "rbxassetid://122876642539949"
       },
       "modelUpdate": {
-        "date": "2026-11-02",
+        "date": "2026-11-05",
         "source": "concepts/dandylion/dandylion-initial-v2.fbx",
         "sourceArchive": "Meshy_AI_DandelionLion_9k_1031133541_texture_fbx.zip",
         "sourceSha256": "9b177793f17ecdbb7b20ecdde1730bfe73743b8a94506006fc37629d99130f45",
         "preparationSourceSha256": "6a25838c6061e7ce19ac5ac079842c7747cab4ec981379c8462d6d1c4933dd04",
-        "modified": "concepts/dandylion/dandylion-18-open-seed-clusters-v12.glb",
-        "modifiedSha256": "86b33d904f6789ed09dbad5c3f6da55fc4e8f2e475d2455ad2a87aa8a6a157a7",
-        "nativeSha256": "452166e6e442e78c77c96565b65e1b64ed486d4bb7c8c81835895b7d3e3dd0d5",
-        "mesh": "rbxassetid://94269682803614",
+        "modified": "concepts/dandylion/dandylion-19-seed-head-150-percent-v13.glb",
+        "modifiedSha256": "5341fcd6facef697fc8e527ec713ba2c11af55e27bacbcbcd7d9018f4cbeeabb",
+        "nativeSha256": "84d0eac93a25fb7178e14db3d89e297dee886daee73d66b84da94197ad960c06",
+        "mesh": "rbxassetid://97825884632630",
         "bones": 21,
         "triangles": 19888,
         "legs": 4,
@@ -8307,11 +9322,11 @@
         "gameplayTested": false,
         "saved": false,
         "published": false,
-        "currentStage": "concepts/dandylion/dandylion-18-open-seed-clusters-v12.glb",
+        "currentStage": "concepts/dandylion/dandylion-19-seed-head-150-percent-v13.glb",
         "runtimeTextureCap": 2048,
         "activeMaterialReceipt": {
-          "file": "assets/pets/dandylion-tail-v12/active-asset.json",
-          "sha256": "1ca68fd83c1e90f13195029fa4fcb014d8544a48e1801ae8d8dc4d7292683bb3"
+          "file": "assets/pets/dandylion-tail-v13/active-asset.json",
+          "sha256": "66d452147daa23c56a33cf2d7ca7c75032fd15fb3a8d758ddd6c538faf67f89e"
         },
         "strictNativeAndMeshLocalBindPassed": true,
         "currentStudioImageAvailable": true
@@ -8338,9 +9353,13 @@
         },
         "fullMovementAccepted": false
       },
-      "model": "concepts/dandylion/dandylion-18-open-seed-clusters-v12.glb",
-      "modelSha256": "86b33d904f6789ed09dbad5c3f6da55fc4e8f2e475d2455ad2a87aa8a6a157a7",
+      "model": "concepts/dandylion/dandylion-19-seed-head-150-percent-v13.glb",
+      "modelSha256": "5341fcd6facef697fc8e527ec713ba2c11af55e27bacbcbcd7d9018f4cbeeabb",
+      "diet": "Carnivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "Mighty",
         "Description": "20% more effective Strength levels, up to level 100, for carrying, jumping and club stamina cost. Does not grant levels.",
@@ -8349,10 +9368,6 @@
         "Multiplier": 1.2,
         "Name": "Mighty companion"
       },
-      "diet": "Carnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 10000,
@@ -8589,7 +9604,13 @@
         "silhouetteSha256": "d3e2126503135af07991e7def3fc75ccf5466498460512930ac50ca0db8df466",
         "silhouetteAsset": "rbxassetid://89744076557977"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Water",
+        "Air"
+      ],
       "followingBuff": {
         "id": "SoftLanding",
         "Description": "50% less fall damage. The safe fall distance stays the same.",
@@ -8598,12 +9619,6 @@
         "Multiplier": 0.5,
         "Name": "Soft landing"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground",
-        "Water",
-        "Air"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 5000,
@@ -8915,7 +9930,11 @@
         "silhouetteSha256": "948675e09677df1cd18c9c197e5f89986c7bcf869f55f500fae993619bdaa703",
         "silhouetteAsset": "rbxassetid://80541504976923"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "SoftLanding",
         "Description": "50% less fall damage. The safe fall distance stays the same.",
@@ -8924,10 +9943,6 @@
         "Multiplier": 0.5,
         "Name": "Soft landing"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 7500,
@@ -9184,7 +10199,11 @@
         "silhouetteSha256": "a2f6809676d3f11241d966771347215060f101a7e1b4fd880b79fddf5be1e2e5",
         "silhouetteAsset": "rbxassetid://87614176971610"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "Mighty",
         "Description": "20% more effective Strength levels, up to level 100, for carrying, jumping and club stamina cost. Does not grant levels.",
@@ -9193,10 +10212,6 @@
         "Multiplier": 1.2,
         "Name": "Mighty companion"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 10000,
@@ -9487,7 +10502,11 @@
         "silhouetteSha256": "d5fdb208027a58313a348ad513db94de8433ddfe954221935156f018b3462b9a",
         "silhouetteAsset": "rbxassetid://103770842236312"
       },
+      "diet": "Carnivore",
       "mountable": false,
+      "travel": [
+        "Water"
+      ],
       "followingBuff": {
         "id": "FleetFoot",
         "Description": "10% faster running, within area speed limits.",
@@ -9496,10 +10515,6 @@
         "Multiplier": 1.1,
         "Name": "Fleet foot"
       },
-      "diet": "Carnivore",
-      "travel": [
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 7500,
@@ -9696,7 +10711,12 @@
         "silhouetteSha256": "db09814c8faa821135c2d95deb8233bc272f778984b708262f36cd0e31880ddb",
         "silhouetteAsset": "rbxassetid://100339072004113"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Air"
+      ],
       "followingBuff": {
         "id": "Mighty",
         "Description": "20% more effective Strength levels, up to level 100, for carrying, jumping and club stamina cost. Does not grant levels.",
@@ -9705,11 +10725,6 @@
         "Multiplier": 1.2,
         "Name": "Mighty companion"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground",
-        "Air"
-      ],
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 7500,
@@ -10004,7 +11019,12 @@
           "actualRuntimeGuardian": "Batacuda"
         }
       ],
+      "diet": "Carnivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Water"
+      ],
       "followingBuff": {
         "id": "Gills",
         "Description": "Breathe underwater without using breath or taking drowning damage while this pet follows you or is mounted.",
@@ -10013,11 +11033,6 @@
         "Multiplier": 1,
         "Name": "Gills"
       },
-      "diet": "Carnivore",
-      "travel": [
-        "Ground",
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 15000,
@@ -10110,7 +11125,35 @@
       },
       "runtimeEnabled": true,
       "implementation": {
-        "gameplayEnabled": true
+        "gameplayEnabled": true,
+        "animationRepair": {
+          "date": "2026-11-04",
+          "status": "installed-turn-quality-pending",
+          "revision": "armadillope-deer-primary-v4-20261104",
+          "baseHeightStuds": 4.5,
+          "sourceFreeze": "output/armadillope-deer-20261104/source-freeze.json",
+          "runtimeEvidence": "output/armadillope-deer-20261104/packed-v2/runtime-summary.json",
+          "currentAnimationBadPreserved": true,
+          "templateModelReviewIdentityPreserved": true,
+          "media": {
+            "robloxImage": {
+              "environment": "Studio Edit",
+              "pose": "Idle",
+              "wikiImage": "assets/animations/armadillope/deer-20261104/creature.png",
+              "sha256": "5d7a73e0cfb4ed2ebf56378811f738cacf1d1f1f2df7de84ec08a35934554a62",
+              "currentVersion": true,
+              "detailImages": [],
+              "evidence": "output/armadillope-deer-20261104/native/portraits/armadillope-verification.json"
+            },
+            "qualityNotice": "4 November 2026: Walk, Run and the matching Chase leg cycle have corrected rear hock folding, four-beat walking and a staggered gallop. Current straight previews score 8.5/10 at 2, 16 and 24 studs/s. Captured acceleration, slowing and the small Chase stop also score 8.5 for their shown schedules. Tight turns still scuff sideways and score 7.5, Needs work, so the saved Animation Bad remains. Idle retains its earlier 5.5/10 assessment and media without a new rating. Current height is 4.5 studs. Offline full-Step evidence and native Studio Edit checks do not establish live gameplay acceptance.",
+            "animationBundle": {
+              "wikiFile": "assets/animations/armadillope/deer-20261104/armadillope-deer-animations.zip",
+              "sha256": "ba68bd72aee9819f8b739b604da5f7d3bafc96d3ac43eb2627deda53ea3e7e97",
+              "complete": true,
+              "scope": "Current Walk, Run, Chase and separate catch-up/handoff/turn checks, plus unchanged earlier Idle. Turning remains Needs work."
+            }
+          }
+        }
       },
       "icon": "armadillope-icon.png",
       "eggRelease": {
@@ -10238,7 +11281,11 @@
         "silhouetteSha256": "04e43eb9e47b8f806330802c6649b291369728da86914abfc5254655f1d3c83a",
         "silhouetteAsset": "rbxassetid://136144351161248"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "Vitality",
         "Description": "Double maximum health. Changing pets preserves your health percentage.",
@@ -10247,10 +11294,6 @@
         "Multiplier": 2,
         "Name": "Vitality"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 5000,
@@ -10488,7 +11531,20 @@
         "silhouetteSha256": "70a6362465a589e656baee64c029b6352d3bcf69b6c462a1eb76f25ed9a55845",
         "silhouetteAsset": "rbxassetid://86756735898789"
       },
+      "guardianAssignment": {
+        "biome": "forest",
+        "area": 4,
+        "approvedBy": "Daniel",
+        "date": "2026-11-04",
+        "implementation": "installed-edit-model",
+        "verification": "output/guardian-replacements-20261104/verification.json",
+        "gameplayTested": false
+      },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "Endurance",
         "Description": "20% less stamina used by running and gym training. Action costs are unchanged.",
@@ -10497,10 +11553,6 @@
         "Multiplier": 0.8,
         "Name": "Endurance"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 5000,
@@ -10546,8 +11598,8 @@
       "eggHeight": 2.015732195935781,
       "eggWeight": 23.0,
       "parents": "Meerkat + Caribou",
-      "length": 1.96,
-      "heightWeight": 32.8571428571429,
+      "length": 1.6278199672698974,
+      "heightWeight": 39.562114542684114,
       "spawnWeight": 524288,
       "description": "A watchful little sentinel with velvety antlers and a thick, fluffy collar. Meerkabou rises onto its sturdy back feet to announce every visitor, sometimes sounding the alarm for a falling leaf.",
       "developerOnly": false,
@@ -10559,7 +11611,7 @@
         "revision": 1,
         "danielApproved": false,
         "codexApproved": false,
-        "note": "Real model and animations, species egg, four shiny finishes and icons are installed. Assigned-biome wild eggs are enabled. Daniel model/animation approval and live gameplay acceptance remain pending."
+        "note": "Second supplied model has been processed and integrated for a new review. Saved earlier model/animation decisions are preserved separately. Current turn scuff remains Needs work."
       },
       "earnings": {
         "amount": 240,
@@ -10593,7 +11645,120 @@
       },
       "runtimeEnabled": true,
       "implementation": {
-        "gameplayEnabled": true
+        "gameplayEnabled": true,
+        "replacementImport": {
+          "status": "installed-turn-quality-pending",
+          "date": "2026-11-04",
+          "importNumber": 2,
+          "baseHeightStuds": 2.8,
+          "baseWeightKg": 23,
+          "baseLengthStuds": 1.6278199672698974,
+          "heightWeightCalibrationKg": 39.562114542684114,
+          "preparedPayloadSha256": "a3c1227d30c222bbdef6508c337daacbdc0a7a9a23971ff46ffba4e641a5e355",
+          "sourceSha256": "7c63975590c6009f592301ee4da31c6f1fa3421a3ea64da3610ee4806ca8d6b8",
+          "modelFile": "concepts/meerkabou/meerkabou-6-animations2.glb",
+          "modelSha256": "459bd2f7aa247c76bdb948d0c8e2c0912f5f8d343643cb02be4e99d3e89a6bd7",
+          "robloxImage": {
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "wikiImage": "assets/animations/meerkabou/import2-20261104/creature.png",
+            "sha256": "fe23441683ff33a6031bcc295a4fb787e576426c32bb6611722fa5a2b949314d",
+            "currentVersion": true,
+            "detailImages": [],
+            "evidence": "output/meerkabou-replacement-20261104/native/portraits/meerkabou-verification.json"
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/meerkabou/import2-20261104/meerkabou-animations.zip",
+            "sha256": "44fe45de42906e9ff5821550eaa9bc39b5dca305de64f2c45ad0a763d80e564e",
+            "complete": true,
+            "scope": "All10current action/check GIF and MP4 downloads plus the13-action editable model. Turn quality remains Needs work."
+          },
+          "currentPortrait": "rbxassetid://131576725106864",
+          "historicalEggReleasePortrait": "rbxassetid://125937414709712",
+          "allRequiredQualityAccepted": false,
+          "fullImportComplete": false,
+          "gameplayTested": false,
+          "saved": false,
+          "published": false,
+          "media": {
+            "qualityNotice": "4 November 2026: the replacement is installed for review with its upright cartoon skeleton, active paws and source-matched fur lids. Idle, Walk at 2 studs/s, Run at 16 and 24 studs/s, acceleration, slowing and Run stop score 8.5/10. Blink scores 7.5/10. Turning scores 8.0 and large Turning 7.5, both Needs work because planted paws still scuff sideways. Actual native held eye closure, reopening and size checks passed separately. Saved developer Bad/Bad decisions remain unchanged. Live gameplay has not been tested.",
+            "animationBundle": {
+              "wikiFile": "assets/animations/meerkabou/import2-20261104/meerkabou-animations.zip",
+              "sha256": "44fe45de42906e9ff5821550eaa9bc39b5dca305de64f2c45ad0a763d80e564e",
+              "complete": true,
+              "scope": "All10current action/check GIF and MP4 downloads plus the13-action editable model. Turn quality remains Needs work."
+            },
+            "robloxImage": {
+              "environment": "Studio Edit",
+              "pose": "Idle",
+              "wikiImage": "assets/animations/meerkabou/import2-20261104/creature.png",
+              "sha256": "fe23441683ff33a6031bcc295a4fb787e576426c32bb6611722fa5a2b949314d",
+              "currentVersion": true,
+              "detailImages": [],
+              "evidence": "output/meerkabou-replacement-20261104/native/portraits/meerkabou-verification.json"
+            }
+          },
+          "sourceFreeze": "output/meerkabou-replacement-20261104/integration/source-freeze.json",
+          "nativeExpressionChecks": {
+            "evidence": "output/meerkabou-replacement-20261104/native/faces-verified/verification.json",
+            "captures": 12,
+            "sizeFactors": [
+              0.75,
+              1,
+              3
+            ],
+            "scoreOutOf10": 7.5,
+            "method": "Root-reviewed actual native held front and both oblique open/partial/closed/reopened views",
+            "limitations": [
+              "Held Edit poses, not native real-time Blink playback or gameplay.",
+              "The visible cap edge and simple crease remain polish limits."
+            ],
+            "cameraRestored": true,
+            "temporaryFixturesRemoved": true
+          }
+        },
+        "animationRepair": {
+          "date": "2026-11-04",
+          "status": "installed-turn-quality-pending",
+          "revision": "meerkabou-supplied-replacement2-20261104-v2",
+          "media": {
+            "qualityNotice": "4 November 2026: the replacement is installed for review with its upright cartoon skeleton, active paws and source-matched fur lids. Idle, Walk at 2 studs/s, Run at 16 and 24 studs/s, acceleration, slowing and Run stop score 8.5/10. Blink scores 7.5/10. Turning scores 8.0 and large Turning 7.5, both Needs work because planted paws still scuff sideways. Actual native held eye closure, reopening and size checks passed separately. Saved developer Bad/Bad decisions remain unchanged. Live gameplay has not been tested.",
+            "animationBundle": {
+              "wikiFile": "assets/animations/meerkabou/import2-20261104/meerkabou-animations.zip",
+              "sha256": "44fe45de42906e9ff5821550eaa9bc39b5dca305de64f2c45ad0a763d80e564e",
+              "complete": true,
+              "scope": "All10current action/check GIF and MP4 downloads plus the13-action editable model. Turn quality remains Needs work."
+            },
+            "robloxImage": {
+              "environment": "Studio Edit",
+              "pose": "Idle",
+              "wikiImage": "assets/animations/meerkabou/import2-20261104/creature.png",
+              "sha256": "fe23441683ff33a6031bcc295a4fb787e576426c32bb6611722fa5a2b949314d",
+              "currentVersion": true,
+              "detailImages": [],
+              "evidence": "output/meerkabou-replacement-20261104/native/portraits/meerkabou-verification.json"
+            }
+          },
+          "currentAnimationBadPreserved": true,
+          "sourceFreeze": "output/meerkabou-replacement-20261104/integration/source-freeze.json",
+          "nativeExpressionChecks": {
+            "evidence": "output/meerkabou-replacement-20261104/native/faces-verified/verification.json",
+            "captures": 12,
+            "sizeFactors": [
+              0.75,
+              1,
+              3
+            ],
+            "scoreOutOf10": 7.5,
+            "method": "Root-reviewed actual native held front and both oblique open/partial/closed/reopened views",
+            "limitations": [
+              "Held Edit poses, not native real-time Blink playback or gameplay.",
+              "The visible cap edge and simple crease remain polish limits."
+            ],
+            "cameraRestored": true,
+            "temporaryFixturesRemoved": true
+          }
+        }
       },
       "icon": "meerkabou-icon.png",
       "eggRelease": {
@@ -10697,7 +11862,11 @@
         "silhouetteSha256": "9993ec09342f1fb8da5d65f01e244bdaacf6f3f049aa75ce763799e6328c5dea",
         "silhouetteAsset": "rbxassetid://70569898852497"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "GoldenGarden",
         "Description": "15% more online income from garden and following pets. Does not increase other Cash rewards or offline income.",
@@ -10707,10 +11876,6 @@
         "Multiplier": 1.15,
         "Name": "Golden garden"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 7500,
@@ -10747,7 +11912,7 @@
       "parentMeanSizeMetres": 0.6837500000000001,
       "parentMeanWeightKg": 93.61275,
       "weightBalanceMultiplier": 1,
-      "weightBalanceBasis": "Daniel set standard Meerkabou weight to 23 kg on 3 November 2026; height and length unchanged."
+      "weightBalanceBasis": "4 November 2026 replacement-only geometry calibration preserves Daniel's approved 23 kg. HeightWeightKg times LengthStuds divided by HeightStuds remains exactly 23."
     },
     {
       "status": "Vulnerable",
@@ -10778,7 +11943,7 @@
       },
       "conceptNumber": 31,
       "concept": null,
-      "notes": "Gameplay release, 28 October 2026: the supplied model now has its matching intact egg, Standard artwork, Fine/Superior/Epic/Legendary finishes, actual-shell inventory icon and existing creature portrait. Jungle wild eggs can roll Banaconda at ordinary initialization and dawn. Assigned statistics and guardian selection are retained. Installed, visual and offline checks passed; Daniel approval, live gameplay, mobile, multiplayer and real storage remain pending. Earlier stage history: Draft concept requested on 26 October 2026. Biome assignment approved by Daniel on 27 October 2026. Live spawn pools are unchanged. Matching egg artwork was prepared on 27 October 2026. A revised slim local Blender prototype with prominent flat banana spots was prepared on 28 October 2026, with editable source and GLB/OBJ exports. Facial refinement, rigging, animation, gameplay scale, spawn integration, Studio import and live acceptance remain pending. See assets/pets/banaconda/local-v1/README.md. Supplied model import, 28 October 2026: the original is retained with real repaired, locally rigged and animated stages. Thirty-one small body gaps were repaired and redundant flat triangles removed. The limbless model, two eyes, original maps, gentle idle, travelling slither and fitted blinking passed export and installed Edit checks. Available for developer model review; egg finishes, gameplay activation, Daniel approval and live acceptance remain pending. Closed-eye coverage repair, 30 October 2026: the runtime lids now enclose both retained eye surfaces from oblique views. Mesh, maps, rig, gait clips and saved developer decisions remain unchanged. Blink review: 8.5/10 at 0 studs/s with the existing 0.2-second timing; rounded mid-blink lid volume remains stylized. Installed Edit evidence is in output/banaconda-eye-coverage; live gameplay remains pending. Relaxed S Idle, 1 November 2026: installed with two broad held bends and a slow 6.4-second flex. Shown stationary Idle assessment: 8.5/10 at 0 studs/s. Original mesh, maps, eye fit, rig, travelling actions and actual 1.96-stud height are preserved. The installed Roblox image and current Idle GIF/MP4 are below. Prominent inherited surface shading slivers remain visible close up, and strict thin-face/matrix diagnostics remain failed. Full movement and live gameplay are not accepted by this Idle-only result. Saved developer votes and notes remain unchanged.",
+      "notes": "The deeper travelling S in Walk, Run and the shared Chase body scores 8.5/10 in the shown straight level previews at 2.45 studs tall. The body-following trail and follower-heading cap were both rejected and are not installed. Ordinary short routes lack the trail coverage, and the heading cap caused sideways sliding. Turning repair remains Needs work. Garden turning retains its existing motion and can still pivot the long body on sharp turns. Existing model and texture limitations remain, and the retained native Blink remains 6.5/10 Needs work. Idle media and its original assessment date are retained after exact stored-channel equivalence. Live gameplay, multiplayer and mobile performance remain untested. Saved developer decisions are unchanged.",
       "biomeAssignment": {
         "approvedBy": "Daniel",
         "date": "2026-10-27"
@@ -10932,13 +12097,77 @@
         "materialRepair": {
           "media": {
             "robloxImage": {
-              "environment": "Studio Edit",
               "pose": "Idle",
-              "wikiImage": "assets/animations/banaconda/roblox-historical-import2.png",
-              "sha256": "92cbacf9891b09e2ac12225eaab2d438535bbf126c23ca4a6d754885f0734b67",
-              "heightStuds": 2.45,
-              "revision": "banaconda-historical-import2-v1",
-              "sourceCapture": "output/banaconda/historical-import2/studio/verification.json"
+              "heightStuds": 1.96,
+              "sourceCapture": {
+                "file": "output/bananaconda-movement-20261105/pure-s-install/native-installed/idle-0-side.jpg",
+                "sha256": "40b1b193e75811f951eb7f9e80d8fc1ef93adc8a63e0deeaa976555de3622eea"
+              },
+              "captureReceipt": {
+                "file": "output/bananaconda-movement-20261105/pure-s-install/native-installed/verification.json",
+                "sha256": "46f01b09f45f9a4095b0c606963fdc8c2be5e4253677c46ce0a905f359fc5100"
+              },
+              "captureOrigin": "Studio Edit actual current native rig in removable fixture",
+              "currentScope": "Actual installed native creature at 1.96 studs tall, with unchanged Idle. Straight action videos are reviewed separately at 2.45 studs tall. Turning is not accepted.",
+              "modelSource": {
+                "file": "concepts/banaconda/banaconda-11-s-animations2.glb",
+                "sha256": "56b269c839f948ec56953b8f7cb1eca404e3473bbecf3ff93e3e33699c90e3fa"
+              },
+              "detailImages": [
+                {
+                  "label": "Stronger S Walk, first phase",
+                  "sourceCapture": {
+                    "file": "output/bananaconda-movement-20261105/pure-s-install/native-installed/walk-025-top.jpg",
+                    "sha256": "91fdce9585074a6879371ec0f704a604da18c07a67e1ba37d67c4466ab10c2c3"
+                  },
+                  "wikiImage": "assets/animations/banaconda/movement-20261105-56b269c839f9-f0c733dfd50e/studio-current-walk-025-top.jpg",
+                  "sha256": "91fdce9585074a6879371ec0f704a604da18c07a67e1ba37d67c4466ab10c2c3"
+                },
+                {
+                  "label": "Stronger S Walk, opposite phase",
+                  "sourceCapture": {
+                    "file": "output/bananaconda-movement-20261105/pure-s-install/native-installed/walk-075-top.jpg",
+                    "sha256": "cf22698551e0d43e8941b304508db7a090bc7805d5e72a62353616d5c7eeda22"
+                  },
+                  "wikiImage": "assets/animations/banaconda/movement-20261105-56b269c839f9-f0c733dfd50e/studio-current-walk-075-top.jpg",
+                  "sha256": "cf22698551e0d43e8941b304508db7a090bc7805d5e72a62353616d5c7eeda22"
+                },
+                {
+                  "label": "Stronger S Run, first phase",
+                  "sourceCapture": {
+                    "file": "output/bananaconda-movement-20261105/pure-s-install/native-installed/run-025-top.jpg",
+                    "sha256": "5586f25c0380629bce8d715f7149f5728227f7c3b09af486777e1aea1140fb44"
+                  },
+                  "wikiImage": "assets/animations/banaconda/movement-20261105-56b269c839f9-f0c733dfd50e/studio-current-run-025-top.jpg",
+                  "sha256": "5586f25c0380629bce8d715f7149f5728227f7c3b09af486777e1aea1140fb44"
+                },
+                {
+                  "label": "Stronger S Run, opposite phase",
+                  "sourceCapture": {
+                    "file": "output/bananaconda-movement-20261105/pure-s-install/native-installed/run-075-top.jpg",
+                    "sha256": "577f93dd02d6951a3896b51e56a95bd94ef2ce39d5e8858f0576900cb6e83f88"
+                  },
+                  "wikiImage": "assets/animations/banaconda/movement-20261105-56b269c839f9-f0c733dfd50e/studio-current-run-075-top.jpg",
+                  "sha256": "577f93dd02d6951a3896b51e56a95bd94ef2ce39d5e8858f0576900cb6e83f88"
+                },
+                {
+                  "label": "Shared Chase body, quarter view",
+                  "sourceCapture": {
+                    "file": "output/bananaconda-movement-20261105/pure-s-install/native-installed/chase-05-quarter.jpg",
+                    "sha256": "1d26c5c1bdaf95d57cc8f6579cce9807ff0f8e71277966022d18cc96ea8713dc"
+                  },
+                  "wikiImage": "assets/animations/banaconda/movement-20261105-56b269c839f9-f0c733dfd50e/studio-current-chase-05-quarter.jpg",
+                  "sha256": "1d26c5c1bdaf95d57cc8f6579cce9807ff0f8e71277966022d18cc96ea8713dc"
+                }
+              ],
+              "wikiImage": "assets/animations/banaconda/movement-20261105-56b269c839f9-f0c733dfd50e/studio-current-idle-0-side.jpg",
+              "sha256": "40b1b193e75811f951eb7f9e80d8fc1ef93adc8a63e0deeaa976555de3622eea",
+              "currentVersion": true,
+              "environment": "Studio Edit",
+              "nativeAcceptance": {
+                "file": "output/creature-movement-ui-20261105/wiki-handoff/banaconda/native-acceptance-bound.json",
+                "sha256": "6ade9cd81c51d2a8bb94fe478ad33fd60988b973d0b6d4fdbff0b071d373c10b"
+              }
             },
             "expressionReview": {
               "ratingOutOf10": 6.5,
@@ -10952,10 +12181,26 @@
               "wikiVideo": "assets/animations/banaconda/historical-import2-blink.mp4"
             },
             "animationBundle": {
-              "wikiFile": "assets/animations/banaconda/historical-import2-animations.zip",
-              "complete": true
+              "wikiFile": "assets/animations/banaconda/movement-20261105-56b269c839f9-f0c733dfd50e/banaconda-current-animations-and-model.zip",
+              "sha256": "bd0820eb5cdd77a3b251d16decc82541988e574868951d0a15377843c770972b",
+              "complete": true,
+              "animations": [
+                "Idle",
+                "Walk",
+                "Run",
+                "Chase",
+                "Blink"
+              ],
+              "retainedNativeBlinkIncluded": true
             },
-            "qualityNotice": "Historical prototype replacement installed at Daniel's request. Body previews score 8/10 and Blink 6.5/10, below their quality thresholds. Painted facial projection transitions and bulbous closed lids remain. Live gameplay is untested. Daniel explicitly approved the current LiveModels replacement and private push with these limitations."
+            "qualityNotice": "The deeper travelling S in Walk, Run and the shared Chase body scores 8.5/10 in the shown straight level previews at 2.45 studs tall. The body-following trail and follower-heading cap were both rejected and are not installed. Ordinary short routes lack the trail coverage, and the heading cap caused sideways sliding. Turning repair remains Needs work. Garden turning retains its existing motion and can still pivot the long body on sharp turns. Existing model and texture limitations remain, and the retained native Blink remains 6.5/10 Needs work. Idle media and its original assessment date are retained after exact stored-channel equivalence. Live gameplay, multiplayer and mobile performance remain untested. Saved developer decisions are unchanged.",
+            "history": [
+              {
+                "file": "output/creature-movement-ui-20261105/wiki-handoff/banaconda/history/59f24e7690450a3f-previous-records.json",
+                "sha256": "59f24e7690450a3fbaeaa7da76f92f3b47a7bcd4a522d837f013a5f3b64dc517",
+                "reason": "Previous records retained before this scoped movement handoff"
+              }
+            ]
           }
         },
         "historicalImport2": {
@@ -10965,7 +12210,50 @@
           "revision": "banaconda-historical-import2-v1",
           "fullQualityAccepted": false,
           "ownerApprovedCurrentFilePush": true
-        }
+        },
+        "movementRepair20261105": {
+          "date": "2026-11-05",
+          "installed": true,
+          "sourceIdentity": {
+            "nativeSha256": "3c74a37b3b632a98fdf105a5f9c34615429e896d3a65e04dd1454caa60d3046b",
+            "modelSha256": "56b269c839f948ec56953b8f7cb1eca404e3473bbecf3ff93e3e33699c90e3fa",
+            "configurationSha256": "9f214e1c328449dd3f10d227074e05f160f32f192007482c7aae75295f80493d",
+            "clipsSha256": "a0b4655e7f5965804bd554561c1636845c5800a405756ca8bb7fc17570c51b0b",
+            "curveRevision": "banaconda-stronger-s-20261105-v1"
+          },
+          "nativeVerification": {
+            "file": "output/bananaconda-movement-20261105/pure-s-install/native-installed/verification.json",
+            "sha256": "46f01b09f45f9a4095b0c606963fdc8c2be5e4253677c46ce0a905f359fc5100"
+          },
+          "nativeAcceptance": {
+            "file": "output/creature-movement-ui-20261105/wiki-handoff/banaconda/native-acceptance-bound.json",
+            "sha256": "6ade9cd81c51d2a8bb94fe478ad33fd60988b973d0b6d4fdbff0b071d373c10b"
+          },
+          "visualReview": {
+            "file": "output/creature-movement-ui-20261105/wiki-handoff/banaconda/native-acceptance-bound.json",
+            "sha256": "6ade9cd81c51d2a8bb94fe478ad33fd60988b973d0b6d4fdbff0b071d373c10b"
+          },
+          "changedActions": [
+            "Walk",
+            "Run",
+            "Chase"
+          ],
+          "unchangedActions": [
+            "Idle"
+          ],
+          "fullMovementAccepted": false,
+          "comment": "The deeper travelling S in Walk, Run and the shared Chase body scores 8.5/10 in the shown straight level previews at 2.45 studs tall. The body-following trail and follower-heading cap were both rejected and are not installed. Ordinary short routes lack the trail coverage, and the heading cap caused sideways sliding. Turning repair remains Needs work. Garden turning retains its existing motion and can still pivot the long body on sharp turns. Existing model and texture limitations remain, and the retained native Blink remains 6.5/10 Needs work. Idle media and its original assessment date are retained after exact stored-channel equivalence. Live gameplay, multiplayer and mobile performance remain untested. Saved developer decisions are unchanged.",
+          "savedDeveloperVotesChanged": false
+        },
+        "currentModel": {
+          "file": "concepts/banaconda/banaconda-11-s-animations2.glb",
+          "sha256": "56b269c839f948ec56953b8f7cb1eca404e3473bbecf3ff93e3e33699c90e3fa"
+        },
+        "nativeMesh": {
+          "file": "assets/pets/banaconda/historical-import2/native-mesh.json",
+          "sha256": "3c74a37b3b632a98fdf105a5f9c34615429e896d3a65e04dd1454caa60d3046b"
+        },
+        "qualityNotice": "The deeper travelling S in Walk, Run and the shared Chase body scores 8.5/10 in the shown straight level previews at 2.45 studs tall. The body-following trail and follower-heading cap were both rejected and are not installed. Ordinary short routes lack the trail coverage, and the heading cap caused sideways sliding. Turning repair remains Needs work. Garden turning retains its existing motion and can still pivot the long body on sharp turns. Existing model and texture limitations remain, and the retained native Blink remains 6.5/10 Needs work. Idle media and its original assessment date are retained after exact stored-channel equivalence. Live gameplay, multiplayer and mobile performance remain untested. Saved developer decisions are unchanged."
       },
       "collectionArt": {
         "size": 256,
@@ -10989,7 +12277,11 @@
         "blinkDurationSeconds": 0.2,
         "userException": "Daniel explicitly authorized this eyelid fix before Model Good; no other animation repair is authorized by that exception."
       },
+      "diet": "Carnivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "Endurance",
         "Description": "20% less stamina used by running and gym training. Action costs are unchanged.",
@@ -10998,10 +12290,6 @@
         "Multiplier": 0.8,
         "Name": "Endurance"
       },
-      "diet": "Carnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 3000,
@@ -11164,50 +12452,25 @@
           "file": "output/resumed-imports-20261102/final-installed.json",
           "sha256": "1ba2f76784bb4dce5590735bfff2937e101f926aa0e89c38ebbc0386a0658e74"
         },
-        "qualityNotice": "2 November 2026: Peacobara's 24-bone rig now has stable knees, correct body lowering and green eyelids matched to its feathers. Its existing Jungle egg and statistics are retained. Five current GIF/MP4 previews and actual Roblox Studio Edit images are below. Shown body previews score 8.5/10; Blink scores 7.5/10. Full movement remains quality-pending for turn sliding and transitions. The in-game board reads WIP / To review. Daniel review and live acceptance remain separate.",
+        "qualityNotice": "4 November 2026: Peacobara has a supported lateral Walk, weighted Run, restrained Idle and four-paw Swim. Current straight body previews score 8.5/10 at 3.8 studs tall; unchanged Blink retains 7.5/10. Gait handoffs use shared baked clips, and slow swimming uses strokes followed by gliding. Tight-turn lateral foot sliding remains Needs work. Saved Animation Bad is preserved. Studio Edit verification, offline movement evidence and live gameplay acceptance remain distinct.",
         "reviewNoteContext": "Earlier egg-only or local-candidate review note is historical. Saved developer decisions are unchanged.",
         "replacementImport": {
           "status": "installed-quality-pending",
           "installed": true,
-          "qualityNotice": "2 November 2026: Peacobara's 24-bone rig now has stable knees, correct body lowering and green eyelids matched to its feathers. Its existing Jungle egg and statistics are retained. Five current GIF/MP4 previews and actual Roblox Studio Edit images are below. Shown body previews score 8.5/10; Blink scores 7.5/10. Full movement remains quality-pending for turn sliding and transitions. The in-game board reads WIP / To review. Daniel review and live acceptance remain separate.",
+          "qualityNotice": "4 November 2026: Peacobara has a supported lateral Walk, weighted Run, restrained Idle and four-paw Swim. Current straight body previews score 8.5/10 at 3.8 studs tall; unchanged Blink retains 7.5/10. Gait handoffs use shared baked clips, and slow swimming uses strokes followed by gliding. Tight-turn lateral foot sliding remains Needs work. Saved Animation Bad is preserved. Studio Edit verification, offline movement evidence and live gameplay acceptance remain distinct.",
           "robloxImage": {
             "environment": "Studio Edit",
             "pose": "Idle",
-            "wikiImage": "assets/animations/peacobara/installed-resumed/creature.png",
-            "sha256": "f42483ce704f149154fa4968738ba1a25072ae554997bf61408e554b1607cee7",
+            "wikiImage": "assets/animations/peacobara/realism-20261104/creature.png",
+            "sha256": "7fb031a2e131cea0a1bfcbc0d0959572262855d1847f426fa010db403943d479",
             "currentVersion": true,
-            "detailImages": [
-              {
-                "label": "Motion Walk 0.25",
-                "wikiImage": "assets/animations/peacobara/installed-resumed/motion-Walk-0.25.png",
-                "sha256": "002bfd3d283a7267cba6556c52e824ffb76251515f528bfc09b0330f36d67d74"
-              },
-              {
-                "label": "Motion Run 0.25",
-                "wikiImage": "assets/animations/peacobara/installed-resumed/motion-Run-0.25.png",
-                "sha256": "14abf0260ee8a0015d434979a4c8113d5bcf755f04e8650b2dc5ee29dcede72e"
-              },
-              {
-                "label": "Motion Swim 0.25",
-                "wikiImage": "assets/animations/peacobara/installed-resumed/motion-Swim-0.25.png",
-                "sha256": "2cb40e00cbb3f939d8e5a48acb59b6a5aa44f5477596d408111e6a47b55d9e37"
-              },
-              {
-                "label": "1 Closed",
-                "wikiImage": "assets/animations/peacobara/installed-resumed/1-closed.png",
-                "sha256": "2030c89c14acf206366aa4cb699ad8c58c9078eb649a83a2375e82df039052b2"
-              },
-              {
-                "label": "1 Reopened",
-                "wikiImage": "assets/animations/peacobara/installed-resumed/1-reopened.png",
-                "sha256": "b0479b06e5add10af732d3782a66f07f064141a65ca809d0b7f2ea2568d08c51"
-              }
-            ]
+            "detailImages": []
           },
           "animationBundle": {
-            "wikiFile": "assets/animations/peacobara/peacobara-animations-and-model.zip",
-            "sha256": "faefab21a573a2d83a6999d56ee476efbd56d73301f6f6324d4537de2faea887",
-            "complete": true
+            "wikiFile": "assets/animations/peacobara/realism-20261104/peacobara-realism-animations.zip",
+            "sha256": "3a5054476e8b626507ee3e56d59848d4903cef3eab0f92316d49b40e02f17fac",
+            "complete": true,
+            "scope": "Current action previews and separate offline speed/handoff/turn evidence. Full movement remains Needs work for tight turns."
           },
           "currentExpressionMediaStatus": {
             "currentMediaAvailable": true,
@@ -11231,6 +12494,20 @@
           "gif": "assets/animations/peacobara/foot-plant-trial-20261102/peacobara-native-ik-trial.gif",
           "video": "assets/animations/peacobara/foot-plant-trial-20261102/peacobara-native-ik-trial.mp4",
           "poster": "assets/animations/peacobara/foot-plant-trial-20261102/comparison.png"
+        },
+        "currentAnimationSource": {
+          "file": "concepts/peacobara/peacobara-11-animations.glb",
+          "sha256": "94350c501bab3f6f5586a801411825b566bfddbecb3f7a125cbdaaa57aa9083a",
+          "revision": "peacobara-realism-v6-20261104"
+        },
+        "animationRepair": {
+          "date": "2026-11-04",
+          "status": "installed-turn-quality-pending",
+          "baseHeightStuds": 3.8,
+          "sourceFreeze": "output/peacobara-realism-20261104/source-freeze.json",
+          "runtimeEvidence": "output/peacobara-realism-20261104/runtime-transitions/pack61/summary.json",
+          "currentAnimationBadPreserved": true,
+          "templateModelReviewIdentityPreserved": true
         }
       },
       "collectionArt": {
@@ -11243,7 +12520,12 @@
         "silhouetteSha256": "59d31cea232b16d6cc5ead810fd0e934e6ed66aa9125de3d2dd8aedcd803f570",
         "silhouetteAsset": "rbxassetid://132229966561400"
       },
+      "diet": "Herbivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Water"
+      ],
       "followingBuff": {
         "id": "SecondWind",
         "Description": "Stamina recovers 20% faster.",
@@ -11252,11 +12534,6 @@
         "Multiplier": 1.2,
         "Name": "Second wind"
       },
-      "diet": "Herbivore",
-      "travel": [
-        "Ground",
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 5000,
@@ -11522,7 +12799,12 @@
         "silhouetteSha256": "a5973bf2133663cd670efd1bcddab887ab60858f7b7e483921274e762749fadf",
         "silhouetteAsset": "rbxassetid://97275837504111"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Water"
+      ],
       "followingBuff": {
         "id": "HeavyHitter",
         "Description": "20% more club and direct water-bomb damage. Trap damage and guardian knockouts are unchanged.",
@@ -11531,11 +12813,6 @@
         "Multiplier": 1.2,
         "Name": "Heavy hitter"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground",
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 7500,
@@ -11729,7 +13006,11 @@
         "silhouetteSha256": "39af4f09b9a27e8aa3547a07cce3e119940143885cf50d796b59402bd9cb1d0a",
         "silhouetteAsset": "rbxassetid://106484839711569"
       },
+      "diet": "Carnivore",
       "mountable": false,
+      "travel": [
+        "Ground"
+      ],
       "followingBuff": {
         "id": "SoftLanding",
         "Description": "50% less fall damage. The safe fall distance stays the same.",
@@ -11738,10 +13019,6 @@
         "Multiplier": 0.5,
         "Name": "Soft landing"
       },
-      "diet": "Carnivore",
-      "travel": [
-        "Ground"
-      ],
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 2000,
@@ -11902,7 +13179,21 @@
         "shadowFreeVerified": true,
         "review": "output/wiki-refresh/20261102/tricerahops-artwork-review.json"
       },
+      "guardianAssignment": {
+        "biome": "lost_world",
+        "area": 3,
+        "approvedBy": "Daniel",
+        "date": "2026-11-04",
+        "implementation": "installed-edit-model",
+        "verification": "output/guardian-replacements-20261104/verification.json",
+        "gameplayTested": false
+      },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Water"
+      ],
       "followingBuff": {
         "id": "SpringStep",
         "Description": "20% higher jumps. Jumping uses no stamina.",
@@ -11912,11 +13203,6 @@
         "Multiplier": 1.2,
         "Name": "Spring step"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground",
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 15000,
@@ -12072,7 +13358,13 @@
         "shadowFreeVerified": true,
         "review": "output/platypuffin-import-20261102/artwork-review.json"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Ground",
+        "Water",
+        "Air"
+      ],
       "followingBuff": {
         "id": "TideRider",
         "Description": "15% faster swimming.",
@@ -12081,12 +13373,6 @@
         "Multiplier": 1.15,
         "Name": "Tide rider"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Ground",
-        "Water",
-        "Air"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 3000,
@@ -12366,7 +13652,11 @@
         "shadowFreeVerified": true,
         "review": "output/audit-fixes-20261103/wiki/clownurchin-artwork-review.json"
       },
+      "diet": "Omnivore",
       "mountable": false,
+      "travel": [
+        "Water"
+      ],
       "followingBuff": {
         "id": "TideRider",
         "Description": "15% faster swimming.",
@@ -12375,10 +13665,6 @@
         "Multiplier": 1.15,
         "Name": "Tide rider"
       },
-      "diet": "Omnivore",
-      "travel": [
-        "Water"
-      ],
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 3000,
@@ -12949,7 +14235,7 @@
     },
     {
       "biome": "forest",
-      "name": "Grim Peeper",
+      "name": "Porcupython",
       "chase": 38.04460308244662,
       "chaseRatio": 1.0,
       "chaseMin": 35.105322671453735,
@@ -12981,10 +14267,10 @@
       "patrol": 7,
       "recovery": 7.0,
       "eggReturn": 17.5,
-      "image": "assets/guardian/grim-peeper.png",
-      "imageRegion": "farmland",
-      "prototype": true,
-      "selectedSpecies": null,
+      "image": "assets/guardian/porcupython.png",
+      "imageRegion": "forest",
+      "prototype": false,
+      "selectedSpecies": "Porcupython",
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player"
     },
     {
@@ -13109,7 +14395,7 @@
     },
     {
       "biome": "lost_world",
-      "name": "Grim Peeper",
+      "name": "Tricerahops",
       "chase": 104.6682923982853,
       "chaseRatio": 1.04,
       "chaseMin": 101.72901198729242,
@@ -13141,10 +14427,10 @@
       "patrol": 7,
       "recovery": 7.0,
       "eggReturn": 17.5,
-      "image": "assets/guardian/grim-peeper.png",
-      "imageRegion": "farmland",
-      "prototype": true,
-      "selectedSpecies": null,
+      "image": "assets/guardian/tricerahops.png",
+      "imageRegion": "lost_world",
+      "prototype": false,
+      "selectedSpecies": "Tricerahops",
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player"
     },
     {
@@ -14328,93 +15614,93 @@
           {
             "carryMaxRatio": 0.775,
             "carryMinRatio": 0.775,
-            "eggMaxHeight": 3.1088983858684682,
-            "eggMaxKg": 49.77473709699212,
-            "eggMinHeight": 1.865339031521081,
-            "eggMinKg": 29.864842258195274,
+            "eggMaxHeight": 3.1134792959742157,
+            "eggMaxKg": 50.21641480153871,
+            "eggMinHeight": 1.8680875775845296,
+            "eggMinKg": 30.129848880923227,
             "incomeMax": 25,
             "incomeMin": 15,
             "max": 1.25,
             "min": 0.75,
             "petMaxHeight": 4.4375,
-            "petMaxKg": 62.218421371,
+            "petMaxKg": 62.770518502,
             "petMinHeight": 2.6624999999999996,
-            "petMinKg": 22.398631694,
+            "petMinKg": 22.597386661,
             "quality": "Standard"
           },
           {
             "carryMaxRatio": 0.775,
             "carryMinRatio": 0.775,
-            "eggMaxHeight": 3.730678063042162,
-            "eggMaxKg": 59.72968451639055,
-            "eggMinHeight": 2.4871187086947746,
-            "eggMinKg": 39.8197896775937,
+            "eggMaxHeight": 3.736175155169059,
+            "eggMaxKg": 60.25969776184645,
+            "eggMinHeight": 2.4907834367793726,
+            "eggMinKg": 40.17313184123097,
             "incomeMax": 60,
             "incomeMin": 40,
             "max": 1.5,
             "min": 1,
             "petMaxHeight": 5.324999999999999,
-            "petMaxKg": 89.594526775,
+            "petMaxKg": 90.389546643,
             "petMinHeight": 3.55,
-            "petMinKg": 39.819789678,
+            "petMinKg": 40.173131841,
             "quality": "Fine"
           },
           {
             "carryMaxRatio": 0.775,
             "carryMinRatio": 0.775,
-            "eggMaxHeight": 4.974237417389549,
-            "eggMaxKg": 79.6395793551874,
-            "eggMinHeight": 3.730678063042162,
-            "eggMinKg": 59.72968451639055,
+            "eggMaxHeight": 4.981566873558745,
+            "eggMaxKg": 80.34626368246194,
+            "eggMinHeight": 3.736175155169059,
+            "eggMinKg": 60.25969776184645,
             "incomeMax": 160,
             "incomeMin": 120,
             "max": 2,
             "min": 1.5,
             "petMaxHeight": 7.1,
-            "petMaxKg": 159.27915871,
+            "petMaxKg": 160.692527365,
             "petMinHeight": 5.324999999999999,
-            "petMinKg": 89.594526775,
+            "petMinKg": 90.389546643,
             "quality": "Superior"
           },
           {
             "carryMaxRatio": 0.775,
             "carryMinRatio": 0.775,
-            "eggMaxHeight": 6.2177967717369365,
-            "eggMaxKg": 99.54947419398424,
-            "eggMinHeight": 4.974237417389549,
-            "eggMinKg": 79.6395793551874,
+            "eggMaxHeight": 6.226958591948431,
+            "eggMaxKg": 100.43282960307742,
+            "eggMinHeight": 4.981566873558745,
+            "eggMinKg": 80.34626368246194,
             "incomeMax": 400,
             "incomeMin": 320,
             "max": 2.5,
             "min": 2,
             "petMaxHeight": 8.875,
-            "petMaxKg": 248.873685485,
+            "petMaxKg": 251.082074008,
             "petMinHeight": 7.1,
-            "petMinKg": 159.27915871,
+            "petMinKg": 160.692527365,
             "quality": "Epic"
           },
           {
             "carryMaxRatio": 0.775,
             "carryMinRatio": 0.775,
-            "eggMaxHeight": 7.461356126084324,
-            "eggMaxKg": 119.4593690327811,
-            "eggMinHeight": 6.2177967717369365,
-            "eggMinKg": 99.54947419398424,
+            "eggMaxHeight": 7.472350310338118,
+            "eggMaxKg": 120.5193955236929,
+            "eggMinHeight": 6.226958591948431,
+            "eggMinKg": 100.43282960307742,
             "incomeMax": 960,
             "incomeMin": 800,
             "max": 3,
             "min": 2.5,
             "petMaxHeight": 10.649999999999999,
-            "petMaxKg": 358.378107098,
+            "petMaxKg": 361.558186571,
             "petMinHeight": 8.875,
-            "petMinKg": 248.873685485,
+            "petMinKg": 251.082074008,
             "quality": "Legendary"
           }
         ],
-        "baseEggHeight": 2.4871187086947746,
+        "baseEggHeight": 2.4907834367793726,
         "baseHeight": 3.55,
-        "baseLength": 3.42321428571429,
-        "baseWeight": 39.8197896775937
+        "baseLength": 3.4535902859920435,
+        "baseWeight": 40.17313184123097
       },
       "Crabuki": {
         "bands": [
@@ -15808,7 +17094,7 @@
         ],
         "baseEggHeight": 2.015732195935781,
         "baseHeight": 2.8,
-        "baseLength": 1.96,
+        "baseLength": 1.6278199672698974,
         "baseWeight": 23
       },
       "Mooroo": {

@@ -135,7 +135,9 @@ a[aria-haspopup="dialog"],main img[role="button"]{cursor:zoom-in}
 .parent-calculation dt{font-weight:600}
 .parent-calculation dd{margin:0;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
 .ui-rule-text h2{margin-top:36px;scroll-margin-top:160px}
-.ui-rules-table{min-width:660px}
+.ui-rules-table{min-width:660px;width:100%;border-collapse:collapse}
+.ui-rules-table th,.ui-rules-table td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.ui-rules-table th{background:var(--row)}
 .ui-rules-table td{white-space:normal;line-height:1.6}
 .ui-swatch{display:inline-block;width:18px;height:18px;border-radius:4px;border:1px solid #757982;vertical-align:middle;margin-right:10px}
 .ui-reference-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
@@ -193,6 +195,9 @@ body:has(#show-scrapped):not(:has(#show-scrapped:checked)):not(:has(#show-implem
 
 /* Long source identifiers wrap inside the UI rules prose on phones. */
 .ui-rule-text{overflow-wrap:anywhere}
+.ui-rule-text pre{max-width:100%;overflow-x:auto;padding:14px;background:var(--row);border-radius:8px;white-space:pre}
+.ui-rule-text figure{margin:20px 0}
+.ui-rule-text figure img{display:block;max-width:100%;height:auto;border-radius:8px}
 
 #creature-stats-table{min-width:2100px}#creature-stats-table th button{font:inherit;color:inherit;background:transparent;border:0;cursor:pointer;text-align:left;padding:8px 0}#creature-stats-table th button:focus-visible{outline:2px solid #335fff}#creature-stats-table td:first-child img{object-fit:contain;display:block;min-width:72px}#creature-stats-search{padding:10px;max-width:100%;margin:8px;background:#171c25;color:#fff;border:1px solid #687181;border-radius:6px}
 `n#creature-stats-table caption{text-align:left;padding:12px 0}
@@ -218,3 +223,12 @@ body:has(#show-scrapped):not(:has(#show-scrapped:checked)):not(:has(#show-implem
 .music-preview{min-width:0;padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--row)}
 .music-preview h3{font-size:17px;min-height:2.8em;margin:0 0 12px}
 .music-preview audio{display:block;width:100%;max-width:100%}
+
+/* Assigned ambient songs reuse the game's biome landscapes. */
+.music-preview{position:relative;isolation:isolate;overflow:hidden}
+.music-biome-background{position:absolute;inset:0;display:flex;z-index:-1;pointer-events:none}
+.music-biome-background img{width:0;flex:1;min-width:0;height:100%;object-fit:cover}
+.music-biome-background::after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(8,13,20,.76),rgba(8,13,20,.38))}
+.music-preview.has-biome h3{text-shadow:0 2px 4px #000}
+.music-preview .music-assignment{margin:0 0 14px;font-size:13px;font-weight:600;color:#d5dae3}
+.music-preview.has-biome .music-assignment{color:#fff;text-shadow:0 1px 3px #000}

@@ -1,0 +1,799 @@
+{
+  "updated": "5 November 2026",
+  "scope": "Current mapped project source audit, plus documented Roblox defaults. This is a control map, not a live-input test.",
+  "references": {
+    "roblox-defaults": {
+      "title": "Roblox default input bindings",
+      "url": "https://create.roblox.com/docs/input",
+      "sourceUrl": "https://raw.githubusercontent.com/Roblox/creator-docs/main/content/en-us/includes/default-bindings.md"
+    },
+    "roblox-settings": {
+      "title": "Roblox settings and UI navigation",
+      "url": "https://en.help.roblox.com/hc/en-us/articles/203314230-In-experience-Settings-and-Help"
+    }
+  },
+  "bindings": [
+    {
+      "id": "move",
+      "keys": [
+        "W",
+        "A",
+        "S",
+        "D"
+      ],
+      "category": "game",
+      "label": "Move",
+      "short": "Move",
+      "context": "Normal character movement; also cancels resting emotes and bench exercise. Native Roblox movement.",
+      "sources": [
+        {
+          "file": "src/weights_bench.client.luau",
+          "needle": "local movementKeys ="
+        }
+      ]
+    },
+    {
+      "id": "boost",
+      "keys": [
+        "LeftShift",
+        "RightShift"
+      ],
+      "category": "game",
+      "label": "Hold for running boost",
+      "short": "Run boost",
+      "context": "Requires Running level 20; also modifies emote number shortcuts while that menu is open.",
+      "sources": [
+        {
+          "file": "src/running_boost.client.luau",
+          "needle": "\"RunningBoost\","
+        }
+      ]
+    },
+    {
+      "id": "shop",
+      "keys": [
+        "B"
+      ],
+      "category": "game",
+      "label": "Open Shop",
+      "short": "Shop",
+      "context": "Menu shortcut, outside typing or conflicting modal input.",
+      "sources": [
+        {
+          "file": "src/pet_shop.client.luau",
+          "needle": "Enum.KeyCode.B, toggleShop"
+        }
+      ]
+    },
+    {
+      "id": "pets",
+      "keys": [
+        "G"
+      ],
+      "category": "game",
+      "label": "Open Garden / pets",
+      "short": "Pets",
+      "context": "Opens the Garden management tab.",
+      "sources": [
+        {
+          "file": "src/garden_manager.client.luau",
+          "needle": "input.KeyCode == Enum.KeyCode.G"
+        }
+      ]
+    },
+    {
+      "id": "discover",
+      "keys": [
+        "V"
+      ],
+      "category": "game",
+      "label": "Open Discover",
+      "short": "Discover",
+      "context": "Opens the creature discovery tab.",
+      "sources": [
+        {
+          "file": "src/garden_manager.client.luau",
+          "needle": "input.KeyCode == Enum.KeyCode.V"
+        }
+      ]
+    },
+    {
+      "id": "inventory",
+      "keys": [
+        "T",
+        "I"
+      ],
+      "category": "game",
+      "label": "Open Inventory",
+      "short": "Inventory",
+      "context": "Both letters open the same inventory. I also has a Roblox camera-zoom default.",
+      "sources": [
+        {
+          "file": "src/egg_inventory.client.luau",
+          "needle": "Enum.KeyCode.T, toggle"
+        }
+      ]
+    },
+    {
+      "id": "trails",
+      "keys": [
+        "L"
+      ],
+      "category": "game",
+      "label": "Open Trails",
+      "short": "Trails",
+      "context": "Uses the installed Trails menu shortcut.",
+      "sources": [
+        {
+          "file": "src/player_settings.client.luau",
+          "needle": "input.KeyCode == Enum.KeyCode.L"
+        }
+      ]
+    },
+    {
+      "id": "emotes",
+      "keys": [
+        "C",
+        "Period"
+      ],
+      "category": "game",
+      "label": "Open Emotes",
+      "short": "Emotes",
+      "context": "C becomes Dive while swimming. Period is the alternative menu key.",
+      "sources": [
+        {
+          "file": "src/social_emotes.client.luau",
+          "needle": "Enum.KeyCode.C, toggleMenu"
+        }
+      ]
+    },
+    {
+      "id": "come",
+      "keys": [
+        "P"
+      ],
+      "category": "game",
+      "label": "Perform Come emote",
+      "short": "Come emote",
+      "context": "The emote controller must be enabled and no text field focused.",
+      "sources": [
+        {
+          "file": "src/social_emotes.client.luau",
+          "needle": "key.KeyCode == Enum.KeyCode.P"
+        }
+      ]
+    },
+    {
+      "id": "stop-follow",
+      "keys": [
+        "H"
+      ],
+      "category": "game",
+      "label": "Stop following pet",
+      "short": "Unfollow",
+      "context": "Stops the pet following you. In admin camera modes H can instead restore hidden controls.",
+      "sources": [
+        {
+          "file": "src/garden_manager.client.luau",
+          "needle": "input.KeyCode == Enum.KeyCode.H"
+        }
+      ]
+    },
+    {
+      "id": "interact",
+      "keys": [
+        "E"
+      ],
+      "category": "context",
+      "label": "Interact / primary action",
+      "short": "Interact",
+      "context": "Nearby native prompts: collect, hatch, buy, use equipment, feed, mirrors and house items. In management, comparison and certificate screens, activates the current primary action.",
+      "sources": [
+        {
+          "file": "src/ui_window_controls.luau",
+          "needle": "\"PrimaryUIKeyRelease\","
+        }
+      ]
+    },
+    {
+      "id": "drop-follow",
+      "keys": [
+        "F"
+      ],
+      "category": "context",
+      "label": "Drop / Follow / leave gym",
+      "short": "Drop / follow",
+      "context": "Drops a carried egg or eligible item, Follow/Stay at a pet, or stops gym use. Drop is blocked on training equipment.",
+      "sources": [
+        {
+          "file": "src/egg_inventory.client.luau",
+          "needle": "\"DropInventoryItem\","
+        }
+      ]
+    },
+    {
+      "id": "praise-food",
+      "keys": [
+        "R"
+      ],
+      "category": "context",
+      "label": "Praise pet / eat or drink held food",
+      "short": "Praise / eat",
+      "context": "Praise on a nearby pet; consumes held fish, banana or a drink when the food action is available. The current food binding is R.",
+      "sources": [
+        {
+          "file": "src/egg_inventory.client.luau",
+          "needle": "\"ConsumeHeldFood\","
+        }
+      ]
+    },
+    {
+      "id": "unequip",
+      "keys": [
+        "Q"
+      ],
+      "category": "context",
+      "label": "Unequip held item",
+      "short": "Unequip",
+      "context": "Unequips a held tool when not carrying an egg. Placement uses Q for rotation instead.",
+      "sources": [
+        {
+          "file": "src/egg_hotbar.client.luau",
+          "needle": "\"EggToolUnequip\","
+        }
+      ]
+    },
+    {
+      "id": "rotate",
+      "keys": [
+        "Q",
+        "E"
+      ],
+      "category": "context",
+      "label": "Rotate placed house item left / right",
+      "short": "Rotate item",
+      "context": "Only while positioning a house object; other ordinary UI/hotkeys are suppressed. Q turns left, E turns right.",
+      "sources": [
+        {
+          "file": "src/house_placement.luau",
+          "needle": "api.Rotate(if event.KeyCode"
+        }
+      ]
+    },
+    {
+      "id": "mount",
+      "keys": [
+        "M"
+      ],
+      "category": "context",
+      "label": "Mount / dismount",
+      "short": "Mount",
+      "context": "For your eligible mountable pet, including its contextual tray action.",
+      "sources": [
+        {
+          "file": "src/alpanda_mount_client.luau",
+          "needle": "input.KeyCode == Enum.KeyCode.M"
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "keys": [
+        "N"
+      ],
+      "category": "context",
+      "label": "Open held Boom Box music",
+      "short": "Music",
+      "context": "While holding your Boom Box. Placed Boom Box interactions use nearby prompts.",
+      "sources": [
+        {
+          "file": "src/boombox.client.luau",
+          "needle": "input.KeyCode == Enum.KeyCode.N"
+        }
+      ]
+    },
+    {
+      "id": "upgrade",
+      "keys": [
+        "U"
+      ],
+      "category": "context",
+      "label": "Upgrade gym equipment",
+      "short": "Upgrade",
+      "context": "Nearby treadmill or weights-bench upgrade prompt.",
+      "sources": [
+        {
+          "file": "src/training_equipment_builder.luau",
+          "needle": "prompt.KeyboardKeyCode, prompt.GamepadKeyCode = Enum.KeyCode.U"
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "keys": [
+        "Space"
+      ],
+      "category": "context",
+      "label": "Jump / swim up / Turbo Boost",
+      "short": "Jump / swim / Turbo",
+      "context": "Jump on land, rise or exit at a water edge, or trigger an eligible equipped Turbo Boost 4000. Also activates selected UI controls.",
+      "sources": [
+        {
+          "file": "src/swim_input.luau",
+          "needle": "Enum.KeyCode.Space, Enum.KeyCode.ButtonA"
+        }
+      ]
+    },
+    {
+      "id": "dive",
+      "keys": [
+        "C",
+        "LeftControl",
+        "RightControl"
+      ],
+      "category": "context",
+      "label": "Swim downward",
+      "short": "Dive",
+      "context": "While swimming. C passes back to Emotes outside swimming.",
+      "sources": [
+        {
+          "file": "src/swim_input.luau",
+          "needle": "{ Enum.KeyCode.Space, Enum.KeyCode.C"
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "keys": [
+        "X"
+      ],
+      "category": "game",
+      "label": "Close window / cancel placement",
+      "short": "Close / cancel",
+      "context": "Closes the foremost game window or cancels item/trap placement.",
+      "sources": [
+        {
+          "file": "src/ui_window_controls.luau",
+          "needle": "\"CloseGameWindowX\","
+        }
+      ]
+    },
+    {
+      "id": "hotbar",
+      "keys": [
+        "One",
+        "Two",
+        "Three",
+        "Four",
+        "Five",
+        "Six",
+        "Seven",
+        "Eight",
+        "Nine",
+        "Zero"
+      ],
+      "category": "game",
+      "label": "Select hotbar slot",
+      "short": "Hotbar",
+      "context": "1 is reserved for eggs and hides when empty. 2 to 0 select the other current-page items.",
+      "sources": [
+        {
+          "file": "src/egg_hotbar.client.luau",
+          "needle": "\"EggToolSlots\","
+        }
+      ]
+    },
+    {
+      "id": "emote-digits",
+      "keys": [
+        "One",
+        "Two",
+        "Three",
+        "Four",
+        "Five",
+        "Six",
+        "Seven",
+        "Eight",
+        "Nine",
+        "LeftShift",
+        "RightShift"
+      ],
+      "category": "context",
+      "label": "Choose emote 1 to 9 / 10 to 18",
+      "short": "Emote choices",
+      "context": "While Emotes is open, 1 to 9 select its first row; Shift plus 1 to 9 select its second row. These temporarily take priority over hotbar selection.",
+      "sources": [
+        {
+          "file": "src/emote_menu_controls.luau",
+          "needle": "activate(slots[key.KeyCode] + (shifted and 9 or 0))"
+        }
+      ]
+    },
+    {
+      "id": "hotbar-pages",
+      "keys": [
+        "Minus",
+        "Equals"
+      ],
+      "category": "context",
+      "label": "Previous / next hotbar page",
+      "short": "Hotbar page",
+      "context": "Minus goes back; equals goes forward. These refer to physical keys, including the shifted plus label.",
+      "sources": [
+        {
+          "file": "src/egg_hotbar.client.luau",
+          "needle": "\"EggToolPages\","
+        }
+      ]
+    },
+    {
+      "id": "ui-arrows",
+      "keys": [
+        "Up",
+        "Down",
+        "Left",
+        "Right"
+      ],
+      "category": "context",
+      "label": "Navigate pets / menu choices",
+      "short": "Navigate UI",
+      "context": "Arrow keys navigate Garden, Stored and Discover; adjust focused dropdowns/sliders; resize a selected window handle. Outside UI, Roblox uses up/down for movement and left/right for the camera.",
+      "sources": [
+        {
+          "file": "src/garden_manager.client.luau",
+          "needle": "local dx = if input.KeyCode"
+        }
+      ]
+    },
+    {
+      "id": "ui-ends",
+      "keys": [
+        "Home",
+        "End"
+      ],
+      "category": "context",
+      "label": "First / last dropdown choice",
+      "short": "Menu ends",
+      "context": "When a shared dropdown is open. Native selected scrolling frames may also use these keys.",
+      "sources": [
+        {
+          "file": "src/ui_dropdown.luau",
+          "needle": "key == Enum.KeyCode.Home"
+        }
+      ]
+    },
+    {
+      "id": "ui-confirm",
+      "keys": [
+        "Return"
+      ],
+      "category": "context",
+      "label": "Activate selected UI choice",
+      "short": "Confirm UI",
+      "context": "Native UI selection and shared dropdown confirmation.",
+      "sources": [
+        {
+          "file": "src/ui_dropdown.luau",
+          "needle": "key == Enum.KeyCode.Return"
+        }
+      ]
+    },
+    {
+      "id": "dev-tools",
+      "keys": [
+        "Backquote"
+      ],
+      "category": "developer",
+      "label": "Toggle developer tools",
+      "short": "Dev tools",
+      "context": "Authorised developer tools only. The custom item hotbar disables the native backpack UI.",
+      "sources": [
+        {
+          "file": "src/developer_tools.client.luau",
+          "needle": "input.KeyCode == Enum.KeyCode.Backquote"
+        }
+      ]
+    },
+    {
+      "id": "admin-camera",
+      "keys": [
+        "H"
+      ],
+      "category": "developer",
+      "label": "Restore hidden admin camera controls",
+      "short": "Camera UI",
+      "context": "When the admin camera has hidden its interface.",
+      "sources": [
+        {
+          "file": "src/admin_client.luau",
+          "needle": "Enum.KeyCode.H,"
+        }
+      ]
+    },
+    {
+      "id": "admin-flight",
+      "keys": [
+        "W",
+        "A",
+        "S",
+        "D",
+        "Space",
+        "LeftControl",
+        "RightControl"
+      ],
+      "category": "developer",
+      "label": "Admin flight movement",
+      "short": "Admin flight",
+      "context": "When admin flight is active: move with WASD, Space goes up, either Ctrl goes down.",
+      "sources": [
+        {
+          "file": "src/admin_client.luau",
+          "needle": "flight.velocity.VectorVelocity = direction * 60"
+        }
+      ]
+    },
+    {
+      "id": "admin-free-camera",
+      "keys": [
+        "W",
+        "A",
+        "S",
+        "D",
+        "Q",
+        "E",
+        "Space",
+        "LeftControl"
+      ],
+      "category": "developer",
+      "label": "Admin free-camera movement",
+      "short": "Free camera",
+      "context": "Free-camera mode: WASD moves, Q/left Ctrl descends, E/Space ascends.",
+      "sources": [
+        {
+          "file": "src/management_admin_free_camera.luau",
+          "needle": "local keys ="
+        }
+      ]
+    },
+    {
+      "id": "roblox-menu",
+      "keys": [
+        "Escape"
+      ],
+      "category": "native",
+      "label": "Roblox menu / dismiss",
+      "short": "Roblox menu",
+      "context": "Roblox-reserved menu key; game windows also listen for dismissal.",
+      "sources": [],
+      "reference": "roblox-defaults"
+    },
+    {
+      "id": "roblox-chat",
+      "keys": [
+        "Slash"
+      ],
+      "category": "native",
+      "label": "Open Roblox chat",
+      "short": "Chat",
+      "context": "Native chat shortcut when the chat feature is enabled.",
+      "sources": [],
+      "reference": "roblox-defaults"
+    },
+    {
+      "id": "roblox-list",
+      "keys": [
+        "Tab"
+      ],
+      "category": "native",
+      "label": "Show / hide player list",
+      "short": "Players",
+      "context": "Native player list shortcut.",
+      "sources": [],
+      "reference": "roblox-defaults"
+    },
+    {
+      "id": "roblox-navigation",
+      "keys": [
+        "BackSlash"
+      ],
+      "category": "native",
+      "label": "Toggle UI selection mode",
+      "short": "UI selection",
+      "context": "Roblox UI Navigation Toggle setting controls this shortcut.",
+      "sources": [],
+      "reference": "roblox-defaults"
+    },
+    {
+      "id": "roblox-scroll",
+      "keys": [
+        "PageUp",
+        "PageDown"
+      ],
+      "category": "native",
+      "label": "Scroll selected UI",
+      "short": "UI scroll",
+      "context": "Native UI-selection scrolling; Home and End also have game dropdown actions.",
+      "sources": [],
+      "reference": "roblox-defaults"
+    },
+    {
+      "id": "roblox-zoom",
+      "keys": [
+        "O"
+      ],
+      "category": "native",
+      "label": "Zoom camera out",
+      "short": "Zoom out",
+      "context": "Native camera default. I zooms in natively but has a game Inventory binding here.",
+      "sources": [],
+      "reference": "roblox-defaults"
+    },
+    {
+      "id": "roblox-backspace",
+      "keys": [
+        "Backspace"
+      ],
+      "category": "native",
+      "label": "Native tool drop / edit text",
+      "short": "Native drop",
+      "context": "Roblox default tool drop. Game tools commonly disable native dropping; use the game F action for validated drops.",
+      "sources": [],
+      "reference": "roblox-defaults"
+    },
+    {
+      "id": "roblox-console",
+      "keys": [
+        "F9"
+      ],
+      "category": "native",
+      "label": "Roblox developer console",
+      "short": "Console",
+      "context": "Roblox-reserved control, distinct from the game developer tools.",
+      "sources": [],
+      "reference": "roblox-defaults"
+    },
+    {
+      "id": "roblox-fullscreen",
+      "keys": [
+        "F11"
+      ],
+      "category": "native",
+      "label": "Toggle fullscreen on Windows",
+      "short": "Fullscreen",
+      "context": "Roblox-reserved control. On Mac the documented function is Show desktop.",
+      "sources": [],
+      "reference": "roblox-defaults"
+    },
+    {
+      "id": "roblox-video",
+      "keys": [
+        "F12"
+      ],
+      "category": "native",
+      "label": "Record video on Windows",
+      "short": "Record video",
+      "context": "Roblox-reserved control.",
+      "sources": [],
+      "reference": "roblox-defaults"
+    },
+    {
+      "id": "roblox-screenshot",
+      "keys": [
+        "Print"
+      ],
+      "category": "native",
+      "label": "Take screenshot",
+      "short": "Screenshot",
+      "context": "Roblox-reserved Print Screen control.",
+      "sources": [],
+      "reference": "roblox-defaults"
+    },
+    {
+      "id": "system-capslock",
+      "keys": [
+        "CapsLock"
+      ],
+      "category": "native",
+      "label": "Caps lock",
+      "short": "Caps lock",
+      "context": "System or modifier key. No dedicated project action found.",
+      "sources": []
+    },
+    {
+      "id": "system-leftalt",
+      "keys": [
+        "LeftAlt"
+      ],
+      "category": "native",
+      "label": "Modifier",
+      "short": "Modifier",
+      "context": "System or modifier key. No dedicated project action found.",
+      "sources": []
+    },
+    {
+      "id": "system-rightalt",
+      "keys": [
+        "RightAlt"
+      ],
+      "category": "native",
+      "label": "Modifier",
+      "short": "Modifier",
+      "context": "System or modifier key. No dedicated project action found.",
+      "sources": []
+    },
+    {
+      "id": "system-leftsuper",
+      "keys": [
+        "LeftSuper"
+      ],
+      "category": "native",
+      "label": "OS key",
+      "short": "OS key",
+      "context": "System or modifier key. No dedicated project action found.",
+      "sources": []
+    },
+    {
+      "id": "system-rightsuper",
+      "keys": [
+        "RightSuper"
+      ],
+      "category": "native",
+      "label": "OS key",
+      "short": "OS key",
+      "context": "System or modifier key. No dedicated project action found.",
+      "sources": []
+    },
+    {
+      "id": "system-menu",
+      "keys": [
+        "Menu"
+      ],
+      "category": "native",
+      "label": "OS menu",
+      "short": "OS menu",
+      "context": "System or modifier key. No dedicated project action found.",
+      "sources": []
+    },
+    {
+      "id": "system-numlock",
+      "keys": [
+        "NumLock"
+      ],
+      "category": "native",
+      "label": "Num lock",
+      "short": "Num lock",
+      "context": "System or modifier key. No dedicated project action found.",
+      "sources": []
+    },
+    {
+      "id": "system-scrolllock",
+      "keys": [
+        "ScrollLock"
+      ],
+      "category": "native",
+      "label": "Scroll lock",
+      "short": "Scroll lock",
+      "context": "System or modifier key. No dedicated project action found.",
+      "sources": []
+    },
+    {
+      "id": "system-pause",
+      "keys": [
+        "Pause"
+      ],
+      "category": "native",
+      "label": "System",
+      "short": "System",
+      "context": "System or modifier key. No dedicated project action found.",
+      "sources": []
+    }
+  ],
+  "notes": [
+    "J, K, Y and Z have no direct project action binding in this audit.",
+    "Grey keys mean no project binding was found, not a guarantee that Roblox, the operating system, typing or keyboard firmware leaves them unused.",
+    "The diagram uses a US ANSI layout. KeyCode refers to physical key positions; printed legends can differ on other keyboard layouts.",
+    "When a text field is focused, ordinary letter shortcuts normally yield to typing. House placement suppresses unrelated shortcuts, including otherwise unassigned letters.",
+    "This map records current source, not earlier chat intentions. R currently consumes food as well as praising pets; F is the drop/follow/gym-exit family.",
+    "Numpad keys have no explicit project binding. With Num Lock off, their navigation behavior depends on the keyboard and client."
+  ]
+}

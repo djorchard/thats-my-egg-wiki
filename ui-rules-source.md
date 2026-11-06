@@ -1,3 +1,71 @@
+## UI ownership of E, 5 November 2026
+
+A visible foremost window with a primary E action owns the key. Register through
+WindowControls.ownPrimary, check isForemost in the existing handler, and call
+consumePrimaryKey before the action. The press stays consumed through release,
+even when Begin closes its window. Restore world prompts after dispatch ends.
+Preserve manual text focus. ActionDock.blockWorldPrompts shares one original
+ProximityPromptService.Enabled value across PrimaryUI and HousePlacement owners;
+the last owner restores it. Never snapshot an already suppressed false value.
+No frame loop or network request is added. Focused and native Edit checks passed;
+real keyboard and touch acceptance remain pending.
+
+## Pet callout cell order, 5 November 2026
+
+The garden pet callout uses two equal columns. Its first row is creature title on the
+left and quality on the right. The second row is income on the left and DNA
+on the right. Keep each stat icon and its shadow with the corresponding value,
+vertically centred on the same row. Visible action buttons follow underneath.
+Reuse GardenCreatureTile, the existing callout artwork, quality underlays,
+DNA reveal and shared action controls. Preserve desktop/compact dimensions,
+text-fitting caps and prompt availability. Egg callout order is unchanged.
+
+The following pet callout keeps the name and quality above two action rows.
+Send home (H) and Mount (M) share the first row when mounting is available.
+Praise (R) spans the second row and becomes Feed while holding suitable food.
+The shared keycap artwork follows the current input mode.
+
+## Trail tile readability, 5 November 2026
+
+Trail price and run-speed underlays are 35 and 33 pixels tall, with 8-pixel horizontal and 2-pixel vertical content insets. Their text scales up to 15 pixels, shrinking only to fit. Artwork uses 60 percent tile width to reserve room for these rows. Display run bonuses with a leading plus, such as +100% run speed.
+
+## Semantic typography standard, 5 November 2026
+
+Use the single role table under [Fonts and text](#fonts-and-text). It resolves
+the overlapping font recommendations: routine titles and large balances use
+BuilderSans ExtraBold; creature names, quality captions and earned reward
+amounts use Fredoka One. Buttons and tabs use BuilderSans Bold, supporting
+copy uses BuilderSans Medium, and special celebration headlines alone use
+Luckiest Guy. Font family is determined by the role, not by text size or a
+screen-specific preference. Existing size, fitting, spacing and artwork rules
+still apply. Earlier evidence and screenshots retain their historical fonts.
+
+## Compact passive quality chip, 5 November 2026
+
+Individual pet details use Theme.DetailSkins quality underlays as nine-slice
+passive decoration, adapting the approved glossy renderer with deep saturated
+faces and a brighter, thicker bevel. The chip is 26 pixels high, measured to its
+Theme.Fonts.quality caption with 12 pixels of horizontal inset on each side, and centred
+vertically beside the title with an 8-pixel gap. Reuse the skin's bevel and
+shadow. White text has a separate two-pixel downward dark depth layer; no
+text stroke or added border outline. The face is symmetric; the main caption
+is one pixel above centre and its depth one pixel below, centring the combined
+lettering. This supersedes the earlier outline and pale-skin trials. It is not
+a button and does not receive input or button states. Existing egg and garden
+pet callout quality treatments continue using their own unchanged skins.
+
+## Creature detail card colour and stat rows, 5 November 2026
+
+PetBuffView.Card with DetailStyle=true matches its buff graphic colour using
+the existing DetailSkins palette. Regenerator uses green; water and breath
+buffs use blue; gold and honey use gold; combat and health use red. Pale icons
+use a neutral skin. The active following-buff HUD uses the same card. All buff
+emblems have a shadow, using the artwork silhouette for image icons and the
+shared soft shadow for emoji.
+Keep Income, Height, Weight and DNA values on the same shared stat-panel
+background without dark value pills. All rows retain the same text alignment
+and vertically centred icons.
+
 ## Certificate input owns covered game editors, 5 November 2026
 
 The birth certificate's E acknowledgement must not become text in a covered
@@ -182,6 +250,10 @@ from the player-facing shop, inventory and pet window family.
 
 ## Shared dropdowns and trail shop information, 4 November 2026
 
+Select triggers and styled text inputs suppress Roblox's large automatic
+selection outline. Mouse opening keeps the current focus. Controller opening
+and deliberate keyboard navigation still use the dropdown's in-row focus.
+
 Use ProjectUI.Dropdown and [DROPDOWNS.md](DROPDOWNS.md) for all select fields and
 their options. Dropdown entries are flat listbox rows, not raised action-button
 artwork. The closed field shows its current value and chevron. The selected
@@ -270,6 +342,11 @@ See the [historical Roblox acknowledgement](https://devforum.roblox.com/t/uitext
 and [current size-constraint documentation](https://create.roblox.com/docs/ui/size-modifiers).
 The local reproduction, rather than the old thread alone, establishes this
 project's failure. No gameplay, save or publication was performed by Codex.
+
+5 November 2026 follow-up: exact published V2030 contains these native text-frame
+limits, verified by offline source equality for the three renderers, Theme and
+GameLanguage. This confirms release contents, with live appearance still pending.
+See output/published-fixes-20261105/verification.json.
 
 The preceding revision, with a 24-pixel name cap, was installed in Edit with
 exact source readback. The 120 actual
@@ -742,8 +819,8 @@ footer and selection outline. Three or more rows use the normal virtualized
 scroll path. Other shared grid consumers retain their existing geometry.
 
 Narrow layouts use a compact tab/search header, 80-pixel summary and three
-columns of footer actions over two rows. Metrics retain their existing fonts
-and fit above the actions. Narrow summary/action spacing is eight pixels;
+columns of footer actions over two rows. Metrics use their semantic font roles
+at the existing sizes and fit above the actions. Narrow summary/action spacing is eight pixels;
 desktop retains twelve. Exceptionally short windows keep scrolling rather than
 compressing cards below their readable minimum. The two-row guarantee was
 verified for desktop 860 by 660, smaller desktop 700 by 564 and portrait-phone
@@ -805,7 +882,7 @@ No gameplay, place saving or publication was performed.
 
 The textured window with a downward V-shaped pointer is a callout card. The
 projection is its pointer or tail. The approved v17 design and complete Python
-generator are packaged in D:/CodexProfile/skills/callout-card-gen/SKILL.md with
+generator are packaged in the local callout-card-gen skill with
 the required raster assets, underlay generator, transparent layer exports and
 layout manifest. Use that skill for matching windows. Installation remains
 separate from approval of the visual design.
@@ -964,7 +1041,7 @@ HOME.md for implementation/verification state.
 ## XP display preference, 3 November 2026
 
 The existing Settings choice-row pattern adds XP display: Level or Studs/s.
-Keep the established dark row, blue selected option, BuilderSans and scrolling
+Keep the established dark row, blue selected option, semantic Theme fonts and scrolling
 layout. Level stays the default. The top running and swimming labels use Xs/s
 with one decimal place in Studs/s mode; Strength uses total jump height as Xs.
 Keep icons, XP tracks, row geometry and the detailed Stats panel. Fit only these
@@ -990,7 +1067,7 @@ together immediately above Cancel. Use the shared HousePlacement controller
 for keyboard and button activation. The placement owner releases these controls
 when placement ends. Trap-only placement retains its existing Cancel control.
 
-Reuse ActionDock, Theme.Buttons.Secondary, BuilderSans medium, control text size
+Reuse ActionDock, Theme.Buttons.Secondary, Theme.Fonts.button, control text size
 14 and the shared raised button state treatment. Each button is 48 pixels high,
 with eight pixels of horizontal text padding. The row is at most 408 pixels
 wide, retaining 12-pixel outer margins on narrow screens. Use an eight-pixel gap
@@ -1043,10 +1120,14 @@ Use the existing state/size events rather than polling or a new render loop.
 
 ## Collection reward reveal, 3 November 2026
 
-Daniel's typography refinement raises both ribbon text areas and uses the
-bundled Fredoka One face for the headline and item name. This is an explicit
-reward-screen exception to the general BuilderSans rule; the subtitle and blue
-primary action retain their existing theme fonts. The acknowledgement now reads
+The confirmed ribbon headline uses Theme.Fonts.celebration (Luckiest Guy), its large
+reward item name uses Theme.Fonts.reward (Fredoka One), supporting copy uses
+Theme.Fonts.body (BuilderSans Medium), and the blue primary action uses
+Theme.Fonts.button (BuilderSans Bold). A separate creature display name uses
+Theme.Fonts.creatureName. These roles supersede the 3 November implementation
+that used Fredoka One for both ribbon text areas; its receipts remain historical.
+Pending Claiming text uses Theme.Fonts.title until confirmation. Keep both
+ribbon text areas in their existing raised positions. The acknowledgement reads
 Lets go! (Ayo! in Indonesian), superseding the earlier OMG yes! caption.
 Keep the headline between the ribbon stars and use one native UIShadow in Text
 mode for its soft black drop shadow. Blur and offset scale with the headline's
@@ -1072,7 +1153,8 @@ readable within the lower ribbon. No polling or gameplay physics is introduced.
 Daniel's supplied red/white artwork is a specific celebration treatment, not a
 new general control palette. Keep its transparent original and 768 by 256
 runtime PNG separate from the actual egg ViewportFrame and localized New Egg!
-text. Use Theme.Fonts.bold, a red text outline and restrained text depth.
+text. Use Theme.Fonts.celebration for the New Egg headline, a red text outline
+and restrained text depth.
 4 November title placement: move both the heading and its matching depth layer
 up by 2% of the banner width (about 11 pixels at the maximum width), retaining
 their existing relative offset and the egg/artwork positions.
@@ -1099,7 +1181,7 @@ then diet and each supported travel mode. Use the existing biome atlas and
 distinct conservation artwork, retaining the Alien marker where applicable.
 Every symbol has a visible, centred caption underneath. Allocate equal-width
 slots so symbol centres are evenly spaced within each row. Labels wrap within
-their column. The 4 November two-row decision supersedes the original single-row arrangement. Reuse BuilderSans caption
+their column. The 4 November two-row decision supersedes the original single-row arrangement. Reuse Theme.Fonts.caption
 12, 32-pixel symbols, theme colours and opaque article/card surfaces. This
 supersedes the separate discovery/biome badge row and conservation section.
 
@@ -1154,7 +1236,7 @@ current render pass, cached touch control and one rod lookup, without a new loop
 
 ## Creature viewer search layout, 4 November 2026
 
-Reuse InputFields.decorate, theme control radius, BuilderSans medium at 14,
+Reuse InputFields.decorate, theme control radius, Theme.Fonts.input at 14,
 and canonical MaterialIcons search/close artwork. Viewer Search is at (12,72),
 width minus 24 and height 44. Text reserves 38 pixels on the left and 44 on the
 right; the clear action is 40 by 44 at the right edge. Center both glyphs
@@ -1192,13 +1274,12 @@ inside their controls. Keep the buff-card emblem and name vertically centered
 on the same row; description text wraps below. Use existing Theme fonts, colours
 and corner tokens. These icon controls do not receive raised word-button styling.
 
-The accompanying-pet HUD occupies one 224 by 60 row at the bottom right, inset
-16 pixels horizontally, 120 pixels above the bottom on desktop and 190 on touch
-to clear movement controls. Clamp the bottom reservation in very short windows
-so the complete row remains inside the safe viewport. Show the species and buff name beside its 44-pixel
-emblem, with a passive wrapped explanation on hover/focus/tap. Suppress it with
-the existing HUD and camera hiding flags. No pulse, particles, modal input,
-automatic focus or per-frame GUI loop. Mountable species show a Mountable
+The accompanying-pet HUD uses the compact styled PetBuffView.Card with the buff
+name, shadowed emblem and visible wrapped description. It sits at the bottom
+right with a 16-pixel margin and a width of up to 300 pixels. Reserve 120 pixels
+below it on desktop and 190 on touch. Clamp that reservation to the safe
+viewport after measuring the card. The card is passive and follows the
+existing HUD and camera hiding flags. Mountable species show a Mountable
 ability card explaining that riding replaces a following bonus. They do not
 show an active passive-buff HUD, whether following or mounted.
 
@@ -1233,7 +1314,7 @@ acceptance remain untested. See CAMERA.md for the native reference and limits.
 
 When low stamina blocks a player action, show the passive caption "Low stamina.
 Rest a moment." beneath the existing stamina meter. Reuse the dark panel,
-muted text, BuilderSans medium and existing caption scale. Keep it visible for
+muted text, Theme.Fonts.caption and existing caption scale. Keep it visible for
 two seconds with a 0.3-second fade at the end. Coalesce repeated inputs and
 server confirmation with a 2.5-second cooldown; never stack or prolong them.
 The caption has no sound, buttons, focus or modal input. Menus, death and a new
@@ -1324,8 +1405,8 @@ effect. These source-handled credits do not repeat the delayed wallet-tray cue.
 
 Trap inventory addition, 1 November 2026: Inventory tabs are All, Eggs, Items,
 Traps and Garden, using the shared tab treatment and existing row. Trap counts
-use xN above the name, aligned bottom-right in the art region. Use bold
-BuilderSans at 16 pixels, theme text colour and a two-pixel theme-background
+use xN above the name, aligned bottom-right in the art region. Use
+Theme.Fonts.count at 16 pixels, theme text colour and a two-pixel theme-background
 stroke. InventoryGrid allocates the passive label only for QuantityText. The
 hotbar keeps one pooled label per slot, anchored at right minus six pixels and
 y60, above its caption at y62. Trap quantity replaces the old caption suffix
@@ -1347,8 +1428,10 @@ The illustration keeps Fit proportions. Its selectable thumbnails retain
 artwork styling with selected blue fill, not raised word-button surfaces.
 Back uses the shared Secondary word action.
 
-BuilderSans name text is bold at 38 pixels, or 30 in a narrow column. Description
-text is 16, section headings 20, labels 14 and bold stat values 16. The baseline
+Creature name text uses Theme.Fonts.creatureName at 38 pixels, or 30 in a narrow
+column. Description text uses Theme.Fonts.body at 16, section headings use
+Theme.Fonts.heading at 20, labels use Theme.Fonts.caption at 14, and stat values
+use Theme.Fonts.stat at 16. The baseline
 caption is removed by the later 4 November rule. Measure wrapping title/description heights through native
 TextService on text/width changes, cache results and allow four extra vertical
 pixels. Native list flow sizes the article, and scrolling retains short-screen
@@ -1492,15 +1575,15 @@ are Roblox UI pixels before viewport fitting, not world studs.
 
 Animal sleeping letters, 31 October 2026: use the existing native BillboardGui
 with a 150 by 165 pixel canvas, three 54 by 54 pixel transparent label boxes,
-BuilderSans Bold sizes 38, 42 and 47, white text and the existing black stroke.
+Theme.Fonts.heading at sizes 38, 42 and 47, white text and the existing black stroke.
 Begin at canvas X 50 percent, Y 35 percent; rise 30 percent and drift right
 30 percent over the existing 2.4-second cycle. Anchor above fitted eyes or a
 raised head fallback, following the current transform. Preserve ordinary world
 occlusion and reuse all three labels. This animal exception does not resize
 player bed letters or change general interface typography.
 
-Use ProjectUI.Theme directly. BuilderSans Regular is body/caption copy, Medium
-is controls/values and Bold is titles/section headings. Default sizes are title
+Use ProjectUI.Theme directly and select the semantic font role from
+[Fonts and text](#fonts-and-text). Default sizes are title
 20, heading 18, body/control 14 and caption 12. Keep the original font size when
 it fits. Follow the translation-fitting exception above when a label must
 shrink. Never stretch text, icons or the entire control to force a fit.
@@ -1531,29 +1614,29 @@ interactive target. Avoid typed V, slash, arrow or Unicode substitutes.
 
 | Control | Size and outer spacing | Inner layout and typography | Surface, interaction and states |
 | --- | --- | --- | --- |
-| Window | Fit inside available viewport with at least 8 pixels on each side; normal content inset 16 | Title 20 Bold; content may scroll; footer remains outside scrolling body | Opaque panel #121419, radius 12, separate 1-pixel window outline |
+| Window | Fit inside available viewport with at least 8 pixels on each side; normal content inset 16 | Theme.Fonts.title 20; content may scroll; footer remains outside scrolling body | Opaque panel #121419, radius 12, separate 1-pixel window outline |
 | Window header | Reserve 56 pixels normally; close control has its own 44-pixel slot | Title left-aligned and vertically centered; leave 12 pixels before close slot | Drag area stops before close/actions; dragging never swallows action clicks |
 | Close icon button | 44 by 44 hit area, aligned to header's right edge | Material close 24 by 24, centered, no visible caption | Borderless row surface; accessible Close label; no title overlap |
 | Section/card | Full content width; 16-pixel gap from unrelated section | 12-pixel internal padding and 8-pixel gaps between related rows | Opaque row #1B1E25, radius 8; decoration remains passive |
-| Primary action | 40-pixel desktop height; 44 for touch; 32 only in explicitly compact layouts | Medium 14, centered; 12 horizontal padding; allow wrapping if required | Accent #335FFF; borderless; stable shared fill feedback |
+| Primary action | 40-pixel desktop height; 44 for touch; 32 only in explicitly compact layouts | Theme.Fonts.button; shared raised word-caption cap 20, existing compact captions 14; centered, 12 horizontal padding; allow wrapping if required | Accent #335FFF; borderless; stable shared fill feedback |
 | Secondary word action | Same dimensions and baseline as primary peers | Same caption role; word-only content | Theme.Buttons.Secondary raised charcoal face; borderless; icon controls retain their previous design |
-| Destructive word action | Same rectangle as peer actions | Medium 14; clear action verb; full amount/target belongs in confirmation | Theme.Buttons.Warning raised red face with white caption; disabled state must block activation |
-| Disclosure/section header | Full width, 44 high; 12 gap between Developer tools sections | Caption left 12, right reserve 44; Bold 18; 24-pixel trailing chevron at right inset 4 | Theme.Colors.tab; whole row clickable; full-width shared feedback; no root UIPadding |
-| Dropdown/select trigger | Same column width and control height as neighbouring fields | Caption left 12, right reserve 44; Medium 14; same trailing-icon geometry | Trigger and open list share horizontal edges and width; do not shrink only the popup |
-| Dropdown list | Match trigger width; 4-pixel vertical gap; open above if needed; bound height and scroll | Options have 12 horizontal padding and 44-pixel touch rows; Medium 14 | Opaque row surface; selected/focus uses fill; no decorative button borders |
-| Text field | Full assigned column width, normal height 40 or touch 44 | Medium/Regular 14; normal 10 horizontal padding, 6 for a narrow numeric field | InputFields.decorate; row surface; separate input outline 1, accent 2 while focused |
+| Destructive word action | Same rectangle as peer actions | Theme.Fonts.button; shared word-caption cap 20, existing compact captions 14; clear action verb; full amount/target belongs in confirmation | Theme.Buttons.Warning raised red face with white caption; disabled state must block activation |
+| Disclosure/section header | Full width, 44 high; 12 gap between Developer tools sections | Caption left 12, right reserve 44; Theme.Fonts.button 18; 24-pixel trailing chevron at right inset 4 | Theme.Colors.tab; whole row clickable; full-width shared feedback; no root UIPadding |
+| Dropdown/select trigger | Same column width and control height as neighbouring fields | Caption left 12, right reserve 44; Theme.Fonts.button 14; same trailing-icon geometry | Trigger and open list share horizontal edges and width; do not shrink only the popup |
+| Dropdown list | Match trigger width; 4-pixel vertical gap; open above if needed; bound height and scroll | Options have 12 horizontal padding and 44-pixel touch rows; Theme.Fonts.button 14 | Opaque row surface; selected/focus uses fill; no decorative button borders |
+| Text field | Full assigned column width, normal height 40 or touch 44 | Theme.Fonts.input 14; normal 10 horizontal padding, 6 for a narrow numeric field | InputFields.decorate; row surface; separate input outline 1, accent 2 while focused |
 | Search field | 44 high; align its outer edges with results below | Leading icon 22 in a separate slot; text inset 38; reserve 38 for clear button | Preserve typed text during filtering; no result-driven width changes |
 | Search clear | Inside trailing slot, at least 32 by 32; use 44 when space permits | Material close 20, centered; empty accessible caption only | Borderless; show only for nonempty query; clearing restores the normal list |
-| Checkbox | 44-pixel full label-row hit area | Indicator 20, gap 8 before Medium 14 label; wrap full label | Shared native-style check icon/state; do not rely on colour alone |
-| On/off control | 44-pixel row; keep label and switch in separate slots | Label Medium 14 at left; state control aligned right | Both states distinct; same bounds when toggled; authoritative pending state where needed |
-| Slider | At least 44-pixel interactive row; separate title/value and track rows | Label/value 14 Medium; endpoint fields keep fixed slots; thumb at least 24, track 4 | Value changes never move neighbouring controls; touch/controller input retains cleanup |
-| Numeric stepper | 44-pixel row with equal minus/plus slots and 8-pixel gaps | Centered numeric value 14 Medium; Material add/remove icons | Stable target sizes; bounded values; disable impossible steps |
-| Tabs | Equal widths within the same tab row; 8-pixel peer gap | Bold 18, or 16 in the existing narrow layout; centered; do not squeeze text | Lighter tab surfaces in both states; selected blue underline 2; underline stays separate |
+| Checkbox | 44-pixel full label-row hit area | Indicator 20, gap 8 before Theme.Fonts.button 14 actionable label; wrap full label | Shared native-style check icon/state; do not rely on colour alone |
+| On/off control | 44-pixel row; keep label and switch in separate slots | Theme.Fonts.caption 14 descriptive label at left; state action uses Theme.Fonts.button at right | Both states distinct; same bounds when toggled; authoritative pending state where needed |
+| Slider | At least 44-pixel interactive row; separate title/value and track rows | Label Theme.Fonts.caption 14, value Theme.Fonts.stat 14; endpoint fields use Theme.Fonts.input; thumb at least 24, track 4 | Value changes never move neighbouring controls; touch/controller input retains cleanup |
+| Numeric stepper | 44-pixel row with equal minus/plus slots and 8-pixel gaps | Centered passive numeric value Theme.Fonts.stat 14; editable value uses Theme.Fonts.input; Material add/remove icons | Stable target sizes; bounded values; disable impossible steps |
+| Tabs | Equal widths within the same tab row; 8-pixel peer gap | Theme.Fonts.tab 18, or 16 in the existing narrow layout; centered; do not squeeze text | Lighter tab surfaces in both states; selected blue underline 2; underline stays separate |
 | Scroll region | Uses remaining body height; 5-pixel scrollbar and 10-pixel right gutter where used by Developer tools | Layout gaps determine row spacing; include 8 bottom padding | Clip contents; canvas follows content; do not move the footer into the canvas |
 | Inventory tile | Use shared InventoryGrid sizing and responsive column rules | Artwork fills tile; names/values stay in their assigned footer/overlay slots | Preserve artwork proportions, selection, discovered state and loading placeholders |
-| Progress/stat bar | Track fills its assigned column; caption/value have reserved rows | Current stat vocabulary and 14 Medium values; never put text under a neighbour | Passive unless an existing stat action owns the whole card; no layout changes on updates |
-| Tooltip | 8-pixel inset around wrapped body text; bound to viewport | Regular 14, full readable caption; no image distortion | Passive, opaque dark surface; never steal movement/focus |
-| Status/error text | Caption 12 below its owning control with 8-pixel gap | Regular, muted for ordinary state; meaningful errors use established semantic colour | Feedback belongs locally unless UI_NOTIFICATIONS.md explicitly allows the global banner |
+| Progress/stat bar | Track fills its assigned column; caption/value have reserved rows | Current stat vocabulary, Theme.Fonts.caption labels and Theme.Fonts.stat 14 values; never put text under a neighbour | Passive unless an existing stat action owns the whole card; no layout changes on updates |
+| Tooltip | 8-pixel inset around wrapped body text; bound to viewport | Theme.Fonts.body 14, full readable caption; no image distortion | Passive, opaque dark surface; never steal movement/focus |
+| Status/error text | Caption 12 below its owning control with 8-pixel gap | Theme.Fonts.caption, muted for ordinary state; meaningful errors use established semantic colour | Feedback belongs locally unless UI_NOTIFICATIONS.md explicitly allows the global banner |
 | Resize handle | Invisible 32 by 32 bottom-right hit region, inset 4 from window edges | Empty visible text; accessible resize label only | No resize icon, diagonal marks, dot pattern, grip lines, box or decorative hover fill; retain mouse/touch/controller resizing |
 
 A control's disabled state must agree with Active, Interactable and Selectable.
@@ -1565,7 +1648,7 @@ square. Mouse, controller and touch operate the same logical control.
 
 The normal preferred window is 420 by 660, minimum 300 by 280, clamped to the
 current safe bounds. The title/drag region is 44 high and reserves the close
-slot; the title is offset (16,6), size 20 Bold. The obsolete scope caption was
+slot; the title is offset (16,6), size 20 with Theme.Fonts.title. The obsolete scope caption was
 removed at Daniel's request on 31 October 2026. Search is at (12,52), width
 window-24 and height 44. Its result caption starts at (16,100), is 18 high and
 uses caption size 12. The section scroll starts at (12,126), width window-24,
@@ -1574,7 +1657,7 @@ reserving the existing footer and resize region.
 Section rows share the scroll content width, including its single 10-pixel
 scrollbar gutter. Each header is 44 high, has an 8-pixel radius, and is followed
 by an 8-pixel gap to expanded content. Its transparent caption begins at X12,
-has width header-56, full header height, Bold 18 and left alignment. Its
+has width header-56, full header height, Theme.Fonts.button 18 and left alignment. Its
 24-pixel chevron has center (width-16,height/2), with a four-pixel outer right
 inset. Feedback covers the complete header, not the caption rectangle.
 Command rows stack with 12-pixel gaps. Search expands only matching sections
@@ -1599,7 +1682,7 @@ support actual native views; neither alone is live gameplay acceptance.
 
 Daniel requires game-owned text to follow the selected language, including the
 action bar, emotes, biome signs, shop labels and discovery counters. Keep the
-original font face and default size when it fits. Fixed-size labels and buttons
+assigned semantic font face and original default size when it fits. Fixed-size labels and buttons
 may shrink below the usual preferred size when needed, with the original size
 as their ceiling and eight pixels as the lower bound. Keep authored wrapping,
 automatic layout and existing scaling. Never stretch lettering horizontally.
@@ -1649,7 +1732,7 @@ for the compatible joint aliases and attachment rules.
 ## Activity totals inside Player Stats, 30 October 2026
 
 Running and Swimming each show a separate Total distance value in whole studs
-with grouped digits, using the existing medium BuilderSans body size and card
+with grouped digits, using Theme.Fonts.stat at the existing body size and card
 palette. Keep loading distinct from a confirmed zero. Preserve the calculated
 speed, XP, benefits and responsive wrapping, with no extra toolbar readout.
 Use compact muted hints for running, swimming and jump/carry training outside
@@ -1673,7 +1756,7 @@ K/M/B/T abbreviations. The toolbar's green symbol must have no separate
 layout gap before its amount. Formatting never changes underlying prices,
 balances or rewards. See CURRENCY.md.
 
-Shop search shares the title row, uses InputFields styling, BuilderSans body
+Shop search shares the title row, uses InputFields styling, Theme.Fonts.input
 text and a 44-pixel borderless Material close control. Keep 24 pixels before
 desktop Buy. Wrap tabs below on narrow screens and use side-by-side results and
 checkout in short landscape. Filter names/descriptions, prefer current-tab
@@ -1744,14 +1827,14 @@ Each header has its own illustrated biome
 icon and a two-pixel biome-coloured border. Align the header body with the
 left edge of the first tile and the right edge of the last grid column, excluding
 the border. Use the same responsive grid inset and width for every biome.
-The title uses Heavy BuilderSans at
+The title uses Theme.Fonts.heading (BuilderSans ExtraBold) at
 28 pixels on desktop and 22 on narrow layouts, with a two-pixel dark text outline.
 Allow two title lines on phones; keep the icon and discovery count separate.
 Leave a sixteen-pixel landscape strip between each biome header and the first
-creature row. Discovery totals use 22-pixel text on desktop and at least
+creature row. Discovery totals use Theme.Fonts.number at 22 pixels on desktop and at least
 18 pixels on narrow layouts. Emphasize the discovered numerator at 36 pixels
 on desktop and 30 on narrow layouts, using the same colour as the biome border.
-On phones the discovered caption may wrap onto its own line, using 16 pixels
+On phones the discovered caption uses Theme.Fonts.caption and may wrap onto its own line, using 16 pixels
 on the tightest layouts so full biome names still fit. Backyard and Farm
 use green borders and matching green discovered numerators.
 These are section artwork layers over the opaque window, never views
@@ -1831,20 +1914,110 @@ claim discounts, popularity or scarcity. Preserve the real active countdown,
 next-tier eligibility, unavailable states and direct native checkout.
 
 Selected Cash offers use three separate footer labels: the exact dollar amount
-in bold at 28 pixels (24 on narrow or short layouts), the pack name at 18 pixels
-(16 on short layouts), and a 14-pixel supporting value or price-status line.
+uses Theme.Fonts.number at 28 pixels (24 on narrow or short layouts), the pack
+name uses Theme.Fonts.heading at 18 pixels (16 on short layouts), and the
+supporting value or price-status line uses Theme.Fonts.caption at 14 pixels.
 Use a dollar prefix on Cash amounts and value-per-Robux figures. Do not join the
 amount and pack name with a pipe. Keep the price on the purchase button with
-18-pixel text and at least eight pixels between the supporting line and button.
+18-pixel Theme.Fonts.button text and at least eight pixels between the supporting line and button.
 Round displayed compact unit values down to two decimal places; comparisons
 continue to use exact verified prices and rates. Loading or unverified prices
 never imply a confirmed unit value.
 
-Use BuilderSans throughout interface text. Regular is for body copy, medium
-for controls and values, and bold for titles, biome headings and creature names.
-Use `Theme.Fonts` when accepting a theme, or the matching BuilderSans enum.
-Do not introduce Gotham, Fredoka, SourceSans or a separate font per feature.
-Text embedded in authored logos is artwork and retains its design.
+The following table is the single current font standard, adopted on
+5 November 2026. Every role has one font. Use the same role in every component, including
+world-space labels, HUD, tiles, details, callouts, dialogs and developer UI.
+This replaces the former BuilderSans-only rule, Fredoka ban and competing
+recommendations for quality badges, titles, buttons and values. Do not choose
+a different font for an individual screen.
+
+| Semantic role | Required font | Exact use |
+| --- | --- | --- |
+| `title` | BuilderSans ExtraBold | Routine window titles and general prominent titles |
+| `heading` | BuilderSans ExtraBold | Passive section/card/biome headings and prominent routine world labels |
+| `number` | BuilderSans ExtraBold | Prominent routine wallet balances, large counters and summary numerators |
+| `creatureName` | Fredoka One | Creature display-name labels in tiles, details, callouts and announcements |
+| `quality` | Fredoka One | Creature/egg quality captions: Standard, Fine, Superior, Epic and Legendary |
+| `reward` | Fredoka One | Large amounts or item-name labels presenting an earned/granted reward |
+| `button` | BuilderSans Bold | Action captions, dropdown options, checkbox action labels and keycap captions |
+| `tab` | BuilderSans Bold | Navigation tab captions, including their inline counts |
+| `stat` | BuilderSans Bold | Ordinary stat values, numeric readouts and passive prices |
+| `count` | BuilderSans Bold | Ordinary stack quantities and compact counters |
+| `body` | BuilderSans Medium | Descriptions, help, paragraphs and tooltip copy |
+| `caption` | BuilderSans Medium | Supporting labels, status, rarity/conservation text and discovery captions |
+| `input` | BuilderSans Medium | Search, text and numeric field contents, including placeholders |
+| `celebration` | Luckiest Guy | Explicit special celebration headlines, such as New Egg, new discovery or victory |
+
+See the current native Edit examples at [desktop width](#component-typography-desktop)
+and [phone width](#component-typography-phone). These use actual shared fonts
+and button components with sample text; they demonstrate appearance and fit,
+not live gameplay or device performance.
+
+Use `label.FontFace = Theme.Fonts.<role>` for native text. When an existing
+API needs an Enum.Font, use the same role from `Theme.FontEnums.<role>`.
+`Fonts.regular` and `Fonts.medium` are compatibility aliases of BuilderSans
+Medium, `Fonts.bold` of BuilderSans Bold, and `Fonts.extraBold` of BuilderSans
+ExtraBold. Matching FontEnums aliases exist. New and modified code names the
+semantic role instead of relying on an alias to imply purpose. Fredoka One
+and Luckiest Guy are naturally thick faces; their native Regular weight is
+correct and does not mean they should be replaced with a BuilderSans weight.
+
+The ReplicatedFirst LoadingStatus caption is an explicit bootstrap exception
+to importing Theme: it uses fixed Enum.Font.BuilderSansMedium for its `caption`
+role before ProjectUI replication. Do not wait for Theme from this early
+loading screen. This exception changes dependency order, not the chosen font,
+and does not permit feature screens to create their own font maps.
+
+Resolve mixed content by its actual label role, in this order:
+
+1. An action caption, tab caption or editable field uses its control role,
+   even if its words mention a creature, quality, price or reward. Buy
+   Legendary Egg is a button caption, so it uses `button`.
+2. Passive content within a clickable tile keeps its own role. Its creature
+   name uses `creatureName`, quality uses `quality`, stack uses `count` and
+   price uses `stat`. The tile's clickable root does not turn these labels
+   into button captions. A separate Buy action still uses `button`.
+3. An explicit celebration headline uses `celebration`. A separate creature
+   name or large earned amount inside that celebration uses `creatureName`
+   or `reward`, respectively. Do not use Luckiest Guy for ordinary windows,
+   ongoing status, reward amounts or every successful click.
+4. Other passive labels use their content role. A wallet balance and a shop
+   offer's large Cash amount use `number`; a granted +Cash popup uses `reward`.
+   An ordinary stat/price uses `stat`, not `number` merely because it contains
+   digits. Body size alone does not turn supporting copy into a title.
+
+Quality means the five named creature/egg quality tiers above. Biomes,
+conservation status, creature rarity, shop rarity and equipment rarity use
+their normal heading/caption roles. They do not acquire `quality` from their
+colour or the presence of the word Legendary. A species display-name label
+uses `creatureName` even when it is the largest title on a detail view.
+
+Measure text with its actual assigned FontFace, size, wrapping and rich text.
+Prefer native GetTextBoundsAsync with GetTextBoundsParams.Font copied from
+that FontFace; existing GetTextSize callers must use the matching FontEnums
+role. Cache measurements with the font role and relevant layout inputs.
+Do not estimate a Fredoka or ExtraBold label using the previous font's widths.
+
+Preserve existing text sizes, responsive caps, outlines, shadows, padding,
+wrapping, localization and fitting ownership. This is a font-role change,
+not authorization to enlarge text, add fitting loops or replace approved
+underlay/button renderers. Authored logo/image lettering retains its artwork;
+Roblox-owned CoreGui and native prompt interfaces retain engine ownership.
+Historical captures and immutable evidence remain dated examples of their
+original implementation, not current font references.
+
+For example, a creature tile and its separate action use:
+
+```lua
+nameLabel.FontFace = Theme.Fonts.creatureName
+qualityLabel.FontFace = Theme.Fonts.quality
+quantityLabel.FontFace = Theme.Fonts.count
+priceLabel.FontFace = Theme.Fonts.stat
+buyButton.FontFace = Theme.Fonts.button
+```
+
+Use the existing shared component rather than copying its renderer. See
+[UI_TILES.md](UI_TILES.md) for selection, input, pending state and window rules.
 
 The normal sizes are 20 for window titles, 18 for section headings, 14 for body
 and controls, and 12 for captions. Narrow windows may use a 16-pixel title.
@@ -1976,7 +2149,7 @@ Use `Tabs.select`; colour alone must not be
 the only selection cue. Tabs fit the available width and remain in stable order.
 Garden, Stored and Collection captions are bold, 18 pixels on desktop and
 16 pixels on narrow layouts (window width below 560 pixels). Use
-`Theme.Fonts.bold` for both the button and its visible TabCaption. The desktop
+`Theme.Fonts.tab` for both the button and its visible TabCaption. The desktop
 size matches the current Garden Eggs reference. Preserve the existing tab
 boxes, heights, spacing, top corners, divider and selected blue underline.
 Player Stats uses the same bold captions and 18/16-pixel desktop/narrow
@@ -2164,7 +2337,7 @@ Do not publish pickups, drops, captures, rescues, returns, catches, deaths, day/
 
 Only error, warning, explicit announcement and the dedicated confirmed server-boost kind can publish or display. The boost kind follows the explicit 30 October exception above. Routine info/success and the retired BackyardMessage bridge are rejected, including legacy packets. Do not mislabel routine feedback as an error to bypass this rule.
 
-Use a passive Frame and inactive message/icon/bounds. Only its separate 28 by 28 close control may receive input. Never make the whole banner a button, set Modal, bind movement keys, capture actions or automatically select a UI object. The notice stays above the action dock with an eight-pixel gap, at most 560 pixels wide and twelve-pixel side margins. BuilderSans text is 16 pixels, or 14 below 500 pixels wide, with measured wrapping, opaque semantic fill and no border.
+Use a passive Frame and inactive message/icon/bounds. Only its separate 28 by 28 close control may receive input. Never make the whole banner a button, set Modal, bind movement keys, capture actions or automatically select a UI object. The notice stays above the action dock with an eight-pixel gap, at most 560 pixels wide and twelve-pixel side margins. Theme.Fonts.caption text is 16 pixels, or 14 below 500 pixels wide, with measured wrapping, opaque semantic fill and no border.
 
 One important notice may appear for four seconds (Daniel, 31 October 2026). Identical repeats do not restart its timer and have a short eight-second repeat interval from the first display. There is no queue or replay after expiry, dismissal, hidden HUD, camera UI hiding, respawn or teardown. Emote cooldown rejection is announced once per block instead of every second. The small close control supports deliberate dismissal without claiming the message body as a hitbox.
 
@@ -2209,7 +2382,7 @@ Trap hotbar hints use the action and effect, such as Place to slow rivals.
 Deployment limits remain in the equipped count label and shop/wiki guidance.
 
 Roblox owns the built-in backpack tooltip font and container. Game-owned
-world-space trap labels use BuilderSans Bold at a fixed 22 pixels, wrapping
+world-space trap labels use Theme.Fonts.heading at a fixed 22 pixels, wrapping
 within a 64-pixel area, without TextScaled reducing readability. Keep counts
 and placement restrictions accurate. Panel body text retains the ordinary
 shared size; this larger world-space guidance is an intentional exception.
@@ -2322,7 +2495,7 @@ The following source assessment established the current reusable patterns:
 
 | Area inspected | Existing pattern retained in these rules |
 | --- | --- |
-| `ui_theme.luau`, `ui_button_states.luau` | Opaque charcoal surfaces, blue primary actions, BuilderSans, borderless buttons and stable fill feedback |
+| `ui_theme.luau`, `ui_button_states.luau` | Opaque charcoal surfaces, blue primary actions, semantic font roles, borderless buttons and stable fill feedback |
 | `ui_tabs.luau`, `ui_input_fields.luau` | Lighter tab surfaces, selected underline, bordered search fields and accessible labels |
 | `garden_manager.client.luau`, `pet_collection_view.luau` | Garden/Stored/Collection navigation, sorting, search, creature icons, discovery silhouettes and stable lists |
 | `egg_inventory.client.luau`, `hatch_replacement_ui.luau` | Explicit Hatch actions, confirmed server outcomes, safe-area dialogs and reachable short-screen actions |
@@ -2441,7 +2614,7 @@ it does not establish gameplay tween or reward acceptance.
 Every fresh confirmed XP increase may show a small cue at the centre of
 that skill bar's pending white segment. Show only a skill-coloured plus sign
 followed by the matching category artwork, with no amount. Prefer the visible
-Stats bar, otherwise the toolbar. Use the existing bold font and skill colours.
+Stats bar, otherwise the toolbar. Use Theme.Fonts.reward and the existing skill colours.
 Its resting scale is twice the earlier 48 by 28 cue, subject to screen fitting.
 Native tweens grow it from 60 percent to 118 percent in 0.16 seconds, settle to
 100 percent in another 0.16, then float 48 pixels clear of its source, straighten
@@ -2630,8 +2803,9 @@ unnecessary space without per-frame camera zoom or mesh inspection.
 ## Rare egg notice control, 31 October 2026
 
 Use a passive top-centre Theme panel, radius 12 and horizontal padding 12.
-Quality/creature uses BuilderSans Bold 20; the spawn/biome clause uses Medium
-16. Egg icons remain 36 square and biome icons 28 square. Use a shared 6-pixel
+Quality and creature labels use Theme.Fonts.quality and Theme.Fonts.creatureName
+at 20; the spawn/biome clause uses Theme.Fonts.caption at 16. Egg icons remain
+36 square and biome icons 28 square. Use a shared 6-pixel
 spacing unit. The egg has a 2-pixel optical inset on each side to absorb its
 transparent artwork padding, giving 4 pixels at both adjacent element edges.
 The biome icon keeps a 6-pixel leading gap. Inline groups share the same
@@ -2760,9 +2934,9 @@ Existing tab, tile, navigation icon and top-tray appearances remain unchanged.
 
 ## Credits hierarchy, 31 October 2026
 
-Use one large bold line per name and role: Daniel Barnes - Creator & Lead
-Developer, then Barnathy - 3D Artist. Follow with a medium Playtesters heading
-and two columns of small regular tester names. Settings uses title 20, heading
+Use one large Theme.Fonts.heading line per name and role: Daniel Barnes - Creator & Lead
+Developer, then Barnathy - 3D Artist. Follow with a Theme.Fonts.heading Playtesters heading
+and two columns of small Theme.Fonts.body tester names. Settings uses title 20, heading
 18 and body 14, with a 12-pixel column gap and 4-pixel row gaps. Keep automatic
 height and wrapping instead of shrinking or clipping full names. Preserve the
 roster's left-to-right order, role translations, public acknowledgement-only
@@ -2788,7 +2962,8 @@ inline rows, or change card, hotbar, emote and reward illustration layouts.
 ## Biome recommendation subtitles, 1 November 2026
 
 Each official biome except Sunnyside Backyard has a smaller centered recommendation
-below its ground title. Backyard keeps only its name. Reuse its existing SurfaceGui, BuilderSansBold, pale green text and
+below its ground title. Backyard keeps only its name. Reuse its existing SurfaceGui,
+Theme.Fonts.heading for the main title, Theme.Fonts.caption for the recommendation, pale green text and
 black stroke. Keep the main title's world position. Extend the invisible sign
 height from 4.95 to eight studs beneath it. At 32 pixels per stud, the main
 title retains its first 158 pixels; the subtitle starts at Y166 and has a

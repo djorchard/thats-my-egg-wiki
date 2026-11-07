@@ -1,0 +1,73 @@
+{
+  "species": "Thorny Mantis",
+  "component": {
+    "score": 8.5,
+    "status": "Pass for bounded tested gates and scales",
+    "minimumSupportFeet": 2,
+    "maximumNativeStanceDriftH": 0.0001721262692245005,
+    "maximumNativeIntrusionH": 7.595618565877278e-05,
+    "gateCasesPerGraph": 48
+  },
+  "scope": "Exact unchanged native controller with the installed eight authored bridges. One-second examples are offline renders of actual Step transforms at 40 fps, not recordings of live gameplay.",
+  "sourceClips": {
+    "file": "output/thorny-mantis-import-20261107/handoff-prototype/attempt02/clips-proposal.json",
+    "sha256": "ea71580e59f28419b9ec21c6319ecb8fae752633d7d27204aa1c7f9c676b37bc"
+  },
+  "native": {
+    "file": "assets/pets/thorny-mantis-v1/ankle-fit/native-mesh.json",
+    "sha256": "1739e9918ad8434e05ac925515f3e8dea7343671bdfcbfae8317e13afcf0a8f9"
+  },
+  "model": {
+    "file": "creatures/thorny-mantis/thorny-mantis-4-contact-gait-transitions.fbx",
+    "sha256": "bbfe118ac76f676f7067f14c7c04662def8e0a30b5576bba7c519d4660443879"
+  },
+  "configuration": {
+    "file": "src/creature_config.luau",
+    "key": "Thorny Mantis",
+    "sha256": "4c0587aec2941ec2bc6dd86f52e56d8a3503e92b28609f454215a523c75f2a20"
+  },
+  "cyclicEquality": {
+    "file": "output/thorny-mantis-import-20261107/handoff-prototype/attempt02/cyclic-equality.json",
+    "sha256": "1533c4e98de8c534ac835d2e1e88533eb47e6d99311623b52b76f61b5efcc9ba"
+  },
+  "nativeVerification": {
+    "file": "output/thorny-mantis-import-20261107/native-review/handoff-comparison/verification.json",
+    "sha256": "a90c1bf4f3d9cdb92897668d96e3c6c62090f73476450a688ab7d35b4c8d3952"
+  },
+  "sourceAssessment": {
+    "file": "output/thorny-mantis-import-20261107/handoff-prototype/final-assessment.json",
+    "sha256": "74102120531e59f3a9119643263a845a7c8944f8b7733c9b85991f2f7833ecd5"
+  },
+  "mediaVerification": {
+    "file": "output/thorny-mantis-import-20261107/artwork/handoff-step-media/aa614a1684d8/media-check.json",
+    "sha256": "dfb6b49fa1d8010e328856ab13d27157e8b69e6394fdbbea94d33d3c1b3ea91d"
+  },
+  "visualReview": {
+    "file": "output/thorny-mantis-import-20261107/artwork/handoff-step-media/aa614a1684d8/visual-review.json",
+    "sha256": "c62bc0c42bd7a088fb751888b8711ece1706a5b8e934e7e3ad022b922c008e43"
+  },
+  "remainingDefects": [
+    {
+      "issue": "Start, stop and restart blending",
+      "evidence": "The candidate full Step schedule reaches 0.01677 H floor intrusion on restart; the mid-bridge-stop restart reaches 0.01219 H, above the declared 0.005 H tolerance."
+    },
+    {
+      "issue": "Chase entry blending",
+      "evidence": "Direct Idle-to-Chase entry reaches 0.02372 H intrusion before settling; the post-turn context reaches 0.03493 H."
+    },
+    {
+      "issue": "Tight follower turning",
+      "evidence": "The candidate continuous 90-degree-per-second arc has 0.23772 H stance drift. It is reachable under actual follower limits, but is a sustained-turn stress case rather than a literal ordinary garden trip."
+    },
+    {
+      "issue": "Residual narrow ankle cuff extension",
+      "evidence": "No loose tether or open tear was seen in inspected final views, but the strongest local ankle edge reaches 3.65 times its bind length."
+    },
+    {
+      "issue": "Blink quality",
+      "evidence": "The prior eye result remains 7.0 against its separate 7.5 threshold. The separately owned lid prototype is not consumed by this proposal."
+    }
+  ],
+  "fullMovementAccepted": false,
+  "gameplayTested": false
+}

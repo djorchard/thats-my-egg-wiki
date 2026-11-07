@@ -23,7 +23,9 @@ text-fitting caps and prompt availability. Egg callout order is unchanged.
 The following pet callout keeps the name and quality above two action rows.
 Send home (H) and Mount (M) share the first row when mounting is available.
 Praise (R) spans the second row and becomes Feed while holding suitable food.
-The shared keycap artwork follows the current input mode.
+The top and bottom clearance matches the sides of the callout body. Native
+nine-slice sizing preserves the existing bevel and tail. The shared keycap
+artwork follows the current input mode.
 
 ## Trail tile readability, 5 November 2026
 

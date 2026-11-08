@@ -1,5 +1,5 @@
 {
-  "updated": "5 November 2026",
+  "updated": "8 November 2026",
   "scope": "Current mapped project source audit, plus documented Roblox defaults. This is a control map, not a live-input test.",
   "references": {
     "roblox-defaults": {
@@ -41,7 +41,7 @@
       "category": "game",
       "label": "Hold for running boost",
       "short": "Run boost",
-      "context": "Requires Running level 20; also modifies emote number shortcuts while that menu is open.",
+      "context": "Requires Running level 40; also modifies emote number shortcuts while that menu is open.",
       "sources": [
         {
           "file": "src/running_boost.client.luau",
@@ -786,6 +786,23 @@
       "short": "System",
       "context": "System or modifier key. No dedicated project action found.",
       "sources": []
+    },
+    {
+      "id": "running-hide",
+      "keys": [
+        "LeftControl",
+        "RightControl"
+      ],
+      "category": "context",
+      "label": "Hold to hide",
+      "short": "Hide / dive",
+      "context": "Running level 20, on land in grass or behind cover, more than 20 studs from guardians. Move at 30% speed. Ctrl retains Dive while swimming; L2 and touch use the shared action.",
+      "sources": [
+        {
+          "file": "src/running_hide.client.luau",
+          "needle": "local action = context:WaitForChild(\"Hide\")"
+        }
+      ]
     }
   ],
   "notes": [

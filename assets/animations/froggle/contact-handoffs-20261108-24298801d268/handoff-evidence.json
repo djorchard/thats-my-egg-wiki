@@ -1,0 +1,704 @@
+{
+  "creature": "Froggle",
+  "scope": "Shown straight Walk/Run handoffs only",
+  "ratingOutOf10": 8.5,
+  "assessment": {
+    "creature": "Froggle",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-11-07T20:03:49.118651+00:00",
+    "ratingOutOf10": 8.5,
+    "requiredBodyScore": 8.5,
+    "verdict": "good",
+    "confidence": "medium",
+    "scope": "shown-handoffs-only",
+    "scopeText": "Eight finite straight-travel Walk/Run handoffs at 3.4-stud height. WalkToRun previews use 4.182 studs/s; RunToWalk previews use 1.005634 studs/s. This is an offline frame-sequence and shown-speed assessment backed by separate native dispatch/contact checks. Starts, stops, turns, Chase interruption, network behavior, mobile performance and live gameplay remain separate.",
+    "comment": "The paired feet recover and receive the body before the next hop instead of abruptly selecting a mismatched gait phase. The airborne entry folds into a forefoot landing, grounded entries retain a stable supporting pair, and the head, wings and belly keep the accepted shape. No new visible foot penetration, stretched limb or discrete phase snap appeared in the inspected timed sequences. The stylized upright torso and existing localized shoulder stretch remain.",
+    "allEightInspected": true,
+    "bodyHeightStuds": 3.4,
+    "speedsStudsPerSecond": {
+      "WalkToRun": 4.182,
+      "RunToWalk": 1.0056338028169014
+    },
+    "method": "Inspected chronological time-labelled side and front-quarter sequences, including both sides of the fastest airborne entry. Normal-time MP4/GIF frame counts and durations were independently decoded. No animal footage or live gameplay was watched for this review.",
+    "proof": {
+      "media": {
+        "file": "output/all-creature-animation-20261108/froggle-handoff/handoff-media/verification.json",
+        "sha256": "e69d85bbd64b155823639e37ebe04502cbe57dcd2c17c67e2d9abd2004560ff5"
+      },
+      "labels": {
+        "file": "output/all-creature-animation-20261108/froggle-handoff/handoff-media/pixel-preservation.json",
+        "sha256": "7368b3707e53adf34446e8f523c6d3e24beb87a60af6ef9af2d4081658408efd"
+      },
+      "native": {
+        "file": "output/all-creature-animation-20261108/froggle-handoff/quarter-native/passed-native-result.json",
+        "sha256": "6abde7fddcccc7d88a490770b8cfafacfa31f9efa860695dfed7dac7f6521928"
+      },
+      "offline": {
+        "file": "output/all-creature-animation-20261108/froggle-handoff/quarter-gates-attempt02/summary.json",
+        "sha256": "de0a7f8fa299ad05cb2a464bd4c0550ffc553145548f4299d2e9fbea6ee52381"
+      },
+      "export": {
+        "file": "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/independent-reimport.json",
+        "sha256": "60afe11d43b3557519959c6f7bd7cbd87c2d1f581ae3bb7f0c6863bf573434cf"
+      },
+      "priorCycles": {
+        "file": "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/protected-stage6-equivalence.json",
+        "sha256": "a2c18fa78ffed4ad078e6278dd214667a0cc560edff3b4e66eab4332863e7298"
+      },
+      "fastEntry": {
+        "file": "output/all-creature-animation-20261108/froggle-handoff/fast-entry-derivative.json",
+        "sha256": "be319a907a1e8bffa66ef6a17bd934c67aa26e1765ca7f0a0368d02c6a3f3aaa"
+      }
+    },
+    "oldScoresDatesCommentsAndFingerprintsChanged": false,
+    "savedDeveloperVotesChanged": false,
+    "gameplayTested": false,
+    "saved": false,
+    "published": false,
+    "deliveryOnlyFollowup": "Added 640x528 full-frame-rate copies for the ZIP. Original17full-resolution MP4s, all source frames and review judgment are unchanged."
+  },
+  "installedNative": {
+    "file": "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/installed-native-48.json",
+    "sha256": "2aec941f8005782fa9d9f8e87c7185db974f68e52e53e88a42bf9cbc5a90eb55"
+  },
+  "retainedPreviewNative": {
+    "file": "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-native-27.json",
+    "sha256": "e73538f8be5d958854e9ccdab610dafcb606c69a10dc4ef9ed9e2a2ae6e58bce"
+  },
+  "nativeMaxima": {
+    "waitSeconds": 0.6333333333333333,
+    "fullFootIntrusionH": 0.00024414237807778754,
+    "soleDriftH": 0.0036279508676478472,
+    "phaseError": 4.7992076126525396e-08,
+    "fullSkinIntrusionH": 0.00024414237807778754
+  },
+  "allEight": {
+    "RunToWalk1": [
+      {
+        "view": "side",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 1.0056338028169014,
+        "fps": 50,
+        "durationSeconds": 2.16,
+        "bridgeSeconds": 0.6085714285714285,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk1-side.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk1-side.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk1-side.png"
+      },
+      {
+        "view": "front-quarter",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 1.0056338028169014,
+        "fps": 50,
+        "durationSeconds": 2.16,
+        "bridgeSeconds": 0.6085714285714285,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk1-front-quarter.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk1-front-quarter.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk1-front-quarter.png"
+      }
+    ],
+    "RunToWalk2": [
+      {
+        "view": "side",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 1.0056338028169014,
+        "fps": 50,
+        "durationSeconds": 2.16,
+        "bridgeSeconds": 0.6085714285714285,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk2-side.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk2-side.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk2-side.png"
+      },
+      {
+        "view": "front-quarter",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 1.0056338028169014,
+        "fps": 50,
+        "durationSeconds": 2.16,
+        "bridgeSeconds": 0.6085714285714285,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk2-front-quarter.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk2-front-quarter.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk2-front-quarter.png"
+      }
+    ],
+    "RunToWalk3": [
+      {
+        "view": "side",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 1.0056338028169014,
+        "fps": 50,
+        "durationSeconds": 2.16,
+        "bridgeSeconds": 0.6085714285714285,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk3-side.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk3-side.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk3-side.png"
+      },
+      {
+        "view": "front-quarter",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 1.0056338028169014,
+        "fps": 50,
+        "durationSeconds": 2.16,
+        "bridgeSeconds": 0.6085714285714285,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk3-front-quarter.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk3-front-quarter.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk3-front-quarter.png"
+      }
+    ],
+    "RunToWalk4": [
+      {
+        "view": "side",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 1.0056338028169014,
+        "fps": 50,
+        "durationSeconds": 2.16,
+        "bridgeSeconds": 0.6085714285714285,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk4-side.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk4-side.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk4-side.png"
+      },
+      {
+        "view": "front-quarter",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 1.0056338028169014,
+        "fps": 50,
+        "durationSeconds": 2.16,
+        "bridgeSeconds": 0.6085714285714285,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk4-front-quarter.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk4-front-quarter.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/runtowalk4-front-quarter.png"
+      }
+    ],
+    "WalkToRun1": [
+      {
+        "view": "side",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 4.182,
+        "fps": 50,
+        "durationSeconds": 0.78,
+        "bridgeSeconds": 0.14634146341463414,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun1-side.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun1-side.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun1-side.png"
+      },
+      {
+        "view": "front-quarter",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 4.182,
+        "fps": 50,
+        "durationSeconds": 0.78,
+        "bridgeSeconds": 0.14634146341463414,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun1-front-quarter.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun1-front-quarter.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun1-front-quarter.png"
+      }
+    ],
+    "WalkToRun2": [
+      {
+        "view": "side",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 4.182,
+        "fps": 50,
+        "durationSeconds": 0.78,
+        "bridgeSeconds": 0.14634146341463414,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun2-side.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun2-side.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun2-side.png"
+      },
+      {
+        "view": "front-quarter",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 4.182,
+        "fps": 50,
+        "durationSeconds": 0.78,
+        "bridgeSeconds": 0.14634146341463414,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun2-front-quarter.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun2-front-quarter.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun2-front-quarter.png"
+      }
+    ],
+    "WalkToRun3": [
+      {
+        "view": "side-left",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 4.182,
+        "fps": 60,
+        "durationSeconds": 0.8333333333333334,
+        "bridgeSeconds": 0.14634146341463414,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun3-side-left.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun3-side-left.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun3-side-left.png"
+      },
+      {
+        "view": "side-right",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 4.182,
+        "fps": 60,
+        "durationSeconds": 0.8333333333333334,
+        "bridgeSeconds": 0.14634146341463414,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun3-side-right.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun3-side-right.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun3-side-right.png"
+      },
+      {
+        "view": "front-quarter",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 4.182,
+        "fps": 60,
+        "durationSeconds": 0.8333333333333334,
+        "bridgeSeconds": 0.14634146341463414,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun3-front-quarter.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun3-front-quarter.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun3-front-quarter.png"
+      }
+    ],
+    "WalkToRun4": [
+      {
+        "view": "side",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 4.182,
+        "fps": 50,
+        "durationSeconds": 0.78,
+        "bridgeSeconds": 0.14634146341463414,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun4-side.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun4-side.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun4-side.png"
+      },
+      {
+        "view": "front-quarter",
+        "heightStuds": 3.4,
+        "speedStudsPerSecond": 4.182,
+        "fps": 50,
+        "durationSeconds": 0.78,
+        "bridgeSeconds": 0.14634146341463414,
+        "normalTime": true,
+        "gif": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun4-front-quarter.gif",
+        "video": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun4-front-quarter.mp4",
+        "poster": "assets/animations/froggle/contact-handoffs-20261108-24298801d268/walktorun4-front-quarter.png"
+      }
+    ]
+  },
+  "sourceProposal": {
+    "file": "output/all-creature-animation-20261108/froggle-handoff/source-proposal/proposal.json",
+    "sha256": "13a0af037dbde70e61930e83597538f87979bebe189f024a579b7867659c5fb9"
+  },
+  "model": {
+    "file": "creatures/froggle/froggle-7-gait-transitions2.fbx",
+    "sha256": "24298801d2688c601a550b89901660b08c6ff0777beded78298824eb412e60d7"
+  },
+  "unchangedPreviewBindings": {
+    "Idle": {
+      "model": "creatures/froggle/froggle-7-gait-transitions2.fbx",
+      "modelSha256": "24298801d2688c601a550b89901660b08c6ff0777beded78298824eb412e60d7",
+      "clipSources": [
+        {
+          "file": "src/creature_clips_froggle_pet_v2.luau",
+          "sha256": "031915f057bcaa19abe847182f0ebaab9244f75b92813ba38563032fc3ed7ac9"
+        },
+        {
+          "file": "src/creature_clips_froggle_pet_v2_idle.luau",
+          "sha256": "b31c7d280124d7c1f0f616e14dd30cd4f2cf52ef7d1a35fecce4cc49ace52f12"
+        }
+      ],
+      "controllerSources": {
+        "src/creature_animation.luau": "24a8bcc9955ca82efd0826e9099b7125a9eb580bf8de1da4d20904de75b82458"
+      },
+      "sidecarSources": {
+        "assets/pets/froggle-lowpoly-v2/contact-fit/native-mesh.json": "536ff3f095c7ed16a26ac3553eaf2bd17e390e72d5ced3763c78dd76c5d6d464",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-native/passed-native-result.json": "6abde7fddcccc7d88a490770b8cfafacfa31f9efa860695dfed7dac7f6521928",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/installed-native-48.json": "2aec941f8005782fa9d9f8e87c7185db974f68e52e53e88a42bf9cbc5a90eb55",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-native-27.json": "e73538f8be5d958854e9ccdab610dafcb606c69a10dc4ef9ed9e2a2ae6e58bce",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-preparation.json": "8a465a067162ae0a874459f1a4c141458b5253272f7f8d7a0491dae7bd4c010b",
+        "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/independent-reimport.json": "60afe11d43b3557519959c6f7bd7cbd87c2d1f581ae3bb7f0c6863bf573434cf",
+        "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/protected-stage6-equivalence.json": "a2c18fa78ffed4ad078e6278dd214667a0cc560edff3b4e66eab4332863e7298",
+        "output/all-creature-animation-20261108/froggle-handoff/handoff-media/verification.json": "e69d85bbd64b155823639e37ebe04502cbe57dcd2c17c67e2d9abd2004560ff5",
+        "output/all-creature-animation-20261108/froggle-handoff/transition-assessment.json": "ce50222bc2edef37e1f3318d929c04cbaa85b165f72cce7d71c2c87ed8df2ae2",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/installed-image-receipt.json": "8ac26fb85f93b29796dae9cf974a2dd3c3abd20d7b8015d7feea488743e4f6fd",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-gates-attempt02/summary.json": "de0a7f8fa299ad05cb2a464bd4c0550ffc553145548f4299d2e9fbea6ee52381",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-gates-attempt02/transition-clips.json": "45c1dda583e42164ea5791b4cf08b3854defaace89d1a27df663d707bd40a107",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/color.png": "8536a9cdbbf14fbe97e98b4d9e6329678a9d043ec9fa259684d43e69c45ece20",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/roughness.png": "1a4c05956fc870db789a0207f9a7cf0b38bd8d2f3524bcb885ed1315439b075c",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/metallic.png": "0f4b1668d119f77ceb6b86645573f088ab2341d7b284314d5df0be7226ea5d91"
+      },
+      "configurationSource": {
+        "file": "src/creature_config.luau",
+        "key": "FrogglePetV2",
+        "sha256": "6319a1ca2fd4dcbe4c740c421db1d79f110fd6e617760f3f7c73533d5eddd511"
+      },
+      "retainedPreviewEquivalence": {
+        "proof": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-native-27.json",
+          "sha256": "e73538f8be5d958854e9ccdab610dafcb606c69a10dc4ef9ed9e2a2ae6e58bce"
+        },
+        "preparation": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-preparation.json",
+          "sha256": "8a465a067162ae0a874459f1a4c141458b5253272f7f8d7a0491dae7bd4c010b"
+        },
+        "exportEquivalence": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/protected-stage6-equivalence.json",
+          "sha256": "a2c18fa78ffed4ad078e6278dd214667a0cc560edff3b4e66eab4332863e7298"
+        },
+        "preservedSourceFingerprint": "c2d72e9259317c184219ebea1c13ed7836ddbba0b79fbfb027dd6bb97b6a1ce1",
+        "scope": "Every retained preview frame and Blink overlay matches the actual installed controller. Old media, scores, dates and comments are unchanged. The new handoff assessment is separate."
+      }
+    },
+    "Walk": {
+      "model": "creatures/froggle/froggle-7-gait-transitions2.fbx",
+      "modelSha256": "24298801d2688c601a550b89901660b08c6ff0777beded78298824eb412e60d7",
+      "clipSources": [
+        {
+          "file": "src/creature_clips_froggle_pet_v2.luau",
+          "sha256": "031915f057bcaa19abe847182f0ebaab9244f75b92813ba38563032fc3ed7ac9"
+        },
+        {
+          "file": "src/creature_clips_froggle_pet_v2_walk.luau",
+          "sha256": "06853b6a114c20e4c127affce18f42835a57169558053ff8c3057e83d0a93aca"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_walktorun1.luau",
+          "sha256": "d0642da9963e19ba49733016177e521848e36da657fdc0d4473f31b42ccfab9e"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_walktorun2.luau",
+          "sha256": "e11f8e09ccf6a92947241662c45cd8f6fbaf09b7d0f6ef7571c562b646afedb9"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_walktorun3.luau",
+          "sha256": "2dd762d19225c097c9002162c4b99878a6ad22fcce9b702b5574ca4e13a6bd98"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_walktorun4.luau",
+          "sha256": "94bde97faa47a7078bdfa0db714c62a69d81fda281d7c8e97292f8510e4c8dd1"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_runtowalk1.luau",
+          "sha256": "556cde9010f3207fcc72a134e9130e82828fb7d3dbae920ce090f86c61ee3c79"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_runtowalk2.luau",
+          "sha256": "e3a4b232f4fd48559e38ea4fb3097c77595820aa68f31315ad4ea3056eb0162e"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_runtowalk3.luau",
+          "sha256": "a74ea22c15032d572258d80ae9d718991c633a5ffce7748783ebe1125c369b83"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_runtowalk4.luau",
+          "sha256": "020bdaa531097eb2414a23fe2cfa20cb649cb5e13af0959b61245fa6272e467f"
+        }
+      ],
+      "controllerSources": {
+        "src/creature_animation.luau": "24a8bcc9955ca82efd0826e9099b7125a9eb580bf8de1da4d20904de75b82458"
+      },
+      "sidecarSources": {
+        "assets/pets/froggle-lowpoly-v2/contact-fit/native-mesh.json": "536ff3f095c7ed16a26ac3553eaf2bd17e390e72d5ced3763c78dd76c5d6d464",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-native/passed-native-result.json": "6abde7fddcccc7d88a490770b8cfafacfa31f9efa860695dfed7dac7f6521928",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/installed-native-48.json": "2aec941f8005782fa9d9f8e87c7185db974f68e52e53e88a42bf9cbc5a90eb55",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-native-27.json": "e73538f8be5d958854e9ccdab610dafcb606c69a10dc4ef9ed9e2a2ae6e58bce",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-preparation.json": "8a465a067162ae0a874459f1a4c141458b5253272f7f8d7a0491dae7bd4c010b",
+        "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/independent-reimport.json": "60afe11d43b3557519959c6f7bd7cbd87c2d1f581ae3bb7f0c6863bf573434cf",
+        "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/protected-stage6-equivalence.json": "a2c18fa78ffed4ad078e6278dd214667a0cc560edff3b4e66eab4332863e7298",
+        "output/all-creature-animation-20261108/froggle-handoff/handoff-media/verification.json": "e69d85bbd64b155823639e37ebe04502cbe57dcd2c17c67e2d9abd2004560ff5",
+        "output/all-creature-animation-20261108/froggle-handoff/transition-assessment.json": "ce50222bc2edef37e1f3318d929c04cbaa85b165f72cce7d71c2c87ed8df2ae2",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/installed-image-receipt.json": "8ac26fb85f93b29796dae9cf974a2dd3c3abd20d7b8015d7feea488743e4f6fd",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-gates-attempt02/summary.json": "de0a7f8fa299ad05cb2a464bd4c0550ffc553145548f4299d2e9fbea6ee52381",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-gates-attempt02/transition-clips.json": "45c1dda583e42164ea5791b4cf08b3854defaace89d1a27df663d707bd40a107",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/color.png": "8536a9cdbbf14fbe97e98b4d9e6329678a9d043ec9fa259684d43e69c45ece20",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/roughness.png": "1a4c05956fc870db789a0207f9a7cf0b38bd8d2f3524bcb885ed1315439b075c",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/metallic.png": "0f4b1668d119f77ceb6b86645573f088ab2341d7b284314d5df0be7226ea5d91"
+      },
+      "configurationSource": {
+        "file": "src/creature_config.luau",
+        "key": "FrogglePetV2",
+        "sha256": "6319a1ca2fd4dcbe4c740c421db1d79f110fd6e617760f3f7c73533d5eddd511"
+      },
+      "retainedPreviewEquivalence": {
+        "proof": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-native-27.json",
+          "sha256": "e73538f8be5d958854e9ccdab610dafcb606c69a10dc4ef9ed9e2a2ae6e58bce"
+        },
+        "preparation": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-preparation.json",
+          "sha256": "8a465a067162ae0a874459f1a4c141458b5253272f7f8d7a0491dae7bd4c010b"
+        },
+        "exportEquivalence": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/protected-stage6-equivalence.json",
+          "sha256": "a2c18fa78ffed4ad078e6278dd214667a0cc560edff3b4e66eab4332863e7298"
+        },
+        "preservedSourceFingerprint": "9f7966f0f8600209add0f16195492658f0c51c165fa53dc83af1c28654f169eb",
+        "scope": "Every retained preview frame and Blink overlay matches the actual installed controller. Old media, scores, dates and comments are unchanged. The new handoff assessment is separate."
+      }
+    },
+    "Run": {
+      "model": "creatures/froggle/froggle-7-gait-transitions2.fbx",
+      "modelSha256": "24298801d2688c601a550b89901660b08c6ff0777beded78298824eb412e60d7",
+      "clipSources": [
+        {
+          "file": "src/creature_clips_froggle_pet_v2.luau",
+          "sha256": "031915f057bcaa19abe847182f0ebaab9244f75b92813ba38563032fc3ed7ac9"
+        },
+        {
+          "file": "src/creature_clips_froggle_pet_v2_run.luau",
+          "sha256": "9e15324980a20b037bc38fae228427c317850ef8ab4dd0731d42dcfd07ad229a"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_walktorun1.luau",
+          "sha256": "d0642da9963e19ba49733016177e521848e36da657fdc0d4473f31b42ccfab9e"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_walktorun2.luau",
+          "sha256": "e11f8e09ccf6a92947241662c45cd8f6fbaf09b7d0f6ef7571c562b646afedb9"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_walktorun3.luau",
+          "sha256": "2dd762d19225c097c9002162c4b99878a6ad22fcce9b702b5574ca4e13a6bd98"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_walktorun4.luau",
+          "sha256": "94bde97faa47a7078bdfa0db714c62a69d81fda281d7c8e97292f8510e4c8dd1"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_runtowalk1.luau",
+          "sha256": "556cde9010f3207fcc72a134e9130e82828fb7d3dbae920ce090f86c61ee3c79"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_runtowalk2.luau",
+          "sha256": "e3a4b232f4fd48559e38ea4fb3097c77595820aa68f31315ad4ea3056eb0162e"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_runtowalk3.luau",
+          "sha256": "a74ea22c15032d572258d80ae9d718991c633a5ffce7748783ebe1125c369b83"
+        },
+        {
+          "file": "src/creature_transition_froggle_pet_v2_runtowalk4.luau",
+          "sha256": "020bdaa531097eb2414a23fe2cfa20cb649cb5e13af0959b61245fa6272e467f"
+        }
+      ],
+      "controllerSources": {
+        "src/creature_animation.luau": "24a8bcc9955ca82efd0826e9099b7125a9eb580bf8de1da4d20904de75b82458"
+      },
+      "sidecarSources": {
+        "assets/pets/froggle-lowpoly-v2/contact-fit/native-mesh.json": "536ff3f095c7ed16a26ac3553eaf2bd17e390e72d5ced3763c78dd76c5d6d464",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-native/passed-native-result.json": "6abde7fddcccc7d88a490770b8cfafacfa31f9efa860695dfed7dac7f6521928",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/installed-native-48.json": "2aec941f8005782fa9d9f8e87c7185db974f68e52e53e88a42bf9cbc5a90eb55",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-native-27.json": "e73538f8be5d958854e9ccdab610dafcb606c69a10dc4ef9ed9e2a2ae6e58bce",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-preparation.json": "8a465a067162ae0a874459f1a4c141458b5253272f7f8d7a0491dae7bd4c010b",
+        "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/independent-reimport.json": "60afe11d43b3557519959c6f7bd7cbd87c2d1f581ae3bb7f0c6863bf573434cf",
+        "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/protected-stage6-equivalence.json": "a2c18fa78ffed4ad078e6278dd214667a0cc560edff3b4e66eab4332863e7298",
+        "output/all-creature-animation-20261108/froggle-handoff/handoff-media/verification.json": "e69d85bbd64b155823639e37ebe04502cbe57dcd2c17c67e2d9abd2004560ff5",
+        "output/all-creature-animation-20261108/froggle-handoff/transition-assessment.json": "ce50222bc2edef37e1f3318d929c04cbaa85b165f72cce7d71c2c87ed8df2ae2",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/installed-image-receipt.json": "8ac26fb85f93b29796dae9cf974a2dd3c3abd20d7b8015d7feea488743e4f6fd",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-gates-attempt02/summary.json": "de0a7f8fa299ad05cb2a464bd4c0550ffc553145548f4299d2e9fbea6ee52381",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-gates-attempt02/transition-clips.json": "45c1dda583e42164ea5791b4cf08b3854defaace89d1a27df663d707bd40a107",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/color.png": "8536a9cdbbf14fbe97e98b4d9e6329678a9d043ec9fa259684d43e69c45ece20",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/roughness.png": "1a4c05956fc870db789a0207f9a7cf0b38bd8d2f3524bcb885ed1315439b075c",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/metallic.png": "0f4b1668d119f77ceb6b86645573f088ab2341d7b284314d5df0be7226ea5d91"
+      },
+      "configurationSource": {
+        "file": "src/creature_config.luau",
+        "key": "FrogglePetV2",
+        "sha256": "6319a1ca2fd4dcbe4c740c421db1d79f110fd6e617760f3f7c73533d5eddd511"
+      },
+      "retainedPreviewEquivalence": {
+        "proof": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-native-27.json",
+          "sha256": "e73538f8be5d958854e9ccdab610dafcb606c69a10dc4ef9ed9e2a2ae6e58bce"
+        },
+        "preparation": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-preparation.json",
+          "sha256": "8a465a067162ae0a874459f1a4c141458b5253272f7f8d7a0491dae7bd4c010b"
+        },
+        "exportEquivalence": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/protected-stage6-equivalence.json",
+          "sha256": "a2c18fa78ffed4ad078e6278dd214667a0cc560edff3b4e66eab4332863e7298"
+        },
+        "preservedSourceFingerprint": "c755804cc9292bc5e996fdf0002cf637a6a4a3bc728c59df5e58f9000c4ac7e1",
+        "scope": "Every retained preview frame and Blink overlay matches the actual installed controller. Old media, scores, dates and comments are unchanged. The new handoff assessment is separate."
+      }
+    },
+    "Chase": {
+      "model": "creatures/froggle/froggle-7-gait-transitions2.fbx",
+      "modelSha256": "24298801d2688c601a550b89901660b08c6ff0777beded78298824eb412e60d7",
+      "clipSources": [
+        {
+          "file": "src/creature_clips_froggle_pet_v2.luau",
+          "sha256": "031915f057bcaa19abe847182f0ebaab9244f75b92813ba38563032fc3ed7ac9"
+        },
+        {
+          "file": "src/creature_clips_froggle_pet_v2_chase.luau",
+          "sha256": "51cd822e281b675f333c3be2e42cc104b1f6ff1a475f4ed91a5c6934af3808a0"
+        }
+      ],
+      "controllerSources": {
+        "src/creature_animation.luau": "24a8bcc9955ca82efd0826e9099b7125a9eb580bf8de1da4d20904de75b82458"
+      },
+      "sidecarSources": {
+        "assets/pets/froggle-lowpoly-v2/contact-fit/native-mesh.json": "536ff3f095c7ed16a26ac3553eaf2bd17e390e72d5ced3763c78dd76c5d6d464",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-native/passed-native-result.json": "6abde7fddcccc7d88a490770b8cfafacfa31f9efa860695dfed7dac7f6521928",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/installed-native-48.json": "2aec941f8005782fa9d9f8e87c7185db974f68e52e53e88a42bf9cbc5a90eb55",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-native-27.json": "e73538f8be5d958854e9ccdab610dafcb606c69a10dc4ef9ed9e2a2ae6e58bce",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-preparation.json": "8a465a067162ae0a874459f1a4c141458b5253272f7f8d7a0491dae7bd4c010b",
+        "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/independent-reimport.json": "60afe11d43b3557519959c6f7bd7cbd87c2d1f581ae3bb7f0c6863bf573434cf",
+        "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/protected-stage6-equivalence.json": "a2c18fa78ffed4ad078e6278dd214667a0cc560edff3b4e66eab4332863e7298",
+        "output/all-creature-animation-20261108/froggle-handoff/handoff-media/verification.json": "e69d85bbd64b155823639e37ebe04502cbe57dcd2c17c67e2d9abd2004560ff5",
+        "output/all-creature-animation-20261108/froggle-handoff/transition-assessment.json": "ce50222bc2edef37e1f3318d929c04cbaa85b165f72cce7d71c2c87ed8df2ae2",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/installed-image-receipt.json": "8ac26fb85f93b29796dae9cf974a2dd3c3abd20d7b8015d7feea488743e4f6fd",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-gates-attempt02/summary.json": "de0a7f8fa299ad05cb2a464bd4c0550ffc553145548f4299d2e9fbea6ee52381",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-gates-attempt02/transition-clips.json": "45c1dda583e42164ea5791b4cf08b3854defaace89d1a27df663d707bd40a107",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/color.png": "8536a9cdbbf14fbe97e98b4d9e6329678a9d043ec9fa259684d43e69c45ece20",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/roughness.png": "1a4c05956fc870db789a0207f9a7cf0b38bd8d2f3524bcb885ed1315439b075c",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/metallic.png": "0f4b1668d119f77ceb6b86645573f088ab2341d7b284314d5df0be7226ea5d91"
+      },
+      "configurationSource": {
+        "file": "src/creature_config.luau",
+        "key": "FrogglePetV2",
+        "sha256": "6319a1ca2fd4dcbe4c740c421db1d79f110fd6e617760f3f7c73533d5eddd511"
+      },
+      "retainedPreviewEquivalence": {
+        "proof": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-native-27.json",
+          "sha256": "e73538f8be5d958854e9ccdab610dafcb606c69a10dc4ef9ed9e2a2ae6e58bce"
+        },
+        "preparation": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-preparation.json",
+          "sha256": "8a465a067162ae0a874459f1a4c141458b5253272f7f8d7a0491dae7bd4c010b"
+        },
+        "exportEquivalence": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/protected-stage6-equivalence.json",
+          "sha256": "a2c18fa78ffed4ad078e6278dd214667a0cc560edff3b4e66eab4332863e7298"
+        },
+        "preservedSourceFingerprint": "70857729491df3ef34eec5091699a3cc89f833361adf7c49203dbd6a002f19cd",
+        "scope": "Every retained preview frame and Blink overlay matches the actual installed controller. Old media, scores, dates and comments are unchanged. The new handoff assessment is separate."
+      }
+    },
+    "Fly": {
+      "model": "creatures/froggle/froggle-7-gait-transitions2.fbx",
+      "modelSha256": "24298801d2688c601a550b89901660b08c6ff0777beded78298824eb412e60d7",
+      "clipSources": [
+        {
+          "file": "src/creature_clips_froggle_pet_v2.luau",
+          "sha256": "031915f057bcaa19abe847182f0ebaab9244f75b92813ba38563032fc3ed7ac9"
+        },
+        {
+          "file": "src/creature_clips_froggle_pet_v2_fly.luau",
+          "sha256": "c349bddc7879c9b50e5c3afc46ec5dab9a68f0471332226f0cec85d5c0080cde"
+        }
+      ],
+      "controllerSources": {
+        "src/creature_animation.luau": "24a8bcc9955ca82efd0826e9099b7125a9eb580bf8de1da4d20904de75b82458"
+      },
+      "sidecarSources": {
+        "assets/pets/froggle-lowpoly-v2/contact-fit/native-mesh.json": "536ff3f095c7ed16a26ac3553eaf2bd17e390e72d5ced3763c78dd76c5d6d464",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-native/passed-native-result.json": "6abde7fddcccc7d88a490770b8cfafacfa31f9efa860695dfed7dac7f6521928",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/installed-native-48.json": "2aec941f8005782fa9d9f8e87c7185db974f68e52e53e88a42bf9cbc5a90eb55",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-native-27.json": "e73538f8be5d958854e9ccdab610dafcb606c69a10dc4ef9ed9e2a2ae6e58bce",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-preparation.json": "8a465a067162ae0a874459f1a4c141458b5253272f7f8d7a0491dae7bd4c010b",
+        "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/independent-reimport.json": "60afe11d43b3557519959c6f7bd7cbd87c2d1f581ae3bb7f0c6863bf573434cf",
+        "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/protected-stage6-equivalence.json": "a2c18fa78ffed4ad078e6278dd214667a0cc560edff3b4e66eab4332863e7298",
+        "output/all-creature-animation-20261108/froggle-handoff/handoff-media/verification.json": "e69d85bbd64b155823639e37ebe04502cbe57dcd2c17c67e2d9abd2004560ff5",
+        "output/all-creature-animation-20261108/froggle-handoff/transition-assessment.json": "ce50222bc2edef37e1f3318d929c04cbaa85b165f72cce7d71c2c87ed8df2ae2",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/installed-image-receipt.json": "8ac26fb85f93b29796dae9cf974a2dd3c3abd20d7b8015d7feea488743e4f6fd",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-gates-attempt02/summary.json": "de0a7f8fa299ad05cb2a464bd4c0550ffc553145548f4299d2e9fbea6ee52381",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-gates-attempt02/transition-clips.json": "45c1dda583e42164ea5791b4cf08b3854defaace89d1a27df663d707bd40a107",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/color.png": "8536a9cdbbf14fbe97e98b4d9e6329678a9d043ec9fa259684d43e69c45ece20",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/roughness.png": "1a4c05956fc870db789a0207f9a7cf0b38bd8d2f3524bcb885ed1315439b075c",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/metallic.png": "0f4b1668d119f77ceb6b86645573f088ab2341d7b284314d5df0be7226ea5d91"
+      },
+      "configurationSource": {
+        "file": "src/creature_config.luau",
+        "key": "FrogglePetV2",
+        "sha256": "6319a1ca2fd4dcbe4c740c421db1d79f110fd6e617760f3f7c73533d5eddd511"
+      },
+      "retainedPreviewEquivalence": {
+        "proof": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-native-27.json",
+          "sha256": "e73538f8be5d958854e9ccdab610dafcb606c69a10dc4ef9ed9e2a2ae6e58bce"
+        },
+        "preparation": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-preparation.json",
+          "sha256": "8a465a067162ae0a874459f1a4c141458b5253272f7f8d7a0491dae7bd4c010b"
+        },
+        "exportEquivalence": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/protected-stage6-equivalence.json",
+          "sha256": "a2c18fa78ffed4ad078e6278dd214667a0cc560edff3b4e66eab4332863e7298"
+        },
+        "preservedSourceFingerprint": "9a09cffc424158db2dc8291c7f0409d23379c04daf3c0786e5a3a108ec961124",
+        "scope": "Every retained preview frame and Blink overlay matches the actual installed controller. Old media, scores, dates and comments are unchanged. The new handoff assessment is separate."
+      }
+    },
+    "Blink": {
+      "model": "creatures/froggle/froggle-7-gait-transitions2.fbx",
+      "modelSha256": "24298801d2688c601a550b89901660b08c6ff0777beded78298824eb412e60d7",
+      "clipSources": [
+        {
+          "file": "src/creature_clips_froggle_pet_v2.luau",
+          "sha256": "031915f057bcaa19abe847182f0ebaab9244f75b92813ba38563032fc3ed7ac9"
+        },
+        {
+          "file": "src/creature_clips_froggle_pet_v2_idle.luau",
+          "sha256": "b31c7d280124d7c1f0f616e14dd30cd4f2cf52ef7d1a35fecce4cc49ace52f12"
+        }
+      ],
+      "controllerSources": {
+        "src/creature_animation.luau": "24a8bcc9955ca82efd0826e9099b7125a9eb580bf8de1da4d20904de75b82458"
+      },
+      "sidecarSources": {
+        "assets/pets/froggle-lowpoly-v2/contact-fit/native-mesh.json": "536ff3f095c7ed16a26ac3553eaf2bd17e390e72d5ced3763c78dd76c5d6d464",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-native/passed-native-result.json": "6abde7fddcccc7d88a490770b8cfafacfa31f9efa860695dfed7dac7f6521928",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/installed-native-48.json": "2aec941f8005782fa9d9f8e87c7185db974f68e52e53e88a42bf9cbc5a90eb55",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-native-27.json": "e73538f8be5d958854e9ccdab610dafcb606c69a10dc4ef9ed9e2a2ae6e58bce",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-preparation.json": "8a465a067162ae0a874459f1a4c141458b5253272f7f8d7a0491dae7bd4c010b",
+        "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/independent-reimport.json": "60afe11d43b3557519959c6f7bd7cbd87c2d1f581ae3bb7f0c6863bf573434cf",
+        "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/protected-stage6-equivalence.json": "a2c18fa78ffed4ad078e6278dd214667a0cc560edff3b4e66eab4332863e7298",
+        "output/all-creature-animation-20261108/froggle-handoff/handoff-media/verification.json": "e69d85bbd64b155823639e37ebe04502cbe57dcd2c17c67e2d9abd2004560ff5",
+        "output/all-creature-animation-20261108/froggle-handoff/transition-assessment.json": "ce50222bc2edef37e1f3318d929c04cbaa85b165f72cce7d71c2c87ed8df2ae2",
+        "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/installed-image-receipt.json": "8ac26fb85f93b29796dae9cf974a2dd3c3abd20d7b8015d7feea488743e4f6fd",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-gates-attempt02/summary.json": "de0a7f8fa299ad05cb2a464bd4c0550ffc553145548f4299d2e9fbea6ee52381",
+        "output/all-creature-animation-20261108/froggle-handoff/quarter-gates-attempt02/transition-clips.json": "45c1dda583e42164ea5791b4cf08b3854defaace89d1a27df663d707bd40a107",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/color.png": "8536a9cdbbf14fbe97e98b4d9e6329678a9d043ec9fa259684d43e69c45ece20",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/roughness.png": "1a4c05956fc870db789a0207f9a7cf0b38bd8d2f3524bcb885ed1315439b075c",
+        "assets/pets/froggle-lowpoly-v2/contact-fit/metallic.png": "0f4b1668d119f77ceb6b86645573f088ab2341d7b284314d5df0be7226ea5d91"
+      },
+      "configurationSource": {
+        "file": "src/creature_config.luau",
+        "key": "FrogglePetV2",
+        "sha256": "6319a1ca2fd4dcbe4c740c421db1d79f110fd6e617760f3f7c73533d5eddd511"
+      },
+      "retainedPreviewEquivalence": {
+        "proof": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-native-27.json",
+          "sha256": "e73538f8be5d958854e9ccdab610dafcb606c69a10dc4ef9ed9e2a2ae6e58bce"
+        },
+        "preparation": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/wiki-proof/retained-previews-preparation.json",
+          "sha256": "8a465a067162ae0a874459f1a4c141458b5253272f7f8d7a0491dae7bd4c010b"
+        },
+        "exportEquivalence": {
+          "file": "output/all-creature-animation-20261108/froggle-handoff/export-candidate01/protected-stage6-equivalence.json",
+          "sha256": "a2c18fa78ffed4ad078e6278dd214667a0cc560edff3b4e66eab4332863e7298"
+        },
+        "preservedSourceFingerprint": "0f09cc71d97f7c6b11dd51c99d5d89d9ead7691f3c3e3affe76091f6c6ec1933",
+        "scope": "Every retained preview frame and Blink overlay matches the actual installed controller. Old media, scores, dates and comments are unchanged. The new handoff assessment is separate."
+      }
+    }
+  },
+  "gameplayTested": false,
+  "saved": false,
+  "published": false
+}

@@ -1,3 +1,55 @@
+## Injured-player toolbar border, 8 November 2026
+
+The player's health meter sits behind the entire time, Cash, skill and Settings
+toolbar as a six-pixel curved border. Reuse the existing CurrencyHUD pill and
+its native UICorner curvature. PlayerHealthBorder uses transparent native
+frames, UIStroke and a left-to-right UIGradient cutoff. Its inner stroke edge
+meets the toolbar's outline, leaving the toolbar background, text, icons and
+controls unchanged. No artwork or separate decorative renderer is introduced.
+
+Remaining health uses the existing success, warning and danger colours. The
+border appears only for a living injured character, hides at full HP, and
+follows HUD/camera hiding, health buffs, Humanoid arrival and respawn. The
+default CoreGui health meter is suppressed through StarterGui's supported
+Health toggle, with restoration on owner teardown. Health, damage and healing
+remain server-owned; the existing heartbeat and screen-edge warnings remain.
+The existing layout reserves six extra pixels per outer edge on phones.
+
+Plan 2d2d8e6e48664eb9b58b0c533304d9a8 installed the module and client integration
+with exact Edit readback. Thirty health/CoreGui/lifecycle checks and the 88-check
+toolbar suite pass, with zero compile/lint/analysis diagnostics. Native geometry
+checks cover desktop, portrait phone, short landscape, injured and full HP.
+Capture evidence and source hashes are in output/player-health-border-20261108.
+These are isolated Studio Edit fixtures; gameplay and actual CoreGui transitions
+remain untested. No place save or publication was performed.
+
+## Callout background transparency, 8 November 2026
+
+Egg callouts and garden or following-creature callouts use 20 percent background
+transparency (80 percent opacity), following Daniel's request for a slightly
+stronger background after the 30 percent version. Set ImageTransparency on the
+existing QualityPanel artwork only. Preserve text, icons, stat surfaces, buttons
+and layout opacity. Native Edit desktop and phone fixtures are retained under
+output/callout-background-opacity-20261108/native-20percent. These fixtures do
+not establish live Billboard appearance or input acceptance.
+
+## Egg callout height and pointer alignment, 8 November 2026
+
+Egg callouts retain the approved artwork and use the bottom-centre native
+BillboardGui anchor. The pointer stays directly above the egg's actual bounds
+centre in world X and Z, independently of an offset PrimaryPart. Its world Y is
+the greater of the bounds ground Y plus 10 studs and the bounds top Y. Eggs over
+10 studs tall therefore place the pointer at their top. Bounds ground Y is the
+lower world-Y extent of the supplied bounds, or GetBoundingBox when no bounds
+were supplied. StudsOffset is zero; StudsOffsetWorldSpace owns the entire lift,
+so changing camera angle cannot move the world anchor. Existing bounds updates
+refresh placement without a new render loop. Pet callout placement is unchanged.
+
+The earlier camera-relative clearance policy is superseded. Its native anchor
+receipt remains historical evidence at
+output/guardian-egg-watch-20261108/native-callout.json. Source and native property
+checks for the current rule are separate from visual gameplay acceptance.
+
 ## UI ownership of E, 5 November 2026
 
 A visible foremost window with a primary E action owns the key. Register through
@@ -900,6 +952,15 @@ The keycap does not introduce a separate button skin, colour role or hit target.
 Garden Praise and Follow use these established buttons, not the decorative
 quality/money/DNA underlay artwork.
 
+Named keys such as Space, Shift and Enter need padding inside the keycap's
+light face, clear of its rim and bevel. The shared Hotkeys renderer widens
+these caps, reserves 20 percent of their image width on each side of the text
+area and caps word text at 20 pixels for a 32-pixel cap. Reserve the resulting
+cap width before fitting the action caption; widen the button when needed.
+Single-letter caps keep their existing sizing. Verify actual text bounds and
+inspect the visible face, since fitting inside the outer image alone can still
+crowd the artwork.
+
 Latest button-caption direction: shared raised word buttons use bold white
 captions with a black text outline, through Theme.ButtonCaption. Their preferred
 size is 20 pixels after Daniel's later reduction from 27. Use native TextScaled
@@ -1106,6 +1167,15 @@ entrance/fade tweens, and is suppressed while the HUD is hidden. Other admin
 notices retain their existing routing. There is no new per-frame UI loop.
 
 ## Collection reward tile, 3 November 2026
+
+8 November 2026: each biome reward has a centered gold Reward heading using
+Theme.Fonts.heading, a black contextual stroke and one slight native text
+UIShadow. The item name and count retain the existing footer. Hovering grows
+the artwork to 130% over one second and reveals gold radial light beams behind
+it. Leaving returns it over one second and immediately stops the looping choir.
+Window close, tab changes, scrolling, focus loss and teardown clear the effect.
+The native rays and tweens are passive and do not create a render loop. The
+headline is a section label, distinct from the earned reward role in the reveal.
 
 Prize tiles use the same rounded-top, square-bottom form as creature tiles,
 with the existing biome backdrop visible through the card. Place the item name
@@ -2455,12 +2525,12 @@ Sections follow this exact order:
 3. Ripplewater Lake
 4. Acorn Woods
 5. Jungle Wilds
-6. Cloudstone Caverns
-7. Cloudtop Cliffs
-8. Moonbeam Expanse
-9. Golden Dunes
-10. Ember Mountain
-11. The Burning Depths
+6. Golden Dunes
+7. Ember Mountain
+8. The Burning Depths
+9. Cloudstone Caverns
+10. Cloudtop Cliffs
+11. Moonbeam Expanse
 12. Rainbow Coral Reef
 13. Deepwater Abyss
 14. Lost World

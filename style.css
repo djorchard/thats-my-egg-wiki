@@ -232,3 +232,8 @@ body:has(#show-scrapped):not(:has(#show-scrapped:checked)):not(:has(#show-implem
 .music-preview.has-biome h3{text-shadow:0 2px 4px #000}
 .music-preview .music-assignment{margin:0 0 14px;font-size:13px;font-weight:600;color:#d5dae3}
 .music-preview.has-biome .music-assignment{color:#fff;text-shadow:0 1px 3px #000}
+.guardian-damage-table{width:100%;border-collapse:collapse;font-size:14px;text-align:left}
+.guardian-damage-table caption{color:var(--muted);text-align:left;padding:0 0 12px}
+.guardian-damage-table th,.guardian-damage-table td{padding:12px 14px;border:1px solid var(--line);vertical-align:top}
+.guardian-damage-table thead{background:var(--row)}
+.guardian-damage-table td{font-variant-numeric:tabular-nums}

@@ -141697,7 +141697,9 @@
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "replaced",
       "guardianHeight": 8.75,
-      "currentModelPortrait": false
+      "currentModelPortrait": false,
+      "health": 1.5,
+      "knockoutSeconds": 8
     },
     {
       "biome": "farmland",
@@ -141740,7 +141742,9 @@
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "replaced",
       "guardianHeight": 10.587499618530273,
-      "currentModelPortrait": false
+      "currentModelPortrait": false,
+      "health": 14.5,
+      "knockoutSeconds": 8
     },
     {
       "biome": "lake",
@@ -141782,7 +141786,9 @@
       "selectedSpecies": null,
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "replaced",
-      "guardianHeight": 8.819999694824219
+      "guardianHeight": 8.819999694824219,
+      "health": 27.5,
+      "knockoutSeconds": 8
     },
     {
       "biome": "forest",
@@ -141825,7 +141831,9 @@
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "replaced",
       "guardianHeight": 9.100000381469727,
-      "currentModelPortrait": true
+      "currentModelPortrait": true,
+      "health": 44.5,
+      "knockoutSeconds": 8
     },
     {
       "biome": "jungle",
@@ -141868,7 +141876,9 @@
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "replaced",
       "guardianHeight": 13.47499942779541,
-      "currentModelPortrait": false
+      "currentModelPortrait": false,
+      "health": 61,
+      "knockoutSeconds": 8
     },
     {
       "biome": "coral_reef",
@@ -141911,7 +141921,9 @@
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "replaced",
       "guardianHeight": 11.8125,
-      "currentModelPortrait": true
+      "currentModelPortrait": true,
+      "health": 103,
+      "knockoutSeconds": 8
     },
     {
       "biome": "deep_ocean",
@@ -141953,7 +141965,9 @@
       "selectedSpecies": null,
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "replaced",
-      "guardianHeight": 11.200000762939453
+      "guardianHeight": 11.200000762939453,
+      "health": 150,
+      "knockoutSeconds": 8
     },
     {
       "biome": "lost_world",
@@ -141996,7 +142010,9 @@
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "replaced",
       "guardianHeight": 23.714998245239258,
-      "currentModelPortrait": true
+      "currentModelPortrait": true,
+      "health": 265.5,
+      "knockoutSeconds": 8
     },
     {
       "biome": "desert",
@@ -142038,7 +142054,9 @@
       "selectedSpecies": "Scorpicorn",
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "replaced",
-      "guardianHeight": 16.875
+      "guardianHeight": 16.875,
+      "health": 81,
+      "knockoutSeconds": 8
     },
     {
       "biome": "volcano",
@@ -142081,7 +142099,9 @@
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "replaced",
       "guardianHeight": 39.20000076293945,
-      "currentModelPortrait": false
+      "currentModelPortrait": false,
+      "health": 177.5,
+      "knockoutSeconds": 8
     },
     {
       "biome": "inferno",
@@ -142123,7 +142143,9 @@
       "selectedSpecies": null,
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "prototype",
-      "guardianHeight": 19.125
+      "guardianHeight": 19.125,
+      "health": 235.5,
+      "knockoutSeconds": 8
     },
     {
       "biome": "sky_foothills",
@@ -142166,7 +142188,9 @@
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "replaced",
       "guardianHeight": 11.8125,
-      "currentModelPortrait": true
+      "currentModelPortrait": true,
+      "health": 124.5,
+      "knockoutSeconds": 8
     },
     {
       "biome": "sky_mountains",
@@ -142208,7 +142232,9 @@
       "selectedSpecies": null,
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "prototype",
-      "guardianHeight": 17.9999942779541
+      "guardianHeight": 17.9999942779541,
+      "health": 204.5,
+      "knockoutSeconds": 8
     },
     {
       "biome": "outer_space",
@@ -142250,7 +142276,9 @@
       "selectedSpecies": null,
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "prototype",
-      "guardianHeight": 19.12497329711914
+      "guardianHeight": 19.12497329711914,
+      "health": 300,
+      "knockoutSeconds": 8
     }
   ],
   "gardens": {

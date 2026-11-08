@@ -141698,7 +141698,7 @@
       "modelStatus": "replaced",
       "guardianHeight": 8.75,
       "currentModelPortrait": false,
-      "health": 1.5,
+      "health": 70,
       "knockoutSeconds": 8
     },
     {
@@ -141743,7 +141743,7 @@
       "modelStatus": "replaced",
       "guardianHeight": 10.587499618530273,
       "currentModelPortrait": false,
-      "health": 14.5,
+      "health": 106.15384615384616,
       "knockoutSeconds": 8
     },
     {
@@ -141787,7 +141787,7 @@
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "replaced",
       "guardianHeight": 8.819999694824219,
-      "health": 27.5,
+      "health": 142.30769230769232,
       "knockoutSeconds": 8
     },
     {
@@ -141832,7 +141832,7 @@
       "modelStatus": "replaced",
       "guardianHeight": 9.100000381469727,
       "currentModelPortrait": true,
-      "health": 44.5,
+      "health": 178.46153846153845,
       "knockoutSeconds": 8
     },
     {
@@ -141877,7 +141877,7 @@
       "modelStatus": "replaced",
       "guardianHeight": 13.47499942779541,
       "currentModelPortrait": false,
-      "health": 61,
+      "health": 214.6153846153846,
       "knockoutSeconds": 8
     },
     {
@@ -141922,7 +141922,7 @@
       "modelStatus": "replaced",
       "guardianHeight": 11.8125,
       "currentModelPortrait": true,
-      "health": 103,
+      "health": 286.9230769230769,
       "knockoutSeconds": 8
     },
     {
@@ -141966,7 +141966,7 @@
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "replaced",
       "guardianHeight": 11.200000762939453,
-      "health": 150,
+      "health": 359.2307692307692,
       "knockoutSeconds": 8
     },
     {
@@ -142011,7 +142011,7 @@
       "modelStatus": "replaced",
       "guardianHeight": 23.714998245239258,
       "currentModelPortrait": true,
-      "health": 265.5,
+      "health": 503.84615384615387,
       "knockoutSeconds": 8
     },
     {
@@ -142055,7 +142055,7 @@
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "replaced",
       "guardianHeight": 16.875,
-      "health": 81,
+      "health": 250.76923076923077,
       "knockoutSeconds": 8
     },
     {
@@ -142100,7 +142100,7 @@
       "modelStatus": "replaced",
       "guardianHeight": 39.20000076293945,
       "currentModelPortrait": false,
-      "health": 177.5,
+      "health": 395.38461538461536,
       "knockoutSeconds": 8
     },
     {
@@ -142144,7 +142144,7 @@
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "prototype",
       "guardianHeight": 19.125,
-      "health": 235.5,
+      "health": 467.6923076923077,
       "knockoutSeconds": 8
     },
     {
@@ -142189,7 +142189,7 @@
       "modelStatus": "replaced",
       "guardianHeight": 11.8125,
       "currentModelPortrait": true,
-      "health": 124.5,
+      "health": 323.0769230769231,
       "knockoutSeconds": 8
     },
     {
@@ -142233,7 +142233,7 @@
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "prototype",
       "guardianHeight": 17.9999942779541,
-      "health": 204.5,
+      "health": 431.53846153846155,
       "knockoutSeconds": 8
     },
     {
@@ -142277,7 +142277,7 @@
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "prototype",
       "guardianHeight": 19.12497329711914,
-      "health": 300,
+      "health": 540,
       "knockoutSeconds": 8
     }
   ],

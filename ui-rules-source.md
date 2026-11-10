@@ -1,3 +1,37 @@
+## Supplied own-house Home marker, 11 November 2026
+
+Use Theme.Images.HomeMarker for Daniel's supplied square Home callout above
+the owner's house. Keep its alpha and ScaleType.Fit. Its world width is twice
+the former 4.32-stud Home label, giving an 8.64-stud square. Do not stretch it
+into the former text rectangle. Preserve the full original and a separate
+1024-pixel runtime in assets/ui/home-marker-user-20261111.
+
+Show it only inside the Home area's horizontal bounds, using the existing
+Home heartbeat and HUD/ownership cleanup. Keep the highest-income crown on
+its independent layer above the owner's icon, with its existing world size.
+Other players' houses retain only the eligible crown. This cosmetic change
+does not require a gameplay review task.
+
+## World input behind windows, 11 November 2026
+
+Every window registered through WindowControls.closeOnX, including exclusive
+windows such as Settings, suppresses native world prompts while visible in an
+enabled ScreenGui. Reuse ActionDock.blockWorldPrompts so placement and held E
+actions retain independent ownership and the original native state restores
+after the final owner releases. Registered panel surfaces absorb world clicks.
+Ancestor visibility, reparenting and destruction update the shared claim.
+
+This does not introduce a global attack or movement lock. Clicking the world
+outside the Emotes panel retains normal tool activation; clicking inside the
+panel belongs to its UI. Actual mouse/touch and attack acceptance remain pending.
+
+Guarded plan 6a4a4222756648a28ca2edf699112716 installed the shared module with
+exact readback. Five focused offline suites pass, source diagnostics are clean
+and a native Edit fixture passes 21 lifecycle/property checks across desktop,
+portrait and landscape sizes. Native prompt state restored and fixture removed.
+Evidence: output/window-prompt-blocking-20261111/native.json. Gameplay, place
+saving and publication were not performed. Review: TME-320.
+
 ## Premium shop wallet and native Robux captions, 10 November 2026
 
 Cash, Boosts, XP and Donate omit the duplicate Cash balance and coin

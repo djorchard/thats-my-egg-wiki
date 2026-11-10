@@ -1,27 +1,29 @@
 {
-  "mappedSources": 1085,
-  "filesWithKeyReferences": 66,
+  "mappedSources": 1100,
+  "filesWithKeyReferences": 68,
   "sourceHashes": {
+    "src/mailbox_interaction.luau": "4f005e74d7f5c4d5d545632cc57f94448335f57e49205c5664aaded6459829f7",
+    "src/mailbox.client.luau": "34bd289fb81b8041141686617ec393859f77d53d953abddf0bce21fdc13c41d9",
     "src/camera_diagnostics.luau": "ce157a338b2906a3f609b03747950eb9324f4dba28e6d571b1d559c57cc12d66",
     "src/community_posters.luau": "635f42b46eff1d390c103ede8f64c18aa641e122cced4b83b93df89702ec2d83",
     "src/corn_crops.server.luau": "eb52501854ed0920a7bfa2672d655500e7c796fe5cd363f0e8d478c114d704a2",
     "src/banana_plants.server.luau": "3a2f81a8d9f04b4865b386e4889a57a030b9078ab524125642114a2f8f83e7fa",
-    "src/banana_plants.client.luau": "93948d437bbe5f121447cbac60f58b2766c8be6c35e0baeefeb3e0cf7d2459d3",
+    "src/banana_plants.client.luau": "a917d68b9b5b3c594e0d279769a895f2f59ad590024f10d5fde20061e52a754e",
     "src/community.client.luau": "0f5eed49c8603aa238be7799c73785d5ddd86f8c5815c3188861f9e1656fa8f4",
     "src/first_join_cutscene.luau": "a7ffc414c9ee750f27e2c1355bca5981c2ba42c8ad754ce20591930116ae6e85",
     "src/fake_egg_trap.luau": "7bd983d65c03b84cef18771af7ecc571090a3766b73c1056d603aa5e399d29d8",
     "src/ui_dropdown.luau": "035e6fd62c98223015ced5ca9d02514c65664884cf2aab6a737773881a6a3db4",
-    "src/inventory_tray.luau": "95ffd0c57cca1e09fb7683f64ba61e9137c59fb9d93685a914062f7d5cb466bc",
+    "src/inventory_tray.luau": "81833a04fa554492b030186a4d9ea099691e7ac23d7935ec4cd064f24f92f629",
     "src/management_admin_free_camera.luau": "614c7b5ab31a86f74fa9c9fae2532fb409680a6f55de88b3d2fd75c95e17b6ff",
     "src/admin_client.luau": "7c61ada58ca2171b879cf9aa5385a7644166d47067f4579a1e2d59bdaea505c9",
     "src/ui_button_states.luau": "7c2bf74aabaf258acbe4be807db2b301ab77b378eaface103483677ffeaaeca0",
-    "src/ui_window_controls.luau": "fac600efc9f7adbe5b1a1861766a736189ff93dd03687460c2f802e9801e2398",
+    "src/ui_window_controls.luau": "f6fbb21250936a07736ec5bdbecf99cce36724d2d788892da80d2275195905b0",
     "src/action_dock.luau": "f51995ecd6332d32cde59b3282fa88cf0e5f0dc3ff4369dbfb005ea8c19faaf1",
     "src/backyard_client.luau": "b02c9d8b52c3b59d7d26ed15b95fcd1ec8b025cb95fcaa4130f6b642b48d6f33",
     "src/backyard_egg_spawner.luau": "b81eff4bcf4896fa8b2e80c76294120f5d338b357e774554e898b6f0f4f42335",
     "src/egg_hotbar.client.luau": "4998d01fd95cd6acafe940020c837ba94da42ca4615cc34455f0a627cfe77b60",
-    "src/home_garden.server.luau": "8133ecc50d4c9d2e8dfebb6702c34f73d31f13ad3250797a2162cf97b0bc9552",
-    "src/home_garden.client.luau": "60b40a39d08767443800f07f034ca97cbaed87d5a7f49b9a0d8068d043fa5df6",
+    "src/home_garden.server.luau": "224b9dfaeabc2ea6f65a49af8f530416b1c533cf218299d86229d015005968dd",
+    "src/home_garden.client.luau": "a20390768bb2ff6e4319301b76e55b9940403ab2d1dd7820e39d2f655e42dff8",
     "src/developer_tools.client.luau": "4d7df6c0ac059447cd2c8692b73bb8a3c69544eb7f959a64ff3db10c9897aba7",
     "src/birth_certificate.luau": "9cbdba5caa48dcd53c3dfadb56b178bba4626ac70c799e2407177de07fc20980",
     "src/egg_drop_service.luau": "d0dc9e1d86ae1d82f48338d7ab5006ae291d13bc432b0e652b6ebbf220e4c0a6",
@@ -31,7 +33,7 @@
     "src/treadmill.client.luau": "d49a43d4569645cbec7b654b44d588a567261ae57a5413acf4521662bec1960d",
     "src/dev_island/creature_inspector.client.luau": "1b527d3ee73b14e31c21732c8970d5d579328fbc0608fb77330657b22a437472",
     "src/hatch_replacement_ui.luau": "ff23a6576b5ac80419707de28f4b46fa8836991b0ba33e261ee8533cf26a6a99",
-    "src/egg_inventory.client.luau": "c9f9c1e3afa59ec6fc724192efee5ab8ec9b55586ed10ea1346ff7618d26aff0",
+    "src/egg_inventory.client.luau": "f2059a3c29f2fcc2766f08519b84953c7a557181c27e9000931bbd684069576f",
     "src/pet_shop.client.luau": "b6198dcb5dad70bc12a6fb46037c2a2d5875d326508580da4b4591d3ee15f6ef",
     "src/emote_menu_controls.luau": "c8e5948ce623762e67d7ee5ca23b941a2afef49e8793dd67e9d597e165d92092",
     "src/social_emotes.client.luau": "0af75c7657012e8e66839ad557083e27ce9501f3e88d628551bf60f7e3cb863d",
@@ -55,7 +57,7 @@
     "src/alpanda_mounts.luau": "ec7b086b79c7dbd9ec25bfcd22eb28497478b4a5a05888d418dccb54506f9d97",
     "src/swim_input.luau": "5410ca50704a6a0c2ac4554fe53eb52c266c654f65baf9bd0bd0637b4a5d7c9d",
     "src/world_loot_builder.luau": "88db6700739573c7646448930f096ac88229a9a0c7397b99917e63de0bd620e1",
-    "src/home_supermarket_builder.luau": "c98a24623c1200d4d62bc6e894d230128eae818b405a20a20cd829257563f188",
+    "src/home_supermarket_builder.luau": "c568d8cdc30eb2316e70e06dad1b9e4ac3c951ffea55a243e78398ed8c081e60",
     "src/house_flowers.server.luau": "b500b9b0a35cb031f49b9bc38bc1df846c5adca36397e2cebdcd82faa81a12c5",
     "src/house_flowers.client.luau": "98eae66774385004768384a198395a4b3c819762b9adddb23ba3a51b06b4969c",
     "src/golden_egg_builder.luau": "7ad9b5bca2fa46ad7643b499e5beb0d1099d18922ee58697762eaa96fbb7c856",
@@ -70,6 +72,156 @@
     "src/running_hide.client.luau": "f7ac2f6ea793dc9a0e4e888a67bb4da2594fff051eb4eff627d94ef334d71712"
   },
   "keyReferences": {
+    "E": [
+      {
+        "file": "src/mailbox_interaction.luau",
+        "line": 13
+      },
+      {
+        "file": "src/mailbox.client.luau",
+        "line": 267
+      },
+      {
+        "file": "src/community_posters.luau",
+        "line": 79
+      },
+      {
+        "file": "src/corn_crops.server.luau",
+        "line": 101
+      },
+      {
+        "file": "src/banana_plants.server.luau",
+        "line": 168
+      },
+      {
+        "file": "src/community.client.luau",
+        "line": 440
+      },
+      {
+        "file": "src/fake_egg_trap.luau",
+        "line": 99
+      },
+      {
+        "file": "src/management_admin_free_camera.luau",
+        "line": 30
+      },
+      {
+        "file": "src/management_admin_free_camera.luau",
+        "line": 148
+      },
+      {
+        "file": "src/ui_window_controls.luau",
+        "line": 169
+      },
+      {
+        "file": "src/ui_window_controls.luau",
+        "line": 171
+      },
+      {
+        "file": "src/backyard_egg_spawner.luau",
+        "line": 180
+      },
+      {
+        "file": "src/home_garden.server.luau",
+        "line": 1033
+      },
+      {
+        "file": "src/home_garden.client.luau",
+        "line": 56
+      },
+      {
+        "file": "src/birth_certificate.luau",
+        "line": 895
+      },
+      {
+        "file": "src/egg_drop_service.luau",
+        "line": 447
+      },
+      {
+        "file": "src/garden_manager.client.luau",
+        "line": 1686
+      },
+      {
+        "file": "src/garden_manager.client.luau",
+        "line": 1690
+      },
+      {
+        "file": "src/garden_manager.client.luau",
+        "line": 1725
+      },
+      {
+        "file": "src/hatch_replacement_ui.luau",
+        "line": 361
+      },
+      {
+        "file": "src/stick_builder.luau",
+        "line": 184
+      },
+      {
+        "file": "src/player_houses.server.luau",
+        "line": 98
+      },
+      {
+        "file": "src/bed_sleep.luau",
+        "line": 146
+      },
+      {
+        "file": "src/training_equipment_builder.luau",
+        "line": 191
+      },
+      {
+        "file": "src/wardrobe_builder.luau",
+        "line": 108
+      },
+      {
+        "file": "src/home_treasure_interaction.luau",
+        "line": 29
+      },
+      {
+        "file": "src/world_loot_builder.luau",
+        "line": 167
+      },
+      {
+        "file": "src/home_supermarket_builder.luau",
+        "line": 495
+      },
+      {
+        "file": "src/home_supermarket_builder.luau",
+        "line": 831
+      },
+      {
+        "file": "src/home_supermarket_builder.luau",
+        "line": 1030
+      },
+      {
+        "file": "src/home_supermarket_builder.luau",
+        "line": 1113
+      },
+      {
+        "file": "src/home_supermarket_builder.luau",
+        "line": 1364
+      },
+      {
+        "file": "src/house_flowers.server.luau",
+        "line": 132
+      },
+      {
+        "file": "src/golden_egg_builder.luau",
+        "line": 319
+      },
+      {
+        "file": "src/flower_gifts.client.luau",
+        "line": 72
+      },
+      {
+        "file": "src/house_placement.luau",
+        "line": 80
+      },
+      {
+        "file": "src/boombox.server.luau",
+        "line": 71
+      }
+    ],
     "W": [
       {
         "file": "src/camera_diagnostics.luau",
@@ -226,156 +378,14 @@
         "line": 49
       }
     ],
-    "E": [
-      {
-        "file": "src/community_posters.luau",
-        "line": 79
-      },
-      {
-        "file": "src/corn_crops.server.luau",
-        "line": 101
-      },
-      {
-        "file": "src/banana_plants.server.luau",
-        "line": 168
-      },
-      {
-        "file": "src/community.client.luau",
-        "line": 440
-      },
-      {
-        "file": "src/fake_egg_trap.luau",
-        "line": 99
-      },
-      {
-        "file": "src/management_admin_free_camera.luau",
-        "line": 30
-      },
-      {
-        "file": "src/management_admin_free_camera.luau",
-        "line": 148
-      },
-      {
-        "file": "src/ui_window_controls.luau",
-        "line": 144
-      },
-      {
-        "file": "src/ui_window_controls.luau",
-        "line": 146
-      },
-      {
-        "file": "src/backyard_egg_spawner.luau",
-        "line": 180
-      },
-      {
-        "file": "src/home_garden.server.luau",
-        "line": 1023
-      },
-      {
-        "file": "src/home_garden.client.luau",
-        "line": 56
-      },
-      {
-        "file": "src/birth_certificate.luau",
-        "line": 895
-      },
-      {
-        "file": "src/egg_drop_service.luau",
-        "line": 447
-      },
-      {
-        "file": "src/garden_manager.client.luau",
-        "line": 1686
-      },
-      {
-        "file": "src/garden_manager.client.luau",
-        "line": 1690
-      },
-      {
-        "file": "src/garden_manager.client.luau",
-        "line": 1725
-      },
-      {
-        "file": "src/hatch_replacement_ui.luau",
-        "line": 361
-      },
-      {
-        "file": "src/stick_builder.luau",
-        "line": 184
-      },
-      {
-        "file": "src/player_houses.server.luau",
-        "line": 98
-      },
-      {
-        "file": "src/bed_sleep.luau",
-        "line": 146
-      },
-      {
-        "file": "src/training_equipment_builder.luau",
-        "line": 191
-      },
-      {
-        "file": "src/wardrobe_builder.luau",
-        "line": 108
-      },
-      {
-        "file": "src/home_treasure_interaction.luau",
-        "line": 29
-      },
-      {
-        "file": "src/world_loot_builder.luau",
-        "line": 167
-      },
-      {
-        "file": "src/home_supermarket_builder.luau",
-        "line": 495
-      },
-      {
-        "file": "src/home_supermarket_builder.luau",
-        "line": 831
-      },
-      {
-        "file": "src/home_supermarket_builder.luau",
-        "line": 1030
-      },
-      {
-        "file": "src/home_supermarket_builder.luau",
-        "line": 1113
-      },
-      {
-        "file": "src/home_supermarket_builder.luau",
-        "line": 1364
-      },
-      {
-        "file": "src/house_flowers.server.luau",
-        "line": 132
-      },
-      {
-        "file": "src/golden_egg_builder.luau",
-        "line": 319
-      },
-      {
-        "file": "src/flower_gifts.client.luau",
-        "line": 72
-      },
-      {
-        "file": "src/house_placement.luau",
-        "line": 80
-      },
-      {
-        "file": "src/boombox.server.luau",
-        "line": 71
-      }
-    ],
     "X": [
       {
         "file": "src/banana_plants.client.luau",
-        "line": 195
+        "line": 255
       },
       {
         "file": "src/ui_window_controls.luau",
-        "line": 104
+        "line": 128
       },
       {
         "file": "src/action_dock.luau",
@@ -405,11 +415,11 @@
       },
       {
         "file": "src/inventory_tray.luau",
-        "line": 346
+        "line": 369
       },
       {
         "file": "src/ui_window_controls.luau",
-        "line": 739
+        "line": 764
       },
       {
         "file": "src/action_dock.luau",
@@ -487,11 +497,11 @@
       },
       {
         "file": "src/home_garden.server.luau",
-        "line": 486
+        "line": 496
       },
       {
         "file": "src/egg_inventory.client.luau",
-        "line": 847
+        "line": 887
       },
       {
         "file": "src/treadmill_controls.client.luau",
@@ -517,11 +527,11 @@
       },
       {
         "file": "src/ui_window_controls.luau",
-        "line": 704
+        "line": 729
       },
       {
         "file": "src/ui_window_controls.luau",
-        "line": 734
+        "line": 759
       },
       {
         "file": "src/garden_manager.client.luau",
@@ -547,11 +557,11 @@
       },
       {
         "file": "src/ui_window_controls.luau",
-        "line": 702
+        "line": 727
       },
       {
         "file": "src/ui_window_controls.luau",
-        "line": 733
+        "line": 758
       },
       {
         "file": "src/garden_manager.client.luau",
@@ -691,11 +701,11 @@
     "Left": [
       {
         "file": "src/ui_window_controls.luau",
-        "line": 698
+        "line": 723
       },
       {
         "file": "src/ui_window_controls.luau",
-        "line": 731
+        "line": 756
       },
       {
         "file": "src/developer_tools.client.luau",
@@ -737,11 +747,11 @@
     "Right": [
       {
         "file": "src/ui_window_controls.luau",
-        "line": 700
+        "line": 725
       },
       {
         "file": "src/ui_window_controls.luau",
-        "line": 732
+        "line": 757
       },
       {
         "file": "src/developer_tools.client.luau",
@@ -957,11 +967,11 @@
     "R": [
       {
         "file": "src/home_garden.server.luau",
-        "line": 493
+        "line": 503
       },
       {
         "file": "src/egg_inventory.client.luau",
-        "line": 817
+        "line": 857
       },
       {
         "file": "src/pet_follower_callout.luau",
@@ -1005,13 +1015,13 @@
     "T": [
       {
         "file": "src/egg_inventory.client.luau",
-        "line": 678
+        "line": 718
       }
     ],
     "I": [
       {
         "file": "src/egg_inventory.client.luau",
-        "line": 679
+        "line": 719
       }
     ],
     "B": [

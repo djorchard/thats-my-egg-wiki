@@ -146803,20 +146803,21 @@
     {
       "biome": "backyard",
       "name": "Labraduck",
-      "chase": 16,
+      "chase": 15,
       "chaseRatio": 0.94,
-      "chaseMin": 13,
-      "chaseMax": 16,
+      "chaseReduction": 1,
+      "chaseMin": 12,
+      "chaseMax": 15,
       "swimmingRange": {
-        "Max": 16,
-        "Min": 13
+        "Max": 15,
+        "Min": 12
       },
       "escapeLevel": 1,
       "escapeThresholds": {
         "heavyEgg": {
-          "aurora": 12,
-          "lightning": 9,
-          "none": 18
+          "aurora": 10,
+          "lightning": 8,
+          "none": 16
         },
         "normal": {
           "aurora": 1,
@@ -146824,9 +146825,9 @@
           "none": 1
         },
         "strongEgg": {
-          "aurora": 12,
-          "lightning": 9,
-          "none": 18
+          "aurora": 10,
+          "lightning": 8,
+          "none": 16
         }
       },
       "primarySkill": "Running",
@@ -146848,30 +146849,31 @@
     {
       "biome": "farmland",
       "name": "Mooroo",
-      "chase": 26.28748143847509,
+      "chase": 24.28748143847509,
       "chaseRatio": 0.96,
-      "chaseMin": 23.348201027482208,
-      "chaseMax": 26.28748143847509,
+      "chaseReduction": 2,
+      "chaseMin": 21.348201027482208,
+      "chaseMax": 24.28748143847509,
       "swimmingRange": {
-        "Max": 19.15,
-        "Min": 18.25
+        "Max": 17.15,
+        "Min": 16.25
       },
       "escapeLevel": 9,
       "escapeThresholds": {
         "heavyEgg": {
-          "aurora": 28,
-          "lightning": 22,
-          "none": 39
+          "aurora": 25,
+          "lightning": 19,
+          "none": 35
         },
         "normal": {
-          "aurora": 6,
-          "lightning": 5,
-          "none": 9
+          "aurora": 5,
+          "lightning": 4,
+          "none": 7
         },
         "strongEgg": {
-          "aurora": 28,
-          "lightning": 22,
-          "none": 39
+          "aurora": 25,
+          "lightning": 19,
+          "none": 35
         }
       },
       "primarySkill": "Running",
@@ -146895,6 +146897,7 @@
       "name": "Crocodoodle Doo",
       "chase": 33.14580239745849,
       "chaseRatio": 0.98,
+      "chaseReduction": 0,
       "chaseMin": 30.206521986465603,
       "chaseMax": 33.14580239745849,
       "swimmingRange": {
@@ -146940,6 +146943,7 @@
       "name": "Porcupython",
       "chase": 38.04460308244662,
       "chaseRatio": 1.0,
+      "chaseReduction": 0,
       "chaseMin": 35.105322671453735,
       "chaseMax": 38.04460308244662,
       "swimmingRange": {
@@ -146985,6 +146989,7 @@
       "name": "Dandylion",
       "chase": 44.90292404143002,
       "chaseRatio": 1.01,
+      "chaseReduction": 0,
       "chaseMin": 41.96364363043713,
       "chaseMax": 44.90292404143002,
       "swimmingRange": {
@@ -147030,6 +147035,7 @@
       "name": "Crabuki",
       "chase": 60.57908623339206,
       "chaseRatio": 1.02,
+      "chaseReduction": 0,
       "chaseMin": 57.639805822399175,
       "chaseMax": 60.57908623339206,
       "swimmingRange": {
@@ -147075,6 +147081,7 @@
       "name": "Batacuda",
       "chase": 75.27548828835647,
       "chaseRatio": 1.03,
+      "chaseReduction": 0,
       "chaseMin": 72.33620787736359,
       "chaseMax": 75.27548828835647,
       "swimmingRange": {
@@ -147119,6 +147126,7 @@
       "name": "Albatrossaurus",
       "chase": 104.6682923982853,
       "chaseRatio": 1.04,
+      "chaseReduction": 0,
       "chaseMin": 101.72901198729242,
       "chaseMax": 104.6682923982853,
       "swimmingRange": {
@@ -147162,6 +147170,7 @@
       "name": "Scorpicorn",
       "chase": 52.741005137411044,
       "chaseRatio": 1.02,
+      "chaseReduction": 0,
       "chaseMin": 49.80172472641816,
       "chaseMax": 52.741005137411044,
       "swimmingRange": {
@@ -147205,6 +147214,7 @@
       "name": "Dragorilla",
       "chase": 83.1135693843375,
       "chaseRatio": 1.03,
+      "chaseReduction": 0,
       "chaseMin": 80.17428897334462,
       "chaseMax": 83.1135693843375,
       "swimmingRange": {
@@ -147250,6 +147260,7 @@
       "name": "Grim Peeper",
       "chase": 97.80997143930192,
       "chaseRatio": 1.04,
+      "chaseReduction": 0,
       "chaseMin": 94.87069102830904,
       "chaseMax": 97.80997143930192,
       "swimmingRange": {
@@ -147294,6 +147305,7 @@
       "name": "Froggle",
       "chase": 67.43740719237545,
       "chaseRatio": 1.02,
+      "chaseReduction": 0,
       "chaseMin": 64.49812678138257,
       "chaseMax": 67.43740719237545,
       "swimmingRange": {
@@ -147339,6 +147351,7 @@
       "name": "Grim Peeper",
       "chase": 89.9718903433209,
       "chaseRatio": 1.03,
+      "chaseReduction": 0,
       "chaseMin": 87.03260993232801,
       "chaseMax": 89.9718903433209,
       "swimmingRange": {
@@ -147383,6 +147396,7 @@
       "name": "Grim Peeper",
       "chase": 112.50637349426633,
       "chaseRatio": 1.04,
+      "chaseReduction": 0,
       "chaseMin": 109.56709308327345,
       "chaseMax": 112.50637349426633,
       "swimmingRange": {

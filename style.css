@@ -80,10 +80,11 @@ a[aria-haspopup="dialog"],main img[role="button"]{cursor:zoom-in}
 .guardian-table thead{background:var(--row)}
 .guardian-table tbody th{font-weight:600}
 .guardian-table td{font-variant-numeric:tabular-nums}
-.guardian-damage-table{width:100%;border-collapse:collapse;font-size:14px;text-align:left}
-.guardian-damage-table caption{color:var(--muted);text-align:left;padding:0 0 12px}
-.guardian-damage-table th,.guardian-damage-table td{padding:12px 14px;border:1px solid var(--line);vertical-align:top}
-.guardian-damage-table thead{background:var(--row)}
+.guardian-damage-table,.guardian-attack-table,.guardian-recommendation-table{width:100%;border-collapse:collapse;font-size:14px;text-align:left}
+.guardian-damage-table caption,.guardian-attack-table caption,.guardian-recommendation-table caption{color:var(--muted);text-align:left;padding:0 0 12px}
+.guardian-damage-table th,.guardian-damage-table td,.guardian-attack-table th,.guardian-attack-table td,.guardian-recommendation-table th,.guardian-recommendation-table td{padding:12px 14px;border:1px solid var(--line);vertical-align:top}
+.guardian-damage-table thead,.guardian-attack-table thead,.guardian-recommendation-table thead{background:var(--row)}
+@media(max-width:680px){.guardian-attack-table,.guardian-recommendation-table{table-layout:fixed;font-size:12px}.guardian-attack-table th,.guardian-attack-table td,.guardian-recommendation-table th,.guardian-recommendation-table td{padding:8px 6px}}
 .guardian-damage-table td{font-variant-numeric:tabular-nums}
 .guardian-escape-table{width:100%;border-collapse:collapse;font-size:14px;text-align:left}
 .guardian-escape-table th,.guardian-escape-table td{padding:12px 14px;border:1px solid var(--line);vertical-align:top}

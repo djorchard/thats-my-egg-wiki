@@ -139366,15 +139366,15 @@
       "description": "Kiwink picks through leaf litter with its long bill. Its round body and scaled tail slip between roots and low branches.",
       "spawnWeight": 8388608,
       "developerOnly": false,
-      "retired": false,
+      "retired": true,
       "name": "Kiwink",
-      "region": "forest",
-      "stage": "catalogue",
+      "region": null,
+      "stage": "scrapped",
       "runtimeEnabled": true,
       "reference": "kiwink-perspective.png",
       "egg": "kiwink-egg.png",
       "icon": "kiwink-pets-v2-icon.png",
-      "notes": "Kiwink is installed in Studio Edit at 3.2 studs with a 15-bone rig and 1,882 body triangles. The named egg is registered. The first hatch awards 2,500 Running XP and the Home rate is 42 Cash per second. The review board shows WIP / To review. Idle and all movement previews score 8.5/10 at the recorded speeds. Blink scores 7.5/10 in the local preview and installed Studio Edit pose. Live transitions and developer review remain pending.",
+      "notes": "Scrapped at Daniel's request on 10 November 2026. Removed from new wild rolls, developer egg grants and the active collection/encyclopedia. Existing owned eggs and pets retain their model, hatching and income. Source files and saved model/animation approvals are preserved. Earlier history: Kiwink is installed in Studio Edit at 3.2 studs with a 15-bone rig and 1,882 body triangles. The named egg is registered. The first hatch awards 2,500 Running XP and the Home rate is 42 Cash per second. The review board shows WIP / To review. Idle and all movement previews score 8.5/10 at the recorded speeds. Blink scores 7.5/10 in the local preview and installed Studio Edit pose. Live transitions and developer review remain pending.",
       "artworkLayout": "flat-perspective-v1",
       "review": {
         "revision": 1,
@@ -139626,54 +139626,18 @@
         "Multiplier": 1.1,
         "Name": "Fleet foot"
       },
+      "retirement": {
+        "date": "2026-11-10",
+        "reason": "Scrapped at Daniel's request on 10 November 2026. Removed from new wild rolls, developer egg grants and the active collection/encyclopedia. Existing owned eggs and pets retain their model, hatching and income. Source files and saved model/animation approvals are preserved.",
+        "previousRegion": "forest"
+      },
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 2500,
         "repeatXP": 250,
         "firstCash": 5000
       },
-      "id": "kiwink",
-      "parentStats": [
-        {
-          "name": "Kiwi",
-          "weightKg": 2.35,
-          "url": "https://www.nzbirdsonline.org.nz/species/north-island-brown-kiwi",
-          "basis": "Representative body mass retained by the release balance record.",
-          "sizeMetres": 0.55,
-          "sizeUrl": "https://nationalzoo.si.edu/animals/north-island-brown-kiwi",
-          "sizeDimension": "standing height",
-          "sizeBasis": "Representative adult size retained by the release balance record.",
-          "heightMetres": 0.55,
-          "dominantSizeMetres": 0.55,
-          "dominantSizeAxis": "height",
-          "dimensionEvidence": [],
-          "dimensionCaveat": "Maximum of recorded height and length. Missing complete standing/horn-tip or tail measurements remain labelled proxies, not fabricated measurements."
-        },
-        {
-          "name": "Skink",
-          "weightKg": 0.035,
-          "url": "https://www.beehive.govt.nz/release/otago-and-grand-skink-habitat-protected",
-          "basis": "Representative body mass retained by the release balance record.",
-          "sizeMetres": 0.275,
-          "sizeUrl": "https://www.beehive.govt.nz/release/otago-and-grand-skink-habitat-protected",
-          "sizeDimension": "total length including tail",
-          "sizeBasis": "Representative adult size retained by the release balance record.",
-          "lengthMetres": 0.275,
-          "dominantSizeMetres": 0.275,
-          "dominantSizeAxis": "length",
-          "dimensionEvidence": [],
-          "dimensionCaveat": "Maximum of recorded height and length. Missing complete standing/horn-tip or tail measurements remain labelled proxies, not fabricated measurements."
-        }
-      ],
-      "parentMeanSizeMetres": 0.41250000000000003,
-      "parentMeanWeightKg": 1.1925000000000001,
-      "weightBalanceMultiplier": 1,
-      "weightBalanceBasis": "Heavier parent kg times max(current creature height,length) in metres divided by max(recorded parent height,length). No squared mass or length correction.",
-      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
-      "sizeReferenceAxis": "Length",
-      "parentBlendTargetStuds": 1.71875,
-      "heavierParent": "Kiwi",
-      "parentReferenceRevision": "dominant-dimension-soft-range-v9"
+      "id": "kiwink"
     },
     {
       "status": "Least Concern",
@@ -146627,35 +146591,31 @@
     "forest": [
       {
         "species": "Koalameleon",
-        "chance": 9.090909090909092
+        "chance": 11.11111111111111
       },
       {
         "species": "Porcupython",
-        "chance": 9.090909090909092
+        "chance": 11.11111111111111
       },
       {
         "species": "Badgermunk",
-        "chance": 9.090909090909092
-      },
-      {
-        "species": "Kiwink",
-        "chance": 18.181818181818183
+        "chance": 11.11111111111111
       },
       {
         "species": "Quokkaflash",
-        "chance": 9.090909090909092
+        "chance": 11.11111111111111
       },
       {
         "species": "Botterfly",
-        "chance": 18.181818181818183
+        "chance": 22.22222222222222
       },
       {
         "species": "Kiwi",
-        "chance": 18.181818181818183
+        "chance": 22.22222222222222
       },
       {
         "species": "Skant",
-        "chance": 9.090909090909092
+        "chance": 11.11111111111111
       }
     ],
     "jungle": [

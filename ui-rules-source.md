@@ -1824,6 +1824,14 @@ overlay before foreground labels and reuse it when selection changes. The Pets
 selected-creature summary is the first consumer. Garden and Stored tile
 footers explicitly use 70% opacity, as requested on 31 October 2026.
 
+Current image production contract, 11 November 2026: use
+[ARTWORK_RESIZE_RULES.md](ARTWORK_RESIZE_RULES.md) for role-specific longest-edge
+caps, aspect-preserving derivatives, original retention and audit coverage.
+Run tools/audit_ingame_artwork.py before proposing bulk artwork replacement.
+Atlas coordinates, nine-slice geometry and actual display quality need their
+own verification; dimension checks alone do not establish visual acceptance.
+This current contract supersedes conflicting historical size guidance below.
+
 Icon asset production rule, 31 October 2026: keep a full-resolution -original
 PNG and a separate display-sized -icon PNG. Creature pairs belong together in
 the flat concepts/<creature>/ folder. Preserve real alpha and aspect ratio,

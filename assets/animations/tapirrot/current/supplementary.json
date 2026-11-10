@@ -1,0 +1,274 @@
+{
+  "species": "Tapirrot",
+  "records": [
+    {
+      "kind": "finite-authored-bridge",
+      "name": "WalkToRun1",
+      "fps": 60,
+      "frames": 36,
+      "durationSeconds": 0.6,
+      "representativeMovementStudsPerSecond": 5.486269971868799,
+      "loop": false,
+      "startHoldSeconds": 0.2,
+      "movementSeconds": 0.2,
+      "endHoldSeconds": 0.2,
+      "sourceCaption": "Finite authored bridge, 60 FPS, 0.6 seconds: 0.2-second start hold, 0.2-second movement, 0.2-second end hold. Representative middle-interval travel 5.486269971868799 studs/s. Runtime traversal is distance-driven and can be faster; the current callback replay is provided separately.",
+      "sourceReceipt": {
+        "file": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/rendered/tapirrot/walktorun1-receipt.json",
+        "sha256": "5b76a05eae59d810cf9e5143ce669c72e9815ac388d38c34d8d526541b9e038e"
+      },
+      "limitations": [
+        "Finite contact handoff:0.2second start hold,0.2second movement,0.2second end hold. Not a looping locomotion action.",
+        "Representative bridge speed5.48626997stud/s. Runtime samples the same bridge by distance and may traverse it faster.",
+        "Actual current callback handoffs are replayed separately. No Studio or gameplay claim."
+      ],
+      "files": {
+        "MP4": {
+          "source": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/walktorun1.mp4",
+          "sha256": "b8b6e53ee45209d73a1ca589f83ab0c5f785cdd0c05ed5264a6fc6bdb4588cad",
+          "file": "assets/animations/tapirrot/current/transitions/walktorun1.mp4"
+        },
+        "GIF": {
+          "source": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/walktorun1.gif",
+          "sha256": "2e3195dc55da248085846a65af7e400bf50a4d95a7e8379482c0b25838f07783",
+          "file": "assets/animations/tapirrot/current/transitions/walktorun1.gif"
+        },
+        "Poster": {
+          "source": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/walktorun1.png",
+          "sha256": "6cde28e67b94ca4a890f5cbe30b5084b9f51ff6e35bf64a75dbce2f4e5723df5",
+          "file": "assets/animations/tapirrot/current/transitions/walktorun1.png"
+        }
+      }
+    },
+    {
+      "kind": "finite-authored-bridge",
+      "name": "WalkToRun2",
+      "fps": 60,
+      "frames": 36,
+      "durationSeconds": 0.6,
+      "representativeMovementStudsPerSecond": 5.486269971868799,
+      "loop": false,
+      "startHoldSeconds": 0.2,
+      "movementSeconds": 0.2,
+      "endHoldSeconds": 0.2,
+      "sourceCaption": "Finite authored bridge, 60 FPS, 0.6 seconds: 0.2-second start hold, 0.2-second movement, 0.2-second end hold. Representative middle-interval travel 5.486269971868799 studs/s. Runtime traversal is distance-driven and can be faster; the current callback replay is provided separately.",
+      "sourceReceipt": {
+        "file": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/rendered/tapirrot/walktorun2-receipt.json",
+        "sha256": "d5ec1284af8fb2b830da355cec01856a2c933bea6c2c6b871ddf5ddc1067b40b"
+      },
+      "limitations": [
+        "Finite contact handoff:0.2second start hold,0.2second movement,0.2second end hold. Not a looping locomotion action.",
+        "Representative bridge speed5.48626997stud/s. Runtime samples the same bridge by distance and may traverse it faster.",
+        "Actual current callback handoffs are replayed separately. No Studio or gameplay claim."
+      ],
+      "files": {
+        "MP4": {
+          "source": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/walktorun2.mp4",
+          "sha256": "9a7077563ff1afa21afba9fc7b4c0af7a530cdd07b62da6174b26be5dc5a312b",
+          "file": "assets/animations/tapirrot/current/transitions/walktorun2.mp4"
+        },
+        "GIF": {
+          "source": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/walktorun2.gif",
+          "sha256": "698906417d9961645847fdb7c3c596df3d5a75586cb41a03897b32282d02f8a9",
+          "file": "assets/animations/tapirrot/current/transitions/walktorun2.gif"
+        },
+        "Poster": {
+          "source": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/walktorun2.png",
+          "sha256": "36e8dd35166971207d23b9fe38d1cd05ad5c73ba65d55c98a04783abd41dd1b8",
+          "file": "assets/animations/tapirrot/current/transitions/walktorun2.png"
+        }
+      }
+    },
+    {
+      "kind": "finite-authored-bridge",
+      "name": "RunToWalk1",
+      "fps": 60,
+      "frames": 36,
+      "durationSeconds": 0.6,
+      "representativeMovementStudsPerSecond": 5.486269971868799,
+      "loop": false,
+      "startHoldSeconds": 0.2,
+      "movementSeconds": 0.2,
+      "endHoldSeconds": 0.2,
+      "sourceCaption": "Finite authored bridge, 60 FPS, 0.6 seconds: 0.2-second start hold, 0.2-second movement, 0.2-second end hold. Representative middle-interval travel 5.486269971868799 studs/s. Runtime traversal is distance-driven and can be faster; the current callback replay is provided separately.",
+      "sourceReceipt": {
+        "file": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/rendered/tapirrot/runtowalk1-receipt.json",
+        "sha256": "9bcf95baacb105d93c63ff412e06a9746398ced1dc9a03ac83070ffb77daeae1"
+      },
+      "limitations": [
+        "Finite contact handoff:0.2second start hold,0.2second movement,0.2second end hold. Not a looping locomotion action.",
+        "Representative bridge speed5.48626997stud/s. Runtime samples the same bridge by distance and may traverse it faster.",
+        "Actual current callback handoffs are replayed separately. No Studio or gameplay claim."
+      ],
+      "files": {
+        "MP4": {
+          "source": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/runtowalk1.mp4",
+          "sha256": "0da962b60947c8863762060ffcfb29e7359a8abb54d2102ca2ff22da670d2554",
+          "file": "assets/animations/tapirrot/current/transitions/runtowalk1.mp4"
+        },
+        "GIF": {
+          "source": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/runtowalk1.gif",
+          "sha256": "0f9e741657d197cd95f4eef6ee5e4878ba6327fe8d7d39405240585a65f723d6",
+          "file": "assets/animations/tapirrot/current/transitions/runtowalk1.gif"
+        },
+        "Poster": {
+          "source": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/runtowalk1.png",
+          "sha256": "67702015d335d030cbd2b195dbac0893780e88cbd8ea6c6555cc18c51631aad6",
+          "file": "assets/animations/tapirrot/current/transitions/runtowalk1.png"
+        }
+      }
+    },
+    {
+      "kind": "finite-authored-bridge",
+      "name": "RunToWalk2",
+      "fps": 60,
+      "frames": 36,
+      "durationSeconds": 0.6,
+      "representativeMovementStudsPerSecond": 5.486269971868799,
+      "loop": false,
+      "startHoldSeconds": 0.2,
+      "movementSeconds": 0.2,
+      "endHoldSeconds": 0.2,
+      "sourceCaption": "Finite authored bridge, 60 FPS, 0.6 seconds: 0.2-second start hold, 0.2-second movement, 0.2-second end hold. Representative middle-interval travel 5.486269971868799 studs/s. Runtime traversal is distance-driven and can be faster; the current callback replay is provided separately.",
+      "sourceReceipt": {
+        "file": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/rendered/tapirrot/runtowalk2-receipt.json",
+        "sha256": "a2293b2ffca2b94cafead55c98d6dea2bd61bed7a9d67f395b1da13dca3ee8c2"
+      },
+      "limitations": [
+        "Finite contact handoff:0.2second start hold,0.2second movement,0.2second end hold. Not a looping locomotion action.",
+        "Representative bridge speed5.48626997stud/s. Runtime samples the same bridge by distance and may traverse it faster.",
+        "Actual current callback handoffs are replayed separately. No Studio or gameplay claim."
+      ],
+      "files": {
+        "MP4": {
+          "source": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/runtowalk2.mp4",
+          "sha256": "b399545ad5efa69995c67dd5a3135c1133ffce34c9c34bebe6d5a2b8af5bdc94",
+          "file": "assets/animations/tapirrot/current/transitions/runtowalk2.mp4"
+        },
+        "GIF": {
+          "source": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/runtowalk2.gif",
+          "sha256": "952f9cb9a7eb70a2216224145bd106716526605831d0779c8a6ba5463becdb98",
+          "file": "assets/animations/tapirrot/current/transitions/runtowalk2.gif"
+        },
+        "Poster": {
+          "source": "assets/pets/tapirrot-lowpoly-v1/animation-final/bridge-media/runtowalk2.png",
+          "sha256": "51c2d19783e3e14ee9e91de5369f12ea656303251e803c90b07804810039c6ab",
+          "file": "assets/animations/tapirrot/current/transitions/runtowalk2.png"
+        }
+      }
+    },
+    {
+      "kind": "local-current-callback-replay",
+      "name": "gait-handoffs",
+      "fps": 60,
+      "frames": 156,
+      "durationSeconds": 2.6,
+      "inputStart": 2.75,
+      "inputEnd": 5.35,
+      "minimumMovementStudsPerSecond": 2,
+      "maximumMovementStudsPerSecond": 16,
+      "sourceCaption": "Current-source callback replay, 60 FPS, 2.6 seconds. Recorded input 2.75 to 5.35 seconds; speed 2 to 16 studs/s.",
+      "poseSource": "Actual current Animation.Bind/Step/Pose callback full skin and declared synthetic root trajectory, no fitted-cycle substitution.",
+      "limitations": [
+        "Local Blender replay, not Studio/gameplay footage.",
+        "Source UV and colour preserved; normals recomputed for this geometry replay.",
+        "Runtime cosmetic eyelid parts omitted; timed fitted Blink media is separate.",
+        "Flat labelled test support is not actual map terrain."
+      ],
+      "files": {
+        "MP4": {
+          "source": "output/tapirrot-import-20261110/final-runtime-video/gait-handoffs/gait-handoffs.mp4",
+          "sha256": "677ad49a7b3aefc77bbfc5f2d430a2d9e0d73e0ed5974405324a6caf4d4cc3bd",
+          "file": "assets/animations/tapirrot/current/callbacks/gait-handoffs.mp4"
+        },
+        "Poster": {
+          "source": "output/tapirrot-import-20261110/final-runtime-video/gait-handoffs/gait-handoffs.png",
+          "sha256": "047a02d37dec8201d58be0c945ac1a4dbe711932f116113397a291dadaefe2d3",
+          "file": "assets/animations/tapirrot/current/callbacks/gait-handoffs.png"
+        }
+      }
+    },
+    {
+      "kind": "local-current-callback-replay",
+      "name": "start-stop",
+      "fps": 60,
+      "frames": 150,
+      "durationSeconds": 2.5,
+      "inputStart": 7.8,
+      "inputEnd": 10.3,
+      "minimumMovementStudsPerSecond": 0,
+      "maximumMovementStudsPerSecond": 16,
+      "sourceCaption": "Current-source callback replay, 60 FPS, 2.5 seconds. Recorded input 7.8 to 10.3 seconds; speed 0 to 16 studs/s.",
+      "poseSource": "Actual current Animation.Bind/Step/Pose callback full skin and declared synthetic root trajectory, no fitted-cycle substitution.",
+      "limitations": [
+        "Local Blender replay, not Studio/gameplay footage.",
+        "Source UV and colour preserved; normals recomputed for this geometry replay.",
+        "Runtime cosmetic eyelid parts omitted; timed fitted Blink media is separate.",
+        "Flat labelled test support is not actual map terrain."
+      ],
+      "files": {
+        "MP4": {
+          "source": "output/tapirrot-import-20261110/final-runtime-video/start-stop/start-stop.mp4",
+          "sha256": "808a54b5c5e4ed6012fa12aa464036c7a55c09355cb50fe4829cf974f3f097db",
+          "file": "assets/animations/tapirrot/current/callbacks/start-stop.mp4"
+        },
+        "Poster": {
+          "source": "output/tapirrot-import-20261110/final-runtime-video/start-stop/start-stop.png",
+          "sha256": "c2f3b8b59cf7cc33df66b9c56a38ffa5a96a938e9ecf51b725475ba78119caa7",
+          "file": "assets/animations/tapirrot/current/callbacks/start-stop.png"
+        }
+      }
+    },
+    {
+      "kind": "local-current-callback-replay",
+      "name": "flight-handoff",
+      "fps": 60,
+      "frames": 222,
+      "durationSeconds": 3.7,
+      "inputStart": 10.8,
+      "inputEnd": 14.5,
+      "minimumMovementStudsPerSecond": 0,
+      "maximumMovementStudsPerSecond": 16,
+      "sourceCaption": "Current-source callback replay, 60 FPS, 3.7 seconds. Recorded input 10.8 to 14.5 seconds; speed 0 to 16 studs/s.",
+      "poseSource": "Actual current Animation.Bind/Step/Pose callback full skin and declared synthetic root trajectory, no fitted-cycle substitution.",
+      "limitations": [
+        "Local Blender replay, not Studio/gameplay footage.",
+        "Source UV and colour preserved; normals recomputed for this geometry replay.",
+        "Runtime cosmetic eyelid parts omitted; timed fitted Blink media is separate.",
+        "Flat labelled test support is not actual map terrain."
+      ],
+      "files": {
+        "MP4": {
+          "source": "output/tapirrot-import-20261110/final-runtime-video/flight-handoff/flight-handoff.mp4",
+          "sha256": "c931105b9fb40e4d1a570c79dbe5dfa9e07e3f468b638b5da37d4f4bc754ada9",
+          "file": "assets/animations/tapirrot/current/callbacks/flight-handoff.mp4"
+        },
+        "Poster": {
+          "source": "output/tapirrot-import-20261110/final-runtime-video/flight-handoff/flight-handoff.png",
+          "sha256": "1ae51169a1dd654337a8c99642affa888d9b21c8d87a4cc0ae9c8acd8ed91399",
+          "file": "assets/animations/tapirrot/current/callbacks/flight-handoff.png"
+        }
+      }
+    }
+  ],
+  "canonicalActionTableUnchanged": true,
+  "authorHandoff": {
+    "file": "assets/pets/tapirrot-lowpoly-v1/animation-final/wiki-animation-handoff.json",
+    "sha256": "4af8a6f77191724758535025ec8eb619ccab06b3dfba73aaa523659f672101da"
+  },
+  "replayReceipt": {
+    "file": "output/tapirrot-import-20261110/final-runtime-video/runtime-replay.json",
+    "sha256": "8b10e65b5077537389ae425712e2939f61966985099089c7d8e796d2197960d7"
+  },
+  "trace": {
+    "file": "output/tapirrot-import-20261110/final-runtime-check/step-straight-60fps-scale1.00.json",
+    "sha256": "8c010b18943891a9be71f4da029bc019b2102ef6dc8e38837ed32fdf48ddec5c"
+  },
+  "source": "Existing reviewed files copied byte-for-byte, no new rendering.",
+  "limitations": [
+    "Local Blender replay, not Studio/gameplay footage.",
+    "Source UV and colour preserved; normals recomputed for this geometry replay.",
+    "Runtime cosmetic eyelid parts omitted; timed fitted Blink media is separate.",
+    "Flat labelled test support is not actual map terrain."
+  ]
+}

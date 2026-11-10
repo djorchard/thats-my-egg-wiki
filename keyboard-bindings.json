@@ -1,5 +1,5 @@
 {
-  "updated": "8 November 2026",
+  "updated": "10 November 2026",
   "scope": "Current mapped project source audit, plus documented Roblox defaults. This is a control map, not a live-input test.",
   "references": {
     "roblox-defaults": {
@@ -41,7 +41,7 @@
       "category": "game",
       "label": "Hold for running boost",
       "short": "Run boost",
-      "context": "Requires Running level 40; also modifies emote number shortcuts while that menu is open.",
+      "context": "Requires Running level 20; also modifies emote number shortcuts while that menu is open.",
       "sources": [
         {
           "file": "src/running_boost.client.luau",
@@ -794,13 +794,29 @@
         "RightControl"
       ],
       "category": "context",
-      "label": "Hold to hide",
-      "short": "Hide / dive",
-      "context": "Running level 20, on land in grass or behind cover, more than 20 studs from guardians. Move at 30% speed. Ctrl retains Dive while swimming; L2 and touch use the shared action.",
+      "label": "Hold or tap to sneak",
+      "short": "Sneak / dive",
+      "context": "Hold Ctrl to sneak until release, or tap Ctrl to toggle Sneak on/off. A tap lasts at most 0.25 seconds. Running level 10, on land in grass or behind cover, more than 35 studs from guardians. Move at 30% speed. Sneaking spends 0.5 stamina units per second before pet modifiers; a fresh start needs 25% stamina. Ctrl retains Dive while swimming; L2 and touch use the shared action.",
       "sources": [
         {
           "file": "src/running_hide.client.luau",
           "needle": "local action = context:WaitForChild(\"Hide\")"
+        }
+      ]
+    },
+    {
+      "id": "settings",
+      "keys": [
+        "F1"
+      ],
+      "category": "game",
+      "label": "Open Settings",
+      "short": "Settings",
+      "context": "Opens Settings outside text entry, Roblox menus, hidden HUD modes and item or trap placement.",
+      "sources": [
+        {
+          "file": "src/player_settings.client.luau",
+          "needle": "input.KeyCode == Enum.KeyCode.F1"
         }
       ]
     }

@@ -1,4 +1,138 @@
+## Premium shop wallet and native Robux captions, 10 November 2026
+
+Cash, Boosts, XP and Donate omit the duplicate Cash balance and coin
+icon inside the shop header because the main top HUD already displays them.
+Keep the existing grocery and aisle wallet visibility, search, tabs, Close,
+responsive geometry and input cleanup.
+
+A verified Robux purchase action reads Buy for followed by Roblox's native
+Robux text glyph (utf8.char(0xE002)), a space and the confirmed price. Reuse
+the existing Trails checkout caption and Theme.Fonts.button. Donation actions
+retain Donate or Donate again: before the same glyph and amount. Keep the
+textual Robux unit in passive price explanations and accessible descriptions
+where useful. Existing glyph-based purchase captions remain valid.
+
+Unverified, unavailable, owned, maximum-level and Processing... states retain
+their existing captions and checkout guards. This is a caption and visibility
+change, with no new renderer, icon asset, checkout, polling or layout worker.
+
+## Settings tabs and display preferences, 10 November 2026
+
+Settings uses three native shared tabs: Settings, Icons and Language. Keep
+their canonical icons and the current-language flag on the same row as Close,
+without a duplicate Settings title. Measure captions independently of their
+current fitted bounds so repeated tab changes keep stable widths. Keep
+Language as the first row in Language, followed by Distance unit and Weight
+units. The remaining preferences stay in Settings. F1 opens the same window
+without consuming typing, Roblox menus, hidden-HUD or placement input.
+
+Icons exposes Hide then Show for the shared action-tile allowlist, including
+Sprint and Sneak. Default Emote, Trail and Discover to hidden on mobile and
+visible on desktop. Persist independent device preferences, project changes
+immediately and restore confirmed values on a failed request. Numbered hotbar
+slots and their navigation controls have no hide setting. Community, Drop
+fake egg, Music and Stop treadmill also have no hide setting, and older
+hidden preferences cannot suppress those actions. Reuse actual input
+mode for responsive layout, independently of sizing and visibility choices.
+
+Distance unit defaults to Km and also offers Studs and Miles. Format public
+speed displays consistently in the toolbar, stats, tooltips and local records,
+using Studs/s, km/h or MPH as appropriate. Jump height, jump bonuses and total
+distance use the selected distance unit with sufficient precision. Unit
+selection changes presentation only. Keep movement and stored values intact.
+See SETTINGS.md for the official conversion source and receipts.
+
+## Compact mobile HUD and ordered size choices, 9 November 2026
+
+Settings choices progress from smaller or lower to larger or higher. Graphics
+is Low then High, and effects are Off then On. Button sizes are Auto, Tiny,
+Small, Normal and Large in that order. Auto remains the default. Touch bottom
+tiles use 48 pixels for Auto, or 36, 44, 56 and 64 pixels for the explicit sizes.
+Touch side tiles use 44 pixels for Auto/Small, 36 for Tiny, 52 for Normal and
+60 for Large. Artwork fits proportionally. Tiny is an explicit compact choice.
+Size selection does not change the actual input mode or desktop meter design.
+
+Landscape touch trays and their 44-pixel Previous/Next controls stay between
+the native joystick and jump button. Portrait uses two rows above those native
+controls. Read their current bounds and relayout when the controls move, resize
+or become visible. Keep every action reachable through native swipe and paging.
+Touch buff icons fit the tray corridor and end four pixels above its top.
+The mobile Home pointer sits inside the side trays rather than overlapping them.
+
+Mobile stamina and normal breath panels are at most 320 pixels wide and 40
+pixels high. A breath warning can add an 18-pixel hint. Retain breath priority,
+stamina reveal rules, urgency colour and existing desktop layouts: standard
+stamina is 460x78 and breath is 600x76. Mobile announcements stack below the
+visible meter. Reuse the actual view constructors and existing icons.
+
+Evidence: output/mobile-compact-hud-20261109, including native clearance and
+ordered Settings fixtures, plus labelled Edit composites in screenshot/needs-review.
+Gameplay, real touch input and production persistence acceptance remain pending.
+
+## Mobile tray overflow and stable Cash captions, 9 November 2026
+
+9 November grass correction: garden grass keeps its original colour for every
+viewer. Do not tint or desaturate other players' lawns to make the own lawn
+greener. The separate owner and visitor house marker designs are retained.
+
+Overflowing bottom rows retain native swipe scrolling and show Previous and
+Next controls with 44-pixel minimum width. Reuse the canonical chevrons,
+Theme row surface and ButtonStates feedback. Disable the unavailable endpoint
+without moving its button. Keep the current scroll position through relayout,
+clamped to the valid canvas. Fitting rows and desktop retain their full width.
+HUD/camera hiding, placement and covering-window suppression include the pagers.
+Do not shrink or distort illustrated tiles to expose additional actions.
+
+CashButtonCaption uses explicit source-size text widths measured with the
+button font role. Fit that stable width uniformly into the available button
+area. Do not feed scaled automatic-layout bounds into a repeated sizing loop.
+Prefix translations, amount changes and ancestor UI scale still update the fit.
+Preserve the raised button renderer, shared Cash image and purchase authority.
+
+Native Edit paging checks pass at 320x568, 390x844, 844x390 and 932x430, including
+both ends, covering-window and HUD suppression, and desktop restoration. The
+96-pixel Cash caption previously oscillated between scales about 0.487 and
+0.562. After repair, 70 samples at each of 96, 140 and 220 pixels remain steady.
+Home direction is hidden inside Home and follows its existing offscreen/HUD
+rules outside. Evidence: output/mobile-tray-navigation-20261109 and labelled
+Studio Edit stress captures in screenshot/needs-review/studio/2026-11-09/mobile-tray-navigation.
+Camera restoration and fixture cleanup pass. Actual iPhone input and gameplay
+remain pending in TME-306. Plan 0d40d5579899482fadc63e719ed63de1 installed the
+three UI sources with exact readback. No Play, place save or publication.
+
+## Mobile toolbar beside native controls, 9 November 2026
+
+On touch devices with at least 280 pixels of usable TopbarSafeInsets width,
+place the existing time, Cash, skills and Settings pill on Roblox's top row.
+Use the actual safe ScreenGui size and reserve staff launcher space. The
+passive developer version label remains behind higher-priority UI on mobile.
+Narrow portrait regions retain the below-bar fallback. Do not position a bar
+over Roblox controls or scale artwork out of proportion.
+
+The current CurrencyHUD renderer, fonts, artwork and skill controls are reused.
+Five actual placement cases and 88 existing toolbar checks pass. Two inspected
+Studio Edit constructor fixtures place 524-pixel and 420-pixel pills inside a
+604-pixel simulated native safe rectangle. Both camera restorations and fixture
+cleanup passed. These fixtures do not establish actual phone/CoreGui acceptance.
+Evidence: output/log-repairs-20261109/mobile-native.json and
+screenshot/needs-review/mobile-topbar-20261109. Installed plan:
+ae6512d063734732a535d609a006d8bb. Gameplay, saving and publication remain pending.
+
 ## Injured-player toolbar border, 8 November 2026
+
+9 November earnings display: floating animal earnings use CurrencyFormat.FullAmount
+after the existing whole-unit rounding. Examples are +999, +1,000 and
++1,234,567. This is presentation only; earning rates, timing and saved balances
+are unchanged. The existing popup pool and reward typography are retained.
+Plan 5489032267554782ae43f96a045a8d72 and
+output/audio-and-income-20261109/verification.json retain installed evidence.
+
+9 November correction: ordinary game scripts cannot connect the restricted
+CoreGuiChangedSignal. PlayerHealthBorder now uses supported protected toggles
+and the existing one-second CoreGui check pattern. That exception previously
+aborted top-toolbar initialization. Four current native Edit layouts and exact
+installed readback pass; see PLAYER_HEALTH.md and TME-296. Earlier evidence
+below did not exercise real game-script event permissions.
 
 The player's health meter sits behind the entire time, Cash, skill and Settings
 toolbar as a six-pixel curved border. Reuse the existing CurrencyHUD pill and
@@ -33,22 +167,37 @@ and layout opacity. Native Edit desktop and phone fixtures are retained under
 output/callout-background-opacity-20261108/native-20percent. These fixtures do
 not establish live Billboard appearance or input acceptance.
 
-## Egg callout height and pointer alignment, 8 November 2026
+## Egg callout visibility and guardian clearance, 9 November 2026
 
-Egg callouts retain the approved artwork and use the bottom-centre native
-BillboardGui anchor. The pointer stays directly above the egg's actual bounds
-centre in world X and Z, independently of an offset PrimaryPart. Its world Y is
-the greater of the bounds ground Y plus 10 studs and the bounds top Y. Eggs over
-10 studs tall therefore place the pointer at their top. Bounds ground Y is the
-lower world-Y extent of the supplied bounds, or GetBoundingBox when no bounds
-were supplied. StudsOffset is zero; StudsOffsetWorldSpace owns the entire lift,
-so changing camera angle cannot move the world anchor. Existing bounds updates
-refresh placement without a new render loop. Pet callout placement is unchanged.
+Egg callouts retain the existing artwork, typography, action buttons and
+bottom-centre BillboardGui anchor. Their preferred pointer is 0.5 studs above
+the actual egg bounds top. The fixed ground-plus-10-stud minimum is retired
+because it can place a small egg's card outside a close camera view.
 
-The earlier camera-relative clearance policy is superseded. Its native anchor
-receipt remains historical evidence at
-output/guardian-egg-watch-20261108/native-callout.json. Source and native property
-checks for the current rule are separate from visual gameplay acceptance.
+Project the complete card into the viewport and keep its content inside the
+screen margins. When it would cover a nearby CombatGuardian, choose a clear
+position beside, above or below that guardian. Prefer the closest clear
+position and stable placement across updates. If a narrow screen has no clear
+position, minimize overlap rather than pushing the pickup action off-screen.
+The pointer remains above the egg when there is room; screen fitting and
+guardian visibility take priority when it must shift. StudsOffset remains zero.
+The existing renderer also limits its width by available screen height, keeping
+short landscape cards visible. The existing focus heartbeat handles camera
+movement and viewport changes; no additional frame worker is introduced.
+Pet callout placement and all server pickup rules are unchanged.
+
+159 offline placement checks pass. Native Edit fixtures retain small/large
+egg bounds, zero projected guardian overlap in four scenes, three phone/short
+viewport fits and about 0.014 to 0.015 milliseconds per placement with one
+guardian in a controlled 100-call sample. This is not a mobile frame-time
+claim. The actual card and a static SurfaceGui copy were absent from the
+captured viewport pixels despite valid native layout properties. Those captures
+do not establish visual acceptance. Keep the real gameplay appearance check in
+TME-214. Evidence: output/egg-callout-visibility-20261109. Both Edit fixture
+cleanup and camera/selection restoration passed. No place save or publication.
+
+Earlier fixed-height and camera-relative receipts remain historical evidence,
+including output/guardian-egg-watch-20261108/native-callout.json.
 
 ## UI ownership of E, 5 November 2026
 
@@ -952,11 +1101,14 @@ The keycap does not introduce a separate button skin, colour role or hit target.
 Garden Praise and Follow use these established buttons, not the decorative
 quality/money/DNA underlay artwork.
 
-Named keys such as Space, Shift and Enter need padding inside the keycap's
-light face, clear of its rim and bevel. The shared Hotkeys renderer widens
-these caps, reserves 20 percent of their image width on each side of the text
-area and caps word text at 20 pixels for a 32-pixel cap. Reserve the resulting
-cap width before fitting the action caption; widen the button when needed.
+Named keys such as Space, Shift and Enter use the separately generated
+Theme.Images.HotkeyWide artwork at its original 3:1 aspect ratio, with native
+Fit sizing. Never stretch the square keycap to make a named key. The shared
+Hotkeys renderer reserves 20 percent of the wide image width on each side of
+the text area and caps word text at 20 pixels for a 32-pixel cap. Reserve the
+resulting cap width before fitting the action caption; widen the button when needed.
+Keep the approved text alignment at one pixel below the original position.
+Changing any image's aspect ratio requires Daniel's explicit permission first.
 Single-letter caps keep their existing sizing. Verify actual text bounds and
 inspect the visible face, since fitting inside the outer image alone can still
 crowd the artwork.
@@ -1346,10 +1498,57 @@ inside their controls. Keep the buff-card emblem and name vertically centered
 on the same row; description text wraps below. Use existing Theme fonts, colours
 and corner tokens. These icon controls do not receive raised word-button styling.
 
-The accompanying-pet HUD uses the compact styled PetBuffView.Card with the buff
+9 November 2026: ActiveBuffHUD unifies following-pet, food and server bonuses.
+Settings offers Auto, Expanded and Icons. Auto chooses Icons on touch devices
+and Expanded on larger screens. Retired saved Minimized values render as Icons;
+they are accepted for compatibility but are not offered in Settings.
+Expanded cards form a narrow bottom-right stack above the action dock. Keep
+its bottom edge fixed when content changes. Retain Personal and Server headings
+and native overflow scrolling. Clicking a card toggles just that card between
+full content and its icon, unchanged title and countdown. Hide its description
+and optional action when collapsed. Newly gained or renewed buffs go to the
+bottom and expand automatically; earlier automatic cards are compressed.
+Keep manual expansions open too. Track acquisition locally using stable source
+identities and deadlines. Countdown ticks and expiring community contributions
+must not reorder cards. Group headings follow the chronological order and may
+repeat when Personal and Server cards alternate. Manual expansion or compression overrides the
+default for that card during this view's lifetime, including timer refreshes,
+display-mode changes and HUD hiding. This is local presentation state.
+Icons shows the countdown below each timed icon. Hover or controller focus
+shows one card directly above that icon. Clicking or tapping pins it open;
+clicking the same icon again closes it. Unpinned cards close after leaving the
+icon/card, with a short gap-crossing allowance. A pinned card stays fixed when
+another icon is hovered. Position details before making them visible.
+Neither mode uses an enclosing window, title bar, close button or outside-click
+backdrop. HUD descriptions use readable 14-pixel Theme.Fonts.body summaries. Buff titles
+retain their existing 18-pixel heading style. Timed cards show only the clock,
+without the word remaining, at the top right. Creature information retains its
+full descriptions and original 14-pixel body text.
+Show server multiplier values in the title, such as Hatch Luck x2. Following-pet
+quality suffixes use the same bracket-free form, such as Mighty companion x2.
+Keep the source multiplier semantics and avoid repeating server values in the
+description. Hatch Luck is the approved name for the former Quality luck buff.
+Personal and Server headings identify scope. Hide empty groups and expired
+effects from the same replicated state. Existing HUD, camera and covering-window
+suppression closes the popup without changing effects.
+
+All cards reuse PetBuffView.Card and the approved DetailSkins. Server Cash and
+XP is gold with the canonical Cash icon, hatch speed is blue with Hourglass,
+and quality luck is purple with HouseCrownStar. Retain individual community
+contribution timers and the existing server-validated upgrade/join actions.
+Every buff icon has shared circular dark shading fading outward from the
+centre, with a mild blurred drop shadow offset two pixels downward. Use
+Theme.BuffIconShadow for both image and emoji icons, including Icons mode.
+In Icons mode, also retain a separate soft aura in that buff's own card colour.
+Use the shared white radial texture in Theme.BuffIconAura and the card's
+BuffAuraColor attribute; keep the dark drop shadow as a separate layer.
+The texture reuses the ui-underlay-gen renderer's actual Gaussian shadow pass;
+provenance is in assets/ui/buff-icon-shadow-v1/manifest.json.
+
+Historical standalone HUD layout: the accompanying-pet HUD used the compact styled PetBuffView.Card with the buff
 name, shadowed emblem and visible wrapped description. It sits at the bottom
 right with a 16-pixel margin and a width of up to 300 pixels. Reserve 120 pixels
-below it on desktop and 190 on touch. Clamp that reservation to the safe
+below it on desktop. Clamp that reservation to the safe
 viewport after measuring the card. The card is passive and follows the
 existing HUD and camera hiding flags. Mountable species show a Mountable
 ability card explaining that riding replaces a following bonus. They do not
@@ -3256,8 +3455,11 @@ See RunningBoostStreaks, RUNNING_SPEED_BALANCE.md and its native preview evidenc
 ## Shared hotkey keycaps, 4 November 2026
 
 All authored buttons that expose keyboard shortcuts use ProjectUI.Hotkeys and
-Theme.Images.Hotkey (80443119022364), with live text layered on the blank cap.
-Do not generate or upload another keycap. This decoration preserves each
+Theme.Images.Hotkey (80443119022364) for single characters and
+Theme.Images.HotkeyWide (124245982875248) for named keys, with live text layered
+on each blank cap. The wide artwork was regenerated at Daniel's request on
+9 November 2026 and uses its original 3:1 ratio with Fit sizing. Reuse these
+canonical assets. This decoration preserves each
 button's existing skin, action, binding, focus and hit target. Native Roblox
 ProximityPrompts retain their built-in input UI.
 
@@ -3351,4 +3553,26 @@ Evidence: output/pet-shared-detail-20261104/native.json and native-extras.json.
 Camera state was restored and fixtures removed. Live gameplay, saving and
 publication were not run. The previous bottom summary and its historical
 evidence under output/pet-summary-dna-20261104 are superseded.
+
+## Own-home visibility, 9 November 2026
+
+Use Theme.Images.GardenOwner from assets/ui/house-callout-v6-owner-blue for the
+strong saturated owner-blue frame. The maintained
+tools/generate_house_callout_skill.py adapter reuses the Callout Card Gen
+renderer; the renderer and adapter hashes are retained in provenance.json.
+Preserve the original geometry, real alpha, separate icons and Fit rendering.
+The existing grey GardenVisitor artwork remains canonical for other players.
+
+GardenStatusView scales the whole visitor marker to 60 percent of the owner
+equivalent in both dimensions and limits visitors to 180 studs; the own sign
+retains 1,200 studs. A local transparent anchor retains the own sign after the
+house streams out. HomeNavigation's small passive Home pointer reuses the
+canonical arrow_forward, native rounded panel, Theme colours and body font.
+It stays in the safe screen area, appears only outside Home for an off-screen
+own marker, and follows HUD/camera hiding. The existing heartbeat owns updates.
+
+Native constructor snapshots and exact installed source checks passed. The
+sample widths are 760, 360 and 600 pixels; these are not live device tests.
+See HOME.md and output/home-navigation-20261109/native.json for the six native
+grass slots, restoration checks and separate gameplay acceptance limits.
 

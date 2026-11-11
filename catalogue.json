@@ -142681,12 +142681,12 @@
       "parents": "Ruby-throated Hummingbird + Big Dipper Firefly",
       "length": 2.55443634752861,
       "heightWeight": 0.0036963812811226806,
-      "description": "Humminglow hovers among jungle flowers. At dusk its golden lantern shines between the leaves.",
+      "description": "Humminglow hovers among garden flowers. At dusk its golden lantern shines between the leaves.",
       "spawnWeight": 4194304,
       "developerOnly": false,
       "retired": false,
       "name": "Humminglow",
-      "region": "jungle",
+      "region": "backyard",
       "stage": "catalogue",
       "runtimeEnabled": true,
       "reference": "humminglow-perspective.png",
@@ -142715,9 +142715,9 @@
         "progressionRevision": "alpha-20261108-v1"
       },
       "modelImport": {
-        "source": "creatures/5-jungle-wilds/humminglow/humminglow-initial.fbx",
+        "source": "creatures/1-sunnyside-backyard/humminglow/humminglow-initial.fbx",
         "sourceSha256": "f44ee824ec5974ec5c777581a515e380c345bccc6aff672e6a7d8469f4ac4af6",
-        "modified": "creatures/5-jungle-wilds/humminglow/humminglow-2-animations.fbx",
+        "modified": "creatures/1-sunnyside-backyard/humminglow/humminglow-2-animations.fbx",
         "modifiedSha256": "2461beed8b857b9a04dbfd110691647d765ff024b3da10358cb746e30257517a",
         "meshAsset": 107051096245919,
         "animationRevision": "humminglow-lowpoly-v1-humming-flight-v1",
@@ -142729,7 +142729,7 @@
         "placeholderHatchling": false,
         "fullImportComplete": true,
         "currentModel": {
-          "file": "creatures/5-jungle-wilds/humminglow/humminglow-2-animations.fbx",
+          "file": "creatures/1-sunnyside-backyard/humminglow/humminglow-2-animations.fbx",
           "sha256": "2461beed8b857b9a04dbfd110691647d765ff024b3da10358cb746e30257517a"
         },
         "nativeMesh": {
@@ -142746,7 +142746,7 @@
           "date": "2026-11-07",
           "installed": true,
           "status": "edit-installed-review-pending",
-          "model": "creatures/5-jungle-wilds/humminglow/humminglow-2-animations.fbx",
+          "model": "creatures/1-sunnyside-backyard/humminglow/humminglow-2-animations.fbx",
           "modelSha256": "2461beed8b857b9a04dbfd110691647d765ff024b3da10358cb746e30257517a",
           "mesh": "rbxassetid://107051096245919",
           "animationRevision": "humminglow-lowpoly-v1-humming-flight-v1",
@@ -142775,7 +142775,7 @@
               "sha256": "2ced2e194a9300ab40e7a9b8cec31de692bc97811075e9f09174f08c21d730f6"
             },
             "modelSource": {
-              "file": "creatures\\5-jungle-wilds\\humminglow\\humminglow-2-animations.fbx",
+              "file": "creatures\\1-sunnyside-backyard\\humminglow\\humminglow-2-animations.fbx",
               "sha256": "2461beed8b857b9a04dbfd110691647d765ff024b3da10358cb746e30257517a"
             },
             "capturedAt": "2026-11-10T04:17:47.922261+00:00",
@@ -142870,7 +142870,7 @@
           "modelInstalled": true,
           "eggShellInstalled": true,
           "model": {
-            "file": "creatures/5-jungle-wilds/humminglow/humminglow-2-animations.fbx",
+            "file": "creatures/1-sunnyside-backyard/humminglow/humminglow-2-animations.fbx",
             "sha256": "2461beed8b857b9a04dbfd110691647d765ff024b3da10358cb746e30257517a"
           },
           "native": {
@@ -146251,6 +146251,741 @@
       "parentBlendTargetStuds": 6.5580357142857135,
       "heavierParent": "Tapir",
       "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Least Concern",
+      "height": 1.0425108655342394,
+      "weight": 0.5829387937820416,
+      "eggHeight": 1.5,
+      "eggWeight": 0.05881395104628402,
+      "parents": "Millipede + Mouse",
+      "length": 3.497471284167668,
+      "heightWeight": null,
+      "description": "Millimouse rustles through the garden on a rippling row of pink paws, sniffing for seeds beneath fallen leaves. Its soft grey rings bunch gently whenever it stops to wiggle its antennae.",
+      "naturalHeight": 0.2950682340762126,
+      "naturalLength": 0.9899107142857142,
+      "weightReferenceKg": 0.2041165665,
+      "weightReferenceDimensionMetres": 0.3429,
+      "spawnWeight": 8388608,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Millimouse",
+      "artworkLayout": "flat-perspective-v1",
+      "region": "backyard",
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "reference": "millimouse-perspective.png",
+      "egg": "millimouse-egg.png",
+      "icon": "millimouse-pets-v1-icon.png",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Developer model and animation review pending."
+      },
+      "earnings": {
+        "amount": 7,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "hatchWorkSeconds": 120,
+      "mountable": false,
+      "diet": "Omnivore",
+      "travel": [
+        "Ground"
+      ],
+      "balanceAssignment": {
+        "assigned": true,
+        "runtimeEnabled": true,
+        "baseEarnings": 7,
+        "status": "Least Concern"
+      },
+      "modelImport": {
+        "source": {
+          "file": "creatures/1-sunnyside-backyard/millimouse/millimouse-initial.fbx",
+          "sha256": "5bdc12869fac53336d9851fbb4e192545534d2d1be80a8af317f695184f3ab5d"
+        },
+        "model": {
+          "file": "creatures/1-sunnyside-backyard/millimouse/millimouse-4-animations.fbx",
+          "sha256": "318219cf3e561547faf3f90acca3e5781fa822940c9452ebb3d9c7abbedb287a"
+        },
+        "native": {
+          "file": "assets/pets/millimouse-lowpoly-v1/rig02-partition-trial/native-mesh.json",
+          "sha256": "c4d476f4ced3a8faffa58616255da1d84e88d4d54dcfe99cefbff95666ceeadd"
+        },
+        "color": {
+          "file": "assets/pets/millimouse-lowpoly-v1/rig02-partition-trial/color.png",
+          "sha256": "0b042ea5f850f277eb43ba4d17933aa807c2439d22114142e003d2759b517c04"
+        },
+        "rigged": true,
+        "installed": true,
+        "triangles": 1936,
+        "bones": 42,
+        "maps": {
+          "color": {
+            "file": "assets/pets/millimouse-lowpoly-v1/rig02-partition-trial/color.png",
+            "sha256": "0b042ea5f850f277eb43ba4d17933aa807c2439d22114142e003d2759b517c04"
+          },
+          "roughness": {
+            "file": "assets/pets/millimouse-lowpoly-v1/rig02-partition-trial/roughness.png",
+            "sha256": "fddabe6e1a51c21642c4c373d284358171218df0c9fe1cd714ad6aa2ea782483"
+          },
+          "metallic": {
+            "file": "assets/pets/millimouse-lowpoly-v1/rig02-partition-trial/metallic.png",
+            "sha256": "0f4b1668d119f77ceb6b86645573f088ab2341d7b284314d5df0be7226ea5d91"
+          }
+        }
+      },
+      "implementation": {
+        "realModelReady": true,
+        "placeholderHatchling": false,
+        "replacementImport": {
+          "installed": true,
+          "mesh": "rbxassetid://117375489288105",
+          "robloxImage": {
+            "wikiImage": "assets/animations/millimouse/current/installed-roblox.png",
+            "sha256": "5edbcbd7ba87904ead738a1771c8008bd79945f3512290085f0641b1cd08251a",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "captureFormat": "PNG",
+            "currentVersion": true,
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "nativePayloadSha256": "c4d476f4ced3a8faffa58616255da1d84e88d4d54dcfe99cefbff95666ceeadd",
+            "modelSha256": "318219cf3e561547faf3f90acca3e5781fa822940c9452ebb3d9c7abbedb287a",
+            "heightStuds": 1.0425108655342394,
+            "currentScope": "Installed Millimouse in the Sunnyside Backyard scene in Studio Edit, posed on a temporary review plinth.",
+            "sourceReceipt": {
+              "file": "output/millimouse-import-20261111/studio-image-for-wiki.json",
+              "sha256": "45503b2fa54ec92702c848ec339790ae3f3654bd6949a9e1ed49d43f079e472c"
+            },
+            "captureReceipt": {
+              "file": "output/millimouse-import-20261111/studio-portraits/millimouse-verification.json",
+              "sha256": "36ddb5b33a877325f57a82ab0d7f113d46678d781b145eca603a2a073f08a97c"
+            }
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/millimouse/current/millimouse-source-and-animations.zip",
+            "sha256": "5178b72c2ea9dc692b3fe2eef5759f17ef80361eb48f124b03fd3807f40e5f9e",
+            "complete": false,
+            "modelSha256": "318219cf3e561547faf3f90acca3e5781fa822940c9452ebb3d9c7abbedb287a",
+            "sourceArchive": "creatures/1-sunnyside-backyard/millimouse/millimouse-3dmodel-fbx.zip",
+            "scope": "The source bundle includes the FBX body actions. Blink has its own GIF and MP4."
+          },
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true,
+            "comment": "The current Blink is available below."
+          }
+        }
+      },
+      "artworkTransparency": {
+        "sha256": "0bccc0c89f35cad37fe783aa0b5dcbfcc691369c3e7d09acfbaf4c79d5624709",
+        "shadowFreeVerified": true,
+        "review": "output/millimouse-import-20261111/wiki-art-provenance.json"
+      },
+      "collectionArt": {
+        "image": "millimouse-CollectionArt.png",
+        "imageSha256": "504f30756fe4acfd1b32dab88ed367cad6b2fde3d05d9a56fbbe177e56bb77a8",
+        "silhouette": "millimouse-CollectionArt-silhouette.png",
+        "silhouetteSha256": "bbd03bea62fc2d953c6d9ce81c3e815ca967c8f4d33de9d9d909db61e5322263"
+      },
+      "followingBuff": {
+        "id": "FleetFoot",
+        "Description": "10% faster running, within area speed limits.",
+        "Effect": "Running",
+        "HUDDescription": "10% faster running (area limits apply).",
+        "Icon": "\ud83d\udc5f",
+        "Multiplier": 1.1,
+        "Name": "Fleet foot"
+      },
+      "hatchXPBonus": {
+        "skill": "Running",
+        "firstXP": 2000,
+        "repeatXP": 200,
+        "firstCash": 5000
+      },
+      "id": "millimouse",
+      "parentStats": [
+        {
+          "name": "Millipede",
+          "representativeSpecies": "Archispirostreptus gigas, African giant millipede",
+          "weightKg": 0.2041165665,
+          "basis": "Midpoint of the Saginaw Children Zoo stated 0.4 to 0.5 pound range. Selected game reference, not a measured generic-millipede mean.",
+          "url": "https://www.saginawzoo.com/African-Giant-Millipede/",
+          "sizeMetres": 0.3429,
+          "sizeDimension": "body length",
+          "sizeBasis": "Midpoint of the same keeper fact sheet stated 12 to 15 inch length range. Selected giant-millipede proxy, not a population average across millipedes.",
+          "sizeUrl": "https://www.saginawzoo.com/African-Giant-Millipede/",
+          "lengthMetres": 0.3429,
+          "dominantSizeMetres": 0.3429,
+          "dominantSizeAxis": "length",
+          "dimensionEvidence": [],
+          "dimensionCaveat": "Only body length is recorded; no standing-height or antenna-tip measurement is invented.",
+          "checked": "2026-11-11"
+        },
+        {
+          "name": "Mouse",
+          "weightKg": 0.021,
+          "basis": "midpoint of 12 to 30 g house mouse range",
+          "url": "https://animaldiversity.org/accounts/Mus_musculus/",
+          "sizeMetres": 0.08,
+          "sizeDimension": "body length",
+          "sizeBasis": "midpoint of 65 to 95 mm house mouse head-body length; excludes tail",
+          "sizeUrl": "https://animaldiversity.org/accounts/Mus_musculus/",
+          "lengthMetres": 0.08,
+          "dominantSizeMetres": 0.08,
+          "dominantSizeAxis": "length",
+          "dimensionEvidence": [],
+          "dimensionCaveat": "Maximum of recorded height and length. Missing complete standing/horn-tip or tail measurements remain labelled proxies, not fabricated measurements."
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "Dominant dimension and heavier-parent mass, using the current game sizing rules.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Length",
+      "parentBlendTargetStuds": 0.9899107142857142,
+      "heavierParent": "Millipede",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Near Threatened",
+      "height": 2.753643100112448,
+      "weight": 8.635,
+      "eggHeight": 1.6978398649515347,
+      "eggWeight": 0.871203757069818,
+      "parents": "Swan + Cobra",
+      "length": 4.910714285714286,
+      "heightWeight": null,
+      "description": "Swobra trails its long tail behind it like a ribbon. Its gold-marked hood rises above the water as its webbed feet paddle beneath the surface.",
+      "naturalHeight": 2.753643100112448,
+      "naturalLength": 4.910714285714286,
+      "weightReferenceKg": 9.42,
+      "weightReferenceDimensionMetres": 1.5,
+      "spawnWeight": 4194304,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Swobra",
+      "region": null,
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "artworkLayout": "flat-perspective-v1",
+      "diet": "Omnivore",
+      "travel": [
+        "Ground",
+        "Water",
+        "Air"
+      ],
+      "reference": "swobra-perspective.png",
+      "egg": "swobra-egg.png",
+      "icon": "swobra-pets-v1-icon.png",
+      "notes": "Unassigned spare. Swobra has an installed egg shell and creature model. Its egg does not spawn in any biome.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Installed in Studio Edit and awaiting creature review. Blink is a local candidate. Gameplay remains untested."
+      },
+      "earnings": {
+        "amount": 13,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "artworkTransparency": {
+        "sha256": "21c2f6cfaced8a9abc68fb6001b80eff1271d25ffe50ccc9c3ab368c722cbb45",
+        "shadowFreeVerified": true,
+        "review": "output/swobra-import-20261111/wiki-art-provenance.json"
+      },
+      "implementation": {
+        "realModelReady": true,
+        "placeholderHatchling": false,
+        "replacementImport": {
+          "installed": true,
+          "mesh": "rbxassetid://102066582907800",
+          "robloxImage": {
+            "wikiImage": "assets/animations/swobra/current/swobra-studio-edit.png",
+            "sha256": "5ba3c410a9022a1bc371f699bf4242d48ba6f92d9ed4e6c5101fa6102c88b9d1",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "currentVersion": true,
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "nativePayloadSha256": "910d5e4778dbb24f68329f12955665c7104bc2c2fc1e462b2fe507f0344b2ece",
+            "modelSha256": "1e816002d62c77662d0bdf9b3aa72df018f193fe4d2e52e1ca4bf30ac500b40b",
+            "heightStuds": 2.753643100112448,
+            "currentScope": "Placed on a temporary review plinth for the capture.",
+            "sourceReceipt": {
+              "file": "output/swobra-import-20261111/installation/scene-readback.json",
+              "sha256": "9874d9c21719dc25833c83c5c1f600e90a48f38ebc4243db934f0a9f605b9d76"
+            },
+            "captureReceipt": {
+              "file": "output/swobra-import-20261111/studio-portraits-close/swobra-verification.json",
+              "sha256": "4113ab06de6962573fcb1676abffa3bc5bfdf4b0e90288cccb865c6f2be737ad"
+            }
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/swobra/current/swobra-source-and-animations.zip",
+            "sha256": "44d0d4beef7bd2f1d39621adf1673c12bdb4aaaadae0198c86241249ca075716",
+            "complete": false,
+            "modelSha256": "1e816002d62c77662d0bdf9b3aa72df018f193fe4d2e52e1ca4bf30ac500b40b",
+            "sourceArchive": "creatures/~unassigned/swobra/swobra-3dmodel-fbx.zip",
+            "scope": "Five installed body actions."
+          }
+        }
+      },
+      "mountable": false,
+      "followingBuff": null,
+      "hatchXPBonus": {
+        "skill": "Swimming",
+        "firstXP": 3000,
+        "repeatXP": 300,
+        "firstCash": 20000
+      },
+      "id": "swobra",
+      "parentStats": [
+        {
+          "name": "Swan",
+          "representativeSpecies": "Mute Swan (Cygnus olor)",
+          "weightKg": 9.42,
+          "basis": "BTO mean of 986 live adults.",
+          "url": "https://www.bto.org/learn/about-birds/birdfacts/mute-swan",
+          "sizeMetres": 1.5,
+          "lengthMetres": 1.5,
+          "sizeDimension": "body length",
+          "sizeBasis": "Rounded adult length within the reported range. BTO all-adult mass mean, n=986.",
+          "sizeUrl": "https://www.allaboutbirds.org/guide/Mute_swan/id",
+          "dominantSizeMetres": 1.5,
+          "dominantSizeAxis": "length",
+          "dimensionEvidence": [],
+          "checked": "2026-11-11"
+        },
+        {
+          "name": "Cobra",
+          "representativeSpecies": "Indian cobra (Naja naja)",
+          "weightKg": 0.29233898305084743,
+          "basis": "Weighted mean of the reported sex-specific sample means from 59 wild adults. This regional sample is a reference, not a species-wide estimate.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3996906/",
+          "sizeMetres": 1.0,
+          "lengthMetres": 1.0,
+          "sizeDimension": "body length",
+          "sizeBasis": "Zoological Survey of India guide adult length. Cobra contributes to size blend only.",
+          "sizeUrl": "https://cdnbbsr.s3waas.gov.in/s3d79c6256b9bdac53a55801a066b70da3/uploads/2021/06/2021060419.pdf",
+          "dominantSizeMetres": 1.0,
+          "dominantSizeAxis": "length",
+          "dimensionEvidence": [],
+          "checked": "2026-11-11"
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "Dominant dimension and heavier-parent mass, using the current game sizing rules.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Length",
+      "parentBlendTargetStuds": 4.910714285714286,
+      "heavierParent": "Swan",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Vulnerable",
+      "height": 8.017830596070517,
+      "weight": 400.89152980352594,
+      "eggHeight": 5.492441361354855,
+      "eggWeight": 40.446810300208305,
+      "parents": "Camel + Toucan",
+      "length": 5.535957593048618,
+      "heightWeight": null,
+      "description": "Camoucan sways along on long padded legs, its feather cape settling over its hump. A bright toucan bill peeks over the dunes.",
+      "naturalHeight": 8.01785714285714,
+      "naturalLength": 5.5359759224312635,
+      "weightReferenceKg": 500.0,
+      "weightReferenceDimensionMetres": 2.8,
+      "spawnWeight": 2097152,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Camoucan",
+      "region": null,
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "artworkLayout": "flat-perspective-v1",
+      "reference": "camoucan-perspective.png",
+      "egg": "camoucan-egg.png",
+      "icon": "camoucan-pets-v1-icon.png",
+      "notes": "Unassigned spare. Camoucan has a creature model and egg shell in Studio Edit. Its egg has no biome spawn.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Installed in Studio Edit and awaiting creature review."
+      },
+      "earnings": {
+        "amount": 41,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "artworkTransparency": {
+        "sha256": "1560b5670fba2ef341e2f25f167683322aeb5edc54da4bb8bb2205dd4c5acea1",
+        "shadowFreeVerified": true,
+        "review": "output/three-creature-import-20261111/camoucan/wiki-art-provenance.json"
+      },
+      "implementation": {
+        "realModelReady": true,
+        "placeholderHatchling": false,
+        "replacementImport": {
+          "installed": true,
+          "mesh": "rbxassetid://93548499612050",
+          "robloxImage": {
+            "wikiImage": "assets/animations/camoucan/current/camoucan-studio-edit.png",
+            "sha256": "f7b80ca108da91dbd47cf2ce25c88aa0003d76078cfe26282e27090f70337370",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "currentVersion": true,
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "nativePayloadSha256": "cd8f5a8e7e39e776e7816f76f5169dd616be334b78b7af79f5617f3571e40d5f",
+            "modelSha256": "0b31d8be1bf0a900f2e4a57afde30fe0d35b0ecc78c88b9120ba16842769f579",
+            "heightStuds": 8.017830596070517,
+            "catalogueHeightStuds": 8.017830596070517,
+            "studioReadbackHeightStuds": 8.017732620239258,
+            "currentScope": "Captured with the installed model on a temporary review plinth.",
+            "sourceReceipt": {
+              "file": "output/camoucan-import-20261111/installation/scene-readback.json",
+              "sha256": "6de68b704b2e872e3eeca53354a47dbdafe443a46023bdc5c1112c54491dbf80"
+            },
+            "captureReceipt": {
+              "file": "output/camoucan-import-20261111/studio-portraits/camoucan-verification.json",
+              "sha256": "01bdd131cc9299e80cb8aafc4939a6a9327a45ad4392ba70467b234737fc1171"
+            }
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/camoucan/current/camoucan-source-and-animations.zip",
+            "sha256": "45d1c01757650eb40f23124493afa108f1d70e72b74148ac28c29d819f801dfe",
+            "complete": false,
+            "modelSha256": "0b31d8be1bf0a900f2e4a57afde30fe0d35b0ecc78c88b9120ba16842769f579",
+            "sourceArchive": "creatures/~unassigned/camoucan/camoucan-3dmodel-fbx.zip",
+            "scope": "Installed body animations and FBX source."
+          }
+        }
+      },
+      "diet": "Omnivore",
+      "mountable": false,
+      "travel": [
+        "Ground"
+      ],
+      "followingBuff": null,
+      "hatchXPBonus": {
+        "skill": "Running",
+        "firstXP": 5000,
+        "repeatXP": 500,
+        "firstCash": 100000
+      },
+      "id": "camoucan",
+      "parentStats": [
+        {
+          "name": "Camel",
+          "representativeSpecies": "Dromedary camel (Camelus dromedarius)",
+          "weightKg": 500,
+          "basis": "Midpoints of the zoo fact sheet adult body length and mass ranges.",
+          "url": "https://ielc.libguides.com/sdzg/factsheets/extantcamels/characteristics",
+          "sizeMetres": 2.8,
+          "sizeDimension": "body length",
+          "sizeBasis": "Midpoints of the zoo fact sheet adult body length and mass ranges.",
+          "sizeUrl": "https://ielc.libguides.com/sdzg/factsheets/extantcamels/characteristics",
+          "dominantSizeMetres": 2.8,
+          "dominantSizeAxis": "length",
+          "dimensionEvidence": [],
+          "lengthMetres": 2.8,
+          "checked": "2026-11-11"
+        },
+        {
+          "name": "Toucan",
+          "representativeSpecies": "Toco toucan (Ramphastos toco)",
+          "weightKg": 0.68,
+          "basis": "Rounded midpoints of the zoo fact sheet length and mass ranges.",
+          "url": "https://ielc.libguides.com/sdzg/factsheets/toco-toucan",
+          "sizeMetres": 0.58,
+          "sizeDimension": "body length",
+          "sizeBasis": "Rounded midpoints of the zoo fact sheet length and mass ranges.",
+          "sizeUrl": "https://ielc.libguides.com/sdzg/factsheets/toco-toucan",
+          "dominantSizeMetres": 0.58,
+          "dominantSizeAxis": "length",
+          "dimensionEvidence": [],
+          "lengthMetres": 0.58,
+          "checked": "2026-11-11"
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "Dominant dimension and heavier-parent mass, using the current game sizing rules.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Height",
+      "parentBlendTargetStuds": 8.01785714285714,
+      "heavierParent": "Camel",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Near Threatened",
+      "height": 5.874999999999999,
+      "weight": 41.35220994475138,
+      "eggHeight": 3.2197308367363506,
+      "eggWeight": 4.172113568848557,
+      "parents": "Wolf + Penguin",
+      "length": 4.186717204749583,
+      "heightWeight": null,
+      "description": "Wolguin waddles on webbed feet and dives with broad flippers. Gold cheek patches peek out beneath its shaggy wolf ears.",
+      "naturalHeight": 5.874999999999999,
+      "naturalLength": 4.186717204749583,
+      "weightReferenceKg": 45.5,
+      "weightReferenceDimensionMetres": 1.81,
+      "spawnWeight": 4194304,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Wolguin",
+      "region": null,
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "artworkLayout": "flat-perspective-v1",
+      "reference": "wolguin-perspective.png",
+      "egg": "wolguin-egg.png",
+      "icon": "wolguin-pets-v1-icon.png",
+      "notes": "Unassigned spare. Wolguin has a creature model and egg shell in Studio Edit. Its egg has no biome spawn.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Installed in Studio Edit and awaiting creature review."
+      },
+      "earnings": {
+        "amount": 18,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "artworkTransparency": {
+        "sha256": "cb24e48e464adbf6bbc1299145af31813a6df9513a553ffe6a9ef24deb204524",
+        "shadowFreeVerified": true,
+        "review": "output/three-creature-import-20261111/wolguin/wiki-art-provenance.json"
+      },
+      "implementation": {
+        "realModelReady": true,
+        "placeholderHatchling": false,
+        "replacementImport": {
+          "installed": true,
+          "mesh": "rbxassetid://117443219092791",
+          "robloxImage": {
+            "wikiImage": "assets/animations/wolguin/current/wolguin-studio-edit.png",
+            "sha256": "f7bf01973c2aad6b72f37d1396b1af80341ec9585d5a66aa64bed2d560d6056c",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "currentVersion": true,
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "nativePayloadSha256": "0c302a3c3ccfcd9afe7f03bbb2ec8900dfd9a03b9bc53aa968c6cb39f8dd90be",
+            "modelSha256": "06abd617ee612a51e93bb29e6f295f37b2682c1460edba6149875c2364197321",
+            "heightStuds": 5.874999999999999,
+            "catalogueHeightStuds": 5.874999999999999,
+            "studioReadbackHeightStuds": 5.875,
+            "currentScope": "Captured with the installed model on a temporary review plinth.",
+            "sourceReceipt": {
+              "file": "output/wolguin-import-20261111/installation/scene-readback.json",
+              "sha256": "e1172582e0a88ee011a5d9bdebe87c89de630d2d0dd23ab4eb930e1ffd6de10d"
+            },
+            "captureReceipt": {
+              "file": "output/wolguin-import-20261111/studio-portraits/wolguin-verification.json",
+              "sha256": "e397e2d7193f1daeb6c4f100a4f5494a849e4e194d60b38113b0939aaeee1e0d"
+            }
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/wolguin/current/wolguin-source-and-animations.zip",
+            "sha256": "3cecafb040a28b9078ad9bb33107497e05e37ca250a3c8634cca5b7892348bff",
+            "complete": false,
+            "modelSha256": "06abd617ee612a51e93bb29e6f295f37b2682c1460edba6149875c2364197321",
+            "sourceArchive": "creatures/~unassigned/wolguin/wolguin-3dmodel-fbx.zip",
+            "scope": "Installed body animations and FBX source."
+          }
+        }
+      },
+      "diet": "Carnivore",
+      "mountable": false,
+      "travel": [
+        "Ground",
+        "Water"
+      ],
+      "followingBuff": null,
+      "hatchXPBonus": {
+        "skill": "Swimming",
+        "firstXP": 3000,
+        "repeatXP": 300,
+        "firstCash": 20000
+      },
+      "id": "wolguin",
+      "parentStats": [
+        {
+          "name": "Wolf",
+          "representativeSpecies": "Gray wolf (Canis lupus)",
+          "weightKg": 45.5,
+          "basis": "Yellowstone Wolf Project mean length and midpoint of its two reported sex-specific mean masses.",
+          "url": "https://www.nps.gov/yell/learn/nature/wolf.htm",
+          "sizeMetres": 1.81,
+          "sizeDimension": "body length",
+          "sizeBasis": "Yellowstone Wolf Project mean length and midpoint of its two reported sex-specific mean masses.",
+          "sizeUrl": "https://www.nps.gov/yell/learn/nature/wolf.htm",
+          "dominantSizeMetres": 1.81,
+          "dominantSizeAxis": "length",
+          "dimensionEvidence": [],
+          "lengthMetres": 1.81,
+          "checked": "2026-11-11"
+        },
+        {
+          "name": "Penguin",
+          "representativeSpecies": "Emperor penguin (Aptenodytes forsteri)",
+          "weightKg": 33.5,
+          "basis": "Australian Antarctic Program reported standing height, with midpoint of its recorded mass range as the game reference.",
+          "url": "https://www.antarctica.gov.au/news/stations/mawson/2014/this-week-at-mawson-26-september-2014/",
+          "sizeMetres": 1.15,
+          "sizeDimension": "standing height",
+          "sizeBasis": "Australian Antarctic Program reported standing height, with midpoint of its recorded mass range as the game reference.",
+          "sizeUrl": "https://www.antarctica.gov.au/site/assets/files/64898/ar_144.pdf",
+          "dominantSizeMetres": 1.15,
+          "dominantSizeAxis": "height",
+          "dimensionEvidence": [],
+          "heightMetres": 1.15,
+          "checked": "2026-11-11"
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "Dominant dimension and heavier-parent mass, using the current game sizing rules.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Height",
+      "parentBlendTargetStuds": 5.874999999999999,
+      "heavierParent": "Wolf",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Vulnerable",
+      "height": 2.875649402188009,
+      "weight": 238.41468995394564,
+      "eggHeight": 3.016402652610958,
+      "eggWeight": 24.054171815693486,
+      "parents": "Shark + Dolphin",
+      "length": 8.167267075681812,
+      "heightWeight": null,
+      "description": "Sholphin cruises on a gentle beat of its dolphin tail. A tall shark fin and five gill slits on each side frame its broad smile.",
+      "naturalHeight": 2.8764859016528694,
+      "naturalLength": 8.169642857142856,
+      "weightReferenceKg": 245.0,
+      "weightReferenceDimensionMetres": 2.35,
+      "spawnWeight": 2097152,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Sholphin",
+      "region": null,
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "artworkLayout": "flat-perspective-v1",
+      "reference": "sholphin-perspective.png",
+      "egg": "sholphin-egg.png",
+      "icon": "sholphin-pets-v1-icon.png",
+      "notes": "Unassigned spare. Sholphin has a creature model and egg shell in Studio Edit. Its egg has no biome spawn.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Installed in Studio Edit and awaiting creature review."
+      },
+      "earnings": {
+        "amount": 105,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "artworkTransparency": {
+        "sha256": "2c2219285516521b40c2df73036984816f1fdbe246d347ef3931c4adef53dfbc",
+        "shadowFreeVerified": true,
+        "review": "output/three-creature-import-20261111/sholphin/wiki-art-provenance.json"
+      },
+      "implementation": {
+        "realModelReady": true,
+        "placeholderHatchling": false,
+        "replacementImport": {
+          "installed": true,
+          "mesh": "rbxassetid://70405272839818",
+          "robloxImage": {
+            "wikiImage": "assets/animations/sholphin/current/sholphin-studio-edit.png",
+            "sha256": "79f5cacf4ab2362b3a082b23e310d01825150baad20fcc1d7ac7e3d15876402a",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "currentVersion": true,
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "nativePayloadSha256": "c57361b35abae7d925dea05c191145c769af81451f36effe3da05f23acd73849",
+            "modelSha256": "213122ada2da1ed7d56b4286f439eace47e2ee3dfaffa7aceb341c2028bf308b",
+            "heightStuds": 2.875649402188009,
+            "catalogueHeightStuds": 2.875649402188009,
+            "studioReadbackHeightStuds": 2.875439405441284,
+            "currentScope": "Captured with the installed model on a temporary review plinth.",
+            "sourceReceipt": {
+              "file": "output/sholphin-import-20261111/installation/scene-readback.json",
+              "sha256": "faab0867fbc357f5f43fdaa6569fbff62f7dfaa30dd958f3bf4ee5575147c998"
+            },
+            "captureReceipt": {
+              "file": "output/sholphin-import-20261111/studio-portraits-material-ready/sholphin-verification.json",
+              "sha256": "742f095336f0854044896a75101db5a0f38b4ec4fd095945dc190a9a81019337"
+            }
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/sholphin/current/sholphin-source-and-animations.zip",
+            "sha256": "a71098a886ce98d500d79081d9af89c5c08f3cfe857ca3528ff36b43c0d9c66a",
+            "complete": false,
+            "modelSha256": "213122ada2da1ed7d56b4286f439eace47e2ee3dfaffa7aceb341c2028bf308b",
+            "sourceArchive": "creatures/~unassigned/sholphin/sholphin-3dmodel-fbx.zip",
+            "scope": "Installed body animations and FBX source."
+          }
+        }
+      },
+      "diet": "Carnivore",
+      "mountable": false,
+      "travel": [
+        "Water"
+      ],
+      "followingBuff": null,
+      "hatchXPBonus": {
+        "skill": "Swimming",
+        "firstXP": 7500,
+        "repeatXP": 750,
+        "firstCash": 100000
+      },
+      "id": "sholphin",
+      "parentStats": [
+        {
+          "name": "Shark",
+          "representativeSpecies": "Blue shark (Prionace glauca)",
+          "weightKg": 41,
+          "basis": "Midpoints of Fisheries and Oceans Canada's usual adult ranges.",
+          "url": "https://www.dfo-mpo.gc.ca/species-especes/profiles-profils/blueshark-requinbleu-eng.html",
+          "sizeMetres": 2.1,
+          "sizeDimension": "body length",
+          "sizeBasis": "Midpoints of Fisheries and Oceans Canada's usual adult ranges.",
+          "sizeUrl": "https://www.dfo-mpo.gc.ca/species-especes/profiles-profils/blueshark-requinbleu-eng.html",
+          "dominantSizeMetres": 2.1,
+          "dominantSizeAxis": "length",
+          "dimensionEvidence": [],
+          "lengthMetres": 2.1,
+          "checked": "2026-11-11"
+        },
+        {
+          "name": "Dolphin",
+          "representativeSpecies": "Common bottlenose dolphin (Tursiops truncatus)",
+          "weightKg": 245,
+          "basis": "Midpoints of Georgia Aquarium's reported adult size ranges.",
+          "url": "https://www.georgiaaquarium.org/animal/bottlenose-dolphin/",
+          "sizeMetres": 2.35,
+          "sizeDimension": "body length",
+          "sizeBasis": "Midpoints of Georgia Aquarium's reported adult size ranges.",
+          "sizeUrl": "https://www.georgiaaquarium.org/animal/bottlenose-dolphin/",
+          "dominantSizeMetres": 2.35,
+          "dominantSizeAxis": "length",
+          "dimensionEvidence": [],
+          "lengthMetres": 2.35,
+          "checked": "2026-11-11"
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "Dominant dimension and heavier-parent mass, using the current game sizing rules.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Length",
+      "parentBlendTargetStuds": 8.169642857142856,
+      "heavierParent": "Dolphin",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
     }
   ],
   "spares": [
@@ -146509,23 +147244,31 @@
     "backyard": [
       {
         "species": "Labraduck",
-        "chance": 20.0
+        "chance": 15.384615384615385
       },
       {
         "species": "Bunblebee",
-        "chance": 20.0
+        "chance": 15.384615384615385
       },
       {
         "species": "Cockapoodle",
-        "chance": 20.0
+        "chance": 15.384615384615385
       },
       {
         "species": "Wriggsalotl",
-        "chance": 20.0
+        "chance": 15.384615384615385
       },
       {
         "species": "Ladymole",
-        "chance": 20.0
+        "chance": 15.384615384615385
+      },
+      {
+        "species": "Millimouse",
+        "chance": 15.384615384615385
+      },
+      {
+        "species": "Humminglow",
+        "chance": 7.6923076923076925
       }
     ],
     "farmland": [
@@ -146621,31 +147364,27 @@
     "jungle": [
       {
         "species": "Dandylion",
-        "chance": 7.6923076923076925
+        "chance": 9.090909090909092
       },
       {
         "species": "Tarantulama",
-        "chance": 15.384615384615385
+        "chance": 18.181818181818183
       },
       {
         "species": "Banaconda",
-        "chance": 15.384615384615385
+        "chance": 18.181818181818183
       },
       {
         "species": "Peacobara",
-        "chance": 15.384615384615385
+        "chance": 18.181818181818183
       },
       {
         "species": "Pangolinx",
-        "chance": 15.384615384615385
-      },
-      {
-        "species": "Humminglow",
-        "chance": 15.384615384615385
+        "chance": 18.181818181818183
       },
       {
         "species": "Tapirrot",
-        "chance": 15.384615384615385
+        "chance": 18.181818181818183
       }
     ],
     "coral_reef": [
@@ -148483,6 +149222,101 @@
         "baseWeight": 4.5129452894378534,
         "eggSizingHeight": 3.5458855845583135,
         "rawBaseEggHeight": 1.7291720803246646
+      },
+      "Camoucan": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 6.865551701693569,
+            "eggMaxKg": 50.55851287526038,
+            "eggMinHeight": 4.119331021016141,
+            "eggMinKg": 30.335107725156227,
+            "incomeMax": 51.25,
+            "incomeMin": 30.75,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 10.022288245088147,
+            "petMaxKg": 501.1144122544074,
+            "petMinHeight": 6.013372947052888,
+            "petMinKg": 300.6686473526444,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 8.238662042032281,
+            "eggMaxKg": 60.670215450312455,
+            "eggMinHeight": 5.492441361354855,
+            "eggMinKg": 40.446810300208305,
+            "incomeMax": 123,
+            "incomeMin": 82,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 12.026745894105776,
+            "petMaxKg": 601.3372947052889,
+            "petMinHeight": 8.017830596070517,
+            "petMinKg": 400.89152980352594,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 10.98488272270971,
+            "eggMaxKg": 80.89362060041661,
+            "eggMinHeight": 8.238662042032281,
+            "eggMinKg": 60.670215450312455,
+            "incomeMax": 328,
+            "incomeMin": 246,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 16.035661192141035,
+            "petMaxKg": 801.7830596070519,
+            "petMinHeight": 12.026745894105776,
+            "petMinKg": 601.3372947052889,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 13.731103403387138,
+            "eggMaxKg": 101.11702575052075,
+            "eggMinHeight": 10.98488272270971,
+            "eggMinKg": 80.89362060041661,
+            "incomeMax": 820,
+            "incomeMin": 656,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 20.044576490176294,
+            "petMaxKg": 1002.2288245088148,
+            "petMinHeight": 16.035661192141035,
+            "petMinKg": 801.7830596070519,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 16.477324084064563,
+            "eggMaxKg": 121.34043090062491,
+            "eggMinHeight": 13.731103403387138,
+            "eggMinKg": 101.11702575052075,
+            "incomeMax": 1968,
+            "incomeMin": 1640,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 24.053491788211552,
+            "petMaxKg": 1202.6745894105777,
+            "petMinHeight": 20.044576490176294,
+            "petMinKg": 1002.2288245088148,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 5.492441361354855,
+        "baseHeight": 8.017830596070517,
+        "baseLength": 5.535957593048618,
+        "baseWeight": 400.89152980352594,
+        "eggSizingHeight": 8.017830596070517,
+        "rawBaseEggHeight": 5.492441361354855
       },
       "Chinchillark": {
         "bands": [
@@ -151714,6 +152548,101 @@
         "eggSizingHeight": 6.164308035714286,
         "rawBaseEggHeight": 4.06747567053178
       },
+      "Millimouse": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.9947182879405039,
+            "carryMinRatio": 0.9912203053023811,
+            "eggMaxHeight": 1.5,
+            "eggMaxKg": 0.07351743880785504,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.04411046328471302,
+            "incomeMax": 8.75,
+            "incomeMin": 5.25,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 1.3031385819177992,
+            "petMaxKg": 0.7286734922275521,
+            "petMinHeight": 0.7818831491506797,
+            "petMinKg": 0.43720409533653126,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.992966994301032,
+            "carryMinRatio": 0.9894782008017096,
+            "eggMaxHeight": 1.5,
+            "eggMaxKg": 0.08822092656942604,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.05881395104628402,
+            "incomeMax": 21,
+            "incomeMin": 14,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 1.5637662983013594,
+            "petMaxKg": 0.8744081906730625,
+            "petMinHeight": 1.0425108655342397,
+            "petMinKg": 0.5829387937820416,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.9894782008017096,
+            "carryMinRatio": 0.9860076653376868,
+            "eggMaxHeight": 1.5,
+            "eggMaxKg": 0.11762790209256804,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.08822092656942604,
+            "incomeMax": 56,
+            "incomeMin": 42,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 2.0850217310684793,
+            "petMaxKg": 1.1658775875640832,
+            "petMinHeight": 1.5637662983013594,
+            "petMinKg": 0.8744081906730625,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.9860076653376868,
+            "carryMinRatio": 0.9825552292117803,
+            "eggMaxHeight": 1.666543449592923,
+            "eggMaxKg": 0.14703487761571007,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.11762790209256804,
+            "incomeMax": 140,
+            "incomeMin": 112,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 2.6062771638355984,
+            "petMaxKg": 1.4573469844551041,
+            "petMinHeight": 2.0850217310684793,
+            "petMinKg": 1.1658775875640832,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.9825552292117803,
+            "carryMinRatio": 0.9791207356512504,
+            "eggMaxHeight": 1.9998521395115074,
+            "eggMaxKg": 0.17644185313885208,
+            "eggMinHeight": 1.666543449592923,
+            "eggMinKg": 0.14703487761571007,
+            "incomeMax": 336,
+            "incomeMin": 280,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 3.1275325966027188,
+            "petMaxKg": 1.748816381346125,
+            "petMinHeight": 2.6062771638355984,
+            "petMinKg": 1.4573469844551041,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 1.5,
+        "baseHeight": 1.0425108655342394,
+        "baseLength": 3.497471284167668,
+        "baseWeight": 0.5829387937820416,
+        "eggSizingHeight": 1.0425108655342394,
+        "rawBaseEggHeight": 0.6666173798371692
+      },
       "Mooroo": {
         "bands": [
           {
@@ -152759,6 +153688,101 @@
         "eggSizingHeight": 6.694168596231388,
         "rawBaseEggHeight": 4.897598050381118
       },
+      "Sholphin": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 3.7705033157636976,
+            "eggMaxKg": 30.06771476961686,
+            "eggMinHeight": 2.2623019894582184,
+            "eggMinKg": 18.040628861770116,
+            "incomeMax": 131.25,
+            "incomeMin": 78.75,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 3.5945617527350113,
+            "petMaxKg": 298.0183624424321,
+            "petMinHeight": 2.1567370516410067,
+            "petMinKg": 178.81101746545926,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 4.524603978916437,
+            "eggMaxKg": 36.08125772354023,
+            "eggMinHeight": 3.016402652610958,
+            "eggMinKg": 24.054171815693486,
+            "incomeMax": 315,
+            "incomeMin": 210,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 4.313474103282013,
+            "petMaxKg": 357.6220349309185,
+            "petMinHeight": 2.8756494021880092,
+            "petMinKg": 238.41468995394564,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 6.032805305221916,
+            "eggMaxKg": 48.10834363138697,
+            "eggMinHeight": 4.524603978916437,
+            "eggMinKg": 36.08125772354023,
+            "incomeMax": 840,
+            "incomeMin": 630,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 5.7512988043760185,
+            "petMaxKg": 476.8293799078913,
+            "petMinHeight": 4.313474103282013,
+            "petMinKg": 357.6220349309185,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 7.541006631527395,
+            "eggMaxKg": 60.13542953923372,
+            "eggMinHeight": 6.032805305221916,
+            "eggMinKg": 48.10834363138697,
+            "incomeMax": 2100,
+            "incomeMin": 1680,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 7.189123505470023,
+            "petMaxKg": 596.0367248848642,
+            "petMinHeight": 5.7512988043760185,
+            "petMinKg": 476.8293799078913,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 9.049207957832873,
+            "eggMaxKg": 72.16251544708047,
+            "eggMinHeight": 7.541006631527395,
+            "eggMinKg": 60.13542953923372,
+            "incomeMax": 5040,
+            "incomeMin": 4200,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 8.626948206564027,
+            "petMaxKg": 715.244069861837,
+            "petMinHeight": 7.189123505470023,
+            "petMinKg": 596.0367248848642,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 3.016402652610958,
+        "baseHeight": 2.875649402188009,
+        "baseLength": 8.167267075681812,
+        "baseWeight": 238.41468995394564,
+        "eggSizingHeight": 2.875649402188009,
+        "rawBaseEggHeight": 3.016402652610958
+      },
       "Shrimpanzee": {
         "bands": [
           {
@@ -153329,6 +154353,101 @@
         "eggSizingHeight": 0.7565623247938827,
         "rawBaseEggHeight": 0.699226844285941
       },
+      "Swobra": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.9257955737280132,
+            "carryMinRatio": 0.8806813512338008,
+            "eggMaxHeight": 2.1222998311894186,
+            "eggMaxKg": 1.0890046963372726,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.6534028178023636,
+            "incomeMax": 16.25,
+            "incomeMin": 9.75,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 3.4420538751405596,
+            "petMaxKg": 10.793750000000001,
+            "petMinHeight": 2.0652323250843363,
+            "petMinKg": 6.476250000000001,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.902837476275552,
+            "carryMinRatio": 0.8592815693668006,
+            "eggMaxHeight": 2.546759797427302,
+            "eggMaxKg": 1.3068056356047273,
+            "eggMinHeight": 1.6978398649515347,
+            "eggMinKg": 0.871203757069818,
+            "incomeMax": 39,
+            "incomeMin": 26,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 4.130464650168673,
+            "petMaxKg": 12.952500000000002,
+            "petMinHeight": 2.753643100112448,
+            "petMinKg": 8.635,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.8592815693668006,
+            "carryMinRatio": 0.818585939002693,
+            "eggMaxHeight": 3.3956797299030694,
+            "eggMaxKg": 1.742407514139636,
+            "eggMinHeight": 2.546759797427302,
+            "eggMinKg": 1.3068056356047273,
+            "incomeMax": 104,
+            "incomeMin": 78,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 5.507286200224896,
+            "petMaxKg": 17.27,
+            "petMinHeight": 4.130464650168673,
+            "petMinKg": 12.952500000000002,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.818585939002693,
+            "carryMinRatio": 0.780450640741331,
+            "eggMaxHeight": 4.244599662378837,
+            "eggMaxKg": 2.178009392674545,
+            "eggMinHeight": 3.3956797299030694,
+            "eggMinKg": 1.742407514139636,
+            "incomeMax": 260,
+            "incomeMin": 208,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 6.884107750281119,
+            "petMaxKg": 21.587500000000002,
+            "petMinHeight": 5.507286200224896,
+            "petMinKg": 17.27,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.780450640741331,
+            "carryMinRatio": 0.744617995602632,
+            "eggMaxHeight": 5.093519594854604,
+            "eggMaxKg": 2.6136112712094546,
+            "eggMinHeight": 4.244599662378837,
+            "eggMinKg": 2.178009392674545,
+            "incomeMax": 624,
+            "incomeMin": 520,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 8.260929300337345,
+            "petMaxKg": 25.905000000000005,
+            "petMinHeight": 6.884107750281119,
+            "petMinKg": 21.587500000000002,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 1.6978398649515347,
+        "baseHeight": 2.753643100112448,
+        "baseLength": 4.910714285714286,
+        "baseWeight": 8.635,
+        "eggSizingHeight": 2.753643100112448,
+        "rawBaseEggHeight": 1.6978398649515347
+      },
       "Tapirrot": {
         "bands": [
           {
@@ -153803,6 +154922,101 @@
         "baseWeight": 12.096284400223938,
         "eggSizingHeight": 3.819815963668502,
         "rawBaseEggHeight": 2.1152533689986464
+      },
+      "Wolguin": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.7048862502477731,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 4.024663545920438,
+            "eggMaxKg": 5.215141961060697,
+            "eggMinHeight": 2.414798127552263,
+            "eggMinKg": 3.1290851766364183,
+            "incomeMax": 22.5,
+            "incomeMin": 13.5,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 7.343749999999999,
+            "petMaxKg": 51.69026243093922,
+            "petMinHeight": 4.406249999999999,
+            "petMinKg": 31.014157458563535,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.6321513521491944,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 4.829596255104526,
+            "eggMaxKg": 6.2581703532728366,
+            "eggMinHeight": 3.2197308367363506,
+            "eggMinKg": 4.172113568848558,
+            "incomeMax": 54,
+            "incomeMin": 36,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 8.812499999999998,
+            "petMaxKg": 62.02831491712707,
+            "petMinHeight": 5.875,
+            "petMinKg": 41.35220994475139,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 6.439461673472701,
+            "eggMaxKg": 8.344227137697116,
+            "eggMinHeight": 4.829596255104526,
+            "eggMinKg": 6.2581703532728366,
+            "incomeMax": 144,
+            "incomeMin": 108,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 11.75,
+            "petMaxKg": 82.70441988950277,
+            "petMinHeight": 8.812499999999998,
+            "petMinKg": 62.02831491712707,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 8.049327091840876,
+            "eggMaxKg": 10.430283922121394,
+            "eggMinHeight": 6.439461673472701,
+            "eggMinKg": 8.344227137697116,
+            "incomeMax": 360,
+            "incomeMin": 288,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 14.687499999999998,
+            "petMaxKg": 103.38052486187844,
+            "petMinHeight": 11.75,
+            "petMinKg": 82.70441988950277,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 9.659192510209053,
+            "eggMaxKg": 12.516340706545673,
+            "eggMinHeight": 8.049327091840876,
+            "eggMinKg": 10.430283922121394,
+            "incomeMax": 864,
+            "incomeMin": 720,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 17.624999999999996,
+            "petMaxKg": 124.05662983425414,
+            "petMinHeight": 14.687499999999998,
+            "petMinKg": 103.38052486187844,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 3.2197308367363506,
+        "baseHeight": 5.874999999999999,
+        "baseLength": 4.186717204749583,
+        "baseWeight": 41.35220994475138,
+        "eggSizingHeight": 5.874999999999999,
+        "rawBaseEggHeight": 3.2197308367363506
       },
       "Woolrus": {
         "bands": [

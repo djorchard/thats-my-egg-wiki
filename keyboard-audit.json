@@ -1,9 +1,9 @@
 {
-  "mappedSources": 1100,
+  "mappedSources": 1130,
   "filesWithKeyReferences": 68,
   "sourceHashes": {
-    "src/mailbox_interaction.luau": "4f005e74d7f5c4d5d545632cc57f94448335f57e49205c5664aaded6459829f7",
-    "src/mailbox.client.luau": "34bd289fb81b8041141686617ec393859f77d53d953abddf0bce21fdc13c41d9",
+    "src/mailbox_interaction.luau": "fefb19510bb6a9f6725c6154e2c2e5574b4a2c4e6793d8b8afd996529e56a4ea",
+    "src/mailbox.client.luau": "d59948917c39206614531c8d682a3da21d2ebb150e7ecd471c332aa5715d2802",
     "src/camera_diagnostics.luau": "ce157a338b2906a3f609b03747950eb9324f4dba28e6d571b1d559c57cc12d66",
     "src/community_posters.luau": "635f42b46eff1d390c103ede8f64c18aa641e122cced4b83b93df89702ec2d83",
     "src/corn_crops.server.luau": "eb52501854ed0920a7bfa2672d655500e7c796fe5cd363f0e8d478c114d704a2",
@@ -33,8 +33,8 @@
     "src/treadmill.client.luau": "d49a43d4569645cbec7b654b44d588a567261ae57a5413acf4521662bec1960d",
     "src/dev_island/creature_inspector.client.luau": "1b527d3ee73b14e31c21732c8970d5d579328fbc0608fb77330657b22a437472",
     "src/hatch_replacement_ui.luau": "ff23a6576b5ac80419707de28f4b46fa8836991b0ba33e261ee8533cf26a6a99",
-    "src/egg_inventory.client.luau": "f2059a3c29f2fcc2766f08519b84953c7a557181c27e9000931bbd684069576f",
-    "src/pet_shop.client.luau": "b6198dcb5dad70bc12a6fb46037c2a2d5875d326508580da4b4591d3ee15f6ef",
+    "src/egg_inventory.client.luau": "c29d93b56143d5c41af4ec7cfc2f1d3fff2984f07089696b6f7d666a145cd770",
+    "src/pet_shop.client.luau": "875bc3313405e2361dbaea77c7d9a5d23ce47c8c05745017564d91200814cf35",
     "src/emote_menu_controls.luau": "c8e5948ce623762e67d7ee5ca23b941a2afef49e8793dd67e9d597e165d92092",
     "src/social_emotes.client.luau": "0af75c7657012e8e66839ad557083e27ce9501f3e88d628551bf60f7e3cb863d",
     "src/stick_builder.luau": "41909a76f4def3cfd566d7e89a451da4a0e6e2300af2fba6b204355c93a49638",
@@ -79,7 +79,7 @@
       },
       {
         "file": "src/mailbox.client.luau",
-        "line": 267
+        "line": 277
       },
       {
         "file": "src/community_posters.luau",
@@ -447,7 +447,7 @@
       },
       {
         "file": "src/pet_shop.client.luau",
-        "line": 2105
+        "line": 2148
       },
       {
         "file": "src/social_emotes.client.luau",
@@ -1015,19 +1015,19 @@
     "T": [
       {
         "file": "src/egg_inventory.client.luau",
-        "line": 718
+        "line": 719
       }
     ],
     "I": [
       {
         "file": "src/egg_inventory.client.luau",
-        "line": 719
+        "line": 720
       }
     ],
     "B": [
       {
         "file": "src/pet_shop.client.luau",
-        "line": 1716
+        "line": 1727
       }
     ],
     "RightShift": [

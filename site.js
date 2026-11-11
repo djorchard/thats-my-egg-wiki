@@ -138,21 +138,55 @@
   }));
   const animalSearch = document.querySelector('#animal-search');
   if (animalSearch) {
-    const group = document.querySelector('#animal-group-filter'), clearAnimal = document.querySelector('#animal-search-clear');
-    const rows = [...document.querySelectorAll('tr[id^="animal-"]')];
-    const sections = [...new Set(rows.map(row=>row.closest('section')))];
+    const group = document.querySelector('#animal-group-filter');
+    const status = document.querySelector('#animal-status-filter');
+    const clearAnimal = document.querySelector('#animal-search-clear');
+    const count = document.querySelector('.animal-filter-count');
+    const cards = [...document.querySelectorAll('.animal-card')];
+    const sections = [...document.querySelectorAll('.animal-group')];
     const filter = () => {
-      const query=animalSearch.value.trim().toLocaleLowerCase(); let shown=0;
-      for(const row of rows){row.hidden=!(row.textContent.toLocaleLowerCase().includes(query)&&(group.value==='all'||group.value==='national'&&row.dataset.national==='true'||row.dataset.animalGroup===group.value));if(!row.hidden)shown++;}
-      for(const section of sections)section.hidden=!rows.some(row=>row.closest('section')===section&&!row.hidden);
-      for(const item of tocItems)item.link.parentElement.hidden=Boolean(item.heading.closest('section')?.hidden);
+      const query = animalSearch.value.trim().toLocaleLowerCase();
+      let shown = 0;
+      for (const card of cards) {
+        const matchesGroup = group.value === 'all' || group.value === card.dataset.animalGroup
+          || (group.value === 'national' && card.dataset.national === 'true')
+          || (group.value === 'pets' && card.dataset.pet === 'true');
+        const matchesStatus = status.value === 'all' || status.value === card.dataset.animalStatus;
+        const matchesSearch = !query || [...card.querySelectorAll('[data-animal-field]')]
+          .some(field => field.textContent.toLocaleLowerCase().includes(query));
+        card.hidden = !(matchesGroup && matchesStatus && matchesSearch);
+        if (!card.hidden) shown++;
+      }
+      for (const section of sections) section.hidden = !section.querySelector('.animal-card:not([hidden])');
+      for (const item of tocItems) item.link.parentElement.hidden = Boolean(item.heading.closest('section')?.hidden);
       updateToc();
-      clearAnimal.hidden=!animalSearch.value;
-      document.querySelector('.animal-filter-count').textContent=`${shown} of ${rows.length} animals shown`;
+      clearAnimal.hidden = !animalSearch.value;
+      count.textContent = shown === 1 ? '1 idea shown' : `${shown} ideas shown`;
     };
-    animalSearch.addEventListener('input',filter);group.addEventListener('change',filter);
-    clearAnimal.addEventListener('click',()=>{animalSearch.value='';filter();animalSearch.focus();});
+    const revealAnchor = () => {
+      const target = document.getElementById(location.hash.slice(1));
+      const card = target?.closest('.animal-card');
+      if (!card) return;
+      if (card.hidden) {
+        animalSearch.value = '';
+        group.value = 'all';
+        status.value = card.dataset.animalStatus;
+        filter();
+      }
+      if (target.matches('details')) target.open = true;
+      target.scrollIntoView();
+    };
+    animalSearch.addEventListener('input', filter);
+    group.addEventListener('change', filter);
+    status.addEventListener('change', filter);
+    clearAnimal.addEventListener('click', () => {
+      animalSearch.value = '';
+      filter();
+      animalSearch.focus();
+    });
     filter();
+    revealAnchor();
+    window.addEventListener('hashchange', revealAnchor);
   }
 })();
 

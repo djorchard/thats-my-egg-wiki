@@ -341,6 +341,39 @@ html{scroll-padding-top:96px}
 .animal-browser-controls input{flex:1;min-width:160px!important}
 .animal-browser-controls select{font-size:12px}
 .animal-browser-controls button{border:0;background:transparent;color:var(--link);font-size:12px;padding:8px}
+.wiki-reader .animal-browser-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) repeat(2, minmax(0, 1fr));
+  align-items: end;
+}
+.animal-browser-controls label, .animal-search-control { display: grid; gap: 6px; min-width: 0; }
+.animal-search-field { display: flex; gap: 5px; min-width: 0; }
+.wiki-reader .animal-browser-controls input { min-width: 0 !important; width: 100%; }
+.wiki-reader .animal-browser-controls select { min-width: 0; width: 100%; }
+.animal-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(205px, 100%), 1fr));
+  gap: 16px;
+}
+.animal-card { overflow: hidden; border: 1px solid var(--line); border-radius: 14px; background: var(--panel); }
+.animal-card[hidden], .animal-group[hidden] { display: none; }
+.animal-card-photo { display: block; background: var(--row); }
+.animal-card-photo img { display: block; width: 100%; height: 190px; object-fit: contain; }
+.animal-card-photo:focus-visible { outline: 2px solid var(--accent); outline-offset: -3px; }
+.animal-card-caption { padding: 15px; overflow-wrap: anywhere; }
+.wiki-reader .animal-card h3 { display: flex; gap: 8px; align-items: baseline; margin: 0 0 7px; font-size: 1rem; line-height: 1.25; }
+.animal-number { color: var(--accent); font-size: .75em; font-variant-numeric: tabular-nums; }
+.wiki-reader .animal-card p { margin: 0 0 9px; line-height: 1.5; font-size: .875em; }
+.wiki-reader .animal-card .animal-countries { color: var(--muted); font-size: .8em; max-width: none; }
+.wiki-reader .animal-card .animal-card-status, .animal-card details { color: var(--muted); font-size: .78em; }
+.animal-card summary { cursor: pointer; }
+.animal-card details p { margin-top: 7px; }
+.animal-card .country-sources { padding-left: 18px; }
+@media (max-width: 680px) {
+  .wiki-reader .animal-browser-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .animal-search-control { grid-column: 1 / -1; }
+  .animal-card-photo img { height: 210px; }
+}
 .wiki-reader #image-credits details{border-color:var(--line);font-size:12px}
 .wiki-reader #image-credits summary{cursor:pointer;padding:6px 0;color:var(--muted)}
 .wiki-reader #image-credits summary:hover{color:var(--text)}

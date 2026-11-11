@@ -365,6 +365,44 @@ html{scroll-padding-top:96px}
 .animal-number { color: var(--accent); font-size: .75em; font-variant-numeric: tabular-nums; }
 .wiki-reader .animal-card p { margin: 0 0 9px; line-height: 1.5; font-size: .875em; }
 .wiki-reader .animal-card .animal-countries { color: var(--muted); font-size: .8em; max-width: none; }
+.animal-habitats { display: flex; flex-wrap: wrap; gap: 5px; margin: 0 0 9px; }
+.animal-habitat-chip {
+  display: inline-block;
+  max-width: 100%;
+  padding: 2px 7px;
+  border: 1px solid color-mix(in srgb, var(--habitat-ink) 22%, transparent);
+  border-radius: 999px;
+  background: var(--habitat-fill, #e6e9ed);
+  color: var(--habitat-ink, #263547);
+  font-size: .75em;
+  font-weight: 650;
+  line-height: 1.4;
+}
+.animal-habitat-chip[data-habitat="forest"] { --habitat-fill: #c5e3cd; --habitat-ink: #174129; }
+.animal-habitat-chip[data-habitat="rainforest"] { --habitat-fill: #aee8d7; --habitat-ink: #12443a; }
+.animal-habitat-chip[data-habitat="mangrove"] { --habitat-fill: #b7dbc3; --habitat-ink: #244331; }
+.animal-habitat-chip[data-habitat="grassland"] { --habitat-fill: #e3e9b0; --habitat-ink: #383e13; }
+.animal-habitat-chip[data-habitat="savanna"] { --habitat-fill: #f8dfa1; --habitat-ink: #4b350d; }
+.animal-habitat-chip[data-habitat="shrubland"] { --habitat-fill: #dedcc0; --habitat-ink: #403a20; }
+.animal-habitat-chip[data-habitat="desert"] { --habitat-fill: #fac9a3; --habitat-ink: #552b13; }
+.animal-habitat-chip[data-habitat="mountain"] { --habitat-fill: #e2d7f8; --habitat-ink: #402660; }
+.animal-habitat-chip[data-habitat="rocky"] { --habitat-fill: #e4d4ca; --habitat-ink: #4b3429; }
+.animal-habitat-chip[data-habitat="river"] { --habitat-fill: #b8e6fa; --habitat-ink: #16425b; }
+.animal-habitat-chip[data-habitat="lake"] { --habitat-fill: #c8d8fb; --habitat-ink: #243d73; }
+.animal-habitat-chip[data-habitat="wetland"] { --habitat-fill: #bce5df; --habitat-ink: #1c4943; }
+.animal-habitat-chip[data-habitat="floodplain"] { --habitat-fill: #c9e5a5; --habitat-ink: #2b4320; }
+.animal-habitat-chip[data-habitat="estuary"] { --habitat-fill: #b5ddf0; --habitat-ink: #193e55; }
+.animal-habitat-chip[data-habitat="coast"] { --habitat-fill: #bfe7f3; --habitat-ink: #174355; }
+.animal-habitat-chip[data-habitat="ocean"] { --habitat-fill: #bfd4fb; --habitat-ink: #193a74; }
+.animal-habitat-chip[data-habitat="deep-ocean"] { --habitat-fill: #ced0f6; --habitat-ink: #303464; }
+.animal-habitat-chip[data-habitat="reef"] { --habitat-fill: #f7c9d4; --habitat-ink: #612b3c; }
+.animal-habitat-chip[data-habitat="seagrass"] { --habitat-fill: #b5e6c8; --habitat-ink: #17462c; }
+.animal-habitat-chip[data-habitat="tundra"] { --habitat-fill: #d8e3eb; --habitat-ink: #304452; }
+.animal-habitat-chip[data-habitat="polar"] { --habitat-fill: #d3eff8; --habitat-ink: #214654; }
+.animal-habitat-chip[data-habitat="farmland"] { --habitat-fill: #f0e8c0; --habitat-ink: #4b3b19; }
+.animal-habitat-chip[data-habitat="urban"] { --habitat-fill: #e4dfea; --habitat-ink: #40354d; }
+.animal-habitat-chip[data-habitat="myth"] { --habitat-fill: #f1d0ed; --habitat-ink: #572950; }
+.animal-habitat-chip[data-habitat="underworld"] { --habitat-fill: #edced0; --habitat-ink: #5b272f; }
 .wiki-reader .animal-card .animal-card-status, .animal-card details { color: var(--muted); font-size: .78em; }
 .animal-card summary { cursor: pointer; }
 .animal-card details p { margin-top: 7px; }

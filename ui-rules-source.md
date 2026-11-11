@@ -1,3 +1,14 @@
+# That's my Egg! UI rules
+
+Use this design contract for new screens and changes to existing screens.
+The shared tokens in `src/ui_theme.luau` and components under `ProjectUI`
+implement it. Check the dated notes and source before reusing older examples.
+
+Start with [fonts and text](#fonts-and-text), [shared components](#components)
+and [layout and navigation](#layout-and-navigation). Use the
+[tile reference](UI_TILES.md) for selection behaviour.
+Dated sections record specific changes and verification.
+
 ## Supplied own-house Home marker, 11 November 2026
 
 Use Theme.Images.HomeMarker for Daniel's supplied square Home callout above
@@ -479,11 +490,15 @@ last selected tab, existing search/focus cleanup and transaction reconciliation.
 Late replies must not reopen a closed window. Closing the new window never
 automatically restores the previous one.
 
-Child confirmations remain owned by their main window. HUD, tooltips,
-callouts and the documented stand-owned creature inspector keep their
-existing separate behaviour. Do not create a second exclusivity registry.
-The documented paired Developer Panel and Tools workspace remains separate
-from the player-facing shop, inventory and pet window family.
+Child confirmations remain owned by their main window. HUD, tooltips and
+callouts sit outside the exclusive-window registry. The stand-owned creature
+inspector follows platform occupancy and Hide UI/camera controls. Keep it
+visible while the player is on the platform, hide it on exit and restore it
+when the HUD returns while the player is still on the stand. Preserve mobile
+window tracking and the existing stand controls.
+
+Developer Tools remains a separate developer-only control window. The paired
+Developer Panel was retired on 7 November 2026 when feature reviews moved to Jira.
 
 ## Shared dropdowns and trail shop information, 4 November 2026
 
@@ -615,7 +630,7 @@ Do not offer a trail on/off control or blue
 enabled fill. Keep the equipped canonical artwork and White fallback.
 Trail cards keep the shared tile outline and dimensions, with smaller artwork,
 matching textured backgrounds and larger theme-coloured names outlined black.
-Use approved ui-underlay-gen skins for passive price/Owned and bonus panels.
+Use approved skins from callout-card-gen for passive price/Owned and bonus panels.
 Align icons left and captions right with 12-pixel horizontal padding. Show
 "10% run speed" with the tier's
 actual percentage and the canonical running icon. Owned uses a confirmed tick;
@@ -1576,8 +1591,8 @@ Theme.BuffIconShadow for both image and emoji icons, including Icons mode.
 In Icons mode, also retain a separate soft aura in that buff's own card colour.
 Use the shared white radial texture in Theme.BuffIconAura and the card's
 BuffAuraColor attribute; keep the dark drop shadow as a separate layer.
-The texture reuses the ui-underlay-gen renderer's actual Gaussian shadow pass;
-provenance is in assets/ui/buff-icon-shadow-v1/manifest.json.
+The texture reuses the Gaussian shadow pass from the callout-card-gen underlay
+renderer. See assets/ui/buff-icon-shadow-v1/manifest.json for provenance.
 
 Historical standalone HUD layout: the accompanying-pet HUD used the compact styled PetBuffView.Card with the buff
 name, shadowed emblem and visible wrapped description. It sits at the bottom
@@ -1976,8 +1991,8 @@ inset. Feedback covers the complete header, not the caption rectangle.
 Command rows stack with 12-pixel gaps. Search expands only matching sections
 and preserves the user's unfiltered expansion state when cleared.
 
-Both Developer tools and Developer Panel retain invisible corner hit regions
-for resizing. There is no visible resize symbol or instruction explaining the
+Developer Tools retains an invisible corner hit region for resizing. There is
+no visible resize symbol or instruction explaining the
 corner. Keep accessible control names and the existing resize input bindings.
 The compact/full-view button is a separate actual action, not a resize hint.
 
@@ -2081,20 +2096,6 @@ Running green, Swimming blue and Strength purple. Never bake countdowns or
 multiplier values into artwork. Preserve icon proportions and reserve the full
 slow pulse footprint. Hide/camera controls also release warning-layout space.
 Decorative aura is an explicit request; it is not a button outline.
-
-# That's my Egg! UI rules
-
-The developer creature preview controls are stand-owned: keep them visible while
-the player is on the platform and hide them on exit. This panel has no close
-button and remains outside exclusive-window dismissal. Retain mobile window
-tracking and deliberate Hide UI/camera visibility controls. Restoring the HUD
-while still on the stand must reopen the panel. This specific interaction rule
-supersedes the general close-control and exclusive-window patterns for this panel.
-
-Authoritative design contract, requested by Daniel on 29 October 2026.
-Follow this document for new screens and changes to existing screens. The shared
-tokens in `src/ui_theme.luau` and components under `ProjectUI` implement it.
-Do not copy old screenshots or old hard-coded styles over this contract.
 
 ## Colour and surfaces
 
@@ -3550,6 +3551,8 @@ the single source with exact readback and zero diagnostics. Existing hover
 runtime checks passed 513 assertions. No gameplay, save or publication.
 ## Developer Panel summary text, 4 November 2026
 
+Historical record for the feature-review window retired on 7 November 2026.
+
 The testing Developer Panel's selected-entry description is now 20 pixels,
 increased from 15. Existing automatic vertical sizing, word wrapping and the
 details scrollbar keep long summaries readable. Titles, steps and metadata
@@ -3617,4 +3620,3 @@ Native constructor snapshots and exact installed source checks passed. The
 sample widths are 760, 360 and 600 pixels; these are not live device tests.
 See HOME.md and output/home-navigation-20261109/native.json for the six native
 grass slots, restoration checks and separate gameplay acceptance limits.
-

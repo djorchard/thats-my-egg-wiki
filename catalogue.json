@@ -81118,7 +81118,7 @@
       "developerOnly": false,
       "retired": false,
       "name": "Scorpicorn",
-      "region": "desert",
+      "region": "inferno",
       "stage": "catalogue",
       "review": {
         "revision": 1,
@@ -81133,7 +81133,7 @@
       },
       "conceptNumber": 24,
       "concept": null,
-      "notes": "Scorpicorn is installed in Studio Edit at 6 studs with a 37-bone rig and 3,296 triangles. Its Desert egg, 360 Cash per second at Home and 10,000 Strength XP for its first hatch are verified. The status board shows WIP / To review. Idle, Walk, Run and Chase meet 8.5 in the local previews, and Blink meets 7.5. Straight movement and eyelid fit are covered. Gameplay turns and live-server performance await a separate check.",
+      "notes": "Scorpicorn is installed in Studio Edit at 6 studs with a 37-bone rig and 3,296 triangles. Its named egg, 360 Cash per second at Home and 10,000 Strength XP for its first hatch are verified. The status board shows WIP / To review. Idle, Walk, Run and Chase meet 8.5 in the local previews, and Blink meets 7.5. Straight movement and eyelid fit are covered. Gameplay turns and live-server performance await a separate check.",
       "biomeAssignment": {
         "approvedBy": "Daniel",
         "date": "2026-10-27"
@@ -81247,14 +81247,14 @@
           "decision": "Keep the supplied six walking legs. Do not add another pair. The earlier eight-leg catalogue wording was incorrect."
         },
         "fullImportComplete": false,
-        "qualityNotice": "Scorpicorn is installed in Studio Edit at 6 studs with a 37-bone rig and 3,296 triangles. Its Desert egg, 360 Cash per second at Home and 10,000 Strength XP for its first hatch are verified. The status board shows WIP / To review. Idle, Walk, Run and Chase meet 8.5 in the local previews, and Blink meets 7.5. Straight movement and eyelid fit are covered. Gameplay turns and live-server performance await a separate check.",
+        "qualityNotice": "Scorpicorn is installed in Studio Edit at 6 studs with a 37-bone rig and 3,296 triangles. Its named egg, 360 Cash per second at Home and 10,000 Strength XP for its first hatch are verified. The status board shows WIP / To review. Idle, Walk, Run and Chase meet 8.5 in the local previews, and Blink meets 7.5. Straight movement and eyelid fit are covered. Gameplay turns and live-server performance await a separate check.",
         "reviewNoteContext": "Earlier egg-only or local-candidate review note is historical. Saved developer decisions are unchanged.",
         "replacementImport": {
           "importNumber": 2,
           "date": "2026-11-07",
           "installed": true,
           "status": "edit-installed-review-pending",
-          "model": "creatures/9-golden-dunes/scorpicorn/scorpicorn-12-animations2.fbx",
+          "model": "creatures/11-the-burning-depths/scorpicorn/scorpicorn-12-animations2.fbx",
           "modelSha256": "ed76859e2b4ff634e0d5a11a68b000050bd78ad6e69ba78799a3987c4d72dd88",
           "mesh": "rbxassetid://139973972899318",
           "animationRevision": "scorpicorn-lowpoly-v2-contact-v1",
@@ -81283,7 +81283,7 @@
               "sha256": "85d272c0fdcd8edf1198bc82cc733c63b0c47197412f57a33a5a2b08e57753a5"
             },
             "modelSource": {
-              "file": "creatures\\9-golden-dunes\\scorpicorn\\scorpicorn-12-animations2.fbx",
+              "file": "creatures\\11-the-burning-depths\\scorpicorn\\scorpicorn-12-animations2.fbx",
               "sha256": "ed76859e2b4ff634e0d5a11a68b000050bd78ad6e69ba78799a3987c4d72dd88"
             },
             "capturedAt": "2026-11-10T04:13:41.607539+00:00",
@@ -81307,7 +81307,7 @@
             "sha256": "c2237789f5c6cbdc594bc4475e53f81567e3e82d7006078a2a8a8b7b3b5cc3f5",
             "complete": true
           },
-          "qualityNotice": "Scorpicorn is installed in Studio Edit at 6 studs with a 37-bone rig and 3,296 triangles. Its Desert egg, 360 Cash per second at Home and 10,000 Strength XP for its first hatch are verified. The status board shows WIP / To review. Idle, Walk, Run and Chase meet 8.5 in the local previews, and Blink meets 7.5. Straight movement and eyelid fit are covered. Gameplay turns and live-server performance await a separate check.",
+          "qualityNotice": "Scorpicorn is installed in Studio Edit at 6 studs with a 37-bone rig and 3,296 triangles. Its named egg, 360 Cash per second at Home and 10,000 Strength XP for its first hatch are verified. The status board shows WIP / To review. Idle, Walk, Run and Chase meet 8.5 in the local previews, and Blink meets 7.5. Straight movement and eyelid fit are covered. Gameplay turns and live-server performance await a separate check.",
           "currentExpressionMediaStatus": {
             "currentMediaAvailable": true
           },
@@ -81348,7 +81348,7 @@
         "historicalHighPolyImport": {
           "notes": "2 November 2026: the supplied six-leg Scorpicorn is installed with a 37-bone rig, corrected Walk/Run, separate distance-owned Chase and fitted Blink. Its existing Desert egg and statistics are retained. Five current GIF/MP4 previews and actual Roblox Studio Edit images are below. Shown body previews score 8.5/10; Blink scores 7.5/10. The existing guardian prototype remains unchanged. The in-game board reads WIP / To review. Daniel review and live acceptance remain separate. Earlier notes: Import preparation, 2 November 2026: a repaired local six-leg candidate, 37-bone rig and Idle, Walk, Run and Blink previews are available. The supplied mesh and all modelling views show six walking legs, while the catalogue and older guardian brief specify eight. Daniel clarification, Chase, native installation, an actual Roblox image and full quality acceptance remain pending. Current gameplay still uses the earlier missing-model hatchling. No place save or publication was performed. Historical records: Egg availability release, 29 October 2026: the existing species egg is enabled in its assigned biome with all shiny finishes and the existing labelled missing-model hatchling. Real creature modelling, rigging and animation remain pending. Live gameplay and real storage acceptance remain pending. Historical design notes: Revised on 26 October 2026: a segmented scorpion lower body with jointed walking legs, two front pincers and a curling tail, topped by the unicorn head and short neck. Pearl-white, iridescent lavender and gold colours are retained. No horse torso or hooves. Game stats, earnings and creature model remain to be decided. Biome assignment approved by Daniel on 27 October 2026. This is a design assignment; live spawn pools are unchanged. Matching egg artwork and a local textured prototype mesh were prepared on 27 October 2026. Creature stats, spawn integration, Studio import and live acceptance remain pending.",
           "currentModel": {
-            "file": "creatures/9-golden-dunes/scorpicorn/scorpicorn-10-animations.glb",
+            "file": "creatures/11-the-burning-depths/scorpicorn/scorpicorn-10-animations.glb",
             "sha256": "d5504b8f8a3dad8e1e41a7762f25cbc8c96cafa1440d1ed750698a3687e922eb"
           },
           "nativeMesh": {
@@ -81363,7 +81363,7 @@
             "status": "pending-anatomy-clarification",
             "installed": false,
             "candidate": {
-              "file": "creatures/9-golden-dunes/scorpicorn/scorpicorn-7-animations.glb",
+              "file": "creatures/11-the-burning-depths/scorpicorn/scorpicorn-7-animations.glb",
               "sha256": "9413f4d903ac3edb5a9cd4178932093c9e2b067de73437019deca772a08b0d5f"
             },
             "ledger": {
@@ -81480,7 +81480,7 @@
               "name": "Scorpicorn",
               "animationKey": "Scorpicorn",
               "slug": "scorpicorn",
-              "model": "creatures/9-golden-dunes/scorpicorn/scorpicorn-10-animations.glb",
+              "model": "creatures/11-the-burning-depths/scorpicorn/scorpicorn-10-animations.glb",
               "modelSha256": "d5504b8f8a3dad8e1e41a7762f25cbc8c96cafa1440d1ed750698a3687e922eb",
               "sidecarSources": {
                 "assets/pets/scorpicorn/native-mesh.json": "5a10f9f1bd52ac71d3a4d9606c0a8746201760f27b834ea7a0560ce52bb97321",
@@ -81683,7 +81683,7 @@
               "missing": []
             },
             "modelOverride": {
-              "model": "creatures/9-golden-dunes/scorpicorn/scorpicorn-10-animations.glb",
+              "model": "creatures/11-the-burning-depths/scorpicorn/scorpicorn-10-animations.glb",
               "modelSha256": "d5504b8f8a3dad8e1e41a7762f25cbc8c96cafa1440d1ed750698a3687e922eb",
               "sourceSha256": "3c50c6f6636dced8d8a0670732d93d88e267f1344706094f1892919594669023",
               "meshId": "rbxassetid://122650387634858",
@@ -81697,7 +81697,7 @@
           "sha256": "e218f21898349c8e23902df04e1881e7e0267c8f098cfdcf2e79e9430df38b65"
         },
         "currentModel": {
-          "file": "creatures/9-golden-dunes/scorpicorn/scorpicorn-12-animations2.fbx",
+          "file": "creatures/11-the-burning-depths/scorpicorn/scorpicorn-12-animations2.fbx",
           "sha256": "ed76859e2b4ff634e0d5a11a68b000050bd78ad6e69ba78799a3987c4d72dd88"
         },
         "nativeMesh": {
@@ -81720,7 +81720,7 @@
           "modelInstalled": true,
           "eggShellInstalled": true,
           "model": {
-            "file": "creatures/9-golden-dunes/scorpicorn/scorpicorn-12-animations2.fbx",
+            "file": "creatures/11-the-burning-depths/scorpicorn/scorpicorn-12-animations2.fbx",
             "sha256": "ed76859e2b4ff634e0d5a11a68b000050bd78ad6e69ba78799a3987c4d72dd88"
           },
           "native": {
@@ -143769,12 +143769,12 @@
       "parents": "Fennec Fox + Thorny Devil",
       "length": 3.504444531850912,
       "heightWeight": 0.914597038701724,
-      "description": "Fennthorn pauses on the dunes with its oversized ears raised and its blue-tipped tail held low.",
+      "description": "Fennthorn pauses on rocky slopes with its oversized ears raised and its blue-tipped tail held low.",
       "spawnWeight": 2097152,
       "developerOnly": false,
       "retired": false,
       "name": "Fennthorn",
-      "region": "desert",
+      "region": "volcano",
       "stage": "catalogue",
       "runtimeEnabled": true,
       "reference": "fennthorn-perspective.png",
@@ -143803,9 +143803,9 @@
         "progressionRevision": "alpha-20261108-v1"
       },
       "modelImport": {
-        "source": "creatures/9-golden-dunes/fennthorn/fennthorn-initial.fbx",
+        "source": "creatures/10-ember-mountain/fennthorn/fennthorn-initial.fbx",
         "sourceSha256": "f8684055afa5d92c9e0d9351f449f86a48789d12eb0f75b37e53ec9d40b92e5c",
-        "modified": "creatures/9-golden-dunes/fennthorn/fennthorn-2-animations.fbx",
+        "modified": "creatures/10-ember-mountain/fennthorn/fennthorn-2-animations.fbx",
         "modifiedSha256": "c3f258a8559c634c4f0c3b507f298e07f71a8409be6be85256709d259e03f9b7",
         "meshAsset": 126566759745179,
         "animationRevision": "fennthorn-lowpoly-v1-fitted-v1",
@@ -143817,7 +143817,7 @@
         "placeholderHatchling": false,
         "fullImportComplete": true,
         "currentModel": {
-          "file": "creatures/9-golden-dunes/fennthorn/fennthorn-2-animations.fbx",
+          "file": "creatures/10-ember-mountain/fennthorn/fennthorn-2-animations.fbx",
           "sha256": "c3f258a8559c634c4f0c3b507f298e07f71a8409be6be85256709d259e03f9b7"
         },
         "nativeMesh": {
@@ -143834,7 +143834,7 @@
           "date": "2026-11-07",
           "installed": true,
           "status": "edit-installed-review-pending",
-          "model": "creatures/9-golden-dunes/fennthorn/fennthorn-2-animations.fbx",
+          "model": "creatures/10-ember-mountain/fennthorn/fennthorn-2-animations.fbx",
           "modelSha256": "c3f258a8559c634c4f0c3b507f298e07f71a8409be6be85256709d259e03f9b7",
           "mesh": "rbxassetid://126566759745179",
           "animationRevision": "fennthorn-lowpoly-v1-fitted-v1",
@@ -143863,7 +143863,7 @@
               "sha256": "d954fdc0192b714f9d6bdd312d2795c9f2132cb63b31276188d9146f61f7cc49"
             },
             "modelSource": {
-              "file": "creatures\\9-golden-dunes\\fennthorn\\fennthorn-2-animations.fbx",
+              "file": "creatures\\10-ember-mountain\\fennthorn\\fennthorn-2-animations.fbx",
               "sha256": "c3f258a8559c634c4f0c3b507f298e07f71a8409be6be85256709d259e03f9b7"
             },
             "capturedAt": "2026-11-10T04:18:14.222416+00:00",
@@ -143959,7 +143959,7 @@
           "modelInstalled": true,
           "eggShellInstalled": true,
           "model": {
-            "file": "creatures/9-golden-dunes/fennthorn/fennthorn-2-animations.fbx",
+            "file": "creatures/10-ember-mountain/fennthorn/fennthorn-2-animations.fbx",
             "sha256": "c3f258a8559c634c4f0c3b507f298e07f71a8409be6be85256709d259e03f9b7"
           },
           "native": {
@@ -146464,7 +146464,7 @@
       "developerOnly": false,
       "retired": false,
       "name": "Swobra",
-      "region": null,
+      "region": "desert",
       "stage": "catalogue",
       "runtimeEnabled": true,
       "artworkLayout": "flat-perspective-v1",
@@ -146477,7 +146477,7 @@
       "reference": "swobra-perspective.png",
       "egg": "swobra-egg.png",
       "icon": "swobra-pets-v1-icon.png",
-      "notes": "Unassigned spare. Swobra has an installed egg shell and creature model. Its egg does not spawn in any biome.",
+      "notes": "Swobra is assigned to Golden Dunes. Its creature model and named egg are installed in Studio Edit.",
       "review": {
         "revision": 1,
         "danielApproved": false,
@@ -146525,7 +146525,7 @@
             "sha256": "44d0d4beef7bd2f1d39621adf1673c12bdb4aaaadae0198c86241249ca075716",
             "complete": false,
             "modelSha256": "1e816002d62c77662d0bdf9b3aa72df018f193fe4d2e52e1ca4bf30ac500b40b",
-            "sourceArchive": "creatures/~unassigned/swobra/swobra-3dmodel-fbx.zip",
+            "sourceArchive": "creatures/9-golden-dunes/swobra/swobra-3dmodel-fbx.zip",
             "scope": "Five installed body actions."
           }
         }
@@ -146599,14 +146599,14 @@
       "developerOnly": false,
       "retired": false,
       "name": "Camoucan",
-      "region": null,
+      "region": "desert",
       "stage": "catalogue",
       "runtimeEnabled": true,
       "artworkLayout": "flat-perspective-v1",
       "reference": "camoucan-perspective.png",
       "egg": "camoucan-egg.png",
-      "icon": "camoucan-pets-v1-icon.png",
-      "notes": "Unassigned spare. Camoucan has a creature model and egg shell in Studio Edit. Its egg has no biome spawn.",
+      "icon": "camoucan-pets-v2-icon.png",
+      "notes": "Camoucan is assigned to Golden Dunes. Its creature model and named egg are installed in Studio Edit.",
       "review": {
         "revision": 1,
         "danielApproved": false,
@@ -146619,45 +146619,63 @@
         "condition": "placedAtHome"
       },
       "artworkTransparency": {
-        "sha256": "1560b5670fba2ef341e2f25f167683322aeb5edc54da4bb8bb2205dd4c5acea1",
+        "sha256": "4d86cdd9426999b8301da1b83808bb806819eb4adf77494b1193a7da80038a2b",
         "shadowFreeVerified": true,
-        "review": "output/three-creature-import-20261111/camoucan/wiki-art-provenance.json"
+        "review": "output/camoucan-replacement-20261111/wiki-art-provenance.json"
       },
       "implementation": {
         "realModelReady": true,
         "placeholderHatchling": false,
         "replacementImport": {
           "installed": true,
-          "mesh": "rbxassetid://93548499612050",
+          "mesh": "rbxassetid://107191666942617",
           "robloxImage": {
-            "wikiImage": "assets/animations/camoucan/current/camoucan-studio-edit.png",
-            "sha256": "f7b80ca108da91dbd47cf2ce25c88aa0003d76078cfe26282e27090f70337370",
+            "wikiImage": "assets/animations/camoucan/v2-hair-weights/camoucan-studio-edit.png",
+            "sha256": "63dc127be888e820499b4f9d15bcb59080e6013f7b00522156f48ddca00a439f",
             "environment": "Studio Edit",
             "pose": "Idle",
+            "captureFormat": "PNG",
             "currentVersion": true,
             "sizeBlendRevision": "dominant-baseline-then-quality-v10",
-            "nativePayloadSha256": "cd8f5a8e7e39e776e7816f76f5169dd616be334b78b7af79f5617f3571e40d5f",
-            "modelSha256": "0b31d8be1bf0a900f2e4a57afde30fe0d35b0ecc78c88b9120ba16842769f579",
+            "nativePayloadSha256": "bd991421c3a92ab9008ad7d6865bfb7a38255b5bf2f134688295a95dc44827d5",
+            "modelSha256": "0e4857497ad0107d5d6faf8921ee5ff8f14f9979f10130c9df85f847a14e3d68",
             "heightStuds": 8.017830596070517,
             "catalogueHeightStuds": 8.017830596070517,
-            "studioReadbackHeightStuds": 8.017732620239258,
             "currentScope": "Captured with the installed model on a temporary review plinth.",
             "sourceReceipt": {
-              "file": "output/camoucan-import-20261111/installation/scene-readback.json",
-              "sha256": "6de68b704b2e872e3eeca53354a47dbdafe443a46023bdc5c1112c54491dbf80"
+              "file": "output/camoucan-hair-studio/installation/studio-readback.json",
+              "sha256": "4e45d35f1bb0d1945c4581e02f85c5e07e1c4f769b031615aa42cebff0340ceb"
             },
             "captureReceipt": {
-              "file": "output/camoucan-import-20261111/studio-portraits/camoucan-verification.json",
-              "sha256": "01bdd131cc9299e80cb8aafc4939a6a9327a45ad4392ba70467b234737fc1171"
+              "file": "output/camoucan-hair-studio/studio-portraits/camoucan-verification.json",
+              "sha256": "7d98b8cd34e578835e3335238aedff6fe5dcea30a881fedf8c59e0ffc1dff297"
             }
           },
           "animationBundle": {
+            "wikiFile": "assets/animations/camoucan/v2-hair-weights/camoucan-source-and-animations.zip",
+            "sha256": "5364aacfc92de64bbb08ee832611930f462c288449d880bba6d022f9c2d06516",
+            "complete": false,
+            "modelSha256": "0e4857497ad0107d5d6faf8921ee5ff8f14f9979f10130c9df85f847a14e3d68",
+            "sourceArchive": "creatures/9-golden-dunes/camoucan/camoucan-3dmodel-fbx.zip",
+            "scope": "Authored Idle, Walk and Run, repaired numbered FBX and Studio Edit image."
+          },
+          "modelSha256": "0e4857497ad0107d5d6faf8921ee5ff8f14f9979f10130c9df85f847a14e3d68",
+          "historicalAnimationBundle": {
             "wikiFile": "assets/animations/camoucan/current/camoucan-source-and-animations.zip",
             "sha256": "45d1c01757650eb40f23124493afa108f1d70e72b74148ac28c29d819f801dfe",
+            "modelSha256": "0b31d8be1bf0a900f2e4a57afde30fe0d35b0ecc78c88b9120ba16842769f579"
+          },
+          "artworkAssets": {
+            "portrait": "rbxassetid://110629891553800",
+            "encyclopedia": "rbxassetid://128180426212050"
+          },
+          "previousHairWeightBundle": {
+            "wikiFile": "assets/animations/camoucan/v2/camoucan-source-and-animations.zip",
+            "sha256": "dcefa2450b85099b296cbcea09c9077a6fc5505ac68c0daab75101ad48e5e0aa",
             "complete": false,
-            "modelSha256": "0b31d8be1bf0a900f2e4a57afde30fe0d35b0ecc78c88b9120ba16842769f579",
-            "sourceArchive": "creatures/~unassigned/camoucan/camoucan-3dmodel-fbx.zip",
-            "scope": "Installed body animations and FBX source."
+            "modelSha256": "a54d8cf8d0446e17790326feb92c3a77f32e0a842a13fb6c3aa4666718c24985",
+            "sourceArchive": "creatures/9-golden-dunes/camoucan/camoucan-3dmodel-fbx.zip",
+            "scope": "Idle, Walk and Run plus numbered FBX source and Studio Edit image."
           }
         }
       },
@@ -146985,6 +147003,286 @@
       "sizeReferenceAxis": "Length",
       "parentBlendTargetStuds": 8.169642857142856,
       "heavierParent": "Dolphin",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Endangered",
+      "height": 4.851826421574194,
+      "weight": 1871.2482547625102,
+      "eggHeight": 5.523406921994603,
+      "eggWeight": 188.79426866930388,
+      "parents": "Rhinoceros + Komodo dragon",
+      "length": 11.186810218688919,
+      "heightWeight": null,
+      "description": "Rhinodo plants its broad feet before charging, sweeping its long scaly tail behind its horn.",
+      "naturalHeight": 5.440731403650373,
+      "naturalLength": 12.544642857142856,
+      "weightReferenceKg": 2300.0,
+      "weightReferenceDimensionMetres": 3.85,
+      "spawnWeight": 1048576,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Rhinodo",
+      "region": null,
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "artworkLayout": "flat-perspective-v1",
+      "diet": "Omnivore",
+      "travel": [
+        "Ground"
+      ],
+      "reference": "rhinodo-perspective.png",
+      "egg": "rhinodo-egg.png",
+      "icon": "rhinodo-pets-v1-icon.png",
+      "notes": "Unassigned spare. Rhinodo has an installed creature model and egg shell. Its egg does not spawn in any biome.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Installed in Studio Edit and awaiting creature review. Gameplay remains untested."
+      },
+      "earnings": {
+        "amount": 150,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "artworkTransparency": {
+        "sha256": "ed174b05d63e4eeb5009894a196d92ec8b02feef3f54f78fc73a20165b6abafe",
+        "shadowFreeVerified": true,
+        "review": "output/rhinodo-import-20261111/wiki-art-provenance.json"
+      },
+      "implementation": {
+        "realModelReady": true,
+        "placeholderHatchling": false,
+        "replacementImport": {
+          "installed": true,
+          "mesh": "rbxassetid://106731104741089",
+          "robloxImage": {
+            "wikiImage": "assets/animations/rhinodo/current/rhinodo-studio-edit.png",
+            "sha256": "bd94377d9910523fea24018e6b46371eb178777eee60bacb81b1e87b20653da1",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "currentVersion": true,
+            "captureFormat": "PNG",
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "nativePayloadSha256": "4e795cec2881b0c7bf0fe82c72067ccd52bbd6bce53cca3be50f77a5c2e83bf4",
+            "modelSha256": "c5b0d7a983bbe20e632d51a75dfb264adc157c095bee41fbb2027dff8d18c357",
+            "heightStuds": 4.851826421574194,
+            "currentScope": "Captured on a temporary review plinth.",
+            "sourceReceipt": {
+              "file": "output/rhinodo-import-20261111/guarded/scene-readback.json",
+              "sha256": "0ea2e5e509c296a2a3675490cb9d1b20b3865ea29d410f1b17abc64d9c966ef2"
+            },
+            "captureReceipt": {
+              "file": "output/rhinodo-import-20261111/studio-portraits-material-loaded/rhinodo-verification.json",
+              "sha256": "23d10ab6c454b2d3085bf34f61fa00c06edaee8a970bd768a5328db9be839ac4"
+            }
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/rhinodo/current/rhinodo-source-and-animations.zip",
+            "sha256": "a9cb09b3ac217c8e552a415638b4a3811b1c03f8f0dd87cf6e8297edab16bc2b",
+            "complete": false,
+            "modelSha256": "c5b0d7a983bbe20e632d51a75dfb264adc157c095bee41fbb2027dff8d18c357",
+            "sourceArchive": "creatures/~unassigned/komorhino/komorhino-3dmodel-fbx.zip",
+            "scope": "Three authored FBX actions. The procedural Blink is available separately."
+          },
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true,
+            "scope": "local-visualisation",
+            "fitEvidence": "output/rhinodo-blink-update-20261111/fit-evidence.json",
+            "nativeEditReadback": "output/rhinodo-blink-update-20261111/native-edit-readback.json"
+          }
+        }
+      },
+      "mountable": false,
+      "followingBuff": null,
+      "hatchXPBonus": {
+        "skill": "Strength",
+        "firstXP": 10000,
+        "repeatXP": 1000,
+        "firstCash": 500000
+      },
+      "id": "rhinodo",
+      "parentStats": [
+        {
+          "name": "Rhinoceros",
+          "representativeSpecies": "White rhinoceros",
+          "weightKg": 2300,
+          "basis": "Zoo's stated white rhino mass.",
+          "url": "https://animals.sandiegozoo.org/animals/rhinoceros",
+          "sizeMetres": 3.85,
+          "lengthMetres": 3.85,
+          "sizeDimension": "body length",
+          "sizeBasis": "Midpoint of the zoo's reported 3.7 to 4.0 m length range.",
+          "sizeUrl": "https://animals.sandiegozoo.org/animals/rhinoceros",
+          "dominantSizeMetres": 3.85,
+          "dominantSizeAxis": "length",
+          "dimensionEvidence": [],
+          "checked": "2026-11-11"
+        },
+        {
+          "name": "Komodo dragon",
+          "representativeSpecies": "Komodo dragon",
+          "weightKg": 70,
+          "basis": "Typical wild mass.",
+          "url": "https://nationalzoo.si.edu/animals/komodo-dragon",
+          "sizeMetres": 2.5,
+          "lengthMetres": 2.5,
+          "sizeDimension": "body length",
+          "sizeBasis": "Retained project representative length below the largest verified 3.13 m.",
+          "sizeUrl": "https://nationalzoo.si.edu/animals/komodo-dragon",
+          "dominantSizeMetres": 2.5,
+          "dominantSizeAxis": "length",
+          "dimensionEvidence": [],
+          "checked": "2026-11-11"
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "Dominant dimension and heavier parent mass under the current game sizing rules.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Length",
+      "parentBlendTargetStuds": 12.544642857142856,
+      "heavierParent": "Rhinoceros",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Vulnerable",
+      "height": 6.493165488742085,
+      "weight": 316.757115438473,
+      "eggHeight": 4.752423593769586,
+      "eggWeight": 31.958307938459264,
+      "parents": "Tiger + Zebra",
+      "length": 8.296019690055246,
+      "heightWeight": null,
+      "description": "Tigebra pads through the undergrowth on soft paws. Its striped ears perk up before it pounces.",
+      "naturalHeight": 6.499076116940336,
+      "naturalLength": 8.303571428571429,
+      "weightReferenceKg": 300.0,
+      "weightReferenceDimensionMetres": 2.2,
+      "spawnWeight": 2097152,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Tigebra",
+      "region": null,
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "artworkLayout": "flat-perspective-v1",
+      "diet": "Carnivore",
+      "travel": [
+        "Ground"
+      ],
+      "reference": "tigebra-perspective.png",
+      "egg": "tigebra-egg.png",
+      "icon": "tigebra-pets-v1-icon.png",
+      "notes": "Unassigned spare. Tigebra has an installed creature model and egg shell. Its egg does not spawn in any biome.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Installed in Studio Edit and awaiting creature review. Gameplay remains untested."
+      },
+      "earnings": {
+        "amount": 55,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "artworkTransparency": {
+        "sha256": "923bdfcce02bb873ac9edd2636f544a9fdf0798e233f2c1d49a6bdda271eee9b",
+        "shadowFreeVerified": true,
+        "review": "output/tigebra-import-20261111/wiki-art-provenance.json"
+      },
+      "implementation": {
+        "realModelReady": true,
+        "placeholderHatchling": false,
+        "replacementImport": {
+          "installed": true,
+          "mesh": "rbxassetid://107773662897680",
+          "robloxImage": {
+            "wikiImage": "assets/animations/tigebra/current/tigebra-studio-edit.png",
+            "sha256": "c34c8c2a34a29b9c32467bfc581c9aa015d8a4e979c8a564af48763c99954371",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "currentVersion": true,
+            "captureFormat": "PNG",
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "nativePayloadSha256": "e1bcd8449ba8dce3b8f0ad56a8032a2b1feba47014fddeec2c61d30fce5ddc63",
+            "modelSha256": "7cb5c0fed29839443297e00ef0becdaf17f686d080ee8faad212253a22edb5c9",
+            "heightStuds": 6.493165488742085,
+            "currentScope": "Captured on a temporary review plinth.",
+            "sourceReceipt": {
+              "file": "output/tigebra-import-20261111/guarded/scene-readback.json",
+              "sha256": "e61ab8ce565fd19a68925da13d8407032399c2bcc99e239fa4e5355000c3ab2b"
+            },
+            "captureReceipt": {
+              "file": "output/tigebra-import-20261111/studio-portraits/tigebra-verification.json",
+              "sha256": "b491c5563f03019807b84af9926fe2b7d35d59d3806d733e946d5f1483cc953b"
+            }
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/tigebra/current/tigebra-source-and-animations.zip",
+            "sha256": "a6003f189002bec208ed5b863bbf29a37c586324804b176f9cf7d160d5dbfbb6",
+            "complete": false,
+            "modelSha256": "7cb5c0fed29839443297e00ef0becdaf17f686d080ee8faad212253a22edb5c9",
+            "sourceArchive": "creatures/~unassigned/tigebra/tigebra-3dmodel-fbx.zip",
+            "scope": "Three authored FBX actions. The procedural Blink is available separately."
+          },
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true,
+            "scope": "local-visualisation",
+            "fitEvidence": "output/tigebra-blink-update-20261111/fit-evidence.json",
+            "nativeEditReadback": "output/tigebra-blink-update-20261111/native-edit-readback.json"
+          }
+        }
+      },
+      "mountable": false,
+      "followingBuff": null,
+      "hatchXPBonus": {
+        "skill": "Running",
+        "firstXP": 5000,
+        "repeatXP": 500,
+        "firstCash": 100000
+      },
+      "id": "tigebra",
+      "parentStats": [
+        {
+          "name": "Tiger",
+          "representativeSpecies": "Tiger",
+          "weightKg": 190,
+          "basis": "Adult modelling proxy below the upper adult male range.",
+          "url": "https://www.nationalzoo.si.edu/animals/tiger",
+          "sizeMetres": 2.7,
+          "lengthMetres": 2.7,
+          "sizeDimension": "body length",
+          "sizeBasis": "Game balance proxy within the tiger's reported adult size range.",
+          "sizeUrl": "https://www.nationalzoo.si.edu/animals/tiger",
+          "dominantSizeMetres": 2.7,
+          "dominantSizeAxis": "length",
+          "dimensionEvidence": [],
+          "checked": "2026-11-11"
+        },
+        {
+          "name": "Zebra",
+          "representativeSpecies": "Mountain zebra",
+          "weightKg": 300,
+          "basis": "Representative adult mass within the reported 240 to 372 kg range.",
+          "url": "https://animaldiversity.org/accounts/Equus_zebra/",
+          "sizeMetres": 2.2,
+          "lengthMetres": 2.2,
+          "sizeDimension": "body length",
+          "sizeBasis": "Representative head and body length within the reported 2.1 to 2.6 m range.",
+          "sizeUrl": "https://animaldiversity.org/accounts/Equus_zebra/",
+          "dominantSizeMetres": 2.2,
+          "dominantSizeAxis": "length",
+          "dimensionEvidence": [],
+          "checked": "2026-11-11"
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "Dominant dimension and heavier parent mass under the current game sizing rules.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Length",
+      "parentBlendTargetStuds": 8.303571428571429,
+      "heavierParent": "Zebra",
       "parentReferenceRevision": "dominant-baseline-then-quality-v10"
     }
   ],
@@ -147448,51 +147746,59 @@
     "desert": [
       {
         "species": "Armadillope",
-        "chance": 20.0
+        "chance": 18.181818181818183
       },
       {
         "species": "Meerkabou",
-        "chance": 10.0
-      },
-      {
-        "species": "Scorpicorn",
-        "chance": 10.0
+        "chance": 9.090909090909092
       },
       {
         "species": "Jerboar",
-        "chance": 10.0
+        "chance": 9.090909090909092
       },
       {
         "species": "Geckostrich",
-        "chance": 20.0
+        "chance": 18.181818181818183
       },
       {
         "species": "Vulturkey",
-        "chance": 20.0
+        "chance": 18.181818181818183
       },
       {
-        "species": "Fennthorn",
-        "chance": 10.0
+        "species": "Camoucan",
+        "chance": 9.090909090909092
+      },
+      {
+        "species": "Swobra",
+        "chance": 18.181818181818183
       }
     ],
     "volcano": [
       {
         "species": "Dragorilla",
-        "chance": 25.0
+        "chance": 16.666666666666664
       },
       {
         "species": "Bearbecue",
-        "chance": 25.0
+        "chance": 16.666666666666664
       },
       {
         "species": "Harpyeena",
-        "chance": 50.0
+        "chance": 33.33333333333333
+      },
+      {
+        "species": "Fennthorn",
+        "chance": 33.33333333333333
       }
     ],
     "inferno": [
       {
         "species": "Thorny Mantis",
-        "chance": 100.0
+        "chance": 20.0
+      },
+      {
+        "species": "Scorpicorn",
+        "chance": 80.0
       }
     ],
     "sky_foothills": [
@@ -153593,6 +153899,101 @@
         "eggSizingHeight": 2.9690548003507486,
         "rawBaseEggHeight": 1.6951434531764418
       },
+      "Rhinodo": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 6.904258652493254,
+            "eggMaxKg": 235.99283583662984,
+            "eggMinHeight": 4.142555191495952,
+            "eggMinKg": 141.5957015019779,
+            "incomeMax": 187.5,
+            "incomeMin": 112.5,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 6.064783026967743,
+            "petMaxKg": 2339.060318453138,
+            "petMinHeight": 3.638869816180646,
+            "petMinKg": 1403.4361910718828,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 8.285110382991904,
+            "eggMaxKg": 283.1914030039558,
+            "eggMinHeight": 5.523406921994603,
+            "eggMinKg": 188.79426866930388,
+            "incomeMax": 450,
+            "incomeMin": 300,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 7.277739632361292,
+            "petMaxKg": 2806.8723821437657,
+            "petMinHeight": 4.851826421574194,
+            "petMinKg": 1871.2482547625102,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 11.046813843989206,
+            "eggMaxKg": 377.58853733860775,
+            "eggMinHeight": 8.285110382991904,
+            "eggMinKg": 283.1914030039558,
+            "incomeMax": 1200,
+            "incomeMin": 900,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 9.703652843148388,
+            "petMaxKg": 3742.4965095250204,
+            "petMinHeight": 7.277739632361292,
+            "petMinKg": 2806.8723821437657,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 13.808517304986507,
+            "eggMaxKg": 471.9856716732597,
+            "eggMinHeight": 11.046813843989206,
+            "eggMinKg": 377.58853733860775,
+            "incomeMax": 3000,
+            "incomeMin": 2400,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 12.129566053935486,
+            "petMaxKg": 4678.120636906276,
+            "petMinHeight": 9.703652843148388,
+            "petMinKg": 3742.4965095250204,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 16.57022076598381,
+            "eggMaxKg": 566.3828060079117,
+            "eggMinHeight": 13.808517304986507,
+            "eggMinKg": 471.9856716732597,
+            "incomeMax": 7200,
+            "incomeMin": 6000,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 14.555479264722583,
+            "petMaxKg": 5613.744764287531,
+            "petMinHeight": 12.129566053935486,
+            "petMinKg": 4678.120636906276,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 5.523406921994603,
+        "baseHeight": 4.851826421574194,
+        "baseLength": 11.186810218688919,
+        "baseWeight": 1871.2482547625102,
+        "eggSizingHeight": 4.851826421574194,
+        "rawBaseEggHeight": 5.523406921994603
+      },
       "Scorpicorn": {
         "bands": [
           {
@@ -154732,6 +155133,101 @@
         "baseWeight": 0.5084996679933705,
         "eggSizingHeight": 2.746072389301537,
         "rawBaseEggHeight": 1.057556585355108
+      },
+      "Tigebra": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 5.940529492211982,
+            "eggMaxKg": 39.947884923074085,
+            "eggMinHeight": 3.5643176953271896,
+            "eggMinKg": 23.968730953844453,
+            "incomeMax": 68.75,
+            "incomeMin": 41.25,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 8.116456860927606,
+            "petMaxKg": 395.9463942980913,
+            "petMinHeight": 4.869874116556565,
+            "petMinKg": 237.5678365788548,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 7.128635390654379,
+            "eggMaxKg": 47.937461907688906,
+            "eggMinHeight": 4.752423593769586,
+            "eggMinKg": 31.958307938459264,
+            "incomeMax": 165,
+            "incomeMin": 110,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 9.73974823311313,
+            "petMaxKg": 475.1356731577096,
+            "petMinHeight": 6.493165488742085,
+            "petMinKg": 316.757115438473,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 9.504847187539172,
+            "eggMaxKg": 63.91661587691853,
+            "eggMinHeight": 7.128635390654379,
+            "eggMinKg": 47.937461907688906,
+            "incomeMax": 440,
+            "incomeMin": 330,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 12.98633097748417,
+            "petMaxKg": 633.514230876946,
+            "petMinHeight": 9.73974823311313,
+            "petMinKg": 475.1356731577096,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 11.881058984423964,
+            "eggMaxKg": 79.89576984614817,
+            "eggMinHeight": 9.504847187539172,
+            "eggMinKg": 63.91661587691853,
+            "incomeMax": 1100,
+            "incomeMin": 880,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 16.232913721855212,
+            "petMaxKg": 791.8927885961826,
+            "petMinHeight": 12.98633097748417,
+            "petMinKg": 633.514230876946,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 14.257270781308758,
+            "eggMaxKg": 95.87492381537781,
+            "eggMinHeight": 11.881058984423964,
+            "eggMinKg": 79.89576984614817,
+            "incomeMax": 2640,
+            "incomeMin": 2200,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 19.47949646622626,
+            "petMaxKg": 950.2713463154192,
+            "petMinHeight": 16.232913721855212,
+            "petMinKg": 791.8927885961826,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 4.752423593769586,
+        "baseHeight": 6.493165488742085,
+        "baseLength": 8.296019690055246,
+        "baseWeight": 316.757115438473,
+        "eggSizingHeight": 6.493165488742085,
+        "rawBaseEggHeight": 4.752423593769586
       },
       "Tricerahops": {
         "bands": [

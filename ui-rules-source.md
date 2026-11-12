@@ -2377,7 +2377,9 @@ never becomes an owned inventory Tool or changes carry/equip rules. Evidence:
 output/carried-egg-selection, including offline paging/lifecycle checks and
 native Edit views. Actual gameplay acceptance and publication remain separate.
 
-The clock, wallet and three skill controls share a screen-centred top toolbar.
+The clock, wallet and four skill controls share a screen-centred top toolbar.
+Stealth uses the shared charcoal ninja icon, level and grey XP bar in the same
+row. The lighter rim keeps the icon visible against the dark toolbar.
 Centre it on the full screen, accounting for the native topbar safe area's
 asymmetric horizontal origin. When the centred row cannot clear native and
 staff controls, keep it centred in the existing row below the topbar. Mobile
@@ -2400,7 +2402,7 @@ Only the Player Stats window shows current calculated Running and Swimming
 speed, right-aligned beside each level as a compact value such as 18.9 s/s.
 Keep the main toolbar clean. Preserve the separate base-speed details below
 and use each skill's own server-calculated movement setting.
-On mobile the clock, Cash and all three skills stay in one 44-pixel row spanning
+On mobile the clock, Cash and all four skills stay in one 44-pixel row spanning
 the usable screen width with four-pixel side margins. Balance the clock and Cash
 columns around their readable content, then divide the remaining space equally
 between Running, Swimming and Strength. Keep Settings on the native row above.

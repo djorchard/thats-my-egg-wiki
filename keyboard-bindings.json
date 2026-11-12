@@ -794,9 +794,9 @@
         "RightControl"
       ],
       "category": "context",
-      "label": "Hold or tap to sneak",
+      "label": "Toggle Sneak",
       "short": "Sneak / dive",
-      "context": "Hold Ctrl to sneak until release, or tap Ctrl to toggle Sneak on/off. A tap lasts at most 0.25 seconds. Running level 10, on land in grass or behind cover, more than 35 studs from guardians. Move at 30% speed. Sneaking spends 0.5 stamina units per second before pet modifiers; a fresh start needs 25% stamina. Ctrl retains Dive while swimming; L2 and touch use the shared action.",
+      "context": "Press Ctrl on land, L2 on controller, or the Sneak button to toggle. Releasing leaves Sneak on. Available from the start on grass or behind cover, outside the guardian detection radius. Move at 30% speed. Sneak spends 0.5 stamina per second before pet bonuses. Starting needs at least 25% stamina. Ctrl still dives while swimming.",
       "sources": [
         {
           "file": "src/running_hide.client.luau",

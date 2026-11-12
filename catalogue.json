@@ -469,9 +469,9 @@
       "balanceAssignment": {
         "status": "Least Concern",
         "baseEarnings": 5,
-        "currentSpawnChancePercent": 20.0,
+        "currentSpawnChancePercent": 15.384615384615385,
         "progressionRank": 1,
-        "progressionRevision": "alpha-20261108-v1",
+        "progressionRevision": "alpha-current-20261112-v1",
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026."
       },
       "mountable": false,
@@ -946,9 +946,9 @@
       "balanceAssignment": {
         "status": "Least Concern",
         "baseEarnings": 6,
-        "currentSpawnChancePercent": 20.0,
+        "currentSpawnChancePercent": 15.384615384615385,
         "progressionRank": 1,
-        "progressionRevision": "alpha-20261108-v1",
+        "progressionRevision": "alpha-current-20261112-v1",
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026."
       },
       "mountable": false,
@@ -1077,13 +1077,13 @@
         "Air"
       ],
       "followingBuff": {
-        "id": "FleetFoot",
-        "Description": "10% faster running, within area speed limits.",
-        "Effect": "Running",
-        "HUDDescription": "10% faster running (area limits apply).",
-        "Icon": "\ud83d\udc5f",
-        "Multiplier": 1.1,
-        "Name": "Fleet foot"
+        "id": "EscapeArtist",
+        "Description": "Earn 25% more Stealth XP from sneaking and escaping guardians.",
+        "Effect": "StealthXP",
+        "HUDDescription": "+25% Stealth XP.",
+        "Image": "rbxassetid://132657854974278",
+        "Multiplier": 1.25,
+        "Name": "Escape artist"
       },
       "hatchXPBonus": {
         "skill": "Running",
@@ -3006,9 +3006,9 @@
       "balanceAssignment": {
         "status": "Least Concern",
         "baseEarnings": 6,
-        "currentSpawnChancePercent": 20.0,
+        "currentSpawnChancePercent": 15.384615384615385,
         "progressionRank": 1,
-        "progressionRevision": "alpha-20261108-v1",
+        "progressionRevision": "alpha-current-20261112-v1",
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026."
       },
       "mountable": false,
@@ -3116,9 +3116,9 @@
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
         "status": "Least Concern",
         "baseEarnings": 6,
-        "currentSpawnChancePercent": 20.0,
+        "currentSpawnChancePercent": 15.384615384615385,
         "progressionRank": 1,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "implementation": {
         "gameplayEnabled": true,
@@ -11798,9 +11798,9 @@
         "implementationDate": "2026-10-28",
         "status": "Vulnerable",
         "baseEarnings": 92,
-        "currentSpawnChancePercent": 50.0,
+        "currentSpawnChancePercent": 100.0,
         "progressionRank": 8,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "runtimeEnabled": true,
       "implementation": {
@@ -13520,9 +13520,9 @@
         },
         "status": "Near Threatened",
         "baseEarnings": 18,
-        "currentSpawnChancePercent": 12.5,
+        "currentSpawnChancePercent": 11.11111111111111,
         "progressionRank": 4,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "artworkLayout": "flat-perspective-v1",
       "reference": "koalameleon-perspective.png",
@@ -14155,13 +14155,13 @@
         "Ground"
       ],
       "followingBuff": {
-        "id": "Regenerator",
-        "Description": "Natural health regeneration is 50% faster, after the usual damage delay.",
-        "Effect": "Healing",
-        "HUDDescription": "50% faster natural healing.",
-        "Icon": "\ud83d\udc9a",
-        "Multiplier": 1.5,
-        "Name": "Fast Healing"
+        "id": "QuietSteps",
+        "Description": "Guardians detect you 15% closer while you Sneak.",
+        "Effect": "StealthRadius",
+        "HUDDescription": "15% smaller Sneak detection radius.",
+        "Image": "rbxassetid://132657854974278",
+        "Multiplier": 0.85,
+        "Name": "Quiet steps"
       },
       "hatchXPBonus": {
         "skill": "Running",
@@ -14269,9 +14269,9 @@
         "implementationDate": "2026-10-28",
         "status": "Least Concern",
         "baseEarnings": 12,
-        "currentSpawnChancePercent": 25.0,
+        "currentSpawnChancePercent": 22.22222222222222,
         "progressionRank": 4,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "runtimeEnabled": true,
       "implementation": {
@@ -15170,13 +15170,13 @@
         "Air"
       ],
       "followingBuff": {
-        "id": "Scholar",
-        "Description": "10% more movement, action and equipment training XP. Fixed hatch rewards are unchanged.",
-        "Effect": "XP",
-        "HUDDescription": "+10% training XP. Excludes hatch XP.",
-        "Icon": "\ud83d\udcda",
-        "Multiplier": 1.1,
-        "Name": "Quick learner"
+        "id": "EscapeArtist",
+        "Description": "Earn 25% more Stealth XP from sneaking and escaping guardians.",
+        "Effect": "StealthXP",
+        "HUDDescription": "+25% Stealth XP.",
+        "Image": "rbxassetid://132657854974278",
+        "Multiplier": 1.25,
+        "Name": "Escape artist"
       },
       "hatchXPBonus": {
         "skill": "Swimming",
@@ -81105,7 +81105,7 @@
       "parentReferenceRevision": "dominant-dimension-soft-range-v9"
     },
     {
-      "status": "Vulnerable",
+      "status": "Endangered",
       "height": 6.694168596231388,
       "weight": 346.2691753125,
       "eggHeight": 4.897598050381118,
@@ -81114,7 +81114,7 @@
       "length": 7.633928571428569,
       "heightWeight": 349.4576005599128,
       "description": "Pearly armour, a flowing lavender mane and a golden spiral horn give Scorpicorn a luminous silhouette. Six small legs carry it forward, with rounded pincers at the front and a curling gold-tipped tail above its back.",
-      "spawnWeight": 2097152,
+      "spawnWeight": 1048576,
       "developerOnly": false,
       "retired": false,
       "name": "Scorpicorn",
@@ -81127,13 +81127,13 @@
         "note": "Species egg, five quality appearances, icons and biome spawning installed. Hatching uses the missing-model character. Real creature modelling, rigging, animations and Daniel approval remain pending."
       },
       "earnings": {
-        "amount": 44,
+        "amount": 194,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
       "conceptNumber": 24,
       "concept": null,
-      "notes": "Scorpicorn is installed in Studio Edit at 6 studs with a 37-bone rig and 3,296 triangles. Its named egg, 360 Cash per second at Home and 10,000 Strength XP for its first hatch are verified. The status board shows WIP / To review. Idle, Walk, Run and Chase meet 8.5 in the local previews, and Blink meets 7.5. Straight movement and eyelid fit are covered. Gameplay turns and live-server performance await a separate check.",
+      "notes": "Scorpicorn is installed in Studio Edit at 6 studs with a 37-bone rig and 3,296 triangles. Its named egg and 10,000 Strength XP for its first hatch are registered. The current base Home rate is 194 Cash per second. The status board shows WIP / To review. Idle, Walk, Run and Chase meet 8.5 in the local previews, and Blink meets 7.5. Straight movement and eyelid fit are covered. Gameplay turns and live-server performance await a separate check.",
       "biomeAssignment": {
         "approvedBy": "Daniel",
         "date": "2026-10-27"
@@ -81165,15 +81165,15 @@
         "date": "2026-10-27",
         "source": "research/additional-creature-balance.json",
         "runtimeEnabled": true,
-        "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
+        "note": "Daniel approved the Endangered status and updated base Home rate on 12 November 2026.",
         "wildEggsEnabled": true,
         "developerCreatureEnabled": true,
         "implementationDate": "2026-10-29",
-        "status": "Vulnerable",
-        "baseEarnings": 44,
-        "currentSpawnChancePercent": 10.0,
-        "progressionRank": 6,
-        "progressionRevision": "alpha-20261108-v1"
+        "status": "Endangered",
+        "baseEarnings": 194,
+        "currentSpawnChancePercent": 66.66666666666666,
+        "progressionRank": 12,
+        "progressionRevision": "alpha-current-20261112-v2"
       },
       "artworkLayout": "flat-perspective-v1",
       "reference": "scorpicorn-perspective.png",
@@ -81247,7 +81247,7 @@
           "decision": "Keep the supplied six walking legs. Do not add another pair. The earlier eight-leg catalogue wording was incorrect."
         },
         "fullImportComplete": false,
-        "qualityNotice": "Scorpicorn is installed in Studio Edit at 6 studs with a 37-bone rig and 3,296 triangles. Its named egg, 360 Cash per second at Home and 10,000 Strength XP for its first hatch are verified. The status board shows WIP / To review. Idle, Walk, Run and Chase meet 8.5 in the local previews, and Blink meets 7.5. Straight movement and eyelid fit are covered. Gameplay turns and live-server performance await a separate check.",
+        "qualityNotice": "Scorpicorn is installed in Studio Edit at 6 studs with a 37-bone rig and 3,296 triangles. Its named egg and 10,000 Strength XP for its first hatch are registered. The current base Home rate is 194 Cash per second. The status board shows WIP / To review. Idle, Walk, Run and Chase meet 8.5 in the local previews, and Blink meets 7.5. Straight movement and eyelid fit are covered. Gameplay turns and live-server performance await a separate check.",
         "reviewNoteContext": "Earlier egg-only or local-candidate review note is historical. Saved developer decisions are unchanged.",
         "replacementImport": {
           "importNumber": 2,
@@ -81831,7 +81831,7 @@
           "implementation": "awaiting-creature-model"
         }
       ],
-      "hatchWorkSeconds": 1800,
+      "hatchWorkSeconds": 3600,
       "mountable": true,
       "diet": "Omnivore",
       "travel": [
@@ -81842,7 +81842,7 @@
         "skill": "Strength",
         "firstXP": 10000,
         "repeatXP": 1000,
-        "firstCash": 100000
+        "firstCash": 500000
       },
       "id": "scorpicorn",
       "parentStats": [
@@ -82573,9 +82573,9 @@
         "implementationDate": "2026-10-28",
         "status": "Endangered",
         "baseEarnings": 195,
-        "currentSpawnChancePercent": 50.0,
+        "currentSpawnChancePercent": 20.0,
         "progressionRank": 10,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v2"
       },
       "runtimeEnabled": true,
       "implementation": {
@@ -83788,9 +83788,9 @@
         "implementationDate": "2026-10-28",
         "status": "Near Threatened",
         "baseEarnings": 39,
-        "currentSpawnChancePercent": 20.0,
+        "currentSpawnChancePercent": 18.181818181818183,
         "progressionRank": 6,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "runtimeEnabled": true,
       "implementation": {
@@ -84700,9 +84700,9 @@
         "implementationDate": "2026-10-29",
         "status": "Near Threatened",
         "baseEarnings": 21,
-        "currentSpawnChancePercent": 12.5,
+        "currentSpawnChancePercent": 11.11111111111111,
         "progressionRank": 4,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "artworkLayout": "flat-perspective-v1",
       "reference": "porcupython-perspective.png",
@@ -131185,9 +131185,9 @@
         "implementationDate": "2026-10-28",
         "status": "Vulnerable",
         "baseEarnings": 43,
-        "currentSpawnChancePercent": 10.0,
+        "currentSpawnChancePercent": 9.090909090909092,
         "progressionRank": 6,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "runtimeEnabled": true,
       "implementation": {
@@ -132652,13 +132652,13 @@
         "Ground"
       ],
       "followingBuff": {
-        "id": "Endurance",
-        "Description": "20% less stamina used by running and gym training. Action costs are unchanged.",
-        "Effect": "Drain",
-        "HUDDescription": "20% less running and gym stamina.",
-        "Icon": "\ud83d\udd0b",
+        "id": "LightStep",
+        "Description": "Sneaking uses 20% less stamina while this pet follows you.",
+        "Effect": "StealthDrain",
+        "HUDDescription": "20% less Sneak stamina.",
+        "Image": "rbxassetid://132657854974278",
         "Multiplier": 0.8,
-        "Name": "Stamina Saver"
+        "Name": "Light step"
       },
       "hatchXPBonus": {
         "skill": "Strength",
@@ -137279,9 +137279,9 @@
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
         "status": "Critically Endangered",
         "baseEarnings": 283,
-        "currentSpawnChancePercent": 33.33333333333333,
+        "currentSpawnChancePercent": 20.0,
         "progressionRank": 11,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "implementation": {
         "gameplayEnabled": true,
@@ -137790,9 +137790,9 @@
         "wildEggsEnabled": true,
         "status": "Near Threatened",
         "baseEarnings": 20,
-        "currentSpawnChancePercent": 12.5,
+        "currentSpawnChancePercent": 11.11111111111111,
         "progressionRank": 4,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "implementation": {
         "gameplayEnabled": true,
@@ -138747,9 +138747,9 @@
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
         "status": "Endangered",
         "baseEarnings": 159,
-        "currentSpawnChancePercent": 50.0,
+        "currentSpawnChancePercent": 20.0,
         "progressionRank": 10,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v2"
       },
       "modelImport": {
         "source": "creatures/10-ember-mountain/bearbecue/bearbecue-initial2.fbx",
@@ -140723,9 +140723,9 @@
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
         "status": "Near Threatened",
         "baseEarnings": 36,
-        "currentSpawnChancePercent": 20.0,
+        "currentSpawnChancePercent": 18.181818181818183,
         "progressionRank": 6,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "modelImport": {
         "source": "creatures/9-golden-dunes/geckostrich/geckostrich-initial.fbx",
@@ -141050,9 +141050,9 @@
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
         "status": "Vulnerable",
         "baseEarnings": 76,
-        "currentSpawnChancePercent": 50.0,
-        "progressionRank": 8,
-        "progressionRevision": "alpha-20261108-v1"
+        "currentSpawnChancePercent": 40.0,
+        "progressionRank": 10,
+        "progressionRevision": "alpha-current-20261112-v2"
       },
       "modelImport": {
         "source": "creatures/10-ember-mountain/harpyeena/harpyeena-initial.fbx",
@@ -141387,9 +141387,9 @@
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
         "status": "Vulnerable",
         "baseEarnings": 40,
-        "currentSpawnChancePercent": 10.0,
+        "currentSpawnChancePercent": 9.090909090909092,
         "progressionRank": 6,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "modelImport": {
         "source": "creatures/9-golden-dunes/jerboar/jerboar-initial.fbx",
@@ -142380,9 +142380,9 @@
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
         "status": "Near Threatened",
         "baseEarnings": 37,
-        "currentSpawnChancePercent": 20.0,
+        "currentSpawnChancePercent": 18.181818181818183,
         "progressionRank": 6,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "modelImport": {
         "source": "creatures/9-golden-dunes/vulturkey/vulturkey-initial.fbx",
@@ -142710,9 +142710,9 @@
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
         "status": "Near Threatened",
         "baseEarnings": 26,
-        "currentSpawnChancePercent": 18.181818181818183,
-        "progressionRank": 5,
-        "progressionRevision": "alpha-20261108-v1"
+        "currentSpawnChancePercent": 7.6923076923076925,
+        "progressionRank": 1,
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "modelImport": {
         "source": "creatures/1-sunnyside-backyard/humminglow/humminglow-initial.fbx",
@@ -143038,9 +143038,9 @@
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
         "status": "Endangered",
         "baseEarnings": 231,
-        "currentSpawnChancePercent": 66.66666666666666,
+        "currentSpawnChancePercent": 40.0,
         "progressionRank": 11,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "modelImport": {
         "source": "creatures/13-cloudtop-cliffs/sugarwing/glidigan-initial.fbx",
@@ -143374,9 +143374,9 @@
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
         "status": "Near Threatened",
         "baseEarnings": 14,
-        "currentSpawnChancePercent": 12.5,
+        "currentSpawnChancePercent": 11.11111111111111,
         "progressionRank": 4,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "modelImport": {
         "source": "creatures/4-acorn-woods/quokkaflash/quokkaflash-initial.fbx",
@@ -143761,7 +143761,7 @@
       "parentReferenceRevision": "dominant-dimension-soft-range-v9"
     },
     {
-      "status": "Vulnerable",
+      "status": "Endangered",
       "height": 2.848294686695575,
       "weight": 4.4856890007691685,
       "eggHeight": 1.5482098662510417,
@@ -143770,7 +143770,7 @@
       "length": 3.504444531850912,
       "heightWeight": 0.914597038701724,
       "description": "Fennthorn pauses on rocky slopes with its oversized ears raised and its blue-tipped tail held low.",
-      "spawnWeight": 2097152,
+      "spawnWeight": 1048576,
       "developerOnly": false,
       "retired": false,
       "name": "Fennthorn",
@@ -143780,7 +143780,7 @@
       "reference": "fennthorn-perspective.png",
       "egg": "fennthorn-egg.png",
       "icon": "fennthorn-pets-v2-icon.png",
-      "notes": "Fennthorn is installed in Studio Edit at 3.8 studs with a 22-bone rig and 2,010 body triangles. The named egg is registered. The first hatch awards 5,000 Running XP and the Home rate is 195 Cash per second. The review board shows WIP / To review. The local previews score Idle 8.6, Walk 8.7, Run 8.6 out of 10 at the recorded speeds. Blink scores 7.5/10 in the local preview and 7.5/10 in the installed Studio Edit closure. Live traversal and developer review remain pending.",
+      "notes": "Fennthorn is installed in Studio Edit at 3.8 studs with a 22-bone rig and 2,010 body triangles. The named egg is registered. The first hatch awards 5,000 Running XP. The current base Home rate is 92 Cash per second. The review board shows WIP / To review. The local previews score Idle 8.6, Walk 8.7, Run 8.6 out of 10 at the recorded speeds. Blink scores 7.5/10 in the local preview and 7.5/10 in the installed Studio Edit closure. Live traversal and developer review remain pending.",
       "artworkLayout": "flat-perspective-v1",
       "review": {
         "revision": 1,
@@ -143789,18 +143789,18 @@
         "note": "Separate developer review is pending."
       },
       "earnings": {
-        "amount": 41,
+        "amount": 92,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
       "balanceAssignment": {
         "assigned": true,
-        "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
-        "status": "Vulnerable",
-        "baseEarnings": 41,
-        "currentSpawnChancePercent": 10.0,
-        "progressionRank": 6,
-        "progressionRevision": "alpha-20261108-v1"
+        "note": "Daniel approved the Endangered status and updated base Home rate on 12 November 2026.",
+        "status": "Endangered",
+        "baseEarnings": 92,
+        "currentSpawnChancePercent": 20.0,
+        "progressionRank": 10,
+        "progressionRevision": "alpha-current-20261112-v2"
       },
       "modelImport": {
         "source": "creatures/10-ember-mountain/fennthorn/fennthorn-initial.fbx",
@@ -143828,7 +143828,7 @@
           "file": "output/fennthorn-import-20261107/studio-install-reconcile.json",
           "sha256": "06389261d35315df9ec335236c5632a30080850684e4b8924dc2d694dbb731a5"
         },
-        "qualityNotice": "Fennthorn is installed in Studio Edit at 3.8 studs with a 22-bone rig and 2,010 body triangles. The named egg is registered. The first hatch awards 5,000 Running XP and the Home rate is 195 Cash per second. The review board shows WIP / To review. The local previews score Idle 8.6, Walk 8.7, Run 8.6 out of 10 at the recorded speeds. Blink scores 7.5/10 in the local preview and 7.5/10 in the installed Studio Edit closure. Live traversal and developer review remain pending.",
+        "qualityNotice": "Fennthorn is installed in Studio Edit at 3.8 studs with a 22-bone rig and 2,010 body triangles. The named egg is registered. The first hatch awards 5,000 Running XP. The current base Home rate is 92 Cash per second. The review board shows WIP / To review. The local previews score Idle 8.6, Walk 8.7, Run 8.6 out of 10 at the recorded speeds. Blink scores 7.5/10 in the local preview and 7.5/10 in the installed Studio Edit closure. Live traversal and developer review remain pending.",
         "replacementImport": {
           "importNumber": 1,
           "date": "2026-11-07",
@@ -144017,7 +144017,7 @@
         "shadowFreeVerified": true,
         "review": "output/fennthorn-import-20261107/artwork/perspective-visual-review.json"
       },
-      "hatchWorkSeconds": 1800,
+      "hatchWorkSeconds": 3600,
       "mountable": false,
       "diet": "Omnivore",
       "travel": [
@@ -144036,7 +144036,7 @@
         "skill": "Running",
         "firstXP": 5000,
         "repeatXP": 500,
-        "firstCash": 100000
+        "firstCash": 500000
       },
       "id": "fennthorn",
       "parentStats": [
@@ -144450,9 +144450,9 @@
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
         "status": "Least Concern",
         "baseEarnings": 7,
-        "currentSpawnChancePercent": 20.0,
+        "currentSpawnChancePercent": 15.384615384615385,
         "progressionRank": 1,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "modelImport": {
         "source": "creatures/1-sunnyside-backyard/ladymole/ladymole-initial.fbx",
@@ -144801,9 +144801,9 @@
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
         "status": "Critically Endangered",
         "baseEarnings": 373,
-        "currentSpawnChancePercent": 100.0,
+        "currentSpawnChancePercent": 33.33333333333333,
         "progressionRank": 12,
-        "progressionRevision": "alpha-20261108-v1"
+        "progressionRevision": "alpha-current-20261112-v2"
       },
       "biomeAssignment": {
         "biome": "inferno",
@@ -146298,7 +146298,10 @@
         "assigned": true,
         "runtimeEnabled": true,
         "baseEarnings": 7,
-        "status": "Least Concern"
+        "status": "Least Concern",
+        "currentSpawnChancePercent": 15.384615384615385,
+        "progressionRank": 1,
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "modelImport": {
         "source": {
@@ -146482,7 +146485,7 @@
         "revision": 1,
         "danielApproved": false,
         "codexApproved": false,
-        "note": "Installed in Studio Edit and awaiting creature review. Blink is a local candidate. Gameplay remains untested."
+        "note": "Installed in Studio Edit and awaiting creature review. Blink is a local candidate. Gameplay remains untested. Blink is fitted and checked in Studio Edit. Blink is fitted and checked in Studio Edit."
       },
       "earnings": {
         "amount": 13,
@@ -146501,8 +146504,8 @@
           "installed": true,
           "mesh": "rbxassetid://102066582907800",
           "robloxImage": {
-            "wikiImage": "assets/animations/swobra/current/swobra-studio-edit.png",
-            "sha256": "5ba3c410a9022a1bc371f699bf4242d48ba6f92d9ed4e6c5101fa6102c88b9d1",
+            "wikiImage": "assets/animations/swobra/blink-studio-edit.png",
+            "sha256": "41a34da64016d0f70f838d4b279c544d6bb35fba3c0cc186c9dbb150c24384e1",
             "environment": "Studio Edit",
             "pose": "Idle",
             "currentVersion": true,
@@ -146510,15 +146513,16 @@
             "nativePayloadSha256": "910d5e4778dbb24f68329f12955665c7104bc2c2fc1e462b2fe507f0344b2ece",
             "modelSha256": "1e816002d62c77662d0bdf9b3aa72df018f193fe4d2e52e1ca4bf30ac500b40b",
             "heightStuds": 2.753643100112448,
-            "currentScope": "Placed on a temporary review plinth for the capture.",
+            "currentScope": "Current installed hatch template with eyes open, photographed in Studio Edit.",
             "sourceReceipt": {
               "file": "output/swobra-import-20261111/installation/scene-readback.json",
               "sha256": "9874d9c21719dc25833c83c5c1f600e90a48f38ebc4243db934f0a9f605b9d76"
             },
             "captureReceipt": {
-              "file": "output/swobra-import-20261111/studio-portraits-close/swobra-verification.json",
-              "sha256": "4113ab06de6962573fcb1676abffa3bc5bfdf4b0e90288cccb865c6f2be737ad"
-            }
+              "file": "output/eyelid-fitting-2026-11-12/swobra-native/swobra-verification.json",
+              "sha256": "4727d55b93f1e5d2039f508d7007f1c375fc5fb3447b2ed46fd61bf2029ed6ed"
+            },
+            "captureFormat": "PNG"
           },
           "animationBundle": {
             "wikiFile": "assets/animations/swobra/current/swobra-source-and-animations.zip",
@@ -146527,11 +146531,33 @@
             "modelSha256": "1e816002d62c77662d0bdf9b3aa72df018f193fe4d2e52e1ca4bf30ac500b40b",
             "sourceArchive": "creatures/9-golden-dunes/swobra/swobra-3dmodel-fbx.zip",
             "scope": "Five installed body actions."
+          },
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true
           }
         }
       },
+      "hatchWorkSeconds": 300,
+      "balanceAssignment": {
+        "assigned": true,
+        "runtimeEnabled": true,
+        "developerCreatureEnabled": true,
+        "wildEggsEnabled": true,
+        "status": "Near Threatened",
+        "baseEarnings": 13,
+        "currentSpawnChancePercent": 18.181818181818183,
+        "progressionRank": 6,
+        "progressionRevision": "alpha-current-20261112-v1"
+      },
       "mountable": false,
-      "followingBuff": null,
+      "followingBuff": {
+        "id": "TideRider",
+        "Description": "15% faster swimming.",
+        "Effect": "Swimming",
+        "Icon": "\ud83c\udf0a",
+        "Multiplier": 1.15,
+        "Name": "Swift Swimmer"
+      },
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 3000,
@@ -146611,7 +146637,7 @@
         "revision": 1,
         "danielApproved": false,
         "codexApproved": false,
-        "note": "Installed in Studio Edit and awaiting creature review."
+        "note": "Installed in Studio Edit and awaiting creature review. Blink is fitted and checked in Studio Edit. Blink is fitted and checked in Studio Edit."
       },
       "earnings": {
         "amount": 41,
@@ -146630,8 +146656,8 @@
           "installed": true,
           "mesh": "rbxassetid://107191666942617",
           "robloxImage": {
-            "wikiImage": "assets/animations/camoucan/v2-hair-weights/camoucan-studio-edit.png",
-            "sha256": "63dc127be888e820499b4f9d15bcb59080e6013f7b00522156f48ddca00a439f",
+            "wikiImage": "assets/animations/camoucan/blink-studio-edit.png",
+            "sha256": "0902cb3ce69e4531a008c9587dc96b800d33696665df06543b550e81b0967119",
             "environment": "Studio Edit",
             "pose": "Idle",
             "captureFormat": "PNG",
@@ -146641,14 +146667,14 @@
             "modelSha256": "0e4857497ad0107d5d6faf8921ee5ff8f14f9979f10130c9df85f847a14e3d68",
             "heightStuds": 8.017830596070517,
             "catalogueHeightStuds": 8.017830596070517,
-            "currentScope": "Captured with the installed model on a temporary review plinth.",
+            "currentScope": "Current installed hatch template with eyes open, photographed in Studio Edit.",
             "sourceReceipt": {
               "file": "output/camoucan-hair-studio/installation/studio-readback.json",
               "sha256": "4e45d35f1bb0d1945c4581e02f85c5e07e1c4f769b031615aa42cebff0340ceb"
             },
             "captureReceipt": {
-              "file": "output/camoucan-hair-studio/studio-portraits/camoucan-verification.json",
-              "sha256": "7d98b8cd34e578835e3335238aedff6fe5dcea30a881fedf8c59e0ffc1dff297"
+              "file": "output/eyelid-fitting-2026-11-12/camoucan-native/camoucan-verification.json",
+              "sha256": "4583cc8f54d5d8fe49f525d071ca91587bf773eb670024a5c3881871a26c23f2"
             }
           },
           "animationBundle": {
@@ -146676,15 +146702,38 @@
             "modelSha256": "a54d8cf8d0446e17790326feb92c3a77f32e0a842a13fb6c3aa4666718c24985",
             "sourceArchive": "creatures/9-golden-dunes/camoucan/camoucan-3dmodel-fbx.zip",
             "scope": "Idle, Walk and Run plus numbered FBX source and Studio Edit image."
+          },
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true
           }
         }
+      },
+      "hatchWorkSeconds": 1800,
+      "balanceAssignment": {
+        "assigned": true,
+        "runtimeEnabled": true,
+        "developerCreatureEnabled": true,
+        "wildEggsEnabled": true,
+        "status": "Vulnerable",
+        "baseEarnings": 41,
+        "currentSpawnChancePercent": 9.090909090909092,
+        "progressionRank": 6,
+        "progressionRevision": "alpha-current-20261112-v1"
       },
       "diet": "Omnivore",
       "mountable": false,
       "travel": [
         "Ground"
       ],
-      "followingBuff": null,
+      "followingBuff": {
+        "id": "QuietSteps",
+        "Description": "Guardians detect you 15% closer while you Sneak.",
+        "Effect": "StealthRadius",
+        "HUDDescription": "15% smaller Sneak detection radius.",
+        "Image": "rbxassetid://132657854974278",
+        "Multiplier": 0.85,
+        "Name": "Quiet steps"
+      },
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 5000,
@@ -146764,7 +146813,7 @@
         "revision": 1,
         "danielApproved": false,
         "codexApproved": false,
-        "note": "Installed in Studio Edit and awaiting creature review."
+        "note": "Installed in Studio Edit and awaiting creature review. Blink is fitted and checked in Studio Edit. Blink is fitted and checked in Studio Edit."
       },
       "earnings": {
         "amount": 18,
@@ -146783,8 +146832,8 @@
           "installed": true,
           "mesh": "rbxassetid://117443219092791",
           "robloxImage": {
-            "wikiImage": "assets/animations/wolguin/current/wolguin-studio-edit.png",
-            "sha256": "f7bf01973c2aad6b72f37d1396b1af80341ec9585d5a66aa64bed2d560d6056c",
+            "wikiImage": "assets/animations/wolguin/blink-studio-edit.png",
+            "sha256": "11722d148e2cb09ea6058182939d87369fd6b9777a76c32e3118289dc663e07e",
             "environment": "Studio Edit",
             "pose": "Idle",
             "currentVersion": true,
@@ -146794,15 +146843,16 @@
             "heightStuds": 5.874999999999999,
             "catalogueHeightStuds": 5.874999999999999,
             "studioReadbackHeightStuds": 5.875,
-            "currentScope": "Captured with the installed model on a temporary review plinth.",
+            "currentScope": "Current installed hatch template with eyes open, photographed in Studio Edit.",
             "sourceReceipt": {
               "file": "output/wolguin-import-20261111/installation/scene-readback.json",
               "sha256": "e1172582e0a88ee011a5d9bdebe87c89de630d2d0dd23ab4eb930e1ffd6de10d"
             },
             "captureReceipt": {
-              "file": "output/wolguin-import-20261111/studio-portraits/wolguin-verification.json",
-              "sha256": "e397e2d7193f1daeb6c4f100a4f5494a849e4e194d60b38113b0939aaeee1e0d"
-            }
+              "file": "output/eyelid-fitting-2026-11-12/wolguin-native/wolguin-verification.json",
+              "sha256": "49b160b7f41e3f7ccd5be2cc038c00b976d337c94c7eeb690d4177e4005fa072"
+            },
+            "captureFormat": "PNG"
           },
           "animationBundle": {
             "wikiFile": "assets/animations/wolguin/current/wolguin-source-and-animations.zip",
@@ -146811,6 +146861,9 @@
             "modelSha256": "06abd617ee612a51e93bb29e6f295f37b2682c1460edba6149875c2364197321",
             "sourceArchive": "creatures/~unassigned/wolguin/wolguin-3dmodel-fbx.zip",
             "scope": "Installed body animations and FBX source."
+          },
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true
           }
         }
       },
@@ -146820,7 +146873,16 @@
         "Ground",
         "Water"
       ],
-      "followingBuff": null,
+      "followingBuff": {
+        "id": "DeepLungs",
+        "Description": "50% more underwater breath. Changing pets preserves the remaining percentage.",
+        "Effect": "Breath",
+        "HUDDescription": "+50% underwater breath.",
+        "Icon": "\ud83e\udee7",
+        "Image": "rbxassetid://114520581466400",
+        "Multiplier": 1.5,
+        "Name": "Deep lungs"
+      },
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 3000,
@@ -146900,7 +146962,7 @@
         "revision": 1,
         "danielApproved": false,
         "codexApproved": false,
-        "note": "Installed in Studio Edit and awaiting creature review."
+        "note": "Installed in Studio Edit and awaiting creature review. Blink is fitted and checked in Studio Edit. Blink is fitted and checked in Studio Edit."
       },
       "earnings": {
         "amount": 105,
@@ -146919,8 +146981,8 @@
           "installed": true,
           "mesh": "rbxassetid://70405272839818",
           "robloxImage": {
-            "wikiImage": "assets/animations/sholphin/current/sholphin-studio-edit.png",
-            "sha256": "79f5cacf4ab2362b3a082b23e310d01825150baad20fcc1d7ac7e3d15876402a",
+            "wikiImage": "assets/animations/sholphin/blink-studio-edit.png",
+            "sha256": "35aa3cdf1f44facc14248d90b1b2ef9c20327afc19cb2397571bd0f734fe426d",
             "environment": "Studio Edit",
             "pose": "Idle",
             "currentVersion": true,
@@ -146930,15 +146992,16 @@
             "heightStuds": 2.875649402188009,
             "catalogueHeightStuds": 2.875649402188009,
             "studioReadbackHeightStuds": 2.875439405441284,
-            "currentScope": "Captured with the installed model on a temporary review plinth.",
+            "currentScope": "Current installed hatch template with eyes open, photographed in Studio Edit.",
             "sourceReceipt": {
               "file": "output/sholphin-import-20261111/installation/scene-readback.json",
               "sha256": "faab0867fbc357f5f43fdaa6569fbff62f7dfaa30dd958f3bf4ee5575147c998"
             },
             "captureReceipt": {
-              "file": "output/sholphin-import-20261111/studio-portraits-material-ready/sholphin-verification.json",
-              "sha256": "742f095336f0854044896a75101db5a0f38b4ec4fd095945dc190a9a81019337"
-            }
+              "file": "output/eyelid-fitting-2026-11-12/sholphin-native/sholphin-verification.json",
+              "sha256": "d3b4d453a5cadaf26e1c13d82bbf3313ada0732e21f6841f232715be61ac07cb"
+            },
+            "captureFormat": "PNG"
           },
           "animationBundle": {
             "wikiFile": "assets/animations/sholphin/current/sholphin-source-and-animations.zip",
@@ -146947,6 +147010,9 @@
             "modelSha256": "213122ada2da1ed7d56b4286f439eace47e2ee3dfaffa7aceb341c2028bf308b",
             "sourceArchive": "creatures/~unassigned/sholphin/sholphin-3dmodel-fbx.zip",
             "scope": "Installed body animations and FBX source."
+          },
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true
           }
         }
       },
@@ -146955,7 +147021,14 @@
       "travel": [
         "Water"
       ],
-      "followingBuff": null,
+      "followingBuff": {
+        "id": "TideRider",
+        "Description": "15% faster swimming.",
+        "Effect": "Swimming",
+        "Icon": "\ud83c\udf0a",
+        "Multiplier": 1.15,
+        "Name": "Swift Swimmer"
+      },
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 7500,
@@ -147023,7 +147096,7 @@
       "developerOnly": false,
       "retired": false,
       "name": "Rhinodo",
-      "region": null,
+      "region": "volcano",
       "stage": "catalogue",
       "runtimeEnabled": true,
       "artworkLayout": "flat-perspective-v1",
@@ -147034,7 +147107,7 @@
       "reference": "rhinodo-perspective.png",
       "egg": "rhinodo-egg.png",
       "icon": "rhinodo-pets-v1-icon.png",
-      "notes": "Unassigned spare. Rhinodo has an installed creature model and egg shell. Its egg does not spawn in any biome.",
+      "notes": "Rhinodo is assigned to Ember Mountain. Its creature model and named egg are installed in Studio Edit. Gameplay review is pending.",
       "review": {
         "revision": 1,
         "danielApproved": false,
@@ -147083,7 +147156,7 @@
             "sha256": "a9cb09b3ac217c8e552a415638b4a3811b1c03f8f0dd87cf6e8297edab16bc2b",
             "complete": false,
             "modelSha256": "c5b0d7a983bbe20e632d51a75dfb264adc157c095bee41fbb2027dff8d18c357",
-            "sourceArchive": "creatures/~unassigned/komorhino/komorhino-3dmodel-fbx.zip",
+            "sourceArchive": "creatures/10-ember-mountain/komorhino/komorhino-3dmodel-fbx.zip",
             "scope": "Three authored FBX actions. The procedural Blink is available separately."
           },
           "currentExpressionMediaStatus": {
@@ -147095,7 +147168,15 @@
         }
       },
       "mountable": false,
-      "followingBuff": null,
+      "followingBuff": {
+        "id": "Mighty",
+        "Description": "While this pet follows you, it boosts your Strength by 20% (up to level 100). Carry heavier eggs, jump higher and use less stamina for club swings.",
+        "Effect": "Strength",
+        "HUDDescription": "+20% Strength (max 100).",
+        "Icon": "\ud83d\udcaa",
+        "Multiplier": 1.2,
+        "Name": "Strength Boost"
+      },
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 10000,
@@ -147163,7 +147244,7 @@
       "developerOnly": false,
       "retired": false,
       "name": "Tigebra",
-      "region": null,
+      "region": "jungle",
       "stage": "catalogue",
       "runtimeEnabled": true,
       "artworkLayout": "flat-perspective-v1",
@@ -147174,7 +147255,7 @@
       "reference": "tigebra-perspective.png",
       "egg": "tigebra-egg.png",
       "icon": "tigebra-pets-v1-icon.png",
-      "notes": "Unassigned spare. Tigebra has an installed creature model and egg shell. Its egg does not spawn in any biome.",
+      "notes": "Tigebra is assigned to Jungle Wilds. Its creature model and named egg are installed in Studio Edit. Gameplay review is pending.",
       "review": {
         "revision": 1,
         "danielApproved": false,
@@ -147223,7 +147304,7 @@
             "sha256": "a6003f189002bec208ed5b863bbf29a37c586324804b176f9cf7d160d5dbfbb6",
             "complete": false,
             "modelSha256": "7cb5c0fed29839443297e00ef0becdaf17f686d080ee8faad212253a22edb5c9",
-            "sourceArchive": "creatures/~unassigned/tigebra/tigebra-3dmodel-fbx.zip",
+            "sourceArchive": "creatures/5-jungle-wilds/tigebra/tigebra-3dmodel-fbx.zip",
             "scope": "Three authored FBX actions. The procedural Blink is available separately."
           },
           "currentExpressionMediaStatus": {
@@ -147235,7 +147316,15 @@
         }
       },
       "mountable": false,
-      "followingBuff": null,
+      "followingBuff": {
+        "id": "FleetFoot",
+        "Description": "10% faster running, within area speed limits.",
+        "Effect": "Running",
+        "HUDDescription": "10% faster running (area limits apply).",
+        "Icon": "\ud83d\udc5f",
+        "Multiplier": 1.1,
+        "Name": "Fleet foot"
+      },
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 5000,
@@ -147283,6 +147372,1352 @@
       "sizeReferenceAxis": "Length",
       "parentBlendTargetStuds": 8.303571428571429,
       "heavierParent": "Zebra",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Vulnerable",
+      "height": 6.169999516102973,
+      "weight": 62.1722286374134,
+      "eggHeight": 3.531624181091084,
+      "eggWeight": 6.272690118624005,
+      "parents": "Cougar + Vicu\u00f1a",
+      "length": 7.316964285714286,
+      "heightWeight": null,
+      "description": "Pumacu\u00f1a pads along snowy ledges on soft paws. Its thick cream fleece keeps its chest warm, and its long tail helps it balance on narrow rocks.",
+      "naturalHeight": 6.169999516102973,
+      "naturalLength": 7.316964285714286,
+      "weightReferenceKg": 65.7,
+      "weightReferenceDimensionMetres": 2.165,
+      "spawnWeight": 2097152,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Pumacu\u00f1a",
+      "region": "sky_mountains",
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "reference": "pumacuna-perspective.png",
+      "egg": "pumacuna-egg.png",
+      "icon": "pumacuna-pets-v1-icon.png",
+      "notes": "The model, egg and biome registration are verified in Studio Edit. Gameplay and separate developer reviews remain pending.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Separate in-game model and animation review is pending."
+      },
+      "earnings": {
+        "amount": 230,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "balanceAssignment": {
+        "assigned": true,
+        "runtimeEnabled": true,
+        "baseEarnings": 230,
+        "status": "Vulnerable",
+        "note": "Statistics derive from the retained v10 parent references."
+      },
+      "artworkLayout": "flat-perspective-v1",
+      "artworkTransparency": {
+        "sha256": "281b35055d8c4e7ec1d56dfb9239219e6c2686b0f47e4b8b1581c8e1386f6f75",
+        "shadowFreeVerified": true,
+        "review": "output/pumacuna-tuamander-motion-research/wiki-proposal/pumacuna-perspective-visual-review.json"
+      },
+      "collectionArt": {
+        "image": "pumacuna-CollectionArt.png",
+        "imageSha256": "4db60ad6bc52c82db6b3ede860cd5cc5679b7dcb059ab1e8be279e75cc4e4c57",
+        "silhouette": "pumacuna-CollectionArt-silhouette.png",
+        "silhouetteSha256": "f0513d8cea4ffa28bd76d3cba0168479500f8013347fe00b5d3f7565cecdc60b"
+      },
+      "modelImport": {
+        "source": {
+          "file": "creatures/~concepts/pumacuna/pumacuna-initial.fbx",
+          "sha256": "9666560a9e63f77673aaf8b6793a41cafcfdf778d7ab3bc2d459604d199406c2"
+        },
+        "model": {
+          "file": "creatures/~concepts/pumacuna/pumacuna-3-animations.fbx",
+          "sha256": "483df2496b8fd2c02bb3aaa6bfd331c9cf9a0810466a37714cebb5d00b62d864"
+        },
+        "native": {
+          "file": "assets/pets/pumacuna-lowpoly-v1/native-mesh.json",
+          "sha256": "0e68c91f43cd859b6c5d6496f7a9cfa63c612b1415a9d12495502a181ca254f6",
+          "bytes": 1830940
+        },
+        "color": {
+          "file": "assets/pets/pumacuna-lowpoly-v1/color.png",
+          "sha256": "106187eff80abe8720cea23f45872ba7ae241eb10c9c00136e6c419c4e6d0fe3"
+        },
+        "rigged": true,
+        "installed": true,
+        "triangles": 2216,
+        "bones": 31,
+        "maps": {
+          "color": {
+            "file": "assets/pets/pumacuna-lowpoly-v1/color.png",
+            "sha256": "106187eff80abe8720cea23f45872ba7ae241eb10c9c00136e6c419c4e6d0fe3"
+          },
+          "roughness": {
+            "file": "assets/pets/pumacuna-lowpoly-v1/roughness.png",
+            "sha256": "986af2bb023cfa0ccf38b265bf39cfdc97073eb680c246e898297398f8c5bb8f"
+          },
+          "metallic": {
+            "file": "assets/pets/pumacuna-lowpoly-v1/metallic.png",
+            "sha256": "0f4b1668d119f77ceb6b86645573f088ab2341d7b284314d5df0be7226ea5d91"
+          }
+        }
+      },
+      "implementation": {
+        "realModelReady": true,
+        "placeholderHatchling": false,
+        "replacementImport": {
+          "importNumber": 1,
+          "installed": true,
+          "mesh": "rbxassetid://73586121503324",
+          "modelSha256": "483df2496b8fd2c02bb3aaa6bfd331c9cf9a0810466a37714cebb5d00b62d864",
+          "installedEvidence": {
+            "file": "output/pumacuna-import-20261112/wiki-install-evidence.json",
+            "sha256": "538186085dcda732bc3cd2b9c3586dc3b27256040595dc6d2469f5bfede826cd"
+          },
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true
+          },
+          "robloxImage": {
+            "wikiImage": "assets/animations/pumacuna/current/installed-roblox.png",
+            "sha256": "03725c43c84393018414c0d1a61b1d930a6181c0184e84e3af6e2e2ac59cdaa8",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "captureFormat": "PNG",
+            "currentVersion": true,
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "nativePayloadSha256": "0e68c91f43cd859b6c5d6496f7a9cfa63c612b1415a9d12495502a181ca254f6",
+            "modelSha256": "483df2496b8fd2c02bb3aaa6bfd331c9cf9a0810466a37714cebb5d00b62d864",
+            "heightStuds": 6.169999516102973,
+            "currentScope": "Actual installed clone staged in the Farm scene for the Edit capture. The terrain view records appearance. Contact of the rear paws during travel remains unverified.",
+            "sourceReceipt": {
+              "file": "output/pumacuna-import-20261112/wiki-install-evidence.json",
+              "sha256": "538186085dcda732bc3cd2b9c3586dc3b27256040595dc6d2469f5bfede826cd"
+            },
+            "captureReceipt": {
+              "file": "output/pumacuna-import-20261112/studio-portraits/pumacu\u00f1a-verification.json",
+              "sha256": "380ee2dd246d3a21fc10645f010dbbea8955a4e10846ec2cf4c625a5bff55391"
+            }
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/pumacuna/current/pumacuna-source-and-animations.zip",
+            "sha256": "e9db9744353ea9c38507643895da1800e7dbec72a2f424107b29a9ef7caca15c",
+            "complete": true
+          }
+        }
+      },
+      "diet": "Carnivore",
+      "mountable": false,
+      "travel": [
+        "Ground"
+      ],
+      "followingBuff": null,
+      "hatchXPBonus": {
+        "skill": "Running",
+        "firstXP": 6500,
+        "repeatXP": 650,
+        "firstCash": 100000
+      },
+      "id": "pumacuna",
+      "parentStats": [
+        {
+          "name": "Cougar",
+          "weightKg": 65.7,
+          "basis": "Mean measured mass of three adult pumas.",
+          "url": "https://movementecologyjournal.biomedcentral.com/articles/10.1186/s40462-020-00215-9",
+          "sizeMetres": 2.165,
+          "sizeUrl": "https://cites.org/sites/default/files/eng/cop/17/prop/060216/E-CoP17-Prop-05.pdf",
+          "sizeDimension": "total length including tail",
+          "sizeBasis": "Midpoint of the cited adult male total-length range.",
+          "lengthMetres": 2.165,
+          "dominantSizeMetres": 2.165,
+          "dominantSizeAxis": "length",
+          "dimensionCaveat": "The recorded height is at the shoulder. Head height is unrecorded.",
+          "representativeSpecies": "Puma concolor",
+          "checked": "2026-11-12",
+          "dimensionEvidence": [
+            {
+              "url": "https://cites.org/sites/default/files/eng/cop/17/prop/060216/E-CoP17-Prop-05.pdf",
+              "basis": "Midpoint of the cited adult male total-length range.",
+              "valueMetres": 2.165
+            }
+          ],
+          "heightMetres": 0.68
+        },
+        {
+          "name": "Vicu\u00f1a",
+          "weightKg": 45,
+          "basis": "Midpoint of the FAO adult range.",
+          "url": "https://www.fao.org/4/t0750e/t0750e0m.htm",
+          "sizeMetres": 1.7,
+          "sizeUrl": "https://www.fao.org/4/t0750e/t0750e0m.htm",
+          "sizeDimension": "total length including tail",
+          "sizeBasis": "Midpoint of the FAO adult total-length range.",
+          "lengthMetres": 1.7,
+          "dominantSizeMetres": 1.7,
+          "dominantSizeAxis": "length",
+          "dimensionCaveat": "The recorded height is at the shoulder. Head height is unrecorded.",
+          "representativeSpecies": "Vicugna vicugna",
+          "checked": "2026-11-12",
+          "dimensionEvidence": [
+            {
+              "url": "https://www.fao.org/4/t0750e/t0750e0m.htm",
+              "basis": "Midpoint of the FAO adult total-length range.",
+              "valueMetres": 1.7
+            }
+          ],
+          "heightMetres": 0.88
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "The current dominant model dimension scales the heavier parent's recorded mass directly.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Length",
+      "parentBlendTargetStuds": 7.316964285714286,
+      "heavierParent": "Cougar",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Near Threatened",
+      "height": 1.335062731488326,
+      "weight": 1.6159811758192102,
+      "eggHeight": 1.5,
+      "eggWeight": 0.16303982301422096,
+      "parents": "Fire Salamander + Tuatara",
+      "length": 3.607100838882165,
+      "heightWeight": null,
+      "description": "Tuamander spends the day under damp roots and mossy stones. It scurries out after rain to hunt insects, its ivory spines peeking above the leaf litter.",
+      "naturalHeight": 0.5456636785675406,
+      "naturalLength": 1.4742857142857142,
+      "weightReferenceKg": 0.8,
+      "weightReferenceDimensionMetres": 0.5,
+      "spawnWeight": 4194304,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Tuamander",
+      "region": "volcano",
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "reference": "tuamander-perspective.png",
+      "egg": "tuamander-egg.png",
+      "icon": "tuamander-pets-v1-icon.png",
+      "notes": "The model, egg and biome registration are verified in Studio Edit. Gameplay and separate developer reviews remain pending.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Separate in-game model and animation review is pending."
+      },
+      "earnings": {
+        "amount": 30,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "balanceAssignment": {
+        "assigned": true,
+        "runtimeEnabled": true,
+        "baseEarnings": 30,
+        "status": "Near Threatened",
+        "note": "Statistics derive from the retained v10 parent references."
+      },
+      "artworkLayout": "flat-perspective-v1",
+      "artworkTransparency": {
+        "sha256": "40cda9d3228a564e754ed7802f334f6a221721c10b3723c9dc6fd85ca34a6812",
+        "shadowFreeVerified": true,
+        "review": "output/pumacuna-tuamander-motion-research/wiki-proposal/tuamander-perspective-visual-review.json"
+      },
+      "collectionArt": {
+        "image": "tuamander-CollectionArt.png",
+        "imageSha256": "9489c57cb68b0bd71f78daf0c31024331745c3df8c9530f30755a7bd7f118067",
+        "silhouette": "tuamander-CollectionArt-silhouette.png",
+        "silhouetteSha256": "1787e0718ab597226c2959642353cc298f21cfa5428045802c82f7c44f1ecc5b"
+      },
+      "modelImport": {
+        "source": {
+          "file": "creatures/10-ember-mountain/tuamander/tuamander-initial.fbx",
+          "sha256": "a3196c8e1bef44d487c88ac9cc7b3b0d02c3d21c168401f4d3d5c6bd517a6690"
+        },
+        "model": {
+          "file": "creatures/10-ember-mountain/tuamander/tuamander-3-animations.fbx",
+          "sha256": "d2868422db0cfa37fff400cb0b3f2fa82f3dd0ead598531625d5648ebb7a11a2"
+        },
+        "native": {
+          "file": "assets/pets/tuamander-lowpoly-v1/native-mesh.json",
+          "sha256": "3044b6b38051d23ee6797de8aeea5f6a9b283978861b1b6541dcde7da7247c4c"
+        },
+        "color": {
+          "file": "assets/pets/tuamander-lowpoly-v1/color.png",
+          "sha256": "8b6723c5c537441f0bf874cc456d253927d3b1d8c3cb8e55787dc820adf4fcf5"
+        },
+        "rigged": true,
+        "installed": true,
+        "triangles": 3576,
+        "bones": 20,
+        "maps": {
+          "color": {
+            "file": "assets/pets/tuamander-lowpoly-v1/color.png",
+            "sha256": "8b6723c5c537441f0bf874cc456d253927d3b1d8c3cb8e55787dc820adf4fcf5"
+          },
+          "roughness": {
+            "file": "assets/pets/tuamander-lowpoly-v1/roughness.png",
+            "sha256": "c17034cb74ea2a0ef1d3a9e030577012e77c29c9c091081ad748faebac184c0e"
+          },
+          "metallic": {
+            "file": "assets/pets/tuamander-lowpoly-v1/metallic.png",
+            "sha256": "0f4b1668d119f77ceb6b86645573f088ab2341d7b284314d5df0be7226ea5d91"
+          }
+        }
+      },
+      "implementation": {
+        "realModelReady": true,
+        "placeholderHatchling": false,
+        "replacementImport": {
+          "importNumber": 1,
+          "installed": true,
+          "mesh": "rbxassetid://114637641968718",
+          "modelSha256": "d2868422db0cfa37fff400cb0b3f2fa82f3dd0ead598531625d5648ebb7a11a2",
+          "installedEvidence": {
+            "file": "output/tuamander-import-20261112/wiki-install-evidence.json",
+            "sha256": "1ecc96253d32bbac457a05453be4e53c11eeb463a7df76e15b8320719da6609b"
+          },
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true
+          },
+          "robloxImage": {
+            "wikiImage": "assets/animations/tuamander/current/installed-roblox.png",
+            "sha256": "c59a2e30811aec62c29d66a0d77b1a78de1a32373b2b7118003acfd7c7e4c0a4",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "captureFormat": "PNG",
+            "currentVersion": true,
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "nativePayloadSha256": "3044b6b38051d23ee6797de8aeea5f6a9b283978861b1b6541dcde7da7247c4c",
+            "modelSha256": "d2868422db0cfa37fff400cb0b3f2fa82f3dd0ead598531625d5648ebb7a11a2",
+            "heightStuds": 1.335062731488326,
+            "currentScope": "Actual installed clone staged in the Farm scene for the Edit capture.",
+            "sourceReceipt": {
+              "file": "output/tuamander-import-20261112/wiki-install-evidence.json",
+              "sha256": "1ecc96253d32bbac457a05453be4e53c11eeb463a7df76e15b8320719da6609b"
+            },
+            "captureReceipt": {
+              "file": "output/tuamander-import-20261112/studio-portraits/tuamander-verification.json",
+              "sha256": "0d1668637681a8dff86d009b8338ef7b8fbad98eb3ef5f563f77c3c7278fe04b"
+            }
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/tuamander/current/tuamander-source-and-animations.zip",
+            "sha256": "7ab61944a124637be70f423fc4f1a0fcd814e75d5779d497edd9f433658ec927",
+            "complete": true
+          }
+        }
+      },
+      "diet": "Carnivore",
+      "mountable": false,
+      "travel": [
+        "Ground"
+      ],
+      "followingBuff": null,
+      "hatchXPBonus": {
+        "skill": "Running",
+        "firstXP": 4000,
+        "repeatXP": 400,
+        "firstCash": 20000
+      },
+      "id": "tuamander",
+      "parentStats": [
+        {
+          "name": "Fire Salamander",
+          "weightKg": 0.0233,
+          "basis": "Arithmetic mean of ten measured adults.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7671131/#Tab1",
+          "sizeMetres": 0.1512,
+          "sizeUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7671131/#Tab1",
+          "sizeDimension": "total length including tail",
+          "sizeBasis": "Arithmetic mean total length of the same ten adults.",
+          "lengthMetres": 0.1512,
+          "dominantSizeMetres": 0.1512,
+          "dominantSizeAxis": "length",
+          "dimensionCaveat": "Standing height unrecorded.",
+          "representativeSpecies": "Salamandra salamandra",
+          "checked": "2026-11-12",
+          "dimensionEvidence": [
+            {
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7671131/#Tab1",
+              "basis": "Arithmetic mean total length of the same ten adults.",
+              "valueMetres": 0.1512
+            }
+          ]
+        },
+        {
+          "name": "Tuatara",
+          "weightKg": 0.8,
+          "basis": "Reported average fully grown male mass.",
+          "url": "https://collections.tepapa.govt.nz/topic/1328",
+          "sizeMetres": 0.5,
+          "sizeUrl": "https://www.doc.govt.nz/nature/native-animals/reptiles-and-frogs/tuatara",
+          "sizeDimension": "total length including tail",
+          "sizeBasis": "Approximate adult male total length from New Zealand DOC.",
+          "lengthMetres": 0.5,
+          "dominantSizeMetres": 0.5,
+          "dominantSizeAxis": "length",
+          "dimensionCaveat": "Standing height unrecorded.",
+          "representativeSpecies": "Sphenodon punctatus",
+          "checked": "2026-11-12",
+          "dimensionEvidence": [
+            {
+              "url": "https://www.doc.govt.nz/nature/native-animals/reptiles-and-frogs/tuatara",
+              "basis": "Approximate adult male total length from New Zealand DOC.",
+              "valueMetres": 0.5
+            }
+          ]
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "The current dominant model dimension scales the heavier parent's recorded mass directly.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Length",
+      "parentBlendTargetStuds": 1.4742857142857142,
+      "heavierParent": "Tuatara",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Near Threatened",
+      "height": 7.646181249999997,
+      "weight": 346.82494746370617,
+      "eggHeight": 5.235681185941939,
+      "eggWeight": 34.99191630294419,
+      "parents": "Horse + Seahorse",
+      "length": 4.548999982943757,
+      "heightWeight": null,
+      "description": "Seastang hovers upright in the shallows, flicking its coral fin to steer. Its curled tail hooks around sea grass when the current picks up.",
+      "naturalHeight": 7.646181249999997,
+      "naturalLength": 4.548999982943757,
+      "weightReferenceKg": 453.59237,
+      "weightReferenceDimensionMetres": 2.8,
+      "spawnWeight": 4194304,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Seastang",
+      "region": null,
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "artworkLayout": "flat-perspective-v1",
+      "suggestedHabitat": "Rainbow Coral Reef",
+      "notes": "Unassigned spare. The creature and its egg are installed in Studio Edit. There is no wild egg spawn.",
+      "earnings": {
+        "amount": 54,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Installed and visually checked in Studio Edit. Daniel's model and animation review is pending."
+      },
+      "artworkTransparency": {
+        "sha256": "ef2c9ec864004e00d1868c6e112020072a9881cd78f11f0ef892b165b2fd89d0",
+        "shadowFreeVerified": true,
+        "review": "output/seastang-e2e-20261112/wiki-prep/staged-final/art-provenance.json"
+      },
+      "implementation": {
+        "realModelReady": true,
+        "placeholderHatchling": false,
+        "replacementImport": {
+          "installed": true,
+          "mesh": "rbxassetid://101950547437829",
+          "importNumber": 1,
+          "modelSha256": "247d5edcfc51286285f6438e9f98a4d6696c317b21c7fab7863375822521bc22",
+          "installedEvidence": {
+            "file": "output/seastang-e2e-20261112/integration-prep/final-proposal/guarded-run-01/scene-install.json",
+            "sha256": "8bb1aff8859f1385269de5a37c7c7489aee40c1bbd8e26b38fc97125e756d6b4"
+          },
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true
+          },
+          "robloxImage": {
+            "wikiImage": "assets/animations/seastang/current/studio-edit.png",
+            "sha256": "b736c40f1d28b6ab51d5f38ce8a4ffac7d62bf5be9a74385ec73a55c0bcd2d24",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "currentVersion": true,
+            "captureFormat": "PNG",
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "nativePayloadSha256": "c9b2f935c2fc97923bb0aa19e99392aeb0ab105ac9318d962077a4fe348d5339",
+            "modelSha256": "247d5edcfc51286285f6438e9f98a4d6696c317b21c7fab7863375822521bc22",
+            "heightStuds": 7.646181249999997,
+            "catalogueHeightStuds": 7.646181249999997,
+            "studioReadbackHeightStuds": 7.646181106567383,
+            "currentScope": "Current installed hatch template photographed in Studio Edit.",
+            "sourceReceipt": {
+              "file": "output/seastang-e2e-20261112/integration-prep/final-proposal/guarded-run-01/scene-readback.json",
+              "sha256": "b62f1b831a9a7277d04dc62b0e1d020464a8f8e26d812cee35a4c378ac54bd5f"
+            },
+            "captureReceipt": {
+              "file": "output/seastang-e2e-20261112/studio-edit-captures/seastang-verification.json",
+              "sha256": "babda6fc233f554c3ece0e4b4adeabd6264258cddde4ebe2269048e00568b43e"
+            }
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/seastang/current/seastang-complete-source-and-animations.zip",
+            "sha256": "658d48917cfe525a67d935216b5948715fc94e8e87b6f5806f75760cea7de1b7",
+            "complete": true,
+            "modelSha256": "247d5edcfc51286285f6438e9f98a4d6696c317b21c7fab7863375822521bc22",
+            "sourceArchive": "creatures/~unassigned/seastang/seastang-3dmodel-fbx.zip",
+            "scope": "Retained source and numbered FBXs, final Idle and Swim, fitted runtime Blink, and current GIF and MP4 previews for all three actions."
+          }
+        }
+      },
+      "reference": "seastang-perspective.png",
+      "egg": "seastang-egg.png",
+      "icon": "seastang-pets-v1-icon.png",
+      "diet": "Omnivore",
+      "mountable": false,
+      "travel": [
+        "Water"
+      ],
+      "followingBuff": null,
+      "hatchXPBonus": {
+        "skill": "Swimming",
+        "firstXP": 3000,
+        "repeatXP": 300,
+        "firstCash": 20000
+      },
+      "id": "seastang",
+      "parentStats": [
+        {
+          "name": "Horse",
+          "weightKg": 453.59237,
+          "basis": "midpoint of the 900 to 1100 lb average adult horse range",
+          "url": "https://ucanr.edu/site/small-acreage-landowners/horses",
+          "sizeMetres": 1.6256,
+          "sizeDimension": "shoulder height",
+          "sizeBasis": "explicit representative 16-hand adult horse; illustrated measurement example, not a measured population mean",
+          "sizeUrl": "https://www.amnh.org/explore/ology/zoology/all-about-horses/measuring-horses",
+          "heightMetres": 1.6256,
+          "lengthMetres": 2.8,
+          "dominantSizeMetres": 2.8,
+          "dominantSizeAxis": "length",
+          "dimensionEvidence": [
+            {
+              "url": "https://www.esapubs.org/archive/ecol/E096/269/default.php",
+              "basis": "Amniote adult_svl_cm / 100. Published head/body size proxy; this does not invent a missing tail or horn-tip measurement.",
+              "taxon": "Equus caballus",
+              "valueMetres": 2.8
+            }
+          ],
+          "dimensionCaveat": "Maximum of recorded height and length. Missing complete standing/horn-tip or tail measurements remain labelled proxies, not fabricated measurements."
+        },
+        {
+          "name": "Seahorse",
+          "proxy": "Lined seahorse (Hippocampus erectus)",
+          "lengthMetres": 0.16372299999999998,
+          "dimensionMetres": 0.16372299999999998,
+          "weightKg": 0.009699999999999999,
+          "sizeMetres": 0.16372299999999998,
+          "sizeDimension": "standard length",
+          "sizeBasis": "Mean standard length of the ten adult study specimens in Table 1. Standard length sums head, trunk and tail measurements.",
+          "basis": "Mean recorded body mass of the ten adult study specimens in Table 1. This captive sample supplies a representative game reference.",
+          "axis": "length",
+          "url": "https://escholarship.org/uc/item/3982j1hj",
+          "sizeUrl": "https://escholarship.org/uc/item/3982j1hj",
+          "massUrl": "https://escholarship.org/uc/item/3982j1hj",
+          "doi": "10.1111/gbb.12812",
+          "sampleSize": 10,
+          "representativeSpecies": "Lined seahorse (Hippocampus erectus)",
+          "dominantSizeMetres": 0.16372299999999998,
+          "dominantSizeAxis": "length",
+          "checked": "2026-11-12",
+          "dimensionEvidence": [
+            {
+              "url": "https://escholarship.org/uc/item/3982j1hj",
+              "basis": "Mean standard length of the ten adult study specimens in Table 1. Standard length sums head, trunk and tail measurements.",
+              "taxon": "Hippocampus erectus",
+              "valueMetres": 0.16372299999999998
+            }
+          ]
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "Swim-only matches the upright body and dorsal fin. Diet takes cues from both parents. The 54 Cash per second rate sits between Lobsteray and Clownurchin. Both supply 3,000 first-hatch Swimming XP. Near Threatened is a game balance choice.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Height",
+      "parentBlendTargetStuds": 7.646181249999997,
+      "heavierParent": "Horse",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Vulnerable",
+      "height": 2.7599276071917553,
+      "weight": 0.3274913003356757,
+      "eggHeight": 1.5,
+      "eggWeight": 0.03304130298322187,
+      "parents": "Galapagos lava lizard + Volcano junco",
+      "length": 3.3455714728636363,
+      "heightWeight": null,
+      "description": "Lavunco scampers across warm lava stone, flicking its long tail for balance. It pecks for seeds and beetles in the cracks between the rocks.",
+      "naturalHeight": 0.39406071200182324,
+      "naturalLength": 0.4776785714285714,
+      "weightReferenceKg": 0.0437,
+      "weightReferenceDimensionMetres": 0.125,
+      "spawnWeight": 2097152,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Lavunco",
+      "region": "volcano",
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "reference": "lavunco-perspective.png",
+      "egg": "lavunco-egg.png",
+      "icon": "lavunco-pets-v1-icon.png",
+      "notes": "The model, egg and biome registration were verified in Studio Edit. Gameplay and separate developer reviews remain pending.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Separate model and animation review is pending."
+      },
+      "earnings": {
+        "amount": 55,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "balanceAssignment": {
+        "assigned": true,
+        "runtimeEnabled": true,
+        "baseEarnings": 55,
+        "status": "Vulnerable",
+        "note": "Statistics derive from the retained v10 parent references."
+      },
+      "artworkLayout": "flat-perspective-v1",
+      "artworkTransparency": {
+        "sha256": "0870d226377a1a8d2ff08ad8d766e45d164ba67e6a5dd4662923fdd7c527f67a",
+        "shadowFreeVerified": true,
+        "review": "output/lavunco-rodin-20261112/integration-prep/perspective-visual-review.json"
+      },
+      "collectionArt": {
+        "image": "lavunco-CollectionArt.png",
+        "imageSha256": "f30c0c469bd504e3a259a547976ddf1a14c817264f1c63b719bff27306c7d6d5",
+        "silhouette": "lavunco-CollectionArt-silhouette.png",
+        "silhouetteSha256": "b26ec571b2a0a6122520bbeef0b83532d4983df4addf866d43ab15e03251149c"
+      },
+      "modelImport": {
+        "source": {
+          "file": "creatures/~concepts/lavunco/lavunco-initial.fbx",
+          "sha256": "cb820e31db1e0e7a131f7c0101c9da9b5cb790249c1f1243561a4d2815f926bd"
+        },
+        "model": {
+          "file": "creatures/~concepts/lavunco/lavunco-4-animations.fbx",
+          "sha256": "d098b1e037917a1e09f5d83e2bcd909bdfce7e66d759deb1afdf45a8289bcdfd"
+        },
+        "native": {
+          "file": "assets/pets/lavunco-lowpoly-v1/native-mesh.json",
+          "sha256": "27557100d6aa42295a0eed16276acb31e6d19c2c88756ed77cea9db60d5419aa"
+        },
+        "color": {
+          "file": "assets/pets/lavunco-lowpoly-v1/color.png",
+          "sha256": "6888b514a0c4b7798ac3fe5f490e832eca930b70a4ce06610dd75ef267293f81"
+        },
+        "rigged": true,
+        "installed": true,
+        "triangles": 2072,
+        "bones": 22,
+        "maps": {
+          "color": {
+            "file": "assets/pets/lavunco-lowpoly-v1/color.png",
+            "sha256": "6888b514a0c4b7798ac3fe5f490e832eca930b70a4ce06610dd75ef267293f81"
+          },
+          "roughness": {
+            "file": "assets/pets/lavunco-lowpoly-v1/roughness.png",
+            "sha256": "501f912f983a3acf4772c465888c41ae3f1636e664250e174876f009019fd086"
+          },
+          "metallic": {
+            "file": "assets/pets/lavunco-lowpoly-v1/metallic.png",
+            "sha256": "1eb50a3ee3fcac0adc60c0e90baa6d051c642f3a930330ac9aec9dd92996f3f7"
+          }
+        }
+      },
+      "implementation": {
+        "realModelReady": true,
+        "placeholderHatchling": false,
+        "replacementImport": {
+          "importNumber": 1,
+          "installed": true,
+          "mesh": "rbxassetid://139378706315153",
+          "modelSha256": "d098b1e037917a1e09f5d83e2bcd909bdfce7e66d759deb1afdf45a8289bcdfd",
+          "installedEvidence": {
+            "file": "output/lavunco-rodin-20261112/integration-prep/wiki-install-evidence.json",
+            "sha256": "6af80db6d31b540cfa04adda5164a78d85ffbf87393cf8d35c7831f8c51c25b5"
+          },
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true
+          },
+          "robloxImage": {
+            "wikiImage": "assets/animations/lavunco/current/installed-roblox.png",
+            "sha256": "184483999ee977c9f7f70bfb1b7312e8e7fcf80d3b0f046a17e16c0655c6b2b7",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "captureFormat": "PNG",
+            "currentVersion": true,
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "nativePayloadSha256": "27557100d6aa42295a0eed16276acb31e6d19c2c88756ed77cea9db60d5419aa",
+            "modelSha256": "d098b1e037917a1e09f5d83e2bcd909bdfce7e66d759deb1afdf45a8289bcdfd",
+            "heightStuds": 2.7599276071917553,
+            "currentScope": "Actual installed model captured in Studio Edit.",
+            "sourceReceipt": {
+              "file": "output/lavunco-rodin-20261112/integration-prep/wiki-install-evidence.json",
+              "sha256": "6af80db6d31b540cfa04adda5164a78d85ffbf87393cf8d35c7831f8c51c25b5"
+            },
+            "captureReceipt": {
+              "file": "output/lavunco-rodin-20261112/studio-portraits/lavunco-verification.json",
+              "sha256": "0d7b105bcb1a0b1f019a611245e58e3d5a58f2c1f04cb68ad502c5e89e5c6fff"
+            }
+          }
+        }
+      },
+      "diet": "Omnivore",
+      "mountable": false,
+      "travel": [
+        "Ground",
+        "Air"
+      ],
+      "followingBuff": null,
+      "hatchXPBonus": {
+        "skill": "Running",
+        "firstXP": 5000,
+        "repeatXP": 500,
+        "firstCash": 100000
+      },
+      "id": "lavunco",
+      "parentStats": [
+        {
+          "name": "Galapagos lava lizard",
+          "weightKg": 0.0437,
+          "basis": "Adult mass in the retained Amniote Database.",
+          "url": "https://www.esapubs.org/archive/ecol/E096/269/default.php",
+          "sizeMetres": 0.125,
+          "sizeUrl": "https://www.esapubs.org/archive/ecol/E096/269/default.php",
+          "sizeDimension": "snout-to-vent length",
+          "sizeBasis": "Adult snout-to-vent length, a body-length proxy without the tail.",
+          "lengthMetres": 0.125,
+          "dominantSizeMetres": 0.125,
+          "dominantSizeAxis": "length",
+          "dimensionCaveat": "Adult standing height is unrecorded.",
+          "representativeSpecies": "Microlophus albemarlensis",
+          "checked": "2026-11-12",
+          "dimensionEvidence": [
+            {
+              "url": "https://www.esapubs.org/archive/ecol/E096/269/default.php",
+              "basis": "Adult snout-to-vent length, a body-length proxy without the tail.",
+              "valueMetres": 0.125
+            }
+          ]
+        },
+        {
+          "name": "Volcano junco",
+          "weightKg": 0.028,
+          "basis": "Adult mass in the retained Amniote Database.",
+          "url": "https://www.esapubs.org/archive/ecol/E096/269/default.php",
+          "sizeMetres": 0.16,
+          "sizeUrl": "https://repositorio.catie.ac.cr/bitstream/handle/11554/5604/The_tourist_potential_evaluation_of_the_birds.pdf?isAllowed=y&sequence=1",
+          "sizeDimension": "body length",
+          "sizeBasis": "Body length in the CATIE field survey species account.",
+          "lengthMetres": 0.16,
+          "dominantSizeMetres": 0.16,
+          "dominantSizeAxis": "length",
+          "dimensionCaveat": "Adult standing height is unrecorded.",
+          "representativeSpecies": "Junco vulcani",
+          "checked": "2026-11-12",
+          "dimensionEvidence": [
+            {
+              "url": "https://repositorio.catie.ac.cr/bitstream/handle/11554/5604/The_tourist_potential_evaluation_of_the_birds.pdf?isAllowed=y&sequence=1",
+              "basis": "Body length in the CATIE field survey species account.",
+              "valueMetres": 0.16
+            }
+          ]
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "The dominant model dimension scales the heavier parent's retained mass directly.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Length",
+      "parentBlendTargetStuds": 0.4776785714285714,
+      "heavierParent": "Galapagos lava lizard",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Endangered",
+      "height": 2.256851899151819,
+      "weight": 7.248117738940022,
+      "eggHeight": 1.5,
+      "eggWeight": 0.7312782172378623,
+      "parents": "Anglerfish + Land snail",
+      "length": 3.6943650748294137,
+      "heightWeight": null,
+      "description": "Shellure creeps along warm stone, sweeping its amber lure over the cracks. It tucks its feelers close when a shadow passes.",
+      "naturalHeight": 1.17814563614083,
+      "naturalLength": 1.9285714285714282,
+      "weightReferenceKg": 4.9048467004,
+      "weightReferenceDimensionMetres": 0.7,
+      "spawnWeight": 1048576,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Shellure",
+      "region": "inferno",
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "reference": "shellure-perspective.png",
+      "egg": "shellure-egg.png",
+      "icon": "shellure-pets-v1-icon.png",
+      "notes": "Installed in Studio Edit for The Burning Depths.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Separate model and animation review is pending."
+      },
+      "earnings": {
+        "amount": 194,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "balanceAssignment": {
+        "assigned": true,
+        "runtimeEnabled": true,
+        "baseEarnings": 194,
+        "status": "Endangered",
+        "note": "Statistics follow the retained v10 parent references and fitted model bounds."
+      },
+      "artworkLayout": "flat-perspective-v1",
+      "artworkTransparency": {
+        "sha256": "cf940420a0a7754988a1bf5521caad93b42ae4b6643cf2851199645192b5e72f",
+        "shadowFreeVerified": true,
+        "review": "output/shellure-import-20261112/wiki-preflight-proposal/perspective-visual-review.json"
+      },
+      "collectionArt": {
+        "image": "shellure-CollectionArt.png",
+        "imageSha256": "d06c84b973499196c42bafc2c9890237158e8af62ff87d70738ad66c302d02b3",
+        "silhouette": "shellure-CollectionArt-silhouette.png",
+        "silhouetteSha256": "c83ee0e35bc8f73f915f7e8c4a5ed8317a0942ed29b034dfbe02893345d2d5c0"
+      },
+      "implementation": {
+        "importCandidate": false,
+        "realModelReady": true,
+        "studioEditVerified": true,
+        "currentAnimationMediaVerified": true,
+        "replacementImport": {
+          "importNumber": 1,
+          "date": "2026-11-12",
+          "installed": true,
+          "status": "installed-verified-edit",
+          "model": "creatures/~concepts/shellure/shellure-3-animations.fbx",
+          "modelSha256": "56d0b6f986a437e6ce61622b01947769c8e03d5ce64819eafdfbe35d494f4c73",
+          "mesh": "rbxassetid://109969907512114",
+          "animationRevision": "shellure-lowpoly-v1-pedal-gaits",
+          "rigBones": 14,
+          "triangles": 1896,
+          "nativePayload": "assets/pets/shellure-lowpoly-v1/native-mesh.json",
+          "nativePayloadSha256": "159205985f229f0c4b741e75c8bc144cf9a961a077f5ed1c2a76011008843875",
+          "installedEvidence": {
+            "file": "output/shellure-import-20261112/studio-isolated-apply.json",
+            "sha256": "c1809ccb45d8874607a086b14cf88d3084e9ab829934689420a7050da0fed4a3"
+          },
+          "studioReadback": {
+            "file": "output/shellure-import-20261112/scene-readback.json",
+            "sha256": "afa0b5490d9022f072f3825d7673d24fb3ee42e684ea553ce82600a6b826d477"
+          },
+          "sourceReadback": {
+            "file": "output/shellure-import-20261112/studio-source-verify.json",
+            "sha256": "2b5de655be9e5b6b0b9b584751880eec10abcade685dd4dbf1ae551e1b358e38"
+          },
+          "robloxImage": {
+            "wikiImage": "assets/animations/shellure/current/installed-roblox.png",
+            "file": "output/shellure-import-20261112/studio-portraits/shellure-quarter.png",
+            "sha256": "f236a69d2a2d8bc23bc809f285c23a02ff5e09b45494d6b1da4e35c9899db946",
+            "rawCapture": {
+              "file": "output/shellure-import-20261112/studio-portraits/shellure-quarter-raw.jpg",
+              "sha256": "c47ecb9ff8a98326cc6770c20c7a16711826d9a5995ecfca28b190e2077976b7",
+              "format": "JPEG"
+            },
+            "decodedRgbSha256": "6a4b3e44350c323d24156f7ff930bb44cbb761f1bb3bfcd8c1cacc976b69af88",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "captureFormat": "PNG",
+            "currentVersion": true,
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "nativePayloadSha256": "159205985f229f0c4b741e75c8bc144cf9a961a077f5ed1c2a76011008843875",
+            "modelSha256": "56d0b6f986a437e6ce61622b01947769c8e03d5ce64819eafdfbe35d494f4c73",
+            "heightStuds": 2.256851899151819,
+            "sourceReceipt": {
+              "file": "output/shellure-import-20261112/scene-readback.json",
+              "sha256": "afa0b5490d9022f072f3825d7673d24fb3ee42e684ea553ce82600a6b826d477"
+            },
+            "captureReceipt": {
+              "file": "output/shellure-import-20261112/studio-portraits/shellure-verification.json",
+              "sha256": "e023f74821e8a00f189aed3dd44404d984aff20700014debb3f86c6523889e99"
+            },
+            "currentScope": "Farm quarter view of the installed Shellure. Blink stills show open, half-closed, closed and reopened poses.",
+            "detailImages": [
+              {
+                "label": "Blink open",
+                "closure": 0,
+                "wikiImage": "assets/animations/shellure/current/installed-blink-open.png",
+                "file": "output/shellure-import-20261112/studio-portraits/shellure-open.png",
+                "sha256": "2cb963597584d63c0e8552766baab97433f70b00f21a3dc084bc4953e58e56cb",
+                "rawCapture": {
+                  "file": "output/shellure-import-20261112/studio-portraits/shellure-open-raw.jpg",
+                  "sha256": "54d0952f2e9c1db62746b295ec140fe8a142e6ca6ad7d1e2d7842faa2cf30855",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "6ef5c398a33c9fb18a7ecc81fcd7c6ecdf66ee645ebf37d386b756b09c411195"
+              },
+              {
+                "label": "Blink half closed",
+                "closure": 0.5,
+                "wikiImage": "assets/animations/shellure/current/installed-blink-half-closed.png",
+                "file": "output/shellure-import-20261112/studio-portraits/shellure-half-closed.png",
+                "sha256": "0083f2a34e11069f6b2221ce6c6529c277eaef2b867657456a0a650909f273c6",
+                "rawCapture": {
+                  "file": "output/shellure-import-20261112/studio-portraits/shellure-half-closed-raw.jpg",
+                  "sha256": "9b6da97a2436e3d6e2cca96f80f6ece6969d4b4d549d5690eccfe814b331450d",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "697b26eae0a91b8cc45b8c31fa90917a6f786d3e3cad5dd70b80cd551255b217"
+              },
+              {
+                "label": "Blink closed",
+                "closure": 1,
+                "wikiImage": "assets/animations/shellure/current/installed-blink-closed.png",
+                "file": "output/shellure-import-20261112/studio-portraits/shellure-closed.png",
+                "sha256": "5edaad1c62ee96e824b9ae0bce29bc4f43e1958a1c77b60a68963d0ba658af92",
+                "rawCapture": {
+                  "file": "output/shellure-import-20261112/studio-portraits/shellure-closed-raw.jpg",
+                  "sha256": "999d67bd2d13f7c6f05077a363cb62b4f97aab0042cdb05296385c7aa2372ad5",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "1d78e8afee4861f8c9c16ec48c518b28498cc0fc668a19886509209527bb6377"
+              },
+              {
+                "label": "Blink reopened",
+                "closure": 0,
+                "wikiImage": "assets/animations/shellure/current/installed-blink-reopened.png",
+                "file": "output/shellure-import-20261112/studio-portraits/shellure-reopened.png",
+                "sha256": "fbc4b408b429e400407dd7b4e6da578194c0a649b7c5360924de19813802304a",
+                "rawCapture": {
+                  "file": "output/shellure-import-20261112/studio-portraits/shellure-reopened-raw.jpg",
+                  "sha256": "d8b92b7a660c559a1804a80178444d20e43a25eccb88ba79f33b845b74c3ce01",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "892ac4250aea27e89f46d437e0083dc3a963ff32eac815ed0358a0aba7bb0c02"
+              }
+            ]
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/shellure/current/shellure-animations-and-model.zip",
+            "sha256": "36db360caac8e470dbbc01c151c5ffe1a31b7cefbeda06ca37c462c005ab7b22",
+            "complete": true,
+            "animations": [
+              "Idle",
+              "Walk",
+              "Run",
+              "Blink"
+            ]
+          },
+          "studioBlinkReview": {
+            "body": "The Farm quarter shows the full shell and continuous foot, one lure and four barbels.",
+            "eyes": "The front view shows two eyes with one pupil and one catchlight each. Both irises and pupils are covered at full closure and the eyes reopen.",
+            "limitations": "The half-closed covers are rounded and noticeably raised. Thin lower lid lines remain visible at full closure.",
+            "reviewedBy": "Codex root",
+            "capturedIn": "Studio Edit"
+          },
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true
+          },
+          "qualityNotice": "Shellure is installed in Studio Edit with its species egg and four shiny finishes. Idle, Walk, Run and Blink meet the local clip-review thresholds. The status board shows WIP. The half-closed covers are rounded and noticeably raised. Thin lower lid lines remain visible at full closure."
+        }
+      },
+      "modelImport": {
+        "source": {
+          "file": "creatures/~concepts/shellure/shellure-initial.fbx",
+          "sha256": "cd1128ff09733b7aa7868e6ee47944bb1705589cf1243ef49af3b4912ab4b792"
+        },
+        "model": {
+          "file": "creatures/~concepts/shellure/shellure-3-animations.fbx",
+          "sha256": "56d0b6f986a437e6ce61622b01947769c8e03d5ce64819eafdfbe35d494f4c73"
+        },
+        "native": {
+          "file": "assets/pets/shellure-lowpoly-v1/native-mesh.json",
+          "sha256": "159205985f229f0c4b741e75c8bc144cf9a961a077f5ed1c2a76011008843875",
+          "bytes": 715816
+        },
+        "color": {
+          "file": "assets/pets/shellure-lowpoly-v1/color.png",
+          "sha256": "bed08fbe029c1248858320f222c66b130b9bedb4769ca0e4816e755b1e96b4a9"
+        },
+        "rigged": true,
+        "installed": true,
+        "triangles": 1896,
+        "bones": 14,
+        "maps": {
+          "color": {
+            "file": "assets/pets/shellure-lowpoly-v1/color.png",
+            "sha256": "bed08fbe029c1248858320f222c66b130b9bedb4769ca0e4816e755b1e96b4a9"
+          },
+          "roughness": {
+            "file": "assets/pets/shellure-lowpoly-v1/roughness.png",
+            "sha256": "ea161f4e1bf82f08b29be2a8396e8e5a39c96de629570f7d467e65f90712ef8a"
+          },
+          "metallic": {
+            "file": "assets/pets/shellure-lowpoly-v1/metallic.png",
+            "sha256": "0f4b1668d119f77ceb6b86645573f088ab2341d7b284314d5df0be7226ea5d91"
+          },
+          "emissive": {
+            "file": "assets/pets/shellure-lowpoly-v1/emissive.png",
+            "sha256": "b5366abe351c4ed7f7e940ebdb69e2af637875e7694484f953f138e2f3e533c1"
+          }
+        }
+      },
+      "diet": "Omnivore",
+      "mountable": false,
+      "travel": [
+        "Ground"
+      ],
+      "followingBuff": null,
+      "hatchXPBonus": {
+        "skill": "Strength",
+        "firstXP": 10000,
+        "repeatXP": 1000,
+        "firstCash": 500000
+      },
+      "id": "shellure",
+      "parentStats": [
+        {
+          "name": "Anglerfish",
+          "weightKg": 4.9048467004,
+          "url": "https://www.ices.dk/sites/pub/CM%20Doccuments/CM-2007/K/K0707.pdf#page=5",
+          "basis": "Mass estimated at the selected 70 cm length from the combined Faroese sample's length-mass fit.",
+          "sizeMetres": 0.7,
+          "sizeUrl": "https://www.hafogvatn.is/static/extras/images/Anglerfish_14219.pdf",
+          "sizeDimension": "total length",
+          "sizeBasis": "Selected midpoint of average male and female lengths in the Iceland assessment.",
+          "lengthMetres": 0.7,
+          "dominantSizeMetres": 0.7,
+          "dominantSizeAxis": "length",
+          "representativeSpecies": "Lophius piscatorius",
+          "checked": "2026-11-12",
+          "dimensionEvidence": [
+            {
+              "url": "https://www.hafogvatn.is/static/extras/images/Anglerfish_14219.pdf",
+              "valueMetres": 0.7,
+              "basis": "Midpoint of 64 cm male and 76 cm female reported average lengths."
+            }
+          ]
+        },
+        {
+          "name": "Land snail",
+          "weightKg": 0.01,
+          "basis": "midpoint of 8 to 12 g common garden snail adult range",
+          "url": "https://www.dcceew.gov.au/sites/default/files/env/pages/d8bf16ca-362b-4e6d-9144-4b71770bd6b6/files/garden-snails-department-risk-analysis.pdf",
+          "sizeMetres": 0.06,
+          "sizeDimension": "body length",
+          "sizeBasis": "explicit 6 cm extended-body design estimate; shell-only size is not substituted for length; not a sourced population mean",
+          "sizeUrl": "https://www.dcceew.gov.au/sites/default/files/env/pages/d8bf16ca-362b-4e6d-9144-4b71770bd6b6/files/garden-snails-department-risk-analysis.pdf",
+          "lengthMetres": 0.06,
+          "dominantSizeMetres": 0.06,
+          "dominantSizeAxis": "length",
+          "dimensionEvidence": [],
+          "dimensionCaveat": "Maximum of recorded height and length. Missing complete standing/horn-tip or tail measurements remain labelled proxies, not fabricated measurements.",
+          "representativeSpecies": "Cornu aspersum",
+          "checked": "2026-11-12",
+          "reusedParentRecord": "Snail"
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "Dominant fitted dimension scales the heavier parent's reference mass directly.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Length",
+      "parentBlendTargetStuds": 1.9285714285714282,
+      "heavierParent": "Anglerfish",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Endangered",
+      "height": 5.7250000000000005,
+      "weight": 30.457000000000008,
+      "eggHeight": 3.0204253756775956,
+      "eggWeight": 3.072872360055061,
+      "parents": "Ring-tailed lemur + Emu",
+      "length": 5.404601590295322,
+      "heightWeight": null,
+      "description": "Lemu picks its way across warm stone, keeping its striped tail curled above its back. It lowers its head when it runs.",
+      "naturalHeight": 5.7250000000000005,
+      "naturalLength": 5.404601590295322,
+      "weightReferenceKg": 34.2,
+      "weightReferenceDimensionMetres": 1.8,
+      "spawnWeight": 1048576,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Lemu",
+      "region": "inferno",
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "reference": "lemu-perspective.png",
+      "egg": "lemu-egg.png",
+      "icon": "lemu-pets-v1-icon.png",
+      "notes": "Installed in Studio Edit for The Burning Depths.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Separate model and animation reviews are pending."
+      },
+      "earnings": {
+        "amount": 194,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "artworkLayout": "flat-perspective-v1",
+      "artworkTransparency": {
+        "sha256": "52d05c7d3fe71401113a9d61ac3bf752c56e872211ea6ddb59b53fd3ce61589a",
+        "shadowFreeVerified": true,
+        "review": "output/lemu-import-20261113/wiki-preflight-proposal/perspective-visual-review.json"
+      },
+      "collectionArt": {
+        "image": "lemu-CollectionArt.png",
+        "imageSha256": "9f36f1a5eaa6cc81c772b24bf71cfdb559f9063e551b94de5ce85f212979d06a",
+        "silhouette": "lemu-CollectionArt-silhouette.png",
+        "silhouetteSha256": "87a761e97d6c4789802bc7f2d93189ed9b526ee928f44bf124410a2ed1d086e7"
+      },
+      "modelImport": {
+        "source": {
+          "file": "creatures/11-the-burning-depths/lemu/lemu-initial.fbx",
+          "sha256": "0387361738934c4f295de10e02292a8fa712c6060ce7fbc1aa2265c29824cd35"
+        },
+        "model": {
+          "file": "creatures/11-the-burning-depths/lemu/lemu-2-animations.fbx",
+          "sha256": "616785628e8bdd63ce40dd6ecfecc20ba0827fbbcf5b0bfded1b3b3c0a361c7e"
+        },
+        "native": {
+          "file": "assets/pets/lemu-rodin-v1/native-mesh.json",
+          "sha256": "bccf9e5202c7148d9c99f21c4b4da46564a34eff6474bd8504b4221a79e8edad"
+        },
+        "color": {
+          "file": "assets/pets/lemu-rodin-v1/color.png",
+          "sha256": "0e1a7240a359b4dd4a37da6ce254e725c80f6cb049a2bf320489fd8e57c19e98"
+        },
+        "maps": {
+          "color": {
+            "file": "assets/pets/lemu-rodin-v1/color.png",
+            "sha256": "0e1a7240a359b4dd4a37da6ce254e725c80f6cb049a2bf320489fd8e57c19e98"
+          },
+          "roughness": {
+            "file": "assets/pets/lemu-rodin-v1/roughness.png",
+            "sha256": "dbe614d74edc7c5eea82092cbfe2c2324ef164ee872021b0e981e8a2d86d97a4"
+          },
+          "metallic": {
+            "file": "assets/pets/lemu-rodin-v1/metallic.png",
+            "sha256": "4a0945534329d26ce523a2f096e203aae59a9fffaec71895599fa3ef42d23f22"
+          }
+        },
+        "rigged": true,
+        "installed": true,
+        "triangles": 1844,
+        "bones": 19
+      },
+      "implementation": {
+        "importCandidate": false,
+        "realModelReady": true,
+        "studioEditVerified": true,
+        "currentAnimationMediaVerified": true,
+        "replacementImport": {
+          "importNumber": 1,
+          "date": "2026-11-13",
+          "installed": true,
+          "status": "installed-verified-edit",
+          "model": "creatures/11-the-burning-depths/lemu/lemu-2-animations.fbx",
+          "modelSha256": "616785628e8bdd63ce40dd6ecfecc20ba0827fbbcf5b0bfded1b3b3c0a361c7e",
+          "mesh": "rbxassetid://119036430634646",
+          "animationRevision": "lemu-lowpoly-v1-emu-gaits",
+          "rigBones": 19,
+          "triangles": 1844,
+          "nativePayload": "assets/pets/lemu-rodin-v1/native-mesh.json",
+          "nativePayloadSha256": "bccf9e5202c7148d9c99f21c4b4da46564a34eff6474bd8504b4221a79e8edad",
+          "installedEvidence": {
+            "file": "output/lemu-import-20261113/studio-isolated-apply.json",
+            "sha256": "2905bd31feb0ae0976cafd34a7ba68f0671976028910624300ac214d53de9b33"
+          },
+          "studioReadback": {
+            "file": "output/lemu-import-20261113/scene-readback.json",
+            "sha256": "4db85918d45d7bdc67199d2cfbfd018a05a4cbd09e30ce73ae9f7ff70697011d"
+          },
+          "sourceReadback": {
+            "file": "output/lemu-import-20261113/source-verify.json",
+            "sha256": "1f44a7f996d769ac7ff825ed14a89a3c539561861a0008fe4ac8b17fd99c2c94"
+          },
+          "robloxImage": {
+            "wikiImage": "assets/animations/lemu/current/installed-roblox.png",
+            "file": "output/lemu-import-20261113/studio-portraits/lemu-quarter.png",
+            "sha256": "0813e58add473c23cd588fe6950f4bd3485a542ade13faece95f3060499ac35f",
+            "rawCapture": {
+              "file": "output/lemu-import-20261113/studio-portraits/lemu-quarter-raw.jpg",
+              "sha256": "7ea2cbf800318916e40f8a9839e364e8f29da6638c3db88754dce68651737e27",
+              "format": "JPEG"
+            },
+            "decodedRgbSha256": "4ee9bd67720348a412a3e62a123c3613c4b15dfbc65ffeb223b6c642a57408bd",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "captureFormat": "PNG",
+            "currentVersion": true,
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "heightStuds": 5.7250000000000005,
+            "nativePayloadSha256": "bccf9e5202c7148d9c99f21c4b4da46564a34eff6474bd8504b4221a79e8edad",
+            "modelSha256": "616785628e8bdd63ce40dd6ecfecc20ba0827fbbcf5b0bfded1b3b3c0a361c7e",
+            "sourceReceipt": {
+              "file": "output/lemu-import-20261113/scene-readback.json",
+              "sha256": "4db85918d45d7bdc67199d2cfbfd018a05a4cbd09e30ce73ae9f7ff70697011d"
+            },
+            "captureReceipt": {
+              "file": "output/lemu-import-20261113/studio-portraits/lemu-verification.json",
+              "sha256": "7e360dde6bb1f3c0d73cfd15273ca560efd8fc5c364147ab9bf51cf5d0ae94f4"
+            },
+            "blinkCaptureReceipt": {
+              "file": "output/lemu-import-20261113/studio-blink/lemu-verification.json",
+              "sha256": "895a4a15fee94875ba7f3bd6a4d7b9bc2b84c882f22a873fd8d4199ef8e708bd"
+            },
+            "currentScope": "Farm quarter view of the installed Lemu with separate Blink stills.",
+            "detailImages": [
+              {
+                "label": "Blink open",
+                "closure": 0,
+                "wikiImage": "assets/animations/lemu/current/installed-blink-open.png",
+                "file": "output/lemu-import-20261113/studio-blink/lemu-open.png",
+                "sha256": "002da55a4ae72cb82f03e96f5be2fb60f8197dc926c41384326ba4fd9be2a162",
+                "rawCapture": {
+                  "file": "output/lemu-import-20261113/studio-blink/lemu-open-raw.jpg",
+                  "sha256": "b666d4c60100de377c731f63456cbf7ccfbab74595c4ff93a7f99e30761d6ab0",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "64f439b6a311a6ec5588e31903b252371b518932eb25923396cade9f7cc7d301"
+              },
+              {
+                "label": "Blink half closed",
+                "closure": 0.5,
+                "wikiImage": "assets/animations/lemu/current/installed-blink-half-closed.png",
+                "file": "output/lemu-import-20261113/studio-blink/lemu-half-closed.png",
+                "sha256": "d9c3d2c7528e000d5463fa83330408eca820b9077a4fc4a2eecbb67baf90bd74",
+                "rawCapture": {
+                  "file": "output/lemu-import-20261113/studio-blink/lemu-half-closed-raw.jpg",
+                  "sha256": "4fb87aec737effc274e596590eaf8bd599edde45ab6f618b5e44523811ad88d6",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "1132cc3daba355aa8aecb8febe2c5fac79c80fe9f6344e1ce7d53e4dd42b5cd7"
+              },
+              {
+                "label": "Blink closed",
+                "closure": 1,
+                "wikiImage": "assets/animations/lemu/current/installed-blink-closed.png",
+                "file": "output/lemu-import-20261113/studio-blink/lemu-closed.png",
+                "sha256": "bf641fe28d7a4bbee710ab282fc55062fab2a203d0b312255555aa81b5fe2e40",
+                "rawCapture": {
+                  "file": "output/lemu-import-20261113/studio-blink/lemu-closed-raw.jpg",
+                  "sha256": "bc728fed1d5f46eb6ed568487149bc9bb8d162cf4b8033798c0dc239e6aa02e8",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "fb23f7daedddbfbe7d37781092424615e368bf8568ba66ca267ad34d9f2c2fd2"
+              },
+              {
+                "label": "Blink reopened",
+                "closure": 0,
+                "wikiImage": "assets/animations/lemu/current/installed-blink-reopened.png",
+                "file": "output/lemu-import-20261113/studio-blink/lemu-reopened.png",
+                "sha256": "1e7b8cec86a051ee7a0f905e939a94e4eca195c67e125d62441f05d3f2d76535",
+                "rawCapture": {
+                  "file": "output/lemu-import-20261113/studio-blink/lemu-reopened-raw.jpg",
+                  "sha256": "19c9043c5f10df53e3586823646bb90c351a9d81172f23bc4c6feebbe7b551a4",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "fcf7081c2300d4e67e3cf37ce3d67b1d06f3f3a3a487690051d6756d0c9bfe2f"
+              }
+            ]
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/lemu/current/lemu-animations-and-model.zip",
+            "sha256": "7a070d4adb02d29db1a4b45a00afbc9f06f6f1908ce4ecb4976f8800c3c85d90",
+            "complete": true,
+            "animations": [
+              "Idle",
+              "Walk",
+              "Run",
+              "Blink"
+            ]
+          },
+          "studioBlinkReview": {
+            "body": "The Farm views show two legs with three forward toes each and one curled tail.",
+            "eyes": "Both amber pupils are covered at full closure and visible again after reopening.",
+            "limitations": "The closed lids are rounded and raised.",
+            "reviewedBy": "Codex",
+            "capturedIn": "Studio Edit"
+          },
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true
+          },
+          "qualityNotice": "Lemu is installed in Studio Edit with Idle, Walk, Run, Blink and four shiny egg finishes. The closed lids are rounded and raised."
+        }
+      },
+      "diet": "Omnivore",
+      "mountable": false,
+      "travel": [
+        "Ground"
+      ],
+      "followingBuff": null,
+      "hatchXPBonus": {
+        "skill": "Strength",
+        "firstXP": 10000,
+        "repeatXP": 1000,
+        "firstCash": 500000
+      },
+      "id": "lemu",
+      "parentStats": [
+        {
+          "name": "Ring-tailed lemur",
+          "lengthMetres": 1.012,
+          "sizeMetres": 1.012,
+          "weightKg": 2.2,
+          "url": "https://ielc.libguides.com/sdzg/factsheets/ringtailedlemur/characteristics",
+          "sizeUrl": "https://ielc.libguides.com/sdzg/factsheets/ringtailedlemur/characteristics",
+          "sizeDimension": "length",
+          "basis": "Adult representative game-balance mass from the retained parent study.",
+          "sizeBasis": "Selected representative dimension from the retained parent study.",
+          "dominantSizeMetres": 1.012,
+          "dominantSizeAxis": "length",
+          "representativeSpecies": "Lemur catta",
+          "checked": "2026-11-13"
+        },
+        {
+          "name": "Emu",
+          "heightMetres": 1.8,
+          "sizeMetres": 1.8,
+          "weightKg": 34.2,
+          "url": "https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/668122/Victorian-Wildlife-Rehabilitation-Guidelines-Part-B-Birds.pdf",
+          "sizeUrl": "https://australian.museum/learn/animals/birds/emu/",
+          "sizeDimension": "height",
+          "basis": "Adult representative game-balance mass from the retained parent study.",
+          "sizeBasis": "Selected representative dimension from the retained parent study.",
+          "dominantSizeMetres": 1.8,
+          "dominantSizeAxis": "height",
+          "representativeSpecies": "Dromaius novaehollandiae",
+          "checked": "2026-11-13"
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "Fitted dominant height scales the heavier parent's mass directly.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Height",
+      "parentBlendTargetStuds": 5.7250000000000005,
+      "heavierParent": "Emu",
       "parentReferenceRevision": "dominant-baseline-then-quality-v10"
     }
   ],
@@ -147662,27 +149097,31 @@
     "jungle": [
       {
         "species": "Dandylion",
-        "chance": 9.090909090909092
+        "chance": 8.333333333333332
       },
       {
         "species": "Tarantulama",
-        "chance": 18.181818181818183
+        "chance": 16.666666666666664
       },
       {
         "species": "Banaconda",
-        "chance": 18.181818181818183
+        "chance": 16.666666666666664
       },
       {
         "species": "Peacobara",
-        "chance": 18.181818181818183
+        "chance": 16.666666666666664
       },
       {
         "species": "Pangolinx",
-        "chance": 18.181818181818183
+        "chance": 16.666666666666664
       },
       {
         "species": "Tapirrot",
-        "chance": 18.181818181818183
+        "chance": 16.666666666666664
+      },
+      {
+        "species": "Tigebra",
+        "chance": 8.333333333333332
       }
     ],
     "coral_reef": [
@@ -147776,29 +149215,49 @@
     "volcano": [
       {
         "species": "Dragorilla",
-        "chance": 16.666666666666664
+        "chance": 8.333333333333332
       },
       {
         "species": "Bearbecue",
-        "chance": 16.666666666666664
+        "chance": 8.333333333333332
       },
       {
         "species": "Harpyeena",
-        "chance": 33.33333333333333
+        "chance": 16.666666666666664
       },
       {
         "species": "Fennthorn",
+        "chance": 8.333333333333332
+      },
+      {
+        "species": "Tuamander",
         "chance": 33.33333333333333
+      },
+      {
+        "species": "Rhinodo",
+        "chance": 8.333333333333332
+      },
+      {
+        "species": "Lavunco",
+        "chance": 16.666666666666664
       }
     ],
     "inferno": [
       {
         "species": "Thorny Mantis",
-        "chance": 20.0
+        "chance": 14.285714285714285
       },
       {
         "species": "Scorpicorn",
-        "chance": 80.0
+        "chance": 28.57142857142857
+      },
+      {
+        "species": "Shellure",
+        "chance": 28.57142857142857
+      },
+      {
+        "species": "Lemu",
+        "chance": 28.57142857142857
       }
     ],
     "sky_foothills": [
@@ -147810,15 +149269,19 @@
     "sky_mountains": [
       {
         "species": "Chinchillark",
-        "chance": 20.0
+        "chance": 11.11111111111111
       },
       {
         "species": "Glidigan",
-        "chance": 40.0
+        "chance": 22.22222222222222
       },
       {
         "species": "Ferretwyrm",
-        "chance": 40.0
+        "chance": 22.22222222222222
+      },
+      {
+        "species": "Pumacu\u00f1a",
+        "chance": 44.44444444444444
       }
     ],
     "outer_space": [
@@ -150488,8 +151951,8 @@
             "eggMaxKg": 0.5657135365542642,
             "eggMinHeight": 1.5,
             "eggMinKg": 0.3394281219325586,
-            "incomeMax": 51.25,
-            "incomeMin": 30.75,
+            "incomeMax": 115,
+            "incomeMin": 69,
             "max": 1.25,
             "min": 0.75,
             "petMaxHeight": 3.5603683583694683,
@@ -150505,8 +151968,8 @@
             "eggMaxKg": 0.6788562438651172,
             "eggMinHeight": 1.5482098662510417,
             "eggMinKg": 0.4525708292434114,
-            "incomeMax": 123,
-            "incomeMin": 82,
+            "incomeMax": 276,
+            "incomeMin": 184,
             "max": 1.5,
             "min": 1,
             "petMaxHeight": 4.272442030043362,
@@ -150522,8 +151985,8 @@
             "eggMaxKg": 0.9051416584868228,
             "eggMinHeight": 2.3223147993765627,
             "eggMinKg": 0.6788562438651172,
-            "incomeMax": 328,
-            "incomeMin": 246,
+            "incomeMax": 736,
+            "incomeMin": 552,
             "max": 2,
             "min": 1.5,
             "petMaxHeight": 5.6965893733911495,
@@ -150539,8 +152002,8 @@
             "eggMaxKg": 1.1314270731085283,
             "eggMinHeight": 3.0964197325020835,
             "eggMinKg": 0.9051416584868228,
-            "incomeMax": 820,
-            "incomeMin": 656,
+            "incomeMax": 1840,
+            "incomeMin": 1472,
             "max": 2.5,
             "min": 2,
             "petMaxHeight": 7.120736716738937,
@@ -150556,8 +152019,8 @@
             "eggMaxKg": 1.3577124877302345,
             "eggMinHeight": 3.870524665627604,
             "eggMinKg": 1.1314270731085283,
-            "incomeMax": 1968,
-            "incomeMin": 1640,
+            "incomeMax": 4416,
+            "incomeMin": 3680,
             "max": 3,
             "min": 2.5,
             "petMaxHeight": 8.544884060086725,
@@ -152569,6 +154032,196 @@
         "eggSizingHeight": 2.342292076055893,
         "rawBaseEggHeight": 0.9979045547572694
       },
+      "Lavunco": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.9970276117156889,
+            "carryMinRatio": 0.9950533663320356,
+            "eggMaxHeight": 1.5,
+            "eggMaxKg": 0.04130162872902734,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.0247809772374164,
+            "incomeMax": 68.75,
+            "incomeMin": 41.25,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 3.4499095089896943,
+            "petMaxKg": 0.40936412541959466,
+            "petMinHeight": 2.0699457053938164,
+            "petMinKg": 0.24561847525175678,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.9960397567658683,
+            "carryMinRatio": 0.994068436799137,
+            "eggMaxHeight": 1.5,
+            "eggMaxKg": 0.0495619544748328,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.03304130298322187,
+            "incomeMax": 165,
+            "incomeMin": 110,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 4.139891410787633,
+            "petMaxKg": 0.49123695050351357,
+            "petMinHeight": 2.759927607191755,
+            "petMinKg": 0.3274913003356757,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.994068436799137,
+            "carryMinRatio": 0.9921029460382731,
+            "eggMaxHeight": 1.9705069902216552,
+            "eggMaxKg": 0.06608260596644373,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.0495619544748328,
+            "incomeMax": 440,
+            "incomeMin": 330,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 5.51985521438351,
+            "petMaxKg": 0.6549826006713514,
+            "petMinHeight": 4.139891410787633,
+            "petMinKg": 0.49123695050351357,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.9921029460382731,
+            "carryMinRatio": 0.990143255811462,
+            "eggMaxHeight": 2.463133737777069,
+            "eggMaxKg": 0.08260325745805468,
+            "eggMinHeight": 1.9705069902216552,
+            "eggMinKg": 0.06608260596644373,
+            "incomeMax": 1100,
+            "incomeMin": 880,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 6.899819017979389,
+            "petMaxKg": 0.8187282508391893,
+            "petMinHeight": 5.51985521438351,
+            "petMinKg": 0.6549826006713514,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.990143255811462,
+            "carryMinRatio": 0.988189337643937,
+            "eggMaxHeight": 2.955760485332483,
+            "eggMaxKg": 0.0991239089496656,
+            "eggMinHeight": 2.463133737777069,
+            "eggMinKg": 0.08260325745805468,
+            "incomeMax": 2640,
+            "incomeMin": 2200,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 8.279782821575266,
+            "petMaxKg": 0.9824739010070271,
+            "petMinHeight": 6.899819017979389,
+            "petMinKg": 0.8187282508391893,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 1.5,
+        "baseHeight": 2.7599276071917553,
+        "baseLength": 3.3455714728636363,
+        "baseWeight": 0.3274913003356757,
+        "eggSizingHeight": 2.7599276071917553,
+        "rawBaseEggHeight": 0.9852534951108276
+      },
+      "Lemu": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.769805897892996,
+            "carryMinRatio": 0.6542184180054735,
+            "eggMaxHeight": 3.7755317195969944,
+            "eggMaxKg": 3.841090450068827,
+            "eggMinHeight": 2.265319031758197,
+            "eggMinKg": 2.3046542700412957,
+            "incomeMax": 242.5,
+            "incomeMin": 145.5,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 7.156250000000001,
+            "petMaxKg": 38.07125000000001,
+            "petMinHeight": 4.29375,
+            "petMinKg": 22.842750000000006,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.7090876185651276,
+            "carryMinRatio": 0.6043157485727642,
+            "eggMaxHeight": 4.530638063516394,
+            "eggMaxKg": 4.6093085400825915,
+            "eggMinHeight": 3.0204253756775956,
+            "eggMinKg": 3.072872360055061,
+            "incomeMax": 582,
+            "incomeMin": 388,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 8.5875,
+            "petMaxKg": 45.68550000000001,
+            "petMinHeight": 5.7250000000000005,
+            "petMinKg": 30.457000000000008,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.6043157485727642,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 6.040850751355191,
+            "eggMaxKg": 6.145744720110122,
+            "eggMinHeight": 4.530638063516394,
+            "eggMinKg": 4.6093085400825915,
+            "incomeMax": 1552,
+            "incomeMin": 1164,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 11.450000000000001,
+            "petMaxKg": 60.914000000000016,
+            "petMinHeight": 8.5875,
+            "petMinKg": 45.68550000000001,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 7.551063439193989,
+            "eggMaxKg": 7.682180900137654,
+            "eggMinHeight": 6.040850751355191,
+            "eggMinKg": 6.145744720110122,
+            "incomeMax": 3880,
+            "incomeMin": 3104,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 14.312500000000002,
+            "petMaxKg": 76.14250000000003,
+            "petMinHeight": 11.450000000000001,
+            "petMinKg": 60.914000000000016,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 9.061276127032787,
+            "eggMaxKg": 9.218617080165183,
+            "eggMinHeight": 7.551063439193989,
+            "eggMinKg": 7.682180900137654,
+            "incomeMax": 9312,
+            "incomeMin": 7760,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 17.175,
+            "petMaxKg": 91.37100000000002,
+            "petMinHeight": 14.312500000000002,
+            "petMinKg": 76.14250000000003,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 3.0204253756775956,
+        "baseHeight": 5.7250000000000005,
+        "baseLength": 5.404601590295322,
+        "baseWeight": 30.457000000000008,
+        "eggSizingHeight": 5.7250000000000005,
+        "rawBaseEggHeight": 3.0204253756775956
+      },
       "Lobsteray": {
         "bands": [
           {
@@ -153709,6 +155362,101 @@
         "eggSizingHeight": 3.7875102718315046,
         "rawBaseEggHeight": 3.5398660308102263
       },
+      "Pumacu\u00f1a": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.5984405421538181,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 4.414530226363855,
+            "eggMaxKg": 7.840862648280007,
+            "eggMinHeight": 2.6487181358183127,
+            "eggMinKg": 4.704517588968005,
+            "incomeMax": 287.5,
+            "incomeMin": 172.5,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 7.712499395128717,
+            "petMaxKg": 77.71528579676675,
+            "petMinHeight": 4.627499637077229,
+            "petMinKg": 46.62917147806006,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 5.2974362716366254,
+            "eggMaxKg": 9.40903517793601,
+            "eggMinHeight": 3.531624181091084,
+            "eggMinKg": 6.272690118624005,
+            "incomeMax": 690,
+            "incomeMin": 460,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 9.254999274154459,
+            "petMaxKg": 93.25834295612012,
+            "petMinHeight": 6.169999516102973,
+            "petMinKg": 62.1722286374134,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 7.063248362182168,
+            "eggMaxKg": 12.54538023724801,
+            "eggMinHeight": 5.2974362716366254,
+            "eggMinKg": 9.40903517793601,
+            "incomeMax": 1840,
+            "incomeMin": 1380,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 12.339999032205945,
+            "petMaxKg": 124.3444572748268,
+            "petMinHeight": 9.254999274154459,
+            "petMinKg": 93.25834295612012,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 8.82906045272771,
+            "eggMaxKg": 15.681725296560014,
+            "eggMinHeight": 7.063248362182168,
+            "eggMinKg": 12.54538023724801,
+            "incomeMax": 4600,
+            "incomeMin": 3680,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 15.424998790257433,
+            "petMaxKg": 155.4305715935335,
+            "petMinHeight": 12.339999032205945,
+            "petMinKg": 124.3444572748268,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 10.594872543273251,
+            "eggMaxKg": 18.81807035587202,
+            "eggMinHeight": 8.82906045272771,
+            "eggMinKg": 15.681725296560014,
+            "incomeMax": 11040,
+            "incomeMin": 9200,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 18.509998548308918,
+            "petMaxKg": 186.51668591224023,
+            "petMinHeight": 15.424998790257433,
+            "petMinKg": 155.4305715935335,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 3.531624181091084,
+        "baseHeight": 6.169999516102973,
+        "baseLength": 7.316964285714286,
+        "baseWeight": 62.1722286374134,
+        "eggSizingHeight": 6.169999516102973,
+        "rawBaseEggHeight": 3.531624181091084
+      },
       "Purranha": {
         "bands": [
           {
@@ -154003,8 +155751,8 @@
             "eggMaxKg": 43.66980406625904,
             "eggMinHeight": 3.6731985377858387,
             "eggMinKg": 26.201882439755426,
-            "incomeMax": 55,
-            "incomeMin": 33,
+            "incomeMax": 242.5,
+            "incomeMin": 145.5,
             "max": 1.25,
             "min": 0.75,
             "petMaxHeight": 8.367710745289235,
@@ -154020,8 +155768,8 @@
             "eggMaxKg": 52.40376487951085,
             "eggMinHeight": 4.897598050381118,
             "eggMinKg": 34.935843253007235,
-            "incomeMax": 132,
-            "incomeMin": 88,
+            "incomeMax": 582,
+            "incomeMin": 388,
             "max": 1.5,
             "min": 1,
             "petMaxHeight": 10.041252894347082,
@@ -154037,8 +155785,8 @@
             "eggMaxKg": 69.87168650601447,
             "eggMinHeight": 7.346397075571677,
             "eggMinKg": 52.40376487951085,
-            "incomeMax": 352,
-            "incomeMin": 264,
+            "incomeMax": 1552,
+            "incomeMin": 1164,
             "max": 2,
             "min": 1.5,
             "petMaxHeight": 13.388337192462776,
@@ -154054,8 +155802,8 @@
             "eggMaxKg": 87.33960813251808,
             "eggMinHeight": 9.795196100762237,
             "eggMinKg": 69.87168650601447,
-            "incomeMax": 880,
-            "incomeMin": 704,
+            "incomeMax": 3880,
+            "incomeMin": 3104,
             "max": 2.5,
             "min": 2,
             "petMaxHeight": 16.73542149057847,
@@ -154071,8 +155819,8 @@
             "eggMaxKg": 104.8075297590217,
             "eggMinHeight": 12.243995125952797,
             "eggMinKg": 87.33960813251808,
-            "incomeMax": 2112,
-            "incomeMin": 1760,
+            "incomeMax": 9312,
+            "incomeMin": 7760,
             "max": 3,
             "min": 2.5,
             "petMaxHeight": 20.082505788694164,
@@ -154088,6 +155836,196 @@
         "baseWeight": 346.2691753125,
         "eggSizingHeight": 6.694168596231388,
         "rawBaseEggHeight": 4.897598050381118
+      },
+      "Seastang": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 6.5446014824274235,
+            "eggMaxKg": 43.73989537868024,
+            "eggMinHeight": 3.926760889456454,
+            "eggMinKg": 26.243937227208143,
+            "incomeMax": 67.5,
+            "incomeMin": 40.5,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 9.557726562499996,
+            "petMaxKg": 433.5311843296327,
+            "petMinHeight": 5.734635937499998,
+            "petMinKg": 260.1187105977796,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 7.853521778912908,
+            "eggMaxKg": 52.487874454416286,
+            "eggMinHeight": 5.235681185941939,
+            "eggMinKg": 34.99191630294419,
+            "incomeMax": 162,
+            "incomeMin": 108,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 11.469271874999995,
+            "petMaxKg": 520.2374211955593,
+            "petMinHeight": 7.646181249999997,
+            "petMinKg": 346.82494746370617,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 10.471362371883878,
+            "eggMaxKg": 69.98383260588838,
+            "eggMinHeight": 7.853521778912908,
+            "eggMinKg": 52.487874454416286,
+            "incomeMax": 432,
+            "incomeMin": 324,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 15.292362499999994,
+            "petMaxKg": 693.6498949274123,
+            "petMinHeight": 11.469271874999995,
+            "petMinKg": 520.2374211955593,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 13.089202964854847,
+            "eggMaxKg": 87.47979075736048,
+            "eggMinHeight": 10.471362371883878,
+            "eggMinKg": 69.98383260588838,
+            "incomeMax": 1080,
+            "incomeMin": 864,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 19.11545312499999,
+            "petMaxKg": 867.0623686592654,
+            "petMinHeight": 15.292362499999994,
+            "petMinKg": 693.6498949274123,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 15.707043557825816,
+            "eggMaxKg": 104.97574890883257,
+            "eggMinHeight": 13.089202964854847,
+            "eggMinKg": 87.47979075736048,
+            "incomeMax": 2592,
+            "incomeMin": 2160,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 22.93854374999999,
+            "petMaxKg": 1040.4748423911185,
+            "petMinHeight": 19.11545312499999,
+            "petMinKg": 867.0623686592654,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 5.235681185941939,
+        "baseHeight": 7.646181249999997,
+        "baseLength": 4.548999982943757,
+        "baseWeight": 346.82494746370617,
+        "eggSizingHeight": 7.646181249999997,
+        "rawBaseEggHeight": 5.235681185941939
+      },
+      "Shellure": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.9371583767862723,
+            "carryMinRatio": 0.8984120937553792,
+            "eggMaxHeight": 1.866085739351559,
+            "eggMaxKg": 0.914097771547328,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.5484586629283967,
+            "incomeMax": 242.5,
+            "incomeMin": 145.5,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 2.821064873939774,
+            "petMaxKg": 9.060147173675027,
+            "petMinHeight": 1.6926389243638644,
+            "petMinKg": 5.4360883042050165,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.9174916964542865,
+            "carryMinRatio": 0.8798909297018114,
+            "eggMaxHeight": 2.2393028872218705,
+            "eggMaxKg": 1.0969173258567935,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.7312782172378623,
+            "incomeMax": 582,
+            "incomeMin": 388,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 3.385277848727729,
+            "petMaxKg": 10.872176608410033,
+            "petMinHeight": 2.2568518991518194,
+            "petMinKg": 7.248117738940022,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.8798909297018114,
+            "carryMinRatio": 0.8444187919406745,
+            "eggMaxHeight": 2.9857371829624944,
+            "eggMaxKg": 1.4625564344757247,
+            "eggMinHeight": 2.2393028872218705,
+            "eggMinKg": 1.0969173258567935,
+            "incomeMax": 1552,
+            "incomeMin": 1164,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 4.513703798303639,
+            "petMaxKg": 14.496235477880044,
+            "petMinHeight": 3.385277848727729,
+            "petMinKg": 10.872176608410033,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.8444187919406745,
+            "carryMinRatio": 0.8108817359306995,
+            "eggMaxHeight": 3.732171478703118,
+            "eggMaxKg": 1.828195543094656,
+            "eggMinHeight": 2.9857371829624944,
+            "eggMinKg": 1.4625564344757247,
+            "incomeMax": 3880,
+            "incomeMin": 3104,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 5.642129747879548,
+            "petMaxKg": 18.120294347350054,
+            "petMinHeight": 4.513703798303639,
+            "petMinKg": 14.496235477880044,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.8108817359306995,
+            "carryMinRatio": 0.7791099888183499,
+            "eggMaxHeight": 4.478605774443741,
+            "eggMaxKg": 2.193834651713587,
+            "eggMinHeight": 3.732171478703118,
+            "eggMinKg": 1.828195543094656,
+            "incomeMax": 9312,
+            "incomeMin": 7760,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 6.770555697455458,
+            "petMaxKg": 21.744353216820066,
+            "petMinHeight": 5.642129747879548,
+            "petMinKg": 18.120294347350054,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 1.5,
+        "baseHeight": 2.256851899151819,
+        "baseLength": 3.6943650748294137,
+        "baseWeight": 7.248117738940022,
+        "eggSizingHeight": 2.256851899151819,
+        "rawBaseEggHeight": 1.4928685914812472
       },
       "Sholphin": {
         "bands": [
@@ -155323,6 +157261,101 @@
         "baseWeight": 3384.397348282401,
         "eggSizingHeight": 11.734421990987991,
         "rawBaseEggHeight": 9.481497167790065
+      },
+      "Tuamander": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.9854603145075163,
+            "carryMinRatio": 0.9759415292393296,
+            "eggMaxHeight": 1.5,
+            "eggMaxKg": 0.20379977876777622,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.12227986726066573,
+            "incomeMax": 37.5,
+            "incomeMin": 22.5,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 1.668828414360408,
+            "petMaxKg": 2.019976469774013,
+            "petMinHeight": 1.0012970486162447,
+            "petMinKg": 1.2119858818644076,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.9806837675355047,
+            "carryMinRatio": 0.9712331908590119,
+            "eggMaxHeight": 1.5,
+            "eggMaxKg": 0.24455973452133145,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.16303982301422096,
+            "incomeMax": 90,
+            "incomeMin": 60,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 2.0025940972324894,
+            "petMaxKg": 2.423971763728815,
+            "petMinHeight": 1.3350627314883263,
+            "petMinKg": 1.6159811758192102,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.9712331908590119,
+            "carryMinRatio": 0.9619166125905176,
+            "eggMaxHeight": 1.7882135956361527,
+            "eggMaxKg": 0.3260796460284419,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.24455973452133145,
+            "incomeMax": 240,
+            "incomeMin": 180,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 2.6701254629766527,
+            "petMaxKg": 3.2319623516384204,
+            "petMinHeight": 2.0025940972324894,
+            "petMinKg": 2.423971763728815,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.9619166125905176,
+            "carryMinRatio": 0.9527308957960039,
+            "eggMaxHeight": 2.235266994545191,
+            "eggMaxKg": 0.40759955753555244,
+            "eggMinHeight": 1.7882135956361527,
+            "eggMinKg": 0.3260796460284419,
+            "incomeMax": 600,
+            "incomeMin": 480,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 3.337656828720816,
+            "petMaxKg": 4.039952939548026,
+            "petMinHeight": 2.6701254629766527,
+            "petMinKg": 3.2319623516384204,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.9527308957960039,
+            "carryMinRatio": 0.9436730053989193,
+            "eggMaxHeight": 2.682320393454229,
+            "eggMaxKg": 0.4891194690426629,
+            "eggMinHeight": 2.235266994545191,
+            "eggMinKg": 0.40759955753555244,
+            "incomeMax": 1440,
+            "incomeMin": 1200,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 4.005188194464979,
+            "petMaxKg": 4.84794352745763,
+            "petMinHeight": 3.337656828720816,
+            "petMinKg": 4.039952939548026,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 1.5,
+        "baseHeight": 1.335062731488326,
+        "baseLength": 3.607100838882165,
+        "baseWeight": 1.6159811758192102,
+        "eggSizingHeight": 1.335062731488326,
+        "rawBaseEggHeight": 0.8941067978180763
       },
       "Vulturkey": {
         "bands": [

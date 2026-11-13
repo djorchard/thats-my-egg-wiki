@@ -147514,7 +147514,15 @@
       "travel": [
         "Ground"
       ],
-      "followingBuff": null,
+      "followingBuff": {
+        "id": "QuietSteps",
+        "Description": "Guardians detect you 15% closer while you Sneak.",
+        "Effect": "StealthRadius",
+        "HUDDescription": "15% smaller Sneak detection radius.",
+        "Image": "rbxassetid://132657854974278",
+        "Multiplier": 0.85,
+        "Name": "Quiet steps"
+      },
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 6500,
@@ -147719,7 +147727,15 @@
       "travel": [
         "Ground"
       ],
-      "followingBuff": null,
+      "followingBuff": {
+        "id": "EscapeArtist",
+        "Description": "Earn 25% more Stealth XP from sneaking and escaping guardians.",
+        "Effect": "StealthXP",
+        "HUDDescription": "+25% Stealth XP.",
+        "Image": "rbxassetid://132657854974278",
+        "Multiplier": 1.25,
+        "Name": "Escape artist"
+      },
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 4000,
@@ -147879,7 +147895,14 @@
       "travel": [
         "Water"
       ],
-      "followingBuff": null,
+      "followingBuff": {
+        "id": "TideRider",
+        "Description": "15% faster swimming.",
+        "Effect": "Swimming",
+        "Icon": "\ud83c\udf0a",
+        "Multiplier": 1.15,
+        "Name": "Swift Swimmer"
+      },
       "hatchXPBonus": {
         "skill": "Swimming",
         "firstXP": 3000,
@@ -148084,7 +148107,15 @@
         "Ground",
         "Air"
       ],
-      "followingBuff": null,
+      "followingBuff": {
+        "id": "SoftLanding",
+        "Description": "50% less fall damage. The safe fall distance stays the same.",
+        "Effect": "FallDamage",
+        "HUDDescription": "50% less fall damage.",
+        "Icon": "\ud83e\udeb6",
+        "Multiplier": 0.5,
+        "Name": "Soft landing"
+      },
       "hatchXPBonus": {
         "skill": "Running",
         "firstXP": 5000,
@@ -148385,7 +148416,15 @@
       "travel": [
         "Ground"
       ],
-      "followingBuff": null,
+      "followingBuff": {
+        "id": "LightStep",
+        "Description": "Sneaking uses 20% less stamina while this pet follows you.",
+        "Effect": "StealthDrain",
+        "HUDDescription": "20% less Sneak stamina.",
+        "Image": "rbxassetid://132657854974278",
+        "Multiplier": 0.8,
+        "Name": "Light step"
+      },
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 10000,
@@ -148672,7 +148711,15 @@
       "travel": [
         "Ground"
       ],
-      "followingBuff": null,
+      "followingBuff": {
+        "id": "FleetFoot",
+        "Description": "10% faster running, within area speed limits.",
+        "Effect": "Running",
+        "HUDDescription": "10% faster running (area limits apply).",
+        "Icon": "\ud83d\udc5f",
+        "Multiplier": 1.1,
+        "Name": "Fleet foot"
+      },
       "hatchXPBonus": {
         "skill": "Strength",
         "firstXP": 10000,
@@ -148718,6 +148765,852 @@
       "sizeReferenceAxis": "Height",
       "parentBlendTargetStuds": 5.7250000000000005,
       "heavierParent": "Emu",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Endangered",
+      "height": 3.8984549623733193,
+      "weight": 61.29396984924623,
+      "eggHeight": 2.800582667002862,
+      "eggWeight": 6.184080696975966,
+      "parents": "African wild dog + Aardvark",
+      "length": 6.223214285714285,
+      "heightWeight": null,
+      "description": "Aardog sniffs out trails in warm ash and digs between the rocks with its broad front paws.",
+      "naturalHeight": 3.8984549623733193,
+      "naturalLength": 6.223214285714285,
+      "weightReferenceKg": 70.0,
+      "weightReferenceDimensionMetres": 1.99,
+      "spawnWeight": 1048576,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Aardog",
+      "region": "inferno",
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "notes": "Installed in Studio Edit for The Burning Depths.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Separate model and animation reviews are pending."
+      },
+      "earnings": {
+        "amount": 194,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "modelImport": {
+        "source": {
+          "file": "creatures/11-the-burning-depths/aardog/aardog-initial.fbx",
+          "sha256": "ca6306aceea10dc58426c63335e3fae96a9504ec9473c4cca2e119c04b113235"
+        },
+        "model": {
+          "file": "creatures/11-the-burning-depths/aardog/aardog-2-animations.fbx",
+          "sha256": "0e24fe22c5764f08658d9ad21dbd2c7f8f42bc144a48448a81134f840953a0af"
+        },
+        "native": {
+          "file": "assets/pets/aardog-rodin-v1/native-mesh.json",
+          "sha256": "c4ee47959920a6cf7f29bd06d58e2ace213e90b7552aa475ed9c13726c23406d"
+        },
+        "color": {
+          "file": "assets/pets/aardog-rodin-v1/color.png",
+          "sha256": "db93e29b41d265bba7b4057696aac5298077ff1ee46d862c0dde1b4e79330ef4"
+        },
+        "maps": {
+          "color": {
+            "file": "assets/pets/aardog-rodin-v1/color.png",
+            "sha256": "db93e29b41d265bba7b4057696aac5298077ff1ee46d862c0dde1b4e79330ef4"
+          },
+          "roughness": {
+            "file": "assets/pets/aardog-rodin-v1/roughness.png",
+            "sha256": "dbe614d74edc7c5eea82092cbfe2c2324ef164ee872021b0e981e8a2d86d97a4"
+          },
+          "metallic": {
+            "file": "assets/pets/aardog-rodin-v1/metallic.png",
+            "sha256": "4a0945534329d26ce523a2f096e203aae59a9fffaec71895599fa3ef42d23f22"
+          }
+        },
+        "rigged": true,
+        "installed": true,
+        "triangles": 1878,
+        "bones": 26
+      },
+      "implementation": {
+        "importCandidate": false,
+        "realModelReady": true,
+        "studioEditVerified": true,
+        "replacementImport": {
+          "importNumber": 1,
+          "date": "2026-11-13",
+          "installed": true,
+          "status": "installed-verified-edit",
+          "model": "creatures/11-the-burning-depths/aardog/aardog-2-animations.fbx",
+          "modelSha256": "0e24fe22c5764f08658d9ad21dbd2c7f8f42bc144a48448a81134f840953a0af",
+          "mesh": "rbxassetid://86702399050513",
+          "animationRevision": "aardog-rodin-v1-surface-blink",
+          "rigBones": 26,
+          "triangles": 1878,
+          "nativePayload": "assets/pets/aardog-rodin-v1/native-mesh.json",
+          "nativePayloadSha256": "c4ee47959920a6cf7f29bd06d58e2ace213e90b7552aa475ed9c13726c23406d",
+          "installedEvidence": {
+            "file": "output/aardog-import-20261113/studio-isolated-apply.json",
+            "sha256": "d8c78556271f4366d44d33d6271b0993d12855b38dd872cf78cb780bbb842dd3"
+          },
+          "studioReadback": {
+            "file": "output/aardog-import-20261113/scene-complete-readback.json",
+            "sha256": "923de1076177e94faf8eef6146bfa17ad5f37dbe6f3cf83222e995d901d026b2"
+          },
+          "sourceReadback": {
+            "file": "output/aardog-import-20261113/source-verify.json",
+            "sha256": "661105f30c083c53c0c9f898a9717d8c1aa1a499eddd6ba5634c1211773edc8d"
+          },
+          "robloxImage": {
+            "wikiImage": "assets/animations/aardog/current/installed-roblox.png",
+            "file": "output/aardog-import-20261113/studio-blink/aardog-quarter.png",
+            "sha256": "5c978c70e2bc7cee5524a8bbcf0189709f6a3614b93dc70d042799ecc95a94b6",
+            "rawCapture": {
+              "file": "output/aardog-import-20261113/studio-blink/aardog-quarter-raw.jpg",
+              "sha256": "2bd43b0de0ee5713ee6cc7c6add16cd767b8959fc1a29d15508cde0ee0be33e6",
+              "format": "JPEG"
+            },
+            "decodedRgbSha256": "06cd7700df0ed72df1a544001e17314047e31d9219e303cb4ad17dbafc15c7b3",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "captureFormat": "PNG",
+            "currentVersion": true,
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "heightStuds": 3.8984549623733193,
+            "nativePayloadSha256": "c4ee47959920a6cf7f29bd06d58e2ace213e90b7552aa475ed9c13726c23406d",
+            "modelSha256": "0e24fe22c5764f08658d9ad21dbd2c7f8f42bc144a48448a81134f840953a0af",
+            "sourceReceipt": {
+              "file": "output/aardog-import-20261113/scene-readback.json",
+              "sha256": "17ed7d8b3703d1ddc051c7772693b68fe362f1682a6fb8095bbedbf0cc069c4a"
+            },
+            "captureReceipt": {
+              "file": "output/aardog-import-20261113/studio-blink/aardog-verification.json",
+              "sha256": "3eb079818d65bbe5f7d13dcffe153fd4381377cfcd7e69faa601e27d21075034"
+            },
+            "blinkCaptureReceipt": {
+              "file": "output/aardog-import-20261113/studio-blink/aardog-verification.json",
+              "sha256": "3eb079818d65bbe5f7d13dcffe153fd4381377cfcd7e69faa601e27d21075034"
+            },
+            "currentScope": "The Farm captures show four legs, a tapered tail and both eyelids.",
+            "detailImages": [
+              {
+                "label": "Rear quarter",
+                "wikiImage": "assets/animations/aardog/current/installed-rear.png",
+                "file": "output/aardog-import-20261113/studio-rear/aardog-rear.png",
+                "sha256": "8b454e287c58b25a4f3b972d0d13e80d50fd7bfbc3bc7ab80792f3c635921bbe",
+                "rawCapture": {
+                  "file": "output/aardog-import-20261113/studio-rear/aardog-rear-raw.jpg",
+                  "sha256": "8964af118ccdb18da9f640437b8fcac8abf1563769a9983ef5c27d7470864b89",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "da62b5d5717740b32c171fa859213034811ce914ad3e50de26206a7bf994d526"
+              },
+              {
+                "label": "Blink open",
+                "wikiImage": "assets/animations/aardog/current/installed-blink-open.png",
+                "file": "output/aardog-import-20261113/studio-blink/aardog-open.png",
+                "sha256": "5aab60b623b2acf339c2ff4fba327b684b1555c9d9a8bc72a764d626f7640fdc",
+                "rawCapture": {
+                  "file": "output/aardog-import-20261113/studio-blink/aardog-open-raw.jpg",
+                  "sha256": "92fd66266dc42b55b4a044e981f353d037ff992b37eb3ce993e80172f0eff16b",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "b9cfbbb38ddf899599fbe9e003bc2df0468884baaef50e8604c53ebc74454af0"
+              },
+              {
+                "label": "Blink half closed",
+                "wikiImage": "assets/animations/aardog/current/installed-blink-half-closed.png",
+                "file": "output/aardog-import-20261113/studio-blink/aardog-half-closed.png",
+                "sha256": "47a0e86c7036fe063a16eb0a7f3da0aacc132569335cb118b19dee52ba14d679",
+                "rawCapture": {
+                  "file": "output/aardog-import-20261113/studio-blink/aardog-half-closed-raw.jpg",
+                  "sha256": "6bd960c4480a61649f9a3e493f787b92da2762cb7bb8c317b9767e43f6886e1d",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "5951663d280f010dfcb6acb5a1cc2632c876c250d80c7da6a167df96cfbe80f0"
+              },
+              {
+                "label": "Blink closed",
+                "wikiImage": "assets/animations/aardog/current/installed-blink-closed.png",
+                "file": "output/aardog-import-20261113/studio-blink/aardog-closed.png",
+                "sha256": "10105dec00a3bb066fda895ab326478d4399d3188cf616b339527f360a5b911a",
+                "rawCapture": {
+                  "file": "output/aardog-import-20261113/studio-blink/aardog-closed-raw.jpg",
+                  "sha256": "bb358db4486740148b421193b10a6b6d24c71b1bad544985ddbefdf6f8c868e6",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "b9770fb09fd5da495da7857670e421c668c0915681af901dcf003cf8b04a4f00"
+              },
+              {
+                "label": "Blink reopened",
+                "wikiImage": "assets/animations/aardog/current/installed-blink-reopened.png",
+                "file": "output/aardog-import-20261113/studio-blink/aardog-reopened.png",
+                "sha256": "c9020b5cc12489127f3b37b59d6926caae086d6a72431fe4cb31cbe0b8e51103",
+                "rawCapture": {
+                  "file": "output/aardog-import-20261113/studio-blink/aardog-reopened-raw.jpg",
+                  "sha256": "53a4b9df8c430c8474df9bffdb8b4e9721456b22c267940c4ee5a53edcff2843",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "c8c666f66e45346d39014591939fa24266bd1c5b05a2d0a22bf2b73c74bbdbbd"
+              }
+            ]
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/aardog/current/aardog-animations-and-model.zip",
+            "sha256": "f65ae0d062f48371f416d101802e0e642bb77340d82da97a9898c02ed693c218",
+            "complete": true,
+            "animations": [
+              "Idle",
+              "Walk",
+              "Run",
+              "Blink"
+            ]
+          }
+        },
+        "currentAnimationMediaVerified": true
+      },
+      "reference": "aardog-perspective.png",
+      "egg": "aardog-egg.png",
+      "icon": "aardog-pets-v1-icon.png",
+      "collectionArt": {
+        "image": "aardog-CollectionArt.png",
+        "imageSha256": "43b3cebbe841b19f7594da0ae5dd296a1ae86b6f04541903750f0452563d6f45",
+        "silhouette": "aardog-CollectionArt-silhouette.png",
+        "silhouetteSha256": "3de94668d9f4b424653520fe89497f7d663222184fa67dbe18640fba16b9d400"
+      },
+      "artworkLayout": "flat-perspective-v1",
+      "artworkTransparency": {
+        "sha256": "b392b743a4ac3e2ee107bb0fe0ba47cb97dc88a27ba0013ef028376240b451be",
+        "shadowFreeVerified": true,
+        "review": "output/aardog-import-20261113/perspective-visual-review.json"
+      },
+      "diet": "Carnivore",
+      "mountable": false,
+      "travel": [
+        "Ground"
+      ],
+      "followingBuff": {
+        "id": "Mighty",
+        "Description": "While this pet follows you, it boosts your Strength by 20% (up to level 100). Carry heavier eggs, jump higher and use less stamina for club swings.",
+        "Effect": "Strength",
+        "HUDDescription": "+20% Strength (max 100).",
+        "Icon": "\ud83d\udcaa",
+        "Multiplier": 1.2,
+        "Name": "Strength Boost"
+      },
+      "hatchXPBonus": {
+        "skill": "Strength",
+        "firstXP": 10000,
+        "repeatXP": 1000,
+        "firstCash": 500000
+      },
+      "id": "aardog",
+      "parentStats": [
+        {
+          "name": "African wild dog",
+          "lengthMetres": 1.0,
+          "sizeMetres": 1.0,
+          "weightKg": 27.0,
+          "url": "https://www.awf.org/wildlife-conservation/african-wild-dog",
+          "sizeUrl": "https://www.awf.org/wildlife-conservation/african-wild-dog",
+          "sizeDimension": "length",
+          "basis": "Midpoint of the reported adult mass range.",
+          "sizeBasis": "Reported approximate length.",
+          "dominantSizeMetres": 1.0,
+          "dominantSizeAxis": "length",
+          "representativeSpecies": "Lycaon pictus",
+          "checked": "2026-11-12"
+        },
+        {
+          "name": "Aardvark",
+          "lengthMetres": 1.99,
+          "sizeMetres": 1.99,
+          "weightKg": 70.0,
+          "url": "https://www.tokyo-zoo.net/en/ueno/encyclopedia/aardvark/index.html",
+          "sizeUrl": "https://www.tokyo-zoo.net/en/ueno/encyclopedia/aardvark/index.html",
+          "sizeDimension": "length",
+          "basis": "Midpoint of the reported adult mass range.",
+          "sizeBasis": "Midpoint of the head and torso range plus the approximate tail length.",
+          "dominantSizeMetres": 1.99,
+          "dominantSizeAxis": "length",
+          "representativeSpecies": "Orycteropus afer",
+          "checked": "2026-11-12"
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "The fitted dominant length scales the heavier parent's mass directly.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Length",
+      "parentBlendTargetStuds": 6.223214285714285,
+      "heavierParent": "Aardvark",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Endangered",
+      "height": 1.8032086100538103,
+      "weight": 0.8626339247674322,
+      "eggHeight": 1.5,
+      "eggWeight": 0.08703299551051183,
+      "parents": "Frilled lizard + Thorny stick insect",
+      "length": 3.765465544619743,
+      "heightWeight": null,
+      "description": "Twigfrill creeps between warm rocks, then spreads its frill when it hears footsteps.",
+      "naturalHeight": 1.1223765373249794,
+      "naturalLength": 2.3437499999999996,
+      "weightReferenceKg": 0.675,
+      "weightReferenceDimensionMetres": 0.825,
+      "spawnWeight": 1048576,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Twigfrill",
+      "region": "inferno",
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "notes": "Installed in Studio Edit for The Burning Depths.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Separate model and animation reviews are pending."
+      },
+      "earnings": {
+        "amount": 194,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "modelImport": {
+        "source": {
+          "file": "creatures/11-the-burning-depths/twigfrill/twigfrill-initial.fbx",
+          "sha256": "3475fd17ecdd89a04f744516edc69160532d037d7db2984f22cdead1e46c11ef"
+        },
+        "model": {
+          "file": "creatures/11-the-burning-depths/twigfrill/twigfrill-2-animations.fbx",
+          "sha256": "82469b7bc5d9171f75bcbe70a6f7ff223c106c43cf9d1f9182a3884062416be0"
+        },
+        "native": {
+          "file": "assets/pets/twigfrill-rodin-v1/native-mesh.json",
+          "sha256": "4b9ae39ff18124744a786a328e994531d2f81e0911a406c73fec1b1da9f659d7"
+        },
+        "color": {
+          "file": "assets/pets/twigfrill-rodin-v1/color.png",
+          "sha256": "ac481a8eded16e49ca479b9fb9c0e7355cdf02119f5579e1dbd5fa0557e4ab13"
+        },
+        "maps": {
+          "color": {
+            "file": "assets/pets/twigfrill-rodin-v1/color.png",
+            "sha256": "ac481a8eded16e49ca479b9fb9c0e7355cdf02119f5579e1dbd5fa0557e4ab13"
+          },
+          "roughness": {
+            "file": "assets/pets/twigfrill-rodin-v1/roughness.png",
+            "sha256": "dbe614d74edc7c5eea82092cbfe2c2324ef164ee872021b0e981e8a2d86d97a4"
+          },
+          "metallic": {
+            "file": "assets/pets/twigfrill-rodin-v1/metallic.png",
+            "sha256": "4a0945534329d26ce523a2f096e203aae59a9fffaec71895599fa3ef42d23f22"
+          }
+        },
+        "rigged": true,
+        "installed": true,
+        "triangles": 2174,
+        "bones": 25
+      },
+      "implementation": {
+        "importCandidate": false,
+        "realModelReady": true,
+        "studioEditVerified": true,
+        "replacementImport": {
+          "importNumber": 1,
+          "date": "2026-11-13",
+          "installed": true,
+          "status": "installed-verified-edit",
+          "model": "creatures/11-the-burning-depths/twigfrill/twigfrill-2-animations.fbx",
+          "modelSha256": "82469b7bc5d9171f75bcbe70a6f7ff223c106c43cf9d1f9182a3884062416be0",
+          "mesh": "rbxassetid://123589462070700",
+          "animationRevision": "twigfrill-rodin-v1-surface-blink",
+          "rigBones": 25,
+          "triangles": 2174,
+          "nativePayload": "assets/pets/twigfrill-rodin-v1/native-mesh.json",
+          "nativePayloadSha256": "4b9ae39ff18124744a786a328e994531d2f81e0911a406c73fec1b1da9f659d7",
+          "installedEvidence": {
+            "file": "output/twigfrill-import-20261113/studio-isolated-apply.json",
+            "sha256": "b86fa865d30d1652971abbb55bcc28817be492fc923dd0feacdfaf6d9f21b30a"
+          },
+          "studioReadback": {
+            "file": "output/twigfrill-import-20261113/scene-complete-readback.json",
+            "sha256": "dfee0820728fade1951a140b8f5a4437452d00d37eab0182ee7a2601513d7087"
+          },
+          "sourceReadback": {
+            "file": "output/twigfrill-import-20261113/source-verify.json",
+            "sha256": "0270240579ae6c18ea7dda9cc6b417d9ceab3deefb277c5f4a2832f082d1a849"
+          },
+          "robloxImage": {
+            "wikiImage": "assets/animations/twigfrill/current/installed-roblox.png",
+            "file": "output/twigfrill-import-20261113/studio-blink/twigfrill-quarter.png",
+            "sha256": "74aa3dc6163dc5602df9db050e98c228a510645cf842d6c306d2558c9feaa9e8",
+            "rawCapture": {
+              "file": "output/twigfrill-import-20261113/studio-blink/twigfrill-quarter-raw.jpg",
+              "sha256": "2bfa288557655c669e5a2435528fa32021c925143d69e5f3d52dcc84afbbad09",
+              "format": "JPEG"
+            },
+            "decodedRgbSha256": "e9fc17a800d0154cf4f4bf238eed152a4d5cc6bcea79685d9027409f8d3abe89",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "captureFormat": "PNG",
+            "currentVersion": true,
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "heightStuds": 1.8032086100538103,
+            "nativePayloadSha256": "4b9ae39ff18124744a786a328e994531d2f81e0911a406c73fec1b1da9f659d7",
+            "modelSha256": "82469b7bc5d9171f75bcbe70a6f7ff223c106c43cf9d1f9182a3884062416be0",
+            "sourceReceipt": {
+              "file": "output/twigfrill-import-20261113/scene-readback.json",
+              "sha256": "81e5e7e78b0576b75f44467659de94ee4e949a453924c1dd304e1f6fcd642f01"
+            },
+            "captureReceipt": {
+              "file": "output/twigfrill-import-20261113/studio-blink/twigfrill-verification.json",
+              "sha256": "b31edd26a504a8c4bd1728e1475c5b165366be5979fc374d7550ee0bd7f5cb4d"
+            },
+            "blinkCaptureReceipt": {
+              "file": "output/twigfrill-import-20261113/studio-blink/twigfrill-verification.json",
+              "sha256": "b31edd26a504a8c4bd1728e1475c5b165366be5979fc374d7550ee0bd7f5cb4d"
+            },
+            "currentScope": "The Farm captures show four legs, a long spiny tail and the repaired frill and both eyelids.",
+            "detailImages": [
+              {
+                "label": "Rear quarter",
+                "wikiImage": "assets/animations/twigfrill/current/installed-rear.png",
+                "file": "output/twigfrill-import-20261113/studio-rear-quarter/twigfrill-rear.png",
+                "sha256": "1bddea51cafef7b828ef1311c4bc018bca71e089e26161a4e6131a2379957d21",
+                "rawCapture": {
+                  "file": "output/twigfrill-import-20261113/studio-rear-quarter/twigfrill-rear-raw.jpg",
+                  "sha256": "fa509043bb6c194a13b45505edfb85b8f0c9a753418d5d7e2bf257e5667f93c1",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "5b5ecf86bdd983682e692cd98d3698b3bbdbd738c67ed1c88f0f71c37ea84280"
+              },
+              {
+                "label": "Blink open",
+                "wikiImage": "assets/animations/twigfrill/current/installed-blink-open.png",
+                "file": "output/twigfrill-import-20261113/studio-blink/twigfrill-open.png",
+                "sha256": "e558b72c3cbc1a0207aa2874eb72f1b1a98b3eca1962ca611b7ddadb90e34c02",
+                "rawCapture": {
+                  "file": "output/twigfrill-import-20261113/studio-blink/twigfrill-open-raw.jpg",
+                  "sha256": "300a70ee6cdaa082cdadb51ff7b5dfd7a7fac525a7dced9424e212c2c0e4ce00",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "0c4030e57bafc5b5bd1c6fde1a4ed50cb1fc96920760e58b89a64bb58bbc2995"
+              },
+              {
+                "label": "Blink half closed",
+                "wikiImage": "assets/animations/twigfrill/current/installed-blink-half-closed.png",
+                "file": "output/twigfrill-import-20261113/studio-blink/twigfrill-half-closed.png",
+                "sha256": "1b5a18645161164dc8ad54230ba282f5e6c01b5ab667d79f90aeebf482b20898",
+                "rawCapture": {
+                  "file": "output/twigfrill-import-20261113/studio-blink/twigfrill-half-closed-raw.jpg",
+                  "sha256": "9d0d3fa2c415b5681954fa73fb533156ac22ba66b42314954b4dde999ffc66cc",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "5a99c19dd779f2b0b85d8488cba277d84ed1aeeec0b46a384b4f7c192d49b0de"
+              },
+              {
+                "label": "Blink closed",
+                "wikiImage": "assets/animations/twigfrill/current/installed-blink-closed.png",
+                "file": "output/twigfrill-import-20261113/studio-blink/twigfrill-closed.png",
+                "sha256": "7be24e262cccb6b54b4a037b60cc385bc0c46f31abc0a6f87d31be706abe2b66",
+                "rawCapture": {
+                  "file": "output/twigfrill-import-20261113/studio-blink/twigfrill-closed-raw.jpg",
+                  "sha256": "227cc9c0797f7833f8ceac351397e6b5fcac454a449fe2a4e68e2bbd122a18ed",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "17aefba8d6abfca124786d71b3ef296db65606caae25538ae45b4d5b53ea81f9"
+              },
+              {
+                "label": "Blink reopened",
+                "wikiImage": "assets/animations/twigfrill/current/installed-blink-reopened.png",
+                "file": "output/twigfrill-import-20261113/studio-blink/twigfrill-reopened.png",
+                "sha256": "e4ee8022f5dcebb15db2fc96172666ab240fd79a7cbe05e5f1711a2a06e5ce2b",
+                "rawCapture": {
+                  "file": "output/twigfrill-import-20261113/studio-blink/twigfrill-reopened-raw.jpg",
+                  "sha256": "3f16930c9e0da0c37fab94ca2918c340b894efae2a4f3e3ac2d2ac359b2828a0",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "975f4d22f86060c337099ead78457d0e50d4895117977566888d9ca6fe4f2706"
+              }
+            ]
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/twigfrill/current/twigfrill-animations-and-model.zip",
+            "sha256": "7a57a41428ae94007845e8fcdd300715797826ab2a1f19104a8cfa578960e920",
+            "complete": true,
+            "animations": [
+              "Idle",
+              "Walk",
+              "Run",
+              "Blink"
+            ]
+          }
+        },
+        "currentAnimationMediaVerified": true
+      },
+      "reference": "twigfrill-perspective.png",
+      "egg": "twigfrill-egg.png",
+      "icon": "twigfrill-pets-v1-icon.png",
+      "collectionArt": {
+        "image": "twigfrill-CollectionArt.png",
+        "imageSha256": "cbbb5c2da249cc7c61ba5ad327b601c77a5a8f9fd1b9a01e1234ae22b6108dbc",
+        "silhouette": "twigfrill-CollectionArt-silhouette.png",
+        "silhouetteSha256": "0f8d858a2d1f9448c46d6ccda8c7d4be2bb15cb5ef5c6fbb4171b231016c42f8"
+      },
+      "artworkLayout": "flat-perspective-v1",
+      "artworkTransparency": {
+        "sha256": "899cda9cbdf140b8040d4d5d96d1e54bb819d769f84133bd70d7e346ee5f5fed",
+        "shadowFreeVerified": true,
+        "review": "output/twigfrill-import-20261113/perspective-visual-review.json"
+      },
+      "diet": "Omnivore",
+      "mountable": false,
+      "travel": [
+        "Ground"
+      ],
+      "followingBuff": {
+        "id": "QuietSteps",
+        "Description": "Guardians detect you 15% closer while you Sneak.",
+        "Effect": "StealthRadius",
+        "HUDDescription": "15% smaller Sneak detection radius.",
+        "Image": "rbxassetid://132657854974278",
+        "Multiplier": 0.85,
+        "Name": "Quiet steps"
+      },
+      "hatchXPBonus": {
+        "skill": "Strength",
+        "firstXP": 10000,
+        "repeatXP": 1000,
+        "firstCash": 500000
+      },
+      "id": "twigfrill",
+      "parentStats": [
+        {
+          "name": "Frilled lizard",
+          "lengthMetres": 0.825,
+          "sizeMetres": 0.825,
+          "weightKg": 0.675,
+          "url": "https://denverzoo.org/animals/frilled-lizard/",
+          "sizeUrl": "https://denverzoo.org/animals/frilled-lizard/",
+          "sizeDimension": "length",
+          "basis": "Midpoint of the reported adult sex masses.",
+          "sizeBasis": "Midpoint of the reported total length range.",
+          "dominantSizeMetres": 0.825,
+          "dominantSizeAxis": "length",
+          "representativeSpecies": "Chlamydosaurus kingii",
+          "checked": "2026-11-12"
+        },
+        {
+          "name": "Thorny stick insect",
+          "lengthMetres": 0.15,
+          "sizeMetres": 0.15,
+          "weightKg": 0.025,
+          "url": "https://www.torontozoo.com/animals/MacLeay%27s%20spectres",
+          "sizeUrl": "https://www.torontozoo.com/animals/MacLeay%27s%20spectres",
+          "sizeDimension": "length",
+          "basis": "Reported adult female average mass.",
+          "sizeBasis": "Reported adult female body length.",
+          "dominantSizeMetres": 0.15,
+          "dominantSizeAxis": "length",
+          "representativeSpecies": "Extatosoma tiaratum",
+          "checked": "2026-11-12"
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "The fitted dominant length scales the heavier parent's mass directly.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Length",
+      "parentBlendTargetStuds": 2.3437499999999996,
+      "heavierParent": "Frilled lizard",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Critically Endangered",
+      "height": 2.297787856141325,
+      "weight": 19.611237621386064,
+      "eggHeight": 1.77816330128166,
+      "eggWeight": 1.978620022760915,
+      "parents": "Wolverine + Tasmanian devil",
+      "length": 3.930029761428556,
+      "heightWeight": null,
+      "description": "Wolverevil pads through the ash with its nose low and bursts forward when it catches a scent.",
+      "naturalHeight": 2.0228690736680774,
+      "naturalLength": 3.4598214285714284,
+      "weightReferenceKg": 18.0,
+      "weightReferenceDimensionMetres": 1.01,
+      "spawnWeight": 524288,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Wolverevil",
+      "region": "inferno",
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "notes": "Installed in Studio Edit for The Burning Depths.",
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Separate model and animation reviews are pending."
+      },
+      "earnings": {
+        "amount": 373,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "modelImport": {
+        "source": {
+          "file": "creatures/11-the-burning-depths/wolverevil/wolverevil-initial.fbx",
+          "sha256": "8ee2eefdaf24854aef05ba6000cb45ffa32234af7f3629c7194269a001a3da16"
+        },
+        "model": {
+          "file": "creatures/11-the-burning-depths/wolverevil/wolverevil-3-animations.fbx",
+          "sha256": "8ff7028ad29c6ba19e69683cbece12d83a38b47630e700a80b9a4d5851bda1a7"
+        },
+        "native": {
+          "file": "assets/pets/wolverevil-rodin-v1/native-mesh.json",
+          "sha256": "fc17a1ec58b4365570b08e624ef6b3a2dfa4225731e1649fe709ba16adcf18bb"
+        },
+        "color": {
+          "file": "assets/pets/wolverevil-rodin-v1/color.png",
+          "sha256": "35330a33515a13fc8f824470b3204e3d14d47d3811b320c461232e88ebd62635"
+        },
+        "maps": {
+          "color": {
+            "file": "assets/pets/wolverevil-rodin-v1/color.png",
+            "sha256": "35330a33515a13fc8f824470b3204e3d14d47d3811b320c461232e88ebd62635"
+          },
+          "roughness": {
+            "file": "assets/pets/wolverevil-rodin-v1/roughness.png",
+            "sha256": "dbe614d74edc7c5eea82092cbfe2c2324ef164ee872021b0e981e8a2d86d97a4"
+          },
+          "metallic": {
+            "file": "assets/pets/wolverevil-rodin-v1/metallic.png",
+            "sha256": "4a0945534329d26ce523a2f096e203aae59a9fffaec71895599fa3ef42d23f22"
+          }
+        },
+        "rigged": true,
+        "installed": true,
+        "triangles": 2366,
+        "bones": 26
+      },
+      "implementation": {
+        "importCandidate": false,
+        "realModelReady": true,
+        "studioEditVerified": true,
+        "replacementImport": {
+          "importNumber": 1,
+          "date": "2026-11-13",
+          "installed": true,
+          "status": "installed-verified-edit",
+          "model": "creatures/11-the-burning-depths/wolverevil/wolverevil-3-animations.fbx",
+          "modelSha256": "8ff7028ad29c6ba19e69683cbece12d83a38b47630e700a80b9a4d5851bda1a7",
+          "mesh": "rbxassetid://95717047493899",
+          "animationRevision": "wolverevil-rodin-v1-compact-gaits",
+          "rigBones": 26,
+          "triangles": 2366,
+          "nativePayload": "assets/pets/wolverevil-rodin-v1/native-mesh.json",
+          "nativePayloadSha256": "fc17a1ec58b4365570b08e624ef6b3a2dfa4225731e1649fe709ba16adcf18bb",
+          "installedEvidence": {
+            "file": "output/wolverevil-import-20261113/studio-isolated-apply.json",
+            "sha256": "a559bf4457cbae9adfd28b2716282d906c9f551e80b87ffbb8222b32c3b0720f"
+          },
+          "studioReadback": {
+            "file": "output/wolverevil-import-20261113/scene-complete-readback.json",
+            "sha256": "e38356bca62c35be12cf8273cc123257306bf9f1c8f8cfd9d837c05bf11ffd91"
+          },
+          "sourceReadback": {
+            "file": "output/wolverevil-import-20261113/source-verify.json",
+            "sha256": "a50c6661671a4b810699db146da2bd6d6d040799365c836d5755ad9f5ef26e0c"
+          },
+          "robloxImage": {
+            "wikiImage": "assets/animations/wolverevil/current/installed-roblox.png",
+            "file": "output/wolverevil-import-20261113/studio-blink/wolverevil-quarter.png",
+            "sha256": "7d6096b45a58861ba35b9e8eeb26a2b4b6c09adf6b1fedcd9eb4806f27f788df",
+            "rawCapture": {
+              "file": "output/wolverevil-import-20261113/studio-blink/wolverevil-quarter-raw.jpg",
+              "sha256": "26934299fffd763d95fae14468ff5b76693ca82fa25f17df911a067d8ddc958d",
+              "format": "JPEG"
+            },
+            "decodedRgbSha256": "b6ed9eeee88237d5a4eb8288e10844d37ee62276bc15a9c6d83bca8059d3b606",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "captureFormat": "PNG",
+            "currentVersion": true,
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "heightStuds": 2.297787856141325,
+            "nativePayloadSha256": "fc17a1ec58b4365570b08e624ef6b3a2dfa4225731e1649fe709ba16adcf18bb",
+            "modelSha256": "8ff7028ad29c6ba19e69683cbece12d83a38b47630e700a80b9a4d5851bda1a7",
+            "sourceReceipt": {
+              "file": "output/wolverevil-import-20261113/scene-readback.json",
+              "sha256": "fafd9ce895040038550b6ef1726babe2769beac1ce9cec4d9c6cd8090b89646b"
+            },
+            "captureReceipt": {
+              "file": "output/wolverevil-import-20261113/studio-blink/wolverevil-verification.json",
+              "sha256": "521d38b97a55fa782394011f0e972af274787fb0ac2c0eabe70a424a000e33d7"
+            },
+            "blinkCaptureReceipt": {
+              "file": "output/wolverevil-import-20261113/studio-blink/wolverevil-verification.json",
+              "sha256": "521d38b97a55fa782394011f0e972af274787fb0ac2c0eabe70a424a000e33d7"
+            },
+            "currentScope": "The Farm captures show four legs, one brush tail and the restored muzzle whiskers and both eyelids.",
+            "detailImages": [
+              {
+                "label": "Rear quarter",
+                "wikiImage": "assets/animations/wolverevil/current/installed-rear.png",
+                "file": "output/wolverevil-import-20261113/studio-rear-quarter/wolverevil-rear.png",
+                "sha256": "368194fe141f409514e3a2c8a394040329c089e9a8c93206c7be12793f0dfcbb",
+                "rawCapture": {
+                  "file": "output/wolverevil-import-20261113/studio-rear-quarter/wolverevil-rear-raw.jpg",
+                  "sha256": "ce4d8c8b18d15bf03eaaf63ea2e36b193733379e1871403cfda50d456efd3b84",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "f9122af642a968203154ba6f259f2945dac52ce26a301a67495136921face29c"
+              },
+              {
+                "label": "Blink open",
+                "wikiImage": "assets/animations/wolverevil/current/installed-blink-open.png",
+                "file": "output/wolverevil-import-20261113/studio-blink/wolverevil-open.png",
+                "sha256": "efa35cd0c45facb05797126e678792d03ff5ad04392c1412ccb15f7a9ef73041",
+                "rawCapture": {
+                  "file": "output/wolverevil-import-20261113/studio-blink/wolverevil-open-raw.jpg",
+                  "sha256": "0c7334678af7abdd4551a0b0a62dbdc03a68eb60f49e187654f6443eaf6717ec",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "7e31eba993f557482e9482c10c747620e03609897ae359d35f5c7cc35601d55b"
+              },
+              {
+                "label": "Blink half closed",
+                "wikiImage": "assets/animations/wolverevil/current/installed-blink-half-closed.png",
+                "file": "output/wolverevil-import-20261113/studio-blink/wolverevil-half-closed.png",
+                "sha256": "76debfb830de20a5b0c519b94c93d6a60d7a733944cae4195efa406f89f2a02b",
+                "rawCapture": {
+                  "file": "output/wolverevil-import-20261113/studio-blink/wolverevil-half-closed-raw.jpg",
+                  "sha256": "ed7dc3b60979c9adc64362fca6f22308b74a2cdd0aa33c2d00ed78ba80ff9ca3",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "37e942ab3d48bc06c189cdd2a6b405d7085af91f7097308b06e959179e384dcf"
+              },
+              {
+                "label": "Blink closed",
+                "wikiImage": "assets/animations/wolverevil/current/installed-blink-closed.png",
+                "file": "output/wolverevil-import-20261113/studio-blink/wolverevil-closed.png",
+                "sha256": "f834dac52071bbf72c939e39c82237c0d3336ef1a39ae9fc0c52c096b50be3ab",
+                "rawCapture": {
+                  "file": "output/wolverevil-import-20261113/studio-blink/wolverevil-closed-raw.jpg",
+                  "sha256": "662df98b474e8f6cdeb0429497df94009ccf3fcdcc05fc222bc698427e1b195e",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "ca71062f0209f935f4547263cf9ea02ba903f6a1eeb468fcc96ee5fc6723b8e0"
+              },
+              {
+                "label": "Blink reopened",
+                "wikiImage": "assets/animations/wolverevil/current/installed-blink-reopened.png",
+                "file": "output/wolverevil-import-20261113/studio-blink/wolverevil-reopened.png",
+                "sha256": "5091ebea5dfee86e9c91782695b1df41d672492072da60590af0fdebf8124a08",
+                "rawCapture": {
+                  "file": "output/wolverevil-import-20261113/studio-blink/wolverevil-reopened-raw.jpg",
+                  "sha256": "b1339248207d2512fcc8181d57157a3418dd76cdaf2056c1ab27b795fa81505b",
+                  "format": "JPEG"
+                },
+                "decodedRgbSha256": "5f3a45b83012a6440d7f5622f4e03e9083ba007fcef9eabf8141466a10e5b4e7"
+              }
+            ]
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/wolverevil/current/wolverevil-animations-and-model.zip",
+            "sha256": "fbabf09deac7d9deea6aced76b36c9ff619c5f703d734378ce3bff8f98f0d629",
+            "complete": true,
+            "animations": [
+              "Idle",
+              "Walk",
+              "Run",
+              "Blink"
+            ]
+          }
+        },
+        "currentAnimationMediaVerified": true
+      },
+      "reference": "wolverevil-perspective.png",
+      "egg": "wolverevil-egg.png",
+      "icon": "wolverevil-pets-v1-icon.png",
+      "collectionArt": {
+        "image": "wolverevil-CollectionArt.png",
+        "imageSha256": "a61d7f9a90c2cdfbcf9b199634ec9b7f9171c64c21c34cd47c96227f2b82bedd",
+        "silhouette": "wolverevil-CollectionArt-silhouette.png",
+        "silhouetteSha256": "8958c6fc88c972a93dd4e360c777268441c2197bf354067787c374f5340dce5d"
+      },
+      "artworkLayout": "flat-perspective-v1",
+      "artworkTransparency": {
+        "sha256": "60846f6abcead09803c161f454098c93b64714fad7e04188a40b6676ae477673",
+        "shadowFreeVerified": true,
+        "review": "output/wolverevil-import-20261113/perspective-visual-review.json"
+      },
+      "diet": "Carnivore",
+      "mountable": false,
+      "travel": [
+        "Ground"
+      ],
+      "followingBuff": {
+        "id": "FleetFoot",
+        "Description": "10% faster running, within area speed limits.",
+        "Effect": "Running",
+        "HUDDescription": "10% faster running (area limits apply).",
+        "Icon": "\ud83d\udc5f",
+        "Multiplier": 1.1,
+        "Name": "Fleet foot"
+      },
+      "hatchXPBonus": {
+        "skill": "Strength",
+        "firstXP": 20000,
+        "repeatXP": 2000,
+        "firstCash": 1000000
+      },
+      "id": "wolverevil",
+      "parentStats": [
+        {
+          "name": "Wolverine",
+          "lengthMetres": 1.01,
+          "sizeMetres": 1.01,
+          "weightKg": 18,
+          "url": "https://www.adfg.alaska.gov/static/home/library/pdfs/wildlife/research_pdfs/98_fur_man_tech_golden.pdf",
+          "sizeUrl": "https://www.adfg.alaska.gov/static/home/library/pdfs/wildlife/research_pdfs/98_fur_man_tech_golden.pdf",
+          "sizeDimension": "length",
+          "basis": "Adult male TM9, Table 2.2.",
+          "sizeBasis": "Reported total length for the same animal.",
+          "dominantSizeMetres": 1.01,
+          "dominantSizeAxis": "length",
+          "representativeSpecies": "Gulo gulo",
+          "checked": "2026-11-12"
+        },
+        {
+          "name": "Tasmanian devil",
+          "lengthMetres": 0.845,
+          "sizeMetres": 0.845,
+          "weightKg": 7.5,
+          "url": "https://australian.museum/learn/animals/mammals/tasmanian-devil/",
+          "sizeUrl": "https://australian.museum/learn/animals/mammals/tasmanian-devil/",
+          "sizeDimension": "length",
+          "basis": "Typical adult female mass.",
+          "sizeBasis": "Combined midpoints of head-body and tail lengths.",
+          "dominantSizeMetres": 0.845,
+          "dominantSizeAxis": "length",
+          "representativeSpecies": "Sarcophilus harrisii",
+          "checked": "2026-11-12"
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "The fitted dominant length scales the heavier parent's mass directly.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Length",
+      "parentBlendTargetStuds": 3.4598214285714284,
+      "heavierParent": "Wolverine",
       "parentReferenceRevision": "dominant-baseline-then-quality-v10"
     }
   ],
@@ -149245,19 +150138,31 @@
     "inferno": [
       {
         "species": "Thorny Mantis",
-        "chance": 14.285714285714285
+        "chance": 8.333333333333332
       },
       {
         "species": "Scorpicorn",
-        "chance": 28.57142857142857
+        "chance": 16.666666666666664
       },
       {
         "species": "Shellure",
-        "chance": 28.57142857142857
+        "chance": 16.666666666666664
       },
       {
         "species": "Lemu",
-        "chance": 28.57142857142857
+        "chance": 16.666666666666664
+      },
+      {
+        "species": "Aardog",
+        "chance": 16.666666666666664
+      },
+      {
+        "species": "Twigfrill",
+        "chance": 16.666666666666664
+      },
+      {
+        "species": "Wolverevil",
+        "chance": 8.333333333333332
       }
     ],
     "sky_foothills": [
@@ -150137,6 +151042,101 @@
     "penaltyPerKg": 0.06,
     "petWeightExponent": 1,
     "species": {
+      "Aardog": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.602534683481798,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 3.5007283337535777,
+            "eggMaxKg": 7.730100871219956,
+            "eggMinHeight": 2.1004370002521466,
+            "eggMinKg": 4.638060522731974,
+            "incomeMax": 242.5,
+            "incomeMin": 145.5,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 4.873068702966649,
+            "petMaxKg": 76.61746231155777,
+            "petMinHeight": 2.9238412217799894,
+            "petMinKg": 45.97047738693467,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 4.200874000504293,
+            "eggMaxKg": 9.276121045463947,
+            "eggMinHeight": 2.800582667002862,
+            "eggMinKg": 6.184080696975965,
+            "incomeMax": 582,
+            "incomeMin": 388,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 5.847682443559979,
+            "petMaxKg": 91.94095477386934,
+            "petMinHeight": 3.89845496237332,
+            "petMinKg": 61.293969849246224,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 5.601165334005724,
+            "eggMaxKg": 12.36816139395193,
+            "eggMinHeight": 4.200874000504293,
+            "eggMinKg": 9.276121045463947,
+            "incomeMax": 1552,
+            "incomeMin": 1164,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 7.79690992474664,
+            "petMaxKg": 122.58793969849245,
+            "petMinHeight": 5.847682443559979,
+            "petMinKg": 91.94095477386934,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 7.0014566675071555,
+            "eggMaxKg": 15.460201742439912,
+            "eggMinHeight": 5.601165334005724,
+            "eggMinKg": 12.36816139395193,
+            "incomeMax": 3880,
+            "incomeMin": 3104,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 9.746137405933299,
+            "petMaxKg": 153.23492462311555,
+            "petMinHeight": 7.79690992474664,
+            "petMinKg": 122.58793969849245,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.5,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 8.401748001008587,
+            "eggMaxKg": 18.552242090927894,
+            "eggMinHeight": 7.0014566675071555,
+            "eggMinKg": 15.460201742439912,
+            "incomeMax": 9312,
+            "incomeMin": 7760,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 11.695364887119958,
+            "petMaxKg": 183.88190954773867,
+            "petMinHeight": 9.746137405933299,
+            "petMinKg": 153.23492462311555,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 2.800582667002862,
+        "baseHeight": 3.8984549623733193,
+        "baseLength": 6.223214285714285,
+        "baseWeight": 61.29396984924623,
+        "eggSizingHeight": 3.8984549623733193,
+        "rawBaseEggHeight": 2.800582667002862
+      },
       "Albatrossaurus": {
         "bands": [
           {
@@ -157357,6 +158357,101 @@
         "eggSizingHeight": 1.335062731488326,
         "rawBaseEggHeight": 0.8941067978180763
       },
+      "Twigfrill": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.9921989233539341,
+            "carryMinRatio": 0.9870486354923289,
+            "eggMaxHeight": 1.5,
+            "eggMaxKg": 0.1087912443881398,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.06527474663288388,
+            "incomeMax": 242.5,
+            "incomeMin": 145.5,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 2.2540107623396404,
+            "petMaxKg": 1.0782924059592902,
+            "petMinHeight": 1.352406457403784,
+            "petMinKg": 0.6469754435755741,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.989618779965556,
+            "carryMinRatio": 0.9844884255187771,
+            "eggMaxHeight": 1.5,
+            "eggMaxKg": 0.13054949326576776,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.08703299551051183,
+            "incomeMax": 582,
+            "incomeMin": 388,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 2.704812914807568,
+            "petMaxKg": 1.2939508871511483,
+            "petMinHeight": 1.8032086098717124,
+            "petMinKg": 0.8626339247674322,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.9844884255187771,
+            "carryMinRatio": 0.9793975542995104,
+            "eggMaxHeight": 1.8717876680945142,
+            "eggMaxKg": 0.17406599102102366,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.13054949326576776,
+            "incomeMax": 1552,
+            "incomeMin": 1164,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 3.6064172197434248,
+            "petMaxKg": 1.7252678495348643,
+            "petMinHeight": 2.704812914807568,
+            "petMinKg": 1.2939508871511483,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.9793975542995104,
+            "carryMinRatio": 0.9743456624538624,
+            "eggMaxHeight": 2.339734585118143,
+            "eggMaxKg": 0.2175824887762796,
+            "eggMinHeight": 1.8717876680945142,
+            "eggMinKg": 0.17406599102102366,
+            "incomeMax": 3880,
+            "incomeMin": 3104,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 4.508021524679281,
+            "petMaxKg": 2.1565848119185804,
+            "petMinHeight": 3.6064172197434248,
+            "petMinKg": 1.7252678495348643,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.9743456624538624,
+            "carryMinRatio": 0.9693322550839358,
+            "eggMaxHeight": 2.8076815021417714,
+            "eggMaxKg": 0.2610989865315355,
+            "eggMinHeight": 2.339734585118143,
+            "eggMinKg": 0.2175824887762796,
+            "incomeMax": 9312,
+            "incomeMin": 7760,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 5.409625829615136,
+            "petMaxKg": 2.5879017743022965,
+            "petMinHeight": 4.508021524679281,
+            "petMinKg": 2.1565848119185804,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 1.5,
+        "baseHeight": 1.8032086100538103,
+        "baseLength": 3.765465544619743,
+        "baseWeight": 0.8626339247674322,
+        "eggSizingHeight": 1.8032086100538103,
+        "rawBaseEggHeight": 0.9358938340472571
+      },
       "Vulturkey": {
         "bands": [
           {
@@ -157546,6 +158641,101 @@
         "baseWeight": 41.35220994475138,
         "eggSizingHeight": 5.874999999999999,
         "rawBaseEggHeight": 3.2197308367363506
+      },
+      "Wolverevil": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.8424035813103166,
+            "carryMinRatio": 0.7559248847895752,
+            "eggMaxHeight": 2.222704126602075,
+            "eggMaxKg": 2.4732750284511438,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 1.483965017070686,
+            "incomeMax": 466.25,
+            "incomeMin": 279.75,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 2.872234820176656,
+            "petMaxKg": 24.51404702673258,
+            "petMinHeight": 1.7233408921059934,
+            "petMinKg": 14.708428216039547,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.7976059998768501,
+            "carryMinRatio": 0.7170148810357033,
+            "eggMaxHeight": 2.66724495192249,
+            "eggMaxKg": 2.967930034141372,
+            "eggMinHeight": 1.77816330128166,
+            "eggMinKg": 1.978620022760915,
+            "incomeMax": 1119,
+            "incomeMin": 746,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 3.446681784211987,
+            "petMaxKg": 29.416856432079094,
+            "petMinHeight": 2.297787856141325,
+            "petMinKg": 19.611237621386064,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.7170148810357033,
+            "carryMinRatio": 0.6463739299194693,
+            "eggMaxHeight": 3.55632660256332,
+            "eggMaxKg": 3.95724004552183,
+            "eggMinHeight": 2.66724495192249,
+            "eggMinKg": 2.967930034141372,
+            "incomeMax": 2984,
+            "incomeMin": 2238,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 4.59557571228265,
+            "petMaxKg": 39.22247524277213,
+            "petMinHeight": 3.446681784211987,
+            "petMinKg": 29.416856432079094,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.6463739299194693,
+            "carryMinRatio": 0.5837909119959424,
+            "eggMaxHeight": 4.44540825320415,
+            "eggMaxKg": 4.9465500569022876,
+            "eggMinHeight": 3.55632660256332,
+            "eggMinKg": 3.95724004552183,
+            "incomeMax": 7460,
+            "incomeMin": 5968,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 5.744469640353312,
+            "petMaxKg": 49.02809405346516,
+            "petMinHeight": 4.59557571228265,
+            "petMinKg": 39.22247524277213,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.5837909119959424,
+            "carryMinRatio": 0.5,
+            "eggMaxHeight": 5.33448990384498,
+            "eggMaxKg": 5.935860068282744,
+            "eggMinHeight": 4.44540825320415,
+            "eggMinKg": 4.9465500569022876,
+            "incomeMax": 17904,
+            "incomeMin": 14920,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 6.893363568423974,
+            "petMaxKg": 58.83371286415819,
+            "petMinHeight": 5.744469640353312,
+            "petMinKg": 49.02809405346516,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 1.77816330128166,
+        "baseHeight": 2.297787856141325,
+        "baseLength": 3.930029761428556,
+        "baseWeight": 19.611237621386064,
+        "eggSizingHeight": 2.297787856141325,
+        "rawBaseEggHeight": 1.77816330128166
       },
       "Woolrus": {
         "bands": [

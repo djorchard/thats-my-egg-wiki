@@ -1,5 +1,5 @@
 {
-  "mappedSources": 1176,
+  "mappedSources": 1226,
   "filesWithKeyReferences": 68,
   "sourceHashes": {
     "src/mailbox_interaction.luau": "fefb19510bb6a9f6725c6154e2c2e5574b4a2c4e6793d8b8afd996529e56a4ea",
@@ -11,7 +11,7 @@
     "src/banana_plants.client.luau": "a917d68b9b5b3c594e0d279769a895f2f59ad590024f10d5fde20061e52a754e",
     "src/community.client.luau": "0f5eed49c8603aa238be7799c73785d5ddd86f8c5815c3188861f9e1656fa8f4",
     "src/first_join_cutscene.luau": "a7ffc414c9ee750f27e2c1355bca5981c2ba42c8ad754ce20591930116ae6e85",
-    "src/fake_egg_trap.luau": "7bd983d65c03b84cef18771af7ecc571090a3766b73c1056d603aa5e399d29d8",
+    "src/fake_egg_trap.luau": "b827d32e440c7922fa55801f4413c4951a7305b6898dbfe2fef55b24c8813aeb",
     "src/ui_dropdown.luau": "035e6fd62c98223015ced5ca9d02514c65664884cf2aab6a737773881a6a3db4",
     "src/inventory_tray.luau": "6df60110b32a4a521ebff929d0f020984a2549117723b6584f71532eb2429e48",
     "src/management_admin_free_camera.luau": "614c7b5ab31a86f74fa9c9fae2532fb409680a6f55de88b3d2fd75c95e17b6ff",
@@ -24,7 +24,7 @@
     "src/egg_hotbar.client.luau": "efde31499e2b1ffd5711d081e636ad77a98d331a7e35b4d6ed7037c43cb2726c",
     "src/home_garden.server.luau": "224b9dfaeabc2ea6f65a49af8f530416b1c533cf218299d86229d015005968dd",
     "src/home_garden.client.luau": "e2314eb2837294d52cd3b2047f1034370a356417f49960aea940d6c31093f0a6",
-    "src/developer_tools.client.luau": "9f2898ff6a6724a6c67b61f2d0fa3b728de58434a80b45dab6ea8c981b0c6ce5",
+    "src/developer_tools.client.luau": "58b5203a3d704d99e49db68e36104464a678c48e49d199f34412aa56bcdbbf13",
     "src/birth_certificate.luau": "a04cc110ce5c0c235e44e1c798c501bcccc50a53eca66a3637be2ea26b2fcd84",
     "src/egg_drop_service.luau": "d0dc9e1d86ae1d82f48338d7ab5006ae291d13bc432b0e652b6ebbf220e4c0a6",
     "src/garden_roaming_client.luau": "f14d243911cbcc90badfef6cf4f80cbb9eb25dea762d3ce65068b1dc4227e1fe",
@@ -68,7 +68,7 @@
     "src/boombox.client.luau": "599f20ce4280a651b58e3a7f373db63b43d87f324d483d706ce0c0fcc8b35724",
     "src/running_boost.client.luau": "424b34124b3b3a5079826ab6318facb2f08a712f2d3c2b98025568d3579ae0ff",
     "src/pet_follower_callout.luau": "7d7d4626b02bdcde56ed56198f193c4a60522366a97505968f0f90adb4d24861",
-    "src/backyard_parents.client.luau": "c0630f2fd45c01077c88ed45681a0dbdf50acc840f364395b09711cb63b5f698",
+    "src/backyard_parents.client.luau": "211ac8470e28a5cc6584cf7a9d3c7bfc71b2b4ecad7b689e799e396796d7c564",
     "src/running_hide.client.luau": "d1699d13d1c3b2bdf4f66ffd85cc3187e56f27437c4b56b64adc22d6a7c62ff4"
   },
   "keyReferences": {
@@ -99,7 +99,7 @@
       },
       {
         "file": "src/fake_egg_trap.luau",
-        "line": 99
+        "line": 97
       },
       {
         "file": "src/management_admin_free_camera.luau",
@@ -427,7 +427,7 @@
       },
       {
         "file": "src/developer_tools.client.luau",
-        "line": 1552
+        "line": 1584
       },
       {
         "file": "src/garden_roaming_client.luau",
@@ -481,7 +481,7 @@
     "F": [
       {
         "file": "src/fake_egg_trap.luau",
-        "line": 404
+        "line": 402
       },
       {
         "file": "src/backyard_client.luau",
@@ -925,7 +925,7 @@
       },
       {
         "file": "src/developer_tools.client.luau",
-        "line": 1543
+        "line": 1575
       }
     ],
     "Tab": [

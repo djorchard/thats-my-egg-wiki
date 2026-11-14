@@ -3072,6 +3072,19 @@ HUD hiding, death, respawn and cleanup preserve the priority. This changes
 presentation only, not stamina, oxygen or their server calculations.
 Source compilation/lint/analysis passed, with 65 stamina visibility checks and
 30 breath runtime checks. Live HUD acceptance remains pending.
+## Birth certificate reward buttons, 14 November 2026
+
+Reward tiles use the existing artwork as native image buttons. Keep the Cash
+tile to the left of any skill tile and keep the established tile sizes and
+spacing. Stealth uses the existing HUD icon on a rounded card. A used tile
+displays the greyscale version of its artwork in the same bounds. Cash and
+skill amounts use the existing reward typography and fitting constraints.
+
+Each activation pops a passive icon and amount above its tile, then lifts and
+fades them. Play the matching Cash or skill cue at the start. OK and the other
+acknowledgement routes use the same effect for any reward still available.
+The overlay releases itself after the last tween.
+
 ## Birth certificate reward presentation, 31 October 2026
 
 Keep the biome artwork untinted. Do not add a colour wash, scrim or scene-wide

@@ -1,6 +1,78 @@
 {
   "creatures": [
     {
+      "status": "Alien Least Concern",
+      "height": 4.5,
+      "weight": 5.0,
+      "eggHeight": 1.9815290112897936,
+      "eggWeight": 0.5044607742152971,
+      "parents": null,
+      "length": 4.5,
+      "heightWeight": 5.0,
+      "description": "Glowing teal lines run across this purple pet. It hides in space rocks and feels a tremor through its square feet.",
+      "spawnWeight": 65536,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Grim Creeper",
+      "region": null,
+      "stage": "catalogue",
+      "eventSource": "Meteor",
+      "artworkLayout": "flat-perspective-v1",
+      "reference": "grim-creeper-perspective.png",
+      "artworkTransparency": {
+        "sha256": "f6213bb7aa06bfed09178ed49933c1f0128efc941fed3f1ec872a03d5258e115",
+        "shadowFreeVerified": true,
+        "review": "assets/pets/grim-creeper-meteor-v1/illustrations/perspective-review.json"
+      },
+      "egg": "grim-creeper-egg.png",
+      "icon": "grim-creeper-icon.png",
+      "collectionArt": {
+        "image": "grim-creeper-CollectionArt.png",
+        "imageSha256": "d86abb0cff6eae35b0a73195b041ce9eacda893c17f8503db7013b55c7073096",
+        "silhouette": "grim-creeper-CollectionArt-silhouette.png",
+        "silhouetteSha256": "331f328f200ce8e1d65cdde7dc4f9168d86bd08d20a1930deaa09292b2d7e5b0"
+      },
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "The alien finish was prepared on the articulated Grim Peeper rig. Gameplay and player review are pending."
+      },
+      "earnings": {
+        "amount": 10,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "diet": "Omnivore",
+      "mountable": false,
+      "travel": [
+        "Ground"
+      ],
+      "followingBuff": {
+        "id": "SoftLanding",
+        "Description": "50% less fall damage. The safe fall distance stays the same.",
+        "Effect": "FallDamage",
+        "HUDDescription": "50% less fall damage.",
+        "Icon": "\ud83e\udeb6",
+        "Multiplier": 0.5,
+        "Name": "Soft landing"
+      },
+      "hatchXPBonus": {
+        "skill": "Strength",
+        "firstXP": 10000,
+        "repeatXP": 1000,
+        "firstCash": 5000000
+      },
+      "id": "grim-creeper",
+      "parentStats": [],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "Fictional alien with the retained Grim Peeper size and mass.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": null,
+      "parentBlendTargetStuds": null,
+      "heavierParent": null
+    },
+    {
       "status": "Least Concern",
       "height": 3.890728534082394,
       "weight": 33.58520478637455,
@@ -23,7 +95,7 @@
         "revision": 5,
         "danielApproved": false,
         "codexApproved": false,
-        "note": "Daniel returned Labraduck to WIP on 28 October 2026 because of animation issues. Model and animation reapproval is pending."
+        "note": "The 8 November replacement is installed in Studio Edit and is ready for Daniel to review. Prior review decisions are retained."
       },
       "earnings": {
         "amount": 5,
@@ -39,7 +111,7 @@
           "sha256": "61652471217fde114acbbda12059bc400514648c5b4791f354c67e4055b49904"
         }
       ],
-      "notes": "Labraduck has a 3.8-stud low-poly pet model in Roblox Studio with four 1K textures. The Backyard guardian remains a separate model. Installed Blink needs work because both painted eyes still show beneath the lids at full closure. The Blink download shows the separately reviewed offline expression.",
+      "notes": "Labraduck uses the 8 November body in Studio Edit. The quick blink closes and reopens both eyes. Held lids during sleep and petting still need polish.",
       "reviewHistory": [
         {
           "review": {
@@ -264,167 +336,81 @@
           }
         ],
         "currentModel": {
-          "file": "creatures/1-sunnyside-backyard/labraduck/labraduck-11-contact-fit2.fbx",
-          "sha256": "2a220690b35c159595447a12a60bc96b5d4e8b39f5372cbb710cf4cbd1fc3e8d"
+          "file": "creatures/1-sunnyside-backyard/labraduck/labraduck-14-contact-animations4.fbx",
+          "sha256": "d36537e1c3a0b29be73699408d45991b19a72aea1eea7814a585f189c8da364a"
         },
         "nativeMesh": {
-          "file": "assets/pets/labraduck-lowpoly-v2/native-mesh.json",
-          "sha256": "2efbb049dee8eb1a89b958bdc29397f0c776e5b83cf645e95bfd22f4c8fb4ca7"
+          "file": "assets/pets/labraduck-replacement-20261108/native-mesh.json",
+          "sha256": "5a7af2091fa6851dee51ff26a32bdf1b26c1be9c60592cde9d6cd172089c9ba5"
         },
         "installation": {
-          "file": "output/labraduck-lowpoly-20261106/studio-apply-console.json",
-          "sha256": "cb2fd68ea0a4c89e481c11ae8c31d6ba4e6b406865860247dffd2da35cbc293c"
+          "file": "output/labraduck-import-20261108/install-20261115/verified-install.json",
+          "sha256": "4ed901c5aeea4a45344b9c68585da0754fe94c4dbc9ec548a296a1e30031f7ff"
         },
-        "qualityNotice": "Labraduck has a 3.8-stud low-poly pet model in Roblox Studio with four 1K textures. The Backyard guardian remains a separate model. Installed Blink needs work because both painted eyes still show beneath the lids at full closure. The Blink download shows the separately reviewed offline expression.",
+        "qualityNotice": "The 8 November body is installed in Studio Edit. Held sleep and petting eyelids still need polish.",
         "replacementImport": {
-          "importNumber": 2,
-          "date": "2026-11-06",
-          "installed": true,
-          "status": "installed-verified-edit",
-          "model": "creatures/1-sunnyside-backyard/labraduck/labraduck-11-contact-fit2.fbx",
-          "modelSha256": "2a220690b35c159595447a12a60bc96b5d4e8b39f5372cbb710cf4cbd1fc3e8d",
-          "mesh": "rbxassetid://119026817563489",
-          "animationRevision": "labraduck-lowpoly-v2-contact-v1",
-          "rigBones": 26,
-          "nativePayload": "assets/pets/labraduck-lowpoly-v2/native-mesh.json",
-          "nativePayloadSha256": "2efbb049dee8eb1a89b958bdc29397f0c776e5b83cf645e95bfd22f4c8fb4ca7",
+          "status": "installed-eyelid-polish-pending",
+          "modelFile": "creatures/1-sunnyside-backyard/labraduck/labraduck-14-contact-animations4.fbx",
+          "modelSha256": "d36537e1c3a0b29be73699408d45991b19a72aea1eea7814a585f189c8da364a",
           "robloxImage": {
-            "wikiImage": "assets/animations/labraduck/wiki-snapshots-20261110-v10/snapshot.jpg",
-            "sha256": "d2208e19f72ae8ae51a4252e595f58ee622a0596823b3fc98d1c0e2fab641319",
             "environment": "Studio Edit",
-            "pose": "Idle",
-            "poseTimeSeconds": 1,
-            "captureFormat": "JPEG",
+            "pose": "Neutral",
+            "wikiImage": "assets/animations/labraduck/import4-20261115/studio-guardian.jpg",
+            "sha256": "ee877f931a80df72b060f3368786be093991397077060bcd54717569e55f98a6",
             "currentVersion": true,
-            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
-            "nativePayloadSha256": "2efbb049dee8eb1a89b958bdc29397f0c776e5b83cf645e95bfd22f4c8fb4ca7",
-            "modelSha256": "2a220690b35c159595447a12a60bc96b5d4e8b39f5372cbb710cf4cbd1fc3e8d",
-            "heightStuds": 3.890728534082394,
-            "animationRevision": "labraduck-lowpoly-v2-contact-v1",
-            "sourceCapture": {
-              "file": "screenshot/needs-review/wiki-creatures-2026-11-10/62dc4b522746/labraduck/snapshot.jpg",
-              "sha256": "d2208e19f72ae8ae51a4252e595f58ee622a0596823b3fc98d1c0e2fab641319"
-            },
-            "captureReceipt": {
-              "file": "output/wiki-refresh/20261110-creature-snapshots/captures/62dc4b522746/labraduck/receipt.json",
-              "sha256": "cfc3a15186b7420b27d9d75da65e68d275bdb2b65c0192d4b6607efbfa4de285"
-            },
-            "modelSource": {
-              "file": "creatures\\1-sunnyside-backyard\\labraduck\\old-models\\labraduck-11-contact-fit2.fbx",
-              "sha256": "2a220690b35c159595447a12a60bc96b5d4e8b39f5372cbb710cf4cbd1fc3e8d"
-            },
-            "capturedAt": "2026-11-10T04:09:16.443975+00:00",
             "detailImages": [],
-            "currentScope": "Native Studio Edit fixture using the current installed template in the Farm scene at its standard catalogue height. Live gameplay acceptance remains separate."
+            "evidence": "output/labraduck-import-20261108/install-20261115/verified-install.json",
+            "captureFormat": "JPEG",
+            "currentScope": "The Backyard guardian uses the same body mesh as the pet.",
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10"
           },
+          "installed": true,
+          "mesh": "rbxassetid://120743776131447",
           "animationBundle": {
-            "wikiFile": "assets/animations/labraduck/lowpoly-v2/labraduck-lowpoly-animations.zip",
-            "sha256": "4d293a169a7afbedf65d4350ca6819d86badd67bad7e6fb108c3293e00589cec",
+            "wikiFile": "assets/animations/labraduck/import4-20261115/labraduck-animations.zip",
+            "sha256": "615d7eab24b93e02fbed9b91f59090e58c5fe516532a14692fc814cb6fa5591d",
             "complete": true,
-            "animations": [
-              "Idle",
-              "Walk",
-              "Run",
-              "Chase",
-              "Flap",
-              "Quack",
-              "Blink",
-              "PatrolWalk",
-              "Guardian Chase"
-            ]
-          },
-          "installedEvidence": {
-            "file": "output/labraduck-lowpoly-20261106/studio-apply-console.json",
-            "sha256": "cb2fd68ea0a4c89e481c11ae8c31d6ba4e6b406865860247dffd2da35cbc293c"
-          },
-          "qualityNotice": "Labraduck has a 3.8-stud low-poly pet model in Roblox Studio with four 1K textures. The Backyard guardian remains a separate model. Installed Blink needs work because both painted eyes still show beneath the lids at full closure. The Blink download shows the separately reviewed offline expression.",
-          "allRequiredQualityAccepted": false,
-          "currentExpressionMediaStatus": {
-            "currentMediaAvailable": true
-          },
-          "nativeBlinkReview": {
-            "verdict": "needs-work",
-            "comment": "Needs work. At the installed closed pose, the rounded lids sit high and the bottom of both painted eyes is visible. The separate offline Blink scored 7.5/10.",
-            "minimumPassRating": 7.5,
-            "offlinePreviewScore": 7.5,
-            "scope": "Installed Roblox Studio Edit closed pose",
-            "capture": {
-              "file": "output/labraduck-lowpoly-20261106/studio-verified/closed-eyes.png",
-              "sha256": "daf11bddd9e5586aa21a1e35a3f1a7aef3ff4535807af5754fd4154f97e8ec36"
-            },
-            "captureReceipt": {
-              "file": "output/labraduck-lowpoly-20261106/studio-verified/verification.json",
-              "sha256": "021fbde2333e68075c6a5a9483d277cbe0a6105d0a767eb38f504f5f1aa08e5e"
-            },
-            "wikiImage": "assets/animations/labraduck/lowpoly-v2/roblox-closed-eyes.jpg"
-          },
-          "historicalRobloxImages": [
-            {
-              "environment": "Studio Edit",
-              "pose": "Idle",
-              "currentVersion": true,
-              "captureFormat": "JPEG",
-              "wikiImage": "assets/animations/labraduck/lowpoly-v2/roblox-open-quarter.jpg",
-              "sha256": "27b1c90f325f9d546c477fcb83c03990904763f87548fff69e3276e6c06b8239",
-              "file": "output/labraduck-lowpoly-20261106/studio-verified/open-quarter.png",
-              "verification": "output/labraduck-lowpoly-20261106/studio-verified/verification.json",
-              "verificationSha256": "021fbde2333e68075c6a5a9483d277cbe0a6105d0a767eb38f504f5f1aa08e5e",
-              "currentScope": "The low-poly 3.8-stud pet is in the foreground. The existing Backyard guardian is separate and is visible in the background.",
-              "detailImages": [
-                {
-                  "label": "Installed Blink, eyes open",
-                  "wikiImage": "assets/animations/labraduck/lowpoly-v2/roblox-open-eyes.jpg",
-                  "sha256": "a4d929120370ee5dcfd96f80d1f7613791a92ece71f2d6c6232e11465f728988"
-                },
-                {
-                  "label": "Installed Blink, full closure needs work",
-                  "wikiImage": "assets/animations/labraduck/lowpoly-v2/roblox-closed-eyes.jpg",
-                  "sha256": "daf11bddd9e5586aa21a1e35a3f1a7aef3ff4535807af5754fd4154f97e8ec36"
-                },
-                {
-                  "label": "Installed Blink, eyes reopened",
-                  "wikiImage": "assets/animations/labraduck/lowpoly-v2/roblox-reopened-eyes.jpg",
-                  "sha256": "f7b9658f416f53bb536907ed5f0cd69d3a33034b950c8096aa006082d9509e70"
-                }
-              ]
-            }
-          ]
+            "scope": "Nine current action previews in GIF and MP4, plus the retained FBX."
+          }
         },
         "realModelReady": true,
         "placeholderHatchling": false,
         "modelAvailability": {
-          "date": "2026-11-07",
+          "date": "2026-11-15",
           "environment": "Studio Edit",
           "status": "installed",
           "evidence": {
-            "file": "output/model-import-audit-20261107/studio-inventory-after.json",
-            "sha256": "c3c30248b333f4a44703a560ba4dde1842357cbb292cf387510869b389772395"
+            "file": "output/labraduck-import-20261108/install-20261115/verified-install.json",
+            "sha256": "4ed901c5aeea4a45344b9c68585da0754fe94c4dbc9ec548a296a1e30031f7ff"
           },
           "catalogueRegistered": true,
           "modelInstalled": true,
           "eggShellInstalled": true,
           "model": {
-            "file": "creatures/1-sunnyside-backyard/labraduck/labraduck-11-contact-fit2.fbx",
-            "sha256": "2a220690b35c159595447a12a60bc96b5d4e8b39f5372cbb710cf4cbd1fc3e8d"
+            "file": "creatures/1-sunnyside-backyard/labraduck/labraduck-14-contact-animations4.fbx",
+            "sha256": "d36537e1c3a0b29be73699408d45991b19a72aea1eea7814a585f189c8da364a"
           },
           "native": {
-            "file": "assets/pets/labraduck-lowpoly-v2/native-mesh.json",
-            "sha256": "2efbb049dee8eb1a89b958bdc29397f0c776e5b83cf645e95bfd22f4c8fb4ca7"
+            "file": "assets/pets/labraduck-replacement-20261108/native-mesh.json",
+            "sha256": "5a7af2091fa6851dee51ff26a32bdf1b26c1be9c60592cde9d6cd172089c9ba5"
           },
-          "mesh": "rbxassetid://119026817563489",
-          "animationKey": "Labraduck",
-          "animationRevision": "labraduck-lowpoly-v2-contact-v1",
+          "mesh": "rbxassetid://120743776131447",
+          "animationKey": "LabraduckPetV4",
+          "animationRevision": "labraduck-import4-contact-smooth-blink-v1",
           "bodyActions": [
-            "Chase",
             "Idle",
-            "PatrolWalk",
+            "Walk",
             "Run",
-            "Walk"
+            "PatrolWalk",
+            "Chase",
+            "Fly",
+            "Swim",
+            "Quack"
           ],
-          "triangles": 4436,
-          "bones": 26,
-          "installedHeightStuds": 3.799999713897705,
-          "catalogueHeightStuds": 3.8,
+          "triangles": 4394,
+          "bones": 22,
+          "installedHeightStuds": 3.890681028366089,
+          "catalogueHeightStuds": 3.890728534082394,
           "runtimeTextureCap": 1024,
           "pipelineAudit": {
             "file": "output/model-import-audit-20261107/source-pipeline-audit-92afa807e38f.json",
@@ -444,6 +430,10 @@
             {
               "file": "output/model-import-audit-20261107/studio-inventory.json",
               "sha256": "d3a88dd783c2e9d9b0786832bbb4e4822475915fa9ccb3baeb64b7275bf7399b"
+            },
+            {
+              "file": "output/model-import-audit-20261107/studio-inventory-after.json",
+              "sha256": "c3c30248b333f4a44703a560ba4dde1842357cbb292cf387510869b389772395"
             }
           ]
         }
@@ -14164,7 +14154,7 @@
         "Name": "Quiet steps"
       },
       "hatchXPBonus": {
-        "skill": "Running",
+        "skill": "Stealth",
         "firstXP": 3000,
         "repeatXP": 300,
         "firstCash": 20000
@@ -81171,9 +81161,9 @@
         "implementationDate": "2026-10-29",
         "status": "Endangered",
         "baseEarnings": 194,
-        "currentSpawnChancePercent": 66.66666666666666,
+        "currentSpawnChancePercent": 16.666666666666668,
         "progressionRank": 12,
-        "progressionRevision": "alpha-current-20261112-v2"
+        "progressionRevision": "alpha-current-20261114-pacing"
       },
       "artworkLayout": "flat-perspective-v1",
       "reference": "scorpicorn-perspective.png",
@@ -82573,9 +82563,9 @@
         "implementationDate": "2026-10-28",
         "status": "Endangered",
         "baseEarnings": 195,
-        "currentSpawnChancePercent": 20.0,
+        "currentSpawnChancePercent": 12.5,
         "progressionRank": 10,
-        "progressionRevision": "alpha-current-20261112-v2"
+        "progressionRevision": "alpha-current-20261114-fennthorn-removal"
       },
       "runtimeEnabled": true,
       "implementation": {
@@ -132661,7 +132651,7 @@
         "Name": "Light step"
       },
       "hatchXPBonus": {
-        "skill": "Strength",
+        "skill": "Stealth",
         "firstXP": 3000,
         "repeatXP": 300,
         "firstCash": 20000
@@ -132719,10 +132709,11 @@
       "weight": 59.96875000000001,
       "eggHeight": 3.1218346795375904,
       "eggWeight": 6.05037641074472,
+      "displayName": "Peacockybara",
       "parents": "Peacock + Capybara",
       "length": 5.0892857142857135,
       "heightWeight": 28.75668541139143,
-      "description": "Shimmering teal, emerald and blue feathers cover Peacobara's rounded body and gentle face. It moves with quiet composure, occasionally opening a splendid tail fan patterned with golden eyespots.",
+      "description": "Shimmering teal, emerald and blue feathers cover Peacockybara's rounded body and gentle face. It moves with quiet composure, occasionally opening a splendid tail fan patterned with golden eyespots.",
       "spawnWeight": 4194304,
       "developerOnly": false,
       "retired": false,
@@ -133569,10 +133560,11 @@
       "weight": 11.271046231417769,
       "eggHeight": 1.6236069942068887,
       "eggWeight": 1.1371601416234827,
+      "displayName": "Crabanuki",
       "parents": "Crab + Tanuki",
       "length": 3.6538007013936715,
       "heightWeight": 2.277741699610008,
-      "description": "A round, masked shore-dweller with a sturdy shell, eight quick legs and two broad pincers. Crabuki shuffles sideways when excited, leaving dotted tracks across the wet sand.",
+      "description": "A round, masked shore-dweller with a sturdy shell, eight quick legs and two broad pincers. Crabanuki shuffles sideways when excited, leaving dotted tracks across the wet sand.",
       "spawnWeight": 2097152,
       "developerOnly": false,
       "retired": false,
@@ -138747,9 +138739,9 @@
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
         "status": "Endangered",
         "baseEarnings": 159,
-        "currentSpawnChancePercent": 20.0,
+        "currentSpawnChancePercent": 12.5,
         "progressionRank": 10,
-        "progressionRevision": "alpha-current-20261112-v2"
+        "progressionRevision": "alpha-current-20261114-fennthorn-removal"
       },
       "modelImport": {
         "source": "creatures/10-ember-mountain/bearbecue/bearbecue-initial2.fbx",
@@ -141050,9 +141042,9 @@
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
         "status": "Vulnerable",
         "baseEarnings": 76,
-        "currentSpawnChancePercent": 40.0,
+        "currentSpawnChancePercent": 25.0,
         "progressionRank": 10,
-        "progressionRevision": "alpha-current-20261112-v2"
+        "progressionRevision": "alpha-current-20261114-fennthorn-removal"
       },
       "modelImport": {
         "source": "creatures/10-ember-mountain/harpyeena/harpyeena-initial.fbx",
@@ -143342,10 +143334,11 @@
       "weight": 6.823214656513284,
       "eggHeight": 1.6951434531764418,
       "eggWeight": 0.6884088296523707,
+      "displayName": "Quokkacopter",
       "parents": "Quokka + Common Green Darner Dragonfly",
       "length": 3.5803131851484533,
       "heightWeight": 2.0748598058698913,
-      "description": "Quokkaflash bounds through the reeds and takes off on four rainbow-veined wings.",
+      "description": "Quokkacopter bounds through the reeds and takes off on four rainbow-veined wings.",
       "spawnWeight": 4194304,
       "developerOnly": false,
       "retired": false,
@@ -143762,25 +143755,19 @@
     },
     {
       "status": "Endangered",
-      "height": 2.848294686695575,
-      "weight": 4.4856890007691685,
-      "eggHeight": 1.5482098662510417,
-      "eggWeight": 0.4525708292434114,
-      "parents": "Fennec Fox + Thorny Devil",
-      "length": 3.504444531850912,
-      "heightWeight": 0.914597038701724,
-      "description": "Fennthorn pauses on rocky slopes with its oversized ears raised and its blue-tipped tail held low.",
-      "spawnWeight": 1048576,
-      "developerOnly": false,
-      "retired": false,
+      "height": null,
+      "weight": null,
+      "eggHeight": null,
+      "eggWeight": null,
       "name": "Fennthorn",
-      "region": "volcano",
-      "stage": "catalogue",
-      "runtimeEnabled": true,
+      "region": null,
+      "stage": "scrapped",
+      "runtimeEnabled": false,
+      "description": "Fennthorn pauses on rocky slopes with its oversized ears raised and its blue-tipped tail held low.",
       "reference": "fennthorn-perspective.png",
       "egg": "fennthorn-egg.png",
       "icon": "fennthorn-pets-v2-icon.png",
-      "notes": "Fennthorn is installed in Studio Edit at 3.8 studs with a 22-bone rig and 2,010 body triangles. The named egg is registered. The first hatch awards 5,000 Running XP. The current base Home rate is 92 Cash per second. The review board shows WIP / To review. The local previews score Idle 8.6, Walk 8.7, Run 8.6 out of 10 at the recorded speeds. Blink scores 7.5/10 in the local preview and 7.5/10 in the installed Studio Edit closure. Live traversal and developer review remain pending.",
+      "notes": "Removed during alpha on 14 November 2026. Fennthorn and its eggs are unavailable in the game.",
       "artworkLayout": "flat-perspective-v1",
       "review": {
         "revision": 1,
@@ -143788,19 +143775,15 @@
         "codexApproved": false,
         "note": "Separate developer review is pending."
       },
-      "earnings": {
-        "amount": 92,
-        "intervalSeconds": 1,
-        "condition": "placedAtHome"
-      },
       "balanceAssignment": {
-        "assigned": true,
+        "assigned": false,
         "note": "Daniel approved the Endangered status and updated base Home rate on 12 November 2026.",
         "status": "Endangered",
         "baseEarnings": 92,
-        "currentSpawnChancePercent": 20.0,
+        "currentSpawnChancePercent": 0,
         "progressionRank": 10,
-        "progressionRevision": "alpha-current-20261112-v2"
+        "progressionRevision": "alpha-current-20261114-pacing",
+        "runtimeEnabled": false
       },
       "modelImport": {
         "source": "creatures/10-ember-mountain/fennthorn/fennthorn-initial.fbx",
@@ -143812,8 +143795,8 @@
         "evidence": "output/fennthorn-import-20261107/studio-install-reconcile.json"
       },
       "implementation": {
-        "gameplayEnabled": true,
-        "realModelReady": true,
+        "gameplayEnabled": false,
+        "realModelReady": false,
         "placeholderHatchling": false,
         "fullImportComplete": true,
         "currentModel": {
@@ -143828,7 +143811,7 @@
           "file": "output/fennthorn-import-20261107/studio-install-reconcile.json",
           "sha256": "06389261d35315df9ec335236c5632a30080850684e4b8924dc2d694dbb731a5"
         },
-        "qualityNotice": "Fennthorn is installed in Studio Edit at 3.8 studs with a 22-bone rig and 2,010 body triangles. The named egg is registered. The first hatch awards 5,000 Running XP. The current base Home rate is 92 Cash per second. The review board shows WIP / To review. The local previews score Idle 8.6, Walk 8.7, Run 8.6 out of 10 at the recorded speeds. Blink scores 7.5/10 in the local preview and 7.5/10 in the installed Studio Edit closure. Live traversal and developer review remain pending.",
+        "qualityNotice": "Removed during alpha on 14 November 2026. Fennthorn and its eggs are unavailable in the game.",
         "replacementImport": {
           "importNumber": 1,
           "date": "2026-11-07",
@@ -143848,7 +143831,7 @@
             "pose": "Idle",
             "poseTimeSeconds": 1,
             "captureFormat": "JPEG",
-            "currentVersion": true,
+            "currentVersion": false,
             "sizeBlendRevision": "dominant-baseline-then-quality-v10",
             "nativePayloadSha256": "6f6397afe810a36d308550c1d97357b7a6dd7b56d74b7beec791188c1ae11e13",
             "modelSha256": "c3f258a8559c634c4f0c3b507f298e07f71a8409be6be85256709d259e03f9b7",
@@ -143868,7 +143851,8 @@
             },
             "capturedAt": "2026-11-10T04:18:14.222416+00:00",
             "detailImages": [],
-            "currentScope": "Native Studio Edit fixture using the current installed template in the Farm scene at its standard catalogue height. Live gameplay acceptance remains separate."
+            "currentScope": "Native Studio Edit fixture using the current installed template in the Farm scene at its standard catalogue height. Live gameplay acceptance remains separate.",
+            "historicalContext": "Earlier Studio Edit capture of Fennthorn before its removal from the alpha game."
           },
           "animationBundle": {
             "wikiFile": "assets/animations/fennthorn/lowpoly-v1/fennthorn-lowpoly-v1-animations-and-model.zip",
@@ -143946,18 +143930,18 @@
             "sha256": "edc00e9565700a99b0121bcdc30b6a742a2dbdae867a30791c1639bcdde21379"
           }
         },
-        "completionScope": "Local model, rig, animations, exact Studio installation, game assets, egg registration and wiki media are complete. Live traversal and developer review retain their own status.",
+        "completionScope": "The alpha game no longer includes this creature. Earlier model and artwork records are retained.",
         "modelAvailability": {
           "date": "2026-11-07",
           "environment": "Studio Edit",
-          "status": "installed",
+          "status": "removed",
           "evidence": {
             "file": "output/model-import-audit-20261107/studio-inventory-after.json",
             "sha256": "c3c30248b333f4a44703a560ba4dde1842357cbb292cf387510869b389772395"
           },
-          "catalogueRegistered": true,
-          "modelInstalled": true,
-          "eggShellInstalled": true,
+          "catalogueRegistered": false,
+          "modelInstalled": false,
+          "eggShellInstalled": false,
           "model": {
             "file": "creatures/10-ember-mountain/fennthorn/fennthorn-2-animations.fbx",
             "sha256": "c3f258a8559c634c4f0c3b507f298e07f71a8409be6be85256709d259e03f9b7"
@@ -143998,7 +143982,8 @@
               "file": "output/model-import-audit-20261107/studio-inventory.json",
               "sha256": "d3a88dd783c2e9d9b0786832bbb4e4822475915fa9ccb3baeb64b7275bf7399b"
             }
-          ]
+          ],
+          "removedOn": "2026-11-14"
         }
       },
       "collectionArt": {
@@ -144023,69 +144008,16 @@
       "travel": [
         "Ground"
       ],
-      "followingBuff": {
-        "id": "Endurance",
-        "Description": "20% less stamina used by running and gym training. Action costs are unchanged.",
-        "Effect": "Drain",
-        "HUDDescription": "20% less running and gym stamina.",
-        "Icon": "\ud83d\udd0b",
-        "Multiplier": 0.8,
-        "Name": "Stamina Saver"
+      "parents": "Fennec Fox + Thorny Devil",
+      "retirement": {
+        "date": "2026-11-14",
+        "reason": "Removed during alpha on 14 November 2026. Fennthorn and its eggs are unavailable in the game.",
+        "previousRegion": "volcano"
       },
-      "hatchXPBonus": {
-        "skill": "Running",
-        "firstXP": 5000,
-        "repeatXP": 500,
-        "firstCash": 500000
-      },
-      "id": "fennthorn",
-      "parentStats": [
-        {
-          "name": "Fennec Fox",
-          "representativeSpecies": "Fennec Fox",
-          "weightKg": 1.6,
-          "basis": "Midpoint of the metric length range and reported adult reference mass.",
-          "url": "https://animals.sandiegozoo.org/animals/fennec-fox",
-          "sizeMetres": 0.35,
-          "sizeDimension": "body length",
-          "sizeBasis": "Midpoint of the metric length range and reported adult reference mass.",
-          "sizeUrl": "https://animals.sandiegozoo.org/animals/fennec-fox",
-          "estimates": "Midpoint of the metric length range and reported adult reference mass.",
-          "checked": "2026-11-07",
-          "lengthMetres": 0.35,
-          "dominantSizeMetres": 0.35,
-          "dominantSizeAxis": "length",
-          "dimensionEvidence": [],
-          "dimensionCaveat": "Maximum of recorded height and length. Missing complete standing/horn-tip or tail measurements remain labelled proxies, not fabricated measurements."
-        },
-        {
-          "name": "Thorny Devil",
-          "representativeSpecies": "Thorny Devil",
-          "weightKg": 0.05,
-          "basis": "Published 9 cm length and representative gameplay mass estimate for the spined design reference.",
-          "url": "https://media.australian.museum/media/dd/documents/AMS389_26_06_1999_LowRes.0c37c22.pdf",
-          "sizeMetres": 0.09,
-          "sizeDimension": "snout to vent length",
-          "sizeBasis": "Published 9 cm length and representative gameplay mass estimate for the spined design reference.",
-          "sizeUrl": "https://media.australian.museum/media/dd/documents/AMS389_26_06_1999_LowRes.0c37c22.pdf",
-          "estimates": "Published 9 cm length and representative gameplay mass estimate for the spined design reference.",
-          "checked": "2026-11-07",
-          "lengthMetres": 0.09,
-          "dominantSizeMetres": 0.09,
-          "dominantSizeAxis": "length",
-          "dimensionEvidence": [],
-          "dimensionCaveat": "Maximum of recorded height and length. Missing complete standing/horn-tip or tail measurements remain labelled proxies, not fabricated measurements."
-        }
-      ],
-      "parentMeanSizeMetres": 0.21999999999999997,
-      "parentMeanWeightKg": 0.8250000000000001,
-      "weightBalanceMultiplier": 1,
-      "weightBalanceBasis": "Heavier parent kg times max(current creature height,length) in metres divided by max(recorded parent height,length). No squared mass or length correction.",
-      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
-      "sizeReferenceAxis": "Length",
-      "parentBlendTargetStuds": 1.0178571428571426,
-      "heavierParent": "Fennec Fox",
-      "parentReferenceRevision": "dominant-dimension-soft-range-v9"
+      "developerOnly": false,
+      "retired": false,
+      "spawnWeight": 1048576,
+      "id": "fennthorn"
     },
     {
       "status": "Near Threatened",
@@ -144801,9 +144733,9 @@
         "note": "Daniel requested slower, staggered progression across all fourteen biomes on 8 November 2026.",
         "status": "Critically Endangered",
         "baseEarnings": 373,
-        "currentSpawnChancePercent": 33.33333333333333,
+        "currentSpawnChancePercent": 8.333333333333334,
         "progressionRank": 12,
-        "progressionRevision": "alpha-current-20261112-v2"
+        "progressionRevision": "alpha-current-20261114-pacing"
       },
       "biomeAssignment": {
         "biome": "inferno",
@@ -145088,12 +145020,13 @@
       "weight": 4.4274605390058035,
       "eggHeight": 1.7609108722575364,
       "eggWeight": 0.4466960342629088,
-      "parents": "Kiwi + Kiwi",
-      "length": 3.069975082135047,
+      "displayName": "Treewi",
+      "parents": "Kiwi + Ent",
+      "length": 3.3383262103921174,
       "heightWeight": null,
-      "description": "Kiwi pads through the leaf litter on pink feet, pausing to sniff for snacks with its long bill. Its rounded feather coat keeps it cosy beneath the forest roots.",
+      "description": "Treewi shuffles through the leaf litter on rootlike feet. Two ferns bob above its bark plates as it pokes under fallen leaves for snacks.",
       "naturalHeight": 1.9642857142857142,
-      "naturalLength": 1.6294761702466536,
+      "naturalLength": 1.7719111272266932,
       "weightReferenceKg": 2.35,
       "weightReferenceDimensionMetres": 0.55,
       "spawnWeight": 8388608,
@@ -145104,9 +145037,9 @@
       "stage": "catalogue",
       "runtimeEnabled": true,
       "reference": "kiwi-perspective.png",
-      "egg": "kiwi-egg.png",
-      "icon": "kiwi-pets-v1-icon.png",
-      "notes": "Installed in Studio Edit. Live gameplay and Daniel's separate model/animation review remain pending.",
+      "egg": "treewi-egg.png",
+      "icon": "treewi-pets-v1-icon.png",
+      "notes": "The earlier Treewi draft is previewed in Studio Edit. The textured Rodin model and its Planet Zoo animation candidates are ready for local review.",
       "review": {
         "revision": 1,
         "danielApproved": false,
@@ -145123,95 +145056,108 @@
         "runtimeEnabled": true,
         "baseEarnings": 17,
         "status": "Least Concern",
-        "note": "Current default statistics derived from the retained v10 parent references. Biome pool share is derived from current source."
+        "note": "Treewi uses the saved Kiwi slot as its balance reference. The longer wooden bill increases the model's length."
       },
       "modelImport": {
         "source": {
-          "file": "creatures/4-acorn-woods/kiwi/kiwi-initial.fbx",
-          "sha256": "45d8e03e9d1b3b32e0de4a1424c551e377ba4dd49826d9a90738e3fa2b879691"
+          "file": "creatures/4-acorn-woods/kiwi/kiwi-initial2.fbx",
+          "sha256": "25085e74854ded2fb05b3a7e1cfd02d14e6731329c5c1bf49f286f20d4923f19"
         },
         "model": {
-          "file": "creatures/4-acorn-woods/kiwi/kiwi-2-animations.fbx",
-          "sha256": "dbaa36eb4436b57775cc9ba6dff26e0f0047ebc296bb18cecd5ed111c2c72f3a"
+          "file": "creatures/4-acorn-woods/kiwi/kiwi-4-animations2.fbx",
+          "sha256": "1022f8510996de31f8f780c57a8bac9e8bd3449c934b19dbbea8be10c2c587e5"
         },
         "native": {
-          "file": "assets/pets/kiwi-lowpoly-v1/animation-final/native-mesh.json",
-          "sha256": "f215f632047406dbc7c1604a34a77894f476f546004d45755493a82bbec61e04"
+          "file": "assets/pets/treewi-v1/native-mesh.json",
+          "sha256": "fc253a6c9c2f5a9577ff2a1a04ccbd3a250db6c2cc09a13b9e600cc8765e1f15"
         },
         "color": {
-          "file": "assets/pets/kiwi-lowpoly-v1/animation-final/color.png",
-          "sha256": "266211c16b2d153e5108e22f8a7a755f615227404bfe2d20a04728df28f3f5cd"
+          "file": "assets/pets/treewi-v1/color.png",
+          "sha256": "aec6dd69eaa77e703382d8a8c658d819275eb22f01620bac198ccb7a3dff8c72"
         },
         "rigged": true,
         "installed": true,
-        "triangles": 1865,
+        "triangles": 4249,
         "bones": 14,
         "maps": {
           "color": {
-            "file": "assets/pets/kiwi-lowpoly-v1/animation-final/color.png",
-            "sha256": "266211c16b2d153e5108e22f8a7a755f615227404bfe2d20a04728df28f3f5cd"
+            "file": "assets/pets/treewi-v1/color.png",
+            "sha256": "aec6dd69eaa77e703382d8a8c658d819275eb22f01620bac198ccb7a3dff8c72"
           },
           "roughness": {
-            "file": "assets/pets/kiwi-lowpoly-v1/animation-final/roughness.png",
+            "file": "assets/pets/treewi-v1/roughness.png",
             "sha256": "764d02deac2a86d12bc75ec62ff063aa92ccbb4570aa4f6a485e44ee0d43498d"
           },
           "metallic": {
-            "file": "assets/pets/kiwi-lowpoly-v1/animation-final/metallic.png",
+            "file": "assets/pets/treewi-v1/metallic.png",
             "sha256": "0f4b1668d119f77ceb6b86645573f088ab2341d7b284314d5df0be7226ea5d91"
           }
-        }
+        },
+        "stage": "studio-draft"
       },
       "implementation": {
         "realModelReady": true,
         "placeholderHatchling": false,
         "replacementImport": {
           "installed": true,
-          "mesh": "rbxassetid://123503336487331",
+          "mesh": "rbxassetid://86011024950316",
+          "modelStage": "Studio Edit draft",
           "robloxImage": {
-            "wikiImage": "assets/animations/kiwi/current/installed-roblox.png",
-            "sha256": "10c878abc9b6c7b4a58a83b16a23c2f6c9d46012403bfe30c1daa54f8e6fa88e",
+            "wikiImage": "assets/animations/kiwi/treewi/studio-open.png",
+            "sha256": "57545f044727bacfe3ba5e49b01bfeb7a56b12e631774e585e1e6f71da7a66bf",
+            "label": "Studio Edit draft",
             "environment": "Studio Edit",
             "pose": "Idle",
             "captureFormat": "PNG",
             "currentVersion": true,
+            "heightStuds": 3.7007648944854736,
             "sizeBlendRevision": "dominant-baseline-then-quality-v10",
-            "nativePayloadSha256": "f215f632047406dbc7c1604a34a77894f476f546004d45755493a82bbec61e04",
-            "modelSha256": "dbaa36eb4436b57775cc9ba6dff26e0f0047ebc296bb18cecd5ed111c2c72f3a",
-            "heightStuds": 3.700764888226735,
-            "currentScope": "Actual current installed clone in the Farm scene. Developer world volumes remain visible in Edit.",
-            "sourceReceipt": {
-              "file": "output/kiwi-import-20261110/studio-image-for-wiki.json",
-              "sha256": "484826b12cb745eeeaa847bf5afcd4ee9c5c57d98371c2d81b2b2b4879aadcf2"
-            },
+            "nativePayloadSha256": "fc253a6c9c2f5a9577ff2a1a04ccbd3a250db6c2cc09a13b9e600cc8765e1f15",
+            "modelSha256": "1022f8510996de31f8f780c57a8bac9e8bd3449c934b19dbbea8be10c2c587e5",
+            "currentScope": "This Blender draft previews Treewi while the production Rodin mesh is pending.",
             "captureReceipt": {
-              "file": "output/kiwi-import-20261110/portraits01/kiwi-verification.json",
-              "sha256": "6f3beba1ae3c0e1f29dbe74648ba73e6e7f7490a75875ca56fc03bb5367678ab"
-            }
+              "file": "output/treewi-replacement-20261114/studio/kiwi-verification.json",
+              "sha256": "801853496d8729a146e3033be58336615d63b54668dac2823c6c38217ecfd74e"
+            },
+            "detailImages": [
+              {
+                "wikiImage": "assets/animations/kiwi/treewi/studio-closed.png",
+                "sha256": "7c28e9c8d230d3f3f8fc856aeeea542e1473eb1dcac69434d6a49a81f170fd3a",
+                "label": "Eyelids closed in Studio Edit"
+              }
+            ]
           },
           "animationBundle": {
+            "wikiFile": "assets/animations/kiwi/treewi/treewi-draft-source-and-animations.zip",
+            "sha256": "9754d865dabc25cda53ddfea366d1e0146b81e75be91c1cdb48bc9a7d6d8ff47",
+            "complete": true,
+            "modelSha256": "1022f8510996de31f8f780c57a8bac9e8bd3449c934b19dbbea8be10c2c587e5",
+            "scope": "Blender draft rig and review media."
+          },
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true
+          },
+          "qualityNotice": "The animations below show the Studio Edit draft. The Rodin production mesh will need its own animation and model review.",
+          "historicalAnimationBundle": {
             "wikiFile": "assets/animations/kiwi/current/kiwi-source-and-animations.zip",
             "sha256": "eec91e80f151982c7ec27c5fbcdf209e736043a9291bed1973e0d6f4e2c187a5",
             "complete": false,
             "modelSha256": "dbaa36eb4436b57775cc9ba6dff26e0f0047ebc296bb18cecd5ed111c2c72f3a",
             "sourceArchive": "wiki/assets/models/kiwi-3dmodel-fbx.zip",
             "scope": "Retained FBX model stages and their available source actions. Procedural Blink and callback replay videos remain separate."
-          },
-          "currentExpressionMediaStatus": {
-            "currentMediaAvailable": true,
-            "comment": "The current timed local Blink is in the source-bound clip grid. It is separate from native still inspection and live gameplay."
           }
         }
       },
       "artworkTransparency": {
-        "sha256": "3867d40ae8a476694c917f916d47b792a50d9b2c312cc03d0e71db3298d809b3",
+        "sha256": "36b3f84c90203fb4653fe4cd8e995679f0f25fc4a949cfa77213a2bac983c920",
         "shadowFreeVerified": true,
-        "review": "output/kiwi-import-20261110/wiki-proposal03/perspective-visual-review.json"
+        "review": "output/treewi-replacement-20261114/rodin/wiki-perspective-visual-review.json"
       },
       "collectionArt": {
-        "image": "kiwi-CollectionArt.png",
-        "imageSha256": "82033cd9f8a0f056afaae1ba3501f13c8da9178173ef084f2be02e93ca087abb",
-        "silhouette": "kiwi-CollectionArt-silhouette.png",
-        "silhouetteSha256": "5406cf3d008a22b052c38547b22363a901ebfc858061776e8adbe97648128094"
+        "image": "treewi-CollectionArt.png",
+        "imageSha256": "3c65495bc07004c4b63c00c4cf5df2ee1282e1c2defed15a5cdb899afb9370f0",
+        "silhouette": "treewi-CollectionArt-silhouette.png",
+        "silhouetteSha256": "419c2e34d2a80eb9b1bc21ebb12959df29ce3ce1b506565f0edc085c5298bc75"
       },
       "hatchWorkSeconds": 300,
       "mountable": false,
@@ -145236,40 +145182,8 @@
         "firstCash": 5000
       },
       "id": "kiwi",
-      "parentStats": [
-        {
-          "name": "Kiwi",
-          "weightKg": 2.35,
-          "url": "https://www.nzbirdsonline.org.nz/species/north-island-brown-kiwi",
-          "basis": "Representative body mass retained by the release balance record.",
-          "sizeMetres": 0.55,
-          "sizeUrl": "https://nationalzoo.si.edu/animals/north-island-brown-kiwi",
-          "sizeDimension": "standing height",
-          "sizeBasis": "Representative adult size retained by the release balance record.",
-          "heightMetres": 0.55,
-          "dominantSizeMetres": 0.55,
-          "dominantSizeAxis": "height",
-          "dimensionEvidence": [],
-          "dimensionCaveat": "Maximum of recorded height and length. Missing complete standing/horn-tip or tail measurements remain labelled proxies, not fabricated measurements."
-        },
-        {
-          "name": "Kiwi",
-          "weightKg": 2.35,
-          "url": "https://www.nzbirdsonline.org.nz/species/north-island-brown-kiwi",
-          "basis": "Representative body mass retained by the release balance record.",
-          "sizeMetres": 0.55,
-          "sizeUrl": "https://nationalzoo.si.edu/animals/north-island-brown-kiwi",
-          "sizeDimension": "standing height",
-          "sizeBasis": "Representative adult size retained by the release balance record.",
-          "heightMetres": 0.55,
-          "dominantSizeMetres": 0.55,
-          "dominantSizeAxis": "height",
-          "dimensionEvidence": [],
-          "dimensionCaveat": "Maximum of recorded height and length. Missing complete standing/horn-tip or tail measurements remain labelled proxies, not fabricated measurements."
-        }
-      ],
       "weightBalanceMultiplier": 1,
-      "weightBalanceBasis": "Heavier parent reference times the direct dominant-dimension ratio, with the standard game compression and egg fraction.",
+      "weightBalanceBasis": "The saved Kiwi slot supplies the game size and mass proxy for the Kiwi and Ent hybrid.",
       "sizeBlendRevision": "dominant-baseline-then-quality-v10",
       "sizeReferenceAxis": "Height",
       "parentBlendTargetStuds": 1.9642857142857142,
@@ -145282,10 +145196,11 @@
       "weight": 7.5828810015906,
       "eggHeight": 1.5296213414226962,
       "eggWeight": 0.7650532041689723,
+      "displayName": "Skunkle Ant",
       "parents": "Striped Skunk + Black Garden Ant",
       "length": 3.6396148394597665,
       "heightWeight": null,
-      "description": "Skant scurries through leaf litter on six sturdy legs, tapping the ground with its pale-tipped antennae. Its cream bands and fluffy plume disappear beneath the roots when it stops to stash a snack.",
+      "description": "Skunkle Ant scurries through leaf litter on six sturdy legs, tapping the ground with its pale-tipped antennae. Its cream bands and fluffy plume disappear beneath the roots when it stops to stash a snack.",
       "naturalHeight": 1.0493806691453915,
       "naturalLength": 1.6364285714285716,
       "weightReferenceKg": 4.5359237,
@@ -146258,10 +146173,11 @@
       "weight": 0.5829387937820416,
       "eggHeight": 1.5,
       "eggWeight": 0.05881395104628402,
+      "displayName": "Squeakapede",
       "parents": "Millipede + Mouse",
       "length": 3.497471284167668,
       "heightWeight": null,
-      "description": "Millimouse rustles through the garden on a rippling row of pink paws, sniffing for seeds beneath fallen leaves. Its soft grey rings bunch gently whenever it stops to wiggle its antennae.",
+      "description": "Squeakapede rustles through the garden on a rippling row of pink paws, sniffing for seeds beneath fallen leaves. Its soft grey rings bunch gently whenever it stops to wiggle its antennae.",
       "naturalHeight": 0.2950682340762126,
       "naturalLength": 0.9899107142857142,
       "weightReferenceKg": 0.2041165665,
@@ -146735,7 +146651,7 @@
         "Name": "Quiet steps"
       },
       "hatchXPBonus": {
-        "skill": "Running",
+        "skill": "Stealth",
         "firstXP": 5000,
         "repeatXP": 500,
         "firstCash": 100000
@@ -147084,10 +147000,11 @@
       "weight": 1871.2482547625102,
       "eggHeight": 5.523406921994603,
       "eggWeight": 188.79426866930388,
+      "displayName": "Rhinomodo",
       "parents": "Rhinoceros + Komodo dragon",
       "length": 11.186810218688919,
       "heightWeight": null,
-      "description": "Rhinodo plants its broad feet before charging, sweeping its long scaly tail behind its horn.",
+      "description": "Rhinomodo plants its broad feet before charging, sweeping its long scaly tail behind its horn.",
       "naturalHeight": 5.440731403650373,
       "naturalLength": 12.544642857142856,
       "weightReferenceKg": 2300.0,
@@ -147589,7 +147506,7 @@
       "parentReferenceRevision": "dominant-baseline-then-quality-v10"
     },
     {
-      "status": "Near Threatened",
+      "status": "Endangered",
       "height": 1.335062731488326,
       "weight": 1.6159811758192102,
       "eggHeight": 1.5,
@@ -147602,7 +147519,7 @@
       "naturalLength": 1.4742857142857142,
       "weightReferenceKg": 0.8,
       "weightReferenceDimensionMetres": 0.5,
-      "spawnWeight": 4194304,
+      "spawnWeight": 1048576,
       "developerOnly": false,
       "retired": false,
       "name": "Tuamander",
@@ -147620,16 +147537,19 @@
         "note": "Separate in-game model and animation review is pending."
       },
       "earnings": {
-        "amount": 30,
+        "amount": 150,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
       "balanceAssignment": {
         "assigned": true,
         "runtimeEnabled": true,
-        "baseEarnings": 30,
-        "status": "Near Threatened",
-        "note": "Statistics derive from the retained v10 parent references."
+        "baseEarnings": 150,
+        "status": "Endangered",
+        "note": "Statistics derive from the retained v10 parent references.",
+        "currentSpawnChancePercent": 12.5,
+        "progressionRank": 10,
+        "progressionRevision": "alpha-current-20261114-fennthorn-removal"
       },
       "artworkLayout": "flat-perspective-v1",
       "artworkTransparency": {
@@ -147722,6 +147642,7 @@
           }
         }
       },
+      "hatchWorkSeconds": 3600,
       "diet": "Carnivore",
       "mountable": false,
       "travel": [
@@ -147740,7 +147661,7 @@
         "skill": "Running",
         "firstXP": 4000,
         "repeatXP": 400,
-        "firstCash": 20000
+        "firstCash": 500000
       },
       "id": "tuamander",
       "parentStats": [
@@ -147805,10 +147726,11 @@
       "weight": 346.82494746370617,
       "eggHeight": 5.235681185941939,
       "eggWeight": 34.99191630294419,
+      "displayName": "Trojan Seahorse",
       "parents": "Horse + Seahorse",
       "length": 4.548999982943757,
       "heightWeight": null,
-      "description": "Seastang hovers upright in the shallows, flicking its coral fin to steer. Its curled tail hooks around sea grass when the current picks up.",
+      "description": "Trojan Seahorse hovers upright in the shallows, flicking its coral fin to steer. Its curled tail hooks around sea grass when the current picks up.",
       "naturalHeight": 7.646181249999997,
       "naturalLength": 4.548999982943757,
       "weightReferenceKg": 453.59237,
@@ -147978,10 +147900,11 @@
       "weight": 0.3274913003356757,
       "eggHeight": 1.5,
       "eggWeight": 0.03304130298322187,
+      "displayName": "Sizzlizard",
       "parents": "Galapagos lava lizard + Volcano junco",
       "length": 3.3455714728636363,
       "heightWeight": null,
-      "description": "Lavunco scampers across warm lava stone, flicking its long tail for balance. It pecks for seeds and beetles in the cracks between the rocks.",
+      "description": "Sizzlizard scampers across warm lava stone, flicking its long tail for balance. It pecks for seeds and beetles in the cracks between the rocks.",
       "naturalHeight": 0.39406071200182324,
       "naturalLength": 0.4776785714285714,
       "weightReferenceKg": 0.0437,
@@ -148004,16 +147927,19 @@
         "note": "Separate model and animation review is pending."
       },
       "earnings": {
-        "amount": 55,
+        "amount": 120,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
       "balanceAssignment": {
         "assigned": true,
         "runtimeEnabled": true,
-        "baseEarnings": 55,
+        "baseEarnings": 120,
         "status": "Vulnerable",
-        "note": "Statistics derive from the retained v10 parent references."
+        "note": "Statistics derive from the retained v10 parent references.",
+        "currentSpawnChancePercent": 25.0,
+        "progressionRank": 10,
+        "progressionRevision": "alpha-current-20261114-fennthorn-removal"
       },
       "artworkLayout": "flat-perspective-v1",
       "artworkTransparency": {
@@ -148101,6 +148027,7 @@
           }
         }
       },
+      "hatchWorkSeconds": 1800,
       "diet": "Omnivore",
       "mountable": false,
       "travel": [
@@ -148185,10 +148112,11 @@
       "weight": 7.248117738940022,
       "eggHeight": 1.5,
       "eggWeight": 0.7312782172378623,
+      "displayName": "Snanglerfish",
       "parents": "Anglerfish + Land snail",
       "length": 3.6943650748294137,
       "heightWeight": null,
-      "description": "Shellure creeps along warm stone, sweeping its amber lure over the cracks. It tucks its feelers close when a shadow passes.",
+      "description": "Snanglerfish creeps along warm stone, sweeping its amber lure over the cracks. It tucks its feelers close when a shadow passes.",
       "naturalHeight": 1.17814563614083,
       "naturalLength": 1.9285714285714282,
       "weightReferenceKg": 4.9048467004,
@@ -148211,16 +148139,19 @@
         "note": "Separate model and animation review is pending."
       },
       "earnings": {
-        "amount": 194,
+        "amount": 235,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
       "balanceAssignment": {
         "assigned": true,
         "runtimeEnabled": true,
-        "baseEarnings": 194,
+        "baseEarnings": 235,
         "status": "Endangered",
-        "note": "Statistics follow the retained v10 parent references and fitted model bounds."
+        "note": "Statistics follow the retained v10 parent references and fitted model bounds.",
+        "currentSpawnChancePercent": 16.666666666666668,
+        "progressionRank": 12,
+        "progressionRevision": "alpha-current-20261114-pacing"
       },
       "artworkLayout": "flat-perspective-v1",
       "artworkTransparency": {
@@ -148411,19 +148342,20 @@
           }
         }
       },
+      "hatchWorkSeconds": 3600,
       "diet": "Omnivore",
       "mountable": false,
       "travel": [
         "Ground"
       ],
       "followingBuff": {
-        "id": "LightStep",
-        "Description": "Sneaking uses 20% less stamina while this pet follows you.",
-        "Effect": "StealthDrain",
-        "HUDDescription": "20% less Sneak stamina.",
-        "Image": "rbxassetid://132657854974278",
-        "Multiplier": 0.8,
-        "Name": "Light step"
+        "id": "EasyCatch",
+        "Description": "Cast with this pet following you to make the green fishing zone 50% wider.",
+        "Effect": "FishingReelWidth",
+        "HUDDescription": "50% wider green fishing zone.",
+        "Image": "rbxassetid://107944957789764",
+        "Multiplier": 1.5,
+        "Name": "Easy Catch"
       },
       "hatchXPBonus": {
         "skill": "Strength",
@@ -148514,7 +148446,7 @@
         "note": "Separate model and animation reviews are pending."
       },
       "earnings": {
-        "amount": 194,
+        "amount": 235,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -148706,6 +148638,7 @@
           "qualityNotice": "Lemu is installed in Studio Edit with Idle, Walk, Run, Blink and four shiny egg finishes. The closed lids are rounded and raised."
         }
       },
+      "hatchWorkSeconds": 3600,
       "diet": "Omnivore",
       "mountable": false,
       "travel": [
@@ -148773,10 +148706,11 @@
       "weight": 61.29396984924623,
       "eggHeight": 2.800582667002862,
       "eggWeight": 6.184080696975966,
+      "displayName": "Aardbark",
       "parents": "African wild dog + Aardvark",
       "length": 6.223214285714285,
       "heightWeight": null,
-      "description": "Aardog sniffs out trails in warm ash and digs between the rocks with its broad front paws.",
+      "description": "Aardbark sniffs out trails in warm ash and digs between the rocks with its broad front paws.",
       "naturalHeight": 3.8984549623733193,
       "naturalLength": 6.223214285714285,
       "weightReferenceKg": 70.0,
@@ -148796,7 +148730,7 @@
         "note": "Separate model and animation reviews are pending."
       },
       "earnings": {
-        "amount": 194,
+        "amount": 235,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -148988,6 +148922,7 @@
         "shadowFreeVerified": true,
         "review": "output/aardog-import-20261113/perspective-visual-review.json"
       },
+      "hatchWorkSeconds": 3600,
       "diet": "Carnivore",
       "mountable": false,
       "travel": [
@@ -149078,7 +149013,7 @@
         "note": "Separate model and animation reviews are pending."
       },
       "earnings": {
-        "amount": 194,
+        "amount": 235,
         "intervalSeconds": 1,
         "condition": "placedAtHome"
       },
@@ -149270,6 +149205,7 @@
         "shadowFreeVerified": true,
         "review": "output/twigfrill-import-20261113/perspective-visual-review.json"
       },
+      "hatchWorkSeconds": 3600,
       "diet": "Omnivore",
       "mountable": false,
       "travel": [
@@ -149611,6 +149547,160 @@
       "sizeReferenceAxis": "Length",
       "parentBlendTargetStuds": 3.4598214285714284,
       "heavierParent": "Wolverine",
+      "parentReferenceRevision": "dominant-baseline-then-quality-v10"
+    },
+    {
+      "status": "Near Threatened",
+      "height": 2.5491130014341055,
+      "weight": 4.604863625092051,
+      "eggHeight": 1.5,
+      "eggWeight": 0.46459461389395906,
+      "parents": "Spotted-tailed quoll + Hoopoe",
+      "length": 3.654653670707977,
+      "heightWeight": null,
+      "description": "Cracklecrest lifts its copper crest when it hears a sound. Its sensitive whiskers help it find its way between rocks, and its spotted tail steadies it on narrow ledges.",
+      "naturalHeight": 1.19571056417281,
+      "naturalLength": 1.7142857142857142,
+      "weightReferenceKg": 2.475,
+      "weightReferenceDimensionMetres": 0.55,
+      "spawnWeight": 4194304,
+      "developerOnly": false,
+      "retired": false,
+      "name": "Cracklecrest",
+      "region": null,
+      "stage": "catalogue",
+      "runtimeEnabled": true,
+      "artworkLayout": "flat-perspective-v1",
+      "suggestedHabitat": "Ember Mountain",
+      "notes": "Unassigned Spare with no wild egg spawn. The creature and egg are installed in Studio Edit.",
+      "earnings": {
+        "amount": 38,
+        "intervalSeconds": 1,
+        "condition": "placedAtHome"
+      },
+      "review": {
+        "revision": 1,
+        "danielApproved": false,
+        "codexApproved": false,
+        "note": "Daniel\u2019s model and animation reviews are pending."
+      },
+      "artworkTransparency": {
+        "sha256": "d535e05445ca187157f2b00067f191b15162f520b2c3aae5de2395567aa45e3f",
+        "shadowFreeVerified": true,
+        "review": "output/cracklecrest-import-20261114/wiki-artwork.json"
+      },
+      "implementation": {
+        "realModelReady": true,
+        "placeholderHatchling": false,
+        "replacementImport": {
+          "installed": true,
+          "mesh": "rbxassetid://75429915557227",
+          "currentExpressionMediaStatus": {
+            "currentMediaAvailable": true
+          },
+          "robloxImage": {
+            "wikiImage": "assets/animations/cracklecrest/current/studio-edit.png",
+            "sha256": "1acf2a4dc447c431ddb0382f2b96bc5f6e7d17c1da44f2faf403c3bba5524b07",
+            "environment": "Studio Edit",
+            "pose": "Idle",
+            "currentVersion": true,
+            "captureFormat": "PNG",
+            "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+            "nativePayloadSha256": "072f62b8987574c5ddf2bac2289eace9168024d5f8a6b1af2ffe2bcd8051a82d",
+            "modelSha256": "96ce26aa0d21b5d22142826026ea39a30f00f1561fda4c6283c0545a842c618f",
+            "heightStuds": 2.5491130014341055,
+            "catalogueHeightStuds": 2.5491130014341055,
+            "studioReadbackHeightStuds": 2.5491130014341055,
+            "currentScope": "Installed hatch template in Studio Edit.",
+            "sourceReceipt": {
+              "file": "output/cracklecrest-import-20261114/scene-readback.json",
+              "sha256": "66fb15bac35f554d7d489a3f027e0c6c46566530c0bc0c641c45b428816dc191"
+            },
+            "captureReceipt": {
+              "file": "output/cracklecrest-import-20261114/studio-figures/cracklecrest-verification.json",
+              "sha256": "1751bd6520e5b5d91360a96a1c93803e5cb36012095b111da06591651c19dd95"
+            }
+          },
+          "animationBundle": {
+            "wikiFile": "assets/animations/cracklecrest/current/cracklecrest-source-and-animations.zip",
+            "sha256": "826f45102fa8c2ccfe56cadcbd6767df6339f4d1de3f057ab2822d03dd9db9ad",
+            "complete": true,
+            "modelSha256": "96ce26aa0d21b5d22142826026ea39a30f00f1561fda4c6283c0545a842c618f",
+            "sourceArchive": "wiki/assets/animations/cracklecrest/current/cracklecrest-source-and-animations.zip",
+            "scope": "Verified FBX stages, review media and runtime eyelid fit."
+          }
+        }
+      },
+      "reference": "cracklecrest-perspective.png",
+      "egg": "cracklecrest-egg.png",
+      "icon": "cracklecrest-pets-v1-icon.png",
+      "diet": "Carnivore",
+      "mountable": false,
+      "travel": [
+        "Ground"
+      ],
+      "followingBuff": null,
+      "hatchXPBonus": {
+        "skill": "Running",
+        "firstXP": 4000,
+        "repeatXP": 400,
+        "firstCash": 20000
+      },
+      "id": "cracklecrest",
+      "parentStats": [
+        {
+          "name": "Spotted-tailed quoll",
+          "weightKg": 2.475,
+          "sizeMetres": 0.55,
+          "lengthMetres": 0.55,
+          "dominantSizeMetres": 0.55,
+          "dominantSizeAxis": "length",
+          "sizeDimension": "body length",
+          "url": "https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0023/671243/Part-B-Mammals-Chapter-2.pdf",
+          "sizeUrl": "https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0023/671243/Part-B-Mammals-Chapter-2.pdf",
+          "basis": "Midpoint of available adult range data.",
+          "sizeBasis": "Midpoint of published adult body-length range.",
+          "representativeSpecies": "Dasyurus maculatus",
+          "checked": "2026-11-14",
+          "dimensionEvidence": [
+            {
+              "url": "https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0023/671243/Part-B-Mammals-Chapter-2.pdf",
+              "taxon": "Dasyurus maculatus",
+              "valueMetres": 0.55,
+              "basis": "Published body-length range midpoint."
+            }
+          ]
+        },
+        {
+          "name": "Hoopoe",
+          "weightKg": 0.06725,
+          "sizeMetres": 0.27,
+          "lengthMetres": 0.27,
+          "dominantSizeMetres": 0.27,
+          "dominantSizeAxis": "length",
+          "sizeDimension": "body length",
+          "url": "https://www.mme.hu/en/magyarorszagmadarai/madaradatbazis-upuepo",
+          "sizeUrl": "https://www.mme.hu/en/magyarorszagmadarai/madaradatbazis-upuepo",
+          "basis": "Midpoint of available adult range data.",
+          "sizeBasis": "Midpoint of published adult body-length range.",
+          "representativeSpecies": "Upupa epops",
+          "checked": "2026-11-14",
+          "dimensionEvidence": [
+            {
+              "url": "https://www.mme.hu/en/magyarorszagmadarai/madaradatbazis-upuepo",
+              "taxon": "Upupa epops",
+              "valueMetres": 0.27,
+              "basis": "Published body-length range midpoint."
+            }
+          ]
+        }
+      ],
+      "weightBalanceMultiplier": 1,
+      "weightBalanceBasis": "Length-dominant fit to the verified neutral mesh.",
+      "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+      "sizeReferenceAxis": "Length",
+      "parentBlendTargetStuds": 1.7142857142857142,
+      "heavierParent": "Spotted-tailed quoll",
       "parentReferenceRevision": "dominant-baseline-then-quality-v10"
     }
   ],
@@ -150108,31 +150198,27 @@
     "volcano": [
       {
         "species": "Dragorilla",
-        "chance": 8.333333333333332
+        "chance": 12.5
       },
       {
         "species": "Bearbecue",
-        "chance": 8.333333333333332
+        "chance": 12.5
       },
       {
         "species": "Harpyeena",
-        "chance": 16.666666666666664
-      },
-      {
-        "species": "Fennthorn",
-        "chance": 8.333333333333332
+        "chance": 25.0
       },
       {
         "species": "Tuamander",
-        "chance": 33.33333333333333
+        "chance": 12.5
       },
       {
         "species": "Rhinodo",
-        "chance": 8.333333333333332
+        "chance": 12.5
       },
       {
         "species": "Lavunco",
-        "chance": 16.666666666666664
+        "chance": 25.0
       }
     ],
     "inferno": [
@@ -150250,14 +150336,14 @@
       "patrol": 6.130414209778867,
       "recovery": 7.0,
       "eggReturn": 17.5,
-      "image": "assets/guardian/backyard-lowpoly-20261106.png",
+      "image": "assets/guardian/backyard-labraduck-20261115.jpg",
       "imageRegion": "backyard",
       "prototype": false,
       "selectedSpecies": null,
       "tuning": "Bounded unburdened pacing; weight and stamina affect the player",
       "modelStatus": "replaced",
-      "guardianHeight": 8.75,
-      "currentModelPortrait": false
+      "guardianHeight": 7.307606907894738,
+      "currentModelPortrait": true
     },
     {
       "biome": "farmland",
@@ -151051,8 +151137,8 @@
             "eggMaxKg": 7.730100871219956,
             "eggMinHeight": 2.1004370002521466,
             "eggMinKg": 4.638060522731974,
-            "incomeMax": 242.5,
-            "incomeMin": 145.5,
+            "incomeMax": 293.75,
+            "incomeMin": 176.25,
             "max": 1.25,
             "min": 0.75,
             "petMaxHeight": 4.873068702966649,
@@ -151068,8 +151154,8 @@
             "eggMaxKg": 9.276121045463947,
             "eggMinHeight": 2.800582667002862,
             "eggMinKg": 6.184080696975965,
-            "incomeMax": 582,
-            "incomeMin": 388,
+            "incomeMax": 705,
+            "incomeMin": 470,
             "max": 1.5,
             "min": 1,
             "petMaxHeight": 5.847682443559979,
@@ -151085,8 +151171,8 @@
             "eggMaxKg": 12.36816139395193,
             "eggMinHeight": 4.200874000504293,
             "eggMinKg": 9.276121045463947,
-            "incomeMax": 1552,
-            "incomeMin": 1164,
+            "incomeMax": 1880,
+            "incomeMin": 1410,
             "max": 2,
             "min": 1.5,
             "petMaxHeight": 7.79690992474664,
@@ -151102,8 +151188,8 @@
             "eggMaxKg": 15.460201742439912,
             "eggMinHeight": 5.601165334005724,
             "eggMinKg": 12.36816139395193,
-            "incomeMax": 3880,
-            "incomeMin": 3104,
+            "incomeMax": 4700,
+            "incomeMin": 3760,
             "max": 2.5,
             "min": 2,
             "petMaxHeight": 9.746137405933299,
@@ -151119,8 +151205,8 @@
             "eggMaxKg": 18.552242090927894,
             "eggMinHeight": 7.0014566675071555,
             "eggMinKg": 15.460201742439912,
-            "incomeMax": 9312,
-            "incomeMin": 7760,
+            "incomeMax": 11280,
+            "incomeMin": 9400,
             "max": 3,
             "min": 2.5,
             "petMaxHeight": 11.695364887119958,
@@ -152562,6 +152648,101 @@
         "eggSizingHeight": 2.3041392828405924,
         "rawBaseEggHeight": 1.6236069942068887
       },
+      "Cracklecrest": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.9593834652922866,
+            "carryMinRatio": 0.9336413715715617,
+            "eggMaxHeight": 1.8388227295812278,
+            "eggMaxKg": 0.5807432673674487,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.3484459604204694,
+            "incomeMax": 47.5,
+            "incomeMin": 28.5,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 3.1863912517926316,
+            "petMaxKg": 5.756079531365063,
+            "petMinHeight": 1.9118347510755793,
+            "petMinKg": 3.4536477188190386,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.9463847596351795,
+            "carryMinRatio": 0.9211450509259931,
+            "eggMaxHeight": 2.2065872754974736,
+            "eggMaxKg": 0.6968919208409388,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.46459461389395906,
+            "incomeMax": 114,
+            "incomeMin": 76,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 3.8236695021511586,
+            "petMaxKg": 6.907295437638077,
+            "petMinHeight": 2.5491130014341055,
+            "petMinKg": 4.604863625092051,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.9211450509259931,
+            "carryMinRatio": 0.8968624326328622,
+            "eggMaxHeight": 2.9421163673299646,
+            "eggMaxKg": 0.9291892277879181,
+            "eggMinHeight": 2.2065872754974736,
+            "eggMinKg": 0.6968919208409388,
+            "incomeMax": 304,
+            "incomeMin": 228,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 5.098226002868211,
+            "petMaxKg": 9.209727250184102,
+            "petMinHeight": 3.8236695021511586,
+            "petMinKg": 6.907295437638077,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.8968624326328622,
+            "carryMinRatio": 0.8734779065438085,
+            "eggMaxHeight": 3.6776454591624557,
+            "eggMaxKg": 1.1614865347348975,
+            "eggMinHeight": 2.9421163673299646,
+            "eggMinKg": 0.9291892277879181,
+            "incomeMax": 760,
+            "incomeMin": 608,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 6.372782503585263,
+            "petMaxKg": 11.512159062730126,
+            "petMinHeight": 5.098226002868211,
+            "petMinKg": 9.209727250184102,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.8734779065438085,
+            "carryMinRatio": 0.850937443625305,
+            "eggMaxHeight": 4.413174550994947,
+            "eggMaxKg": 1.3937838416818775,
+            "eggMinHeight": 3.6776454591624557,
+            "eggMinKg": 1.1614865347348975,
+            "incomeMax": 1824,
+            "incomeMin": 1520,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 7.647339004302317,
+            "petMaxKg": 13.814590875276155,
+            "petMinHeight": 6.372782503585263,
+            "petMinKg": 11.512159062730126,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 1.5,
+        "baseHeight": 2.5491130014341055,
+        "baseLength": 3.654653670707977,
+        "baseWeight": 4.604863625092051,
+        "eggSizingHeight": 2.5491130014341055,
+        "rawBaseEggHeight": 1.4710581836649823
+      },
       "Crocodoodle Doo": {
         "bands": [
           {
@@ -152941,101 +153122,6 @@
         "baseWeight": 772.5577056935614,
         "eggSizingHeight": 11.046155469036774,
         "rawBaseEggHeight": 7.191617403015747
-      },
-      "Fennthorn": {
-        "bands": [
-          {
-            "carryMaxRatio": 0.9604036198497727,
-            "carryMinRatio": 0.9352762883669621,
-            "eggMaxHeight": 1.935262332813802,
-            "eggMaxKg": 0.5657135365542642,
-            "eggMinHeight": 1.5,
-            "eggMinKg": 0.3394281219325586,
-            "incomeMax": 115,
-            "incomeMin": 69,
-            "max": 1.25,
-            "min": 0.75,
-            "petMaxHeight": 3.5603683583694683,
-            "petMaxKg": 5.60711125096146,
-            "petMinHeight": 2.136221015021681,
-            "petMinKg": 3.364266750576877,
-            "quality": "Standard"
-          },
-          {
-            "carryMaxRatio": 0.9477184026436474,
-            "carryMinRatio": 0.9230696101050937,
-            "eggMaxHeight": 2.3223147993765627,
-            "eggMaxKg": 0.6788562438651172,
-            "eggMinHeight": 1.5482098662510417,
-            "eggMinKg": 0.4525708292434114,
-            "incomeMax": 276,
-            "incomeMin": 184,
-            "max": 1.5,
-            "min": 1,
-            "petMaxHeight": 4.272442030043362,
-            "petMaxKg": 6.728533501153754,
-            "petMinHeight": 2.8482946866955747,
-            "petMinKg": 4.4856890007691685,
-            "quality": "Fine"
-          },
-          {
-            "carryMaxRatio": 0.9230696101050937,
-            "carryMinRatio": 0.8993335469609041,
-            "eggMaxHeight": 3.0964197325020835,
-            "eggMaxKg": 0.9051416584868228,
-            "eggMinHeight": 2.3223147993765627,
-            "eggMinKg": 0.6788562438651172,
-            "incomeMax": 736,
-            "incomeMin": 552,
-            "max": 2,
-            "min": 1.5,
-            "petMaxHeight": 5.6965893733911495,
-            "petMaxKg": 8.971378001538337,
-            "petMinHeight": 4.272442030043362,
-            "petMinKg": 6.728533501153754,
-            "quality": "Superior"
-          },
-          {
-            "carryMaxRatio": 0.8993335469609041,
-            "carryMinRatio": 0.8764552392836638,
-            "eggMaxHeight": 3.870524665627604,
-            "eggMaxKg": 1.1314270731085283,
-            "eggMinHeight": 3.0964197325020835,
-            "eggMinKg": 0.9051416584868228,
-            "incomeMax": 1840,
-            "incomeMin": 1472,
-            "max": 2.5,
-            "min": 2,
-            "petMaxHeight": 7.120736716738937,
-            "petMaxKg": 11.21422250192292,
-            "petMinHeight": 5.6965893733911495,
-            "petMinKg": 8.971378001538337,
-            "quality": "Epic"
-          },
-          {
-            "carryMaxRatio": 0.8764552392836638,
-            "carryMinRatio": 0.8543842397292842,
-            "eggMaxHeight": 4.644629598753125,
-            "eggMaxKg": 1.3577124877302345,
-            "eggMinHeight": 3.870524665627604,
-            "eggMinKg": 1.1314270731085283,
-            "incomeMax": 4416,
-            "incomeMin": 3680,
-            "max": 3,
-            "min": 2.5,
-            "petMaxHeight": 8.544884060086725,
-            "petMaxKg": 13.457067002307507,
-            "petMinHeight": 7.120736716738937,
-            "petMinKg": 11.21422250192292,
-            "quality": "Legendary"
-          }
-        ],
-        "baseEggHeight": 1.5482098662510417,
-        "baseHeight": 2.848294686695575,
-        "baseLength": 3.504444531850912,
-        "baseWeight": 4.4856890007691685,
-        "eggSizingHeight": 2.848294686695575,
-        "rawBaseEggHeight": 1.5482098662510417
       },
       "Ferretwyrm": {
         "bands": [
@@ -153796,6 +153882,101 @@
         "baseWeight": 391.04288794964157,
         "eggSizingHeight": 8.8416699579683,
         "rawBaseEggHeight": 5.74385841264391
+      },
+      "Grim Creeper": {
+        "bands": [
+          {
+            "carryMaxRatio": 0.9560123919088837,
+            "carryMinRatio": 0.928250126427018,
+            "eggMaxHeight": 2.476911264112242,
+            "eggMaxKg": 0.6305759677691213,
+            "eggMinHeight": 1.5,
+            "eggMinKg": 0.3783455806614728,
+            "incomeMax": 12.5,
+            "incomeMin": 7.5,
+            "max": 1.25,
+            "min": 0.75,
+            "petMaxHeight": 5.625,
+            "petMaxKg": 6.25,
+            "petMinHeight": 3.375,
+            "petMinKg": 3.75,
+            "quality": "Standard"
+          },
+          {
+            "carryMaxRatio": 0.9419824431930697,
+            "carryMinRatio": 0.9148050649834742,
+            "eggMaxHeight": 2.9722935169346902,
+            "eggMaxKg": 0.7566911613229456,
+            "eggMinHeight": 1.9815290112897936,
+            "eggMinKg": 0.5044607742152971,
+            "incomeMax": 30,
+            "incomeMin": 20,
+            "max": 1.5,
+            "min": 1,
+            "petMaxHeight": 6.75,
+            "petMaxKg": 7.5,
+            "petMinHeight": 4.5,
+            "petMinKg": 5,
+            "quality": "Fine"
+          },
+          {
+            "carryMaxRatio": 0.9148050649834742,
+            "carryMinRatio": 0.8887376686394708,
+            "eggMaxHeight": 3.9630580225795873,
+            "eggMaxKg": 1.0089215484305942,
+            "eggMinHeight": 2.9722935169346902,
+            "eggMinKg": 0.7566911613229456,
+            "incomeMax": 80,
+            "incomeMin": 60,
+            "max": 2,
+            "min": 1.5,
+            "petMaxHeight": 9,
+            "petMaxKg": 10,
+            "petMinHeight": 6.75,
+            "petMinKg": 7.5,
+            "quality": "Superior"
+          },
+          {
+            "carryMaxRatio": 0.8887376686394708,
+            "carryMinRatio": 0.8637066980461265,
+            "eggMaxHeight": 4.953822528224484,
+            "eggMaxKg": 1.2611519355382426,
+            "eggMinHeight": 3.9630580225795873,
+            "eggMinKg": 1.0089215484305942,
+            "incomeMax": 200,
+            "incomeMin": 160,
+            "max": 2.5,
+            "min": 2,
+            "petMaxHeight": 11.25,
+            "petMaxKg": 12.5,
+            "petMinHeight": 9,
+            "petMinKg": 10,
+            "quality": "Epic"
+          },
+          {
+            "carryMaxRatio": 0.8637066980461265,
+            "carryMinRatio": 0.8396452452230556,
+            "eggMaxHeight": 5.9445870338693805,
+            "eggMaxKg": 1.5133823226458911,
+            "eggMinHeight": 4.953822528224484,
+            "eggMinKg": 1.2611519355382426,
+            "incomeMax": 480,
+            "incomeMin": 400,
+            "max": 3,
+            "min": 2.5,
+            "petMaxHeight": 13.5,
+            "petMaxKg": 15,
+            "petMinHeight": 11.25,
+            "petMinKg": 12.5,
+            "quality": "Legendary"
+          }
+        ],
+        "baseEggHeight": 1.9815290112897936,
+        "baseHeight": 4.5,
+        "baseLength": 4.5,
+        "baseWeight": 5,
+        "eggSizingHeight": 4.5,
+        "rawBaseEggHeight": 1.9815290112897936
       },
       "Hamsturtle": {
         "bands": [
@@ -154647,7 +154828,7 @@
         ],
         "baseEggHeight": 1.7609108722575364,
         "baseHeight": 3.700764888226735,
-        "baseLength": 3.069975082135047,
+        "baseLength": 3.3383262103921174,
         "baseWeight": 4.4274605390058035,
         "eggSizingHeight": 3.700764888226735,
         "rawBaseEggHeight": 1.7609108722575364
@@ -155041,8 +155222,8 @@
             "eggMaxKg": 0.04130162872902734,
             "eggMinHeight": 1.5,
             "eggMinKg": 0.0247809772374164,
-            "incomeMax": 68.75,
-            "incomeMin": 41.25,
+            "incomeMax": 150,
+            "incomeMin": 90,
             "max": 1.25,
             "min": 0.75,
             "petMaxHeight": 3.4499095089896943,
@@ -155058,8 +155239,8 @@
             "eggMaxKg": 0.0495619544748328,
             "eggMinHeight": 1.5,
             "eggMinKg": 0.03304130298322187,
-            "incomeMax": 165,
-            "incomeMin": 110,
+            "incomeMax": 360,
+            "incomeMin": 240,
             "max": 1.5,
             "min": 1,
             "petMaxHeight": 4.139891410787633,
@@ -155075,8 +155256,8 @@
             "eggMaxKg": 0.06608260596644373,
             "eggMinHeight": 1.5,
             "eggMinKg": 0.0495619544748328,
-            "incomeMax": 440,
-            "incomeMin": 330,
+            "incomeMax": 960,
+            "incomeMin": 720,
             "max": 2,
             "min": 1.5,
             "petMaxHeight": 5.51985521438351,
@@ -155092,8 +155273,8 @@
             "eggMaxKg": 0.08260325745805468,
             "eggMinHeight": 1.9705069902216552,
             "eggMinKg": 0.06608260596644373,
-            "incomeMax": 1100,
-            "incomeMin": 880,
+            "incomeMax": 2400,
+            "incomeMin": 1920,
             "max": 2.5,
             "min": 2,
             "petMaxHeight": 6.899819017979389,
@@ -155109,8 +155290,8 @@
             "eggMaxKg": 0.0991239089496656,
             "eggMinHeight": 2.463133737777069,
             "eggMinKg": 0.08260325745805468,
-            "incomeMax": 2640,
-            "incomeMin": 2200,
+            "incomeMax": 5760,
+            "incomeMin": 4800,
             "max": 3,
             "min": 2.5,
             "petMaxHeight": 8.279782821575266,
@@ -155136,8 +155317,8 @@
             "eggMaxKg": 3.841090450068827,
             "eggMinHeight": 2.265319031758197,
             "eggMinKg": 2.3046542700412957,
-            "incomeMax": 242.5,
-            "incomeMin": 145.5,
+            "incomeMax": 293.75,
+            "incomeMin": 176.25,
             "max": 1.25,
             "min": 0.75,
             "petMaxHeight": 7.156250000000001,
@@ -155153,8 +155334,8 @@
             "eggMaxKg": 4.6093085400825915,
             "eggMinHeight": 3.0204253756775956,
             "eggMinKg": 3.072872360055061,
-            "incomeMax": 582,
-            "incomeMin": 388,
+            "incomeMax": 705,
+            "incomeMin": 470,
             "max": 1.5,
             "min": 1,
             "petMaxHeight": 8.5875,
@@ -155170,8 +155351,8 @@
             "eggMaxKg": 6.145744720110122,
             "eggMinHeight": 4.530638063516394,
             "eggMinKg": 4.6093085400825915,
-            "incomeMax": 1552,
-            "incomeMin": 1164,
+            "incomeMax": 1880,
+            "incomeMin": 1410,
             "max": 2,
             "min": 1.5,
             "petMaxHeight": 11.450000000000001,
@@ -155187,8 +155368,8 @@
             "eggMaxKg": 7.682180900137654,
             "eggMinHeight": 6.040850751355191,
             "eggMinKg": 6.145744720110122,
-            "incomeMax": 3880,
-            "incomeMin": 3104,
+            "incomeMax": 4700,
+            "incomeMin": 3760,
             "max": 2.5,
             "min": 2,
             "petMaxHeight": 14.312500000000002,
@@ -155204,8 +155385,8 @@
             "eggMaxKg": 9.218617080165183,
             "eggMinHeight": 7.551063439193989,
             "eggMinKg": 7.682180900137654,
-            "incomeMax": 9312,
-            "incomeMin": 7760,
+            "incomeMax": 11280,
+            "incomeMin": 9400,
             "max": 3,
             "min": 2.5,
             "petMaxHeight": 17.175,
@@ -156941,8 +157122,8 @@
             "eggMaxKg": 0.914097771547328,
             "eggMinHeight": 1.5,
             "eggMinKg": 0.5484586629283967,
-            "incomeMax": 242.5,
-            "incomeMin": 145.5,
+            "incomeMax": 293.75,
+            "incomeMin": 176.25,
             "max": 1.25,
             "min": 0.75,
             "petMaxHeight": 2.821064873939774,
@@ -156958,8 +157139,8 @@
             "eggMaxKg": 1.0969173258567935,
             "eggMinHeight": 1.5,
             "eggMinKg": 0.7312782172378623,
-            "incomeMax": 582,
-            "incomeMin": 388,
+            "incomeMax": 705,
+            "incomeMin": 470,
             "max": 1.5,
             "min": 1,
             "petMaxHeight": 3.385277848727729,
@@ -156975,8 +157156,8 @@
             "eggMaxKg": 1.4625564344757247,
             "eggMinHeight": 2.2393028872218705,
             "eggMinKg": 1.0969173258567935,
-            "incomeMax": 1552,
-            "incomeMin": 1164,
+            "incomeMax": 1880,
+            "incomeMin": 1410,
             "max": 2,
             "min": 1.5,
             "petMaxHeight": 4.513703798303639,
@@ -156992,8 +157173,8 @@
             "eggMaxKg": 1.828195543094656,
             "eggMinHeight": 2.9857371829624944,
             "eggMinKg": 1.4625564344757247,
-            "incomeMax": 3880,
-            "incomeMin": 3104,
+            "incomeMax": 4700,
+            "incomeMin": 3760,
             "max": 2.5,
             "min": 2,
             "petMaxHeight": 5.642129747879548,
@@ -157009,8 +157190,8 @@
             "eggMaxKg": 2.193834651713587,
             "eggMinHeight": 3.732171478703118,
             "eggMinKg": 1.828195543094656,
-            "incomeMax": 9312,
-            "incomeMin": 7760,
+            "incomeMax": 11280,
+            "incomeMin": 9400,
             "max": 3,
             "min": 2.5,
             "petMaxHeight": 6.770555697455458,
@@ -158271,8 +158452,8 @@
             "eggMaxKg": 0.20379977876777622,
             "eggMinHeight": 1.5,
             "eggMinKg": 0.12227986726066573,
-            "incomeMax": 37.5,
-            "incomeMin": 22.5,
+            "incomeMax": 187.5,
+            "incomeMin": 112.5,
             "max": 1.25,
             "min": 0.75,
             "petMaxHeight": 1.668828414360408,
@@ -158288,8 +158469,8 @@
             "eggMaxKg": 0.24455973452133145,
             "eggMinHeight": 1.5,
             "eggMinKg": 0.16303982301422096,
-            "incomeMax": 90,
-            "incomeMin": 60,
+            "incomeMax": 450,
+            "incomeMin": 300,
             "max": 1.5,
             "min": 1,
             "petMaxHeight": 2.0025940972324894,
@@ -158305,8 +158486,8 @@
             "eggMaxKg": 0.3260796460284419,
             "eggMinHeight": 1.5,
             "eggMinKg": 0.24455973452133145,
-            "incomeMax": 240,
-            "incomeMin": 180,
+            "incomeMax": 1200,
+            "incomeMin": 900,
             "max": 2,
             "min": 1.5,
             "petMaxHeight": 2.6701254629766527,
@@ -158322,8 +158503,8 @@
             "eggMaxKg": 0.40759955753555244,
             "eggMinHeight": 1.7882135956361527,
             "eggMinKg": 0.3260796460284419,
-            "incomeMax": 600,
-            "incomeMin": 480,
+            "incomeMax": 3000,
+            "incomeMin": 2400,
             "max": 2.5,
             "min": 2,
             "petMaxHeight": 3.337656828720816,
@@ -158339,8 +158520,8 @@
             "eggMaxKg": 0.4891194690426629,
             "eggMinHeight": 2.235266994545191,
             "eggMinKg": 0.40759955753555244,
-            "incomeMax": 1440,
-            "incomeMin": 1200,
+            "incomeMax": 7200,
+            "incomeMin": 6000,
             "max": 3,
             "min": 2.5,
             "petMaxHeight": 4.005188194464979,
@@ -158366,8 +158547,8 @@
             "eggMaxKg": 0.1087912443881398,
             "eggMinHeight": 1.5,
             "eggMinKg": 0.06527474663288388,
-            "incomeMax": 242.5,
-            "incomeMin": 145.5,
+            "incomeMax": 293.75,
+            "incomeMin": 176.25,
             "max": 1.25,
             "min": 0.75,
             "petMaxHeight": 2.2540107623396404,
@@ -158383,8 +158564,8 @@
             "eggMaxKg": 0.13054949326576776,
             "eggMinHeight": 1.5,
             "eggMinKg": 0.08703299551051183,
-            "incomeMax": 582,
-            "incomeMin": 388,
+            "incomeMax": 705,
+            "incomeMin": 470,
             "max": 1.5,
             "min": 1,
             "petMaxHeight": 2.704812914807568,
@@ -158400,8 +158581,8 @@
             "eggMaxKg": 0.17406599102102366,
             "eggMinHeight": 1.5,
             "eggMinKg": 0.13054949326576776,
-            "incomeMax": 1552,
-            "incomeMin": 1164,
+            "incomeMax": 1880,
+            "incomeMin": 1410,
             "max": 2,
             "min": 1.5,
             "petMaxHeight": 3.6064172197434248,
@@ -158417,8 +158598,8 @@
             "eggMaxKg": 0.2175824887762796,
             "eggMinHeight": 1.8717876680945142,
             "eggMinKg": 0.17406599102102366,
-            "incomeMax": 3880,
-            "incomeMin": 3104,
+            "incomeMax": 4700,
+            "incomeMin": 3760,
             "max": 2.5,
             "min": 2,
             "petMaxHeight": 4.508021524679281,
@@ -158434,8 +158615,8 @@
             "eggMaxKg": 0.2610989865315355,
             "eggMinHeight": 2.339734585118143,
             "eggMinKg": 0.2175824887762796,
-            "incomeMax": 9312,
-            "incomeMin": 7760,
+            "incomeMax": 11280,
+            "incomeMin": 9400,
             "max": 3,
             "min": 2.5,
             "petMaxHeight": 5.409625829615136,

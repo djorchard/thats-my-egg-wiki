@@ -333,44 +333,80 @@
                 }
               ]
             }
+          },
+          {
+            "status": "installed-eyelid-polish-pending",
+            "modelFile": "creatures/1-sunnyside-backyard/labraduck/labraduck-14-contact-animations4.fbx",
+            "modelSha256": "d36537e1c3a0b29be73699408d45991b19a72aea1eea7814a585f189c8da364a",
+            "robloxImage": {
+              "environment": "Studio Edit",
+              "pose": "Neutral",
+              "wikiImage": "assets/animations/labraduck/import4-20261115/studio-guardian.jpg",
+              "sha256": "ee877f931a80df72b060f3368786be093991397077060bcd54717569e55f98a6",
+              "currentVersion": true,
+              "detailImages": [],
+              "evidence": "output/labraduck-import-20261108/install-20261115/verified-install.json",
+              "captureFormat": "JPEG",
+              "currentScope": "The Backyard guardian uses the same body mesh as the pet.",
+              "sizeBlendRevision": "dominant-baseline-then-quality-v10"
+            },
+            "installed": true,
+            "mesh": "rbxassetid://120743776131447",
+            "animationBundle": {
+              "wikiFile": "assets/animations/labraduck/import4-20261115/labraduck-animations.zip",
+              "sha256": "615d7eab24b93e02fbed9b91f59090e58c5fe516532a14692fc814cb6fa5591d",
+              "complete": true,
+              "scope": "Nine current action previews in GIF and MP4, plus the retained FBX."
+            }
           }
         ],
         "currentModel": {
-          "file": "creatures/1-sunnyside-backyard/labraduck/labraduck-14-contact-animations4.fbx",
-          "sha256": "d36537e1c3a0b29be73699408d45991b19a72aea1eea7814a585f189c8da364a"
+          "file": "creatures/1-sunnyside-backyard/labraduck/labraduck-15-bill-seam4.fbx",
+          "sha256": "a24307aec66d0b86b680035494ae5c166c2915bfae9bebfe22bccce54885725d"
         },
         "nativeMesh": {
-          "file": "assets/pets/labraduck-replacement-20261108/native-mesh.json",
-          "sha256": "5a7af2091fa6851dee51ff26a32bdf1b26c1be9c60592cde9d6cd172089c9ba5"
+          "file": "assets/pets/labraduck-import4-bill-seam-20261115/native-mesh.json",
+          "sha256": "562154c49775d6bd7cba6fc76dc5a6eabd06559d7b9d59b91d2813cfe741a149"
         },
         "installation": {
-          "file": "output/labraduck-import-20261108/install-20261115/verified-install.json",
-          "sha256": "4ed901c5aeea4a45344b9c68585da0754fe94c4dbc9ec548a296a1e30031f7ff"
+          "file": "output/labraduck-import-20261108/bill-flicker-20261115/verified-install.json",
+          "sha256": "178611039afa0a78402f177aa4ad13fe3ae98b5c79d2f2481730365d99f70827"
         },
-        "qualityNotice": "The 8 November body is installed in Studio Edit. Held sleep and petting eyelids still need polish.",
+        "qualityNotice": "The 8 November body with the bill seam repair is installed in Studio Edit. Held sleep and petting eyelids still need polish.",
         "replacementImport": {
           "status": "installed-eyelid-polish-pending",
-          "modelFile": "creatures/1-sunnyside-backyard/labraduck/labraduck-14-contact-animations4.fbx",
-          "modelSha256": "d36537e1c3a0b29be73699408d45991b19a72aea1eea7814a585f189c8da364a",
+          "modelFile": "creatures/1-sunnyside-backyard/labraduck/labraduck-15-bill-seam4.fbx",
+          "modelSha256": "a24307aec66d0b86b680035494ae5c166c2915bfae9bebfe22bccce54885725d",
           "robloxImage": {
             "environment": "Studio Edit",
             "pose": "Neutral",
-            "wikiImage": "assets/animations/labraduck/import4-20261115/studio-guardian.jpg",
-            "sha256": "ee877f931a80df72b060f3368786be093991397077060bcd54717569e55f98a6",
+            "wikiImage": "assets/animations/labraduck/bill-seam-20261115/studio-guardian.jpg",
+            "sha256": "faec3955358cd439d8f6dbdbbda32611fc0777f0f32dc3e7788dcc9d0d6f466b",
             "currentVersion": true,
-            "detailImages": [],
-            "evidence": "output/labraduck-import-20261108/install-20261115/verified-install.json",
+            "detailImages": [
+              {
+                "label": "Bill fully open in Studio Edit",
+                "wikiImage": "assets/animations/labraduck/bill-seam-20261115/bill-open.jpg",
+                "sha256": "43fbdf71765fa9901a58fb352abc5ba18a76a6a8cd2ae904e8290da4b9e184d5"
+              },
+              {
+                "label": "Bill closed again in Studio Edit",
+                "wikiImage": "assets/animations/labraduck/bill-seam-20261115/bill-closed-again.jpg",
+                "sha256": "9055ce80a52f5b2709873aa2b8bf6a72c45aa0afc6f2fd71f9c14aff170e4a1b"
+              }
+            ],
+            "evidence": "output/labraduck-import-20261108/bill-flicker-20261115/verified-install.json",
             "captureFormat": "JPEG",
-            "currentScope": "The Backyard guardian uses the same body mesh as the pet.",
+            "currentScope": "The Backyard guardian uses the same body mesh as the pet. The repaired bill still opens to 15 degrees and closes again.",
             "sizeBlendRevision": "dominant-baseline-then-quality-v10"
           },
           "installed": true,
-          "mesh": "rbxassetid://120743776131447",
+          "mesh": "rbxassetid://139086127319015",
           "animationBundle": {
-            "wikiFile": "assets/animations/labraduck/import4-20261115/labraduck-animations.zip",
-            "sha256": "615d7eab24b93e02fbed9b91f59090e58c5fe516532a14692fc814cb6fa5591d",
+            "wikiFile": "assets/animations/labraduck/bill-seam-20261115/labraduck-animations.zip",
+            "sha256": "951cb3ad019b320ce2cd6da66068d5049bd443cddd9698b61cb410832ac882af",
             "complete": true,
-            "scope": "Nine current action previews in GIF and MP4, plus the retained FBX."
+            "scope": "Nine offline action previews in GIF and MP4, plus the repaired FBX."
           }
         },
         "realModelReady": true,
@@ -380,23 +416,23 @@
           "environment": "Studio Edit",
           "status": "installed",
           "evidence": {
-            "file": "output/labraduck-import-20261108/install-20261115/verified-install.json",
-            "sha256": "4ed901c5aeea4a45344b9c68585da0754fe94c4dbc9ec548a296a1e30031f7ff"
+            "file": "output/labraduck-import-20261108/bill-flicker-20261115/verified-install.json",
+            "sha256": "178611039afa0a78402f177aa4ad13fe3ae98b5c79d2f2481730365d99f70827"
           },
           "catalogueRegistered": true,
           "modelInstalled": true,
           "eggShellInstalled": true,
           "model": {
-            "file": "creatures/1-sunnyside-backyard/labraduck/labraduck-14-contact-animations4.fbx",
-            "sha256": "d36537e1c3a0b29be73699408d45991b19a72aea1eea7814a585f189c8da364a"
+            "file": "creatures/1-sunnyside-backyard/labraduck/labraduck-15-bill-seam4.fbx",
+            "sha256": "a24307aec66d0b86b680035494ae5c166c2915bfae9bebfe22bccce54885725d"
           },
           "native": {
-            "file": "assets/pets/labraduck-replacement-20261108/native-mesh.json",
-            "sha256": "5a7af2091fa6851dee51ff26a32bdf1b26c1be9c60592cde9d6cd172089c9ba5"
+            "file": "assets/pets/labraduck-import4-bill-seam-20261115/native-mesh.json",
+            "sha256": "562154c49775d6bd7cba6fc76dc5a6eabd06559d7b9d59b91d2813cfe741a149"
           },
-          "mesh": "rbxassetid://120743776131447",
+          "mesh": "rbxassetid://139086127319015",
           "animationKey": "LabraduckPetV4",
-          "animationRevision": "labraduck-import4-contact-smooth-blink-v1",
+          "animationRevision": "labraduck-import4-bill-seam-v1",
           "bodyActions": [
             "Idle",
             "Walk",
@@ -434,6 +470,10 @@
             {
               "file": "output/model-import-audit-20261107/studio-inventory-after.json",
               "sha256": "c3c30248b333f4a44703a560ba4dde1842357cbb292cf387510869b389772395"
+            },
+            {
+              "file": "output/labraduck-import-20261108/install-20261115/verified-install.json",
+              "sha256": "4ed901c5aeea4a45344b9c68585da0754fe94c4dbc9ec548a296a1e30031f7ff"
             }
           ]
         }
@@ -8033,7 +8073,7 @@
       },
       "reference": "puglet-perspective.png",
       "egg": "puglet-egg.png",
-      "notes": "The current 3.15-stud Puglet has 2,028 triangles and a matte 1K colour map. The hind-hoof weights were fitted to the new geometry. Farmland eggs and earnings are retained. The new model awaits developer review. Installed Blink needs work at 6.6/10. A small iris rim remains visible and the raised lids catch a highlight in the installed closed pose. The separately shown source-rendered Blink scored 7.6/10. Live movement and device performance remain unverified.",
+      "notes": "Puglet's new model has 2,036 body triangles and a matte 1K colour map. It has four cloven hooves, two nostrils and an open tail curl. The new lids reuse fur from the body texture. Clover Farm eggs and existing stats are retained. The new model awaits developer review. Live movement and device performance remain unverified.",
       "icon": "puglet-icon.png",
       "previewArtwork": [
         {
@@ -8188,65 +8228,304 @@
               "missing": []
             },
             "replacementImport": null
+          },
+          {
+            "modelUpdate": null,
+            "movementAnimation": {
+              "revision": "puglet-lowpoly-v2-retained-gaits-v1",
+              "model": "creatures/2-clover-farm/puglet/puglet-6-animations2.fbx",
+              "sha256": "062a68055b66133765eec982e129252165c2171bcd4746b05397a679b2d34787",
+              "source": "assets/pets/puglet-lowpoly-v2-matte",
+              "verification": "output/puglet-lowpoly-20261106/animation-contact-sheet.jpg",
+              "gameplayTested": false
+            },
+            "expressionRepair": null,
+            "animationManifest": {
+              "name": "Puglet",
+              "animationKey": "Puglet",
+              "slug": "puglet",
+              "model": "creatures/2-clover-farm/puglet/puglet-6-animations2.fbx",
+              "modelSha256": "062a68055b66133765eec982e129252165c2171bcd4746b05397a679b2d34787",
+              "nativeSource": "assets/pets/puglet-lowpoly-v2-matte/native-mesh.json",
+              "sidecarSources": {
+                "creatures/2-clover-farm/puglet/puglet-6-animations2.fbx": "062a68055b66133765eec982e129252165c2171bcd4746b05397a679b2d34787",
+                "assets/pets/puglet-lowpoly-v2-matte/native-mesh.json": "0879dc488011ca45b87363a43fb94a2eaee3d92aabcf030442d0e13b885b8ce2",
+                "assets/pets/puglet-lowpoly-v2-matte/clips.json": "a2e3f87545c44d56a915a1b3dfe01e9e6b017d240a965b68a5069591b74e12ac",
+                "assets/pets/puglet-lowpoly-v2-matte/eye-fit.json": "cef29b5d5948233fc67e289cf0c8db46af96d61d8eaab1fd008a8cc472fed35c",
+                "assets/pets/puglet-lowpoly-v2-matte/upload-receipt.json": "733aabe80d2dfa1f4a086d04b49c8be584838dad178c79c96dc58ec17d915242",
+                "src/creature_animation.luau": "072b349d3aff3f786f96cc051405223630dbe5fe8acad1cdc2cacec232e5fefc",
+                "src/creature_clips_puglet.luau": "c6c3ef0723c309d73177e872376988dcef088bf3f3453ab953afb521f1ba1263",
+                "src/creature_chase_puglet.luau": "94c510f4e4bcaab1b32b364240e4ba351c38ec6995d4d6ccf47427e88f68328a",
+                "assets/pets/puglet-lowpoly-v2-matte/color.png": "c7ac93e4da22549b3d6546c55099b2412ea38a28386e5887134801bc7699bb15",
+                "assets/pets/puglet-lowpoly-v2-matte/roughness.png": "a65bc76d53b031ed89adf7e8b7ddff07ce80a2596a76adbe0a6b28eeb19cd982",
+                "assets/pets/puglet-lowpoly-v2-matte/metallic.png": "0f4b1668d119f77ceb6b86645573f088ab2341d7b284314d5df0be7226ea5d91"
+              },
+              "configurationSource": {
+                "file": "src/creature_config.luau",
+                "key": "Puglet",
+                "sha256": "7868dd0714eec321c8acfeb60869f0bb5b8702f28bff90d8dd093b26d003ee3e"
+              },
+              "clips": [
+                {
+                  "name": "Idle",
+                  "gif": "assets/animations/puglet/lowpoly-v2/idle.gif",
+                  "video": "assets/animations/puglet/lowpoly-v2/idle.mp4",
+                  "poster": "assets/animations/puglet/lowpoly-v2/idle.png",
+                  "durationSeconds": 3.0,
+                  "fps": 24,
+                  "cycleDurationSeconds": 3.0,
+                  "cyclesPerSecond": 0.3333333333333333,
+                  "movementStudsPerSecond": 0.0,
+                  "status": "ready",
+                  "staticPose": false,
+                  "playback": "runtime",
+                  "limitations": [
+                    "Source preview on the current replacement rig. Live gameplay is unverified."
+                  ],
+                  "sourceFingerprint": "5beea140e7907a7f3b4f97530f532416aab632ad6e7c4eac445adb828941c144",
+                  "renderEvidence": "output/puglet-lowpoly-20261106/media/work/puglet-lowpoly-idle/idle-receipt.json"
+                },
+                {
+                  "name": "Walk",
+                  "gif": "assets/animations/puglet/lowpoly-v2/walk.gif",
+                  "video": "assets/animations/puglet/lowpoly-v2/walk.mp4",
+                  "poster": "assets/animations/puglet/lowpoly-v2/walk.png",
+                  "durationSeconds": 2.3333333333333335,
+                  "fps": 24,
+                  "cycleDurationSeconds": 1.15,
+                  "cyclesPerSecond": 0.8695652173913044,
+                  "movementStudsPerSecond": 0.6573913043478261,
+                  "status": "ready",
+                  "staticPose": false,
+                  "playback": "runtime",
+                  "limitations": [
+                    "Source preview on the current replacement rig. Live gameplay is unverified."
+                  ],
+                  "sourceFingerprint": "bf5052af3bea7f102a25ed2d1a0e0740b61a313a98a2ca5cbc70483905ca5702",
+                  "renderEvidence": "output/puglet-lowpoly-20261106/media/work/puglet-lowpoly-walk/walk-receipt.json"
+                },
+                {
+                  "name": "Run",
+                  "gif": "assets/animations/puglet/lowpoly-v2/run.gif",
+                  "video": "assets/animations/puglet/lowpoly-v2/run.mp4",
+                  "poster": "assets/animations/puglet/lowpoly-v2/run.png",
+                  "durationSeconds": 1.7083333333333333,
+                  "fps": 24,
+                  "cycleDurationSeconds": 0.56,
+                  "cyclesPerSecond": 1.7857142857142856,
+                  "movementStudsPerSecond": 2.25,
+                  "status": "ready",
+                  "staticPose": false,
+                  "playback": "runtime",
+                  "limitations": [
+                    "Source preview on the current replacement rig. Live gameplay is unverified."
+                  ],
+                  "sourceFingerprint": "9a7769feee7dfae47cb274a549f4ed10faa2c765da539319e482e9dcf5f9c932",
+                  "renderEvidence": "output/puglet-lowpoly-20261106/media/work/puglet-lowpoly-run/run-receipt.json"
+                },
+                {
+                  "name": "Chase",
+                  "gif": "assets/animations/puglet/lowpoly-v2/chase.gif",
+                  "video": "assets/animations/puglet/lowpoly-v2/chase.mp4",
+                  "poster": "assets/animations/puglet/lowpoly-v2/chase.png",
+                  "durationSeconds": 1.7083333333333333,
+                  "fps": 24,
+                  "cycleDurationSeconds": 0.56,
+                  "cyclesPerSecond": 1.7857142857142856,
+                  "movementStudsPerSecond": 2.25,
+                  "status": "ready",
+                  "staticPose": false,
+                  "playback": "runtime",
+                  "limitations": [
+                    "Source preview on the current replacement rig. Live gameplay is unverified."
+                  ],
+                  "sourceFingerprint": "4a6d2ecf6c0b916382020d93db6910f37aad72008b82322bdd6a568e138ef1a4",
+                  "renderEvidence": "output/puglet-lowpoly-20261106/media/work/puglet-lowpoly-chase/chase-receipt.json"
+                },
+                {
+                  "name": "Blink",
+                  "gif": "assets/animations/puglet/lowpoly-v2/blink.gif",
+                  "video": "assets/animations/puglet/lowpoly-v2/blink.mp4",
+                  "poster": "assets/animations/puglet/lowpoly-v2/blink.png",
+                  "durationSeconds": 1.2,
+                  "fps": 30,
+                  "cycleDurationSeconds": 1.2,
+                  "cyclesPerSecond": 0.8333333333333334,
+                  "movementStudsPerSecond": 0.0,
+                  "status": "ready",
+                  "staticPose": false,
+                  "playback": "runtime",
+                  "limitations": [
+                    "Source preview on the current replacement rig. Live gameplay is unverified.",
+                    "Installed Blink needs work at 6.6/10. The displayed GIF and MP4 show the separate offline source expression."
+                  ],
+                  "sourceFingerprint": "cfc5f2a0e378724523f160be90a18343826b63513cecda4b5fd276d6b59589c7",
+                  "renderEvidence": "output/puglet-lowpoly-20261106/media/work/puglet-lowpoly-blink/blink-receipt.json"
+                }
+              ],
+              "missing": []
+            },
+            "replacementImport": {
+              "importNumber": 2,
+              "date": "2026-11-06",
+              "installed": true,
+              "status": "installed-verified-edit",
+              "model": "creatures/2-clover-farm/puglet/puglet-6-animations2.fbx",
+              "modelSha256": "062a68055b66133765eec982e129252165c2171bcd4746b05397a679b2d34787",
+              "mesh": "rbxassetid://140304901736314",
+              "animationRevision": "puglet-lowpoly-v2-retained-gaits-v1",
+              "rigBones": 20,
+              "nativePayload": "assets/pets/puglet-lowpoly-v2-matte/native-mesh.json",
+              "nativePayloadSha256": "0879dc488011ca45b87363a43fb94a2eaee3d92aabcf030442d0e13b885b8ce2",
+              "robloxImage": {
+                "wikiImage": "assets/animations/puglet/wiki-snapshots-20261110-v10/snapshot.jpg",
+                "sha256": "b63375124d2a34c679845683ac7ae4ed42c1416b6fd03127ec0a8c34b9b5ba4c",
+                "environment": "Studio Edit",
+                "pose": "Idle",
+                "poseTimeSeconds": 1,
+                "captureFormat": "JPEG",
+                "currentVersion": true,
+                "sizeBlendRevision": "dominant-baseline-then-quality-v10",
+                "nativePayloadSha256": "0879dc488011ca45b87363a43fb94a2eaee3d92aabcf030442d0e13b885b8ce2",
+                "modelSha256": "062a68055b66133765eec982e129252165c2171bcd4746b05397a679b2d34787",
+                "heightStuds": 3.7875102718315046,
+                "animationRevision": "puglet-lowpoly-v2-retained-gaits-v1",
+                "sourceCapture": {
+                  "file": "screenshot/needs-review/wiki-creatures-2026-11-10/62dc4b522746/puglet/snapshot.jpg",
+                  "sha256": "b63375124d2a34c679845683ac7ae4ed42c1416b6fd03127ec0a8c34b9b5ba4c"
+                },
+                "captureReceipt": {
+                  "file": "output/wiki-refresh/20261110-creature-snapshots/captures/62dc4b522746/puglet/receipt.json",
+                  "sha256": "2d5885720f85100e6ac1417cd71c873bd456c2270a2bc6ee168e92d14d9f7c62"
+                },
+                "modelSource": {
+                  "file": "creatures\\2-clover-farm\\puglet\\puglet-6-animations2.fbx",
+                  "sha256": "062a68055b66133765eec982e129252165c2171bcd4746b05397a679b2d34787"
+                },
+                "capturedAt": "2026-11-10T04:11:09.922355+00:00",
+                "detailImages": [],
+                "currentScope": "Native Studio Edit fixture using the current installed template in the Farm scene at its standard catalogue height. Live gameplay acceptance remains separate."
+              },
+              "animationBundle": {
+                "wikiFile": "assets/animations/puglet/lowpoly-v2/puglet-lowpoly-v2-animations-and-model.zip",
+                "sha256": "f7381503ea35d56a253acc8628f0fb399922474a0cb7683719a24809fcbf08b3",
+                "complete": true,
+                "animations": [
+                  "Idle",
+                  "Walk",
+                  "Run",
+                  "Chase",
+                  "Blink"
+                ]
+              },
+              "allRequiredQualityAccepted": false,
+              "installedEvidence": {
+                "file": "output/puglet-lowpoly-20261106/matte-studio-apply.json",
+                "sha256": "416c9f7f3666592ed0ce910b9feb5a516cb652fad2d9607a07ac37336429cfe0"
+              },
+              "qualityNotice": "The current 3.15-stud Puglet has 2,028 triangles and a matte 1K colour map. The hind-hoof weights were fitted to the new geometry. Farmland eggs and earnings are retained. The new model awaits developer review. Installed Blink needs work at 6.6/10. A small iris rim remains visible and the raised lids catch a highlight in the installed closed pose. The separately shown source-rendered Blink scored 7.6/10.",
+              "currentExpressionMediaStatus": {
+                "currentMediaAvailable": true
+              },
+              "nativeBlinkReview": {
+                "ratingOutOf10": 6.6,
+                "minimumPassRating": 7.5,
+                "verdict": "needs-work",
+                "comment": "A small iris rim remains visible and the raised lids catch a highlight in the installed closed pose.",
+                "scope": "Installed Roblox Studio Edit closed pose",
+                "offlinePreviewScore": 7.6,
+                "capture": {
+                  "file": "output/puglet-lowpoly-20261106/studio-verified-clear/closed-eyes.png",
+                  "sha256": "a04e3658dd0fa050b1478824d50bb2aeaac6815d29a26e06c6bf9f784448d57c"
+                },
+                "captureReceipt": {
+                  "file": "output/puglet-lowpoly-20261106/studio-verified-clear/verification.json",
+                  "sha256": "344f35c8480e660b3e6b3066e1aba05430752531b2bfa28e32334b53b4aa312d"
+                },
+                "wikiImage": "assets/animations/puglet/lowpoly-v2/installed-blink-closed.jpg"
+              },
+              "historicalRobloxImages": [
+                {
+                  "environment": "Studio Edit",
+                  "pose": "Idle",
+                  "currentVersion": true,
+                  "captureFormat": "JPEG",
+                  "wikiImage": "assets/animations/puglet/lowpoly-v2/installed-roblox.jpg",
+                  "sha256": "c46a4ca0f83c600bc5600a6697d1104767990972c43dfe0f7ec10a5d1304b3e8",
+                  "file": "output/puglet-lowpoly-20261106/studio-verified-clear/open-quarter.png",
+                  "verification": "output/puglet-lowpoly-20261106/studio-verified-clear/verification.json",
+                  "verificationSha256": "344f35c8480e660b3e6b3066e1aba05430752531b2bfa28e32334b53b4aa312d",
+                  "currentScope": "Current 3.15-stud Puglet in Farmland in Studio Edit.",
+                  "detailImages": [
+                    {
+                      "label": "Installed Blink, full closure",
+                      "wikiImage": "assets/animations/puglet/lowpoly-v2/installed-blink-closed.jpg",
+                      "sha256": "a04e3658dd0fa050b1478824d50bb2aeaac6815d29a26e06c6bf9f784448d57c"
+                    },
+                    {
+                      "label": "Installed Blink, reopened",
+                      "wikiImage": "assets/animations/puglet/lowpoly-v2/installed-blink-reopened.jpg",
+                      "sha256": "a28a26e6fb1dbaf18f89edff991d2aaa6aa50e0b5c6331cbcef70dd8c0669079"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ],
         "currentModel": {
-          "file": "creatures/2-clover-farm/puglet/puglet-6-animations2.fbx",
-          "sha256": "062a68055b66133765eec982e129252165c2171bcd4746b05397a679b2d34787"
+          "file": "creatures/2-clover-farm/puglet/puglet-10-curved-blink3.fbx",
+          "sha256": "903d944deb6c3efc32033549fbee587ae1acef68ac0034bb3e002d86a594572f"
         },
         "nativeMesh": {
-          "file": "assets/pets/puglet-lowpoly-v2-matte/native-mesh.json",
-          "sha256": "0879dc488011ca45b87363a43fb94a2eaee3d92aabcf030442d0e13b885b8ce2"
+          "file": "assets/pets/puglet-rodin-v3/native-mesh.json",
+          "sha256": "38b44bbf964b27d6e884fade629c211f884aeafe8874d9fb5810eb25f0093833"
         },
         "installation": {
-          "file": "output/puglet-lowpoly-20261106/matte-studio-apply.json",
-          "sha256": "416c9f7f3666592ed0ce910b9feb5a516cb652fad2d9607a07ac37336429cfe0"
+          "file": "output/puglet-hd-reimport-20261115/studio-final-readback.json",
+          "sha256": "726514cafa467b6b29e7ca7a8cb7a506d427702ed54a3263098911a80e25b2d5"
         },
-        "qualityNotice": "The current 3.15-stud Puglet has 2,028 triangles and a matte 1K colour map. The hind-hoof weights were fitted to the new geometry. Farmland eggs and earnings are retained. The new model awaits developer review. Installed Blink needs work at 6.6/10. A small iris rim remains visible and the raised lids catch a highlight in the installed closed pose. The separately shown source-rendered Blink scored 7.6/10.",
+        "qualityNotice": "Puglet's new model has 2,036 body triangles and a matte 1K colour map. It has four cloven hooves, two nostrils and an open tail curl. The new lids reuse fur from the body texture. Clover Farm eggs and existing stats are retained. The new model awaits developer review.",
         "replacementImport": {
-          "importNumber": 2,
-          "date": "2026-11-06",
+          "importNumber": 3,
+          "date": "2026-11-15",
           "installed": true,
           "status": "installed-verified-edit",
-          "model": "creatures/2-clover-farm/puglet/puglet-6-animations2.fbx",
-          "modelSha256": "062a68055b66133765eec982e129252165c2171bcd4746b05397a679b2d34787",
-          "mesh": "rbxassetid://140304901736314",
-          "animationRevision": "puglet-lowpoly-v2-retained-gaits-v1",
+          "model": "creatures/2-clover-farm/puglet/puglet-10-curved-blink3.fbx",
+          "modelSha256": "903d944deb6c3efc32033549fbee587ae1acef68ac0034bb3e002d86a594572f",
+          "mesh": "rbxassetid://75728715934270",
+          "animationRevision": "puglet-rodin-v3-curved-lids",
           "rigBones": 20,
-          "nativePayload": "assets/pets/puglet-lowpoly-v2-matte/native-mesh.json",
-          "nativePayloadSha256": "0879dc488011ca45b87363a43fb94a2eaee3d92aabcf030442d0e13b885b8ce2",
+          "nativePayload": "assets/pets/puglet-rodin-v3/native-mesh.json",
+          "nativePayloadSha256": "38b44bbf964b27d6e884fade629c211f884aeafe8874d9fb5810eb25f0093833",
           "robloxImage": {
-            "wikiImage": "assets/animations/puglet/wiki-snapshots-20261110-v10/snapshot.jpg",
-            "sha256": "b63375124d2a34c679845683ac7ae4ed42c1416b6fd03127ec0a8c34b9b5ba4c",
             "environment": "Studio Edit",
             "pose": "Idle",
-            "poseTimeSeconds": 1,
-            "captureFormat": "JPEG",
             "currentVersion": true,
+            "captureFormat": "PNG",
+            "wikiImage": "assets/animations/puglet/rodin-v3/installed-roblox.png",
+            "sha256": "7c3b81c625ad4cee3b1b604af02b9a80fc650110fed187172f4a57ff8bc8abba",
             "sizeBlendRevision": "dominant-baseline-then-quality-v10",
-            "nativePayloadSha256": "0879dc488011ca45b87363a43fb94a2eaee3d92aabcf030442d0e13b885b8ce2",
-            "modelSha256": "062a68055b66133765eec982e129252165c2171bcd4746b05397a679b2d34787",
-            "heightStuds": 3.7875102718315046,
-            "animationRevision": "puglet-lowpoly-v2-retained-gaits-v1",
-            "sourceCapture": {
-              "file": "screenshot/needs-review/wiki-creatures-2026-11-10/62dc4b522746/puglet/snapshot.jpg",
-              "sha256": "b63375124d2a34c679845683ac7ae4ed42c1416b6fd03127ec0a8c34b9b5ba4c"
-            },
-            "captureReceipt": {
-              "file": "output/wiki-refresh/20261110-creature-snapshots/captures/62dc4b522746/puglet/receipt.json",
-              "sha256": "2d5885720f85100e6ac1417cd71c873bd456c2270a2bc6ee168e92d14d9f7c62"
-            },
-            "modelSource": {
-              "file": "creatures\\2-clover-farm\\puglet\\puglet-6-animations2.fbx",
-              "sha256": "062a68055b66133765eec982e129252165c2171bcd4746b05397a679b2d34787"
-            },
-            "capturedAt": "2026-11-10T04:11:09.922355+00:00",
-            "detailImages": [],
-            "currentScope": "Native Studio Edit fixture using the current installed template in the Farm scene at its standard catalogue height. Live gameplay acceptance remains separate."
+            "file": "output/puglet-hd-reimport-20261115/studio-release/puglet-quarter.png",
+            "verification": "output/puglet-hd-reimport-20261115/studio-release/puglet-verification.json",
+            "verificationSha256": "25c57d06b6cd84ea96cbd5b23f6d3e35085f5b617c1985f198091d9e433d7151",
+            "currentScope": "Current Puglet on the Clover Farm path in Studio Edit.",
+            "detailImages": [
+              {
+                "label": "Installed Blink, full closure",
+                "wikiImage": "assets/animations/puglet/rodin-v3/installed-blink-closed.png",
+                "sha256": "977b3c92653247c052a508523df026b54f5ad4c056b1041925c1c7cbaccbaa6f"
+              },
+              {
+                "label": "Installed Blink, reopened",
+                "wikiImage": "assets/animations/puglet/rodin-v3/installed-blink-reopened.png",
+                "sha256": "589a2ee36719c4f3ea47aef052baf61f9409b1295946e4ac46cbee7fb0d7f45a"
+              }
+            ]
           },
           "animationBundle": {
-            "wikiFile": "assets/animations/puglet/lowpoly-v2/puglet-lowpoly-v2-animations-and-model.zip",
-            "sha256": "f7381503ea35d56a253acc8628f0fb399922474a0cb7683719a24809fcbf08b3",
+            "wikiFile": "assets/animations/puglet/rodin-v3/puglet-rodin-v3-model-and-animations.zip",
+            "sha256": "86b40352ac4efb23977aa15bcab0137a77370e54fe10d44dffd4f77d823f7788",
             "complete": true,
             "animations": [
               "Idle",
@@ -8256,58 +8535,32 @@
               "Blink"
             ]
           },
-          "allRequiredQualityAccepted": false,
+          "allRequiredQualityAccepted": true,
           "installedEvidence": {
-            "file": "output/puglet-lowpoly-20261106/matte-studio-apply.json",
-            "sha256": "416c9f7f3666592ed0ce910b9feb5a516cb652fad2d9607a07ac37336429cfe0"
+            "file": "output/puglet-hd-reimport-20261115/studio-final-readback.json",
+            "sha256": "726514cafa467b6b29e7ca7a8cb7a506d427702ed54a3263098911a80e25b2d5"
           },
-          "qualityNotice": "The current 3.15-stud Puglet has 2,028 triangles and a matte 1K colour map. The hind-hoof weights were fitted to the new geometry. Farmland eggs and earnings are retained. The new model awaits developer review. Installed Blink needs work at 6.6/10. A small iris rim remains visible and the raised lids catch a highlight in the installed closed pose. The separately shown source-rendered Blink scored 7.6/10.",
+          "qualityNotice": "Puglet's new model has 2,036 body triangles and a matte 1K colour map. It has four cloven hooves, two nostrils and an open tail curl. The new lids reuse fur from the body texture. Clover Farm eggs and existing stats are retained. The new model awaits developer review.",
           "currentExpressionMediaStatus": {
             "currentMediaAvailable": true
           },
           "nativeBlinkReview": {
-            "ratingOutOf10": 6.6,
+            "ratingOutOf10": 7.6,
             "minimumPassRating": 7.5,
-            "verdict": "needs-work",
-            "comment": "A small iris rim remains visible and the raised lids catch a highlight in the installed closed pose.",
+            "verdict": "good",
+            "comment": "The fur-textured lids close and reopen together. There are small flecks at half-closure in the Studio witness.",
             "scope": "Installed Roblox Studio Edit closed pose",
             "offlinePreviewScore": 7.6,
             "capture": {
-              "file": "output/puglet-lowpoly-20261106/studio-verified-clear/closed-eyes.png",
-              "sha256": "a04e3658dd0fa050b1478824d50bb2aeaac6815d29a26e06c6bf9f784448d57c"
+              "file": "output/puglet-hd-reimport-20261115/studio-release/puglet-closed.png",
+              "sha256": "977b3c92653247c052a508523df026b54f5ad4c056b1041925c1c7cbaccbaa6f"
             },
             "captureReceipt": {
-              "file": "output/puglet-lowpoly-20261106/studio-verified-clear/verification.json",
-              "sha256": "344f35c8480e660b3e6b3066e1aba05430752531b2bfa28e32334b53b4aa312d"
+              "file": "output/puglet-hd-reimport-20261115/studio-release/puglet-verification.json",
+              "sha256": "25c57d06b6cd84ea96cbd5b23f6d3e35085f5b617c1985f198091d9e433d7151"
             },
-            "wikiImage": "assets/animations/puglet/lowpoly-v2/installed-blink-closed.jpg"
-          },
-          "historicalRobloxImages": [
-            {
-              "environment": "Studio Edit",
-              "pose": "Idle",
-              "currentVersion": true,
-              "captureFormat": "JPEG",
-              "wikiImage": "assets/animations/puglet/lowpoly-v2/installed-roblox.jpg",
-              "sha256": "c46a4ca0f83c600bc5600a6697d1104767990972c43dfe0f7ec10a5d1304b3e8",
-              "file": "output/puglet-lowpoly-20261106/studio-verified-clear/open-quarter.png",
-              "verification": "output/puglet-lowpoly-20261106/studio-verified-clear/verification.json",
-              "verificationSha256": "344f35c8480e660b3e6b3066e1aba05430752531b2bfa28e32334b53b4aa312d",
-              "currentScope": "Current 3.15-stud Puglet in Farmland in Studio Edit.",
-              "detailImages": [
-                {
-                  "label": "Installed Blink, full closure",
-                  "wikiImage": "assets/animations/puglet/lowpoly-v2/installed-blink-closed.jpg",
-                  "sha256": "a04e3658dd0fa050b1478824d50bb2aeaac6815d29a26e06c6bf9f784448d57c"
-                },
-                {
-                  "label": "Installed Blink, reopened",
-                  "wikiImage": "assets/animations/puglet/lowpoly-v2/installed-blink-reopened.jpg",
-                  "sha256": "a28a26e6fb1dbaf18f89edff991d2aaa6aa50e0b5c6331cbcef70dd8c0669079"
-                }
-              ]
-            }
-          ]
+            "wikiImage": "assets/animations/puglet/rodin-v3/installed-blink-closed.png"
+          }
         },
         "realModelReady": true,
         "placeholderHatchling": false,
@@ -8367,20 +8620,20 @@
         }
       },
       "modelImport": {
-        "source": "creatures/2-clover-farm/puglet/puglet-initial2.fbx",
-        "sourceSha256": "d0ebc1aeeffb106194658ca816cd73bf5a33b97cb4df6b34fc3e009073c9f1ec",
-        "modified": "creatures/2-clover-farm/puglet/puglet-6-animations2.fbx",
-        "modifiedSha256": "062a68055b66133765eec982e129252165c2171bcd4746b05397a679b2d34787",
-        "meshAsset": 140304901736314,
-        "animationRevision": "puglet-lowpoly-v2-retained-gaits-v1",
-        "evidence": "output/puglet-lowpoly-20261106/matte-studio-apply.json"
+        "source": "creatures/2-clover-farm/puglet/puglet-initial3.fbx",
+        "sourceSha256": "0bf668f5fbfd5e502966beacda7b84625cdaced8dfa556fbd5efcd61e5867307",
+        "modified": "creatures/2-clover-farm/puglet/puglet-10-curved-blink3.fbx",
+        "modifiedSha256": "903d944deb6c3efc32033549fbee587ae1acef68ac0034bb3e002d86a594572f",
+        "meshAsset": 75728715934270,
+        "animationRevision": "puglet-rodin-v3-curved-lids",
+        "evidence": "output/puglet-hd-reimport-20261115/studio-final-readback.json"
       },
       "movementAnimation": {
-        "revision": "puglet-lowpoly-v2-retained-gaits-v1",
-        "model": "creatures/2-clover-farm/puglet/puglet-6-animations2.fbx",
-        "sha256": "062a68055b66133765eec982e129252165c2171bcd4746b05397a679b2d34787",
-        "source": "assets/pets/puglet-lowpoly-v2-matte",
-        "verification": "output/puglet-lowpoly-20261106/animation-contact-sheet.jpg",
+        "revision": "puglet-rodin-v3-curved-lids",
+        "model": "creatures/2-clover-farm/puglet/puglet-10-curved-blink3.fbx",
+        "sha256": "903d944deb6c3efc32033549fbee587ae1acef68ac0034bb3e002d86a594572f",
+        "source": "assets/pets/puglet-rodin-v3",
+        "verification": "output/puglet-hd-reimport-20261115/final-render/media/gait-contact-sheet.png",
         "gameplayTested": false
       },
       "hatchWorkSeconds": 120,
@@ -150336,7 +150589,7 @@
       "patrol": 6.130414209778867,
       "recovery": 7.0,
       "eggReturn": 17.5,
-      "image": "assets/guardian/backyard-labraduck-20261115.jpg",
+      "image": "assets/guardian/backyard-labraduck-bill-seam-20261115.jpg",
       "imageRegion": "backyard",
       "prototype": false,
       "selectedSpecies": null,

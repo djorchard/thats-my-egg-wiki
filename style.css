@@ -428,3 +428,14 @@ html[data-wiki-text=large] .wiki-reader table{font-size:15px}
 @media(prefers-reduced-motion:reduce){.wiki-reader *{scroll-behavior:auto!important;transition:none!important}}
 @media(max-width:680px){html{scroll-padding-top:136px}}
 @media(max-width:680px){.wiki-reader .wiki-header{height:128px;min-height:128px}.wiki-reader .brand .game-logo{width:110px;height:auto}.wiki-reader.wiki-nav-open .sidebar{top:128px;height:calc(100dvh - 128px)}.wiki-reader.wiki-nav-open .nav-scrim{top:128px}html{scroll-padding-top:148px}}
+
+.region-concept-art {
+  margin: 0 0 28px;
+  max-width: 760px;
+}
+
+.region-concept-art img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

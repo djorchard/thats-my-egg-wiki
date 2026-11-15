@@ -1,0 +1,6 @@
+.ui-doc-nav{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px}
+.ui-doc-nav a{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border:1px solid var(--line);border-radius:8px;background:var(--panel);font-size:14px}
+.ui-doc-nav a:hover{background:var(--row);color:var(--link)}
+.ui-doc-nav a[aria-current=page]{color:var(--link);border-color:var(--action);font-weight:700}
+.ui-reference-card details + details{margin-top:10px}
+#tile-tile-example{scroll-margin-top:160px}

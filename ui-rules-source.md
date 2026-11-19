@@ -3144,8 +3144,10 @@ Reuse inventory egg artwork and the Collection biome atlas with Fit scaling.
 
 Reserve the 120-percent overshoot inside safe viewport bounds, below the toolbar
 and active boost cards. Enter at 60 percent, reach 120 percent in 0.2 seconds,
-then settle to 100 percent in 0.1 seconds. Each announcement and its queue
-slot last 15 seconds. Fade and shrink to 60 percent in the final 0.3 seconds.
+then settle to 100 percent in 0.1 seconds. Each egg announcement lasts eight
+seconds and fades and shrinks to 60 percent in the final 0.3 seconds. Start
+the next queued card beneath it after six seconds, then move the remaining
+card to the top as the older card expires.
 The card has no input, close button, focus or Modal behavior.
 Popup, chat and sound share one queue. See WILD_EGG_ANNOUNCEMENTS.md.
 

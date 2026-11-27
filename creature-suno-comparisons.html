@@ -70,7 +70,7 @@
     <header class="intro">
       <h1>Creature sound comparisons</h1>
       <p>44 recorded picks. 40 other creatures have fresh auditions.</p>
-      <p>Choose up to two sounds per creature. Use Copy picks to share your choices for mixing.</p>
+      <p>Choose up to two sounds per creature. Use Copy picks to share your choices for mixing. Turn off Hide completed picks to add a second choice to a hidden creature.</p>
     </header>
     <div class="controls">
       <label>Find a creature <input type="search" id="creature-search" placeholder="Name or parent animal"></label>
@@ -219,7 +219,7 @@
         let count = 0;
         for (const {card, inputs} of creatures) {
           const choices = inputs.filter(input => input.checked);
-          card.dataset.picksComplete = String(choices.length === Math.min(maxPicks, inputs.length));
+          card.dataset.hasPick = String(choices.length > 0);
           for (const input of inputs) input.disabled = choices.length === maxPicks && !input.checked;
           card.querySelector('.clear-pick').hidden = !choices.length;
           if (choices.length) {
@@ -272,13 +272,13 @@
         for (const {section, cards} of sections) {
           for (const card of cards) {
             card.hidden = (ready.checked && card.dataset.ready !== 'true')
-              || (unpicked.checked && card.dataset.picksComplete === 'true')
+              || (unpicked.checked && card.dataset.hasPick === 'true')
               || !fold(card.dataset.search).includes(query);
             if (!card.hidden) matches++;
           }
           section.hidden = cards.every(card => card.hidden);
         }
-        empty.textContent = unpicked.checked ? 'No creatures need another pick with these filters.' : 'No creatures match your search.';
+        empty.textContent = unpicked.checked ? 'No unpicked creatures match your filters.' : 'No creatures match your search.';
         empty.hidden = matches > 0;
         if (activePreview?.closest('article').hidden) resetPlayer();
       }
